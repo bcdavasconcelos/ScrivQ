@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="1E8405F4-2C3C-4EEA-AE91-A30A669CBA56">
+    <Snapshot Date="2023-06-12 23:54:45 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>%%|label: fig-label
+%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details
+%%| fig-width: 5
+%%{init: {
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

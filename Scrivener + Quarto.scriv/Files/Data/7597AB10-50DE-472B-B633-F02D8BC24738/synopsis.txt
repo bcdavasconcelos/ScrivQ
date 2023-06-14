@@ -1,0 +1,3 @@
+Control the working directory for computations.
+	•	file: Use the directory of the file that is currently executing.
+	•	project: Use the root directory of the project.

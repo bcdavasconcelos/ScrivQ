@@ -1,0 +1,1 @@
+Turn on built-in citation processing. To use this feature, you will need to have a document containing citations and a source of bibliographic data: either an external bibliography file or a list of references in the document’s YAML metadata. You can optionally also include a csl citation style file. # CITE TOOLS: LEAVE EMPTY OR FALSE #

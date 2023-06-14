@@ -1,0 +1,1 @@
+The discussion category where new discussions will be created. It is recommended to use a category with the Announcements type so that new discussions can only be created by maintainers and giscus.

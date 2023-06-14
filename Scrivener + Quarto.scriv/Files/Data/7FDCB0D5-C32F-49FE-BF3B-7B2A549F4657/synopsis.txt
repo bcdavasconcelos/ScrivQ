@@ -1,0 +1,3 @@
+Sort items in the listing by these fields. The sort key is made up of a field name followed by a direction asc or desc.
+For example: date asc
+Use sort:false to use the unsorted original order of items.

@@ -1,0 +1,2 @@
+Specifies the coloring style to be used in highlighted source code.
+Instead of a STYLE name, a JSON file with extension .theme may be supplied. This will be parsed as a KDE syntax highlighting theme and (if valid) used as the highlighting style.

@@ -1,0 +1,3 @@
+Whether to include full or partial content in the feed.
+	•	full (default): Include the complete content of the document in the feed.
+	•	partial: Include only the first paragraph of the document in the feed.

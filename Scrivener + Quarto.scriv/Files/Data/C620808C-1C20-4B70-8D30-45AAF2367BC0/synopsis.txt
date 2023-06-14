@@ -1,0 +1,3 @@
+Enables hyper-linking of functions within code blocks to their online documentation.
+
+Code linking is currently implemented only for the knitr engine (via the downlit package).

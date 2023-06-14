@@ -1,0 +1,1 @@
+Navigate the browser automatically when outputs are updated (defaults to true)

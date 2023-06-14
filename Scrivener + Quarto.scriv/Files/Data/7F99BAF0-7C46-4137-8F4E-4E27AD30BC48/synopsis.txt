@@ -1,0 +1,1 @@
+The color used for links in the Table of Contents using color options allowed by xcolor, including the dvipsnames, svgnames, and x11names lists.

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="A452AFE9-CA87-46CB-85BA-64F5B7BE4EF7">
+    <Snapshot Date="2023-06-11 21:50:38 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>$if(natbib)$
+$if(bibliography)$
+$if(biblio-title)$
+$if(has-chapters)$
+\renewcommand\bibname{$biblio-title$}
+$else$
+\renewcommand\refname{$biblio-title$}
+$endif$
+$endif$
+$if(beamer)$
+\begin{frame}[allowframebreaks]{$biblio-title$}
+  \bibliographytrue
+$endif$
+  \bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
+$if(beamer)$
+\end{frame}
+$endif$
+
+$endif$
+$endif$
+$if(biblatex)$
+$if(beamer)$
+\begin{frame}[allowframebreaks]{$biblio-title$}
+  \bibliographytrue
+  \printbibliography[heading=none]
+\end{frame}
+$else$
+\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+$endif$
+
+$endif$</Text>
+    </Snapshot>
+</SnapshotIndexes>

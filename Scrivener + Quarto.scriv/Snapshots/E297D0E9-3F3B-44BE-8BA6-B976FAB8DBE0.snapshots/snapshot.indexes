@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="E297D0E9-3F3B-44BE-8BA6-B976FAB8DBE0">
+    <Snapshot Date="2023-06-12 23:54:45 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>#| label: fig-label
+#| fig-cap: Place your figure caption here.
+
+# Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

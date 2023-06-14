@@ -1,0 +1,1 @@
+Include a code tools menu (for hiding and showing code). Use true or false to enable or disable the standard code tools menu. Specify sub-properties source, toggle, and caption to customize the behavior and appearnce of code tools.

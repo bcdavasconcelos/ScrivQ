@@ -1,0 +1,1 @@
+The path to the main image on the about page. If not specified, the image provided for the document itself will be used.

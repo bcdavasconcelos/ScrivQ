@@ -1,0 +1,1 @@
+Page footer. Text content or page footer definition.

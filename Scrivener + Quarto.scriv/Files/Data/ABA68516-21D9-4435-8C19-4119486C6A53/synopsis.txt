@@ -1,0 +1,1 @@
+The description of this feed. If not specified, the description for the page the listing appears on will be used, otherwise the description of the site will be used if specified in the Quarto project.

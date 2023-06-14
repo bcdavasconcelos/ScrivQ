@@ -1,0 +1,3 @@
+Controls whether links to other rendered formats are displayed in HTML output.
+
+Pass false to disable the display of format lengths or pass a list of format names for which you’d like links to be shown.

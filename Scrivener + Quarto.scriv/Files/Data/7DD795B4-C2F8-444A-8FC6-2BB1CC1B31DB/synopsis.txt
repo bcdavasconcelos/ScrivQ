@@ -1,0 +1,1 @@
+In grid type listings, whether to display a border around the item card. Defaults to true.

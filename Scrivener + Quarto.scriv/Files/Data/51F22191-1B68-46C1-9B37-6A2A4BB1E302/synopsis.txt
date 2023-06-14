@@ -1,0 +1,1 @@
+Location for table of contents (body, left, or right (default)).

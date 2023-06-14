@@ -1,0 +1,1 @@
+Site search (true or false to enable/disable, or provide custom Search Options

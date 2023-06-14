@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="5F509DD3-7CF1-4582-BC6A-701929F2CECD">
+    <Snapshot Date="2023-06-11 21:50:38 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>$if(title)$
+\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
+$endif$
+$if(subtitle)$
+$if(beamer)$
+$else$
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+$endif$
+\subtitle{$subtitle$}
+$endif$
+\author{$for(authors)$$it.name.literal$$sep$ \and $endfor$}
+\date{$date$}
+$if(beamer)$
+$if(institute)$
+\institute{$for(institute)$$institute$$sep$ \and $endfor$}
+$endif$
+$if(titlegraphic)$
+\titlegraphic{\includegraphics{$titlegraphic$}}
+$endif$
+$if(logo)$
+\logo{\includegraphics{$logo$}}
+$endif$
+$endif$</Text>
+    </Snapshot>
+</SnapshotIndexes>

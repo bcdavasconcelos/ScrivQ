@@ -1,0 +1,1 @@
+Print a list of figures in the document.
