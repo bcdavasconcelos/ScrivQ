@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-16 12:31:51 -0300" ModID="A439E36A-6E71-480A-A57B-D53BDF750C14">
+<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-16 13:39:53 -0300" ModID="6C8A33A1-55E7-486E-A30F-74E7B6220EBF">
     <Binder>
         <BinderItem UUID="C2B7CD89-AB5C-42DC-B877-91BB443E413C" Type="Text" Created="2023-05-18 12:16:02 -0300" Modified="2023-05-23 11:49:13 -0300">
             <Title>Files</Title>
@@ -22735,7 +22735,7 @@ html-q-tags</Value>
                         <IconFileName>Text editing (Fig photo).png</IconFileName>
                     </MetaData>
                     <MediaSettings>
-                        <ImageScaleFactor>4.71</ImageScaleFactor>
+                        <ImageScaleFactor>0.72</ImageScaleFactor>
                         <ImageRotation>None</ImageRotation>
                         <ImageScalesProportionally>No</ImageScalesProportionally>
                     </MediaSettings>
