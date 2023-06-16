@@ -141,20 +141,20 @@ begin
     }
     # We now need to remove all #{label} from figure captions
     text.gsub!(figID, '![\k<cap>][\k<ref>]')
-    text.gsub!(/\[\^fn(\d+)/, '[^\1') if text =~ /\[\^fn\d+/ # Remove the fn prefix from footnotes
-    text = inline_fn_pandoc("#{text}\n\n") if text =~ /\[\^\d+\]:/ # Convert footnotes to pandoc style
 
     # New section: Extract and create new files from main file
     # Pattern: <!-- begin_file: "path/to/file.ext" -->`file_content`<!-- end_file -->\n
     if text =~ /<!-- begin_file: "([^"]+)" -->/ # If there are new files to be added
       puts "--> New files detected!"
 
+      text.gsub!(/\[\^fn(\d+)/, '[^\1') if text =~ /\[\^fn\d+/ # Remove the fn prefix from footnotes
+      text = inline_fn_pandoc("#{text}\n\n") if text =~ /\[\^\d+\]:/ # Convert footnotes to pandoc style
       new_files = [] # Array to store new files
       text.scan(/<!-- begin_file: "([^"]+)" -->/) do |match|
         # puts "----> Found new file: #{match[0]}"
         new_files << match[0]
       end
-      
+
       created_files = [] # Array to store created files
       new_files.each do |file|
         begin
