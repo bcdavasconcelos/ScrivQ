@@ -15,4 +15,18 @@ flowchart LR
   C --&gt; E[Result two]
 </Text>
     </Snapshot>
+    <Snapshot Date="2023-06-14 19:55:48 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</Text>
+    </Snapshot>
 </SnapshotIndexes>

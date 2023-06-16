@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="B8AC60FF-5F29-4E90-9FB7-623203943513">
+    <Snapshot Date="2023-06-12 23:54:45 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>%%|label: fig-label
+%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details
+%%| fig-width: 5
+%%{init: {
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2023-06-15 19:50:09 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>%%| column: page
+%%| echo: true
+
+graph TD
+    Subs --&gt;Mat:::I
+    Subs --&gt;|τόδε τι|For:::D
+    Subs --&gt;|τόδε τι|Com:::D2
+    Mat --&gt; Pot:::I
+    For --&gt; Ent:::D
+    Ent --&gt; Ent1:::D
+    Ent --&gt; Ent2:::D
+
+
+    Subs(οὐσία)
+    Mat(ὕλη)
+    Pot(δύναμις)
+    For(μορφὴ καὶ εἶδος)
+    Ent(ἐντελέχεια)
+    Ent1("1:ὡς ἐπιστήμη")
+    Ent2("2:ὡς θεωρεῖν")
+    Com(τὸ ἐκ τούτων)
+
+    Subs(Substância)
+    Mat(Matéria)
+    Pot(Potência)
+    For(Forma)
+    Ent(Atualidade)
+    Ent1(fim latente, mas não atuando)
+    Ent2(fim atuando)
+    Com(Composto)
+
+
+    classDef default fill:none
+    classDef D fill:#a0e85b
+    classDef D2 fill:#fb9643
+    classDef I fill:#fb6961
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="33F25F3D-3A2B-4734-8F43-443A481B150E">
+    <Snapshot Date="2023-06-15 19:50:09 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>\newfontfamily{\greekfont}{Alegreya} # LANG Support: Ancient Polytonic Greek
+        \newcommand{\grc}[1]{\foreignlanguage{greek}{\selectfont\greekfont #1}}
+        \newenvironment{greek}{\begingroup
+        \selectlanguage{greek}\selectfont\greekfont\normalsize}{\endgroup}</Text>
+    </Snapshot>
+</SnapshotIndexes>

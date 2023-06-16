@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="94F09F80-AEF1-4ED4-AE46-4F24B1429D3C">
+    <Snapshot Date="2023-06-15 19:50:09 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>\usepackage{newunicodechar}
+        \newfontfamily\brill{Brill}
+        \newunicodechar{ϝ}{{\brill ϝ}}
+        \newunicodechar{̯}{{\brill ̯}}</Text>
+    </Snapshot>
+</SnapshotIndexes>

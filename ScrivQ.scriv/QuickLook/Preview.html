@@ -97,7 +97,7 @@
 <p class="topLevelItemTitle">Compiler script details</p>
 <p class="itemText">There is a small ruby script that deals with the reformatting from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format:</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…</p>
 </li>
@@ -112,8 +112,8 @@
 <p class="itemText"><p class="p1"><span class="s1">Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te? <span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-body} "Ulysses tripping." We add the cross-referencing label ...</p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-body} "Ulysses tripping." We add the cross-referencing label t...</p>
 </li>
 <li>
 <p class="topLevelItemTitle">Methods</p>
@@ -210,8 +210,7 @@
 </li>
 <li>
 <p class="itemTitle">Mermaid Figure</p>
-<p class="itemText">%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid]; The plot represents some sort of graph…</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">%%{init: {</span></p></p>
+<p class="itemText">%%{init: {</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>"theme": "forest",</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>"themeCSS": ".extension { fill: white !important; };"</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">}}%%</span></p></p>
@@ -257,8 +256,9 @@
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">:::{.column-page}</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-elespan} This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a .column-page class, for Quarto's layout for extend-to-page-width....</p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-elespan} This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a .column-page class, for Quarto's layout for extend-to-page-width.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">...</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -353,10 +353,10 @@
 <p class="topLevelItemTitle">Discussion</p>
 <p class="itemText">Lørem ipsum dolør sit amet [@siegel2015], eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod siegel2015. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te? <span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">{#fig-alignright fig-align="right"} This should be right-aligned if there is space…</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ...</p>
+<p class="itemText"><p class="p1"><span class="s1">Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio u...</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -555,19 +555,47 @@
 <li>
 <p class="itemTextStart">Belive it or not, Scrivener can be an interesting place to keep parts of your code. We can use the document bookmarks to leave behind an array of possibilities in case we need to revise something. We can easily copy and paste code stored on Quarto's Github repository to compare using Scrivener's superior text matching tool! (My favorite comparison tool is placing the text in different documents and using “matching text” in the Bookmark tab of the right-side inspector in Scrivener.)</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-%auto...</p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-%aut...</p>
 </li>
 <li>
 <p class="itemTextStart"></span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">We can also create interesting possibilities to customize and further control the conversion process, by including in our project the default Pandoc Latex Templates. Customize any line of the whole code. Or not, maybe just leave it there and take a look every once in a while at what is going on at the Quarto repository. The template will work either way.<span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref%} Students finishing their MDs or PhDs will certainly appreaciate the possibility of adding your own latex customizations, w...</p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref%} Students finishing their MDs or PhDs will certainly appreaciate the possibility of adding your own latex customizations, ...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Issues with performance</p>
+<p class="itemText">If you are having problems with performance, then you should try to delete the custom icons we are using. I recommend deleting all to see if that makes a difference or not on how Scrivener is behaving.</p>
+</li>
+<li>
+<p class="itemTitle">How to delete the custom icons</p>
+<p class="itemText">Right click on any Binder item. Change Icon &gt; Manage Custom Icons...</p>
+</li>
+<li>
+<p class="itemTitle">Useful Packages</p>
+<p class="itemText">\schema{</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>\schemabox{Useful Packages}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">}{</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>\schemabox{Schemata is great\\</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Really over the top}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">}</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Schemata can produce a medieval-like schema for your arguments.</p>
+</li>
+<li>
+<p class="itemTitle">Other than this, I don't know many</p>
 </li>
 </ul>
 </ul>
-<hr class="afterText"/>
+<hr class="afterTitle"/>
 
 <li>
 <p class="topLevelItemTitle">Primary Sources</p>

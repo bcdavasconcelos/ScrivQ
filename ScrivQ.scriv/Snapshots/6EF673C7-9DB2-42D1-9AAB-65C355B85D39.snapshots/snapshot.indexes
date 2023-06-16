@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="6EF673C7-9DB2-42D1-9AAB-65C355B85D39">
+    <Snapshot Date="2023-06-15 19:53:34 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>//| echo: true
+//| fig-cap: Figure caption
+
+digraph finite_state_machine {
+	Fontname="Avenir,Helvetica,sans-serif"
+	node [fontname="Avenir,Helvetica,sans-serif"]
+	edge [fontname="Avenir,Helvetica,sans-serif"]
+	rankdir=LR;
+	node [shape = doublecircle]; 0 3 4 8;
+	node [shape = circle];
+	0 -&gt; 2 [label = "SS(B)"];
+	0 -&gt; 1 [label = "SS(S)"];
+	1 -&gt; 3 [label = "S($end)"];
+	2 -&gt; 6 [label = "SS(b)"];
+	2 -&gt; 5 [label = "SS(a)"];
+	2 -&gt; 4 [label = "S(A)"];
+	5 -&gt; 7 [label = "S(b)"];
+	5 -&gt; 5 [label = "S(a)"];
+	6 -&gt; 6 [label = "S(b)"];
+	6 -&gt; 5 [label = "S(a)"];
+	7 -&gt; 8 [label = "S(b)"];
+	7 -&gt; 5 [label = "S(a)"];
+	8 -&gt; 6 [label = "S(b)"];
+	8 -&gt; 5 [label = "S(a)"];
+}
+</Text>
+    </Snapshot>
+</SnapshotIndexes>
