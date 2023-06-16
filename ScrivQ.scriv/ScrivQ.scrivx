@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-16 13:39:53 -0300" ModID="6C8A33A1-55E7-486E-A30F-74E7B6220EBF">
+<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-16 15:31:41 -0300" ModID="C8BEC39A-C088-425E-846D-83542929574E">
     <Binder>
         <BinderItem UUID="C2B7CD89-AB5C-42DC-B877-91BB443E413C" Type="Text" Created="2023-05-18 12:16:02 -0300" Modified="2023-05-23 11:49:13 -0300">
             <Title>Files</Title>
@@ -21597,16 +21597,16 @@ html-q-tags</Value>
                         <TextSelection>849,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-11 18:32:30 -0300">
+                <BinderItem UUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 15:31:41 -0300">
                     <Title>Introduction</Title>
                     <MetaData>
-                        <SectionType>3F514CCD-B716-4FD0-8ACC-F1F2072B9F65</SectionType>
+                        <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
                         <StatusID>4</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <IconFileName>Science and technology (rocket).png</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>711,0</TextSelection>
+                        <TextSelection>431,0</TextSelection>
                     </TextSettings>
                     <Bookmarks>
                         <Bookmark BinderUUID="6B1ADF81-FF2E-4A3F-AD78-8BF49DC26796"/>
@@ -21621,7 +21621,7 @@ html-q-tags</Value>
                         <IconFileName>Science and technology (test-tube).png</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>902,66</TextSelection>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <CorkboardAndOutliner>
                         <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
@@ -22735,7 +22735,7 @@ html-q-tags</Value>
                         <IconFileName>Text editing (Fig photo).png</IconFileName>
                     </MetaData>
                     <MediaSettings>
-                        <ImageScaleFactor>0.72</ImageScaleFactor>
+                        <ImageScaleFactor>0.71</ImageScaleFactor>
                         <ImageRotation>None</ImageRotation>
                         <ImageScalesProportionally>No</ImageScalesProportionally>
                     </MediaSettings>
@@ -23078,7 +23078,7 @@ html-q-tags</Value>
                     <Title>Column</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
-                        <NotesTextSelection>0,307</NotesTextSelection>
+                        <NotesTextSelection>133,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
@@ -24320,7 +24320,7 @@ html-q-tags</Value>
                                     <MetaData>
                                         <SectionType>F613650E-1CDE-409A-A972-431F7E206746</SectionType>
                                         <StatusID>5</StatusID>
-                                        <NotesTextSelection>0,71</NotesTextSelection>
+                                        <NotesTextSelection>71,0</NotesTextSelection>
                                         <IconFileName>Figures and Graphs</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
