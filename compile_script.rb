@@ -69,9 +69,6 @@ def inline_fn_mmd(text)
   inline_fn(text, :mmd)
 end
 
-
-
-
 def makePath() # this method augments our environment path
   home = ENV['HOME'] + '/'
   envpath = ''
