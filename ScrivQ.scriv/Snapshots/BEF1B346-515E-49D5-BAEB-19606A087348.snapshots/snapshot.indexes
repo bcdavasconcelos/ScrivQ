@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="BEF1B346-515E-49D5-BAEB-19606A087348">
-    <Snapshot Date="2023-06-11 16:00:52 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>New Styles provide support for the cite field Lua Filter, which can be used to cite arbitrary fields of the references.
-
-The works of AristOp were first edited by AristOp in AristOp.  
-
-The works of AristOp were first edited by AristOp in AristOp.  
-
-Later, the DA (DA) was edited by DABiehl1896 in DABiehl1896 (reprinted in DATheiler's DATheiler translation)
-
-Later, the DA was edited by DABiehl1896 in DABiehl1896 (reprinted in DATheiler's DATheiler translation)
-
-You can set link-fields to false to avoid undesired linking when citing specific fields.</Text>
-    </Snapshot>
     <Snapshot Date="2023-06-11 21:50:38 -0300">
         <Title>Untitled (Save)</Title>
         <Text>New Styles provide support for the cite field Lua Filter, which can be used to cite arbitrary fields of the references.

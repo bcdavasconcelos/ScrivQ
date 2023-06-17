@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="AFC53E11-A4E3-467C-AF11-CB6097D1EC71">
-    <Snapshot Date="2023-06-11 16:00:52 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>DOI
-Block
-Block Quote
-Body
-Callout Caution
-Callout Important
-Callout Note
-Callout Tip
-Callout Warning
-Caption
-Code Block
-Column Page
-Comment
-Crossref Conjecture
-Crossref Corollary
-Crossref Definition
-Crossref Example
-Crossref Exercise
-Crossref Label
-Crossref Lemma
-Crossref Proposition
-Crossref Theorem
-Dot Block
-Generic Code
-Heading 1
-Heading 2 
-Header 3
-List
-Marginalia
-Maths Block
-Mermaid Block
-Meta-data
-Python Block
-R Block
-Raw HTML
-Raw LaTeX
-Ruby Code
-Table Caption
-Table Text</Text>
-    </Snapshot>
     <Snapshot Date="2023-06-11 22:10:32 -0300">
         <Title>Untitled (Save)</Title>
         <Text>DOI

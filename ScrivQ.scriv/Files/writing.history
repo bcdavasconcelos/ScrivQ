@@ -54,5 +54,6 @@
     <Day dwc="142" dcc="351" owc="2006" occ="18780">2023-06-11</Day>
     <Day dwc="6" dcc="38" owc="3753" occ="44637">2023-06-12</Day>
     <Day dwc="-18" dcc="-119" dtwc="4710" owc="8" occ="71" dtcc="30456">2023-06-14</Day>
-    <Day dwc="63" dcc="376" owc="375" occ="2903">2023-06-15</Day>
+    <Day dwc="63" dcc="376" dtwc="4761" owc="375" occ="2903" dtcc="30737">2023-06-15</Day>
+    <Day dwc="-4" dcc="-59" owc="31" occ="188">2023-06-16</Day>
 </WritingHistory>

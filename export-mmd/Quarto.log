@@ -1,0 +1,197 @@
+--> Input Filename: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.md
+--> Modified path: /Users/bcdav/.rbenv/shims:/Users/bcdav/.pyenv/shims:/usr/local/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/bcdav/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+--> Crossref figure details: Label={#fig-scriv146 .column-page}  | "*What a trip!*" - said Ulysses as he sailed by the sirens. We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block! | Ulysses1
+--> Crossref figure details: Label={#fig-castle}  | Elephant castle. | Elephant2
+--> Crossref figure details: Label={#fig-trunk}  | Angry elephant with big trunk. | Elephant3
+--> Crossref figure details: Label={#fig-scriv159 .column-page   }  |  This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details... | Ulysses1-1
+--> Crossref figure details: Label={#fig-elespan}  | This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a `.column-page` class, for Quarto's layout for extend-to-page-width. | Elephant1
+--> Crossref figure details: Label={#fig-scriv162    }  |  This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format. | Elephant3-1
+--> Crossref figure details: Label={#fig-castle2}  | Elephant. | Elephant2-1
+--> Crossref figure details: Label={#fig-trunk2}  | Angry elephant with big trunk. | Elephant3-2
+--> Crossref figure details: Label={#fig-alignright fig-align="right"}  | This should be right-aligned if there is space... | Ulysses1-2
+--> Crossref figure details: Label={#fig-crossref}  | The new layout makes it easier editing parameters without disturbing YAML's sensitive white space rules. | yaml
+--> Crossref figure details: Label={#fig-scriv196}  | Revising code in Scrivener can be just as pleasant | scrivenerwithcode
+--> Crossref figure details: Label={#fig-scriv197 .column-page}  | Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body. | pandocquartolatextemplate
+--> New files detected!
+--> 4 notes replaced.
+----> Error: File _extensions/bcdavasconcelos/templates/before-bib.tex not found!
+----> Error: File _extensions/bcdavasconcelos/templates/latex.template not found!
+----> Error: File _extensions/bcdavasconcelos/templates/tightlist.tex not found!
+----> Error: File index.md not found!
+--> Created files: _extensions/bcdavasconcelos/citetools/_extension.yaml, _extensions/bcdavasconcelos/citetools/citation-backlinks.lua, _extensions/bcdavasconcelos/citetools/citefield.lua, _extensions/bcdavasconcelos/citetools/citeproc.lua, _extensions/bcdavasconcelos/citetools/multiple-bibliographies.lua, _extensions/csl/abnt-phi.csl, _extensions/bcdavasconcelos/csl/chicago.csl, _extensions/bcdavasconcelos/templates/doc-class.tex, _extensions/bcdavasconcelos/templates/after-body.tex, _extensions/bcdavasconcelos/templates/before-body.tex, _extensions/bcdavasconcelos/templates/biblio.tex, _extensions/bcdavasconcelos/templates/citations.tex, _extensions/bcdavasconcelos/templates/graphics.tex, _extensions/bcdavasconcelos/templates/pandoc.tex, _extensions/bcdavasconcelos/templates/tables.tex, _extensions/bcdavasconcelos/templates/template.tex, _extensions/bcdavasconcelos/templates/title.tex, _extensions/bcdavasconcelos/templates/toc.tex, _quarto.yml, refs/primary-sources.yml, refs/secondary-sources.yml, refs/workflow.bib
+--> Modified File with fixed cross-references: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd
+--> Parsing took: 0.019032s
+
+--> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd" --to pdf
+[31m
+
+processing file: export.qmd
+[39m  |                                                            |                                                    |   0%  |                                                            |....                                                |   8%                    |                                                            |........                                            |  15% (fig-scriv151)     |                                                            |............                                        |  23%                    |                                                            |................                                    |  31% (unnamed-chunk-2)  |                                                            |....................                                |  38%                    |                                                            |........................                            |  46% (fig-scriv154)     |                                                            |............................                        |  54%                    |                                                            |................................                    |  62% (fig-scriv155)     |                                                            |....................................                |  69%                    |                                                            |........................................            |  77% (unnamed-chunk-5)  |                                                            |............................................        |  85%                    |                                                            |................................................    |  92% (unnamed-chunk-6)  |                                                            |....................................................| 100%                                                                                                                              
+[31moutput file: export.knit.md
+
+[39m[1mpandoc [22m
+  to: latex
+  output-file: export.tex
+  standalone: true
+  number-sections: true
+  pdf-engine: lualatex
+  variables:
+    graphics: true
+    tables: true
+    secnumdepth: 3
+  default-image-extension: pdf
+  citeproc: false
+  verbosity: ERROR
+  toc: true
+  toc-depth: 3
+  top-level-division: chapter
+  
+[1mmetadata[22m
+  block-headings: true
+  website:
+    site-path: _site/
+    reader-mode: true
+    search:
+      location: navbar
+      type: textbox
+    navbar:
+      left:
+        - icon: github
+      right:
+        - icon: github
+    sidebar:
+      search: true
+      tools:
+        - icon: github
+      footer: Scrivener + Quarto
+    page-navigation: true
+    back-to-top-navigation: true
+  author: iSocrates
+  title: Scrivener + Quarto
+  subtitle: |
+    A Compiler Workflow...
+  date: 2023-06
+  subject: |
+    Workflow
+  lang: en-GB
+  keywords:
+    - Scrivener
+    - Quarto
+    - Academic
+  university: Open Source University
+  institute: Open Source University
+  city: Global South
+  researcharea: |
+    Philosophy
+  description: |
+    A complete academic template and workflow
+  crossref:
+    labels: roman I
+    ref-hyperlink: true
+    chapters: false
+    title-delim: '---'
+    eq-labels: alpha A
+    fig-labels: arabic
+    lst-labels: arabic
+    sec-labels: arabic
+    subref-labels: alpha a
+    tbl-labels: arabic
+    exm-labels: roman I
+  link-fields: false
+  link-citations: true
+  link-bibliography: true
+  csl: |
+    _extensions/csl/abnt-phi.csl
+  notes-after-punctuation: true
+  verbose: false
+  validate-yaml: false
+  bibliography_scriv200: |
+    refs/primary-sources.yml
+  bibliography_scriv201: |
+    refs/secondary-sources.yml
+  bibliography_scriv202: |
+    refs/workflow.bib
+  papersize: a4
+  documentclass: scrbook
+  classoption:
+    - numbers=noenddot
+    - titlepage
+    - toclink=all
+    - toc=bibliography
+  cap-location: bottom
+  pagestyle: headings
+  hyperrefoptions:
+    - pdfstartview=FitR
+    - pdfpagemode=UseOutlines
+    - breaklinks=true
+    - pageanchor=true
+    - linktoc=all
+    - hypertexnames=true
+    - hyperfootnotes=false
+    - bookmarksnumbered
+    - bookmarksopen=false
+  header-includes:
+    - |
+      \newfontfamily{\greekfont}{Alegreya}
+        \newcommand{\grc}[1]{\foreignlanguage{greek}{\selectfont\greekfont #1}}
+        \newenvironment{greek}{\begingroup
+        \selectlanguage{greek}\selectfont\greekfont\normalsize}{\endgroup}
+      \usepackage{setspace}
+      \usepackage{etoolbox}
+      \usepackage{metalogo}
+      \newfontfamily{\themarginfont}{Snell Round Hand}
+      \usepackage{newunicodechar}
+        \newfontfamily\brill{Brill}
+        \newunicodechar{ϝ}{{\brill ϝ}}
+        \newunicodechar{̯}{{\brill ̯}}
+      \AtBeginEnvironment{table}{\singlespacing\small}
+      \AtBeginEnvironment{longtable}{\singlespacing\small}
+      \AtBeginEnvironment{quote}{\onehalfspacing\small}\renewenvironment{quote}{\list{}{\leftmargin4cm\rightmargin0cm}\item\relax}{\endlist}
+      \usepackage[font=small, labelfont=it]{caption}
+      \newcommand\pagelabel{\phantomsection\label}
+      \renewcommand\pagemark{{\hyperlink{chapter.\the\numexpr\value{chapter}-1\relax}{\guillemotleft} \usekomafont{pagenumber}\thepage\ \hyperlink{chapter.\the\numexpr\value{chapter}+1\relax}{\guillemotright}}}
+              \let\hypercontentsline=\contentsline
+        \renewcommand{\contentsline}[4]{\hypertarget{toc.#4}{}\hypercontentsline{#1}{#2}{#3}{#4}}
+        \raggedbottom
+  babel-lang: brazilian
+  babel-otherlangs:
+    - english
+    - ancientgreek
+    - sanskrit
+  toc-title: Sumário
+  lof: true
+  lot: true
+  number-depth: 3
+  fontsize: 12pt
+  mainfont: Alegreya
+  mainfontoptions:
+    - Numbers=Proportional
+    - Numbers=Lowercase
+  sansfont: Alegreya Sans
+  sansfontoptions:
+    - Numbers=Proportional
+    - Numbers=OldStyle
+  monofont: Code New Roman
+  monofontoptions:
+    - Scale=MatchLowercase
+  appendix-style: default
+  float: true
+  csquotes: true
+  
+[1mrunning lualatex - 1[22m
+  This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
+   restricted system commands enabled.
+  
+[1mrunning lualatex - 2[22m
+  This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
+   restricted system commands enabled.
+  
+[1mrunning lualatex - 3[22m
+  This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
+   restricted system commands enabled.
+  
+
+Output created: export.pdf
+
+waiting for the process to end
+process finished in time

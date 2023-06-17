@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="185EE090-0171-43C1-AF8F-E47D6194AD3D">
-    <Snapshot Date="2023-06-11 18:17:29 -0300">
+    <Snapshot Date="2023-06-15 14:07:02 -0300">
         <Title>Untitled (Save)</Title>
-        <Text>By Bernardo Vasconcelos (see this thread)
+        <Text>By Bernardo Vasconcelos (see this thread, and this thread)
 
 This template descends from Ian's excellent Quarto template for Scrivener. 
 
 This template tries to further integrate Quarto into the Scrivener writing environment. It includes new Section Types, Paragraph Styles, Character Styles, Custom Meta Fields, YAML Parameters for Quarto, new icons and more.* If you already have Quarto and R working installations, it introduces zero new dependencies and you should be able to compile it right away. Please, go ahead and try it. All the auxiliary files -- bibliographies (Primary Sources, Secondary Sources, Workflow), lua filters (_extensions), project metadata (_quarto) -- will automatically be created at the export folder each time it compiles (if they already exist, they will be overwritten). The only external dependencies, therefore, are Quarto and R. 
-The template's first notable difference is the way the YAML Front matter is written and the size it has. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for each YAML parameter with the idea of having all the options properly setup and available to be included or excluded from compiling by simply ticking a box. The YAML structure is automatically (WIP) formed by using the correct Section Type from whence the sub-items will inherit their own type (the digit between parenthesis next to the Section Type name indicates the number of empty spaces used as prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the ID field and the value usually from the Value Custom Metadata Field. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called Theorem Title instead of the less instructive thm-title that must be in the ID field. 
+The template's first notable difference is the way the YAML Front matter is written and the size it is. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for each YAML parameter with the idea of having all the options properly set up and available to be included or excluded from compiling by simply ticking a box. The YAML structure is automatically (WIP) formed by using the correct Section Type from whence the sub-items will inherit their own type (the digit between parenthesis next to the Section Type name indicates the number of empty spaces used as a prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the ID field and the value usually from the Text or the Value Custom Metadata Field. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called Theorem Title instead of the less instructive thm-title that must be in the ID field. 
 
 The YAML item key comes from the ID field.
 
@@ -19,11 +19,25 @@ I included nearly every option for Quarto Books and Websites, totaling 619 param
 </Text>
         <Comments>See https://www.stockio.com.</Comments>
     </Snapshot>
-    <Snapshot Date="2023-06-11 16:00:52 -0300">
+    <Snapshot Date="2023-06-16 16:12:35 -0300">
         <Title>Untitled (Save)</Title>
-        <Text>By Bernardo Vasconcelos (see this thread)
+        <Text>
+By Bernardo Vasconcelos (see this thread, and this thread)
 
-This template descends from Ian's excellent Quarto template for Scrivener. </Text>
+This template descends from Ian's excellent Quarto template for Scrivener. 
+
+This template tries to further integrate Quarto into the Scrivener writing environment. It includes new Section Types, Paragraph Styles, Character Styles, Custom Meta Fields, YAML Parameters for Quarto, new icons and more.* If you already have Quarto and R working installations, it introduces zero new dependencies and you should be able to compile it right away. Please, go ahead and try it. All the auxiliary files -- bibliographies (Primary Sources, Secondary Sources, Workflow), lua filters (_extensions), project metadata (_quarto) -- will automatically be created at the export folder each time it compiles (if they already exist, they will be overwritten). The only external dependencies, therefore, are Quarto and R. 
+The template's first notable difference is the way the YAML Front matter is written and the size it is. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for each YAML parameter with the idea of having all the options properly set up and available to be included or excluded from compiling by simply ticking a box. The YAML structure is automatically (WIP) formed by using the correct Section Type from whence the sub-items will inherit their own type (the digit between parenthesis next to the Section Type name indicates the number of empty spaces used as a prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the ID field and the value usually from the Text or the Value Custom Metadata Field. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called Theorem Title instead of the less instructive thm-title that must be in the ID field. 
+
+The YAML item key comes from the ID field.
+
+I included nearly every option for Quarto Books and Websites, totaling 619 parameters, each one including relevant information, such as the available options, and the bookmarks to the official documentation (under Document Bookmarks). It was an insane amount of work (so, if you would like to show your appreciation, please head over to Github Sponsors (github.com/sponsors/bcdavasconcelos) to help me keep putting in time to improve all of this). Naturally, I have not tested all of them yet, but as you learn more about each parameter, you can add notes to the synopsis and notes fields to keep track of how it affects our document or project. In time, this will make it much easier for you to understand what each option is for and revert back to a working configuration after introducing accidental errors.
+
+￼
+
+{#fig-crossref} The new layout makes it easier editing parameters without disturbing YAML's sensitive white space rules
+</Text>
+        <Comments>See https://www.stockio.com.</Comments>
     </Snapshot>
     <Snapshot Date="2023-06-11 23:02:50 -0300">
         <Title>Untitled (Save)</Title>
@@ -33,25 +47,6 @@ This template descends from Ian's excellent Quarto template for Scrivener.
 
 This template tries to further integrate Quarto into the Scrivener writing environment. It includes new Section Types, Paragraph Styles, Character Styles, Custom Meta Fields, YAML Parameters for Quarto, new icons and more.* If you already have Quarto and R working installations, it introduces zero new dependencies and you should be able to compile it right away. Please, go ahead and try it. All the auxiliary files -- bibliographies (Primary Sources, Secondary Sources, Workflow), lua filters (_extensions), project metadata (_quarto) -- will automatically be created at the export folder each time it compiles (if they already exist, they will be overwritten). The only external dependencies, therefore, are Quarto and R. 
 The template's first notable difference is the way the YAML Front matter is written and the size it is. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for each YAML parameter with the idea of having all the options properly set up and available to be included or excluded from compiling by simply ticking a box. The YAML structure is automatically (WIP) formed by using the correct Section Type from whence the sub-items will inherit their own type (the digit between parenthesis next to the Section Type name indicates the number of empty spaces used as a prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the ID field and the value usually from the Value Custom Metadata Field. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called Theorem Title instead of the less instructive thm-title that must be in the ID field. 
-
-The YAML item key comes from the ID field.
-
-I included nearly every option for Quarto Books and Websites, totaling 619 parameters, each one including relevant information, such as the available options, and the bookmarks to the official documentation (under Document Bookmarks). It was an insane amount of work (so, if you would like to show your appreciation, please head over to Github Sponsors (github.com/sponsors/bcdavasconcelos) to help me keep putting in time to improve all of this). Naturally, I have not tested all of them yet, but as you learn more about each parameter, you can add notes to the synopsis and notes fields to keep track of how it affects our document or project. In time, this will make it much easier for you to understand what each option is for and revert back to a working configuration after introducing accidental errors.
-
-￼
-
-{#fig-crossref} The new layout makes it easier editing parameters without disturbing YAML's sensitive white space rules
-</Text>
-        <Comments>See https://www.stockio.com.</Comments>
-    </Snapshot>
-    <Snapshot Date="2023-06-15 14:07:02 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>By Bernardo Vasconcelos (see this thread, and this thread)
-
-This template descends from Ian's excellent Quarto template for Scrivener. 
-
-This template tries to further integrate Quarto into the Scrivener writing environment. It includes new Section Types, Paragraph Styles, Character Styles, Custom Meta Fields, YAML Parameters for Quarto, new icons and more.* If you already have Quarto and R working installations, it introduces zero new dependencies and you should be able to compile it right away. Please, go ahead and try it. All the auxiliary files -- bibliographies (Primary Sources, Secondary Sources, Workflow), lua filters (_extensions), project metadata (_quarto) -- will automatically be created at the export folder each time it compiles (if they already exist, they will be overwritten). The only external dependencies, therefore, are Quarto and R. 
-The template's first notable difference is the way the YAML Front matter is written and the size it is. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for each YAML parameter with the idea of having all the options properly set up and available to be included or excluded from compiling by simply ticking a box. The YAML structure is automatically (WIP) formed by using the correct Section Type from whence the sub-items will inherit their own type (the digit between parenthesis next to the Section Type name indicates the number of empty spaces used as a prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the ID field and the value usually from the Text or the Value Custom Metadata Field. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called Theorem Title instead of the less instructive thm-title that must be in the ID field. 
 
 The YAML item key comes from the ID field.
 

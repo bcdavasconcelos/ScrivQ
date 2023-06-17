@@ -4,4 +4,9 @@
         <Title>Untitled (Save)</Title>
         <Text>This is an example of the Figure + Attributes section type.</Text>
     </Snapshot>
+    <Snapshot Date="2023-06-16 16:36:10 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>￼
+««AB»» This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details…</Text>
+    </Snapshot>
 </SnapshotIndexes>

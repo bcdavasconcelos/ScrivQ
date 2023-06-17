@@ -405,7 +405,7 @@
 	<key>CommentsScaleFactor</key>
 	<real>1.75</real>
 	<key>CompileFolder</key>
-	<string>/Users/bcdav/Dropbox/scriv2-mmd</string>
+	<string>/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd</string>
 	<key>NotesScaleFactor</key>
 	<real>1.25</real>
 	<key>QRPanelSettings</key>
@@ -454,6 +454,51 @@
 			</dict>
 			<key>WindowFrame</key>
 			<string>1042 138 1280 1055 0 0 2560 1415 </string>
+		</dict>
+		<key>A8EBA04B-7CA7-4024-A9D6-3C70825C0C6C</key>
+		<dict>
+			<key>BinderUUID</key>
+			<string>A8EBA04B-7CA7-4024-A9D6-3C70825C0C6C</string>
+			<key>CurrentMetaData</key>
+			<integer>-1</integer>
+			<key>MainPaneWidth</key>
+			<real>475</real>
+			<key>ProjectBookmarksSplitInfo</key>
+			<array>
+				<string>{{0, 0}, {225, 495}}</string>
+				<string>{{235, 0}, {443, 495}}</string>
+			</array>
+			<key>ProjectBookmarksVisible</key>
+			<false/>
+			<key>ShowsFormatBar</key>
+			<true/>
+			<key>ShowsMetaData</key>
+			<false/>
+			<key>SplitInfo</key>
+			<array>
+				<string>{{0, 277}, {475, 167}}</string>
+			</array>
+			<key>TextSettings</key>
+			<dict>
+				<key>hasMultiplePages</key>
+				<false/>
+				<key>isRulerVisible</key>
+				<false/>
+				<key>lineNumberingInterval</key>
+				<integer>1</integer>
+				<key>showsLineNumbers</key>
+				<false/>
+				<key>textFocusMode</key>
+				<integer>0</integer>
+				<key>textScaleFactor</key>
+				<real>1.8999999999999999</real>
+				<key>usesFacingPages</key>
+				<false/>
+				<key>usesTypewriterScrolling</key>
+				<false/>
+			</dict>
+			<key>WindowFrame</key>
+			<string>626 413 475 528 0 0 1728 1079 </string>
 		</dict>
 		<key>E2873C60-4721-4DC1-8E3F-3DDE2697584A</key>
 		<dict>
@@ -552,8 +597,8 @@
 	<false/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {282, 1354}}</string>
-		<string>{{283, 0}, {2277, 1354}}</string>
+		<string>{{0, 0}, {391, 1354}}</string>
+		<string>{{392, 0}, {2168, 1354}}</string>
 	</array>
 	<key>binderWidth</key>
 	<real>183</real>
@@ -749,6 +794,11 @@
 		<dict>
 			<key>Row</key>
 			<integer>1</integer>
+		</dict>
+		<key>0868B489-3E7E-4890-9C52-CCE36EA1697B</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
 		</dict>
 		<key>088DF0B9-18E7-402D-A1AA-CE3768790ECD</key>
 		<dict>
@@ -1343,6 +1393,11 @@
 			<key>Row</key>
 			<integer>0</integer>
 		</dict>
+		<key>285B86B1-41FF-48C5-97A3-6A5E6C4892EE</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>2888AB7E-DF8F-41DB-B97D-32C2B01351A8</key>
 		<dict>
 			<key>Row</key>
@@ -1407,6 +1462,11 @@
 		<dict>
 			<key>Row</key>
 			<integer>0</integer>
+		</dict>
+		<key>2B5B16FE-57FE-4788-9E92-B14FF53718D9</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
 		</dict>
 		<key>2B65E5B1-30E5-410A-868D-DEAEECE92592</key>
 		<dict>
@@ -1767,10 +1827,24 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>3E1FC713-703A-45EE-BBFC-10B8304968D5</key>
+		<dict>
+			<key>DocID</key>
+			<string>B05EE01C-21D1-47E5-880B-B69523D12C14</string>
+			<key>Row</key>
+			<integer>0</integer>
+		</dict>
 		<key>3E36E0A6-4469-4F9B-8E79-3E79FF78D854</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
+		</dict>
+		<key>3E543593-3C92-4C5B-A586-AA38CABA9FCE</key>
+		<dict>
+			<key>DocID</key>
+			<string>85C94DE1-452F-4489-A210-C3E6BC6D7DAD</string>
+			<key>Row</key>
+			<integer>0</integer>
 		</dict>
 		<key>3F37FF44-8C2F-4F3F-88D5-73ABDBE96499</key>
 		<dict>
@@ -1826,6 +1900,13 @@
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
+		</dict>
+		<key>423E59DF-5AFE-423E-B521-5CBD5ED30200</key>
+		<dict>
+			<key>DocID</key>
+			<string>F2A4F170-64C5-4BC3-9C81-DA8A02484321</string>
+			<key>Row</key>
+			<integer>0</integer>
 		</dict>
 		<key>42E6653E-0E83-4C8B-A546-3F6686CBB5B9</key>
 		<dict>
@@ -2056,7 +2137,7 @@
 		<key>4DC921CA-AE0E-4AE7-8B3B-956A2DD5BF0B</key>
 		<dict>
 			<key>Row</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>4EA5CA0C-69AC-4845-9659-471608BEC766</key>
 		<dict>
@@ -2209,6 +2290,11 @@
 			<integer>0</integer>
 		</dict>
 		<key>550A79C8-8157-46CD-BCEC-2FBDAD43189A</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>55703CC2-1151-427F-9184-CA53115E2FBF</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -3355,6 +3441,11 @@
 			<key>Row</key>
 			<integer>0</integer>
 		</dict>
+		<key>8C0DC908-E766-4C86-91A8-76AD050E4AB1</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>8C447AD1-D08F-48C6-9D21-233EA44E0394</key>
 		<dict>
 			<key>Row</key>
@@ -3609,6 +3700,11 @@
 			<integer>0</integer>
 		</dict>
 		<key>9AF991D9-E686-4CEE-9A61-A8F3B0C22200</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>9B1631D8-75FB-4C42-B619-4CFD603404C2</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -4550,10 +4646,22 @@
 			<key>Row</key>
 			<integer>0</integer>
 		</dict>
+		<key>C9E7A889-E1C9-4E9F-8E45-BEA96FBB283D</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>CA5D48F4-4306-4F2E-A8A8-A648C68D04DF</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
+		</dict>
+		<key>CA662BDD-F422-4FDA-A99E-126AEBF4E481</key>
+		<dict>
+			<key>DocID</key>
+			<string>8A855D83-0545-48B6-97DF-851A1D30A2E6</string>
+			<key>Row</key>
+			<integer>0</integer>
 		</dict>
 		<key>CB211C84-9923-4862-BF03-C2F22DC267CB</key>
 		<dict>
@@ -5531,8 +5639,8 @@
 	<false/>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1678, 1324}}</string>
-		<string>{{1679, 0}, {598, 1324}}</string>
+		<string>{{0, 0}, {1453.5, 1324}}</string>
+		<string>{{1454.5, 0}, {713.5, 1324}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>435</real>
@@ -5560,7 +5668,7 @@
 		<key>includeInExport</key>
 		<real>32</real>
 		<key>key</key>
-		<real>331.5</real>
+		<real>261.5</real>
 		<key>sectionType</key>
 		<real>187</real>
 		<key>status</key>
@@ -5568,7 +5676,7 @@
 		<key>title</key>
 		<real>191.5</real>
 		<key>value</key>
-		<real>90.5</real>
+		<real>369</real>
 		<key>🔒</key>
 		<real>75</real>
 	</dict>
@@ -5578,14 +5686,14 @@
 		<string>{{0, 465.5}, {589, 464.5}}</string>
 	</array>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {720, 634}}</string>
+	<string>{{0, 1670.75}, {719, 634}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
 		<real>2</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>1 33 2560 1382 0 0 2560 1415 </string>
+	<string>0 33 2560 1382 0 0 2560 1415 </string>
 	<key>projectStatsSheet</key>
 	<dict>
 		<key>countDraftFootnotes</key>
@@ -5616,7 +5724,7 @@
 		<key>widths</key>
 		<dict>
 			<key>TITLE</key>
-			<real>250</real>
+			<real>200</real>
 		</dict>
 	</dict>
 	<key>supportingDocumentEditor.PDFAutoScales</key>
