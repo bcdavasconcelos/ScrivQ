@@ -1,0 +1,35 @@
+'Extensions':
+- any: ['export-mmd/_extensions/bcdavasconcelos/**', '!export-mmd/_extensions/bcdavasconcelos/citetools/**', '!export-mmd/_extensions/bcdavasconcelos/csl/**', '!export-mmd/_extensions/bcdavasconcelos/templates/**']
+
+'Extensions/CiteTools':
+- any: ['export-mmd/_extensions/bcdavasconcelos/citetools/**']
+
+'Extensions/Pandoc-Templates':
+- any: ['export-mmd/_extensions/bcdavasconcelos/templates/**']
+
+'Extensions/CSL-File':
+- any: ['export-mmd/_extensions/bcdavasconcelos/csl/**']
+
+'References':
+- any: ['export-mmd/refs/**']
+
+'Compile Bindings'
+- any: ['ScrivQ.scriv/Settings/compile.xml']
+
+'Compile Formats'
+- any: ['ScrivQ.scriv/Settings/Compile Formats', '!ScrivQ.scriv/Settings/Compile Formats/Quarto Publish PDF.scrformat']
+
+'Compile Formats/Quarto Publish PDF'
+- any: ['ScrivQ.scriv/Settings/Compile Formats/Quarto Publish PDF.scrformat']
+
+'Settings/Project Preferences'
+- any: ['ScrivQ.scriv/Settings/projectpreferences.xml']
+
+'Resources/Icons'
+- any: ['ScrivQ.scriv/icons']
+
+'Resources/Files'
+- any: ['ScrivQ.scriv/Files']
+
+'Scrivx'
+- any: ['ScrivQ.scriv/Scrivx']
