@@ -1,3 +1,9 @@
+'Content Output':
+- any: ['export-mmd/index.qmd', 'export-mmd/ScrivQ.qmd']
+
+'Quarto Project':
+- any: ['export-mmd/_quarto.yml']
+
 'Extensions':
 - any: ['export-mmd/_extensions/bcdavasconcelos/**', '!export-mmd/_extensions/bcdavasconcelos/citetools/**', '!export-mmd/_extensions/bcdavasconcelos/csl/**', '!export-mmd/_extensions/bcdavasconcelos/templates/**']
 
@@ -13,23 +19,26 @@
 'References':
 - any: ['export-mmd/refs/**']
 
-'Compile Bindings'
+'Compile Bindings':
 - any: ['ScrivQ.scriv/Settings/compile.xml']
 
-'Compile Formats'
+'Compile Formats':
 - any: ['ScrivQ.scriv/Settings/Compile Formats', '!ScrivQ.scriv/Settings/Compile Formats/Quarto Publish PDF.scrformat']
 
-'Compile Formats/Quarto Publish PDF'
+'Compile Formats/Quarto Publish PDF':
 - any: ['ScrivQ.scriv/Settings/Compile Formats/Quarto Publish PDF.scrformat']
 
-'Settings/Project Preferences'
+'Settings/Project Preferences':
 - any: ['ScrivQ.scriv/Settings/projectpreferences.xml']
 
-'Resources/Icons'
+'Resources/Icons':
 - any: ['ScrivQ.scriv/icons']
 
-'Resources/Files'
+'Resources/Files':
 - any: ['ScrivQ.scriv/Files']
 
-'Scrivx'
+'Scrivx':
 - any: ['ScrivQ.scriv/Scrivx']
+
+'Compile Script':
+- any: ['compile_script.rb']

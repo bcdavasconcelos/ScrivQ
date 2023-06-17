@@ -3777,6 +3777,14 @@ Code linking is currently implemented only for the knitr engine (via the downlit
         <Document ID="CF8A4871-BC5D-4F6F-A92C-D00727DC101E">
             <Title>tightlist</Title>
         </Document>
+        <Document ID="B1B32F21-010B-4749-9CC0-4495E0EE3ABC">
+            <Title>Resources</Title>
+            <Text>Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the Shortcode Font Awesome style as in `regular bell` regular bell.
+There is also Shortcode Env, Shortcode Meta, Shortcode Var. 
+Writing in Scrivener (https://github.com/iandol/scrivomatic#writing-in-scrivener) is a must read.
+The Plain Person’s Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
+Quarto Reference - https://quarto.org/docs/reference/</Text>
+        </Document>
         <Document ID="C52996BE-9CF2-4639-BFE6-914FAE2EA728">
             <Title>Text</Title>
             <Text>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
