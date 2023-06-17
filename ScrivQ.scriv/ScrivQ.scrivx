@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-16 23:41:50 -0300" ModID="55BC5657-E035-4000-BC58-736F9D21E4A1">
+<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-17 00:47:00 -0300" ModID="709AEA5A-808E-48A6-9098-8F6E1597D7AF">
     <Binder>
         <BinderItem UUID="C2B7CD89-AB5C-42DC-B877-91BB443E413C" Type="Text" Created="2023-05-18 12:16:02 -0300" Modified="2023-05-23 11:49:13 -0300">
             <Title>Files</Title>
@@ -6326,10 +6326,40 @@
                 <TextSelection>0,0</TextSelection>
             </TextSettings>
             <CorkboardAndOutliner>
-                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
+                <SelectedSubdocumentUUIDs>3423F802-6DF4-483E-8812-61FDF22C2150</SelectedSubdocumentUUIDs>
                 <OutlinerExpandedState>
                     <ItemID>20859785-8CA5-467B-AFA0-EC4E7E2E1599</ItemID>
+                    <ItemID>E5274870-CB49-493A-AA10-9A6CBE777CF9</ItemID>
+                    <ItemID>A7D24053-5C1F-4243-AFED-B0621EE5AD8A</ItemID>
                     <ItemID>8D6D3F5E-91AA-449C-82A3-0CE5C106DCE7</ItemID>
+                    <ItemID>9F2BB147-F146-4D4D-8B9D-4A51039B3B21</ItemID>
+                    <ItemID>C34A4F46-03D4-463E-97C3-336E1883F405</ItemID>
+                    <ItemID>C0E7E433-5778-488A-AEB6-B61D34A06831</ItemID>
+                    <ItemID>D01DB0F9-52BE-4177-8B87-E92F16F0792C</ItemID>
+                    <ItemID>A569DC85-1BB9-434E-91AE-0C1691B747F6</ItemID>
+                    <ItemID>3070B26E-9F51-42EF-BA3B-2F78F7C9B020</ItemID>
+                    <ItemID>DD432969-0441-4719-8253-A4180F7B828C</ItemID>
+                    <ItemID>71822B97-3F31-476F-9068-6AA25FB44C07</ItemID>
+                    <ItemID>F1FA99B5-9311-4B1D-AA8C-99E81282DF61</ItemID>
+                    <ItemID>08C8BE6A-361D-4D35-A807-07C8DEC7E188</ItemID>
+                    <ItemID>48152E1F-FC14-438F-93B0-5BB8B54E5B7E</ItemID>
+                    <ItemID>1AEA5738-519B-40CC-8918-593A84777692</ItemID>
+                    <ItemID>9C9D862B-4394-4DF6-A078-0332F11F6A89</ItemID>
+                    <ItemID>43392F6F-37D1-4508-815D-8B17934FDA23</ItemID>
+                    <ItemID>DCE2AE65-3509-4719-B7A2-4A5E86060C9D</ItemID>
+                    <ItemID>5C7C2C6D-133D-41CA-9324-32318278B663</ItemID>
+                    <ItemID>791BDFF1-9130-4716-8936-1F3B576C5DE2</ItemID>
+                    <ItemID>EE4E8B09-D7A5-418F-8272-4AAD58749062</ItemID>
+                    <ItemID>E5B655B1-0287-46EA-A406-721EDDBF03E8</ItemID>
+                    <ItemID>6C41999D-FEFF-4BDD-80DC-10B9BFB22783</ItemID>
+                    <ItemID>450042D4-B715-4364-8388-0CC36E09C17A</ItemID>
+                    <ItemID>34C0EB5B-C5C8-405A-A85C-D0A53505E947</ItemID>
+                    <ItemID>947FF24B-E8B6-4700-B7F8-935F62A1E2B3</ItemID>
+                    <ItemID>74F3E26B-5449-474E-B1BD-2F194E31E8CA</ItemID>
+                    <ItemID>B7871EE4-271F-49CB-9FC6-4DC000B4139D</ItemID>
+                    <ItemID>C26FA10A-6F2B-4F9B-AAED-2ADADF271A41</ItemID>
+                    <ItemID>45040158-7886-4058-9570-6081E34F55E7</ItemID>
+                    <ItemID>EAD6D7ED-E19B-4617-8A8E-F00FA6AF972E</ItemID>
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Bookmarks>
@@ -13096,11 +13126,10 @@
                                         <Bookmark Destination="https://quarto.org/docs/reference/formats/pdf.html#table-of-contents">Quarto - PDF Options - Table of Contents</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="3494AE1B-9B37-4401-8D59-1E4F7D0109EB" Type="Text" Created="2023-04-22 16:57:32 -0300" Modified="2023-06-06 11:56:07 -0300">
+                                <BinderItem UUID="3494AE1B-9B37-4401-8D59-1E4F7D0109EB" Type="Text" Created="2023-04-22 16:57:32 -0300" Modified="2023-06-17 00:24:04 -0300">
                                     <Title>toc-title</Title>
                                     <MetaData>
                                         <LabelID>15</LabelID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
                                         <IconFileName>Text editing (Table grid-2x2).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
@@ -18016,11 +18045,10 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/reference/formats/pdf.html#table-of-contents">Quarto - PDF Options - Table of Contents</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="533FDBC7-A4CB-42D2-8F10-2B786918E1B3" Type="Text" Created="2023-04-22 16:57:32 -0300" Modified="2023-06-06 11:56:07 -0300">
+                                <BinderItem UUID="533FDBC7-A4CB-42D2-8F10-2B786918E1B3" Type="Text" Created="2023-04-22 16:57:32 -0300" Modified="2023-06-17 00:24:16 -0300">
                                     <Title>toc-title</Title>
                                     <MetaData>
                                         <LabelID>15</LabelID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
                                         <IconFileName>Text editing (Table grid-2x2).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
@@ -21563,7 +21591,7 @@ html-q-tags</Value>
                 <IconFileName>Toolbar (Container Manuscript).png</IconFileName>
             </MetaData>
             <CorkboardAndOutliner>
-                <SelectedSubdocumentUUIDs>8D5E5495-E2F0-424C-8379-EDBB8AC72E1F</SelectedSubdocumentUUIDs>
+                <SelectedSubdocumentUUIDs>E8956215-97C1-41DA-8AB9-50C2891EA656</SelectedSubdocumentUUIDs>
                 <OutlinerExpandedState>
                     <ItemID>43A5BAD6-4E61-497E-8F2D-AC8442D390AF</ItemID>
                     <ItemID>5681A6B7-F48A-475E-B0CE-4622E60212E8</ItemID>
@@ -22132,7 +22160,7 @@ html-q-tags</Value>
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>333,17</TextSelection>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Bookmarks>
                         <Bookmark BinderUUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321"/>
@@ -22242,10 +22270,11 @@ html-q-tags</Value>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="9D01F500-60C4-46B8-B2DB-F15724E03AF6" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-16 18:10:28 -0300">
+                                <BinderItem UUID="9D01F500-60C4-46B8-B2DB-F15724E03AF6" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-17 00:46:52 -0300">
                                     <Title>cnj, cor, def, exm, exr, lem, prp, thm</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Toolbar (Container Stack).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
                                                 <FieldID>key</FieldID>
@@ -22523,6 +22552,7 @@ html-q-tags</Value>
                                     <Title>eq, lst, fig, tbl</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Toolbar (Container Stack).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
                                                 <FieldID>key</FieldID>
@@ -22531,7 +22561,7 @@ html-q-tags</Value>
                                         </CustomMetaData>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>456,0</TextSelection>
+                                        <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                     <Children>
                                         <BinderItem UUID="F6616DEE-A896-4130-8DBD-62C46DF816DF" Type="Text" Created="2023-05-09 11:36:38 -0300" Modified="2023-06-16 23:38:02 -0300">
@@ -22610,8 +22640,11 @@ html-q-tags</Value>
                                 </BinderItem>
                                 <BinderItem UUID="549674D9-8CF7-4AAF-8CBA-49CADED29977" Type="Text" Created="2023-06-08 20:00:40 -0300" Modified="2023-06-10 11:48:32 -0300">
                                     <Title>fns</Title>
+                                    <MetaData>
+                                        <IconFileName>Toolbar (Container Stack).png</IconFileName>
+                                    </MetaData>
                                     <TextSettings>
-                                        <TextSelection>63,0</TextSelection>
+                                        <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                     <Children>
                                         <BinderItem UUID="078E5C46-243B-4D6F-83E9-822E9861424C" Type="Text" Created="2023-05-06 01:47:42 -0300" Modified="2023-06-16 16:11:41 -0300">
@@ -22837,7 +22870,7 @@ html-q-tags</Value>
                                 <SectionType ChildDefault="0D58FFC4-CB52-40D5-B3C7-7DA5ED7DE944">4D0D91E2-C002-4FBE-AC07-5A31259BEDC7</SectionType>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>41,0</TextSelection>
+                                <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
                                 <BinderItem UUID="10C596DC-EBB5-4FD8-816E-EE01C3379905" Type="Text" Created="2023-06-15 00:28:19 -0300" Modified="2023-06-15 12:57:44 -0300">
@@ -27788,7 +27821,7 @@ html-q-tags</Value>
         </Collection>
         <Collection Type="RecentSearch" ID="0676D34A-DC44-4DC2-95DC-808FDFA11695" Color="0.190666 0.172706 0.216531">
             <Title>Search Results</Title>
-            <SearchSettings Operator="RegEx" Type="All" CaseSensitive="No" IgnoreDiacritics="No">column</SearchSettings>
+            <SearchSettings Operator="RegEx" Type="All" CaseSensitive="No" IgnoreDiacritics="No">sumário</SearchSettings>
         </Collection>
         <Collection Type="SavedSearch" ID="FC859C17-370B-467F-A619-5F2762024273" Color="0.995288 0.788485 0.732724">
             <Title>Key: value</Title>
@@ -28077,14 +28110,14 @@ html-q-tags</Value>
     </ProjectBookmarks>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-06-17 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="145" Characters="895" Date="2023-06-16 21:49:30 -0300"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-06-18 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="4" Date="2023-06-17 00:21:33 -0300"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2023-06-16 00:00:00 -0300">
-        <DraftWordCount>145</DraftWordCount>
-        <DraftCharCount>895</DraftCharCount>
-        <OtherWordCount>46</OtherWordCount>
-        <OtherCharCount>503</OtherCharCount>
+    <RecentWritingHistory Date="2023-06-17 00:00:00 -0300">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>4</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <TemplateFolderUUID>8B014782-1E52-4F6D-B15C-CA5FB440B23B</TemplateFolderUUID>
     <BackupSettings>

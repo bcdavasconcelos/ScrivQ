@@ -1,17 +1,17 @@
 --> Input Filename: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.md
 --> Modified path: /Users/bcdav/.rbenv/shims:/Users/bcdav/.pyenv/shims:/usr/local/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/bcdav/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
---> Crossref figure details: Label={#fig-scriv146 .column-page}  | "*What a trip!*" - said Ulysses as he sailed by the sirens. We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block! | Ulysses1
+--> Crossref figure details: Label={#fig-scriv144 .column-page}  | "*What a trip!*" - said Ulysses as he sailed by the sirens. We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block! | Ulysses1
 --> Crossref figure details: Label={#fig-castle}  | Elephant castle. | Elephant2
 --> Crossref figure details: Label={#fig-trunk}  | Angry elephant with big trunk. | Elephant3
---> Crossref figure details: Label={#fig-scriv159 .column-page   }  |  This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details... | Ulysses1-1
+--> Crossref figure details: Label={#fig-scriv157 .column-page   }  |  This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details... | Ulysses1-1
 --> Crossref figure details: Label={#fig-elespan}  | This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a `.column-page` class, for Quarto's layout for extend-to-page-width. | Elephant1
---> Crossref figure details: Label={#fig-scriv162    }  |  This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format. | Elephant3-1
+--> Crossref figure details: Label={#fig-scriv160    }  |  This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format. | Elephant3-1
 --> Crossref figure details: Label={#fig-castle2}  | Elephant. | Elephant2-1
 --> Crossref figure details: Label={#fig-trunk2}  | Angry elephant with big trunk. | Elephant3-2
 --> Crossref figure details: Label={#fig-alignright fig-align="right"}  | This should be right-aligned if there is space... | Ulysses1-2
 --> Crossref figure details: Label={#fig-crossref}  | The new layout makes it easier editing parameters without disturbing YAML's sensitive white space rules. | yaml
---> Crossref figure details: Label={#fig-scriv196}  | Revising code in Scrivener can be just as pleasant | scrivenerwithcode
---> Crossref figure details: Label={#fig-scriv197 .column-page}  | Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body. | pandocquartolatextemplate
+--> Crossref figure details: Label={#fig-scriv194}  | Revising code in Scrivener can be just as pleasant | scrivenerwithcode
+--> Crossref figure details: Label={#fig-scriv195 .column-page}  | Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body. | pandocquartolatextemplate
 --> New files detected!
 --> 4 notes replaced.
 ----> Error: File _extensions/bcdavasconcelos/templates/before-bib.tex not found!
@@ -20,13 +20,13 @@
 ----> Error: File index.md not found!
 --> Created files: _extensions/bcdavasconcelos/citetools/_extension.yaml, _extensions/bcdavasconcelos/citetools/citation-backlinks.lua, _extensions/bcdavasconcelos/citetools/citefield.lua, _extensions/bcdavasconcelos/citetools/citeproc.lua, _extensions/bcdavasconcelos/citetools/multiple-bibliographies.lua, _extensions/csl/abnt-phi.csl, _extensions/bcdavasconcelos/csl/chicago.csl, _extensions/bcdavasconcelos/templates/doc-class.tex, _extensions/bcdavasconcelos/templates/after-body.tex, _extensions/bcdavasconcelos/templates/before-body.tex, _extensions/bcdavasconcelos/templates/biblio.tex, _extensions/bcdavasconcelos/templates/citations.tex, _extensions/bcdavasconcelos/templates/graphics.tex, _extensions/bcdavasconcelos/templates/pandoc.tex, _extensions/bcdavasconcelos/templates/tables.tex, _extensions/bcdavasconcelos/templates/template.tex, _extensions/bcdavasconcelos/templates/title.tex, _extensions/bcdavasconcelos/templates/toc.tex, _quarto.yml, refs/primary-sources.yml, refs/secondary-sources.yml, refs/workflow.bib
 --> Modified File with fixed cross-references: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd
---> Parsing took: 0.019032s
+--> Parsing took: 0.015103s
 
 --> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd" --to pdf
 [31m
 
 processing file: export.qmd
-[39m  |                                                            |                                                    |   0%  |                                                            |....                                                |   8%                    |                                                            |........                                            |  15% (fig-scriv151)     |                                                            |............                                        |  23%                    |                                                            |................                                    |  31% (unnamed-chunk-2)  |                                                            |....................                                |  38%                    |                                                            |........................                            |  46% (fig-scriv154)     |                                                            |............................                        |  54%                    |                                                            |................................                    |  62% (fig-scriv155)     |                                                            |....................................                |  69%                    |                                                            |........................................            |  77% (unnamed-chunk-5)  |                                                            |............................................        |  85%                    |                                                            |................................................    |  92% (unnamed-chunk-6)  |                                                            |....................................................| 100%                                                                                                                              
+[39m  |                                                            |                                                    |   0%  |                                                            |....                                                |   8%                    |                                                            |........                                            |  15% (fig-scriv149)     |                                                            |............                                        |  23%                    |                                                            |................                                    |  31% (unnamed-chunk-2)  |                                                            |....................                                |  38%                    |                                                            |........................                            |  46% (fig-scriv152)     |                                                            |............................                        |  54%                    |                                                            |................................                    |  62% (fig-scriv153)     |                                                            |....................................                |  69%                    |                                                            |........................................            |  77% (unnamed-chunk-5)  |                                                            |............................................        |  85%                    |                                                            |................................................    |  92% (unnamed-chunk-6)  |                                                            |....................................................| 100%                                                                                                                              
 [31moutput file: export.knit.md
 
 [39m[1mpandoc [22m
@@ -105,11 +105,11 @@ processing file: export.qmd
   notes-after-punctuation: true
   verbose: false
   validate-yaml: false
-  bibliography_scriv200: |
+  bibliography_scriv198: |
     refs/primary-sources.yml
-  bibliography_scriv201: |
+  bibliography_scriv199: |
     refs/secondary-sources.yml
-  bibliography_scriv202: |
+  bibliography_scriv200: |
     refs/workflow.bib
   papersize: a4
   documentclass: scrbook
@@ -158,7 +158,6 @@ processing file: export.qmd
     - english
     - ancientgreek
     - sanskrit
-  toc-title: Sumário
   lof: true
   lot: true
   number-depth: 3
