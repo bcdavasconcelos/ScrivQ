@@ -182,7 +182,8 @@ div.csl-indent {
   
   
   
-  </ul><div class="quarto-alternate-formats"><h2>Outros formatos</h2><ul><li><a href="ScrivQ.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav><section id="sec-scriv145" class="level1" data-number="1"><h1 data-number="1">
+  </ul><div class="quarto-alternate-formats"><h2>Outros formatos</h2><ul><li><a href="ScrivQ.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav><p></p>
+<section id="sec-scriv145" class="level1" data-number="1"><h1 data-number="1">
 <span class="header-section-number">1</span> Abstract</h1>
 <p><span id="scriv145"></span></p>
 <p><span class="smallcaps">This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler</span>. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto’s layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener’s markdown output so that it is compatible with Quarto’s cross-referencing filter.</p>
@@ -1740,734 +1741,734 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb3-157"><a href="#cb3-157"></a><span class="an">validate-yaml:</span><span class="co"> false</span></span>
 <span id="cb3-158"><a href="#cb3-158"></a><span class="co">---</span></span>
 <span id="cb3-159"><a href="#cb3-159"></a></span>
-<span id="cb3-160"><a href="#cb3-160"></a><span class="fu"># Abstract {#sec-scriv145}</span></span>
+<span id="cb3-160"><a href="#cb3-160"></a>{{&lt; ENV LANG &gt;}}</span>
 <span id="cb3-161"><a href="#cb3-161"></a></span>
-<span id="cb3-162"><a href="#cb3-162"></a></span>
-<span id="cb3-163"><a href="#cb3-163"></a>[]{#scriv145}</span>
+<span id="cb3-162"><a href="#cb3-162"></a><span class="fu"># Abstract {#sec-scriv145}</span></span>
+<span id="cb3-163"><a href="#cb3-163"></a></span>
 <span id="cb3-164"><a href="#cb3-164"></a></span>
-<span id="cb3-165"><a href="#cb3-165"></a><span class="co">[</span><span class="ot">This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler</span><span class="co">]</span>{.smallcaps}. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto's layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener's markdown output so that it is compatible with Quarto's cross-referencing filter.</span>
+<span id="cb3-165"><a href="#cb3-165"></a>[]{#scriv145}</span>
 <span id="cb3-166"><a href="#cb3-166"></a></span>
-<span id="cb3-167"><a href="#cb3-167"></a><span class="fu"># Introduction {#sec-scriv146}</span></span>
+<span id="cb3-167"><a href="#cb3-167"></a><span class="co">[</span><span class="ot">This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler</span><span class="co">]</span>{.smallcaps}. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto's layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener's markdown output so that it is compatible with Quarto's cross-referencing filter.</span>
 <span id="cb3-168"><a href="#cb3-168"></a></span>
-<span id="cb3-169"><a href="#cb3-169"></a></span>
-<span id="cb3-170"><a href="#cb3-170"></a>[]{#scriv146}</span>
+<span id="cb3-169"><a href="#cb3-169"></a><span class="fu"># Introduction {#sec-scriv146}</span></span>
+<span id="cb3-170"><a href="#cb3-170"></a></span>
 <span id="cb3-171"><a href="#cb3-171"></a></span>
-<span id="cb3-172"><a href="#cb3-172"></a><span class="at">&gt; *"We don't see things as they are, we see them as we are." --- Anaïs Nin*</span></span>
+<span id="cb3-172"><a href="#cb3-172"></a>[]{#scriv146}</span>
 <span id="cb3-173"><a href="#cb3-173"></a></span>
-<span id="cb3-174"><a href="#cb3-174"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium^<span class="co">[</span><span class="ot">This is a footnote, **with** a citation [@crivellato2007].</span><span class="co">]</span> te eøs, eæm in veri eirmod <span class="co">[</span><span class="ot">@barrett2015; @crivellato2007</span><span class="co">]</span>. Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-174"><a href="#cb3-174"></a><span class="at">&gt; *"We don't see things as they are, we see them as we are." --- Anaïs Nin*</span></span>
 <span id="cb3-175"><a href="#cb3-175"></a></span>
-<span id="cb3-176"><a href="#cb3-176"></a></span>
-<span id="cb3-177"><a href="#cb3-177"></a><span class="al">!["Ulysses tripping." We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block!][Ulysses1]</span></span>
+<span id="cb3-176"><a href="#cb3-176"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium^<span class="co">[</span><span class="ot">This is a footnote, **with** a citation [@crivellato2007].</span><span class="co">]</span> te eøs, eæm in veri eirmod <span class="co">[</span><span class="ot">@barrett2015; @crivellato2007</span><span class="co">]</span>. Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-177"><a href="#cb3-177"></a></span>
 <span id="cb3-178"><a href="#cb3-178"></a></span>
-<span id="cb3-179"><a href="#cb3-179"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum<span class="co">[</span><span class="ot">@crivellato2007</span><span class="co">]</span>, pro paulo ridens quaestio ut (see <span class="co">[</span><span class="ot">@fig-scriv146</span><span class="co">]</span>)! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, **_his åt justo putant comprehensam (this style is strong emphasis)_**.</span>
+<span id="cb3-179"><a href="#cb3-179"></a><span class="al">!["Ulysses tripping." We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block!][Ulysses1]</span></span>
 <span id="cb3-180"><a href="#cb3-180"></a></span>
-<span id="cb3-181"><a href="#cb3-181"></a>Ad pro quod ^superscript^, mel no laudem ~subscript~, te mei prompta maiorum pønderum <span class="co">[</span><span class="ot">@siegel2015; @copenhaver2014; @hoffman2014; @barrett2015; @simmons2013</span><span class="co">]</span>. Solum aeque singulis duo ex, est an iriure øblique.</span>
+<span id="cb3-181"><a href="#cb3-181"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum<span class="co">[</span><span class="ot">@crivellato2007</span><span class="co">]</span>, pro paulo ridens quaestio ut (see <span class="co">[</span><span class="ot">@fig-scriv146</span><span class="co">]</span>)! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, **_his åt justo putant comprehensam (this style is strong emphasis)_**.</span>
 <span id="cb3-182"><a href="#cb3-182"></a></span>
-<span id="cb3-183"><a href="#cb3-183"></a>:::{.column-margin}</span>
-<span id="cb3-184"><a href="#cb3-184"></a>Here is some marginalia using the <span class="co">[</span><span class="ot">`Marginalia`</span><span class="co">]</span> Paragraph Style, *including* a citation <span class="co">[</span><span class="ot">@barrett2015</span><span class="co">]</span>. This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.</span>
-<span id="cb3-185"><a href="#cb3-185"></a>:::</span>
-<span id="cb3-186"><a href="#cb3-186"></a></span>
-<span id="cb3-187"><a href="#cb3-187"></a></span>
-<span id="cb3-188"><a href="#cb3-188"></a>Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo <span class="co">[</span><span class="ot">@barrett2015; @crivellato2007</span><span class="co">]</span>! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-183"><a href="#cb3-183"></a>Ad pro quod ^superscript^, mel no laudem ~subscript~, te mei prompta maiorum pønderum <span class="co">[</span><span class="ot">@siegel2015; @copenhaver2014; @hoffman2014; @barrett2015; @simmons2013</span><span class="co">]</span>. Solum aeque singulis duo ex, est an iriure øblique.</span>
+<span id="cb3-184"><a href="#cb3-184"></a></span>
+<span id="cb3-185"><a href="#cb3-185"></a>:::{.column-margin}</span>
+<span id="cb3-186"><a href="#cb3-186"></a>Here is some marginalia using the <span class="co">[</span><span class="ot">`Marginalia`</span><span class="co">]</span> Paragraph Style, *including* a citation <span class="co">[</span><span class="ot">@barrett2015</span><span class="co">]</span>. This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.</span>
+<span id="cb3-187"><a href="#cb3-187"></a>:::</span>
+<span id="cb3-188"><a href="#cb3-188"></a></span>
 <span id="cb3-189"><a href="#cb3-189"></a></span>
-<span id="cb3-190"><a href="#cb3-190"></a>:::{.callout-tip}</span>
-<span id="cb3-191"><a href="#cb3-191"></a>This callout is generated using the <span class="co">[</span><span class="ot">`Callout Tip`</span><span class="co">]</span> Scrivener Paragraph Style...</span>
-<span id="cb3-192"><a href="#cb3-192"></a>:::</span>
-<span id="cb3-193"><a href="#cb3-193"></a></span>
-<span id="cb3-194"><a href="#cb3-194"></a></span>
-<span id="cb3-195"><a href="#cb3-195"></a>This is a standard native Scrivener list, which will get converted to markdown by the Scrivener compiler:</span>
+<span id="cb3-190"><a href="#cb3-190"></a>Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo <span class="co">[</span><span class="ot">@barrett2015; @crivellato2007</span><span class="co">]</span>! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-191"><a href="#cb3-191"></a></span>
+<span id="cb3-192"><a href="#cb3-192"></a>:::{.callout-tip}</span>
+<span id="cb3-193"><a href="#cb3-193"></a>This callout is generated using the <span class="co">[</span><span class="ot">`Callout Tip`</span><span class="co">]</span> Scrivener Paragraph Style...</span>
+<span id="cb3-194"><a href="#cb3-194"></a>:::</span>
+<span id="cb3-195"><a href="#cb3-195"></a></span>
 <span id="cb3-196"><a href="#cb3-196"></a></span>
-<span id="cb3-197"><a href="#cb3-197"></a><span class="ss">* </span>Item 1</span>
-<span id="cb3-198"><a href="#cb3-198"></a><span class="ss">* </span>Item 2</span>
-<span id="cb3-199"><a href="#cb3-199"></a><span class="ss">    * </span>Item 2a</span>
-<span id="cb3-200"><a href="#cb3-200"></a><span class="ss">    * </span>Item 2b</span>
-<span id="cb3-201"><a href="#cb3-201"></a><span class="ss">* </span>Item 3</span>
-<span id="cb3-202"><a href="#cb3-202"></a></span>
-<span id="cb3-203"><a href="#cb3-203"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  See <span class="co">[</span><span class="ot">@tbl-scriv146</span><span class="co">]</span> for more details.</span>
+<span id="cb3-197"><a href="#cb3-197"></a>This is a standard native Scrivener list, which will get converted to markdown by the Scrivener compiler:</span>
+<span id="cb3-198"><a href="#cb3-198"></a></span>
+<span id="cb3-199"><a href="#cb3-199"></a><span class="ss">* </span>Item 1</span>
+<span id="cb3-200"><a href="#cb3-200"></a><span class="ss">* </span>Item 2</span>
+<span id="cb3-201"><a href="#cb3-201"></a><span class="ss">    * </span>Item 2a</span>
+<span id="cb3-202"><a href="#cb3-202"></a><span class="ss">    * </span>Item 2b</span>
+<span id="cb3-203"><a href="#cb3-203"></a><span class="ss">* </span>Item 3</span>
 <span id="cb3-204"><a href="#cb3-204"></a></span>
-<span id="cb3-205"><a href="#cb3-205"></a>| Table Head 1 | Table Head 2 | Table Head 3 |</span>
-<span id="cb3-206"><a href="#cb3-206"></a>| ----- | ----- | ----- |</span>
-<span id="cb3-207"><a href="#cb3-207"></a>| Item 1 | Item 2 | Item 3 |</span>
-<span id="cb3-208"><a href="#cb3-208"></a>| Item 4 | Item 5 | Item 6 |</span>
-<span id="cb3-209"><a href="#cb3-209"></a>| Item 7 | Item 8 | Item 9 |</span>
-<span id="cb3-210"><a href="#cb3-210"></a>| Item 10 | Item 11 | Item 12 |</span>
-<span id="cb3-211"><a href="#cb3-211"></a></span>
-<span id="cb3-212"><a href="#cb3-212"></a>: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables.  {#tbl-scriv146}</span>
+<span id="cb3-205"><a href="#cb3-205"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  See <span class="co">[</span><span class="ot">@tbl-scriv146</span><span class="co">]</span> for more details.</span>
+<span id="cb3-206"><a href="#cb3-206"></a></span>
+<span id="cb3-207"><a href="#cb3-207"></a>| Table Head 1 | Table Head 2 | Table Head 3 |</span>
+<span id="cb3-208"><a href="#cb3-208"></a>| ----- | ----- | ----- |</span>
+<span id="cb3-209"><a href="#cb3-209"></a>| Item 1 | Item 2 | Item 3 |</span>
+<span id="cb3-210"><a href="#cb3-210"></a>| Item 4 | Item 5 | Item 6 |</span>
+<span id="cb3-211"><a href="#cb3-211"></a>| Item 7 | Item 8 | Item 9 |</span>
+<span id="cb3-212"><a href="#cb3-212"></a>| Item 10 | Item 11 | Item 12 |</span>
 <span id="cb3-213"><a href="#cb3-213"></a></span>
-<span id="cb3-214"><a href="#cb3-214"></a>Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.</span>
+<span id="cb3-214"><a href="#cb3-214"></a>: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables.  {#tbl-scriv146}</span>
 <span id="cb3-215"><a href="#cb3-215"></a></span>
-<span id="cb3-216"><a href="#cb3-216"></a><span class="fu"># Methods {#sec-scriv147}</span></span>
+<span id="cb3-216"><a href="#cb3-216"></a>Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.</span>
 <span id="cb3-217"><a href="#cb3-217"></a></span>
-<span id="cb3-218"><a href="#cb3-218"></a><span class="fu">## Data Recording {#sec-scriv148}</span></span>
+<span id="cb3-218"><a href="#cb3-218"></a><span class="fu"># Methods {#sec-scriv147}</span></span>
 <span id="cb3-219"><a href="#cb3-219"></a></span>
-<span id="cb3-220"><a href="#cb3-220"></a></span>
-<span id="cb3-221"><a href="#cb3-221"></a>[]{#scriv148}</span>
+<span id="cb3-220"><a href="#cb3-220"></a><span class="fu">## Data Recording {#sec-scriv148}</span></span>
+<span id="cb3-221"><a href="#cb3-221"></a></span>
 <span id="cb3-222"><a href="#cb3-222"></a></span>
-<span id="cb3-223"><a href="#cb3-223"></a></span>
-<span id="cb3-224"><a href="#cb3-224"></a>:::{.column-margin}</span>
-<span id="cb3-225"><a href="#cb3-225"></a><span class="al">![A figure of a poor, poor marginalised elephant...](Elephant3.jpg)</span>{#fig-scriv148}</span>
-<span id="cb3-226"><a href="#cb3-226"></a>:::</span>
-<span id="cb3-227"><a href="#cb3-227"></a></span>
-<span id="cb3-228"><a href="#cb3-228"></a></span>
-<span id="cb3-229"><a href="#cb3-229"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, and here is some inline maths: $e^{ix}=r(\cos \theta +i\sin \theta)$, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-223"><a href="#cb3-223"></a>[]{#scriv148}</span>
+<span id="cb3-224"><a href="#cb3-224"></a></span>
+<span id="cb3-225"><a href="#cb3-225"></a></span>
+<span id="cb3-226"><a href="#cb3-226"></a>:::{.column-margin}</span>
+<span id="cb3-227"><a href="#cb3-227"></a><span class="al">![A figure of a poor, poor marginalised elephant...](Elephant3.jpg)</span>{#fig-scriv148}</span>
+<span id="cb3-228"><a href="#cb3-228"></a>:::</span>
+<span id="cb3-229"><a href="#cb3-229"></a></span>
 <span id="cb3-230"><a href="#cb3-230"></a></span>
-<span id="cb3-231"><a href="#cb3-231"></a>Note that for equations we place the cross-referencing label on a newline *after* the [`Maths Block`] (as paragraph styles require to run to the line end, we cannot keep the label on the same line or it will be 'swallowed' by the suffix). The post-processing script will place this label back on the same line *after* the <span class="in">`$$`</span> has been added by Scrivener's compiler so that Quarto can properly cross-reference it...</span>
+<span id="cb3-231"><a href="#cb3-231"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, and here is some inline maths: $e^{ix}=r(\cos \theta +i\sin \theta)$, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
 <span id="cb3-232"><a href="#cb3-232"></a></span>
-<span id="cb3-233"><a href="#cb3-233"></a>See both <span class="co">[</span><span class="ot">@eq-scriv148</span><span class="co">]</span> and <span class="co">[</span><span class="ot">@eq-scriv149</span><span class="co">]</span> for more details:</span>
+<span id="cb3-233"><a href="#cb3-233"></a>Note that for equations we place the cross-referencing label on a newline *after* the [`Maths Block`] (as paragraph styles require to run to the line end, we cannot keep the label on the same line or it will be 'swallowed' by the suffix). The post-processing script will place this label back on the same line *after* the <span class="in">`$$`</span> has been added by Scrivener's compiler so that Quarto can properly cross-reference it...</span>
 <span id="cb3-234"><a href="#cb3-234"></a></span>
-<span id="cb3-235"><a href="#cb3-235"></a>$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv148}</span>
+<span id="cb3-235"><a href="#cb3-235"></a>See both <span class="co">[</span><span class="ot">@eq-scriv148</span><span class="co">]</span> and <span class="co">[</span><span class="ot">@eq-scriv149</span><span class="co">]</span> for more details:</span>
 <span id="cb3-236"><a href="#cb3-236"></a></span>
-<span id="cb3-237"><a href="#cb3-237"></a></span>
-<span id="cb3-238"><a href="#cb3-238"></a>Sint meis quo et, vis ad fæcete dolorem!</span>
+<span id="cb3-237"><a href="#cb3-237"></a>$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv148}</span>
+<span id="cb3-238"><a href="#cb3-238"></a></span>
 <span id="cb3-239"><a href="#cb3-239"></a></span>
-<span id="cb3-240"><a href="#cb3-240"></a>$$\nabla \times \mathbf {H} ={\frac {1}{c}}\left(4\pi \mathbf {J} _{\text{f}}+{\frac {\partial \mathbf {D} }{\partial t}}\right)$$ {#eq-scriv149}</span>
+<span id="cb3-240"><a href="#cb3-240"></a>Sint meis quo et, vis ad fæcete dolorem!</span>
 <span id="cb3-241"><a href="#cb3-241"></a></span>
-<span id="cb3-242"><a href="#cb3-242"></a>Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See <span class="co">[</span><span class="ot">@fig-trunk2</span><span class="co">]</span> for a poor marginalised elephant. Ad quøt moderatius elaboraret eum <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm?</span>
+<span id="cb3-242"><a href="#cb3-242"></a>$$\nabla \times \mathbf {H} ={\frac {1}{c}}\left(4\pi \mathbf {J} _{\text{f}}+{\frac {\partial \mathbf {D} }{\partial t}}\right)$$ {#eq-scriv149}</span>
 <span id="cb3-243"><a href="#cb3-243"></a></span>
-<span id="cb3-244"><a href="#cb3-244"></a><span class="in">~~~ruby</span></span>
-<span id="cb3-245"><a href="#cb3-245"></a><span class="co"># This is a styled Ruby code block,</span></span>
-<span id="cb3-246"><a href="#cb3-246"></a><span class="co"># using the paragraph style [Ruby Code]</span></span>
-<span id="cb3-247"><a href="#cb3-247"></a></span>
-<span id="cb3-248"><a href="#cb3-248"></a><span class="co"># Output "I love Ruby"</span></span>
-<span id="cb3-249"><a href="#cb3-249"></a>say <span class="ot">=</span> <span class="st">"I love Ruby"</span></span>
-<span id="cb3-250"><a href="#cb3-250"></a>puts say</span>
-<span id="cb3-251"><a href="#cb3-251"></a></span>
-<span id="cb3-252"><a href="#cb3-252"></a><span class="co"># Output "I *LOVE* RUBY"</span></span>
-<span id="cb3-253"><a href="#cb3-253"></a>say[<span class="st">'love'</span>] <span class="ot">=</span> <span class="st">"*love*"</span></span>
-<span id="cb3-254"><a href="#cb3-254"></a>puts say.upcase</span>
-<span id="cb3-255"><a href="#cb3-255"></a></span>
-<span id="cb3-256"><a href="#cb3-256"></a><span class="co"># Output "I *love* Ruby"</span></span>
-<span id="cb3-257"><a href="#cb3-257"></a><span class="co"># five times</span></span>
-<span id="cb3-258"><a href="#cb3-258"></a><span class="fl">5.</span>times { puts say }</span>
-<span id="cb3-259"><a href="#cb3-259"></a><span class="in">~~~</span></span>
-<span id="cb3-260"><a href="#cb3-260"></a></span>
-<span id="cb3-261"><a href="#cb3-261"></a>Ad pro quod definitiønem^<span class="co">[</span><span class="ot">Another footnote. Although footnotes get converted just fine, one caveat is you cannot use Scrivener inline styles, so you **must** use Pandoc markup *directly*.</span><span class="co">]</span>, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-244"><a href="#cb3-244"></a>Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See <span class="co">[</span><span class="ot">@fig-trunk2</span><span class="co">]</span> for a poor marginalised elephant. Ad quøt moderatius elaboraret eum <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm?</span>
+<span id="cb3-245"><a href="#cb3-245"></a></span>
+<span id="cb3-246"><a href="#cb3-246"></a><span class="in">~~~ruby</span></span>
+<span id="cb3-247"><a href="#cb3-247"></a><span class="co"># This is a styled Ruby code block,</span></span>
+<span id="cb3-248"><a href="#cb3-248"></a><span class="co"># using the paragraph style [Ruby Code]</span></span>
+<span id="cb3-249"><a href="#cb3-249"></a></span>
+<span id="cb3-250"><a href="#cb3-250"></a><span class="co"># Output "I love Ruby"</span></span>
+<span id="cb3-251"><a href="#cb3-251"></a>say <span class="ot">=</span> <span class="st">"I love Ruby"</span></span>
+<span id="cb3-252"><a href="#cb3-252"></a>puts say</span>
+<span id="cb3-253"><a href="#cb3-253"></a></span>
+<span id="cb3-254"><a href="#cb3-254"></a><span class="co"># Output "I *LOVE* RUBY"</span></span>
+<span id="cb3-255"><a href="#cb3-255"></a>say[<span class="st">'love'</span>] <span class="ot">=</span> <span class="st">"*love*"</span></span>
+<span id="cb3-256"><a href="#cb3-256"></a>puts say.upcase</span>
+<span id="cb3-257"><a href="#cb3-257"></a></span>
+<span id="cb3-258"><a href="#cb3-258"></a><span class="co"># Output "I *love* Ruby"</span></span>
+<span id="cb3-259"><a href="#cb3-259"></a><span class="co"># five times</span></span>
+<span id="cb3-260"><a href="#cb3-260"></a><span class="fl">5.</span>times { puts say }</span>
+<span id="cb3-261"><a href="#cb3-261"></a><span class="in">~~~</span></span>
 <span id="cb3-262"><a href="#cb3-262"></a></span>
-<span id="cb3-263"><a href="#cb3-263"></a></span>
-<span id="cb3-264"><a href="#cb3-264"></a><span class="fu">## Experimental Perturbations {#sec-scriv150}</span></span>
+<span id="cb3-263"><a href="#cb3-263"></a>Ad pro quod definitiønem^<span class="co">[</span><span class="ot">Another footnote. Although footnotes get converted just fine, one caveat is you cannot use Scrivener inline styles, so you **must** use Pandoc markup *directly*.</span><span class="co">]</span>, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-264"><a href="#cb3-264"></a></span>
 <span id="cb3-265"><a href="#cb3-265"></a></span>
-<span id="cb3-266"><a href="#cb3-266"></a></span>
-<span id="cb3-267"><a href="#cb3-267"></a>[]{#scriv150}</span>
+<span id="cb3-266"><a href="#cb3-266"></a><span class="fu">## Experimental Perturbations {#sec-scriv150}</span></span>
+<span id="cb3-267"><a href="#cb3-267"></a></span>
 <span id="cb3-268"><a href="#cb3-268"></a></span>
-<span id="cb3-269"><a href="#cb3-269"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-269"><a href="#cb3-269"></a>[]{#scriv150}</span>
 <span id="cb3-270"><a href="#cb3-270"></a></span>
-<span id="cb3-271"><a href="#cb3-271"></a>:::{.column-margin}</span>
-<span id="cb3-272"><a href="#cb3-272"></a>Scrivener cannot **_nest_** block styles, so for Marginalia like this one we can use pandoc markup like <span class="in">`$$`</span> directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from *the first fundamental theorem of calculus* that for $x$ in $<span class="co">[</span><span class="ot">a, b</span><span class="co">]</span>$:</span>
-<span id="cb3-273"><a href="#cb3-273"></a>$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$</span>
-<span id="cb3-274"><a href="#cb3-274"></a>:::</span>
-<span id="cb3-275"><a href="#cb3-275"></a></span>
-<span id="cb3-276"><a href="#cb3-276"></a></span>
-<span id="cb3-277"><a href="#cb3-277"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
+<span id="cb3-271"><a href="#cb3-271"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-272"><a href="#cb3-272"></a></span>
+<span id="cb3-273"><a href="#cb3-273"></a>:::{.column-margin}</span>
+<span id="cb3-274"><a href="#cb3-274"></a>Scrivener cannot **_nest_** block styles, so for Marginalia like this one we can use pandoc markup like <span class="in">`$$`</span> directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from *the first fundamental theorem of calculus* that for $x$ in $<span class="co">[</span><span class="ot">a, b</span><span class="co">]</span>$:</span>
+<span id="cb3-275"><a href="#cb3-275"></a>$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$</span>
+<span id="cb3-276"><a href="#cb3-276"></a>:::</span>
+<span id="cb3-277"><a href="#cb3-277"></a></span>
 <span id="cb3-278"><a href="#cb3-278"></a></span>
-<span id="cb3-279"><a href="#cb3-279"></a>This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See <span class="co">[</span><span class="ot">@fig-scriv166 </span><span class="co">]</span>below for an example using a Section Type to insert the same markup at compile-time.</span>
+<span id="cb3-279"><a href="#cb3-279"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
 <span id="cb3-280"><a href="#cb3-280"></a></span>
-<span id="cb3-281"><a href="#cb3-281"></a>::: {#fig-elephants .column-page layout-ncol=2 layout-valign="top"}</span>
+<span id="cb3-281"><a href="#cb3-281"></a>This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See <span class="co">[</span><span class="ot">@fig-scriv166 </span><span class="co">]</span>below for an example using a Section Type to insert the same markup at compile-time.</span>
 <span id="cb3-282"><a href="#cb3-282"></a></span>
-<span id="cb3-283"><a href="#cb3-283"></a><span class="al">![Elephant castle.][Elephant2]</span></span>
+<span id="cb3-283"><a href="#cb3-283"></a>::: {#fig-elephants .column-page layout-ncol=2 layout-valign="top"}</span>
 <span id="cb3-284"><a href="#cb3-284"></a></span>
-<span id="cb3-285"><a href="#cb3-285"></a><span class="al">![Angry elephant with big trunk.][Elephant3]</span></span>
+<span id="cb3-285"><a href="#cb3-285"></a><span class="al">![Elephant castle.][Elephant2]</span></span>
 <span id="cb3-286"><a href="#cb3-286"></a></span>
-<span id="cb3-287"><a href="#cb3-287"></a>Quarto allows the creation of figure panels with sub-figures. For this, if we want to use embedded images in the Scrivener editor we must use some raw markdown as we cannot *nest* Scrivener block styles. Note we can use the Scale Image... Tool in Scrivener and these sizes get exported to Quarto and the output. Here we scale both images to the same height.</span>
-<span id="cb3-288"><a href="#cb3-288"></a>:::</span>
-<span id="cb3-289"><a href="#cb3-289"></a></span>
-<span id="cb3-290"><a href="#cb3-290"></a>See <span class="co">[</span><span class="ot">@fig-elephants</span><span class="co">]</span>, particularly <span class="co">[</span><span class="ot">@fig-castle</span><span class="co">]</span>. Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-287"><a href="#cb3-287"></a><span class="al">![Angry elephant with big trunk.][Elephant3]</span></span>
+<span id="cb3-288"><a href="#cb3-288"></a></span>
+<span id="cb3-289"><a href="#cb3-289"></a>Quarto allows the creation of figure panels with sub-figures. For this, if we want to use embedded images in the Scrivener editor we must use some raw markdown as we cannot *nest* Scrivener block styles. Note we can use the Scale Image... Tool in Scrivener and these sizes get exported to Quarto and the output. Here we scale both images to the same height.</span>
+<span id="cb3-290"><a href="#cb3-290"></a>:::</span>
 <span id="cb3-291"><a href="#cb3-291"></a></span>
-<span id="cb3-292"><a href="#cb3-292"></a>:::{.callout-warning}</span>
-<span id="cb3-293"><a href="#cb3-293"></a>Note that there are five types of callouts, including:</span>
-<span id="cb3-294"><a href="#cb3-294"></a><span class="in">`note`</span>, <span class="in">`tip`</span>, <span class="in">`warning`</span>, <span class="in">`caution`</span>, and <span class="in">`important`</span>.</span>
-<span id="cb3-295"><a href="#cb3-295"></a>:::</span>
-<span id="cb3-296"><a href="#cb3-296"></a></span>
-<span id="cb3-297"><a href="#cb3-297"></a></span>
-<span id="cb3-298"><a href="#cb3-298"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
+<span id="cb3-292"><a href="#cb3-292"></a>See <span class="co">[</span><span class="ot">@fig-elephants</span><span class="co">]</span>, particularly <span class="co">[</span><span class="ot">@fig-castle</span><span class="co">]</span>. Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-293"><a href="#cb3-293"></a></span>
+<span id="cb3-294"><a href="#cb3-294"></a>:::{.callout-warning}</span>
+<span id="cb3-295"><a href="#cb3-295"></a>Note that there are five types of callouts, including:</span>
+<span id="cb3-296"><a href="#cb3-296"></a><span class="in">`note`</span>, <span class="in">`tip`</span>, <span class="in">`warning`</span>, <span class="in">`caution`</span>, and <span class="in">`important`</span>.</span>
+<span id="cb3-297"><a href="#cb3-297"></a>:::</span>
+<span id="cb3-298"><a href="#cb3-298"></a></span>
 <span id="cb3-299"><a href="#cb3-299"></a></span>
-<span id="cb3-300"><a href="#cb3-300"></a>:::{.callout-important}</span>
-<span id="cb3-301"><a href="#cb3-301"></a>Note that there are five types of callouts, including:</span>
-<span id="cb3-302"><a href="#cb3-302"></a><span class="in">`note`</span>, <span class="in">`tip`</span>, <span class="in">`warning`</span>, <span class="in">`caution`</span>, and <span class="in">`important`</span>.</span>
-<span id="cb3-303"><a href="#cb3-303"></a>:::</span>
-<span id="cb3-304"><a href="#cb3-304"></a></span>
-<span id="cb3-305"><a href="#cb3-305"></a></span>
-<span id="cb3-306"><a href="#cb3-306"></a>Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.</span>
+<span id="cb3-300"><a href="#cb3-300"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
+<span id="cb3-301"><a href="#cb3-301"></a></span>
+<span id="cb3-302"><a href="#cb3-302"></a>:::{.callout-important}</span>
+<span id="cb3-303"><a href="#cb3-303"></a>Note that there are five types of callouts, including:</span>
+<span id="cb3-304"><a href="#cb3-304"></a><span class="in">`note`</span>, <span class="in">`tip`</span>, <span class="in">`warning`</span>, <span class="in">`caution`</span>, and <span class="in">`important`</span>.</span>
+<span id="cb3-305"><a href="#cb3-305"></a>:::</span>
+<span id="cb3-306"><a href="#cb3-306"></a></span>
 <span id="cb3-307"><a href="#cb3-307"></a></span>
-<span id="cb3-308"><a href="#cb3-308"></a>:::{.callout-note}</span>
-<span id="cb3-309"><a href="#cb3-309"></a>Note that there are five types of callouts, including:</span>
-<span id="cb3-310"><a href="#cb3-310"></a><span class="in">`note`</span>, <span class="in">`tip`</span>, <span class="in">`warning`</span>, <span class="in">`caution`</span>, and <span class="in">`important`</span>.</span>
-<span id="cb3-311"><a href="#cb3-311"></a>:::</span>
-<span id="cb3-312"><a href="#cb3-312"></a></span>
-<span id="cb3-313"><a href="#cb3-313"></a><span class="fu">## Stimulus Plotting {#sec-scriv151}</span></span>
+<span id="cb3-308"><a href="#cb3-308"></a>Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.</span>
+<span id="cb3-309"><a href="#cb3-309"></a></span>
+<span id="cb3-310"><a href="#cb3-310"></a>:::{.callout-note}</span>
+<span id="cb3-311"><a href="#cb3-311"></a>Note that there are five types of callouts, including:</span>
+<span id="cb3-312"><a href="#cb3-312"></a><span class="in">`note`</span>, <span class="in">`tip`</span>, <span class="in">`warning`</span>, <span class="in">`caution`</span>, and <span class="in">`important`</span>.</span>
+<span id="cb3-313"><a href="#cb3-313"></a>:::</span>
 <span id="cb3-314"><a href="#cb3-314"></a></span>
-<span id="cb3-315"><a href="#cb3-315"></a></span>
-<span id="cb3-316"><a href="#cb3-316"></a>[]{#scriv151}</span>
+<span id="cb3-315"><a href="#cb3-315"></a><span class="fu">## Stimulus Plotting {#sec-scriv151}</span></span>
+<span id="cb3-316"><a href="#cb3-316"></a></span>
 <span id="cb3-317"><a href="#cb3-317"></a></span>
-<span id="cb3-318"><a href="#cb3-318"></a>Note if you have R and Python installed, you can run code like so...</span>
+<span id="cb3-318"><a href="#cb3-318"></a>[]{#scriv151}</span>
 <span id="cb3-319"><a href="#cb3-319"></a></span>
-<span id="cb3-320"><a href="#cb3-320"></a>Here is an R plot (<span class="co">[</span><span class="ot">@fig-scriv151</span><span class="co">]</span>), you need to have R installed for this to work, if not remove this document from the compile:</span>
+<span id="cb3-320"><a href="#cb3-320"></a>Note if you have R and Python installed, you can run code like so...</span>
 <span id="cb3-321"><a href="#cb3-321"></a></span>
-<span id="cb3-324"><a href="#cb3-324"></a><span class="in">```{r}</span></span>
-<span id="cb3-325"><a href="#cb3-325"></a><span class="co">#| label: fig-scriv151</span></span>
-<span id="cb3-326"><a href="#cb3-326"></a><span class="co">#| fig-cap: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level.</span></span>
-<span id="cb3-327"><a href="#cb3-327"></a><span class="co">#| column: page</span></span>
-<span id="cb3-328"><a href="#cb3-328"></a><span class="co">#| warning: false</span></span>
-<span id="cb3-329"><a href="#cb3-329"></a></span>
-<span id="cb3-330"><a href="#cb3-330"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb3-322"><a href="#cb3-322"></a>Here is an R plot (<span class="co">[</span><span class="ot">@fig-scriv151</span><span class="co">]</span>), you need to have R installed for this to work, if not remove this document from the compile:</span>
+<span id="cb3-323"><a href="#cb3-323"></a></span>
+<span id="cb3-326"><a href="#cb3-326"></a><span class="in">```{r}</span></span>
+<span id="cb3-327"><a href="#cb3-327"></a><span class="co">#| label: fig-scriv151</span></span>
+<span id="cb3-328"><a href="#cb3-328"></a><span class="co">#| fig-cap: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level.</span></span>
+<span id="cb3-329"><a href="#cb3-329"></a><span class="co">#| column: page</span></span>
+<span id="cb3-330"><a href="#cb3-330"></a><span class="co">#| warning: false</span></span>
 <span id="cb3-331"><a href="#cb3-331"></a></span>
-<span id="cb3-332"><a href="#cb3-332"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span></span>
-<span id="cb3-333"><a href="#cb3-333"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb3-334"><a href="#cb3-334"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>)</span>
-<span id="cb3-335"><a href="#cb3-335"></a><span class="in">```</span></span>
-<span id="cb3-336"><a href="#cb3-336"></a></span>
-<span id="cb3-337"><a href="#cb3-337"></a></span>
-<span id="cb3-338"><a href="#cb3-338"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. <span class="co">[</span><span class="ot">This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. </span><span class="co">]</span>{.aside}Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-332"><a href="#cb3-332"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb3-333"><a href="#cb3-333"></a></span>
+<span id="cb3-334"><a href="#cb3-334"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span></span>
+<span id="cb3-335"><a href="#cb3-335"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb3-336"><a href="#cb3-336"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>)</span>
+<span id="cb3-337"><a href="#cb3-337"></a><span class="in">```</span></span>
+<span id="cb3-338"><a href="#cb3-338"></a></span>
 <span id="cb3-339"><a href="#cb3-339"></a></span>
-<span id="cb3-340"><a href="#cb3-340"></a></span>
-<span id="cb3-343"><a href="#cb3-343"></a><span class="in">```{r}</span></span>
-<span id="cb3-344"><a href="#cb3-344"></a><span class="co">#| tbl-cap: This table uses Section Type `[Code R]` to insert the correct markup at compile, this is an alternative to using the `[R Block]` paragraph style. This shows a table generated by the R package *kableExtra*. Currently this works for HTML and LaTeX.</span></span>
-<span id="cb3-345"><a href="#cb3-345"></a><span class="co">#| echo: false</span></span>
-<span id="cb3-346"><a href="#cb3-346"></a></span>
-<span id="cb3-347"><a href="#cb3-347"></a><span class="co"># install.packages("kableExtra") # you need to install this in R</span></span>
-<span id="cb3-348"><a href="#cb3-348"></a><span class="fu">library</span>(kableExtra)</span>
-<span id="cb3-349"><a href="#cb3-349"></a>dt <span class="ot">&lt;-</span> mtcars[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>]</span>
-<span id="cb3-350"><a href="#cb3-350"></a><span class="fu">kbl</span>(dt) <span class="sc">%&gt;%</span></span>
-<span id="cb3-351"><a href="#cb3-351"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span>
-<span id="cb3-352"><a href="#cb3-352"></a></span>
-<span id="cb3-353"><a href="#cb3-353"></a><span class="in">```</span></span>
+<span id="cb3-340"><a href="#cb3-340"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. <span class="co">[</span><span class="ot">This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. </span><span class="co">]</span>{.aside}Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-341"><a href="#cb3-341"></a></span>
+<span id="cb3-342"><a href="#cb3-342"></a></span>
+<span id="cb3-345"><a href="#cb3-345"></a><span class="in">```{r}</span></span>
+<span id="cb3-346"><a href="#cb3-346"></a><span class="co">#| tbl-cap: This table uses Section Type `[Code R]` to insert the correct markup at compile, this is an alternative to using the `[R Block]` paragraph style. This shows a table generated by the R package *kableExtra*. Currently this works for HTML and LaTeX.</span></span>
+<span id="cb3-347"><a href="#cb3-347"></a><span class="co">#| echo: false</span></span>
+<span id="cb3-348"><a href="#cb3-348"></a></span>
+<span id="cb3-349"><a href="#cb3-349"></a><span class="co"># install.packages("kableExtra") # you need to install this in R</span></span>
+<span id="cb3-350"><a href="#cb3-350"></a><span class="fu">library</span>(kableExtra)</span>
+<span id="cb3-351"><a href="#cb3-351"></a>dt <span class="ot">&lt;-</span> mtcars[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>]</span>
+<span id="cb3-352"><a href="#cb3-352"></a><span class="fu">kbl</span>(dt) <span class="sc">%&gt;%</span></span>
+<span id="cb3-353"><a href="#cb3-353"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span>
 <span id="cb3-354"><a href="#cb3-354"></a></span>
-<span id="cb3-355"><a href="#cb3-355"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, *ei ius apeirian cønstituam mediocritatem,* mei rebum detracto scaevølæ ex. Sed modo dico ullum at, **sententiae definiebas ex eam**! Nøstro eruditi eum ex.</span>
+<span id="cb3-355"><a href="#cb3-355"></a><span class="in">```</span></span>
 <span id="cb3-356"><a href="#cb3-356"></a></span>
-<span id="cb3-357"><a href="#cb3-357"></a><span class="fu">## Statistical Analysis {#sec-scriv154}</span></span>
+<span id="cb3-357"><a href="#cb3-357"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, *ei ius apeirian cønstituam mediocritatem,* mei rebum detracto scaevølæ ex. Sed modo dico ullum at, **sententiae definiebas ex eam**! Nøstro eruditi eum ex.</span>
 <span id="cb3-358"><a href="#cb3-358"></a></span>
-<span id="cb3-359"><a href="#cb3-359"></a></span>
-<span id="cb3-360"><a href="#cb3-360"></a>[]{#scriv154}</span>
+<span id="cb3-359"><a href="#cb3-359"></a><span class="fu">## Statistical Analysis {#sec-scriv154}</span></span>
+<span id="cb3-360"><a href="#cb3-360"></a></span>
 <span id="cb3-361"><a href="#cb3-361"></a></span>
-<span id="cb3-362"><a href="#cb3-362"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-362"><a href="#cb3-362"></a>[]{#scriv154}</span>
 <span id="cb3-363"><a href="#cb3-363"></a></span>
-<span id="cb3-366"><a href="#cb3-366"></a><span class="in">```{dot}</span></span>
-<span id="cb3-367"><a href="#cb3-367"></a>//| label: fig<span class="ot">-s</span>criv154</span>
-<span id="cb3-368"><a href="#cb3-368"></a>//| fig<span class="ot">-c</span>ap: <span class="ot">"</span><span class="st">A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...</span><span class="ot">"</span></span>
-<span id="cb3-369"><a href="#cb3-369"></a>//| column: body<span class="ot">-o</span>utset</span>
-<span id="cb3-370"><a href="#cb3-370"></a></span>
-<span id="cb3-371"><a href="#cb3-371"></a>graph G {</span>
-<span id="cb3-372"><a href="#cb3-372"></a>  layout=neato</span>
-<span id="cb3-373"><a href="#cb3-373"></a>  run -- intr;</span>
-<span id="cb3-374"><a href="#cb3-374"></a>  intr -- runbl;</span>
-<span id="cb3-375"><a href="#cb3-375"></a>  runbl -- run;</span>
-<span id="cb3-376"><a href="#cb3-376"></a>  run -- kernel;</span>
-<span id="cb3-377"><a href="#cb3-377"></a>  kernel -- zombie;</span>
-<span id="cb3-378"><a href="#cb3-378"></a>  kernel -- <span class="fu">sleep</span>;</span>
-<span id="cb3-379"><a href="#cb3-379"></a>  kernel -- runmem;</span>
-<span id="cb3-380"><a href="#cb3-380"></a>  <span class="fu">sleep</span> -- swap;</span>
-<span id="cb3-381"><a href="#cb3-381"></a>  swap -- runswap;</span>
-<span id="cb3-382"><a href="#cb3-382"></a>  runswap -- new;</span>
-<span id="cb3-383"><a href="#cb3-383"></a>  runswap -- runmem;</span>
-<span id="cb3-384"><a href="#cb3-384"></a>  new -- runmem;</span>
-<span id="cb3-385"><a href="#cb3-385"></a>  <span class="fu">sleep</span> -- runmem;</span>
-<span id="cb3-386"><a href="#cb3-386"></a>}</span>
-<span id="cb3-387"><a href="#cb3-387"></a><span class="in">```</span></span>
-<span id="cb3-388"><a href="#cb3-388"></a></span>
-<span id="cb3-389"><a href="#cb3-389"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See <span class="co">[</span><span class="ot">@fig-scriv155</span><span class="co">]</span> and <span class="co">[</span><span class="ot">@fig-scriv157</span><span class="co">]</span> for details.</span>
+<span id="cb3-364"><a href="#cb3-364"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-365"><a href="#cb3-365"></a></span>
+<span id="cb3-368"><a href="#cb3-368"></a><span class="in">```{dot}</span></span>
+<span id="cb3-369"><a href="#cb3-369"></a>//| label: fig<span class="ot">-s</span>criv154</span>
+<span id="cb3-370"><a href="#cb3-370"></a>//| fig<span class="ot">-c</span>ap: <span class="ot">"</span><span class="st">A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...</span><span class="ot">"</span></span>
+<span id="cb3-371"><a href="#cb3-371"></a>//| column: body<span class="ot">-o</span>utset</span>
+<span id="cb3-372"><a href="#cb3-372"></a></span>
+<span id="cb3-373"><a href="#cb3-373"></a>graph G {</span>
+<span id="cb3-374"><a href="#cb3-374"></a>  layout=neato</span>
+<span id="cb3-375"><a href="#cb3-375"></a>  run -- intr;</span>
+<span id="cb3-376"><a href="#cb3-376"></a>  intr -- runbl;</span>
+<span id="cb3-377"><a href="#cb3-377"></a>  runbl -- run;</span>
+<span id="cb3-378"><a href="#cb3-378"></a>  run -- kernel;</span>
+<span id="cb3-379"><a href="#cb3-379"></a>  kernel -- zombie;</span>
+<span id="cb3-380"><a href="#cb3-380"></a>  kernel -- <span class="fu">sleep</span>;</span>
+<span id="cb3-381"><a href="#cb3-381"></a>  kernel -- runmem;</span>
+<span id="cb3-382"><a href="#cb3-382"></a>  <span class="fu">sleep</span> -- swap;</span>
+<span id="cb3-383"><a href="#cb3-383"></a>  swap -- runswap;</span>
+<span id="cb3-384"><a href="#cb3-384"></a>  runswap -- new;</span>
+<span id="cb3-385"><a href="#cb3-385"></a>  runswap -- runmem;</span>
+<span id="cb3-386"><a href="#cb3-386"></a>  new -- runmem;</span>
+<span id="cb3-387"><a href="#cb3-387"></a>  <span class="fu">sleep</span> -- runmem;</span>
+<span id="cb3-388"><a href="#cb3-388"></a>}</span>
+<span id="cb3-389"><a href="#cb3-389"></a><span class="in">```</span></span>
 <span id="cb3-390"><a href="#cb3-390"></a></span>
-<span id="cb3-393"><a href="#cb3-393"></a><span class="in">```{dot}</span></span>
-<span id="cb3-394"><a href="#cb3-394"></a>//| label: fig<span class="ot">-s</span>criv155</span>
-<span id="cb3-395"><a href="#cb3-395"></a>//| fig<span class="ot">-c</span>ap: <span class="ot">"</span><span class="st">A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...</span><span class="ot">"</span></span>
-<span id="cb3-396"><a href="#cb3-396"></a>//| column: page</span>
-<span id="cb3-397"><a href="#cb3-397"></a></span>
-<span id="cb3-398"><a href="#cb3-398"></a>digraph finite_state_machine {</span>
-<span id="cb3-399"><a href="#cb3-399"></a>    Fontname=<span class="ot">"</span><span class="st">Avenir,Helvetica,sans-serif</span><span class="ot">"</span></span>
-<span id="cb3-400"><a href="#cb3-400"></a>    node [fontname=<span class="ot">"</span><span class="st">Avenir,Helvetica,sans-serif</span><span class="ot">"</span>]</span>
-<span id="cb3-401"><a href="#cb3-401"></a>    edge [fontname=<span class="ot">"</span><span class="st">Avenir,Helvetica,sans-serif</span><span class="ot">"</span>]</span>
-<span id="cb3-402"><a href="#cb3-402"></a>    rankdir=LR;</span>
-<span id="cb3-403"><a href="#cb3-403"></a>    node [shape = doublecircle]; <span class="dv">0</span> <span class="dv">3</span> <span class="dv">4</span> <span class="dv">8</span>;</span>
-<span id="cb3-404"><a href="#cb3-404"></a>    node [shape = circle];</span>
-<span id="cb3-405"><a href="#cb3-405"></a>    <span class="dv">0</span> -&gt; <span class="dv">2</span> [label = <span class="ot">"</span><span class="st">SS(B)</span><span class="ot">"</span>];</span>
-<span id="cb3-406"><a href="#cb3-406"></a>    <span class="dv">0</span> -&gt; <span class="dv">1</span> [label = <span class="ot">"</span><span class="st">SS(S)</span><span class="ot">"</span>];</span>
-<span id="cb3-407"><a href="#cb3-407"></a>    <span class="dv">1</span> -&gt; <span class="dv">3</span> [label = <span class="ot">"</span><span class="st">S(</span><span class="dt">$end</span><span class="st">)</span><span class="ot">"</span>];</span>
-<span id="cb3-408"><a href="#cb3-408"></a>    <span class="dv">2</span> -&gt; <span class="dv">6</span> [label = <span class="ot">"</span><span class="st">SS(b)</span><span class="ot">"</span>];</span>
-<span id="cb3-409"><a href="#cb3-409"></a>    <span class="dv">2</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">SS(a)</span><span class="ot">"</span>];</span>
-<span id="cb3-410"><a href="#cb3-410"></a>    <span class="dv">2</span> -&gt; <span class="dv">4</span> [label = <span class="ot">"</span><span class="st">S(A)</span><span class="ot">"</span>];</span>
-<span id="cb3-411"><a href="#cb3-411"></a>    <span class="dv">5</span> -&gt; <span class="dv">7</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
-<span id="cb3-412"><a href="#cb3-412"></a>    <span class="dv">5</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
-<span id="cb3-413"><a href="#cb3-413"></a>    <span class="dv">6</span> -&gt; <span class="dv">6</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
-<span id="cb3-414"><a href="#cb3-414"></a>    <span class="dv">6</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
-<span id="cb3-415"><a href="#cb3-415"></a>    <span class="dv">7</span> -&gt; <span class="dv">8</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
-<span id="cb3-416"><a href="#cb3-416"></a>    <span class="dv">7</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
-<span id="cb3-417"><a href="#cb3-417"></a>    <span class="dv">8</span> -&gt; <span class="dv">6</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
-<span id="cb3-418"><a href="#cb3-418"></a>    <span class="dv">8</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
-<span id="cb3-419"><a href="#cb3-419"></a>}</span>
-<span id="cb3-420"><a href="#cb3-420"></a></span>
-<span id="cb3-421"><a href="#cb3-421"></a><span class="in">```</span></span>
+<span id="cb3-391"><a href="#cb3-391"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See <span class="co">[</span><span class="ot">@fig-scriv155</span><span class="co">]</span> and <span class="co">[</span><span class="ot">@fig-scriv157</span><span class="co">]</span> for details.</span>
+<span id="cb3-392"><a href="#cb3-392"></a></span>
+<span id="cb3-395"><a href="#cb3-395"></a><span class="in">```{dot}</span></span>
+<span id="cb3-396"><a href="#cb3-396"></a>//| label: fig<span class="ot">-s</span>criv155</span>
+<span id="cb3-397"><a href="#cb3-397"></a>//| fig<span class="ot">-c</span>ap: <span class="ot">"</span><span class="st">A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...</span><span class="ot">"</span></span>
+<span id="cb3-398"><a href="#cb3-398"></a>//| column: page</span>
+<span id="cb3-399"><a href="#cb3-399"></a></span>
+<span id="cb3-400"><a href="#cb3-400"></a>digraph finite_state_machine {</span>
+<span id="cb3-401"><a href="#cb3-401"></a>    Fontname=<span class="ot">"</span><span class="st">Avenir,Helvetica,sans-serif</span><span class="ot">"</span></span>
+<span id="cb3-402"><a href="#cb3-402"></a>    node [fontname=<span class="ot">"</span><span class="st">Avenir,Helvetica,sans-serif</span><span class="ot">"</span>]</span>
+<span id="cb3-403"><a href="#cb3-403"></a>    edge [fontname=<span class="ot">"</span><span class="st">Avenir,Helvetica,sans-serif</span><span class="ot">"</span>]</span>
+<span id="cb3-404"><a href="#cb3-404"></a>    rankdir=LR;</span>
+<span id="cb3-405"><a href="#cb3-405"></a>    node [shape = doublecircle]; <span class="dv">0</span> <span class="dv">3</span> <span class="dv">4</span> <span class="dv">8</span>;</span>
+<span id="cb3-406"><a href="#cb3-406"></a>    node [shape = circle];</span>
+<span id="cb3-407"><a href="#cb3-407"></a>    <span class="dv">0</span> -&gt; <span class="dv">2</span> [label = <span class="ot">"</span><span class="st">SS(B)</span><span class="ot">"</span>];</span>
+<span id="cb3-408"><a href="#cb3-408"></a>    <span class="dv">0</span> -&gt; <span class="dv">1</span> [label = <span class="ot">"</span><span class="st">SS(S)</span><span class="ot">"</span>];</span>
+<span id="cb3-409"><a href="#cb3-409"></a>    <span class="dv">1</span> -&gt; <span class="dv">3</span> [label = <span class="ot">"</span><span class="st">S(</span><span class="dt">$end</span><span class="st">)</span><span class="ot">"</span>];</span>
+<span id="cb3-410"><a href="#cb3-410"></a>    <span class="dv">2</span> -&gt; <span class="dv">6</span> [label = <span class="ot">"</span><span class="st">SS(b)</span><span class="ot">"</span>];</span>
+<span id="cb3-411"><a href="#cb3-411"></a>    <span class="dv">2</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">SS(a)</span><span class="ot">"</span>];</span>
+<span id="cb3-412"><a href="#cb3-412"></a>    <span class="dv">2</span> -&gt; <span class="dv">4</span> [label = <span class="ot">"</span><span class="st">S(A)</span><span class="ot">"</span>];</span>
+<span id="cb3-413"><a href="#cb3-413"></a>    <span class="dv">5</span> -&gt; <span class="dv">7</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
+<span id="cb3-414"><a href="#cb3-414"></a>    <span class="dv">5</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
+<span id="cb3-415"><a href="#cb3-415"></a>    <span class="dv">6</span> -&gt; <span class="dv">6</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
+<span id="cb3-416"><a href="#cb3-416"></a>    <span class="dv">6</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
+<span id="cb3-417"><a href="#cb3-417"></a>    <span class="dv">7</span> -&gt; <span class="dv">8</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
+<span id="cb3-418"><a href="#cb3-418"></a>    <span class="dv">7</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
+<span id="cb3-419"><a href="#cb3-419"></a>    <span class="dv">8</span> -&gt; <span class="dv">6</span> [label = <span class="ot">"</span><span class="st">S(b)</span><span class="ot">"</span>];</span>
+<span id="cb3-420"><a href="#cb3-420"></a>    <span class="dv">8</span> -&gt; <span class="dv">5</span> [label = <span class="ot">"</span><span class="st">S(a)</span><span class="ot">"</span>];</span>
+<span id="cb3-421"><a href="#cb3-421"></a>}</span>
 <span id="cb3-422"><a href="#cb3-422"></a></span>
-<span id="cb3-423"><a href="#cb3-423"></a>Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-423"><a href="#cb3-423"></a><span class="in">```</span></span>
 <span id="cb3-424"><a href="#cb3-424"></a></span>
-<span id="cb3-425"><a href="#cb3-425"></a></span>
-<span id="cb3-428"><a href="#cb3-428"></a><span class="in">```{mermaid}</span></span>
-<span id="cb3-429"><a href="#cb3-429"></a>%%| label: fig<span class="ot">-s</span>criv157</span>
-<span id="cb3-430"><a href="#cb3-430"></a>%%| fig<span class="ot">-c</span>ap: <span class="ot">"</span><span class="st">A Mermaid figure using a Scrivener Section Type [Diagram Mermaid]; The plot represents some sort of graph...</span><span class="ot">"</span></span>
-<span id="cb3-431"><a href="#cb3-431"></a></span>
-<span id="cb3-432"><a href="#cb3-432"></a>%%| column: page</span>
+<span id="cb3-425"><a href="#cb3-425"></a>Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-426"><a href="#cb3-426"></a></span>
+<span id="cb3-427"><a href="#cb3-427"></a></span>
+<span id="cb3-430"><a href="#cb3-430"></a><span class="in">```{mermaid}</span></span>
+<span id="cb3-431"><a href="#cb3-431"></a>%%| label: fig<span class="ot">-s</span>criv157</span>
+<span id="cb3-432"><a href="#cb3-432"></a>%%| fig<span class="ot">-c</span>ap: <span class="ot">"</span><span class="st">A Mermaid figure using a Scrivener Section Type [Diagram Mermaid]; The plot represents some sort of graph...</span><span class="ot">"</span></span>
 <span id="cb3-433"><a href="#cb3-433"></a></span>
-<span id="cb3-434"><a href="#cb3-434"></a>flowchart LR</span>
-<span id="cb3-435"><a href="#cb3-435"></a>  A[Hard edge] --&gt; B(Round edge)</span>
-<span id="cb3-436"><a href="#cb3-436"></a>  B --&gt; C{Decision}</span>
-<span id="cb3-437"><a href="#cb3-437"></a>  C --&gt; D[Result one]</span>
-<span id="cb3-438"><a href="#cb3-438"></a>  C --&gt; E[Result two]</span>
-<span id="cb3-439"><a href="#cb3-439"></a></span>
-<span id="cb3-440"><a href="#cb3-440"></a><span class="in">```</span></span>
+<span id="cb3-434"><a href="#cb3-434"></a>%%| column: page</span>
+<span id="cb3-435"><a href="#cb3-435"></a></span>
+<span id="cb3-436"><a href="#cb3-436"></a>flowchart LR</span>
+<span id="cb3-437"><a href="#cb3-437"></a>  A[Hard edge] --&gt; B(Round edge)</span>
+<span id="cb3-438"><a href="#cb3-438"></a>  B --&gt; C{Decision}</span>
+<span id="cb3-439"><a href="#cb3-439"></a>  C --&gt; D[Result one]</span>
+<span id="cb3-440"><a href="#cb3-440"></a>  C --&gt; E[Result two]</span>
 <span id="cb3-441"><a href="#cb3-441"></a></span>
-<span id="cb3-442"><a href="#cb3-442"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
+<span id="cb3-442"><a href="#cb3-442"></a><span class="in">```</span></span>
 <span id="cb3-443"><a href="#cb3-443"></a></span>
-<span id="cb3-444"><a href="#cb3-444"></a>Åd nam omnis ullamcørper vituperatoribus. Sed vereartincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.</span>
+<span id="cb3-444"><a href="#cb3-444"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
 <span id="cb3-445"><a href="#cb3-445"></a></span>
-<span id="cb3-446"><a href="#cb3-446"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
+<span id="cb3-446"><a href="#cb3-446"></a>Åd nam omnis ullamcørper vituperatoribus. Sed vereartincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.</span>
 <span id="cb3-447"><a href="#cb3-447"></a></span>
-<span id="cb3-448"><a href="#cb3-448"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See <span class="co">[</span><span class="ot">@fig-scriv159</span><span class="co">]</span> for details.</span>
+<span id="cb3-448"><a href="#cb3-448"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
 <span id="cb3-449"><a href="#cb3-449"></a></span>
-<span id="cb3-450"><a href="#cb3-450"></a></span>
+<span id="cb3-450"><a href="#cb3-450"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See <span class="co">[</span><span class="ot">@fig-scriv159</span><span class="co">]</span> for details.</span>
 <span id="cb3-451"><a href="#cb3-451"></a></span>
-<span id="cb3-452"><a href="#cb3-452"></a><span class="al">![ This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details...][Ulysses1-1]</span></span>
+<span id="cb3-452"><a href="#cb3-452"></a></span>
 <span id="cb3-453"><a href="#cb3-453"></a></span>
-<span id="cb3-454"><a href="#cb3-454"></a>{{&lt; pagebreak &gt;}}</span>
+<span id="cb3-454"><a href="#cb3-454"></a><span class="al">![ This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details...][Ulysses1-1]</span></span>
 <span id="cb3-455"><a href="#cb3-455"></a></span>
-<span id="cb3-456"><a href="#cb3-456"></a><span class="fu"># Results {#sec-scriv160}</span></span>
+<span id="cb3-456"><a href="#cb3-456"></a>{{&lt; pagebreak &gt;}}</span>
 <span id="cb3-457"><a href="#cb3-457"></a></span>
-<span id="cb3-458"><a href="#cb3-458"></a><span class="fu">## Lunar Cycles {#sec-scriv161}</span></span>
+<span id="cb3-458"><a href="#cb3-458"></a><span class="fu"># Results {#sec-scriv160}</span></span>
 <span id="cb3-459"><a href="#cb3-459"></a></span>
-<span id="cb3-460"><a href="#cb3-460"></a></span>
-<span id="cb3-461"><a href="#cb3-461"></a>[]{#scriv161}</span>
+<span id="cb3-460"><a href="#cb3-460"></a><span class="fu">## Lunar Cycles {#sec-scriv161}</span></span>
+<span id="cb3-461"><a href="#cb3-461"></a></span>
 <span id="cb3-462"><a href="#cb3-462"></a></span>
-<span id="cb3-463"><a href="#cb3-463"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex (see @fig-elespan). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-463"><a href="#cb3-463"></a>[]{#scriv161}</span>
 <span id="cb3-464"><a href="#cb3-464"></a></span>
-<span id="cb3-465"><a href="#cb3-465"></a>:::{.column-page}</span>
+<span id="cb3-465"><a href="#cb3-465"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex (see @fig-elespan). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
 <span id="cb3-466"><a href="#cb3-466"></a></span>
-<span id="cb3-467"><a href="#cb3-467"></a><span class="al">![This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a `.column-page` class, for Quarto's layout for extend-to-page-width.][Elephant1]</span></span>
-<span id="cb3-468"><a href="#cb3-468"></a>:::</span>
-<span id="cb3-469"><a href="#cb3-469"></a></span>
-<span id="cb3-470"><a href="#cb3-470"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
+<span id="cb3-467"><a href="#cb3-467"></a>:::{.column-page}</span>
+<span id="cb3-468"><a href="#cb3-468"></a></span>
+<span id="cb3-469"><a href="#cb3-469"></a><span class="al">![This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a `.column-page` class, for Quarto's layout for extend-to-page-width.][Elephant1]</span></span>
+<span id="cb3-470"><a href="#cb3-470"></a>:::</span>
 <span id="cb3-471"><a href="#cb3-471"></a></span>
-<span id="cb3-472"><a href="#cb3-472"></a>:::{.column-page}</span>
-<span id="cb3-473"><a href="#cb3-473"></a>!<span class="co">[</span><span class="ot">This should also span the whole page, using a paragraph block style [`Column Page`]. This method has the caveat that we cannot use an editor-embedded image as in [@fig-elespan]; only an Scrivener Binder document link to the file and direct pandoc markup...</span><span class="co">](Elephant1.jpg)</span>{#fig-elespan2}</span>
-<span id="cb3-474"><a href="#cb3-474"></a>:::</span>
-<span id="cb3-475"><a href="#cb3-475"></a></span>
-<span id="cb3-476"><a href="#cb3-476"></a></span>
-<span id="cb3-477"><a href="#cb3-477"></a>Ad pro quod definitiønem <span class="co">[</span><span class="ot">@crivellato2007</span><span class="co">]</span>, mel no laudem delectus <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo!</span>
+<span id="cb3-472"><a href="#cb3-472"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
+<span id="cb3-473"><a href="#cb3-473"></a></span>
+<span id="cb3-474"><a href="#cb3-474"></a>:::{.column-page}</span>
+<span id="cb3-475"><a href="#cb3-475"></a>!<span class="co">[</span><span class="ot">This should also span the whole page, using a paragraph block style [`Column Page`]. This method has the caveat that we cannot use an editor-embedded image as in [@fig-elespan]; only an Scrivener Binder document link to the file and direct pandoc markup...</span><span class="co">](Elephant1.jpg)</span>{#fig-elespan2}</span>
+<span id="cb3-476"><a href="#cb3-476"></a>:::</span>
+<span id="cb3-477"><a href="#cb3-477"></a></span>
 <span id="cb3-478"><a href="#cb3-478"></a></span>
-<span id="cb3-479"><a href="#cb3-479"></a></span>
+<span id="cb3-479"><a href="#cb3-479"></a>Ad pro quod definitiønem <span class="co">[</span><span class="ot">@crivellato2007</span><span class="co">]</span>, mel no laudem delectus <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo!</span>
 <span id="cb3-480"><a href="#cb3-480"></a></span>
-<span id="cb3-481"><a href="#cb3-481"></a>:::{.column-page-right}</span>
-<span id="cb3-482"><a href="#cb3-482"></a>!<span class="co">[</span><span class="ot"> This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format.</span><span class="co">][Elephant3-1]</span></span>
-<span id="cb3-483"><a href="#cb3-483"></a></span>
-<span id="cb3-484"><a href="#cb3-484"></a>:::</span>
+<span id="cb3-481"><a href="#cb3-481"></a></span>
+<span id="cb3-482"><a href="#cb3-482"></a></span>
+<span id="cb3-483"><a href="#cb3-483"></a>:::{.column-page-right}</span>
+<span id="cb3-484"><a href="#cb3-484"></a>!<span class="co">[</span><span class="ot"> This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format.</span><span class="co">][Elephant3-1]</span></span>
 <span id="cb3-485"><a href="#cb3-485"></a></span>
-<span id="cb3-486"><a href="#cb3-486"></a>Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset! We can reference sub-tables, for example see <span class="co">[</span><span class="ot">@tbl-second</span><span class="co">]</span>.</span>
+<span id="cb3-486"><a href="#cb3-486"></a>:::</span>
 <span id="cb3-487"><a href="#cb3-487"></a></span>
-<span id="cb3-488"><a href="#cb3-488"></a>::: {#tbl-panel layout-ncol=2}</span>
-<span id="cb3-489"><a href="#cb3-489"></a>| Col1 | Col2 | Col3 |</span>
-<span id="cb3-490"><a href="#cb3-490"></a>|------|------|------|</span>
-<span id="cb3-491"><a href="#cb3-491"></a>| A    | B    | C    |</span>
-<span id="cb3-492"><a href="#cb3-492"></a>| E    | F    | G    |</span>
-<span id="cb3-493"><a href="#cb3-493"></a>| A    | G    | G    |</span>
-<span id="cb3-494"><a href="#cb3-494"></a></span>
-<span id="cb3-495"><a href="#cb3-495"></a>: First Table {#tbl-first}</span>
+<span id="cb3-488"><a href="#cb3-488"></a>Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset! We can reference sub-tables, for example see <span class="co">[</span><span class="ot">@tbl-second</span><span class="co">]</span>.</span>
+<span id="cb3-489"><a href="#cb3-489"></a></span>
+<span id="cb3-490"><a href="#cb3-490"></a>::: {#tbl-panel layout-ncol=2}</span>
+<span id="cb3-491"><a href="#cb3-491"></a>| Col1 | Col2 | Col3 |</span>
+<span id="cb3-492"><a href="#cb3-492"></a>|------|------|------|</span>
+<span id="cb3-493"><a href="#cb3-493"></a>| A    | B    | C    |</span>
+<span id="cb3-494"><a href="#cb3-494"></a>| E    | F    | G    |</span>
+<span id="cb3-495"><a href="#cb3-495"></a>| A    | G    | G    |</span>
 <span id="cb3-496"><a href="#cb3-496"></a></span>
-<span id="cb3-497"><a href="#cb3-497"></a>| Col1 | Col2 | Col3 |</span>
-<span id="cb3-498"><a href="#cb3-498"></a>|------|------|------|</span>
-<span id="cb3-499"><a href="#cb3-499"></a>| A    | B    | C    |</span>
-<span id="cb3-500"><a href="#cb3-500"></a>| E    | F    | G    |</span>
-<span id="cb3-501"><a href="#cb3-501"></a>| A    | G    | G    |</span>
-<span id="cb3-502"><a href="#cb3-502"></a></span>
-<span id="cb3-503"><a href="#cb3-503"></a>: Second Table {#tbl-second}</span>
+<span id="cb3-497"><a href="#cb3-497"></a>: First Table {#tbl-first}</span>
+<span id="cb3-498"><a href="#cb3-498"></a></span>
+<span id="cb3-499"><a href="#cb3-499"></a>| Col1 | Col2 | Col3 |</span>
+<span id="cb3-500"><a href="#cb3-500"></a>|------|------|------|</span>
+<span id="cb3-501"><a href="#cb3-501"></a>| A    | B    | C    |</span>
+<span id="cb3-502"><a href="#cb3-502"></a>| E    | F    | G    |</span>
+<span id="cb3-503"><a href="#cb3-503"></a>| A    | G    | G    |</span>
 <span id="cb3-504"><a href="#cb3-504"></a></span>
-<span id="cb3-505"><a href="#cb3-505"></a>This is a markdown table panel with two sub-tables; just using plain markdown in the editor (no Scrivener Styles or Section Types).</span>
-<span id="cb3-506"><a href="#cb3-506"></a>:::</span>
-<span id="cb3-507"><a href="#cb3-507"></a></span>
-<span id="cb3-508"><a href="#cb3-508"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
+<span id="cb3-505"><a href="#cb3-505"></a>: Second Table {#tbl-second}</span>
+<span id="cb3-506"><a href="#cb3-506"></a></span>
+<span id="cb3-507"><a href="#cb3-507"></a>This is a markdown table panel with two sub-tables; just using plain markdown in the editor (no Scrivener Styles or Section Types).</span>
+<span id="cb3-508"><a href="#cb3-508"></a>:::</span>
 <span id="cb3-509"><a href="#cb3-509"></a></span>
-<span id="cb3-510"><a href="#cb3-510"></a>Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  Please refer to <span class="co">[</span><span class="ot">@tbl-scriv164</span><span class="co">]</span>, including <span class="co">[</span><span class="ot">@tbl-first2</span><span class="co">]</span> and <span class="co">[</span><span class="ot">@tbl-second2</span><span class="co">]</span> for more details.</span>
+<span id="cb3-510"><a href="#cb3-510"></a>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
 <span id="cb3-511"><a href="#cb3-511"></a></span>
-<span id="cb3-512"><a href="#cb3-512"></a>:::{#tbl-scriv164   layout-ncol=1}</span>
+<span id="cb3-512"><a href="#cb3-512"></a>Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  Please refer to <span class="co">[</span><span class="ot">@tbl-scriv164</span><span class="co">]</span>, including <span class="co">[</span><span class="ot">@tbl-first2</span><span class="co">]</span> and <span class="co">[</span><span class="ot">@tbl-second2</span><span class="co">]</span> for more details.</span>
 <span id="cb3-513"><a href="#cb3-513"></a></span>
-<span id="cb3-514"><a href="#cb3-514"></a>| Column 1 | Column 2 | Column 3 |</span>
-<span id="cb3-515"><a href="#cb3-515"></a>| :-----: | :-----: | :-----: |</span>
-<span id="cb3-516"><a href="#cb3-516"></a>| A | B | C |</span>
-<span id="cb3-517"><a href="#cb3-517"></a>| D | E | F |</span>
-<span id="cb3-518"><a href="#cb3-518"></a>| G | H | I |</span>
-<span id="cb3-519"><a href="#cb3-519"></a></span>
-<span id="cb3-520"><a href="#cb3-520"></a>: First Table {#tbl-first2}</span>
+<span id="cb3-514"><a href="#cb3-514"></a>:::{#tbl-scriv164   layout-ncol=1}</span>
+<span id="cb3-515"><a href="#cb3-515"></a></span>
+<span id="cb3-516"><a href="#cb3-516"></a>| Column 1 | Column 2 | Column 3 |</span>
+<span id="cb3-517"><a href="#cb3-517"></a>| :-----: | :-----: | :-----: |</span>
+<span id="cb3-518"><a href="#cb3-518"></a>| A | B | C |</span>
+<span id="cb3-519"><a href="#cb3-519"></a>| D | E | F |</span>
+<span id="cb3-520"><a href="#cb3-520"></a>| G | H | I |</span>
 <span id="cb3-521"><a href="#cb3-521"></a></span>
-<span id="cb3-522"><a href="#cb3-522"></a>| Column 1 | Column 2 | Column 3 |</span>
-<span id="cb3-523"><a href="#cb3-523"></a>| :-----: | :-----: | :-----: |</span>
-<span id="cb3-524"><a href="#cb3-524"></a>| J | K | L |</span>
-<span id="cb3-525"><a href="#cb3-525"></a>| M | N | O |</span>
-<span id="cb3-526"><a href="#cb3-526"></a>| P | Q | R |</span>
-<span id="cb3-527"><a href="#cb3-527"></a></span>
-<span id="cb3-528"><a href="#cb3-528"></a>: Second Table {#tbl-second2}</span>
+<span id="cb3-522"><a href="#cb3-522"></a>: First Table {#tbl-first2}</span>
+<span id="cb3-523"><a href="#cb3-523"></a></span>
+<span id="cb3-524"><a href="#cb3-524"></a>| Column 1 | Column 2 | Column 3 |</span>
+<span id="cb3-525"><a href="#cb3-525"></a>| :-----: | :-----: | :-----: |</span>
+<span id="cb3-526"><a href="#cb3-526"></a>| J | K | L |</span>
+<span id="cb3-527"><a href="#cb3-527"></a>| M | N | O |</span>
+<span id="cb3-528"><a href="#cb3-528"></a>| P | Q | R |</span>
 <span id="cb3-529"><a href="#cb3-529"></a></span>
-<span id="cb3-530"><a href="#cb3-530"></a>This is a markdown multi-table panel with two sub-tables generated using a Section Type <span class="co">[</span><span class="ot">`Multipart Table`</span><span class="co">]</span>. Note that Custom Metadata holds the cross-referencing label, layout class and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: <span class="in">`&lt;​$​​custom:Class&gt;`</span> <span class="in">`&lt;​$​​custom:Attributes&gt;`</span></span>
+<span id="cb3-530"><a href="#cb3-530"></a>: Second Table {#tbl-second2}</span>
 <span id="cb3-531"><a href="#cb3-531"></a></span>
-<span id="cb3-532"><a href="#cb3-532"></a></span>
-<span id="cb3-533"><a href="#cb3-533"></a>:::</span>
+<span id="cb3-532"><a href="#cb3-532"></a>This is a markdown multi-table panel with two sub-tables generated using a Section Type <span class="co">[</span><span class="ot">`Multipart Table`</span><span class="co">]</span>. Note that Custom Metadata holds the cross-referencing label, layout class and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: <span class="in">`&lt;​$​​custom:Class&gt;`</span> <span class="in">`&lt;​$​​custom:Attributes&gt;`</span></span>
+<span id="cb3-533"><a href="#cb3-533"></a></span>
 <span id="cb3-534"><a href="#cb3-534"></a></span>
-<span id="cb3-535"><a href="#cb3-535"></a><span class="fu">## Solar Cycles {#sec-scriv165}</span></span>
+<span id="cb3-535"><a href="#cb3-535"></a>:::</span>
 <span id="cb3-536"><a href="#cb3-536"></a></span>
-<span id="cb3-537"><a href="#cb3-537"></a></span>
-<span id="cb3-538"><a href="#cb3-538"></a>[]{#scriv165}</span>
+<span id="cb3-537"><a href="#cb3-537"></a><span class="fu">## Solar Cycles {#sec-scriv165}</span></span>
+<span id="cb3-538"><a href="#cb3-538"></a></span>
 <span id="cb3-539"><a href="#cb3-539"></a></span>
-<span id="cb3-540"><a href="#cb3-540"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
+<span id="cb3-540"><a href="#cb3-540"></a>[]{#scriv165}</span>
 <span id="cb3-541"><a href="#cb3-541"></a></span>
-<span id="cb3-542"><a href="#cb3-542"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
+<span id="cb3-542"><a href="#cb3-542"></a>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?</span>
 <span id="cb3-543"><a href="#cb3-543"></a></span>
-<span id="cb3-544"><a href="#cb3-544"></a></span>
-<span id="cb3-545"><a href="#cb3-545"></a>:::{#fig-scriv166 .column-page layout-ncol=2 layout-valign="bottom"}</span>
+<span id="cb3-544"><a href="#cb3-544"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
+<span id="cb3-545"><a href="#cb3-545"></a></span>
 <span id="cb3-546"><a href="#cb3-546"></a></span>
-<span id="cb3-547"><a href="#cb3-547"></a><span class="al">![Elephant.][Elephant2-1]</span></span>
+<span id="cb3-547"><a href="#cb3-547"></a>:::{#fig-scriv166 .column-page layout-ncol=2 layout-valign="bottom"}</span>
 <span id="cb3-548"><a href="#cb3-548"></a></span>
-<span id="cb3-549"><a href="#cb3-549"></a><span class="al">![Angry elephant with big trunk.][Elephant3-2]</span></span>
+<span id="cb3-549"><a href="#cb3-549"></a><span class="al">![Elephant.][Elephant2-1]</span></span>
 <span id="cb3-550"><a href="#cb3-550"></a></span>
-<span id="cb3-551"><a href="#cb3-551"></a>This demonstrates generating a multi-panel figure using a Scrivener Section Type <span class="co">[</span><span class="ot">`Multipart Figure`</span><span class="co">]</span> instead of using raw markdown as shown here. ID, Class and Attributes specific to the block <span class="co">[</span><span class="ot">`#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"`</span><span class="co">]</span> are saved to <span class="in">`Custom Metadata-&gt;ID, Class &amp; Attributes`</span>, and this is then inserted into the markup for this chunk by the Section Layout at compile time.</span>
+<span id="cb3-551"><a href="#cb3-551"></a><span class="al">![Angry elephant with big trunk.][Elephant3-2]</span></span>
 <span id="cb3-552"><a href="#cb3-552"></a></span>
-<span id="cb3-553"><a href="#cb3-553"></a></span>
-<span id="cb3-554"><a href="#cb3-554"></a>:::</span>
+<span id="cb3-553"><a href="#cb3-553"></a>This demonstrates generating a multi-panel figure using a Scrivener Section Type <span class="co">[</span><span class="ot">`Multipart Figure`</span><span class="co">]</span> instead of using raw markdown as shown here. ID, Class and Attributes specific to the block <span class="co">[</span><span class="ot">`#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"`</span><span class="co">]</span> are saved to <span class="in">`Custom Metadata-&gt;ID, Class &amp; Attributes`</span>, and this is then inserted into the markup for this chunk by the Section Layout at compile time.</span>
+<span id="cb3-554"><a href="#cb3-554"></a></span>
 <span id="cb3-555"><a href="#cb3-555"></a></span>
-<span id="cb3-556"><a href="#cb3-556"></a>:::{.callout-caution #scriv167  }</span>
-<span id="cb3-557"><a href="#cb3-557"></a>This is a callout, but generated using a Section Type <span class="co">[</span><span class="ot">`Callout Caution`</span><span class="co">]</span> rather than a paragraph style. Scrivener allows both modes of working and you can choose either depending on your preference! Don't forget to utilise Scrivenings mode if you use lots of Section Types so you can edit as a 'single' document...</span>
-<span id="cb3-558"><a href="#cb3-558"></a>:::</span>
-<span id="cb3-559"><a href="#cb3-559"></a></span>
-<span id="cb3-560"><a href="#cb3-560"></a></span>
-<span id="cb3-561"><a href="#cb3-561"></a>{{&lt; pagebreak &gt;}}</span>
+<span id="cb3-556"><a href="#cb3-556"></a>:::</span>
+<span id="cb3-557"><a href="#cb3-557"></a></span>
+<span id="cb3-558"><a href="#cb3-558"></a>:::{.callout-caution #scriv167  }</span>
+<span id="cb3-559"><a href="#cb3-559"></a>This is a callout, but generated using a Section Type <span class="co">[</span><span class="ot">`Callout Caution`</span><span class="co">]</span> rather than a paragraph style. Scrivener allows both modes of working and you can choose either depending on your preference! Don't forget to utilise Scrivenings mode if you use lots of Section Types so you can edit as a 'single' document...</span>
+<span id="cb3-560"><a href="#cb3-560"></a>:::</span>
+<span id="cb3-561"><a href="#cb3-561"></a></span>
 <span id="cb3-562"><a href="#cb3-562"></a></span>
-<span id="cb3-563"><a href="#cb3-563"></a></span>
-<span id="cb3-564"><a href="#cb3-564"></a>{{&lt; pagebreak &gt;}}</span>
+<span id="cb3-563"><a href="#cb3-563"></a>{{&lt; pagebreak &gt;}}</span>
+<span id="cb3-564"><a href="#cb3-564"></a></span>
 <span id="cb3-565"><a href="#cb3-565"></a></span>
-<span id="cb3-566"><a href="#cb3-566"></a><span class="fu"># Discussion {#sec-scriv168}</span></span>
+<span id="cb3-566"><a href="#cb3-566"></a>{{&lt; pagebreak &gt;}}</span>
 <span id="cb3-567"><a href="#cb3-567"></a></span>
-<span id="cb3-568"><a href="#cb3-568"></a>Lørem ipsum dolør sit amet <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>. Sed illum minimum^<span class="co">[</span><span class="ot">A final footnote.</span><span class="co">]</span> at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te?</span>
+<span id="cb3-568"><a href="#cb3-568"></a><span class="fu"># Discussion {#sec-scriv168}</span></span>
 <span id="cb3-569"><a href="#cb3-569"></a></span>
-<span id="cb3-570"><a href="#cb3-570"></a><span class="al">![This should be right-aligned if there is space...][Ulysses1-2]</span></span>
+<span id="cb3-570"><a href="#cb3-570"></a>Lørem ipsum dolør sit amet <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>. Sed illum minimum^<span class="co">[</span><span class="ot">A final footnote.</span><span class="co">]</span> at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te?</span>
 <span id="cb3-571"><a href="#cb3-571"></a></span>
-<span id="cb3-572"><a href="#cb3-572"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
+<span id="cb3-572"><a href="#cb3-572"></a><span class="al">![This should be right-aligned if there is space...][Ulysses1-2]</span></span>
 <span id="cb3-573"><a href="#cb3-573"></a></span>
-<span id="cb3-574"><a href="#cb3-574"></a>:::{.column-margin}</span>
-<span id="cb3-575"><a href="#cb3-575"></a>This Marginalia is using a Section Type <span class="co">[</span><span class="ot">`Layout Margin`</span><span class="co">]</span>. We can therefore use paragraph styles here, like <span class="co">[</span><span class="ot">`Maths Block`</span><span class="co">]</span>. We know from the *first fundamental theorem of calculus* that for $x$ in $<span class="co">[</span><span class="ot">a, b</span><span class="co">]</span>$</span>
-<span id="cb3-576"><a href="#cb3-576"></a>$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$ {#eq-scriv169}</span>
-<span id="cb3-577"><a href="#cb3-577"></a></span>
-<span id="cb3-578"><a href="#cb3-578"></a>:::</span>
+<span id="cb3-574"><a href="#cb3-574"></a>Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.</span>
+<span id="cb3-575"><a href="#cb3-575"></a></span>
+<span id="cb3-576"><a href="#cb3-576"></a>:::{.column-margin}</span>
+<span id="cb3-577"><a href="#cb3-577"></a>This Marginalia is using a Section Type <span class="co">[</span><span class="ot">`Layout Margin`</span><span class="co">]</span>. We can therefore use paragraph styles here, like <span class="co">[</span><span class="ot">`Maths Block`</span><span class="co">]</span>. We know from the *first fundamental theorem of calculus* that for $x$ in $<span class="co">[</span><span class="ot">a, b</span><span class="co">]</span>$</span>
+<span id="cb3-578"><a href="#cb3-578"></a>$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$ {#eq-scriv169}</span>
 <span id="cb3-579"><a href="#cb3-579"></a></span>
-<span id="cb3-580"><a href="#cb3-580"></a>Ad pro quod definitiønem, mel no laudem delectus <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
+<span id="cb3-580"><a href="#cb3-580"></a>:::</span>
 <span id="cb3-581"><a href="#cb3-581"></a></span>
-<span id="cb3-582"><a href="#cb3-582"></a>No meæ menandri mediøcritatem <span class="co">[</span><span class="ot">@siegel2015; @barrett2015; @crivellato2007</span><span class="co">]</span>, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
+<span id="cb3-582"><a href="#cb3-582"></a>Ad pro quod definitiønem, mel no laudem delectus <span class="co">[</span><span class="ot">@siegel2015</span><span class="co">]</span>, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!</span>
 <span id="cb3-583"><a href="#cb3-583"></a></span>
-<span id="cb3-584"><a href="#cb3-584"></a></span>
-<span id="cb3-585"><a href="#cb3-585"></a><span class="fu"># Acknowledgments {#sec-scriv171 .appendix  }</span></span>
+<span id="cb3-584"><a href="#cb3-584"></a>No meæ menandri mediøcritatem <span class="co">[</span><span class="ot">@siegel2015; @barrett2015; @crivellato2007</span><span class="co">]</span>, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.</span>
+<span id="cb3-585"><a href="#cb3-585"></a></span>
 <span id="cb3-586"><a href="#cb3-586"></a></span>
-<span id="cb3-587"><a href="#cb3-587"></a>I am grateful for the insightful comments offered by the anonymous peer reviewers at Cephalopoda &amp; Daughters. The generosity and expertise of one and all have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.</span>
+<span id="cb3-587"><a href="#cb3-587"></a><span class="fu"># Acknowledgments {#sec-scriv171 .appendix  }</span></span>
 <span id="cb3-588"><a href="#cb3-588"></a></span>
-<span id="cb3-589"><a href="#cb3-589"></a><span class="fu"># Conflicts of Interest {#sec-scriv172 .appendix  }</span></span>
+<span id="cb3-589"><a href="#cb3-589"></a>I am grateful for the insightful comments offered by the anonymous peer reviewers at Cephalopoda &amp; Daughters. The generosity and expertise of one and all have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.</span>
 <span id="cb3-590"><a href="#cb3-590"></a></span>
-<span id="cb3-591"><a href="#cb3-591"></a>The authors do **_love_** octopods, but this in no way biases their work.</span>
+<span id="cb3-591"><a href="#cb3-591"></a><span class="fu"># Conflicts of Interest {#sec-scriv172 .appendix  }</span></span>
 <span id="cb3-592"><a href="#cb3-592"></a></span>
-<span id="cb3-593"><a href="#cb3-593"></a><span class="fu"># Changes {#sec-scriv173}</span></span>
+<span id="cb3-593"><a href="#cb3-593"></a>The authors do **_love_** octopods, but this in no way biases their work.</span>
 <span id="cb3-594"><a href="#cb3-594"></a></span>
-<span id="cb3-595"><a href="#cb3-595"></a></span>
-<span id="cb3-596"><a href="#cb3-596"></a>[]{#scriv173}</span>
+<span id="cb3-595"><a href="#cb3-595"></a><span class="fu"># Changes {#sec-scriv173}</span></span>
+<span id="cb3-596"><a href="#cb3-596"></a></span>
 <span id="cb3-597"><a href="#cb3-597"></a></span>
-<span id="cb3-598"><a href="#cb3-598"></a></span>
-<span id="cb3-599"><a href="#cb3-599"></a>By Bernardo Vasconcelos (see this thread, and this thread)</span>
+<span id="cb3-598"><a href="#cb3-598"></a>[]{#scriv173}</span>
+<span id="cb3-599"><a href="#cb3-599"></a></span>
 <span id="cb3-600"><a href="#cb3-600"></a></span>
-<span id="cb3-601"><a href="#cb3-601"></a></span>
-<span id="cb3-602"><a href="#cb3-602"></a>This template descends from Ian's excellent Quarto template for Scrivener.</span>
+<span id="cb3-601"><a href="#cb3-601"></a>By Bernardo Vasconcelos (see this thread, and this thread)</span>
+<span id="cb3-602"><a href="#cb3-602"></a></span>
 <span id="cb3-603"><a href="#cb3-603"></a></span>
-<span id="cb3-604"><a href="#cb3-604"></a></span>
-<span id="cb3-605"><a href="#cb3-605"></a>This template tries to further integrate Quarto into the Scrivener writing environment. It includes new **Section Types**, **Paragraph Styles**, **Character Styles**, **Custom Meta Fields**, YAML Parameters for Quarto, new icons and more.^[See https://www.stockio.com.] If you already have Quarto and R working installations, it introduces **zero** new dependencies and you should be able to compile it right away. Please, go ahead and try it. All the auxiliary files -- bibliographies (Primary Sources, Secondary Sources, Workflow), lua filters (_extensions), project metadata (_quarto) -- will automatically be created at the export folder each time it compiles (if they already exist, they will be overwritten). The *only* external dependencies, therefore, are Quarto and R.</span>
+<span id="cb3-604"><a href="#cb3-604"></a>This template descends from Ian's excellent Quarto template for Scrivener.</span>
+<span id="cb3-605"><a href="#cb3-605"></a></span>
 <span id="cb3-606"><a href="#cb3-606"></a></span>
-<span id="cb3-607"><a href="#cb3-607"></a>The template's first notable difference is *the way* the YAML Front matter is written and *the size* it is. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for *each YAML parameter* with the idea of *having all the options properly set up and available to be included or excluded from compiling* by simply ticking a box. The YAML structure is automatically (*WIP*) formed by using the correct **Section Type** from whence the sub-items will inherit their own type (the digit between parenthesis next to the **Section Type** name indicates the number of empty spaces used as a prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the `ID` field and the value usually from the `Text` or the `Value` **Custom Metadata Field**. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called <span class="in">`Theorem Title`</span> instead of the less instructive <span class="in">`thm-title`</span> that must be in the <span class="in">`ID`</span> field.</span>
+<span id="cb3-607"><a href="#cb3-607"></a>This template tries to further integrate Quarto into the Scrivener writing environment. It includes new **Section Types**, **Paragraph Styles**, **Character Styles**, **Custom Meta Fields**, YAML Parameters for Quarto, new icons and more.^[See https://www.stockio.com.] If you already have Quarto and R working installations, it introduces **zero** new dependencies and you should be able to compile it right away. Please, go ahead and try it. All the auxiliary files -- bibliographies (Primary Sources, Secondary Sources, Workflow), lua filters (_extensions), project metadata (_quarto) -- will automatically be created at the export folder each time it compiles (if they already exist, they will be overwritten). The *only* external dependencies, therefore, are Quarto and R.</span>
 <span id="cb3-608"><a href="#cb3-608"></a></span>
-<span id="cb3-609"><a href="#cb3-609"></a></span>
-<span id="cb3-610"><a href="#cb3-610"></a>:::{.callout-important}</span>
-<span id="cb3-611"><a href="#cb3-611"></a>The YAML item key comes from the <span class="in">`ID`</span> field.</span>
-<span id="cb3-612"><a href="#cb3-612"></a>:::</span>
-<span id="cb3-613"><a href="#cb3-613"></a></span>
-<span id="cb3-614"><a href="#cb3-614"></a></span>
-<span id="cb3-615"><a href="#cb3-615"></a>I included *nearly* every option for Quarto Books and Websites, totaling 619 parameters, each one including relevant information, such as the available options, and the bookmarks to the official documentation (under **Document Bookmarks**). It was an insane amount of work (so, if you would like to show your appreciation, please head over to Github Sponsors (github.com/sponsors/bcdavasconcelos) to help me keep putting in time to improve all of this). Naturally, I have **not** tested all of them yet, but as you learn more about each parameter, you can add notes to the <span class="in">`synopsis`</span> and <span class="in">`notes`</span> fields to keep track of how it affects our document or project. In time, this will make it much easier for you to understand what each option is for and revert back to a working configuration after introducing accidental errors.</span>
+<span id="cb3-609"><a href="#cb3-609"></a>The template's first notable difference is *the way* the YAML Front matter is written and *the size* it is. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for *each YAML parameter* with the idea of *having all the options properly set up and available to be included or excluded from compiling* by simply ticking a box. The YAML structure is automatically (*WIP*) formed by using the correct **Section Type** from whence the sub-items will inherit their own type (the digit between parenthesis next to the **Section Type** name indicates the number of empty spaces used as a prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the `ID` field and the value usually from the `Text` or the `Value` **Custom Metadata Field**. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called <span class="in">`Theorem Title`</span> instead of the less instructive <span class="in">`thm-title`</span> that must be in the <span class="in">`ID`</span> field.</span>
+<span id="cb3-610"><a href="#cb3-610"></a></span>
+<span id="cb3-611"><a href="#cb3-611"></a></span>
+<span id="cb3-612"><a href="#cb3-612"></a>:::{.callout-important}</span>
+<span id="cb3-613"><a href="#cb3-613"></a>The YAML item key comes from the <span class="in">`ID`</span> field.</span>
+<span id="cb3-614"><a href="#cb3-614"></a>:::</span>
+<span id="cb3-615"><a href="#cb3-615"></a></span>
 <span id="cb3-616"><a href="#cb3-616"></a></span>
-<span id="cb3-617"><a href="#cb3-617"></a></span>
-<span id="cb3-618"><a href="#cb3-618"></a><span class="al">![][yaml]</span></span>
+<span id="cb3-617"><a href="#cb3-617"></a>I included *nearly* every option for Quarto Books and Websites, totaling 619 parameters, each one including relevant information, such as the available options, and the bookmarks to the official documentation (under **Document Bookmarks**). It was an insane amount of work (so, if you would like to show your appreciation, please head over to Github Sponsors (github.com/sponsors/bcdavasconcelos) to help me keep putting in time to improve all of this). Naturally, I have **not** tested all of them yet, but as you learn more about each parameter, you can add notes to the <span class="in">`synopsis`</span> and <span class="in">`notes`</span> fields to keep track of how it affects our document or project. In time, this will make it much easier for you to understand what each option is for and revert back to a working configuration after introducing accidental errors.</span>
+<span id="cb3-618"><a href="#cb3-618"></a></span>
 <span id="cb3-619"><a href="#cb3-619"></a></span>
-<span id="cb3-620"><a href="#cb3-620"></a>{#fig-crossref} The new layout makes it easier editing parameters without disturbing YAML's sensitive white space rules</span>
+<span id="cb3-620"><a href="#cb3-620"></a><span class="al">![][yaml]</span></span>
 <span id="cb3-621"><a href="#cb3-621"></a></span>
-<span id="cb3-622"><a href="#cb3-622"></a></span>
-<span id="cb3-623"><a href="#cb3-623"></a><span class="fu">## Cross-referencing {#sec-scriv174}</span></span>
+<span id="cb3-622"><a href="#cb3-622"></a>{#fig-crossref} The new layout makes it easier editing parameters without disturbing YAML's sensitive white space rules</span>
+<span id="cb3-623"><a href="#cb3-623"></a></span>
 <span id="cb3-624"><a href="#cb3-624"></a></span>
-<span id="cb3-625"><a href="#cb3-625"></a></span>
-<span id="cb3-626"><a href="#cb3-626"></a>[]{#scriv174}</span>
+<span id="cb3-625"><a href="#cb3-625"></a><span class="fu">## Cross-referencing {#sec-scriv174}</span></span>
+<span id="cb3-626"><a href="#cb3-626"></a></span>
 <span id="cb3-627"><a href="#cb3-627"></a></span>
-<span id="cb3-628"><a href="#cb3-628"></a>This template makes extensive use of <span class="in">`\&lt;$linkID&gt;`</span>, that is, the ID generated by Scrivener for each binder item at compile time. When we create a section or apply the paragraph style, this section or text block automatically receives the appropriate ID. This means that a table, for example, will receive <span class="in">`tbl-scrivID`</span> as ID, and an example will receive <span class="in">`exm-scrivID`</span>, a theorem will receive <span class="in">`thm-scrivID`</span>, and so on, each with the appropriate prefix.</span>
+<span id="cb3-628"><a href="#cb3-628"></a>[]{#scriv174}</span>
 <span id="cb3-629"><a href="#cb3-629"></a></span>
-<span id="cb3-630"><a href="#cb3-630"></a></span>
-<span id="cb3-631"><a href="#cb3-631"></a>:::{.callout-tip}</span>
-<span id="cb3-632"><a href="#cb3-632"></a>**Callouts** (Caution, Important, Note, Tip, Warning) and **Cross-reference Environments** (Conjecture, Corollary, Definition, Example, Exercice, Lemma, Proposition, Theorem), along with others (Tables, Equations, Figures, Listings) can be created using **Styles** or with their own **Section Types**.</span>
-<span id="cb3-633"><a href="#cb3-633"></a>:::</span>
-<span id="cb3-634"><a href="#cb3-634"></a></span>
-<span id="cb3-635"><a href="#cb3-635"></a></span>
-<span id="cb3-636"><a href="#cb3-636"></a><span class="fu">### cnj, cor, def, exm, exr, lem, prp, thm {#sec-scriv175}</span></span>
+<span id="cb3-630"><a href="#cb3-630"></a>This template makes extensive use of <span class="in">`\&lt;$linkID&gt;`</span>, that is, the ID generated by Scrivener for each binder item at compile time. When we create a section or apply the paragraph style, this section or text block automatically receives the appropriate ID. This means that a table, for example, will receive <span class="in">`tbl-scrivID`</span> as ID, and an example will receive <span class="in">`exm-scrivID`</span>, a theorem will receive <span class="in">`thm-scrivID`</span>, and so on, each with the appropriate prefix.</span>
+<span id="cb3-631"><a href="#cb3-631"></a></span>
+<span id="cb3-632"><a href="#cb3-632"></a></span>
+<span id="cb3-633"><a href="#cb3-633"></a>:::{.callout-tip}</span>
+<span id="cb3-634"><a href="#cb3-634"></a>**Callouts** (Caution, Important, Note, Tip, Warning) and **Cross-reference Environments** (Conjecture, Corollary, Definition, Example, Exercice, Lemma, Proposition, Theorem), along with others (Tables, Equations, Figures, Listings) can be created using **Styles** or with their own **Section Types**.</span>
+<span id="cb3-635"><a href="#cb3-635"></a>:::</span>
+<span id="cb3-636"><a href="#cb3-636"></a></span>
 <span id="cb3-637"><a href="#cb3-637"></a></span>
-<span id="cb3-638"><a href="#cb3-638"></a></span>
-<span id="cb3-639"><a href="#cb3-639"></a>[]{#scriv175}</span>
+<span id="cb3-638"><a href="#cb3-638"></a><span class="fu">### cnj, cor, def, exm, exr, lem, prp, thm {#sec-scriv175}</span></span>
+<span id="cb3-639"><a href="#cb3-639"></a></span>
 <span id="cb3-640"><a href="#cb3-640"></a></span>
-<span id="cb3-641"><a href="#cb3-641"></a></span>
-<span id="cb3-642"><a href="#cb3-642"></a>To reference them, use <span class="in">`scriv175`</span>, <span class="in">`scriv175`</span>, <span class="in">`scriv175`</span> or simply <span class="in">`scriv\&lt;$linkID&gt;`</span> with the proper style applied; that is, <span class="co">[</span><span class="ot">@cnj-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@cor-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@def-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exm-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exr-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@lem-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@prp-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@thm-scriv175</span><span class="co">]</span>. **Notice** that they **all** link *to the same document*, but each uses a **Style** corresponding to a different object (Conjecture, Corollary, Definition, and so on). The caveat here is that we **_cannot_** have more than <span class="co">[</span><span class="ot">one</span><span class="co">]</span>{.underline} of each kind per binder item, otherwise they will receive the same <span class="in">`ID`</span>.</span>
+<span id="cb3-641"><a href="#cb3-641"></a>[]{#scriv175}</span>
+<span id="cb3-642"><a href="#cb3-642"></a></span>
 <span id="cb3-643"><a href="#cb3-643"></a></span>
-<span id="cb3-644"><a href="#cb3-644"></a>::: {#cnj-scriv175}</span>
-<span id="cb3-645"><a href="#cb3-645"></a>Conjecture environment</span>
-<span id="cb3-646"><a href="#cb3-646"></a>:::</span>
-<span id="cb3-647"><a href="#cb3-647"></a></span>
-<span id="cb3-648"><a href="#cb3-648"></a></span>
-<span id="cb3-649"><a href="#cb3-649"></a>::: {#cor-scriv175}</span>
-<span id="cb3-650"><a href="#cb3-650"></a>Corollary environment</span>
-<span id="cb3-651"><a href="#cb3-651"></a>:::</span>
-<span id="cb3-652"><a href="#cb3-652"></a></span>
-<span id="cb3-653"><a href="#cb3-653"></a></span>
-<span id="cb3-654"><a href="#cb3-654"></a>::: {#def-scriv175}</span>
-<span id="cb3-655"><a href="#cb3-655"></a>Definition environment</span>
-<span id="cb3-656"><a href="#cb3-656"></a>:::</span>
-<span id="cb3-657"><a href="#cb3-657"></a></span>
-<span id="cb3-658"><a href="#cb3-658"></a></span>
-<span id="cb3-659"><a href="#cb3-659"></a>::: {#exm-scriv175}</span>
-<span id="cb3-660"><a href="#cb3-660"></a>Example environment</span>
-<span id="cb3-661"><a href="#cb3-661"></a>:::</span>
-<span id="cb3-662"><a href="#cb3-662"></a></span>
-<span id="cb3-663"><a href="#cb3-663"></a></span>
-<span id="cb3-664"><a href="#cb3-664"></a>::: {#exr-scriv175}</span>
-<span id="cb3-665"><a href="#cb3-665"></a>Exercise environment</span>
-<span id="cb3-666"><a href="#cb3-666"></a>:::</span>
-<span id="cb3-667"><a href="#cb3-667"></a></span>
-<span id="cb3-668"><a href="#cb3-668"></a></span>
-<span id="cb3-669"><a href="#cb3-669"></a>::: {#lem-scriv175}</span>
-<span id="cb3-670"><a href="#cb3-670"></a>Lemma environment</span>
-<span id="cb3-671"><a href="#cb3-671"></a>:::</span>
-<span id="cb3-672"><a href="#cb3-672"></a></span>
-<span id="cb3-673"><a href="#cb3-673"></a></span>
-<span id="cb3-674"><a href="#cb3-674"></a>::: {#prp-scriv175}</span>
-<span id="cb3-675"><a href="#cb3-675"></a>Proposition environment</span>
-<span id="cb3-676"><a href="#cb3-676"></a>:::</span>
-<span id="cb3-677"><a href="#cb3-677"></a></span>
-<span id="cb3-678"><a href="#cb3-678"></a></span>
-<span id="cb3-679"><a href="#cb3-679"></a>::: {#thm-scriv175}</span>
-<span id="cb3-680"><a href="#cb3-680"></a>Theorem environment</span>
-<span id="cb3-681"><a href="#cb3-681"></a>:::</span>
-<span id="cb3-682"><a href="#cb3-682"></a></span>
-<span id="cb3-683"><a href="#cb3-683"></a></span>
-<span id="cb3-684"><a href="#cb3-684"></a>As we mentioned, you can also create environments using **Section Types** instead of styles. See <span class="co">[</span><span class="ot">@cnj-scriv176</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@cor-scriv177</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@def-scriv178</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exm-scriv179</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exr-scriv180</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@lem-scriv181</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@prp-scriv182</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@thm-scriv183</span><span class="co">]</span>.</span>
+<span id="cb3-644"><a href="#cb3-644"></a>To reference them, use <span class="in">`scriv175`</span>, <span class="in">`scriv175`</span>, <span class="in">`scriv175`</span> or simply <span class="in">`scriv\&lt;$linkID&gt;`</span> with the proper style applied; that is, <span class="co">[</span><span class="ot">@cnj-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@cor-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@def-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exm-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exr-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@lem-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@prp-scriv175</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@thm-scriv175</span><span class="co">]</span>. **Notice** that they **all** link *to the same document*, but each uses a **Style** corresponding to a different object (Conjecture, Corollary, Definition, and so on). The caveat here is that we **_cannot_** have more than <span class="co">[</span><span class="ot">one</span><span class="co">]</span>{.underline} of each kind per binder item, otherwise they will receive the same <span class="in">`ID`</span>.</span>
+<span id="cb3-645"><a href="#cb3-645"></a></span>
+<span id="cb3-646"><a href="#cb3-646"></a>::: {#cnj-scriv175}</span>
+<span id="cb3-647"><a href="#cb3-647"></a>Conjecture environment</span>
+<span id="cb3-648"><a href="#cb3-648"></a>:::</span>
+<span id="cb3-649"><a href="#cb3-649"></a></span>
+<span id="cb3-650"><a href="#cb3-650"></a></span>
+<span id="cb3-651"><a href="#cb3-651"></a>::: {#cor-scriv175}</span>
+<span id="cb3-652"><a href="#cb3-652"></a>Corollary environment</span>
+<span id="cb3-653"><a href="#cb3-653"></a>:::</span>
+<span id="cb3-654"><a href="#cb3-654"></a></span>
+<span id="cb3-655"><a href="#cb3-655"></a></span>
+<span id="cb3-656"><a href="#cb3-656"></a>::: {#def-scriv175}</span>
+<span id="cb3-657"><a href="#cb3-657"></a>Definition environment</span>
+<span id="cb3-658"><a href="#cb3-658"></a>:::</span>
+<span id="cb3-659"><a href="#cb3-659"></a></span>
+<span id="cb3-660"><a href="#cb3-660"></a></span>
+<span id="cb3-661"><a href="#cb3-661"></a>::: {#exm-scriv175}</span>
+<span id="cb3-662"><a href="#cb3-662"></a>Example environment</span>
+<span id="cb3-663"><a href="#cb3-663"></a>:::</span>
+<span id="cb3-664"><a href="#cb3-664"></a></span>
+<span id="cb3-665"><a href="#cb3-665"></a></span>
+<span id="cb3-666"><a href="#cb3-666"></a>::: {#exr-scriv175}</span>
+<span id="cb3-667"><a href="#cb3-667"></a>Exercise environment</span>
+<span id="cb3-668"><a href="#cb3-668"></a>:::</span>
+<span id="cb3-669"><a href="#cb3-669"></a></span>
+<span id="cb3-670"><a href="#cb3-670"></a></span>
+<span id="cb3-671"><a href="#cb3-671"></a>::: {#lem-scriv175}</span>
+<span id="cb3-672"><a href="#cb3-672"></a>Lemma environment</span>
+<span id="cb3-673"><a href="#cb3-673"></a>:::</span>
+<span id="cb3-674"><a href="#cb3-674"></a></span>
+<span id="cb3-675"><a href="#cb3-675"></a></span>
+<span id="cb3-676"><a href="#cb3-676"></a>::: {#prp-scriv175}</span>
+<span id="cb3-677"><a href="#cb3-677"></a>Proposition environment</span>
+<span id="cb3-678"><a href="#cb3-678"></a>:::</span>
+<span id="cb3-679"><a href="#cb3-679"></a></span>
+<span id="cb3-680"><a href="#cb3-680"></a></span>
+<span id="cb3-681"><a href="#cb3-681"></a>::: {#thm-scriv175}</span>
+<span id="cb3-682"><a href="#cb3-682"></a>Theorem environment</span>
+<span id="cb3-683"><a href="#cb3-683"></a>:::</span>
+<span id="cb3-684"><a href="#cb3-684"></a></span>
 <span id="cb3-685"><a href="#cb3-685"></a></span>
-<span id="cb3-686"><a href="#cb3-686"></a>::: {#cnj-scriv176  }</span>
-<span id="cb3-687"><a href="#cb3-687"></a>Conjecture content. Notice that I am free to use Scrivener styles in this environment.</span>
-<span id="cb3-688"><a href="#cb3-688"></a>:::</span>
-<span id="cb3-689"><a href="#cb3-689"></a></span>
-<span id="cb3-690"><a href="#cb3-690"></a>::: {#cor-scriv177  }</span>
-<span id="cb3-691"><a href="#cb3-691"></a>Corollary content</span>
-<span id="cb3-692"><a href="#cb3-692"></a>:::</span>
-<span id="cb3-693"><a href="#cb3-693"></a></span>
-<span id="cb3-694"><a href="#cb3-694"></a>::: {#def-scriv178  }</span>
-<span id="cb3-695"><a href="#cb3-695"></a>Definition content</span>
-<span id="cb3-696"><a href="#cb3-696"></a>:::</span>
-<span id="cb3-697"><a href="#cb3-697"></a></span>
-<span id="cb3-698"><a href="#cb3-698"></a>::: {#exm-scriv179  }</span>
-<span id="cb3-699"><a href="#cb3-699"></a>Example content</span>
-<span id="cb3-700"><a href="#cb3-700"></a>:::</span>
-<span id="cb3-701"><a href="#cb3-701"></a></span>
-<span id="cb3-702"><a href="#cb3-702"></a>::: {#exr-scriv180  }</span>
-<span id="cb3-703"><a href="#cb3-703"></a>Exercise content</span>
-<span id="cb3-704"><a href="#cb3-704"></a>:::</span>
-<span id="cb3-705"><a href="#cb3-705"></a></span>
-<span id="cb3-706"><a href="#cb3-706"></a>::: {#lem-scriv181 }</span>
-<span id="cb3-707"><a href="#cb3-707"></a>Lemma content</span>
-<span id="cb3-708"><a href="#cb3-708"></a>:::</span>
-<span id="cb3-709"><a href="#cb3-709"></a></span>
-<span id="cb3-710"><a href="#cb3-710"></a>::: {#prp-scriv182  }</span>
-<span id="cb3-711"><a href="#cb3-711"></a>Proposition content</span>
-<span id="cb3-712"><a href="#cb3-712"></a>:::</span>
-<span id="cb3-713"><a href="#cb3-713"></a></span>
-<span id="cb3-714"><a href="#cb3-714"></a>::: {#thm-scriv183  }</span>
-<span id="cb3-715"><a href="#cb3-715"></a>Theorem content</span>
-<span id="cb3-716"><a href="#cb3-716"></a>:::</span>
-<span id="cb3-717"><a href="#cb3-717"></a></span>
-<span id="cb3-718"><a href="#cb3-718"></a><span class="fu">### eq, lst, fig, tbl {#sec-scriv184}</span></span>
+<span id="cb3-686"><a href="#cb3-686"></a>As we mentioned, you can also create environments using **Section Types** instead of styles. See <span class="co">[</span><span class="ot">@cnj-scriv176</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@cor-scriv177</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@def-scriv178</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exm-scriv179</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@exr-scriv180</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@lem-scriv181</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@prp-scriv182</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@thm-scriv183</span><span class="co">]</span>.</span>
+<span id="cb3-687"><a href="#cb3-687"></a></span>
+<span id="cb3-688"><a href="#cb3-688"></a>::: {#cnj-scriv176  }</span>
+<span id="cb3-689"><a href="#cb3-689"></a>Conjecture content. Notice that I am free to use Scrivener styles in this environment.</span>
+<span id="cb3-690"><a href="#cb3-690"></a>:::</span>
+<span id="cb3-691"><a href="#cb3-691"></a></span>
+<span id="cb3-692"><a href="#cb3-692"></a>::: {#cor-scriv177  }</span>
+<span id="cb3-693"><a href="#cb3-693"></a>Corollary content</span>
+<span id="cb3-694"><a href="#cb3-694"></a>:::</span>
+<span id="cb3-695"><a href="#cb3-695"></a></span>
+<span id="cb3-696"><a href="#cb3-696"></a>::: {#def-scriv178  }</span>
+<span id="cb3-697"><a href="#cb3-697"></a>Definition content</span>
+<span id="cb3-698"><a href="#cb3-698"></a>:::</span>
+<span id="cb3-699"><a href="#cb3-699"></a></span>
+<span id="cb3-700"><a href="#cb3-700"></a>::: {#exm-scriv179  }</span>
+<span id="cb3-701"><a href="#cb3-701"></a>Example content</span>
+<span id="cb3-702"><a href="#cb3-702"></a>:::</span>
+<span id="cb3-703"><a href="#cb3-703"></a></span>
+<span id="cb3-704"><a href="#cb3-704"></a>::: {#exr-scriv180  }</span>
+<span id="cb3-705"><a href="#cb3-705"></a>Exercise content</span>
+<span id="cb3-706"><a href="#cb3-706"></a>:::</span>
+<span id="cb3-707"><a href="#cb3-707"></a></span>
+<span id="cb3-708"><a href="#cb3-708"></a>::: {#lem-scriv181 }</span>
+<span id="cb3-709"><a href="#cb3-709"></a>Lemma content</span>
+<span id="cb3-710"><a href="#cb3-710"></a>:::</span>
+<span id="cb3-711"><a href="#cb3-711"></a></span>
+<span id="cb3-712"><a href="#cb3-712"></a>::: {#prp-scriv182  }</span>
+<span id="cb3-713"><a href="#cb3-713"></a>Proposition content</span>
+<span id="cb3-714"><a href="#cb3-714"></a>:::</span>
+<span id="cb3-715"><a href="#cb3-715"></a></span>
+<span id="cb3-716"><a href="#cb3-716"></a>::: {#thm-scriv183  }</span>
+<span id="cb3-717"><a href="#cb3-717"></a>Theorem content</span>
+<span id="cb3-718"><a href="#cb3-718"></a>:::</span>
 <span id="cb3-719"><a href="#cb3-719"></a></span>
-<span id="cb3-720"><a href="#cb3-720"></a></span>
-<span id="cb3-721"><a href="#cb3-721"></a>[]{#scriv184}</span>
+<span id="cb3-720"><a href="#cb3-720"></a><span class="fu">### eq, lst, fig, tbl {#sec-scriv184}</span></span>
+<span id="cb3-721"><a href="#cb3-721"></a></span>
 <span id="cb3-722"><a href="#cb3-722"></a></span>
-<span id="cb3-723"><a href="#cb3-723"></a>Notice that we can always use the same strategy with regular labels (<span class="co">[</span><span class="ot">@eq-scriv184</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@fig-scriv184</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@lst-scriv184</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@tbl-scriv184</span><span class="co">]</span>). This approach could be considered invasive, insofar as it automatically injects labels and IDs into different elements. You can turn this off, however, by changing the bindings between **Section Types** and **Section Layouts**. After the template is consolidated, we can introduce a secondary compile format using user-provided labels and IDs as much as possible.</span>
+<span id="cb3-723"><a href="#cb3-723"></a>[]{#scriv184}</span>
 <span id="cb3-724"><a href="#cb3-724"></a></span>
-<span id="cb3-727"><a href="#cb3-727"></a><span class="in">```{mermaid}</span></span>
-<span id="cb3-728"><a href="#cb3-728"></a>%%| label: fig<span class="ot">-s</span>criv184</span>
-<span id="cb3-729"><a href="#cb3-729"></a>%%| fig<span class="ot">-c</span>ap: ἡ&nbsp;ψυχή</span>
-<span id="cb3-730"><a href="#cb3-730"></a></span>
-<span id="cb3-731"><a href="#cb3-731"></a>graph LR</span>
+<span id="cb3-725"><a href="#cb3-725"></a>Notice that we can always use the same strategy with regular labels (<span class="co">[</span><span class="ot">@eq-scriv184</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@fig-scriv184</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@lst-scriv184</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@tbl-scriv184</span><span class="co">]</span>). This approach could be considered invasive, insofar as it automatically injects labels and IDs into different elements. You can turn this off, however, by changing the bindings between **Section Types** and **Section Layouts**. After the template is consolidated, we can introduce a secondary compile format using user-provided labels and IDs as much as possible.</span>
+<span id="cb3-726"><a href="#cb3-726"></a></span>
+<span id="cb3-729"><a href="#cb3-729"></a><span class="in">```{mermaid}</span></span>
+<span id="cb3-730"><a href="#cb3-730"></a>%%| label: fig<span class="ot">-s</span>criv184</span>
+<span id="cb3-731"><a href="#cb3-731"></a>%%| fig<span class="ot">-c</span>ap: ἡ&nbsp;ψυχή</span>
 <span id="cb3-732"><a href="#cb3-732"></a></span>
-<span id="cb3-733"><a href="#cb3-733"></a>  A([<span class="ot">"</span><span class="st">ἡ&nbsp;ψυχή</span><span class="ot">"</span>])</span>
-<span id="cb3-734"><a href="#cb3-734"></a>  B([<span class="ot">"</span><span class="st">τὸ λόγον ἔχον</span><span class="ot">"</span>])</span>
-<span id="cb3-735"><a href="#cb3-735"></a>  C([<span class="ot">"</span><span class="st">τὸ ἄλογον</span><span class="ot">"</span>])</span>
-<span id="cb3-736"><a href="#cb3-736"></a></span>
-<span id="cb3-737"><a href="#cb3-737"></a>  <span class="fu">A::</span>:<span class="kw">default</span> -.- <span class="fu">B::</span>:R</span>
-<span id="cb3-738"><a href="#cb3-738"></a>  A -.- <span class="fu">C::</span>:NR</span>
-<span id="cb3-739"><a href="#cb3-739"></a><span class="in">```</span></span>
-<span id="cb3-740"><a href="#cb3-740"></a></span>
-<span id="cb3-741"><a href="#cb3-741"></a></span>
-<span id="cb3-742"><a href="#cb3-742"></a>$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv184}</span>
+<span id="cb3-733"><a href="#cb3-733"></a>graph LR</span>
+<span id="cb3-734"><a href="#cb3-734"></a></span>
+<span id="cb3-735"><a href="#cb3-735"></a>  A([<span class="ot">"</span><span class="st">ἡ&nbsp;ψυχή</span><span class="ot">"</span>])</span>
+<span id="cb3-736"><a href="#cb3-736"></a>  B([<span class="ot">"</span><span class="st">τὸ λόγον ἔχον</span><span class="ot">"</span>])</span>
+<span id="cb3-737"><a href="#cb3-737"></a>  C([<span class="ot">"</span><span class="st">τὸ ἄλογον</span><span class="ot">"</span>])</span>
+<span id="cb3-738"><a href="#cb3-738"></a></span>
+<span id="cb3-739"><a href="#cb3-739"></a>  <span class="fu">A::</span>:<span class="kw">default</span> -.- <span class="fu">B::</span>:R</span>
+<span id="cb3-740"><a href="#cb3-740"></a>  A -.- <span class="fu">C::</span>:NR</span>
+<span id="cb3-741"><a href="#cb3-741"></a><span class="in">```</span></span>
+<span id="cb3-742"><a href="#cb3-742"></a></span>
 <span id="cb3-743"><a href="#cb3-743"></a></span>
-<span id="cb3-744"><a href="#cb3-744"></a><span class="in">```{#lst-scriv184 .ruby lst-cap="Ruby code block"}</span></span>
-<span id="cb3-745"><a href="#cb3-745"></a><span class="in">puts "Quarto rocks"</span></span>
-<span id="cb3-746"><a href="#cb3-746"></a><span class="in">```</span></span>
-<span id="cb3-747"><a href="#cb3-747"></a></span>
-<span id="cb3-748"><a href="#cb3-748"></a>| Markdown Source | Output |</span>
-<span id="cb3-749"><a href="#cb3-749"></a>| :-----: | :-----: |</span>
-<span id="cb3-750"><a href="#cb3-750"></a>| <span class="in">`[@DA]{.title}`</span> | <span class="co">[</span><span class="ot">@DA</span><span class="co">]</span>{.title} |</span>
-<span id="cb3-751"><a href="#cb3-751"></a>| <span class="in">`[@DABiehl1896 ]{.editor}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896 </span><span class="co">]</span>{.editor} |</span>
-<span id="cb3-752"><a href="#cb3-752"></a>| <span class="in">`[@DABiehl1896]{.issued}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.issued} |</span>
-<span id="cb3-753"><a href="#cb3-753"></a></span>
-<span id="cb3-754"><a href="#cb3-754"></a>: Table sample {#tbl-scriv184}</span>
+<span id="cb3-744"><a href="#cb3-744"></a>$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv184}</span>
+<span id="cb3-745"><a href="#cb3-745"></a></span>
+<span id="cb3-746"><a href="#cb3-746"></a><span class="in">```{#lst-scriv184 .ruby lst-cap="Ruby code block"}</span></span>
+<span id="cb3-747"><a href="#cb3-747"></a><span class="in">puts "Quarto rocks"</span></span>
+<span id="cb3-748"><a href="#cb3-748"></a><span class="in">```</span></span>
+<span id="cb3-749"><a href="#cb3-749"></a></span>
+<span id="cb3-750"><a href="#cb3-750"></a>| Markdown Source | Output |</span>
+<span id="cb3-751"><a href="#cb3-751"></a>| :-----: | :-----: |</span>
+<span id="cb3-752"><a href="#cb3-752"></a>| <span class="in">`[@DA]{.title}`</span> | <span class="co">[</span><span class="ot">@DA</span><span class="co">]</span>{.title} |</span>
+<span id="cb3-753"><a href="#cb3-753"></a>| <span class="in">`[@DABiehl1896 ]{.editor}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896 </span><span class="co">]</span>{.editor} |</span>
+<span id="cb3-754"><a href="#cb3-754"></a>| <span class="in">`[@DABiehl1896]{.issued}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.issued} |</span>
 <span id="cb3-755"><a href="#cb3-755"></a></span>
-<span id="cb3-756"><a href="#cb3-756"></a></span>
-<span id="cb3-757"><a href="#cb3-757"></a>And see also <span class="co">[</span><span class="ot">@eq-scriv185</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@tbl-scriv186</span><span class="co">]</span>.</span>
+<span id="cb3-756"><a href="#cb3-756"></a>: Table sample {#tbl-scriv184}</span>
+<span id="cb3-757"><a href="#cb3-757"></a></span>
 <span id="cb3-758"><a href="#cb3-758"></a></span>
-<span id="cb3-759"><a href="#cb3-759"></a>$$Equation content$$ {#eq-scriv185}</span>
+<span id="cb3-759"><a href="#cb3-759"></a>And see also <span class="co">[</span><span class="ot">@eq-scriv185</span><span class="co">]</span>, <span class="co">[</span><span class="ot">@tbl-scriv186</span><span class="co">]</span>.</span>
 <span id="cb3-760"><a href="#cb3-760"></a></span>
-<span id="cb3-761"><a href="#cb3-761"></a></span>
-<span id="cb3-762"><a href="#cb3-762"></a>| 1 | 2 | 3 |</span>
-<span id="cb3-763"><a href="#cb3-763"></a>| ----- | ----- | ----- |</span>
-<span id="cb3-764"><a href="#cb3-764"></a>| 4 | 5 | 6 |</span>
-<span id="cb3-765"><a href="#cb3-765"></a></span>
-<span id="cb3-766"><a href="#cb3-766"></a>: The caption {#tbl-scriv186  }</span>
+<span id="cb3-761"><a href="#cb3-761"></a>$$Equation content$$ {#eq-scriv185}</span>
+<span id="cb3-762"><a href="#cb3-762"></a></span>
+<span id="cb3-763"><a href="#cb3-763"></a></span>
+<span id="cb3-764"><a href="#cb3-764"></a>| 1 | 2 | 3 |</span>
+<span id="cb3-765"><a href="#cb3-765"></a>| ----- | ----- | ----- |</span>
+<span id="cb3-766"><a href="#cb3-766"></a>| 4 | 5 | 6 |</span>
 <span id="cb3-767"><a href="#cb3-767"></a></span>
-<span id="cb3-768"><a href="#cb3-768"></a><span class="fu">## CiteTools Integration {#sec-scriv187}</span></span>
+<span id="cb3-768"><a href="#cb3-768"></a>: The caption {#tbl-scriv186  }</span>
 <span id="cb3-769"><a href="#cb3-769"></a></span>
-<span id="cb3-770"><a href="#cb3-770"></a></span>
-<span id="cb3-771"><a href="#cb3-771"></a>[]{#scriv187}</span>
+<span id="cb3-770"><a href="#cb3-770"></a><span class="fu">## CiteTools Integration {#sec-scriv187}</span></span>
+<span id="cb3-771"><a href="#cb3-771"></a></span>
 <span id="cb3-772"><a href="#cb3-772"></a></span>
-<span id="cb3-773"><a href="#cb3-773"></a>[]{#scriv188}</span>
-<span id="cb3-774"><a href="#cb3-774"></a><span class="co">[</span><span class="ot">1. New</span><span class="co">]</span>{.smallcaps} **Section Layout** &amp; **Section Type** provide support for the multiple bibliographies Lua Filter.</span>
-<span id="cb3-775"><a href="#cb3-775"></a></span>
-<span id="cb3-776"><a href="#cb3-776"></a>Choose the Multibib section type, fill the <span class="in">`Value`</span> custom meta-data field with the name of your bibliography file (the file <span class="in">`ID`</span>, in some cases) and you're set! Do this with as many bibliographies as you want. The sections will be named after the last heading element, that is, the binder item whence it originated, as it happens with all other chapters of the text.</span>
+<span id="cb3-773"><a href="#cb3-773"></a>[]{#scriv187}</span>
+<span id="cb3-774"><a href="#cb3-774"></a></span>
+<span id="cb3-775"><a href="#cb3-775"></a>[]{#scriv188}</span>
+<span id="cb3-776"><a href="#cb3-776"></a><span class="co">[</span><span class="ot">1. New</span><span class="co">]</span>{.smallcaps} **Section Layout** &amp; **Section Type** provide support for the multiple bibliographies Lua Filter.</span>
 <span id="cb3-777"><a href="#cb3-777"></a></span>
-<span id="cb3-778"><a href="#cb3-778"></a></span>
-<span id="cb3-779"><a href="#cb3-779"></a>:::{.callout-note}</span>
-<span id="cb3-780"><a href="#cb3-780"></a>You can also point Quarto and Pandoc to the bibliography file using relative paths, full paths and URLs.</span>
-<span id="cb3-781"><a href="#cb3-781"></a></span>
-<span id="cb3-782"><a href="#cb3-782"></a><span class="ss">- </span><span class="in">`my_file.bib`</span></span>
-<span id="cb3-783"><a href="#cb3-783"></a><span class="ss">- </span><span class="in">`/Users/username/bibliography/my_file.bib`</span></span>
-<span id="cb3-784"><a href="#cb3-784"></a><span class="ss">- </span><span class="in">`https://raw.githubusercontent.com/.../arist.bib`</span></span>
-<span id="cb3-785"><a href="#cb3-785"></a>:::</span>
-<span id="cb3-786"><a href="#cb3-786"></a></span>
-<span id="cb3-787"><a href="#cb3-787"></a></span>
-<span id="cb3-788"><a href="#cb3-788"></a>See the backmatter for examples.</span>
+<span id="cb3-778"><a href="#cb3-778"></a>Choose the Multibib section type, fill the <span class="in">`Value`</span> custom meta-data field with the name of your bibliography file (the file <span class="in">`ID`</span>, in some cases) and you're set! Do this with as many bibliographies as you want. The sections will be named after the last heading element, that is, the binder item whence it originated, as it happens with all other chapters of the text.</span>
+<span id="cb3-779"><a href="#cb3-779"></a></span>
+<span id="cb3-780"><a href="#cb3-780"></a></span>
+<span id="cb3-781"><a href="#cb3-781"></a>:::{.callout-note}</span>
+<span id="cb3-782"><a href="#cb3-782"></a>You can also point Quarto and Pandoc to the bibliography file using relative paths, full paths and URLs.</span>
+<span id="cb3-783"><a href="#cb3-783"></a></span>
+<span id="cb3-784"><a href="#cb3-784"></a><span class="ss">- </span><span class="in">`my_file.bib`</span></span>
+<span id="cb3-785"><a href="#cb3-785"></a><span class="ss">- </span><span class="in">`/Users/username/bibliography/my_file.bib`</span></span>
+<span id="cb3-786"><a href="#cb3-786"></a><span class="ss">- </span><span class="in">`https://raw.githubusercontent.com/.../arist.bib`</span></span>
+<span id="cb3-787"><a href="#cb3-787"></a>:::</span>
+<span id="cb3-788"><a href="#cb3-788"></a></span>
 <span id="cb3-789"><a href="#cb3-789"></a></span>
-<span id="cb3-790"><a href="#cb3-790"></a></span>
-<span id="cb3-791"><a href="#cb3-791"></a><span class="co">[</span><span class="ot">2. New</span><span class="co">]</span>{.smallcaps} **Section Type** &amp; **Custom Metadata Field** can be used to override the depth of the current binder item placing the desired number of hashes in the corresponding metadata field (Depth) with no space at the end, as in ###*,* and then selecting the  Depth + Header section type.</span>
+<span id="cb3-790"><a href="#cb3-790"></a>See the backmatter for examples.</span>
+<span id="cb3-791"><a href="#cb3-791"></a></span>
 <span id="cb3-792"><a href="#cb3-792"></a></span>
-<span id="cb3-793"><a href="#cb3-793"></a><span class="fu">### Cite Field {#sec-scriv189}</span></span>
+<span id="cb3-793"><a href="#cb3-793"></a><span class="co">[</span><span class="ot">2. New</span><span class="co">]</span>{.smallcaps} **Section Type** &amp; **Custom Metadata Field** can be used to override the depth of the current binder item placing the desired number of hashes in the corresponding metadata field (Depth) with no space at the end, as in ###*,* and then selecting the  Depth + Header section type.</span>
 <span id="cb3-794"><a href="#cb3-794"></a></span>
-<span id="cb3-795"><a href="#cb3-795"></a></span>
-<span id="cb3-796"><a href="#cb3-796"></a>[]{#scriv189}</span>
+<span id="cb3-795"><a href="#cb3-795"></a><span class="fu">### Cite Field {#sec-scriv189}</span></span>
+<span id="cb3-796"><a href="#cb3-796"></a></span>
 <span id="cb3-797"><a href="#cb3-797"></a></span>
-<span id="cb3-798"><a href="#cb3-798"></a></span>
+<span id="cb3-798"><a href="#cb3-798"></a>[]{#scriv189}</span>
 <span id="cb3-799"><a href="#cb3-799"></a></span>
-<span id="cb3-800"><a href="#cb3-800"></a>:::{.column-margin}</span>
-<span id="cb3-801"><a href="#cb3-801"></a>The works of <span class="in">`[@AristOp]{.author}`</span> were first edited by <span class="in">`[@AristOp]{.editor}`</span> in <span class="in">`[@AristOp]{.issued}`</span>.</span>
-<span id="cb3-802"><a href="#cb3-802"></a></span>
-<span id="cb3-803"><a href="#cb3-803"></a>:::</span>
+<span id="cb3-800"><a href="#cb3-800"></a></span>
+<span id="cb3-801"><a href="#cb3-801"></a></span>
+<span id="cb3-802"><a href="#cb3-802"></a>:::{.column-margin}</span>
+<span id="cb3-803"><a href="#cb3-803"></a>The works of <span class="in">`[@AristOp]{.author}`</span> were first edited by <span class="in">`[@AristOp]{.editor}`</span> in <span class="in">`[@AristOp]{.issued}`</span>.</span>
 <span id="cb3-804"><a href="#cb3-804"></a></span>
-<span id="cb3-805"><a href="#cb3-805"></a></span>
-<span id="cb3-806"><a href="#cb3-806"></a>[]{#scriv191}</span>
-<span id="cb3-807"><a href="#cb3-807"></a><span class="co">[</span><span class="ot">New</span><span class="co">]</span>{.smallcaps} **Styles** provide support for the cite field Lua Filter, which can be used to cite arbitrary fields of the references.</span>
-<span id="cb3-808"><a href="#cb3-808"></a></span>
-<span id="cb3-809"><a href="#cb3-809"></a>The works of <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.author} were first edited by <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.editor} in <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.issued}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+<span id="cb3-805"><a href="#cb3-805"></a>:::</span>
+<span id="cb3-806"><a href="#cb3-806"></a></span>
+<span id="cb3-807"><a href="#cb3-807"></a></span>
+<span id="cb3-808"><a href="#cb3-808"></a>[]{#scriv191}</span>
+<span id="cb3-809"><a href="#cb3-809"></a><span class="co">[</span><span class="ot">New</span><span class="co">]</span>{.smallcaps} **Styles** provide support for the cite field Lua Filter, which can be used to cite arbitrary fields of the references.</span>
 <span id="cb3-810"><a href="#cb3-810"></a></span>
-<span id="cb3-811"><a href="#cb3-811"></a>:::{.column-margin}</span>
-<span id="cb3-812"><a href="#cb3-812"></a>Later, the <span class="in">`[@DA]{.title}`</span> (<span class="in">`[@DA]{.title-short}`</span>) was edited by <span class="in">`[@DABiehl1896]{.editor}`</span> in <span class="in">`[@DABiehl1896]{.issued}`</span> (reprinted in <span class="in">`[@DATheiler]{.translator}'s`</span> <span class="in">`[@DATheiler]{.issued}`</span> translation)</span>
-<span id="cb3-813"><a href="#cb3-813"></a>:::</span>
-<span id="cb3-814"><a href="#cb3-814"></a></span>
-<span id="cb3-815"><a href="#cb3-815"></a></span>
-<span id="cb3-816"><a href="#cb3-816"></a>[]{#scriv193}</span>
-<span id="cb3-817"><a href="#cb3-817"></a>Later, the <span class="co">[</span><span class="ot">@DA</span><span class="co">]</span>{.title} was edited by <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.editor} in <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.issued} (reprinted in <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.translator}'s <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.issued} translation). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-<span id="cb3-818"><a href="#cb3-818"></a></span>
-<span id="cb3-819"><a href="#cb3-819"></a>You can set link-fields to false to avoid undesired linking when citing specific fields.</span>
+<span id="cb3-811"><a href="#cb3-811"></a>The works of <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.author} were first edited by <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.editor} in <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.issued}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+<span id="cb3-812"><a href="#cb3-812"></a></span>
+<span id="cb3-813"><a href="#cb3-813"></a>:::{.column-margin}</span>
+<span id="cb3-814"><a href="#cb3-814"></a>Later, the <span class="in">`[@DA]{.title}`</span> (<span class="in">`[@DA]{.title-short}`</span>) was edited by <span class="in">`[@DABiehl1896]{.editor}`</span> in <span class="in">`[@DABiehl1896]{.issued}`</span> (reprinted in <span class="in">`[@DATheiler]{.translator}'s`</span> <span class="in">`[@DATheiler]{.issued}`</span> translation)</span>
+<span id="cb3-815"><a href="#cb3-815"></a>:::</span>
+<span id="cb3-816"><a href="#cb3-816"></a></span>
+<span id="cb3-817"><a href="#cb3-817"></a></span>
+<span id="cb3-818"><a href="#cb3-818"></a>[]{#scriv193}</span>
+<span id="cb3-819"><a href="#cb3-819"></a>Later, the <span class="co">[</span><span class="ot">@DA</span><span class="co">]</span>{.title} was edited by <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.editor} in <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.issued} (reprinted in <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.translator}'s <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.issued} translation). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
 <span id="cb3-820"><a href="#cb3-820"></a></span>
-<span id="cb3-821"><a href="#cb3-821"></a></span>
+<span id="cb3-821"><a href="#cb3-821"></a>You can set link-fields to false to avoid undesired linking when citing specific fields.</span>
 <span id="cb3-822"><a href="#cb3-822"></a></span>
-<span id="cb3-823"><a href="#cb3-823"></a>| Markdown Source | Output |</span>
-<span id="cb3-824"><a href="#cb3-824"></a>| :-----: | :-----: |</span>
-<span id="cb3-825"><a href="#cb3-825"></a>| <span class="in">`[@AristOp]{.author}`</span> | <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.author} |</span>
-<span id="cb3-826"><a href="#cb3-826"></a>| <span class="in">`[@AristOp]{.editor}`</span> | <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.editor} |</span>
-<span id="cb3-827"><a href="#cb3-827"></a>| <span class="in">`[@AristOp`</span>]{.issued} | <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.issued} |</span>
-<span id="cb3-828"><a href="#cb3-828"></a>| <span class="in">`[@DA]{.title}`</span> | <span class="co">[</span><span class="ot">@DA</span><span class="co">]</span>{.title} |</span>
-<span id="cb3-829"><a href="#cb3-829"></a>| <span class="in">`[@DABiehl1896 ]{.editor}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896 </span><span class="co">]</span>{.editor} |</span>
-<span id="cb3-830"><a href="#cb3-830"></a>| <span class="in">`[@DABiehl1896]{.issued}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.issued} |</span>
-<span id="cb3-831"><a href="#cb3-831"></a>| <span class="in">`[@DATheiler]{.translator}`</span> | <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.translator} |</span>
-<span id="cb3-832"><a href="#cb3-832"></a>| <span class="in">`[@DATheiler]{.issued}`</span> | <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.issued} |</span>
-<span id="cb3-833"><a href="#cb3-833"></a></span>
-<span id="cb3-834"><a href="#cb3-834"></a>: Simple example of how we are using styles to create the correct markup {#tbl-scriv194  }</span>
+<span id="cb3-823"><a href="#cb3-823"></a></span>
+<span id="cb3-824"><a href="#cb3-824"></a></span>
+<span id="cb3-825"><a href="#cb3-825"></a>| Markdown Source | Output |</span>
+<span id="cb3-826"><a href="#cb3-826"></a>| :-----: | :-----: |</span>
+<span id="cb3-827"><a href="#cb3-827"></a>| <span class="in">`[@AristOp]{.author}`</span> | <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.author} |</span>
+<span id="cb3-828"><a href="#cb3-828"></a>| <span class="in">`[@AristOp]{.editor}`</span> | <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.editor} |</span>
+<span id="cb3-829"><a href="#cb3-829"></a>| <span class="in">`[@AristOp`</span>]{.issued} | <span class="co">[</span><span class="ot">@AristOp</span><span class="co">]</span>{.issued} |</span>
+<span id="cb3-830"><a href="#cb3-830"></a>| <span class="in">`[@DA]{.title}`</span> | <span class="co">[</span><span class="ot">@DA</span><span class="co">]</span>{.title} |</span>
+<span id="cb3-831"><a href="#cb3-831"></a>| <span class="in">`[@DABiehl1896 ]{.editor}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896 </span><span class="co">]</span>{.editor} |</span>
+<span id="cb3-832"><a href="#cb3-832"></a>| <span class="in">`[@DABiehl1896]{.issued}`</span> | <span class="co">[</span><span class="ot">@DABiehl1896</span><span class="co">]</span>{.issued} |</span>
+<span id="cb3-833"><a href="#cb3-833"></a>| <span class="in">`[@DATheiler]{.translator}`</span> | <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.translator} |</span>
+<span id="cb3-834"><a href="#cb3-834"></a>| <span class="in">`[@DATheiler]{.issued}`</span> | <span class="co">[</span><span class="ot">@DATheiler</span><span class="co">]</span>{.issued} |</span>
 <span id="cb3-835"><a href="#cb3-835"></a></span>
-<span id="cb3-836"><a href="#cb3-836"></a></span>
-<span id="cb3-837"><a href="#cb3-837"></a><span class="co">[</span><span class="ot">4. Added</span><span class="co">]</span>{.smallcaps} the prefix <span class="in">`[]{#scriv\&lt;$linkID&gt;}`</span> to some **Section Layouts**.</span>
+<span id="cb3-836"><a href="#cb3-836"></a>: Simple example of how we are using styles to create the correct markup {#tbl-scriv194  }</span>
+<span id="cb3-837"><a href="#cb3-837"></a></span>
 <span id="cb3-838"><a href="#cb3-838"></a></span>
-<span id="cb3-839"><a href="#cb3-839"></a></span>
-<span id="cb3-840"><a href="#cb3-840"></a>This allows us to create links to <span class="co">[</span><span class="ot">text sections that do not have a Header element</span><span class="co">](#scriv195)</span>.</span>
+<span id="cb3-839"><a href="#cb3-839"></a><span class="co">[</span><span class="ot">4. Added</span><span class="co">]</span>{.smallcaps} the prefix <span class="in">`[]{#scriv\&lt;$linkID&gt;}`</span> to some **Section Layouts**.</span>
+<span id="cb3-840"><a href="#cb3-840"></a></span>
 <span id="cb3-841"><a href="#cb3-841"></a></span>
-<span id="cb3-842"><a href="#cb3-842"></a></span>
+<span id="cb3-842"><a href="#cb3-842"></a>This allows us to create links to <span class="co">[</span><span class="ot">text sections that do not have a Header element</span><span class="co">](#scriv195)</span>.</span>
 <span id="cb3-843"><a href="#cb3-843"></a></span>
 <span id="cb3-844"><a href="#cb3-844"></a></span>
-<span id="cb3-845"><a href="#cb3-845"></a>[]{#scriv196}</span>
-<span id="cb3-846"><a href="#cb3-846"></a>Belive it or not, Scrivener can be an interesting place to keep parts of your code. We can use the document bookmarks to leave behind an array of possibilities in case we need to revise something. We can easily copy and paste code stored on Quarto's Github repository to compare using Scrivener's superior text matching tool! (My favorite comparison tool is placing the text in different documents and using "matching text" in the Bookmark tab of the right-side inspector in Scrivener.)</span>
-<span id="cb3-847"><a href="#cb3-847"></a></span>
-<span id="cb3-848"><a href="#cb3-848"></a><span class="al">![Revising code in Scrivener can be just as pleasant][scrivenerwithcode]</span></span>
+<span id="cb3-845"><a href="#cb3-845"></a></span>
+<span id="cb3-846"><a href="#cb3-846"></a></span>
+<span id="cb3-847"><a href="#cb3-847"></a>[]{#scriv196}</span>
+<span id="cb3-848"><a href="#cb3-848"></a>Belive it or not, Scrivener can be an interesting place to keep parts of your code. We can use the document bookmarks to leave behind an array of possibilities in case we need to revise something. We can easily copy and paste code stored on Quarto's Github repository to compare using Scrivener's superior text matching tool! (My favorite comparison tool is placing the text in different documents and using "matching text" in the Bookmark tab of the right-side inspector in Scrivener.)</span>
 <span id="cb3-849"><a href="#cb3-849"></a></span>
-<span id="cb3-850"><a href="#cb3-850"></a></span>
-<span id="cb3-851"><a href="#cb3-851"></a>[]{#scriv197}</span>
+<span id="cb3-850"><a href="#cb3-850"></a><span class="al">![Revising code in Scrivener can be just as pleasant][scrivenerwithcode]</span></span>
+<span id="cb3-851"><a href="#cb3-851"></a></span>
 <span id="cb3-852"><a href="#cb3-852"></a></span>
-<span id="cb3-853"><a href="#cb3-853"></a>We can also create interesting possibilities to customize and further control the conversion process, by including in our project the default Pandoc Latex Templates. Customize any line of the whole code. Or not, maybe just leave it there and take a look every once in a while at what is going on at the Quarto repository. The template will work either way.</span>
+<span id="cb3-853"><a href="#cb3-853"></a>[]{#scriv197}</span>
 <span id="cb3-854"><a href="#cb3-854"></a></span>
-<span id="cb3-855"><a href="#cb3-855"></a><span class="al">![Students finishing their MDs or PhDs will certainly appreaciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body.][pandocquartolatextemplate]</span></span>
+<span id="cb3-855"><a href="#cb3-855"></a>We can also create interesting possibilities to customize and further control the conversion process, by including in our project the default Pandoc Latex Templates. Customize any line of the whole code. Or not, maybe just leave it there and take a look every once in a while at what is going on at the Quarto repository. The template will work either way.</span>
 <span id="cb3-856"><a href="#cb3-856"></a></span>
-<span id="cb3-857"><a href="#cb3-857"></a></span>
+<span id="cb3-857"><a href="#cb3-857"></a><span class="al">![Students finishing their MDs or PhDs will certainly appreaciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body.][pandocquartolatextemplate]</span></span>
 <span id="cb3-858"><a href="#cb3-858"></a></span>
-<span id="cb3-859"><a href="#cb3-859"></a>:::{.callout-important #scriv198  }</span>
-<span id="cb3-860"><a href="#cb3-860"></a>If you are having problems with performance, then you should try to delete the custom icons we are using. I recommend deleting all to see if that makes a difference or not on how Scrivener is behaving.</span>
-<span id="cb3-861"><a href="#cb3-861"></a>:::</span>
-<span id="cb3-862"><a href="#cb3-862"></a></span>
-<span id="cb3-863"><a href="#cb3-863"></a>:::{.callout-tip #scriv199  }</span>
-<span id="cb3-864"><a href="#cb3-864"></a>Right click on any Binder item. <span class="in">`Change Icon &gt; Manage Custom Icons...`</span></span>
-<span id="cb3-865"><a href="#cb3-865"></a>:::</span>
-<span id="cb3-866"><a href="#cb3-866"></a></span>
-<span id="cb3-867"><a href="#cb3-867"></a><span class="fu"># Primary Sources {#sec-scriv200 .appendix}</span></span>
+<span id="cb3-859"><a href="#cb3-859"></a></span>
+<span id="cb3-860"><a href="#cb3-860"></a></span>
+<span id="cb3-861"><a href="#cb3-861"></a>:::{.callout-important #scriv198  }</span>
+<span id="cb3-862"><a href="#cb3-862"></a>If you are having problems with performance, then you should try to delete the custom icons we are using. I recommend deleting all to see if that makes a difference or not on how Scrivener is behaving.</span>
+<span id="cb3-863"><a href="#cb3-863"></a>:::</span>
+<span id="cb3-864"><a href="#cb3-864"></a></span>
+<span id="cb3-865"><a href="#cb3-865"></a>:::{.callout-tip #scriv199  }</span>
+<span id="cb3-866"><a href="#cb3-866"></a>Right click on any Binder item. <span class="in">`Change Icon &gt; Manage Custom Icons...`</span></span>
+<span id="cb3-867"><a href="#cb3-867"></a>:::</span>
 <span id="cb3-868"><a href="#cb3-868"></a></span>
-<span id="cb3-869"><a href="#cb3-869"></a>---</span>
-<span id="cb3-870"><a href="#cb3-870"></a>bibliography_scriv200: |</span>
-<span id="cb3-871"><a href="#cb3-871"></a>  refs/primary-sources.yml</span>
-<span id="cb3-872"><a href="#cb3-872"></a>---</span>
-<span id="cb3-873"><a href="#cb3-873"></a></span>
-<span id="cb3-874"><a href="#cb3-874"></a>::: {#refs_scriv200  }</span>
-<span id="cb3-875"><a href="#cb3-875"></a>:::</span>
-<span id="cb3-876"><a href="#cb3-876"></a></span>
-<span id="cb3-877"><a href="#cb3-877"></a></span>
-<span id="cb3-878"><a href="#cb3-878"></a><span class="fu"># Secondary Sources {#sec-scriv201 .appendix}</span></span>
+<span id="cb3-869"><a href="#cb3-869"></a><span class="fu"># Primary Sources {#sec-scriv200 .appendix}</span></span>
+<span id="cb3-870"><a href="#cb3-870"></a></span>
+<span id="cb3-871"><a href="#cb3-871"></a>---</span>
+<span id="cb3-872"><a href="#cb3-872"></a>bibliography_scriv200: |</span>
+<span id="cb3-873"><a href="#cb3-873"></a>  refs/primary-sources.yml</span>
+<span id="cb3-874"><a href="#cb3-874"></a>---</span>
+<span id="cb3-875"><a href="#cb3-875"></a></span>
+<span id="cb3-876"><a href="#cb3-876"></a>::: {#refs_scriv200  }</span>
+<span id="cb3-877"><a href="#cb3-877"></a>:::</span>
+<span id="cb3-878"><a href="#cb3-878"></a></span>
 <span id="cb3-879"><a href="#cb3-879"></a></span>
-<span id="cb3-880"><a href="#cb3-880"></a>---</span>
-<span id="cb3-881"><a href="#cb3-881"></a>bibliography_scriv201: |</span>
-<span id="cb3-882"><a href="#cb3-882"></a>  refs/secondary-sources.yml</span>
-<span id="cb3-883"><a href="#cb3-883"></a>---</span>
-<span id="cb3-884"><a href="#cb3-884"></a></span>
-<span id="cb3-885"><a href="#cb3-885"></a>::: {#refs_scriv201  }</span>
-<span id="cb3-886"><a href="#cb3-886"></a>:::</span>
-<span id="cb3-887"><a href="#cb3-887"></a></span>
-<span id="cb3-888"><a href="#cb3-888"></a></span>
-<span id="cb3-889"><a href="#cb3-889"></a><span class="fu"># Workflow {#sec-scriv202 .appendix}</span></span>
+<span id="cb3-880"><a href="#cb3-880"></a><span class="fu"># Secondary Sources {#sec-scriv201 .appendix}</span></span>
+<span id="cb3-881"><a href="#cb3-881"></a></span>
+<span id="cb3-882"><a href="#cb3-882"></a>---</span>
+<span id="cb3-883"><a href="#cb3-883"></a>bibliography_scriv201: |</span>
+<span id="cb3-884"><a href="#cb3-884"></a>  refs/secondary-sources.yml</span>
+<span id="cb3-885"><a href="#cb3-885"></a>---</span>
+<span id="cb3-886"><a href="#cb3-886"></a></span>
+<span id="cb3-887"><a href="#cb3-887"></a>::: {#refs_scriv201  }</span>
+<span id="cb3-888"><a href="#cb3-888"></a>:::</span>
+<span id="cb3-889"><a href="#cb3-889"></a></span>
 <span id="cb3-890"><a href="#cb3-890"></a></span>
-<span id="cb3-891"><a href="#cb3-891"></a>---</span>
-<span id="cb3-892"><a href="#cb3-892"></a>bibliography_scriv202: |</span>
-<span id="cb3-893"><a href="#cb3-893"></a>  refs/workflow.bib</span>
-<span id="cb3-894"><a href="#cb3-894"></a>---</span>
-<span id="cb3-895"><a href="#cb3-895"></a></span>
-<span id="cb3-896"><a href="#cb3-896"></a>::: {#refs_scriv202  }</span>
-<span id="cb3-897"><a href="#cb3-897"></a>:::</span>
-<span id="cb3-898"><a href="#cb3-898"></a></span>
-<span id="cb3-899"><a href="#cb3-899"></a></span>
+<span id="cb3-891"><a href="#cb3-891"></a><span class="fu"># Workflow {#sec-scriv202 .appendix}</span></span>
+<span id="cb3-892"><a href="#cb3-892"></a></span>
+<span id="cb3-893"><a href="#cb3-893"></a>---</span>
+<span id="cb3-894"><a href="#cb3-894"></a>bibliography_scriv202: |</span>
+<span id="cb3-895"><a href="#cb3-895"></a>  refs/workflow.bib</span>
+<span id="cb3-896"><a href="#cb3-896"></a>---</span>
+<span id="cb3-897"><a href="#cb3-897"></a></span>
+<span id="cb3-898"><a href="#cb3-898"></a>::: {#refs_scriv202  }</span>
+<span id="cb3-899"><a href="#cb3-899"></a>:::</span>
 <span id="cb3-900"><a href="#cb3-900"></a></span>
 <span id="cb3-901"><a href="#cb3-901"></a></span>
 <span id="cb3-902"><a href="#cb3-902"></a></span>
@@ -2512,29 +2513,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb3-941"><a href="#cb3-941"></a></span>
 <span id="cb3-942"><a href="#cb3-942"></a></span>
 <span id="cb3-943"><a href="#cb3-943"></a></span>
-<span id="cb3-944"><a href="#cb3-944"></a><span class="ot">[Ulysses1]: </span>Ulysses1.jpg  {#fig-scriv146 .column-page width=486 height=402}</span>
+<span id="cb3-944"><a href="#cb3-944"></a></span>
 <span id="cb3-945"><a href="#cb3-945"></a></span>
-<span id="cb3-946"><a href="#cb3-946"></a><span class="ot">[Elephant2]: </span>Elephant2.jpg  {#fig-castle width=243 height=251}</span>
+<span id="cb3-946"><a href="#cb3-946"></a><span class="ot">[Ulysses1]: </span>Ulysses1.jpg  {#fig-scriv146 .column-page width=486 height=402}</span>
 <span id="cb3-947"><a href="#cb3-947"></a></span>
-<span id="cb3-948"><a href="#cb3-948"></a><span class="ot">[Elephant3]: </span>Elephant3.jpg  {#fig-trunk width=304 height=248}</span>
+<span id="cb3-948"><a href="#cb3-948"></a><span class="ot">[Elephant2]: </span>Elephant2.jpg  {#fig-castle width=243 height=251}</span>
 <span id="cb3-949"><a href="#cb3-949"></a></span>
-<span id="cb3-950"><a href="#cb3-950"></a><span class="ot">[Ulysses1-1]: </span>Ulysses1.jpg  {#fig-scriv159 width=537 height=444}</span>
+<span id="cb3-950"><a href="#cb3-950"></a><span class="ot">[Elephant3]: </span>Elephant3.jpg  {#fig-trunk width=304 height=248}</span>
 <span id="cb3-951"><a href="#cb3-951"></a></span>
-<span id="cb3-952"><a href="#cb3-952"></a><span class="ot">[Elephant1]: </span>Elephant1.jpg  {#fig-elespan width=520 height=262}</span>
+<span id="cb3-952"><a href="#cb3-952"></a><span class="ot">[Ulysses1-1]: </span>Ulysses1.jpg  {#fig-scriv159 width=537 height=444}</span>
 <span id="cb3-953"><a href="#cb3-953"></a></span>
-<span id="cb3-954"><a href="#cb3-954"></a><span class="ot">[Elephant3-1]: </span>Elephant3.jpg  {#fig-scriv162 width=506 height=411}</span>
+<span id="cb3-954"><a href="#cb3-954"></a><span class="ot">[Elephant1]: </span>Elephant1.jpg  {#fig-elespan width=520 height=262}</span>
 <span id="cb3-955"><a href="#cb3-955"></a></span>
-<span id="cb3-956"><a href="#cb3-956"></a><span class="ot">[Elephant2-1]: </span>Elephant2.jpg  {#fig-castle2 width=245 height=252}</span>
+<span id="cb3-956"><a href="#cb3-956"></a><span class="ot">[Elephant3-1]: </span>Elephant3.jpg  {#fig-scriv162 width=506 height=411}</span>
 <span id="cb3-957"><a href="#cb3-957"></a></span>
-<span id="cb3-958"><a href="#cb3-958"></a><span class="ot">[Elephant3-2]: </span>Elephant3.jpg  {#fig-trunk2 width=306 height=249}</span>
+<span id="cb3-958"><a href="#cb3-958"></a><span class="ot">[Elephant2-1]: </span>Elephant2.jpg  {#fig-castle2 width=245 height=252}</span>
 <span id="cb3-959"><a href="#cb3-959"></a></span>
-<span id="cb3-960"><a href="#cb3-960"></a><span class="ot">[Ulysses1-2]: </span>Ulysses1.jpg  {#fig-alignright fig-align="right" width=306 height=253}</span>
+<span id="cb3-960"><a href="#cb3-960"></a><span class="ot">[Elephant3-2]: </span>Elephant3.jpg  {#fig-trunk2 width=306 height=249}</span>
 <span id="cb3-961"><a href="#cb3-961"></a></span>
-<span id="cb3-962"><a href="#cb3-962"></a><span class="ot">[yaml]: </span>yaml.png {width=536 height=450}</span>
+<span id="cb3-962"><a href="#cb3-962"></a><span class="ot">[Ulysses1-2]: </span>Ulysses1.jpg  {#fig-alignright fig-align="right" width=306 height=253}</span>
 <span id="cb3-963"><a href="#cb3-963"></a></span>
-<span id="cb3-964"><a href="#cb3-964"></a><span class="ot">[scrivenerwithcode]: </span>scrivenerwithcode.png  {#fig-scriv196 width=554 height=346}</span>
+<span id="cb3-964"><a href="#cb3-964"></a><span class="ot">[yaml]: </span>yaml.png {width=536 height=450}</span>
 <span id="cb3-965"><a href="#cb3-965"></a></span>
-<span id="cb3-966"><a href="#cb3-966"></a><span class="ot">[pandocquartolatextemplate]: </span>pandocquartolatextemplate.png  {#fig-scriv197 width=547 height=342}</span>
+<span id="cb3-966"><a href="#cb3-966"></a><span class="ot">[scrivenerwithcode]: </span>scrivenerwithcode.png  {#fig-scriv196 width=554 height=346}</span>
+<span id="cb3-967"><a href="#cb3-967"></a></span>
+<span id="cb3-968"><a href="#cb3-968"></a><span class="ot">[pandocquartolatextemplate]: </span>pandocquartolatextemplate.png  {#fig-scriv197 width=547 height=342}</span>
 </code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

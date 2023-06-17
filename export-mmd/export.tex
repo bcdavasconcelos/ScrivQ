@@ -239,22 +239,22 @@
 \floatname{codelisting}{Listing}
 \newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \usepackage{amsthm}
-\theoremstyle{plain}
-\newtheorem{lemma}{Lemma}[section]
 \theoremstyle{definition}
-\newtheorem{exercise}{Exercise}[section]
+\newtheorem{example}{Example}[section]
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
 \theoremstyle{definition}
-\newtheorem{example}{Example}[section]
+\newtheorem{exercise}{Exercise}[section]
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{plain}
+\newtheorem{corollary}{Corollary}[section]
 \theoremstyle{plain}
 \newtheorem{conjecture}{Conjecture}[section]
 \theoremstyle{plain}
 \newtheorem{proposition}{Proposition}[section]
 \theoremstyle{plain}
-\newtheorem{theorem}{Theorem}[section]
-\theoremstyle{plain}
-\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
 \theoremstyle{remark}
 \AtBeginDocument{\renewcommand*{\proofname}{Proof}}
 \newtheorem*{remark}{Remark}
@@ -298,7 +298,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Scrivener + Quarto},
+  pdftitle={ScrivQ},
   pdfauthor={iSocrates},
   pdflang={en-GB},
   pdfsubject={Workflow},
@@ -306,7 +306,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{Scrivener + Quarto}
+\title{ScrivQ}
 \usepackage{etoolbox}
 \makeatletter
 \providecommand{\subtitle}[1]{% add subtitle to \maketitle
@@ -320,7 +320,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, breakable, boxrule=0pt, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, interior hidden, sharp corners, enhanced, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -424,7 +424,7 @@ mind, brain}}}! Eam in ubique høneståtis ullåmcorper, no eos vitae
 orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur,
 no mei graeci impedit deterruisset!
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, arc=.35mm, colframe=quarto-callout-tip-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, opacityback=0, colframe=quarto-callout-tip-color-frame, breakable, colbacktitle=quarto-callout-tip-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 This callout is generated using the {[}\texttt{Callout\ Tip}{]}
 Scrivener Paragraph Style\ldots{}
@@ -656,7 +656,7 @@ pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø
 viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei
 graeci impedit deterruisset!
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-warning-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, arc=.35mm, colframe=quarto-callout-warning-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, opacityback=0, colframe=quarto-callout-warning-color-frame, breakable, colbacktitle=quarto-callout-warning-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{tip}, \texttt{warning}, \texttt{caution}, and
@@ -671,7 +671,7 @@ intellegam mei ex. His consulåtu åssueverit ex
 detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex
 eam! Nøstro eruditi eum ex.
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, colframe=quarto-callout-important-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, opacityback=0, colframe=quarto-callout-important-color-frame, breakable, colbacktitle=quarto-callout-important-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{tip}, \texttt{warning}, \texttt{caution}, and
@@ -683,7 +683,7 @@ Note that there are five types of callouts, including: \texttt{note},
 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
 eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, opacityback=0, colframe=quarto-callout-note-color-frame, breakable, colbacktitle=quarto-callout-note-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{tip}, \texttt{warning}, \texttt{caution}, and
@@ -1133,7 +1133,7 @@ Layout at compile time.}
 
 \end{figure*}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-caution-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution}, arc=.35mm, colframe=quarto-callout-caution-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution}, opacityback=0, colframe=quarto-callout-caution-color-frame, breakable, colbacktitle=quarto-callout-caution-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 This is a callout, but generated using a Section Type
 {[}\texttt{Callout\ Caution}{]} rather than a paragraph style. Scrivener
@@ -1263,7 +1263,7 @@ cross-reference field is called \texttt{Theorem\ Title} instead of the
 less instructive \texttt{thm-title} that must be in the \texttt{ID}
 field.
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, colframe=quarto-callout-important-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, opacityback=0, colframe=quarto-callout-important-color-frame, breakable, colbacktitle=quarto-callout-important-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 The YAML item key comes from the \texttt{ID} field.
 
@@ -1308,7 +1308,7 @@ table, for example, will receive \texttt{tbl-scrivID} as ID, and an
 example will receive \texttt{exm-scrivID}, a theorem will receive
 \texttt{thm-scrivID}, and so on, each with the appropriate prefix.
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, arc=.35mm, colframe=quarto-callout-tip-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, opacityback=0, colframe=quarto-callout-tip-color-frame, breakable, colbacktitle=quarto-callout-tip-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 \textbf{Callouts} (Caution, Important, Note, Tip, Warning) and
 \textbf{Cross-reference Environments} (Conjecture, Corollary,
@@ -1556,7 +1556,7 @@ bibliographies as you want. The sections will be named after the last
 heading element, that is, the binder item whence it originated, as it
 happens with all other chapters of the text.
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, opacityback=0, colframe=quarto-callout-note-color-frame, breakable, colbacktitle=quarto-callout-note-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 You can also point Quarto and Pandoc to the bibliography file using
 relative paths, full paths and URLs.
@@ -1707,7 +1707,7 @@ certain fields, such as before-body.}
 
 \end{figure*}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, colframe=quarto-callout-important-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, opacityback=0, colframe=quarto-callout-important-color-frame, breakable, colbacktitle=quarto-callout-important-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 If you are having problems with performance, then you should try to
 delete the custom icons we are using. I recommend deleting all to see if
@@ -1715,7 +1715,7 @@ that makes a difference or not on how Scrivener is behaving.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, breakable, bottomrule=.15mm, coltitle=black, colback=white, rightrule=.15mm, left=2mm, opacitybacktitle=0.6, opacityback=0, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, arc=.35mm, colframe=quarto-callout-tip-color-frame, toprule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, opacityback=0, colframe=quarto-callout-tip-color-frame, breakable, colbacktitle=quarto-callout-tip-color!10!white, left=2mm, toptitle=1mm, arc=.35mm, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colback=white, leftrule=.75mm, opacitybacktitle=0.6]
 
 Right click on any Binder item.
 \texttt{Change\ Icon\ \textgreater{}\ Manage\ Custom\ Icons...}

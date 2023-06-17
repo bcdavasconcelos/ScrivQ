@@ -1,7 +1,7 @@
 ---  
 metadata:   
   author: iSocrates  
-  title: Scrivener + Quarto  
+  title: ScrivQ  
   subtitle: |
     A Compiler Workflow...   
   date: 2023-06  

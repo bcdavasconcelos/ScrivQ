@@ -6,7 +6,7 @@
 	<dict>
 		<key>0676D34A-DC44-4DC2-95DC-808FDFA11695</key>
 		<array>
-			<string>4DC921CA-AE0E-4AE7-8B3B-956A2DD5BF0B</string>
+			<string>533FDBC7-A4CB-42D2-8F10-2B786918E1B3</string>
 		</array>
 		<key>194C29E0-0BC0-4DE4-8999-1B0E798C27B1</key>
 		<array>
@@ -597,8 +597,8 @@
 	<false/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {391, 1354}}</string>
-		<string>{{392, 0}, {2168, 1354}}</string>
+		<string>{{0, 0}, {273, 1018}}</string>
+		<string>{{274, 0}, {1454, 1018}}</string>
 	</array>
 	<key>binderWidth</key>
 	<real>183</real>
@@ -1615,7 +1615,7 @@
 		<key>3423F802-6DF4-483E-8812-61FDF22C2150</key>
 		<dict>
 			<key>Row</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>346F984A-5B1B-474C-B285-854DF97DB162</key>
 		<dict>
@@ -1790,7 +1790,7 @@
 		<key>3C1745DE-1ECF-4E92-8F44-AF47759FF252</key>
 		<dict>
 			<key>Row</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>3C8D66D3-6211-488F-A1B6-1E1AAAF73C45</key>
 		<dict>
@@ -5596,7 +5596,7 @@
 	</dict>
 	<key>collectionSelectionAutosaveName</key>
 	<array>
-		<integer>21</integer>
+		<integer>1</integer>
 	</array>
 	<key>collectionsHeight</key>
 	<real>204</real>
@@ -5639,8 +5639,8 @@
 	<false/>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1453.5, 1324}}</string>
-		<string>{{1454.5, 0}, {713.5, 1324}}</string>
+		<string>{{0, 0}, {1126, 988}}</string>
+		<string>{{1127, 0}, {327, 988}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>435</real>
@@ -5668,7 +5668,7 @@
 		<key>includeInExport</key>
 		<real>32</real>
 		<key>key</key>
-		<real>261.5</real>
+		<real>140</real>
 		<key>sectionType</key>
 		<real>187</real>
 		<key>status</key>
@@ -5676,7 +5676,7 @@
 		<key>title</key>
 		<real>191.5</real>
 		<key>value</key>
-		<real>369</real>
+		<real>191</real>
 		<key>🔒</key>
 		<real>75</real>
 	</dict>
@@ -5686,7 +5686,7 @@
 		<string>{{0, 465.5}, {589, 464.5}}</string>
 	</array>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 1670.75}, {719, 634}}</string>
+	<string>{{0, 0}, {555.5, 466}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
@@ -5724,7 +5724,7 @@
 		<key>widths</key>
 		<dict>
 			<key>TITLE</key>
-			<real>200</real>
+			<real>241</real>
 		</dict>
 	</dict>
 	<key>supportingDocumentEditor.PDFAutoScales</key>

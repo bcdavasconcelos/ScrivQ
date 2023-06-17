@@ -157,6 +157,8 @@ verbosity: ERROR
 validate-yaml: false
 ---
 
+{{< ENV LANG >}}
+
 # Abstract {#sec-scriv145}
 
 
