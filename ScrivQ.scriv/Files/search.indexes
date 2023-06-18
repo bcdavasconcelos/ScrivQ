@@ -388,9 +388,7 @@ An object with key “text” indicates textual content to be included</Synopsis
         </Document>
         <Document ID="2BB93564-6CC7-4E1C-969A-7EDAC4E5252B">
             <Title>Graphviz Figure</Title>
-            <Text>//| column: page
-
-digraph finite_state_machine {
+            <Text>digraph finite_state_machine {
 	Fontname="Avenir,Helvetica,sans-serif"
 	node [fontname="Avenir,Helvetica,sans-serif"]
 	edge [fontname="Avenir,Helvetica,sans-serif"]
@@ -1010,9 +1008,6 @@ title="Title"
 collapse="true"
 icon=false</Notes>
         </Document>
-        <Document ID="9A0B60DE-03AE-4773-B778-FC5902619ECF">
-            <Title>anchorcolor</Title>
-        </Document>
         <Document ID="FB0A55DB-FE5E-4741-990D-C51CD1148964">
             <Title>Multipart Table</Title>
             <Text>Column 1
@@ -1049,6 +1044,9 @@ This is a markdown multi-table panel with two sub-tables generated using a Secti
 
 :::
 </Notes>
+        </Document>
+        <Document ID="9A0B60DE-03AE-4773-B778-FC5902619ECF">
+            <Title>anchorcolor</Title>
         </Document>
         <Document ID="6F0D313B-5E35-40F2-A7E0-C05C11A6E863">
             <Title>bookmarksnumbered</Title>
@@ -1499,53 +1497,19 @@ references:
             <Title>href</Title>
             <Synopsis>List of items for the left side of the navbar (see Nav Items)</Synopsis>
         </Document>
-        <Document ID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55">
-            <Title>Options</Title>
-            <Notes>crossref:
-  chapters: true
-  ref-hyperlink: true
-  title-delim: —
-  cnj-title: Conjuntura
-  cor-title: Corolário
-  def-title: Definição
-  eq-title: Equação
-  exm-title: Exemplo
-  exr-title:  Exercício
-  fig-title: Figura
-  lem-title: Lemma
-  lst-title: Bloco de código
-  prp-title: Proposição
-  tbl-title: Tabela
-  thm-title: Teorema
-  labels: arabic
-  cnj-labels: arabic
-  cor-labels: arabic
-  def-labels: arabic
-  eq-labels: arabic
-  exm-labels: arabic
-  exr-labels: arabic
-  fig-labels: arabic
-  lem-labels: arabic
-  lst-labels: arabic
-  prp-labels: arabic
-  sec-labels: arabic
-  subref-labels: roman i
-  tbl-labels: arabic
-  thm-labels: arabic
-  cnj-prefix: conjuntura
-  cor-prefix: corolário
-  def-prefix: definição
-  eq-prefix: equação
-  exm-prefix: exemplo
-  exr-prefix: exercício
-  fig-prefix: figura
-  lem-prefix: lemma
-  lst-prefix: bloco de código
-  prp-prefix: proposição
-  sec-prefix: section
-  tbl-prefix: tabela
-  thm-prefix: teorema
-</Notes>
+        <Document ID="23341F11-122D-4539-B599-2E1F0C0FF6C5">
+            <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+
+</Text>
+            <Notes>```{python}
+#| label: fig-%autoref%
+#| fig-cap: &lt;$custom:Value&gt;
+
+
+```
+
+See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
         </Document>
         <Document ID="084E82C6-E63B-45F7-B01B-9479514432C3">
             <Title>abnt-phi</Title>
@@ -2186,6 +2150,54 @@ number-depth: 1
 
 If image is not provided, Quarto will automatically attempt to locate a preview image.</Synopsis>
         </Document>
+        <Document ID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55">
+            <Title>Options</Title>
+            <Notes>crossref:
+  chapters: true
+  ref-hyperlink: true
+  title-delim: —
+  cnj-title: Conjuntura
+  cor-title: Corolário
+  def-title: Definição
+  eq-title: Equação
+  exm-title: Exemplo
+  exr-title:  Exercício
+  fig-title: Figura
+  lem-title: Lemma
+  lst-title: Bloco de código
+  prp-title: Proposição
+  tbl-title: Tabela
+  thm-title: Teorema
+  labels: arabic
+  cnj-labels: arabic
+  cor-labels: arabic
+  def-labels: arabic
+  eq-labels: arabic
+  exm-labels: arabic
+  exr-labels: arabic
+  fig-labels: arabic
+  lem-labels: arabic
+  lst-labels: arabic
+  prp-labels: arabic
+  sec-labels: arabic
+  subref-labels: roman i
+  tbl-labels: arabic
+  thm-labels: arabic
+  cnj-prefix: conjuntura
+  cor-prefix: corolário
+  def-prefix: definição
+  eq-prefix: equação
+  exm-prefix: exemplo
+  exr-prefix: exercício
+  fig-prefix: figura
+  lem-prefix: lemma
+  lst-prefix: bloco de código
+  prp-prefix: proposição
+  sec-prefix: section
+  tbl-prefix: tabela
+  thm-prefix: teorema
+</Notes>
+        </Document>
         <Document ID="EC33DF7A-8477-4E16-90F9-A3075EF3CD00">
             <Title>multiple-bibliographies.lua</Title>
             <Text>--[[
@@ -2310,20 +2322,6 @@ return {
   { Pandoc = resolve_doc_citations },
   { Div = create_topic_bibliography },
 }</Text>
-        </Document>
-        <Document ID="23341F11-122D-4539-B599-2E1F0C0FF6C5">
-            <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
-
-
-</Text>
-            <Notes>```{python}
-#| label: fig-%autoref%
-#| fig-cap: &lt;$custom:Value&gt;
-
-
-```
-
-See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
         </Document>
         <Document ID="A569DC85-1BB9-434E-91AE-0C1691B747F6">
             <Title>grid</Title>
@@ -3828,7 +3826,13 @@ There is also Shortcode Env, Shortcode Meta, Shortcode Var.
 Writing in Scrivener (https://github.com/iandol/scrivomatic#writing-in-scrivener) is a must read.
 The Plain Person’s Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
 Quarto Reference - https://quarto.org/docs/reference/
-The easiest way to publish to Github Pages: Render to docs</Text>
+The easiest way to publish to Github Pages: Render to docs
+
+
+The variables stored here will be accessible via the Style Shortcode Var.
+Please contact us at email.info. 
+`QUARTO_PROJECT_DIR` `=`  QUARTO_PROJECT_DIR
+We are using Python `QUARTO_PYTHON` QUARTO_PYTHON, QUARTO_R, PY_PYTHON, or RETICULATE_PYTHON. </Text>
         </Document>
         <Document ID="36853C16-3809-4BE4-AFBD-F986C8F559F8">
             <Title>id: value-1</Title>
@@ -4095,6 +4099,7 @@ CC BY-NC	Attribution-NonCommercial	This license lets others remix, tweak, and bu
             <Synopsis>Controls the formats which are provided in the citation section of the appendix.
 
 Use false to disable the display of the ‘cite as’ appendix. Pass one or more of display or bibtex to enable that format in ‘cite as’ appendix.</Synopsis>
+            <Text>  </Text>
         </Document>
         <Document ID="EE4E8B09-D7A5-418F-8272-4AAD58749062">
             <Title>monofontoptions</Title>
@@ -4848,6 +4853,7 @@ For ConTeXt output, sets the bottom margin if layout is not used, otherwise layo
 
 For wkhtmltopdf sets the bottom page margin.
 </Synopsis>
+            <Text>  </Text>
         </Document>
         <Document ID="B9249C51-BC96-4B15-9125-D268031CDB98">
             <Title>code-overflow</Title>
@@ -5990,6 +5996,7 @@ OliveGreen</Notes>
         </Document>
         <Document ID="3070B26E-9F51-42EF-BA3B-2F78F7C9B020">
             <Title>hyperrefoptions</Title>
+            <Text>  </Text>
         </Document>
         <Document ID="5972EDDC-D7EA-45FB-8D9B-7C9236AC64F7">
             <Title>linktoc=all</Title>
@@ -6131,9 +6138,7 @@ Instead of a STYLE name, a JSON file with extension .theme may be supplied. This
         </Document>
         <Document ID="24614A2C-1578-43BA-BB71-F660105CE1BA">
             <Title>Mermaid Figure</Title>
-            <Text>%%| column: page
-
-flowchart LR
+            <Text>flowchart LR
   A[Hard edge] --&gt; B(Round edge)
   B --&gt; C{Decision}
   C --&gt; D[Result one]
@@ -6445,7 +6450,6 @@ Warning₂: breaks if citations are places on captions.</Synopsis>
             <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
 //| fig-cap: "A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…"
-//| column: page
 
 graph G {
   layout=neato
@@ -6533,7 +6537,7 @@ Underline</Text>
             <Title>Introduction</Title>
             <Text>“We don’t see things as they are, we see them as we are.” — Anaïs Nin
 
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see [auto:Results]), est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
 
 #
@@ -6882,6 +6886,7 @@ The fig-asp option is only available within the knitr engine.</Synopsis>
         <Document ID="EACAEA2A-A840-407F-BE54-87731BE3B08F">
             <Title>title-block-categories</Title>
             <Synopsis>Enables or disables the display of categories in the title block.</Synopsis>
+            <Text>  </Text>
         </Document>
         <Document ID="DCBD57CB-F3D9-4CA2-8343-E1643CF1A9D6">
             <Title>- value-3</Title>
@@ -7109,9 +7114,6 @@ asis: Treat output as raw markdown with no enclosing containers.
         </Document>
         <Document ID="C7870D41-0F25-4176-B5F7-9C92C6BB79C3">
             <Title>_variables</Title>
-            <Text>The variables stored here will be accessible via the Style Shortcode Var.
-Please contact us at email.info. 
-We are using Python QUARTO_PYTHON, QUARTO_R, PY_PYTHON, or RETICULATE_PYTHON. QUARTO_PROJECT_DIR.</Text>
         </Document>
         <Document ID="997B85EE-BAD8-46FB-ABAD-F91462A4105E">
             <Title>Diagram</Title>
@@ -7368,6 +7370,7 @@ fontfamilyoptions:
             <Title>links</Title>
         </Document>
         <Document ID="76B0F888-9324-49EE-916B-DADD40FACC14">
+            <Title>tbl-source-and-output</Title>
             <Text>
 
 Markdown Source
@@ -7913,7 +7916,7 @@ Table Text</Text>
         <Document ID="185EE090-0171-43C1-AF8F-E47D6194AD3D">
             <Title>Changes</Title>
             <Text>
-By Bernardo Vasconcelos (see this thread, and this thread)
+By Bernardo Vasconcelos (see this thread, and this thread).
 
 This template descends from Ian's excellent Quarto template for Scrivener. 
 
@@ -8823,6 +8826,12 @@ document: Place at end of document</Synopsis>
         </Document>
         <Document ID="41B58F40-A59F-4963-A039-0383548D40A9">
             <Title>oneside</Title>
+            <Synopsis>DO NOT REMOVE FROM COMPILE . FIGURES WILL OVERFLOW THE PAGE WITHOUT IT.</Synopsis>
+            <Text>DO NOT REMOVE FROM COMPILE . FIGURES WILL OVERFLOW THE PAGE WITHOUT IT.</Text>
+            <Notes>See https://github.com/bcdavasconcelos/ScrivQ/issues/2#issuecomment-1596150457
+
+
+</Notes>
         </Document>
         <Document ID="56D7E4F0-A373-4192-A72C-66C4597069B0">
             <Title>Section Labels</Title>

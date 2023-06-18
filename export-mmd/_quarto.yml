@@ -1,28 +1,27 @@
-
-project:
-  title: Scrivener + Quarto
-  render: ["*.qmd", "*.md"]
-  execute-dir: project
-  preview:
-    port: 5556
-    watch-inputs: true
-    navigate: true
-website:
-  site-path: _site/
-  reader-mode: true
-  search:
-    location: navbar
-    type: textbox
-  navbar:
-    left:
-      - icon: github
-    right:
-      - icon: github
-  sidebar:
-    search: true
-    tools:
-      - icon: github
-    footer: Scrivener + Quarto
-  page-navigation: true
+  
+project:   
+  title: ScrivQ  
+  render: ["*.qmd", "*.md"]  
+  execute-dir: project  
+  preview:   
+    port: 5556  
+    watch-inputs: true  
+    navigate: true  
+website:   
+  site-path: _site/  
+  reader-mode: true  
+  search:   
+    location: navbar  
+    type: textbox  
+  navbar:   
+    left:   
+      - icon: github  
+    right:   
+      - icon: github  
+  sidebar:   
+    search: true  
+    tools:   
+      - icon: github  
+    footer: Scrivener + Quarto  
+  page-navigation: true  
   back-to-top-navigation: true
-

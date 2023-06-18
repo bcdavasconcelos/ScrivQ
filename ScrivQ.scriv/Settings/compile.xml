@@ -19,6 +19,7 @@
             <RemoveAnnotations>Yes</RemoveAnnotations>
             <ResampleImages DPI="72">No</ResampleImages>
             <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
+            <ConvertLinksToMMD>Yes</ConvertLinksToMMD>
             <PDF>
                 <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
                 <Compression Enabled="No">
@@ -313,6 +314,11 @@
                 <Type ID="FE9A6F1D-6242-4601-AD6B-265D333A654E">CBCD35E5-1B85-4381-9FDA-3140BD4B4F59</Type>
                 <Type ID="29B3ACBA-E356-49E3-B054-CB9DFFC56604">1AB94ABC-7203-44C7-BA9E-6C019AF27131</Type>
                 <Type ID="D2A02114-A2DD-416A-B0BD-CC22278079A9">AS-IS</Type>
+                <Type ID="AD4E970A-6C50-4B15-8A59-6F139CA680FD">628E0BA3-6231-44FB-91F8-6EC55AC3ACBA</Type>
+                <Type ID="47D8514B-9A06-412A-96BA-5907AE2A6EB4">44AAE307-B93D-4C38-ACDC-0726B6483DFA</Type>
+                <Type ID="555E2374-3815-4241-B0CE-4F3E7EE58805">203FE605-4E25-4044-9220-8DE8BA69347B</Type>
+                <Type ID="EBC50D96-0397-4CB2-861E-45FE33929347">42E7FA69-EB06-4C06-A43A-B964EEBC39FB</Type>
+                <Type ID="0D76CF06-8E35-49AA-BEA6-91CB66ABCE1C">AS-IS</Type>
                 <Type ID="CE4F69C6-E1CB-46D4-BC9C-9C7943FAC27D">4F26565B-9ED4-4780-B81E-80EFFDBA504C</Type>
                 <Type ID="08CEB14E-E8CC-42B8-9A7A-EDACBF9413A8">6AE6AF9A-0F4A-4243-AF78-6F5C57C9AF5D</Type>
                 <Type ID="C7C625AA-C697-43A1-A527-24A6E8D09B57">19310EBC-DB17-4AA0-8AD8-E9948033962B</Type>

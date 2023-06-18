@@ -597,8 +597,8 @@
 	<false/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {287, 1018}}</string>
-		<string>{{288, 0}, {1440, 1018}}</string>
+		<string>{{0, 0}, {324, 1354}}</string>
+		<string>{{325, 0}, {2235, 1354}}</string>
 	</array>
 	<key>binderWidth</key>
 	<real>183</real>
@@ -1687,6 +1687,11 @@
 			<key>Row</key>
 			<integer>0</integer>
 		</dict>
+		<key>36DAA93E-5CE9-46D6-A9BB-CFA153FAFA3B</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>377CE0FA-0B04-4DDB-8028-D5A0C2D60D59</key>
 		<dict>
 			<key>Row</key>
@@ -2470,6 +2475,11 @@
 		<dict>
 			<key>Row</key>
 			<integer>0</integer>
+		</dict>
+		<key>5B942F0F-D17B-48CC-8679-0D1AE70154F1</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
 		</dict>
 		<key>5BB48159-40F7-4B60-AF73-6B8C69925455</key>
 		<dict>
@@ -5689,8 +5699,8 @@
 	<false/>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {960, 988}}</string>
-		<string>{{961, 0}, {479, 988}}</string>
+		<string>{{0, 0}, {1755, 1324}}</string>
+		<string>{{1756, 0}, {479, 1324}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>435</real>
@@ -5718,9 +5728,9 @@
 		<key>includeInExport</key>
 		<real>32</real>
 		<key>key</key>
-		<real>140</real>
+		<real>187.5</real>
 		<key>sectionType</key>
-		<real>187</real>
+		<real>221</real>
 		<key>status</key>
 		<real>85</real>
 		<key>title</key>
@@ -5774,7 +5784,7 @@
 		<key>widths</key>
 		<dict>
 			<key>TITLE</key>
-			<real>241</real>
+			<real>200</real>
 		</dict>
 	</dict>
 	<key>supportingDocumentEditor.PDFAutoScales</key>
