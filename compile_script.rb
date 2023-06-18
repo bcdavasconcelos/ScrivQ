@@ -5,7 +5,7 @@
 # the cross-referencing system used by Quarto. It also adds paths for
 # LaTeX, python and others so that compilation works directly from
 # Scrivener (which by default doesn't use the user environment).
-# Version: 0.1.7.1
+# Version: 0.1.7.2
 # Modified by Bernardo Vasconcelos to use the inline_fn method from
 # the inline_fn gem.
 
@@ -15,8 +15,9 @@ Encoding.default_internal = Encoding::UTF_8
 require 'tempfile' # temp file tools
 require 'fileutils' # ruby standard library to deal with files
 require 'timeout'
-
 #require 'debug/open_nonstop' # debugger
+
+dry_run = true # set to true to test without overwriting the file
 
 def inline_fn(str, style = :pandoc)
   return str unless str.is_a?(String) && !str.empty? && str.include?('[^')
@@ -162,8 +163,8 @@ begin
           file_content = text.scan(pattern)[0][0] # Get the file content
           decrease_heading_cmd = "quarto pandoc -f markdown -t markdown --shift-heading-level-by=-1 --wrap=none"
           # Check if path existis, if not create it
-          FileUtils.mkdir_p(File.dirname(file))
-          File.open(file, 'w') { |f| f.write(file_content) }
+          FileUtils.mkdir_p(File.dirname(file)) unless dry_run
+          File.open(file, 'w') { |f| f.write(file_content) } unless dry_run
           #          `#{decrease_heading_cmd} "#{file}" -o "#{file}"` if file[/\.[q]?md$/]
           # puts "----> File #{file} created!"
           created_files << file
@@ -199,17 +200,19 @@ end
 puts "\n--> Running Command: #{cmd}"
 
 pid = Process.spawn(cmd)
-begin
-  Timeout.timeout(90) do
-    puts 'waiting for the process to end'
-    Process.wait(pid)
-    puts 'process finished in time'
+unless dry_run
+  begin
+    Timeout.timeout(150) do
+      puts 'waiting for the process to end'
+      Process.wait(pid)
+      puts 'process finished in time'
+    end
+  rescue Timeout::Error
+    puts 'process not finished in time, killing it'
+    Process.kill('TERM', pid)
+    # open any log file (generated from scrivener's post-processing)
+    `open Quarto.log` if File.file?('Quarto.log') and isRecent('Quarto.log')
   end
-rescue Timeout::Error
-  puts 'process not finished in time, killing it'
-  Process.kill('TERM', pid)
-  # open any log file (generated from scrivener's post-processing)
-  `open Quarto.log` if File.file?('Quarto.log') and isRecent('Quarto.log')
 end
 # puts %x(#{cmd})
 
