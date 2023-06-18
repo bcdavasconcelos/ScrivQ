@@ -5,7 +5,7 @@
 # the cross-referencing system used by Quarto. It also adds paths for
 # LaTeX, python and others so that compilation works directly from
 # Scrivener (which by default doesn't use the user environment).
-# Version: 0.1.7.2
+# Version: 0.1.8
 # Modified by Bernardo Vasconcelos to use the inline_fn method from
 # the inline_fn gem.
 
@@ -17,7 +17,7 @@ require 'fileutils' # ruby standard library to deal with files
 require 'timeout'
 #require 'debug/open_nonstop' # debugger
 
-dry_run = true # set to true to test without overwriting the file
+dry_run = false # set to true to test without overwriting the file
 
 def inline_fn(str, style = :pandoc)
   return str unless str.is_a?(String) && !str.empty? && str.include?('[^')
@@ -123,25 +123,33 @@ begin
     # This regex puts {#id} onto end of $$ math block lines
     text.gsub!(/\$\$ ?\n\{\#eq/,'$$ {#eq')
 
-    # this finds all reference-link figures with cross-refs and moves
-    # the reference down to the reference link
-    figID = /^!\[(?<id>\{#fig-.+?\} ?)(?<cap>.+?)\]\[(?<ref>.+?)\]/
-    refs = text.scan(figID)
-    refs.each {|ref|
-      puts "--> Crossref figure details: Label=#{ref[0]} | #{ref[1]} | #{ref[2]}"
-      re = Regexp.compile("^(\\[" + ref[2] + "\\]: *)([^{\\n]+)({(.+)})?$")
-      mtch = text.match(re)
-      label = ref[0].gsub(/\{([^\}]+?)\}/,'\1').strip
-      if mtch.nil?
-        puts "----> Failed to match #{label} in the references"
-      elsif mtch[4].nil?
-        text.gsub!(re, '\0 {' + label + '}')
-      else
-        text.gsub!(re, '\1\2 {' + label + ' \4}')
+
+
+    # We will move data about the images from the bottom of the file to the top
+    # From
+    # [Ulysses sailing][Ulysses1]
+    # [Ulysses1]: Ulysses1.jpg {width=486 height=402}
+    # To
+    # ![Ulysses sailing](Ulysses1.png){#fig-ulysses1 width=486 height=402}
+
+    figures_data = text.scan(/^\[(?<reference>.+?)\]: (?<url>.+?) ?\{(?<dimensions>.+?)\}$/)
+    figures_reference = text.scan(/^!\[(?<id>\{#fig-.+?\} ?)(?<cap>.+?)\]\[(?<ref>.+?)\]$/)
+
+    figures_data.each do |data|
+      figures_reference.each do |fig|
+        next unless data[0] == fig[2] # if the reference matches the figure label
+
+        reference = data[0]
+        url = data[1]
+        dimensions = data[2]
+        id = fig[0]
+        cap = fig[1]
+        search = "![#{id}#{cap}][#{reference}]"
+        text.gsub!(search, "![#{cap.strip}](#{url.strip}){#{id.gsub(/\{|\}/,'').strip} #{dimensions.strip}}")
+        puts "Matched #{data[0]} to #{fig[2]}"
       end
-    }
-    # We now need to remove all #{label} from figure captions
-    text.gsub!(figID, '![\k<cap>][\k<ref>]')
+      text.gsub!(/^\[(?<reference>.+?)\]: (?<url>.+?) ?\{(?<dimensions>.+?)\}$/, '')
+    end
 
     # New section: Extract and create new files from main file
     # Pattern: <!-- begin_file: "path/to/file.ext" -->`file_content`<!-- end_file -->\n
