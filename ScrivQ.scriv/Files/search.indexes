@@ -621,7 +621,10 @@ For ConTeXt output, sets the color for both external links and links within the 
         <Document ID="B8BAD63F-8DA5-483B-9161-1FF821C4BE33">
             <Title>Code</Title>
             <Text>This is an example of the Code section type.</Text>
-            <Notes>lst-cap=""</Notes>
+            <Notes>```
+
+```
+</Notes>
         </Document>
         <Document ID="6B8B9E3C-BCF3-43DC-AD7D-EB9781B18D0E">
             <Title>tables</Title>
@@ -662,9 +665,8 @@ $endif$</Text>
         </Document>
         <Document ID="E297D0E9-3F3B-44BE-8BA6-B976FAB8DBE0">
             <Title>Python Code</Title>
-            <Text>#| label: fig-label
-#| fig-cap: Place your figure caption here.
-
+            <Text>#| label: &lt;$custom:ID&gt;
+#| fig-cap: &lt;$custom:Value&gt;
 # Place your Python code here, see https://quarto.org/docs/computations/python.html 
 
 
@@ -972,6 +974,7 @@ In order to work correctly, the repo must be public, with the giscus app install
         </Document>
         <Document ID="58DD51C0-A10D-42D4-A7CD-5633135703FF">
             <Title>Diagram Dot A</Title>
+            <Synopsis>Here we are using a Section Type to create the diagram.</Synopsis>
             <Text>//| echo: true
 digraph finite_state_machine {
 	Fontname="Avenir,Helvetica,sans-serif"
@@ -1009,6 +1012,43 @@ icon=false</Notes>
         </Document>
         <Document ID="9A0B60DE-03AE-4773-B778-FC5902619ECF">
             <Title>anchorcolor</Title>
+        </Document>
+        <Document ID="FB0A55DB-FE5E-4741-990D-C51CD1148964">
+            <Title>Multipart Table</Title>
+            <Text>Column 1
+Column 2
+Column 3
+A
+B
+C
+D
+E
+F
+G
+H
+I
+: First Table {#tbl-first2}
+
+Column 1
+Column 2
+Column 3
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+: Second Table {#tbl-second2}
+
+This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multipart Table]. Note that Custom Metadata holds the cross-referencing label, layout class and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: &lt;​$​​custom:Class&gt; &lt;​$​​custom:Attributes&gt; 
+</Text>
+            <Notes>:::{#tbl-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
+
+:::
+</Notes>
         </Document>
         <Document ID="6F0D313B-5E35-40F2-A7E0-C05C11A6E863">
             <Title>bookmarksnumbered</Title>
@@ -2271,6 +2311,20 @@ return {
   { Div = create_topic_bibliography },
 }</Text>
         </Document>
+        <Document ID="23341F11-122D-4539-B599-2E1F0C0FF6C5">
+            <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+
+</Text>
+            <Notes>```{python}
+#| label: fig-%autoref%
+#| fig-cap: &lt;$custom:Value&gt;
+
+
+```
+
+See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
+        </Document>
         <Document ID="A569DC85-1BB9-434E-91AE-0C1691B747F6">
             <Title>grid</Title>
             <Synopsis>Properties of the grid system used to layout Quarto HTML pages. There are four variables to control the four components of the layout: the sidebar, the body, the margin, and the gutters.</Synopsis>
@@ -3160,6 +3214,10 @@ R
 
 This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multipart Table]. Note that Custom Metadata holds the cross-referencing label, layout class and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: &lt;​$​​custom:Class&gt; &lt;​$​​custom:Attributes&gt; 
 </Text>
+            <Notes>:::{#tbl-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
+
+:::
+</Notes>
         </Document>
         <Document ID="43392F6F-37D1-4508-815D-8B17934FDA23">
             <Title>microtypeoptions</Title>
@@ -3248,6 +3306,7 @@ An array of numbers (e.g. [40, 30, 30]): Array of explicit width percentages.</S
         </Document>
         <Document ID="6EF673C7-9DB2-42D1-9AAB-65C355B85D39">
             <Title>Diagram Dot B</Title>
+            <Synopsis>Here we are using a Style to create the diagram.</Synopsis>
             <Text>//| echo: true
 //| fig-cap: Figure caption
 
@@ -3762,9 +3821,14 @@ references:
 
 Code linking is currently implemented only for the knitr engine (via the downlit package).</Synopsis>
         </Document>
-        <Document ID="8BA67729-3E9A-447A-BBAC-3FE87C01C268">
-            <Title>shortcodes</Title>
-            <Synopsis>Specify Lua scripts that implement shortcode handlers</Synopsis>
+        <Document ID="B1B32F21-010B-4749-9CC0-4495E0EE3ABC">
+            <Title>Resources</Title>
+            <Text>Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the Shortcode Font Awesome style as in `regular bell` regular bell.
+There is also Shortcode Env, Shortcode Meta, Shortcode Var. 
+Writing in Scrivener (https://github.com/iandol/scrivomatic#writing-in-scrivener) is a must read.
+The Plain Person’s Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
+Quarto Reference - https://quarto.org/docs/reference/
+The easiest way to publish to Github Pages: Render to docs</Text>
         </Document>
         <Document ID="36853C16-3809-4BE4-AFBD-F986C8F559F8">
             <Title>id: value-1</Title>
@@ -3774,16 +3838,12 @@ Code linking is currently implemented only for the knitr engine (via the downlit
             <Synopsis>make headings back-links to TOC</Synopsis>
             <Text>\makeatletter</Text>
         </Document>
+        <Document ID="8BA67729-3E9A-447A-BBAC-3FE87C01C268">
+            <Title>shortcodes</Title>
+            <Synopsis>Specify Lua scripts that implement shortcode handlers</Synopsis>
+        </Document>
         <Document ID="CF8A4871-BC5D-4F6F-A92C-D00727DC101E">
             <Title>tightlist</Title>
-        </Document>
-        <Document ID="B1B32F21-010B-4749-9CC0-4495E0EE3ABC">
-            <Title>Resources</Title>
-            <Text>Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the Shortcode Font Awesome style as in `regular bell` regular bell.
-There is also Shortcode Env, Shortcode Meta, Shortcode Var. 
-Writing in Scrivener (https://github.com/iandol/scrivomatic#writing-in-scrivener) is a must read.
-The Plain Person’s Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
-Quarto Reference - https://quarto.org/docs/reference/</Text>
         </Document>
         <Document ID="C52996BE-9CF2-4639-BFE6-914FAE2EA728">
             <Title>Text</Title>
@@ -3880,6 +3940,11 @@ If you provide a CSS color value, the text color will be set to the provided CSS
         <Document ID="06F8B043-D43E-49A5-8586-184FFF1DBADF">
             <Title>Code + Caption</Title>
             <Text>This is an example of the Code section type.</Text>
+            <Notes>```{#lst-%autoref% &lt;$custom:Class&gt; lst-cap="&lt;$custom:Value&gt;"}
+
+
+```
+</Notes>
         </Document>
         <Document ID="4B657382-B5CF-4A62-951A-12DC30654FCA">
             <Title>tex</Title>
@@ -4059,6 +4124,7 @@ Use false to disable the display of the ‘cite as’ appendix. Pass one or more
         </Document>
         <Document ID="B8AC60FF-5F29-4E90-9FB7-623203943513">
             <Title>Diagram Mermaid A</Title>
+            <Synopsis>Here we are using a Section Type to create the diagram.</Synopsis>
             <Text>%%| column: page
 %%| echo: true
 
@@ -6285,6 +6351,15 @@ icon=false</Notes>
         <Document ID="16F4B4D2-0559-454B-AC80-94E08BBB31A9">
             <Title>date-format</Title>
         </Document>
+        <Document ID="5CB52DA9-8356-4C28-841D-ADEA1BE0494A">
+            <Text>This is an example of the Code Python section type.</Text>
+            <Notes>```{python}
+#| label: lst-%autoref%
+
+
+```
+</Notes>
+        </Document>
         <Document ID="5AFDAF7F-A40F-401C-8B05-617011146F73">
             <Title>number-depth</Title>
             <Synopsis>By default, all headings in your document create a numbered section. You customize numbering depth using the number-depth option.
@@ -6695,14 +6770,13 @@ Crossref Theorem*</Text>
         </Document>
         <Document ID="EA34AC25-416C-4018-8F59-1204A188736B">
             <Title>R Code</Title>
-            <Text>#| label: fig-label
-#| fig-cap: Place your figure caption here.
-
+            <Text>#| label: &lt;$custom:ID&gt;
+#| fig-cap: &lt;$custom:Value&gt;
 # Place your R code here, see https://quarto.org/docs/computations/r.html
 
 
 </Text>
-            <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
+            <Notes>See https://quarto.org/docs/computations/r.html for details.</Notes>
         </Document>
         <Document ID="89412D6A-662F-46AE-ACAB-E676187FDF43">
             <Title>Lang</Title>
@@ -6797,13 +6871,13 @@ The fig-asp option is only available within the knitr engine.</Synopsis>
         </Document>
         <Document ID="4999718C-11F3-4D34-ACCA-BB27CFC74482">
             <Title>Multipart Figure</Title>
-            <Text>
-{&lt;$Custom:ID&gt; &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption.
+            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures 
+
+:::{#tbl-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
 
 
-
-</Text>
-            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
+:::
+</Notes>
         </Document>
         <Document ID="EACAEA2A-A840-407F-BE54-87731BE3B08F">
             <Title>title-block-categories</Title>
@@ -7033,6 +7107,12 @@ asis: Treat output as raw markdown with no enclosing containers.
             <Title>margin-right</Title>
             <Synopsis>For HTML output, sets the margin-right property on the Body element. For LaTeX output, sets the right margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the right margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the right page margin.</Synopsis>
         </Document>
+        <Document ID="C7870D41-0F25-4176-B5F7-9C92C6BB79C3">
+            <Title>_variables</Title>
+            <Text>The variables stored here will be accessible via the Style Shortcode Var.
+Please contact us at email.info. 
+We are using Python QUARTO_PYTHON, QUARTO_R, PY_PYTHON, or RETICULATE_PYTHON. QUARTO_PROJECT_DIR.</Text>
+        </Document>
         <Document ID="997B85EE-BAD8-46FB-ABAD-F91462A4105E">
             <Title>Diagram</Title>
             <Text>```{mermaid}
@@ -7086,6 +7166,15 @@ document: Place at end of document</Synopsis>
         <Document ID="F9BDF2D1-AA63-48DF-ADE7-8F2081708665">
             <Title>abbreviations</Title>
             <Synopsis>Specifies a custom abbreviations file, with abbreviations one to a line. This list is used when reading Markdown input: strings found in this list will be followed by a nonbreaking space, and the period will not produce sentence-ending space in formats like LaTeX. The strings may not contain spaces.</Synopsis>
+        </Document>
+        <Document ID="9B73E865-BE67-498E-85C4-81ECD15C598D">
+            <Text>This is an example of the Code R section type.</Text>
+            <Notes>```{r}
+#| label: lst-%autoref%
+#| tbl-cap: &lt;$custom:Value&gt;
+
+```
+</Notes>
         </Document>
         <Document ID="9572EC34-47C5-43FE-B95C-35FE1356306A">
             <Title>id</Title>
@@ -7154,6 +7243,27 @@ references:
         <Document ID="B7BCEF90-C6EF-44E9-B06F-E83584997297">
             <Title>aria-label</Title>
             <Synopsis>List of items for the left side of the navbar (see Nav Items)</Synopsis>
+        </Document>
+        <Document ID="4A221CE7-7A5F-4EFE-8125-5D66BA5B073A">
+            <Title>Multipart Figure</Title>
+            <Text>
+#
+{#fig-castle2} Elephant.
+
+#
+{#fig-trunk2} Angry elephant with big trunk.
+
+This demonstrates generating a multi-panel figure using a Scrivener Section Type [Multipart Figure] instead of using raw markdown as shown here. ID, Class and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and this is then inserted into the markup for this chunk by the Section Layout at compile time.  
+
+</Text>
+            <Notes>:::{#fig-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
+
+:::
+
+
+
+{&lt;$Custom:ID&gt; &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption.
+</Notes>
         </Document>
         <Document ID="134C582E-3950-4D2A-ADA8-7812A5A5A20A">
             <Title>latex-output-dir</Title>
@@ -7435,6 +7545,12 @@ Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pr
         <Document ID="89C5CD13-BD32-46C4-B68A-EDDAFEED1CF3">
             <Title>Code Python</Title>
             <Text>This is an example of the Code Python section type.</Text>
+            <Notes>```{python}
+#| label: lst-%autoref%
+
+
+```
+</Notes>
         </Document>
         <Document ID="23BA47B3-7CCF-474F-9353-F0A4B9BC4559">
             <Title>icon</Title>
@@ -7535,6 +7651,21 @@ If no such div is defined on the page, a div with this id will be created and ap
         </Document>
         <Document ID="10C0FF65-2FEC-4F34-A443-624AD927A6AF">
             <Title> Printout</Title>
+        </Document>
+        <Document ID="6C12D926-3009-4C54-9C42-B76B76379E0A">
+            <Title>R Code + Caption</Title>
+            <Text># Place your R code here, see https://quarto.org/docs/computations/r.html
+
+
+</Text>
+            <Notes>```{r}
+#| label: &lt;$custom:ID&gt;
+#| fig-cap: &lt;$custom:Value&gt;
+# Place your R code here, see https://quarto.org/docs/computations/r.html
+
+```
+
+See https://quarto.org/docs/computations/r.html for details.</Notes>
         </Document>
         <Document ID="8B38B79F-E558-4089-8D6B-9576F4F901BC">
             <Title>dpi</Title>
@@ -8515,6 +8646,7 @@ For HTML output using KaTeX, you can render display math equations flush left us
         </Document>
         <Document ID="199473B2-E6ED-468E-93DC-CE3A18CD42C1">
             <Title>Diagram Mermaid B</Title>
+            <Synopsis>Here we are using a Style to create the diagram.</Synopsis>
             <Text>%%| fig-cap: Figure caption
 %%| column: page
 %%| echo: true
@@ -8603,6 +8735,12 @@ Main caption; use the Inspector’s Custom Metadata → ID, Class &amp; Attribut
         <Document ID="937E8660-EC33-47F1-BC52-816A99FBBC26">
             <Title>Code R</Title>
             <Text>This is an example of the Code R section type.</Text>
+            <Notes>```{r}
+#| label: lst-%autoref%
+#| tbl-cap: &lt;$custom:Value&gt;
+
+```
+</Notes>
         </Document>
         <Document ID="7597AB10-50DE-472B-B633-F02D8BC24738">
             <Title>execute-dir</Title>

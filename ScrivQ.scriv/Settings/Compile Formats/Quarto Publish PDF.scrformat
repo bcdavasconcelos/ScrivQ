@@ -166,12 +166,12 @@
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 []\{#%autoref%\}\
 }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -414,21 +414,21 @@
                 <Suffix HashesInside="Yes"><![CDATA[ {#sec-%autoref% .appendix}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ---\
+\f0\fs36 \cf0 ---\
 bibliography_%autoref%: |\
   }]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ---\
 \
 ::: \{#refs_%autoref% <$custom:Class> <$custom:Attributes>\}\
@@ -513,20 +513,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{#<$custom:ID> <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#<$custom:ID> <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -602,20 +602,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.callout-caution #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{.callout-caution #%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -691,20 +691,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.callout-important #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{.callout-important #%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -780,20 +780,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.callout-note #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{.callout-note #%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -869,20 +869,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.callout-tip #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{.callout-tip #%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -958,20 +958,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.callout-warning #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{.callout-warning #%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1047,20 +1047,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\
+\f0\fs36 \cf0 ```\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1136,20 +1136,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{#lst-%autoref% .<$custom:Class> lst-cap="<$custom:Value>"\}\
+\f0\fs36 \cf0 ```\{#lst-%autoref% <$custom:Class> lst-cap="<$custom:Value>"\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1225,20 +1225,19 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{r\}\
-}]]></Prefix>
+\f0\fs36 \cf0 ```\{r\}}]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1314,23 +1313,23 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{r\}\
+\f0\fs36 \cf0 ```\{r\}\
 #| label: %autoref%\
 #| tbl-cap: <$custom:Value>\
 \
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1406,20 +1405,19 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{python\}\
-}]]></Prefix>
+\f0\fs36 \cf0 ```\{python\}}]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1495,21 +1493,23 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{python\}\
-#| label: %autoref%\
+\f0\fs36 \cf0 ```\{python\}\
+\pard\tx0\tx0\tx567\tx1134\tx1701\sl288\slmult1\pardirnatural\qj\partightenfactor0
+\cf0 #| label: fig-%autoref%\
+#| fig-cap: <$custom:Value>\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1585,20 +1585,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#cnj-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#cnj-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1674,20 +1674,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#cor-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#cor-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1763,20 +1763,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#def-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#def-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1852,20 +1852,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#exm-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#exm-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -1941,20 +1941,20 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#exr-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#exr-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2030,19 +2030,19 @@ bibliography_%autoref%: |\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 $$}]]></Prefix>
+\f0\fs36 \cf0 $$}]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 $$ \{#eq-%autoref%\}\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2118,20 +2118,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#lem-%autoref%<$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#lem-%autoref%<$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2207,20 +2207,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#prp-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#prp-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2302,12 +2302,12 @@ $$ \{#eq-%autoref%\}\
 {\*\expandedcolortbl;;}
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 : <$custom:Value> \{#tbl-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 : <$custom:Value> \{#tbl-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -2384,20 +2384,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ::: \{#thm-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 ::: \{#thm-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2473,20 +2473,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{dot\}\
+\f0\fs36 \cf0 ```\{dot\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2562,22 +2562,22 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{dot\}\
+\f0\fs36 \cf0 ```\{dot\}\
 //| label: fig-%autoref%\
 //| fig-cap: "<$custom:Value>"\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2653,20 +2653,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{mermaid\}\
+\f0\fs36 \cf0 ```\{mermaid\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2742,23 +2742,23 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ```\{mermaid\}\
+\f0\fs36 \cf0 ```\{mermaid\}\
 %%| label: fig-%autoref%\
 %%| fig-cap: "<$custom:Value>"\
 \
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ```\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -2909,12 +2909,12 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[" -->]]></Suffix>
             </Titles>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 <!-- end_file -->}]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -3063,20 +3063,20 @@ $$ \{#eq-%autoref%\}\
                 <Suffix HashesInside="Yes"/>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 AlegreyaSans-Regular;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\b\fs36 \cf0 <!-- begin_file: "<$custom:ID>" -->\
+\f0\fs36 \cf0 <!-- begin_file: "<$custom:ID>" -->\
 }]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 <!-- end_file -->\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -3233,12 +3233,12 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 [^fn-%autoref%]: }]]></Prefix>
+\f0\fs36 \cf0 [^fn-%autoref%]: }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -3313,12 +3313,12 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[ {#sec-%autoref%}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 []\{#%autoref%\}\
 \
 }]]></Prefix>
@@ -3588,12 +3588,12 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[ {.unnumbered #sec-%autoref%}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 []\{#%autoref%\}\
+\f0\fs36 \cf0 []\{#%autoref%\}\
 \
 }]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -3681,12 +3681,12 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[ {.unnumbered id="<$custom:ID>"}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 []\{#%autoref%\}\
+\f0\fs36 \cf0 []\{#%autoref%\}\
 \
 }]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -4405,13 +4405,13 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[ {#sec-%autoref%}]]></Suffix>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;\red4\green45\blue62;}
 {\*\expandedcolortbl;;\cssrgb\c0\c23137\c30980;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs31\fsmilli15750 \cf2 \expnd0\expndtw0\kerning0
+\f0\fs36 \cf2 \expnd0\expndtw0\kerning0
 \{\{< pagebreak >\}\}\
 \
 }]]></Prefix>
@@ -4495,13 +4495,13 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[ {id="<$custom:ID>"}]]></Suffix>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;\red4\green45\blue62;}
 {\*\expandedcolortbl;;\cssrgb\c0\c23137\c30980;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs31\fsmilli15750 \cf2 \expnd0\expndtw0\kerning0
+\f0\fs36 \cf2 \expnd0\expndtw0\kerning0
 \{\{< pagebreak >\}\}\
 \
 }]]></Prefix>
@@ -4590,13 +4590,13 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[ {#sec-%autoref%}]]></Suffix>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;\red4\green45\blue62;}
 {\*\expandedcolortbl;;\cssrgb\c0\c23137\c30980;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs31\fsmilli15750 \cf2 \expnd0\expndtw0\kerning0
+\f0\fs36 \cf2 \expnd0\expndtw0\kerning0
 \{\{< pagebreak >\}\}\
 \
 }]]></Prefix>
@@ -4685,13 +4685,13 @@ $$ \{#eq-%autoref%\}\
                 <Suffix><![CDATA[ {id="<$custom:ID>"}]]></Suffix>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;\red4\green45\blue62;}
 {\*\expandedcolortbl;;\cssrgb\c0\c23137\c30980;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs31\fsmilli15750 \cf2 \expnd0\expndtw0\kerning0
+\f0\fs36 \cf2 \expnd0\expndtw0\kerning0
 \{\{< pagebreak >\}\}\
 \
 }]]></Prefix>
@@ -4779,20 +4779,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.column-margin\}\
+\f0\fs36 \cf0 :::\{.column-margin\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -4868,20 +4868,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.column-page\}\
+\f0\fs36 \cf0 :::\{.column-page\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -4957,20 +4957,21 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.column-page-left\}\
+\f0\fs36 \cf0 :::\{.column-page-left\}
+\f1\fs24 \
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -5046,20 +5047,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.column-page-right\}\
+\f0\fs36 \cf0 :::\{.column-page-right\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -5135,20 +5136,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{.column-screen\}\
+\f0\fs36 \cf0 :::\{.column-screen\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 :::\
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
@@ -5224,20 +5225,20 @@ $$ \{#eq-%autoref%\}\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ---\
+\f0\fs36 \cf0 ---\
 }]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
+\f0\fs36 \cf0 \
 ---}]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -5313,12 +5314,12 @@ $$ \{#eq-%autoref%\}\
                 <Suffix HashesInside="Yes"><![CDATA[ {.appendix <$custom:ID>}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ---\
+\f0\fs36 \cf0 ---\
 bibliography_<$custom:ID>: "<$custom:Value>"\
 ---\
 \
@@ -5410,12 +5411,12 @@ bibliography_<$custom:ID>: "<$custom:Value>"\
                 <Suffix HashesInside="Yes"><![CDATA[ {#sec-%autoref% .appendix}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 ---\
+\f0\fs36 \cf0 ---\
 bibliography_%autoref%: "<$custom:Value>"\
 ---\
 \
@@ -5506,21 +5507,22 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{#tbl-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#tbl-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
-:::\
+\f0\fs32 \cf0 \
+:::
+\f1\fs24 \
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -5595,21 +5597,22 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 :::\{#fig-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#fig-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \
-:::\
+\f0\fs32 \cf0 \
+:::
+\f1\fs24 \
 }]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -5994,12 +5997,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0 <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0 <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6073,12 +6076,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0   <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0   <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6152,12 +6155,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0     <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0     <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6231,12 +6234,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0       <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0       <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6311,12 +6314,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 <$custom:ID>: |\
+\f0\fs36 \cf0 <$custom:ID>: |\
   <$custom:Value> }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -6392,12 +6395,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0   <$custom:ID>: |\
+\f0\fs36 \cf0   <$custom:ID>: |\
     <$custom:Value> }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -6473,12 +6476,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0     <$custom:ID>: |\
+\f0\fs36 \cf0     <$custom:ID>: |\
       <$custom:Value> }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -6554,12 +6557,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0       <$custom:ID>: |\
+\f0\fs36 \cf0       <$custom:ID>: |\
         <$custom:Value> }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -6634,12 +6637,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 - <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0 - <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6713,12 +6716,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0   - <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0   - <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6792,12 +6795,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0     - <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0     - <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6871,12 +6874,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0       - <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0       - <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -6950,12 +6953,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0 - <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0 - <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -7029,12 +7032,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0   - <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0   - <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -7108,12 +7111,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0     - <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0     - <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -7187,12 +7190,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs48 \cf0       - <$custom:ID>: <$custom:Value>}]]></Prefix>
+\f0\fs36 \cf0       - <$custom:ID>: <$custom:Value>}]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -7267,12 +7270,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 - |\
+\f0\fs36 \cf0 - |\
   }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -7348,12 +7351,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0   - |\
+\f0\fs36 \cf0   - |\
     }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -7429,12 +7432,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0     - |\
+\f0\fs36 \cf0     - |\
       }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -7510,12 +7513,12 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <MMDHashCount>0</MMDHashCount>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0       - |\
+\f0\fs36 \cf0       - |\
         }]]></Prefix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -8070,19 +8073,19 @@ bibliography_%autoref%: "<$custom:Value>"\
                 <Suffix><![CDATA[}]]></Suffix>
             </Titles>
             <Prefix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \\schema\{}]]></Prefix>
+\f0\fs36 \cf0 \\schema\{}]]></Prefix>
             <Suffix AfterSubdocs="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \}}]]></Suffix>
+\f0\fs36 \cf0 \}}]]></Suffix>
             <Formatting Override="No" EbooksUseBaseFormatting="Yes">
                 <Title><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
