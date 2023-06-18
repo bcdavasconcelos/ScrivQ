@@ -123,13 +123,12 @@ begin
     # This regex puts {#id} onto end of $$ math block lines
     text.gsub!(/\$\$ ?\n\{\#eq/,'$$ {#eq')
 
-
-
-    # We will move data about the images from the bottom of the file to the top
-    # From
+    # We will move markup for images and figures from the 
+    # bottom of the file to their in-line references.
+    # From:
     # [Ulysses sailing][Ulysses1]
     # [Ulysses1]: Ulysses1.jpg {width=486 height=402}
-    # To
+    # To:
     # ![Ulysses sailing](Ulysses1.png){#fig-ulysses1 width=486 height=402}
 
     figures_data = text.scan(/^\[(?<reference>.+?)\]: (?<url>.+?) ?\{(?<dimensions>.+?)\}$/)
