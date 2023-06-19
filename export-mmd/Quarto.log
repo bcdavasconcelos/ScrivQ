@@ -20,7 +20,7 @@ Matched pandocquartolatextemplate to pandocquartolatextemplate
 ----> Error: File index.md not found!
 --> Created files: _extensions/bcdavasconcelos/citetools/_extension.yaml, _extensions/bcdavasconcelos/citetools/citation-backlinks.lua, _extensions/bcdavasconcelos/citetools/citefield.lua, _extensions/bcdavasconcelos/citetools/citeproc.lua, _extensions/bcdavasconcelos/citetools/multiple-bibliographies.lua, _extensions/csl/abnt-phi.csl, _extensions/bcdavasconcelos/csl/chicago.csl, _extensions/bcdavasconcelos/templates/doc-class.tex, _extensions/bcdavasconcelos/templates/after-body.tex, _extensions/bcdavasconcelos/templates/before-body.tex, _extensions/bcdavasconcelos/templates/biblio.tex, _extensions/bcdavasconcelos/templates/citations.tex, _extensions/bcdavasconcelos/templates/graphics.tex, _extensions/bcdavasconcelos/templates/pandoc.tex, _extensions/bcdavasconcelos/templates/tables.tex, _extensions/bcdavasconcelos/templates/template.tex, _extensions/bcdavasconcelos/templates/title.tex, _extensions/bcdavasconcelos/templates/toc.tex, _quarto.yml, _variables.yml, refs/primary-sources.yml, refs/secondary-sources.yml, refs/workflow.bib
 --> Modified File with fixed cross-references: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd
---> Parsing took: 0.029938s
+--> Parsing took: 0.024077s
 
 --> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd" --to pdf
 [31m
