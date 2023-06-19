@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="FB0A55DB-FE5E-4741-990D-C51CD1148964">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Column 1
+Column 2
+Column 3
+A
+B
+C
+D
+E
+F
+G
+H
+I
+: First Table {#tbl-first2}
+
+Column 1
+Column 2
+Column 3
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+: Second Table {#tbl-second2}
+
+This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multipart Table]. Note that Custom Metadata holds the cross-referencing label, layout class and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: &lt;​$​​custom:Class&gt; &lt;​$​​custom:Attributes&gt; 
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

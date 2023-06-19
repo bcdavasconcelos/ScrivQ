@@ -19,7 +19,6 @@
             <RemoveAnnotations>Yes</RemoveAnnotations>
             <ResampleImages DPI="72">No</ResampleImages>
             <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
-            <ConvertLinksToMMD>Yes</ConvertLinksToMMD>
             <PDF>
                 <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
                 <Compression Enabled="No">

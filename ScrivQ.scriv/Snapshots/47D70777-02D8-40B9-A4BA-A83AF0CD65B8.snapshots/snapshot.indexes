@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="47D70777-02D8-40B9-A4BA-A83AF0CD65B8">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex (see @fig-elespan). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+:::{.column-page}
+
+￼
+{#fig-elespan} This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a .column-page class, for Quarto's layout for extend-to-page-width.
+:::
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
+
+![This should also span the whole page, using a paragraph block style [Column Page]. This method has the caveat that we cannot use an editor-embedded image as in elespan; only an Scrivener Binder document link to the file and direct pandoc markup…](Elephant 1){#fig-elespan2}
+
+Ad pro quod definitiønem [@crivellato2007], mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! </Text>
+    </Snapshot>
+</SnapshotIndexes>

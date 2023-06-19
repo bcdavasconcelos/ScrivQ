@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="5681A6B7-F48A-475E-B0CE-4622E60212E8">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Note if you have R and Python installed, you can run code like so...
+Here is an R plot ([autoref]), you need to have R installed for this to work, if not remove this document from the compile:  
+
+#| fig-cap: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level.
+#| column: page
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  </Text>
+    </Snapshot>
+</SnapshotIndexes>

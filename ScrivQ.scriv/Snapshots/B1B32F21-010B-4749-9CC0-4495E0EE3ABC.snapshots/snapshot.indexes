@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="B1B32F21-010B-4749-9CC0-4495E0EE3ABC">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the Shortcode Font Awesome style as in `regular bell` regular bell.
+There is also Shortcode Env, Shortcode Meta, Shortcode Var. 
+Writing in Scrivener (https://github.com/iandol/scrivomatic#writing-in-scrivener) is a must read.
+The Plain Person’s Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
+Quarto Reference - https://quarto.org/docs/reference/
+The easiest way to publish to Github Pages: Render to docs
+
+
+The variables stored here will be accessible via the Style Shortcode Var.
+Please contact us at email.info. 
+`QUARTO_PROJECT_DIR`  
+QUARTO_PROJECT_DIR
+We are using Python `QUARTO_PYTHON` QUARTO_PYTHON, QUARTO_R, PY_PYTHON, or RETICULATE_PYTHON. </Text>
+    </Snapshot>
+</SnapshotIndexes>

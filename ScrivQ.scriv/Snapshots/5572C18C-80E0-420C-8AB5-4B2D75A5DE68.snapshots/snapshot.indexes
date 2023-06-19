@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="5572C18C-80E0-420C-8AB5-4B2D75A5DE68">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>1. New Section Layout &amp; Section Type provide support for the multiple bibliographies Lua Filter. 
+
+Choose the Multibib section type, fill the Value custom meta-data field with the name of your bibliography file (the file ID, in some cases) and you're set! Do this with as many bibliographies as you want. The sections will be named after the last heading element, that is, the binder item whence it originated, as it happens with all other chapters of the text. 
+
+You can also point Quarto and Pandoc to the bibliography file using relative paths, full paths and URLs.
+
+- my_file.bib
+- /Users/username/bibliography/my_file.bib
+- https://raw.githubusercontent.com/.../arist.bib
+
+See the backmatter for examples.
+
+2. New Section Type &amp; Custom Metadata Field can be used to override the depth of the current binder item placing the desired number of hashes in the corresponding metadata field (Depth) with no space at the end, as in ###, and then selecting the  Depth + Header section type.</Text>
+    </Snapshot>
+</SnapshotIndexes>

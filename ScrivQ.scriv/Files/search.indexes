@@ -101,13 +101,13 @@ listing:
             <Title>timeout</Title>
             <Synopsis>Time (in seconds) after which to exit if there are no active clients</Synopsis>
         </Document>
-        <Document ID="0C2C4D24-6C33-41D8-A3F0-BFF7C11BF11C">
-            <Title>Lemma</Title>
-            <Text>Lemma</Text>
-        </Document>
         <Document ID="FA13B477-8DE1-42F7-9879-93DBF0794BA2">
             <Title>Sub-Reference Labels</Title>
             <Synopsis>Sub-references number scheme</Synopsis>
+        </Document>
+        <Document ID="0C2C4D24-6C33-41D8-A3F0-BFF7C11BF11C">
+            <Title>Lemma</Title>
+            <Text>Lemma</Text>
         </Document>
         <Document ID="13EC2A67-7862-4B5C-AA5C-272A733A464C">
             <Title>biblio</Title>
@@ -118,14 +118,6 @@ listing:
         </Document>
         <Document ID="D0DBA8EF-41EF-440C-AAC2-85C3BF03A101">
             <Title>ascii</Title>
-        </Document>
-        <Document ID="2FFDCCCD-CD23-4EE3-AF0C-446D17B43D51">
-            <Title>CiteTools Integration</Title>
-            <Notes>For the project to compile you'll have to:
-
-brew install xquartz
-brew install librsvg
-</Notes>
         </Document>
         <Document ID="4FEAE149-41B5-4029-AA5B-379FFED70200">
             <Title>graphics</Title>
@@ -159,8 +151,11 @@ references:
 ...
 </Notes>
         </Document>
-        <Document ID="26A66074-00AB-42C0-8606-32511B54C372">
-            <Title>Bib_ref</Title>
+        <Document ID="5417E024-0803-4E7E-8129-CCC193EBADAE">
+            <Title>title-block-style</Title>
+            <Synopsis>The layout of the title block for this document (none, plain, or default).
+
+To completely disable any styling of the title block, choose the style none. For minimal styling, choose plain.</Synopsis>
         </Document>
         <Document ID="7FDCB0D5-C32F-49FE-BF3B-7B2A549F4657">
             <Title>sort</Title>
@@ -168,62 +163,25 @@ references:
 For example: date asc
 Use sort:false to use the unsorted original order of items.</Synopsis>
         </Document>
-        <Document ID="94EFD213-99C2-4B40-ADB6-D4447D2FC2D5">
-            <Title>_extensions</Title>
-        </Document>
         <Document ID="0C7AE93A-9B85-4F73-B831-0577775A64AB">
             <Title>field-types</Title>
             <Synopsis>Provides the date type for the field of a listing item. Unknown fields are treated as strings unless a type is provided. Valid types are date, number.</Synopsis>
         </Document>
-        <Document ID="B61D50D2-40DF-44A9-8F41-11E044C52362">
-            <Title>image-height</Title>
-            <Synopsis>The height of the image being displayed (a CSS height string).
-The width is automatically determined and the image will fill the rectangle without scaling (cropped to fill).</Synopsis>
+        <Document ID="94EFD213-99C2-4B40-ADB6-D4447D2FC2D5">
+            <Title>_extensions</Title>
         </Document>
         <Document ID="8B00DA1D-A763-4496-883B-B8121E9500B8">
             <Title>listings</Title>
             <Synopsis>Use the listings package for LaTeX code blocks. The package does not support multi-byte encoding for source code. To handle UTF-8 you would need to use a custom template. This issue is fully documented here: Encoding issue with the listings package
 </Synopsis>
         </Document>
-        <Document ID="2B65E5B1-30E5-410A-868D-DEAEECE92592">
-            <Title>number-offset</Title>
-            <Synopsis>Offset for section headings in output (offsets are 0 by default) The first number is added to the section number for top-level headings, the second for second-level headings, and so on. So, for example, if you want the first top-level heading in your document to be numbered “6”, specify number-offset: 5. If your document starts with a level-2 heading which you want to be numbered “1.5”, specify number-offset: [1,4]. Implies number-sections</Synopsis>
-        </Document>
-        <Document ID="FE0E09AB-C272-4794-A31C-AA8755E8AD4C">
-            <Title>latex.template</Title>
-        </Document>
-        <Document ID="5417E024-0803-4E7E-8129-CCC193EBADAE">
-            <Title>title-block-style</Title>
-            <Synopsis>The layout of the title block for this document (none, plain, or default).
-
-To completely disable any styling of the title block, choose the style none. For minimal styling, choose plain.</Synopsis>
+        <Document ID="B61D50D2-40DF-44A9-8F41-11E044C52362">
+            <Title>image-height</Title>
+            <Synopsis>The height of the image being displayed (a CSS height string).
+The width is automatically determined and the image will fill the rectangle without scaling (cropped to fill).</Synopsis>
         </Document>
         <Document ID="EBA16FC9-7A64-4656-B770-C7E74A1E311B">
             <Title>DATheiler</Title>
-        </Document>
-        <Document ID="83760B7C-6F83-4D5C-8661-FBB8E0896C3C">
-            <Title>id</Title>
-        </Document>
-        <Document ID="6E3062C7-2CD2-43AA-AD46-8CBD3FD6851C">
-            <Title>Generic Divs</Title>
-            <Text>:::{#&lt;$custom:ID&gt; &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
-Text content
-:::
-</Text>
-        </Document>
-        <Document ID="10DE7B92-ED51-4435-AD79-DBC059943AB0">
-            <Title>html-math-method</Title>
-            <Synopsis>Method use to render math in HTML output (plain, webtex, gladtex, mathml, mathjax, katex).
-
-See the Pandoc documentation on Math Rendering in HTML for additional details.</Synopsis>
-        </Document>
-        <Document ID="969A6B6C-923A-424A-8A85-565A2C89716C">
-            <Title>shortcodes</Title>
-            <Synopsis>Specify Lua scripts that implement shortcode handlers</Synopsis>
-        </Document>
-        <Document ID="94FB316C-19B7-4F6D-9925-E535FE85C4CE">
-            <Title>margin-top</Title>
-            <Synopsis>For HTML output, sets the margin-top property on the Body element. For LaTeX output, sets the top margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the top margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the top page margin.</Synopsis>
         </Document>
         <Document ID="412AE472-9292-4513-94C3-23D7C3FB8F1C">
             <Title>citation-backlinks.lua</Title>
@@ -308,6 +266,48 @@ function Div(el)
     return el
   end
 end</Text>
+        </Document>
+        <Document ID="FE0E09AB-C272-4794-A31C-AA8755E8AD4C">
+            <Title>latex.template</Title>
+        </Document>
+        <Document ID="2B65E5B1-30E5-410A-868D-DEAEECE92592">
+            <Title>number-offset</Title>
+            <Synopsis>Offset for section headings in output (offsets are 0 by default) The first number is added to the section number for top-level headings, the second for second-level headings, and so on. So, for example, if you want the first top-level heading in your document to be numbered “6”, specify number-offset: 5. If your document starts with a level-2 heading which you want to be numbered “1.5”, specify number-offset: [1,4]. Implies number-sections</Synopsis>
+        </Document>
+        <Document ID="2FFDCCCD-CD23-4EE3-AF0C-446D17B43D51">
+            <Title>CiteTools Integration</Title>
+            <Notes>For the project to compile you'll have to:
+
+brew install xquartz
+brew install librsvg
+</Notes>
+        </Document>
+        <Document ID="6E3062C7-2CD2-43AA-AD46-8CBD3FD6851C">
+            <Title>Generic Divs</Title>
+            <Text>:::{#&lt;$custom:ID&gt; &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
+Text content
+:::
+</Text>
+        </Document>
+        <Document ID="969A6B6C-923A-424A-8A85-565A2C89716C">
+            <Title>shortcodes</Title>
+            <Synopsis>Specify Lua scripts that implement shortcode handlers</Synopsis>
+        </Document>
+        <Document ID="10DE7B92-ED51-4435-AD79-DBC059943AB0">
+            <Title>html-math-method</Title>
+            <Synopsis>Method use to render math in HTML output (plain, webtex, gladtex, mathml, mathjax, katex).
+
+See the Pandoc documentation on Math Rendering in HTML for additional details.</Synopsis>
+        </Document>
+        <Document ID="26A66074-00AB-42C0-8606-32511B54C372">
+            <Title>Bib_ref</Title>
+        </Document>
+        <Document ID="94FB316C-19B7-4F6D-9925-E535FE85C4CE">
+            <Title>margin-top</Title>
+            <Synopsis>For HTML output, sets the margin-top property on the Body element. For LaTeX output, sets the top margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the top margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the top page margin.</Synopsis>
+        </Document>
+        <Document ID="83760B7C-6F83-4D5C-8661-FBB8E0896C3C">
+            <Title>id</Title>
         </Document>
         <Document ID="03931188-BC61-4145-B63E-02526C97FE8B">
             <Title>numbers</Title>
@@ -437,6 +437,10 @@ An object with key “text” indicates textual content to be included</Synopsis
         <Document ID="56C53AFA-A194-4465-B5E9-84C0BDC7844B">
             <Title>Secondary Sources</Title>
         </Document>
+        <Document ID="B9D39E2A-AFAF-4A20-9A95-1E8DEC11A6DE">
+            <Title>Exercise Prefix</Title>
+            <Synopsis>Exercise prefix used for inline reference</Synopsis>
+        </Document>
         <Document ID="A6E535AE-214F-4622-A5EA-1B6ED2C9DDB8">
             <Text>
 We can also create interesting possibilities to customize and further control the conversion process, by including in our project the default Pandoc Latex Templates. Customize any line of the whole code. Or not, maybe just leave it there and take a look every once in a while at what is going on at the Quarto repository. The template will work either way. 
@@ -446,20 +450,16 @@ We can also create interesting possibilities to customize and further control th
 
 </Text>
         </Document>
-        <Document ID="B9D39E2A-AFAF-4A20-9A95-1E8DEC11A6DE">
-            <Title>Exercise Prefix</Title>
-            <Synopsis>Exercise prefix used for inline reference</Synopsis>
-        </Document>
-        <Document ID="FF587423-106B-46FB-9ED0-F6FDB7DB22CB">
-            <Title>discussion</Title>
+        <Document ID="324F909E-84B8-4EC6-AEE5-52FC2DCC74B4">
+            <Title>output-file</Title>
+            <Synopsis>Output file to write to</Synopsis>
         </Document>
         <Document ID="88418938-3B3D-45AC-851F-176B9604F9B0">
             <Title>image</Title>
             <Synopsis>The path to an image for this feed. If not specified, the image for the page the listing appears on will be used, otherwise an image will be used if specified for the site in the Quarto project.</Synopsis>
         </Document>
-        <Document ID="324F909E-84B8-4EC6-AEE5-52FC2DCC74B4">
-            <Title>output-file</Title>
-            <Synopsis>Output file to write to</Synopsis>
+        <Document ID="FF587423-106B-46FB-9ED0-F6FDB7DB22CB">
+            <Title>discussion</Title>
         </Document>
         <Document ID="D059E96B-86C4-484C-A8B2-89151F0E06B4">
             <Title>citeproc</Title>
@@ -503,9 +503,7 @@ references:
         </Document>
         <Document ID="1B7FBB0B-54AD-4518-B830-759D79AB608D">
             <Title>Text</Title>
-            <Text>Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
-
-</Text>
+            <Text>Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  </Text>
         </Document>
         <Document ID="D732E251-46CB-4868-8167-02A4290AE524">
             <Title>Panels</Title>
@@ -515,15 +513,15 @@ references:
             <Synopsis>Default DPI for figures generated by Matplotlib or R graphics.
 Note that with the Jupyter engine, this option has no effect when provided at the cell level; it can only be provided with document or project metadata.</Synopsis>
         </Document>
+        <Document ID="B7871EE4-271F-49CB-9FC6-4DC000B4139D">
+            <Title>template-partials</Title>
+            <Synopsis>Include the specified files as partials accessible to the template for the generated content.</Synopsis>
+        </Document>
         <Document ID="DADF1FE5-9632-49B5-8D9C-097FD8D7A52B">
             <Title>Figure height</Title>
             <Synopsis>Default height for figures generated by Matplotlib or R graphics.
 
 Note that with the Jupyter engine, this option has no effect when provided at the cell level; it can only be provided with document or project metadata.</Synopsis>
-        </Document>
-        <Document ID="B7871EE4-271F-49CB-9FC6-4DC000B4139D">
-            <Title>template-partials</Title>
-            <Synopsis>Include the specified files as partials accessible to the template for the generated content.</Synopsis>
         </Document>
         <Document ID="8420BDA7-5EAB-4CAC-8F9A-5E8048C2F5E3">
             <Title>Ulysses1</Title>
@@ -566,7 +564,6 @@ Scrivener cannot nest block styles, so for Marginalia like this one we can use p
 $$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
 
 Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
-
 This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See [autoref] below for an example using a Section Type to insert the same markup at compile-time.
 
 ::: {#fig-elephants .column-page layout-ncol=2 layout-valign="top"}
@@ -595,6 +592,9 @@ Note that there are five types of callouts, including:
 Note that there are five types of callouts, including: 
 `note`, `tip`, `warning`, `caution`, and `important`.
 </Text>
+        </Document>
+        <Document ID="36DAA93E-5CE9-46D6-A9BB-CFA153FAFA3B">
+            <Title>info</Title>
         </Document>
         <Document ID="84C03385-E96B-4E9E-A3F4-7C30DCED8DE4">
             <Title>linkcolor</Title>
@@ -654,8 +654,8 @@ $endif$</Text>
             <Title>foreground</Title>
             <Synopsis>Footer foreground color</Synopsis>
         </Document>
-        <Document ID="348D7809-4125-4628-B0A3-94D78F41F6FB">
-            <Title>icon</Title>
+        <Document ID="A8B498BF-5F7B-4676-8020-272883430775">
+            <Title>title</Title>
         </Document>
         <Document ID="704FADA3-BD7D-4E27-9632-A0F351FF1BD1">
             <Title>urlcolor</Title>
@@ -671,19 +671,19 @@ $endif$</Text>
 </Text>
             <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
         </Document>
-        <Document ID="DA301CF0-1CA3-4884-84A8-1981517EFB41">
-            <Title>Figure align</Title>
-            <Synopsis>Figure horizontal alignment (default, left, right, or center)</Synopsis>
-        </Document>
         <Document ID="CCBDA37C-7FB0-46A3-A4E6-44CC7410889D">
             <Title>hypertexnames=true</Title>
-        </Document>
-        <Document ID="A8B498BF-5F7B-4676-8020-272883430775">
-            <Title>title</Title>
         </Document>
         <Document ID="4A722C77-FF65-4566-A912-16ED816D70C9">
             <Title>template</Title>
             <Synopsis>The path to a custom listing template.</Synopsis>
+        </Document>
+        <Document ID="DA301CF0-1CA3-4884-84A8-1981517EFB41">
+            <Title>Figure align</Title>
+            <Synopsis>Figure horizontal alignment (default, left, right, or center)</Synopsis>
+        </Document>
+        <Document ID="348D7809-4125-4628-B0A3-94D78F41F6FB">
+            <Title>icon</Title>
         </Document>
         <Document ID="C3D0C8B5-EFA5-4103-9CD9-A4A98FC39E68">
             <Title>cache</Title>
@@ -694,23 +694,6 @@ Note that cache invalidation is triggered by changes in chunk source code (or ot
 true: Cache results
 false: Do not cache results
 refresh: Force a refresh of the cache even if has not been otherwise invalidated.</Synopsis>
-        </Document>
-        <Document ID="F588A37D-22BE-41C7-ADDF-315008A9FC2E">
-            <Title>toc</Title>
-            <Synopsis>Include an automatically generated table of contents (or, in the case of latex, context, docx, odt, opendocument, rst, or ms, an instruction to create one) in the output document. This option has no effect if standalone is false.
-
-Note that if you are producing a PDF via ms, the table of contents will appear at the beginning of the document, before the title. If you would prefer it to be at the end of the document, use the option pdf-engine-opt: --no-toc-relocation.</Synopsis>
-        </Document>
-        <Document ID="1AB3BC7E-221E-4E72-88CA-F8376C04E680">
-            <Title>Column Page←Left</Title>
-            <Text>This uses a Section Type [Layout Column Page←Left]. The contents will be assigned the .column-page-left class and stretched leftwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
-</Text>
-        </Document>
-        <Document ID="0D2A702F-D193-4846-91D9-C35AF3007E09">
-            <Title>citations</Title>
-        </Document>
-        <Document ID="0868B489-3E7E-4890-9C52-CCE36EA1697B">
-            <Text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text>
         </Document>
         <Document ID="22C73FD3-397A-4EFC-B21A-54644280673A">
             <Title>family</Title>
@@ -737,9 +720,26 @@ references:
 ...
 </Notes>
         </Document>
+        <Document ID="F588A37D-22BE-41C7-ADDF-315008A9FC2E">
+            <Title>toc</Title>
+            <Synopsis>Include an automatically generated table of contents (or, in the case of latex, context, docx, odt, opendocument, rst, or ms, an instruction to create one) in the output document. This option has no effect if standalone is false.
+
+Note that if you are producing a PDF via ms, the table of contents will appear at the beginning of the document, before the title. If you would prefer it to be at the end of the document, use the option pdf-engine-opt: --no-toc-relocation.</Synopsis>
+        </Document>
+        <Document ID="0D2A702F-D193-4846-91D9-C35AF3007E09">
+            <Title>citations</Title>
+        </Document>
+        <Document ID="0868B489-3E7E-4890-9C52-CCE36EA1697B">
+            <Text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Text>
+        </Document>
         <Document ID="57740946-1757-459E-A7D3-0CC502006017">
             <Title>Text + ID</Title>
             <Text>This is an example of the Text section type.</Text>
+        </Document>
+        <Document ID="1AB3BC7E-221E-4E72-88CA-F8376C04E680">
+            <Title>Column Page←Left</Title>
+            <Text>This uses a Section Type [Layout Column Page←Left]. The contents will be assigned the .column-page-left class and stretched leftwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+</Text>
         </Document>
         <Document ID="7FFDF71E-8587-4AB6-AF97-3BDA838DF455">
             <Title>p</Title>
@@ -773,14 +773,14 @@ references:
 ...
 </Notes>
         </Document>
+        <Document ID="73704269-5A83-4243-BFDD-C6E6FDEF174E">
+            <Title>latex-tlmgr-opts</Title>
+            <Synopsis>Array of command line options for tlmgr.</Synopsis>
+        </Document>
         <Document ID="6867277E-E7BB-49B5-9A35-D026AB1041AA">
             <Title>Abstract</Title>
             <Text>This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto’s layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener’s markdown output so that it is compatible with Quarto's cross-referencing filter.  
 </Text>
-        </Document>
-        <Document ID="73704269-5A83-4243-BFDD-C6E6FDEF174E">
-            <Title>latex-tlmgr-opts</Title>
-            <Synopsis>Array of command line options for tlmgr.</Synopsis>
         </Document>
         <Document ID="C3B2FD7B-622C-47AD-8A3E-51CF9627EC15">
             <Title>CJKoptions</Title>
@@ -801,6 +801,10 @@ references:
             <Title>repo-actions</Title>
             <Synopsis>Links to source repository actions (none or one or more of edit, source, issue)</Synopsis>
         </Document>
+        <Document ID="06AF792E-2B58-4276-8B68-1DF8022C305F">
+            <Title>theme</Title>
+            <Synopsis>The giscus theme to use when displaying comments.</Synopsis>
+        </Document>
         <Document ID="51F22191-1B68-46C1-9B37-6A2A4BB1E302">
             <Title>toc-location</Title>
             <Synopsis>Location for table of contents (body, left, or right (default)).</Synopsis>
@@ -809,16 +813,24 @@ references:
             <Title>Meta-data</Title>
             <Synopsis>Add data as subfiles. Should it be added as text, it must start with a linebreak.</Synopsis>
         </Document>
-        <Document ID="06AF792E-2B58-4276-8B68-1DF8022C305F">
-            <Title>theme</Title>
-            <Synopsis>The giscus theme to use when displaying comments.</Synopsis>
-        </Document>
         <Document ID="22D200D6-488B-4D21-8908-A6AE7C08877A">
             <Title>body-header</Title>
             <Synopsis>Markdown to insert at the beginning of each page’s body (below the title and author block).</Synopsis>
         </Document>
         <Document ID="3F5CFBC3-10D8-46FD-A798-E34961C17DC6">
             <Title>issued</Title>
+        </Document>
+        <Document ID="76800BD6-6C02-45DC-9510-A59042F4271A">
+            <Title>pdf-engine</Title>
+            <Synopsis>Use the specified engine when producing PDF output. If the engine is not in your PATH, the full path of the engine may be specified here. If this option is not specified, Quarto uses the following defaults depending on the output format in use:
+
+latex: xelatex (other options: pdflatex, lualatex, tectonic, latexmk)
+context: context
+html: wkhtmltopdf (other options: prince, weasyprint; see print-css.rocks for a good introduction to PDF generation from HTML/CSS.)
+ms: pdfroff</Synopsis>
+        </Document>
+        <Document ID="F31CAD6B-10CB-46C8-A96B-370B73FD4BBC">
+            <Title>titlepage</Title>
         </Document>
         <Document ID="00D8463A-BF9B-4A7F-B1EB-A9E31C3C7DD5">
             <Title>!table</Title>
@@ -834,18 +846,6 @@ references:
             <Comments>TABLE// [Table Caption]
 Max-Height/Native Size</Comments>
         </Document>
-        <Document ID="76800BD6-6C02-45DC-9510-A59042F4271A">
-            <Title>pdf-engine</Title>
-            <Synopsis>Use the specified engine when producing PDF output. If the engine is not in your PATH, the full path of the engine may be specified here. If this option is not specified, Quarto uses the following defaults depending on the output format in use:
-
-latex: xelatex (other options: pdflatex, lualatex, tectonic, latexmk)
-context: context
-html: wkhtmltopdf (other options: prince, weasyprint; see print-css.rocks for a good introduction to PDF generation from HTML/CSS.)
-ms: pdfroff</Synopsis>
-        </Document>
-        <Document ID="F31CAD6B-10CB-46C8-A96B-370B73FD4BBC">
-            <Title>titlepage</Title>
-        </Document>
         <Document ID="10C1CF61-AC9C-4AB7-B999-FEC664F51FE2">
             <Title>alignment</Title>
             <Synopsis>Alignment of the items within the sidebar (left, right, or center)</Synopsis>
@@ -860,16 +860,16 @@ ms: pdfroff</Synopsis>
             <Title>fns</Title>
             <Text>Notice that we can use the same approach with footnotes.scrivauto This does yet not play well with our footnotes converting mechanism (from regular to inline footnotes) which allows us to split the compiled file without the risk of incorrectly leaving out text behind. Of course, if we compile to TXT, Scrivener will output inline footnotes by default, but it will also not convert Scrivener tables to markdown tables.</Text>
         </Document>
-        <Document ID="D204FED0-7742-4874-A25F-111CB635A857">
-            <Title>- | text-3</Title>
-            <Text>Text</Text>
+        <Document ID="29045695-4AF0-4056-8BF4-C10E1B222A6B">
+            <Title>Links around page numbers</Title>
+            <Text>\renewcommand\pagemark{{\hyperlink{chapter.\the\numexpr\value{chapter}-1\relax}{\guillemotleft} \usekomafont{pagenumber}\thepage\ \hyperlink{chapter.\the\numexpr\value{chapter}+1\relax}{\guillemotright}}}</Text>
         </Document>
         <Document ID="598216D7-4F2D-47AF-8891-4FA8E6EBCDBD">
             <Title>pdfborder</Title>
         </Document>
-        <Document ID="29045695-4AF0-4056-8BF4-C10E1B222A6B">
-            <Title>Links around page numbers</Title>
-            <Text>\renewcommand\pagemark{{\hyperlink{chapter.\the\numexpr\value{chapter}-1\relax}{\guillemotleft} \usekomafont{pagenumber}\thepage\ \hyperlink{chapter.\the\numexpr\value{chapter}+1\relax}{\guillemotright}}}</Text>
+        <Document ID="D204FED0-7742-4874-A25F-111CB635A857">
+            <Title>- | text-3</Title>
+            <Text>Text</Text>
         </Document>
         <Document ID="B90ACC3F-A2A4-4BF8-9D39-B831D2C9A16A">
             <Title>runcolor</Title>
@@ -970,6 +970,18 @@ In order to work correctly, the repo must be public, with the giscus app install
             <Synopsis>Format to read from. Extensions can be individually enabled or disabled by appending +EXTENSION or -EXTENSION to the format name (e.g. markdown+emoji).
 </Synopsis>
         </Document>
+        <Document ID="9A0B60DE-03AE-4773-B778-FC5902619ECF">
+            <Title>anchorcolor</Title>
+        </Document>
+        <Document ID="6519FB43-5BED-4F99-9D0A-54366D60161F">
+            <Title>Callout Important</Title>
+            <Notes>Possible attributes:
+
+appearance="simple"
+title="Title"
+collapse="true"
+icon=false</Notes>
+        </Document>
         <Document ID="58DD51C0-A10D-42D4-A7CD-5633135703FF">
             <Title>Diagram Dot A</Title>
             <Synopsis>Here we are using a Section Type to create the diagram.</Synopsis>
@@ -998,15 +1010,6 @@ digraph finite_state_machine {
 }
 </Text>
             <Notes>See Columns.</Notes>
-        </Document>
-        <Document ID="6519FB43-5BED-4F99-9D0A-54366D60161F">
-            <Title>Callout Important</Title>
-            <Notes>Possible attributes:
-
-appearance="simple"
-title="Title"
-collapse="true"
-icon=false</Notes>
         </Document>
         <Document ID="FB0A55DB-FE5E-4741-990D-C51CD1148964">
             <Title>Multipart Table</Title>
@@ -1044,9 +1047,6 @@ This is a markdown multi-table panel with two sub-tables generated using a Secti
 
 :::
 </Notes>
-        </Document>
-        <Document ID="9A0B60DE-03AE-4773-B778-FC5902619ECF">
-            <Title>anchorcolor</Title>
         </Document>
         <Document ID="6F0D313B-5E35-40F2-A7E0-C05C11A6E863">
             <Title>bookmarksnumbered</Title>
@@ -1108,7 +1108,7 @@ The works of AristOp were first edited by AristOp in AristOp. Lorem ipsum dolor 
         <Document ID="9D01F500-60C4-46B8-B2DB-F15724E03AF6">
             <Title>cnj, cor, def, exm, exr, lem, prp, thm</Title>
             <Text>
-To reference them, use scrivautο, %autοref%, [autοref] or simply scriv &amp;  &lt;\$linkID&gt; with the proper style applied; that is, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto. Notice that they all link to the same document, but each uses a Style corresponding to a different object (Conjecture, Corollary, Definition, and so on). The caveat here is that we cannot have more than one of each kind per binder item, otherwise they will receive the same ID.
+To reference them, use scrivautο, %autοref%, [autοref] or simply scriv &amp;  &lt;\$linkID&gt; with the proper style applied; that is, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto. Notice that they all refer to the same document, but each uses a Style corresponding to a different object (Conjecture, Corollary, Definition, and so on). The caveat here is that we cannot have more than one of each kind per binder item, otherwise they will receive the same ID.
 Conjecture environment
 
 Corollary environment
@@ -1132,6 +1132,9 @@ As we mentioned, you can also create environments using Section Types instead of
         </Document>
         <Document ID="C26FA10A-6F2B-4F9B-AAED-2ADADF271A41">
             <Title>docx</Title>
+        </Document>
+        <Document ID="F21E67A9-F8A9-4DEE-98D6-E177AFB1714C">
+            <Title>Primary Sources</Title>
         </Document>
         <Document ID="A06193F7-BE46-47CC-92C7-DEB881E5D245">
             <Title>Callouts</Title>
@@ -1157,9 +1160,6 @@ Note that there are five types of callouts, including: `note`, `tip`, `warning`,
 
 Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an</Text>
         </Document>
-        <Document ID="F21E67A9-F8A9-4DEE-98D6-E177AFB1714C">
-            <Title>Primary Sources</Title>
-        </Document>
         <Document ID="8B6A1D8C-3C35-41F2-A325-FB6AA5298386">
             <Title>citation</Title>
             <Synopsis>Citation information for the document itself specified as CSL YAML in the document front matter.</Synopsis>
@@ -1179,6 +1179,12 @@ Crossref Figure
 Crossref Listing
 Crossref Table</Text>
         </Document>
+        <Document ID="C1D49DB8-AADB-4566-BF81-ED32939646B3">
+            <Title>breaklinks=true</Title>
+        </Document>
+        <Document ID="02C3CC02-2FB7-4B1D-B26F-4C663E92CF59">
+            <Title>sidebar-width</Title>
+        </Document>
         <Document ID="53E69A22-B754-4DEE-8749-0BD7E5ADAD9F">
             <Title>fontfamily</Title>
             <Synopsis>Font package to use when compiling a PDf with the pdflatex pdf-engine.
@@ -1186,12 +1192,6 @@ Crossref Table</Text>
 See The LaTeX Font Catalogue for a summary of font options available.
 
 For groff (ms) files, the font family for example, T or P.</Synopsis>
-        </Document>
-        <Document ID="C1D49DB8-AADB-4566-BF81-ED32939646B3">
-            <Title>breaklinks=true</Title>
-        </Document>
-        <Document ID="02C3CC02-2FB7-4B1D-B26F-4C663E92CF59">
-            <Title>sidebar-width</Title>
         </Document>
         <Document ID="3D9176D6-7903-4CD8-9E0B-5462FF8FDED8">
             <Title>lot</Title>
@@ -1207,13 +1207,6 @@ Numbers=Lowercase</Synopsis>
         </Document>
         <Document ID="1ECDA81F-7032-4ABD-B6EC-41C9173A9474">
             <Title>marginparsep</Title>
-        </Document>
-        <Document ID="3F37FF44-8C2F-4F3F-88D5-73ABDBE96499">
-            <Title>csl abnt-phi</Title>
-            <Synopsis>Citation Style Language file to use for formatting references.</Synopsis>
-            <Text>&lt;$custom:ID&gt;</Text>
-            <Notes>/Users/bcdav/Dropbox/Application Support/pandoc/csl/abnt-phi.csl
-https://raw.githubusercontent.com/bcdavasconcelos/ABNT-Phi/main/abnt-phi-sc.csl</Notes>
         </Document>
         <Document ID="A581F092-606D-401C-A8E5-DD0875900999">
             <Title>family</Title>
@@ -1244,13 +1237,6 @@ references:
             <Title>Figure cap-location</Title>
             <Synopsis>Where to place figure captions (top, bottom, or margin)</Synopsis>
         </Document>
-        <Document ID="79EB4285-87EB-469E-95BB-A66FF1D7A185">
-            <Title>date</Title>
-        </Document>
-        <Document ID="43DFF0B0-38BB-4378-A5CA-984E3E4BC509">
-            <Title>Exercise Labels</Title>
-            <Synopsis>Exercise number scheme</Synopsis>
-        </Document>
         <Document ID="BDD84A5F-D75C-4339-B6AB-1E269C7A8121">
             <Title>input-position</Title>
             <Synopsis>Place the comment input box above or below the comments.</Synopsis>
@@ -1258,6 +1244,20 @@ references:
         <Document ID="9595B2EC-D965-4D9A-ADFD-3793C3B47B13">
             <Title>image-alt</Title>
             <Synopsis>The alt text for preview image on this page.</Synopsis>
+        </Document>
+        <Document ID="43DFF0B0-38BB-4378-A5CA-984E3E4BC509">
+            <Title>Exercise Labels</Title>
+            <Synopsis>Exercise number scheme</Synopsis>
+        </Document>
+        <Document ID="3F37FF44-8C2F-4F3F-88D5-73ABDBE96499">
+            <Title>csl abnt-phi</Title>
+            <Synopsis>Citation Style Language file to use for formatting references.</Synopsis>
+            <Text>&lt;$custom:ID&gt;</Text>
+            <Notes>/Users/bcdav/Dropbox/Application Support/pandoc/csl/abnt-phi.csl
+https://raw.githubusercontent.com/bcdavasconcelos/ABNT-Phi/main/abnt-phi-sc.csl</Notes>
+        </Document>
+        <Document ID="79EB4285-87EB-469E-95BB-A66FF1D7A185">
+            <Title>date</Title>
         </Document>
         <Document ID="D5486841-FEAE-48A2-8B40-0E4B6071871C">
             <Title>page-navigation</Title>
@@ -1326,6 +1326,17 @@ Text content
         <Document ID="D3FE259A-F3FF-4745-A6D6-4A50839FD55B">
             <Title>after-body</Title>
         </Document>
+        <Document ID="9514D691-2880-43F2-978B-1E56F9765BC6">
+            <Title>foot</Title>
+        </Document>
+        <Document ID="CE206399-67D2-4071-B7B0-D2CB42009D2F">
+            <Title>library = true</Title>
+            <Synopsis>Display library field</Synopsis>
+        </Document>
+        <Document ID="AF3D6A4F-12D7-4BCD-A2DA-A2AC30799BEF">
+            <Title>Corollary Labels</Title>
+            <Synopsis>Corollary number scheme</Synopsis>
+        </Document>
         <Document ID="511E0A94-E988-42AD-8B7F-8D3E5BC0060E">
             <Title>given</Title>
             <Notes>---
@@ -1351,28 +1362,17 @@ references:
 ...
 </Notes>
         </Document>
-        <Document ID="9514D691-2880-43F2-978B-1E56F9765BC6">
-            <Title>foot</Title>
-        </Document>
-        <Document ID="CE206399-67D2-4071-B7B0-D2CB42009D2F">
-            <Title>library = true</Title>
-            <Synopsis>Display library field</Synopsis>
-        </Document>
-        <Document ID="AF3D6A4F-12D7-4BCD-A2DA-A2AC30799BEF">
-            <Title>Corollary Labels</Title>
-            <Synopsis>Corollary number scheme</Synopsis>
-        </Document>
         <Document ID="7FC906F7-C4CA-40B5-AFD7-AB9C42D5A863">
             <Title>Text + Auto</Title>
             <Text>This is an example of the Text section type.</Text>
         </Document>
+        <Document ID="A1597328-2216-4323-AB53-8EF0E213D923">
+            <Title>host</Title>
+            <Synopsis>Hostname to bind to (defaults to 127.0.0.1)</Synopsis>
+        </Document>
         <Document ID="7665DD67-993E-4D25-BDAA-DE3A977A4FF0">
             <Title>cite-method</Title>
             <Synopsis>Method used to format citations (citeproc, natbib, or biblatex).</Synopsis>
-        </Document>
-        <Document ID="610052D3-CAF0-4660-9585-92C62F150CEC">
-            <Title>Multipart Table</Title>
-            <Text>This is an example of the Multipart Table section type.</Text>
         </Document>
         <Document ID="D4722316-F98E-4D1A-ADC1-D8FC23D4A374">
             <Title>- | text-2</Title>
@@ -1381,13 +1381,16 @@ references:
         <Document ID="0605D891-532C-4287-BBC7-23E535435634">
             <Title>description</Title>
         </Document>
-        <Document ID="A1597328-2216-4323-AB53-8EF0E213D923">
-            <Title>host</Title>
-            <Synopsis>Hostname to bind to (defaults to 127.0.0.1)</Synopsis>
+        <Document ID="610052D3-CAF0-4660-9585-92C62F150CEC">
+            <Title>Multipart Table</Title>
+            <Text>This is an example of the Multipart Table section type.</Text>
         </Document>
         <Document ID="1B053714-EE22-4D49-A8F7-EBEA09CCC4B3">
             <Title>pre-render</Title>
             <Synopsis>Scripts to run as a pre-render step</Synopsis>
+        </Document>
+        <Document ID="79D9CF07-60DD-4703-BB56-A21742901AE6">
+            <Title>_environment</Title>
         </Document>
         <Document ID="07A83A38-D8A5-45DF-A9C4-D371C8ED8120">
             <Title>language</Title>
@@ -1410,13 +1413,13 @@ Examples:
 &gt;= 1.1.0: Require at least quarto version 1.1
 1.*: Require any quarto versions whose major version number is 1</Synopsis>
         </Document>
-        <Document ID="214215E1-C437-4E6F-A092-37E340039DE7">
-            <Title>toc-location</Title>
-            <Synopsis>Location for table of contents (body, left, or right (default)).</Synopsis>
-        </Document>
         <Document ID="431FA606-4A52-4B84-A60F-7C1AD7B86A9B">
             <Title>margin-left</Title>
             <Synopsis>For HTML output, sets the margin-left property on the Body element. For LaTeX output, sets the left margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the left margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the left page margin.</Synopsis>
+        </Document>
+        <Document ID="214215E1-C437-4E6F-A092-37E340039DE7">
+            <Title>toc-location</Title>
+            <Synopsis>Location for table of contents (body, left, or right (default)).</Synopsis>
         </Document>
         <Document ID="AFC53E11-A4E3-467C-AF11-CB6097D1EC71">
             <Title>Paragraph Styles</Title>
@@ -1497,19 +1500,53 @@ references:
             <Title>href</Title>
             <Synopsis>List of items for the left side of the navbar (see Nav Items)</Synopsis>
         </Document>
-        <Document ID="23341F11-122D-4539-B599-2E1F0C0FF6C5">
-            <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
-
-
-</Text>
-            <Notes>```{python}
-#| label: fig-%autoref%
-#| fig-cap: &lt;$custom:Value&gt;
-
-
-```
-
-See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
+        <Document ID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55">
+            <Title>Options</Title>
+            <Notes>crossref:
+  chapters: true
+  ref-hyperlink: true
+  title-delim: —
+  cnj-title: Conjuntura
+  cor-title: Corolário
+  def-title: Definição
+  eq-title: Equação
+  exm-title: Exemplo
+  exr-title:  Exercício
+  fig-title: Figura
+  lem-title: Lemma
+  lst-title: Bloco de código
+  prp-title: Proposição
+  tbl-title: Tabela
+  thm-title: Teorema
+  labels: arabic
+  cnj-labels: arabic
+  cor-labels: arabic
+  def-labels: arabic
+  eq-labels: arabic
+  exm-labels: arabic
+  exr-labels: arabic
+  fig-labels: arabic
+  lem-labels: arabic
+  lst-labels: arabic
+  prp-labels: arabic
+  sec-labels: arabic
+  subref-labels: roman i
+  tbl-labels: arabic
+  thm-labels: arabic
+  cnj-prefix: conjuntura
+  cor-prefix: corolário
+  def-prefix: definição
+  eq-prefix: equação
+  exm-prefix: exemplo
+  exr-prefix: exercício
+  fig-prefix: figura
+  lem-prefix: lemma
+  lst-prefix: bloco de código
+  prp-prefix: proposição
+  sec-prefix: section
+  tbl-prefix: tabela
+  thm-prefix: teorema
+</Notes>
         </Document>
         <Document ID="084E82C6-E63B-45F7-B01B-9479514432C3">
             <Title>abnt-phi</Title>
@@ -2129,10 +2166,6 @@ number-depth: 1
             <Title>repo-branch</Title>
             <Synopsis>Branch of website source code (defaults to main)</Synopsis>
         </Document>
-        <Document ID="F2C02787-76A6-472E-99AD-BD14E47EECD4">
-            <Title>link-external-newwindow</Title>
-            <Synopsis>Open external links in a new browser window or tab (rather than navigating the current tab).</Synopsis>
-        </Document>
         <Document ID="AD0A0C20-A093-4BE5-8AC5-196DFD201C77">
             <Title>yaml</Title>
         </Document>
@@ -2140,9 +2173,9 @@ number-depth: 1
             <Title>Example Prefix</Title>
             <Synopsis>Example prefix used for inline reference</Synopsis>
         </Document>
-        <Document ID="A86A771D-D539-41AC-89EC-BF5F8A0C408C">
-            <Title>embed-resources</Title>
-            <Synopsis>Produce a standalone HTML file with no external dependencies, using data: URIs to incorporate the contents of linked scripts, stylesheets, images, and videos. The resulting file should be “self-contained,” in the sense that it needs no external files and no net access to be displayed properly by a browser. This option works only with HTML output formats, including html4, html5, html+lhs, html5+lhs, s5, slidy, slideous, dzslides, and revealjs. Scripts, images, and stylesheets at absolute URLs will be downloaded; those at relative URLs will be sought relative to the working directory (if the first source file is local) or relative to the base URL (if the first source file is remote). Elements with the attribute data-external="1" will be left alone; the documents they link to will not be incorporated in the document. Limitation: resources that are loaded dynamically through JavaScript cannot be incorporated; as a result, some advanced features (e.g. zoom or speaker notes) may not work in an offline “self-contained” reveal.js slide show.</Synopsis>
+        <Document ID="F2C02787-76A6-472E-99AD-BD14E47EECD4">
+            <Title>link-external-newwindow</Title>
+            <Synopsis>Open external links in a new browser window or tab (rather than navigating the current tab).</Synopsis>
         </Document>
         <Document ID="0E855970-CF03-4513-946E-35FF5BB79A61">
             <Title>image</Title>
@@ -2150,53 +2183,9 @@ number-depth: 1
 
 If image is not provided, Quarto will automatically attempt to locate a preview image.</Synopsis>
         </Document>
-        <Document ID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55">
-            <Title>Options</Title>
-            <Notes>crossref:
-  chapters: true
-  ref-hyperlink: true
-  title-delim: —
-  cnj-title: Conjuntura
-  cor-title: Corolário
-  def-title: Definição
-  eq-title: Equação
-  exm-title: Exemplo
-  exr-title:  Exercício
-  fig-title: Figura
-  lem-title: Lemma
-  lst-title: Bloco de código
-  prp-title: Proposição
-  tbl-title: Tabela
-  thm-title: Teorema
-  labels: arabic
-  cnj-labels: arabic
-  cor-labels: arabic
-  def-labels: arabic
-  eq-labels: arabic
-  exm-labels: arabic
-  exr-labels: arabic
-  fig-labels: arabic
-  lem-labels: arabic
-  lst-labels: arabic
-  prp-labels: arabic
-  sec-labels: arabic
-  subref-labels: roman i
-  tbl-labels: arabic
-  thm-labels: arabic
-  cnj-prefix: conjuntura
-  cor-prefix: corolário
-  def-prefix: definição
-  eq-prefix: equação
-  exm-prefix: exemplo
-  exr-prefix: exercício
-  fig-prefix: figura
-  lem-prefix: lemma
-  lst-prefix: bloco de código
-  prp-prefix: proposição
-  sec-prefix: section
-  tbl-prefix: tabela
-  thm-prefix: teorema
-</Notes>
+        <Document ID="A86A771D-D539-41AC-89EC-BF5F8A0C408C">
+            <Title>embed-resources</Title>
+            <Synopsis>Produce a standalone HTML file with no external dependencies, using data: URIs to incorporate the contents of linked scripts, stylesheets, images, and videos. The resulting file should be “self-contained,” in the sense that it needs no external files and no net access to be displayed properly by a browser. This option works only with HTML output formats, including html4, html5, html+lhs, html5+lhs, s5, slidy, slideous, dzslides, and revealjs. Scripts, images, and stylesheets at absolute URLs will be downloaded; those at relative URLs will be sought relative to the working directory (if the first source file is local) or relative to the base URL (if the first source file is remote). Elements with the attribute data-external="1" will be left alone; the documents they link to will not be incorporated in the document. Limitation: resources that are loaded dynamically through JavaScript cannot be incorporated; as a result, some advanced features (e.g. zoom or speaker notes) may not work in an offline “self-contained” reveal.js slide show.</Synopsis>
         </Document>
         <Document ID="EC33DF7A-8477-4E16-90F9-A3075EF3CD00">
             <Title>multiple-bibliographies.lua</Title>
@@ -2322,6 +2311,21 @@ return {
   { Pandoc = resolve_doc_citations },
   { Div = create_topic_bibliography },
 }</Text>
+        </Document>
+        <Document ID="23341F11-122D-4539-B599-2E1F0C0FF6C5">
+            <Title>Python Code + Caption</Title>
+            <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+
+</Text>
+            <Notes>```{python}
+#| label: fig-%autoref%
+#| fig-cap: &lt;$custom:Value&gt;
+
+
+```
+
+See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
         </Document>
         <Document ID="A569DC85-1BB9-434E-91AE-0C1691B747F6">
             <Title>grid</Title>
@@ -2990,12 +2994,12 @@ $endfor$
         <Document ID="D91CB7CD-B124-40C8-89C9-22D15BE1E9E7">
             <Title>title</Title>
         </Document>
-        <Document ID="A5BCED0A-1D8D-46B4-929C-B610955F7180">
-            <Title>url</Title>
-        </Document>
         <Document ID="D725DCA7-D069-408F-B7F0-39ADB0A6FD14">
             <Title>latex-makeindex-opts</Title>
             <Synopsis>Array of command line options for makeindex.</Synopsis>
+        </Document>
+        <Document ID="A5BCED0A-1D8D-46B4-929C-B610955F7180">
+            <Title>url</Title>
         </Document>
         <Document ID="806AC384-1669-45B7-8C58-0877D4298FF3">
             <Title>code-tools</Title>
@@ -3137,6 +3141,11 @@ At compile-time, the &lt;$custom:ID&gt; of the linked bibliography file will be 
             <Title>warning</Title>
             <Synopsis>Include warnings in rendered output.</Synopsis>
         </Document>
+        <Document ID="B711336E-60D9-46F0-81ED-C48313586F51">
+            <Title>from</Title>
+            <Synopsis>Format to read from. Extensions can be individually enabled or disabled by appending +EXTENSION or -EXTENSION to the format name (e.g. markdown+emoji).
+</Synopsis>
+        </Document>
         <Document ID="BBD74F39-B87F-43EB-9470-F1EE0541978B">
             <Title>family</Title>
             <Notes>---
@@ -3161,11 +3170,6 @@ references:
   type: book
 ...
 </Notes>
-        </Document>
-        <Document ID="B711336E-60D9-46F0-81ED-C48313586F51">
-            <Title>from</Title>
-            <Synopsis>Format to read from. Extensions can be individually enabled or disabled by appending +EXTENSION or -EXTENSION to the format name (e.g. markdown+emoji).
-</Synopsis>
         </Document>
         <Document ID="0FD459CA-871B-4635-89D4-25F35782E378">
             <Title>cover</Title>
@@ -3359,6 +3363,12 @@ digraph finite_state_machine {
 
 Note that with the Jupyter engine, this option has no effect when provided at the cell level; it can only be provided with document or project metadata.</Synopsis>
         </Document>
+        <Document ID="9D6F7D8D-19A8-47EC-997F-6AC8B76C912B">
+            <Title>city</Title>
+        </Document>
+        <Document ID="311D9528-2BE2-4796-9087-7737C8C246D3">
+            <Title>type</Title>
+        </Document>
         <Document ID="6DD13864-CB70-46CC-B576-140B5D8CF41A">
             <Title>Exercise</Title>
             <Text>Exercise content</Text>
@@ -3366,12 +3376,6 @@ Note that with the Jupyter engine, this option has no effect when provided at th
         <Document ID="24587D8E-5C33-4571-86F6-0716B18B5ABE">
             <Title>Styles</Title>
             <Text>This is not a feature, but I thought it handy to have it all together to help flush out any questions about the markup being used by the template.</Text>
-        </Document>
-        <Document ID="9D6F7D8D-19A8-47EC-997F-6AC8B76C912B">
-            <Title>city</Title>
-        </Document>
-        <Document ID="311D9528-2BE2-4796-9087-7737C8C246D3">
-            <Title>type</Title>
         </Document>
         <Document ID="26329CE1-C025-4BD4-9C1F-F8EF4A1D650F">
             <Title>sort</Title>
@@ -3386,7 +3390,6 @@ Note that with the Jupyter engine, this option has no effect when provided at th
         <Document ID="5681A6B7-F48A-475E-B0CE-4622E60212E8">
             <Title>Stimulus Plotting</Title>
             <Text>Note if you have R and Python installed, you can run code like so...
-
 Here is an R plot ([autoref]), you need to have R installed for this to work, if not remove this document from the compile:  
 
 #| fig-cap: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level.
@@ -3399,9 +3402,7 @@ ggplot(airquality, aes(Temp, Ozone)) +
   geom_point() + 
   geom_smooth(method = "loess")
 
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-
-</Text>
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  </Text>
         </Document>
         <Document ID="BBD9AA53-94FC-460C-BCDB-7901F9FE4F35">
             <Text>#
@@ -3471,10 +3472,6 @@ The script’s output is redirected &amp;&gt; to a Quarto.log file and this log 
         <Document ID="CC3B2EA1-5A3A-42E9-8A72-E1A9F2D6ABE6">
             <Title>bottom</Title>
         </Document>
-        <Document ID="29E3511A-9869-47AD-8DBE-E054BB0E74C1">
-            <Title>Issues with performance</Title>
-            <Text>If you are having problems with performance, then you should try to delete the custom icons we are using. I recommend deleting all to see if that makes a difference or not on how Scrivener is behaving.</Text>
-        </Document>
         <Document ID="BE520E83-FB5A-427A-AED5-06B0D78F3408">
             <Title>linkcolor</Title>
             <Synopsis>For HTML output, sets the CSS color property on all links.
@@ -3482,6 +3479,10 @@ The script’s output is redirected &amp;&gt; to a Quarto.log file and this log 
 For LaTeX output, The color used for internal links using color options allowed by xcolor, including the dvipsnames, svgnames, and x11names lists.
 
 For ConTeXt output, sets the color for both external links and links within the document.</Synopsis>
+        </Document>
+        <Document ID="29E3511A-9869-47AD-8DBE-E054BB0E74C1">
+            <Title>Issues with performance</Title>
+            <Text>If you are having problems with performance, then you should try to delete the custom icons we are using. I recommend deleting all to see if that makes a difference or not on how Scrivener is behaving.</Text>
         </Document>
         <Document ID="FB00C4C1-E9F0-45BD-9D7A-2272C3952639">
             <Title>description</Title>
@@ -3566,9 +3567,8 @@ An object with key “text” indicates textual content to be included</Synopsis
         <Document ID="18372A88-447C-4E17-9F80-A93FA5D46C01">
             <Title>keywords</Title>
         </Document>
-        <Document ID="40BE09C9-A437-43C8-BB6A-FCA2B88F775C">
-            <Title>number-sections</Title>
-            <Synopsis>Number section headings rendered output. By default, sections are not numbered. Sections with class .unnumbered will never be numbered, even if number-sections is specified.</Synopsis>
+        <Document ID="D6A41F63-D530-4962-8523-A5D834974481">
+            <Title>year</Title>
         </Document>
         <Document ID="E3674AC1-144C-4453-AC52-C9821B8EFF0F">
             <Title>code-line-numbers</Title>
@@ -3586,8 +3586,9 @@ Finally, animation steps are separated by |:
 1-3|1-3,5 first shows 1-3, then 1-3,5
 |5|5-10,12 first shows no numbering, then 5, then lines 5-10 and 12</Synopsis>
         </Document>
-        <Document ID="D6A41F63-D530-4962-8523-A5D834974481">
-            <Title>year</Title>
+        <Document ID="40BE09C9-A437-43C8-BB6A-FCA2B88F775C">
+            <Title>number-sections</Title>
+            <Synopsis>Number section headings rendered output. By default, sections are not numbered. Sections with class .unnumbered will never be numbered, even if number-sections is specified.</Synopsis>
         </Document>
         <Document ID="39B9BCBE-C797-41F1-B108-A5971167D978">
             <Title>biblio</Title>
@@ -3669,12 +3670,48 @@ roman i (i, ii, iii, iv)
 alpha x (start from letter ‘x’)
 alpha X (start from letter ‘X’)</Notes>
         </Document>
-        <Document ID="144C6F97-5B4B-4CD1-9AEF-7EF6ABAE2106">
-            <Title>biblio</Title>
-        </Document>
         <Document ID="37B765EB-A7AC-4F89-AF8D-6FD3A0592452">
             <Title>ipynb-filters</Title>
             <Synopsis>Filters to pre-process ipynb files before rendering to markdown</Synopsis>
+        </Document>
+        <Document ID="20859785-8CA5-467B-AFA0-EC4E7E2E1599">
+            <Title>metadata</Title>
+        </Document>
+        <Document ID="5F7B9328-CB59-4A71-9F77-F77EAFEC4E70">
+            <Title>linkbordercolor</Title>
+        </Document>
+        <Document ID="144C6F97-5B4B-4CD1-9AEF-7EF6ABAE2106">
+            <Title>biblio</Title>
+        </Document>
+        <Document ID="249A7693-D780-4425-9B5D-244EAA028BB3">
+            <Title>link-citations</Title>
+            <Synopsis>If true, citations will be hyperlinked to the corresponding bibliography entries (for author-date and numerical styles only). Defaults to false.</Synopsis>
+        </Document>
+        <Document ID="1914390C-39D8-4317-9948-0F08D13D08E2">
+            <Title>quarto-required</Title>
+            <Synopsis>A semver version range describing the supported quarto versions for this document or project.
+
+Examples:
+
+&gt;= 1.1.0: Require at least quarto version 1.1
+1.*: Require any quarto versions whose major version number is 1</Synopsis>
+        </Document>
+        <Document ID="CBFA9E74-59DB-4E57-85BB-A33AF1DB07E0">
+            <Title>Sections</Title>
+            <Text>You will see more section types then we actually use in the template. Feel free to ignore them, they just are no longer in use.</Text>
+        </Document>
+        <Document ID="104DCAB8-F0D5-4881-A0A0-2D205EEC2F89">
+            <Title>highlight-style</Title>
+            <Synopsis>Specifies the coloring style to be used in highlighted source code.
+Instead of a STYLE name, a JSON file with extension .theme may be supplied. This will be parsed as a KDE syntax highlighting theme and (if valid) used as the highlighting style.</Synopsis>
+        </Document>
+        <Document ID="1BF867C2-CCD4-40D2-9678-CB800481F3A0">
+            <Title>Layout Page Left</Title>
+            <Text>This is an example of the Layout Page Left section type.</Text>
+        </Document>
+        <Document ID="969171FB-84A1-46DB-939F-A342661037E9">
+            <Title>keep-ipynb</Title>
+            <Synopsis>Keep the notebook file generated from executing code.</Synopsis>
         </Document>
         <Document ID="36BB4EF9-DC60-42B0-9034-02B29A6824EE">
             <Title>family</Title>
@@ -3701,42 +3738,6 @@ references:
 ...
 </Notes>
         </Document>
-        <Document ID="CBFA9E74-59DB-4E57-85BB-A33AF1DB07E0">
-            <Title>Sections</Title>
-            <Text>You will see more section types then we actually use in the template. Feel free to ignore them, they just are no longer in use.</Text>
-        </Document>
-        <Document ID="249A7693-D780-4425-9B5D-244EAA028BB3">
-            <Title>link-citations</Title>
-            <Synopsis>If true, citations will be hyperlinked to the corresponding bibliography entries (for author-date and numerical styles only). Defaults to false.</Synopsis>
-        </Document>
-        <Document ID="1BF867C2-CCD4-40D2-9678-CB800481F3A0">
-            <Title>Layout Page Left</Title>
-            <Text>This is an example of the Layout Page Left section type.</Text>
-        </Document>
-        <Document ID="1914390C-39D8-4317-9948-0F08D13D08E2">
-            <Title>quarto-required</Title>
-            <Synopsis>A semver version range describing the supported quarto versions for this document or project.
-
-Examples:
-
-&gt;= 1.1.0: Require at least quarto version 1.1
-1.*: Require any quarto versions whose major version number is 1</Synopsis>
-        </Document>
-        <Document ID="104DCAB8-F0D5-4881-A0A0-2D205EEC2F89">
-            <Title>highlight-style</Title>
-            <Synopsis>Specifies the coloring style to be used in highlighted source code.
-Instead of a STYLE name, a JSON file with extension .theme may be supplied. This will be parsed as a KDE syntax highlighting theme and (if valid) used as the highlighting style.</Synopsis>
-        </Document>
-        <Document ID="20859785-8CA5-467B-AFA0-EC4E7E2E1599">
-            <Title>metadata</Title>
-        </Document>
-        <Document ID="969171FB-84A1-46DB-939F-A342661037E9">
-            <Title>keep-ipynb</Title>
-            <Synopsis>Keep the notebook file generated from executing code.</Synopsis>
-        </Document>
-        <Document ID="5F7B9328-CB59-4A71-9F77-F77EAFEC4E70">
-            <Title>linkbordercolor</Title>
-        </Document>
         <Document ID="2EBE6532-D2E1-40EF-AFA6-5D0860F50FD0">
             <Title>index</Title>
             <Synopsis>Layout a simple about page for an individual or organization. For more, see the About Pages documentation.</Synopsis>
@@ -3760,6 +3761,9 @@ Instead of a STYLE name, a JSON file with extension .theme may be supplied. This
         <Document ID="CFE46144-D15E-4927-A05E-FF7F49DBD23A">
             <Title>margin-bottom</Title>
             <Synopsis>For HTML output, sets the margin-bottom property on the Body element. For LaTeX output, sets the bottom margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the bottom margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the bottom page margin.</Synopsis>
+        </Document>
+        <Document ID="BD05E69C-D0F3-48BB-AFF0-E09D806221EC">
+            <Title>citetools</Title>
         </Document>
         <Document ID="968406B6-1CA8-4FE6-A47A-DACD3B8581F0">
             <Title>author</Title>
@@ -3785,9 +3789,6 @@ references:
   type: book
 ...
 </Notes>
-        </Document>
-        <Document ID="BD05E69C-D0F3-48BB-AFF0-E09D806221EC">
-            <Title>citetools</Title>
         </Document>
         <Document ID="39C3F907-8D26-42F6-B82F-D35DB41CB652">
             <Title>toc-depth</Title>
@@ -3819,6 +3820,18 @@ references:
 
 Code linking is currently implemented only for the knitr engine (via the downlit package).</Synopsis>
         </Document>
+        <Document ID="8BA67729-3E9A-447A-BBAC-3FE87C01C268">
+            <Title>shortcodes</Title>
+            <Synopsis>Specify Lua scripts that implement shortcode handlers</Synopsis>
+        </Document>
+        <Document ID="F1FA99B5-9311-4B1D-AA8C-99E81282DF61">
+            <Title>Backlinks to toc in headers</Title>
+            <Synopsis>make headings back-links to TOC</Synopsis>
+            <Text>\makeatletter</Text>
+        </Document>
+        <Document ID="CF8A4871-BC5D-4F6F-A92C-D00727DC101E">
+            <Title>tightlist</Title>
+        </Document>
         <Document ID="B1B32F21-010B-4749-9CC0-4495E0EE3ABC">
             <Title>Resources</Title>
             <Text>Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the Shortcode Font Awesome style as in `regular bell` regular bell.
@@ -3831,34 +3844,19 @@ The easiest way to publish to Github Pages: Render to docs
 
 The variables stored here will be accessible via the Style Shortcode Var.
 Please contact us at email.info. 
-`QUARTO_PROJECT_DIR` `=`  QUARTO_PROJECT_DIR
+`QUARTO_PROJECT_DIR`  
+QUARTO_PROJECT_DIR
 We are using Python `QUARTO_PYTHON` QUARTO_PYTHON, QUARTO_R, PY_PYTHON, or RETICULATE_PYTHON. </Text>
         </Document>
         <Document ID="36853C16-3809-4BE4-AFBD-F986C8F559F8">
             <Title>id: value-1</Title>
         </Document>
-        <Document ID="F1FA99B5-9311-4B1D-AA8C-99E81282DF61">
-            <Title>Backlinks to toc in headers</Title>
-            <Synopsis>make headings back-links to TOC</Synopsis>
-            <Text>\makeatletter</Text>
-        </Document>
-        <Document ID="8BA67729-3E9A-447A-BBAC-3FE87C01C268">
-            <Title>shortcodes</Title>
-            <Synopsis>Specify Lua scripts that implement shortcode handlers</Synopsis>
-        </Document>
-        <Document ID="CF8A4871-BC5D-4F6F-A92C-D00727DC101E">
-            <Title>tightlist</Title>
-        </Document>
         <Document ID="C52996BE-9CF2-4639-BFE6-914FAE2EA728">
             <Title>Text</Title>
             <Text>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-
 Åd nam omnis ullamcørper vituperatoribus. Sed vereartincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
-
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex [@siegel2015], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [autoref] for details.  
-</Text>
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [autoref] for details.  </Text>
         </Document>
         <Document ID="ED4C51AA-DE58-4C11-A836-7C19A2A42981">
             <Title>institute</Title>
@@ -4003,12 +4001,14 @@ $endif$</Text>
             <Title>extract-media</Title>
             <Synopsis>Extract images and other media contained in or linked from the source document to the path DIR, creating it if necessary, and adjust the images references in the document so they point to the extracted files. Media are downloaded, read from the file system, or extracted from a binary container (e.g. docx), as needed. The original file paths are used if they are relative paths not containing … Otherwise filenames are constructed from the SHA1 hash of the contents.</Synopsis>
         </Document>
-        <Document ID="BEF1B346-515E-49D5-BAEB-19606A087348">
-            <Title>Cite Field</Title>
-        </Document>
         <Document ID="92012277-6C1D-4958-83DF-D484EA145A47">
             <Title>lib-dir</Title>
             <Synopsis>HTML library (JS/CSS/etc.) directory</Synopsis>
+        </Document>
+        <Document ID="BEF1B346-515E-49D5-BAEB-19606A087348">
+            <Title>Cite Field</Title>
+            <Text>
+</Text>
         </Document>
         <Document ID="56F619FB-36FE-45C9-999D-90AEA5D50C21">
             <Title>Alegreya Font</Title>
@@ -4038,6 +4038,10 @@ $endif$</Text>
         caption, figcaption, .column-margin p {font-family: Alegreya Sans, sans-serif !important; text-align: left !important;}
 </Text>
         </Document>
+        <Document ID="D986FAA2-6433-43D6-88D0-E93163D76DC3">
+            <Title>sidebar</Title>
+            <Synopsis>Sidebar options (see Sidebar)</Synopsis>
+        </Document>
         <Document ID="5329B1DE-A1B1-4B44-8C01-3B7FD1CAE690">
             <Title>mainfont</Title>
             <Synopsis>For HTML output, sets the CSS font-family on the HTML element.
@@ -4047,10 +4051,6 @@ For LaTeX output, the main font family for use with xelatex or lualatex. Takes t
 For ConTeXt output, the main font family. Use the name of any system font. See ConTeXt Fonts for more information.
 
 Alegreya, Skolar PE</Synopsis>
-        </Document>
-        <Document ID="D986FAA2-6433-43D6-88D0-E93163D76DC3">
-            <Title>sidebar</Title>
-            <Synopsis>Sidebar options (see Sidebar)</Synopsis>
         </Document>
         <Document ID="4A082735-87F5-4BC0-B451-A17B8D34F1B5">
             <Title>margin-left</Title>
@@ -4112,12 +4112,12 @@ Use false to disable the display of the ‘cite as’ appendix. Pass one or more
             <Title>colorlinks</Title>
             <Synopsis>Add color to link text, automatically enabled if any of linkcolor, filecolor, citecolor, urlcolor, or toccolor are set.</Synopsis>
         </Document>
-        <Document ID="BE3D9312-AF1A-4813-99DC-DE83F4ECD7E9">
-            <Title>Conjecture</Title>
-        </Document>
         <Document ID="E8F0C6ED-175E-44F7-92D2-AD6BA94EAEEF">
             <Title>shorthandintro = false</Title>
             <Synopsis>Henceforth...</Synopsis>
+        </Document>
+        <Document ID="BE3D9312-AF1A-4813-99DC-DE83F4ECD7E9">
+            <Title>Conjecture</Title>
         </Document>
         <Document ID="346F984A-5B1B-474C-B285-854DF97DB162">
             <Title>toc-title</Title>
@@ -4126,6 +4126,9 @@ Use false to disable the display of the ‘cite as’ appendix. Pass one or more
         <Document ID="72442015-3E23-48C9-B4EE-247643E76E03">
             <Title>port</Title>
             <Synopsis>Port to listen on (defaults to random value between 3000 and 8000)</Synopsis>
+        </Document>
+        <Document ID="4D1B31C1-8A2A-4BB7-9526-38935A656115">
+            <Title>Footnote + Auto</Title>
         </Document>
         <Document ID="B8AC60FF-5F29-4E90-9FB7-623203943513">
             <Title>Diagram Mermaid A</Title>
@@ -4171,9 +4174,6 @@ graph TD
         </Document>
         <Document ID="ED209C94-D073-4B85-A380-08941E951801">
             <Title>Code</Title>
-        </Document>
-        <Document ID="4D1B31C1-8A2A-4BB7-9526-38935A656115">
-            <Title>Footnote + Auto</Title>
         </Document>
         <Document ID="652F1765-8500-43BE-88B8-C5DD159F74F3">
             <Title>aria-label</Title>
@@ -4394,12 +4394,12 @@ references:
 ...
 </Notes>
         </Document>
-        <Document ID="E2A92D76-7690-4234-B785-EF58ABBCE6C7">
-            <Title>id: value-4</Title>
-        </Document>
         <Document ID="F9B0E51E-6DB6-43DC-9B15-D5219B59A327">
             <Title>max-items</Title>
             <Synopsis>The maximum number of items to include in this listing.</Synopsis>
+        </Document>
+        <Document ID="E2A92D76-7690-4234-B785-EF58ABBCE6C7">
+            <Title>id: value-4</Title>
         </Document>
         <Document ID="1AD71882-9BAC-4B54-85AE-082895FFB9E4">
             <Title>Lemma Title</Title>
@@ -4446,26 +4446,26 @@ references:
             <Title>categories</Title>
             <Synopsis>A list of categories for which to create separate RSS feeds containing only posts with that category.</Synopsis>
         </Document>
-        <Document ID="E2EE54A9-00F5-40F4-B3A1-45CA1D647D3B">
-            <Title>- | text-1</Title>
-            <Text>Text</Text>
+        <Document ID="44B09373-3DC5-4F86-B0D1-3F4B790D0F48">
+            <Title>body-width</Title>
         </Document>
         <Document ID="AE709F2A-7ED4-4884-988D-53D33CAEBDB7">
             <Title>Footnote</Title>
         </Document>
-        <Document ID="44B09373-3DC5-4F86-B0D1-3F4B790D0F48">
-            <Title>body-width</Title>
-        </Document>
         <Document ID="1EC25E43-4773-4CDD-A913-58307F7595B7">
             <Title>Metadata</Title>
+        </Document>
+        <Document ID="16E53E65-9E17-44BB-94FF-5CD009F8A33E">
+            <Title>code-block-bg</Title>
+            <Synopsis>Specifies to apply a background color on code blocks. Provide a hex color to specify that the background color is enabled as well as the color of the background.</Synopsis>
         </Document>
         <Document ID="0BAEF64E-DC03-4FBB-9F4C-25B281DCBA6B">
             <Title>annotation = true</Title>
             <Synopsis>Display annotation field</Synopsis>
         </Document>
-        <Document ID="16E53E65-9E17-44BB-94FF-5CD009F8A33E">
-            <Title>code-block-bg</Title>
-            <Synopsis>Specifies to apply a background color on code blocks. Provide a hex color to specify that the background color is enabled as well as the color of the background.</Synopsis>
+        <Document ID="E2EE54A9-00F5-40F4-B3A1-45CA1D647D3B">
+            <Title>- | text-1</Title>
+            <Text>Text</Text>
         </Document>
         <Document ID="533FDBC7-A4CB-42D2-8F10-2B786918E1B3">
             <Title>toc-title</Title>
@@ -4537,32 +4537,34 @@ references:
         <Document ID="F2CF4799-F289-499F-8E83-13E8E09E741C">
             <Title>references</Title>
         </Document>
-        <Document ID="D9534073-8D8F-4F55-B133-9A7214523521">
-            <Title>Section {-}</Title>
-            <Text>This is an example of the Section {-} section type.</Text>
-        </Document>
-        <Document ID="E50AA2A7-385A-4EB4-B439-2484E8780DAB">
-            <Text>Ad pro quod definitiønem, mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
-
-No meæ menandri mediøcritatem [@siegel2015; @barrett2015; @crivellato2007], meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-</Text>
-        </Document>
         <Document ID="29BC909E-50A5-497D-9A87-98FF9E2380EE">
             <Title>reactions-enabled</Title>
             <Synopsis>Display reactions for the discussion’s main post before the comments.</Synopsis>
         </Document>
+        <Document ID="E50AA2A7-385A-4EB4-B439-2484E8780DAB">
+            <Text>Ad pro quod definitiønem, mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
+No meæ menandri mediøcritatem [@siegel2015; @barrett2015; @crivellato2007], meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+</Text>
+        </Document>
+        <Document ID="D9534073-8D8F-4F55-B133-9A7214523521">
+            <Title>Section {-}</Title>
+            <Text>This is an example of the Section {-} section type.</Text>
+        </Document>
         <Document ID="AD0289C7-F53B-41F7-AFF2-7E115334FEEC">
             <Title>standalone</Title>
             <Synopsis>Produce output with an appropriate header and footer (e.g. a standalone HTML, LaTeX, TEI, or RTF file, not a fragment)</Synopsis>
+        </Document>
+        <Document ID="5B942F0F-D17B-48CC-8679-0D1AE70154F1">
+            <Title>support</Title>
+        </Document>
+        <Document ID="F98A3C89-0674-4535-B8E3-D0C3FADA90B7">
+            <Text>\rohead{\hyperlink{section.\arabic{chapter}.\arabic{section}}{\headmark}}</Text>
         </Document>
         <Document ID="CB39D0DF-D1E1-4372-A781-FA9480508B8B">
             <Title>format-links</Title>
             <Synopsis>Controls whether links to other rendered formats are displayed in HTML output.
 
 Pass false to disable the display of format lengths or pass a list of format names for which you’d like links to be shown.</Synopsis>
-        </Document>
-        <Document ID="F98A3C89-0674-4535-B8E3-D0C3FADA90B7">
-            <Text>\rohead{\hyperlink{section.\arabic{chapter}.\arabic{section}}{\headmark}}</Text>
         </Document>
         <Document ID="43A5BAD6-4E61-497E-8F2D-AC8442D390AF">
             <Title>Methods</Title>
@@ -4636,12 +4638,12 @@ CC BY-SA	Attribution-ShareAlike	This license lets others remix, tweak, and build
 CC BY-ND	Attribution-NoDerivs	This license allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to you.
 CC BY-NC	Attribution-NonCommercial	This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.</Synopsis>
         </Document>
-        <Document ID="28D5FAFA-3972-4963-B084-50F637D1F918">
-            <Title>slides-link-name</Title>
-        </Document>
         <Document ID="F6616DEE-A896-4130-8DBD-62C46DF816DF">
             <Title>Equation</Title>
             <Text>Equation content</Text>
+        </Document>
+        <Document ID="28D5FAFA-3972-4963-B084-50F637D1F918">
+            <Title>slides-link-name</Title>
         </Document>
         <Document ID="2A3C448D-DDD6-48FF-8E66-06C9F1386398">
             <Title>family</Title>
@@ -4741,13 +4743,6 @@ header-includes: |
         <Document ID="A3F44AAF-F611-448A-97E9-E14B3716DB0A">
             <Title>publisher</Title>
         </Document>
-        <Document ID="A4542800-4328-436D-8B78-8F8776D5100A">
-            <Title>resource-path</Title>
-            <Synopsis>List of paths to search for images and other resources.</Synopsis>
-        </Document>
-        <Document ID="E3C88601-D111-411D-9F3F-1B222ECC1700">
-            <Title>template</Title>
-        </Document>
         <Document ID="94F09F80-AEF1-4ED4-AE46-4F24B1429D3C">
             <Title>Missing Unicode Characters</Title>
             <Text>\usepackage{newunicodechar}
@@ -4755,24 +4750,31 @@ header-includes: |
         \newunicodechar{ϝ}{{\brill ϝ}}
         \newunicodechar{̯}{{\brill ̯}}</Text>
         </Document>
-        <Document ID="F9C5A9F0-C806-4B92-8DB4-E6AC5BE64A7A">
-            <Title>filter-ui</Title>
-            <Synopsis>Shows or hides the filtering control for the listing. To control the fields that will be used to filter the listing, provide a list of field names. By default all fields of the listing will be used when filtering.</Synopsis>
+        <Document ID="E3C88601-D111-411D-9F3F-1B222ECC1700">
+            <Title>template</Title>
         </Document>
         <Document ID="B4903B11-938B-47BF-8BAA-3B35CA964F7A">
             <Title>giscus</Title>
             <Synopsis>You can add commenting to your website using either Hypothesis, Utterances, or Giscus</Synopsis>
         </Document>
-        <Document ID="74437353-0B47-4315-B142-509A984E3CF2">
-            <Title>square = true</Title>
-            <Synopsis>Use [] instead of ()</Synopsis>
+        <Document ID="F9C5A9F0-C806-4B92-8DB4-E6AC5BE64A7A">
+            <Title>filter-ui</Title>
+            <Synopsis>Shows or hides the filtering control for the listing. To control the fields that will be used to filter the listing, provide a list of field names. By default all fields of the listing will be used when filtering.</Synopsis>
         </Document>
         <Document ID="C656DED9-9753-4F67-BB25-977DEEB020B2">
             <Title>editor</Title>
         </Document>
+        <Document ID="74437353-0B47-4315-B142-509A984E3CF2">
+            <Title>square = true</Title>
+            <Synopsis>Use [] instead of ()</Synopsis>
+        </Document>
         <Document ID="DB217DC2-9E96-4E3C-A1B8-DD83F21BE83E">
             <Title>margin-right</Title>
             <Synopsis>For HTML output, sets the margin-right property on the Body element. For LaTeX output, sets the right margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the right margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the right page margin.</Synopsis>
+        </Document>
+        <Document ID="A4542800-4328-436D-8B78-8F8776D5100A">
+            <Title>resource-path</Title>
+            <Synopsis>List of paths to search for images and other resources.</Synopsis>
         </Document>
         <Document ID="54401654-D8C4-446A-B0A6-36F66EE4B6AA">
             <Title>resource-path</Title>
@@ -4794,10 +4796,6 @@ An object with key “text” indicates textual content to be included
         <Document ID="C4E24AF6-DC06-44E2-9EB3-4340463ED942">
             <Title>publisher-place</Title>
         </Document>
-        <Document ID="7C64E2CA-E153-42D0-8B36-81B33C8E3D3F">
-            <Title>text-0</Title>
-            <Text>Text</Text>
-        </Document>
         <Document ID="A7D24053-5C1F-4243-AFED-B0621EE5AD8A">
             <Title>crossref</Title>
             <Notes>There are a variety of numbering schemes available for cross-references, including:
@@ -4807,18 +4805,6 @@ An object with key “text” indicates textual content to be included
 	•	alpha x (start from letter ‘x’)
 	•	alpha X (start from letter ‘X’)
 You can specify the number scheme used for all types (other than sub-references) using the labels option. For sub-references (e.g. subfigures), you can specify the number scheme using the subref-labels option.</Notes>
-        </Document>
-        <Document ID="7F6DBEFB-C052-44E9-A768-7A9B232EB1B7">
-            <Title>image-shape</Title>
-            <Synopsis>The shape of the image on the about page.
-	•	rectangle
-	•	round
-	•	rounded</Synopsis>
-        </Document>
-        <Document ID="76B7C912-14D3-4DAC-963B-FEDE6915B0AA">
-            <Title>Code</Title>
-            <Text>Code Span
-Raw HTML Span</Text>
         </Document>
         <Document ID="02CD2A07-1D0B-46EE-A477-E2B5487393F8">
             <Title>family</Title>
@@ -4844,6 +4830,22 @@ references:
   type: book
 ...
 </Notes>
+        </Document>
+        <Document ID="7F6DBEFB-C052-44E9-A768-7A9B232EB1B7">
+            <Title>image-shape</Title>
+            <Synopsis>The shape of the image on the about page.
+	•	rectangle
+	•	round
+	•	rounded</Synopsis>
+        </Document>
+        <Document ID="76B7C912-14D3-4DAC-963B-FEDE6915B0AA">
+            <Title>Code</Title>
+            <Text>Code Span
+Raw HTML Span</Text>
+        </Document>
+        <Document ID="7C64E2CA-E153-42D0-8B36-81B33C8E3D3F">
+            <Title>text-0</Title>
+            <Text>Text</Text>
         </Document>
         <Document ID="092286DA-127D-4EFA-AF41-24F8A9C307A1">
             <Title>max-width</Title>
@@ -4949,9 +4951,8 @@ references:
 
 Creative Commons licenses CC BY, CC BY-SA, CC BY-ND, CC BY-NC will automatically generate a license link in the document appendix. Other license text will be placed in the appendix verbatim.</Synopsis>
         </Document>
-        <Document ID="A2D3BC57-E3B1-4858-A936-02E1F89E29A7">
-            <Title>Section</Title>
-            <Text>This is an example of the Section section type.</Text>
+        <Document ID="6FBDD290-4C8B-45A8-89DB-C9ED49C992E9">
+            <Title>after-body</Title>
         </Document>
         <Document ID="E5175E3A-F635-4AB6-85A3-BB83D3B04B0F">
             <Title>template</Title>
@@ -4962,18 +4963,19 @@ Creative Commons licenses CC BY, CC BY-SA, CC BY-ND, CC BY-NC will automatically
 	•	marquee
 	•	broadside</Synopsis>
         </Document>
-        <Document ID="6FBDD290-4C8B-45A8-89DB-C9ED49C992E9">
-            <Title>after-body</Title>
-        </Document>
         <Document ID="9F0ABDE6-2812-4E06-858C-FCA1FF6AEC8E">
             <Title>author</Title>
-        </Document>
-        <Document ID="377CE0FA-0B04-4DDB-8028-D5A0C2D60D59">
-            <Title>margin-width</Title>
         </Document>
         <Document ID="A3BE433A-91FD-4769-B010-EF739CDA9578">
             <Title>page-width</Title>
             <Synopsis>Target page width for output (used to compute columns widths for layout divs). Defaults to 6.5 inches, which corresponds to default letter page settings in docx and odt.</Synopsis>
+        </Document>
+        <Document ID="377CE0FA-0B04-4DDB-8028-D5A0C2D60D59">
+            <Title>margin-width</Title>
+        </Document>
+        <Document ID="A2D3BC57-E3B1-4858-A936-02E1F89E29A7">
+            <Title>Section</Title>
+            <Text>This is an example of the Section section type.</Text>
         </Document>
         <Document ID="BD99F901-384A-404E-9F85-E07D194B7619">
             <Title>text-2</Title>
@@ -5803,6 +5805,10 @@ Crossref Theorem</Text>
             <Title>code-annotations</Title>
             <Synopsis>The style to use when displaying code annotations. Set this value to false to hide code annotations.</Synopsis>
         </Document>
+        <Document ID="361FFE8A-EDF7-467D-9E9C-805D6277E700">
+            <Title>metadata-files</Title>
+            <Synopsis>Read metadata from the supplied YAML (or JSON) files. This option can be used with every input format, but string scalars in the YAML file will always be parsed as Markdown. Generally, the input will be handled the same as in YAML metadata blocks. Values in files specified later in the list will be preferred over those specified earlier. Metadata values specified inside the document, or by using -M, overwrite values specified with this option.</Synopsis>
+        </Document>
         <Document ID="D35DBCA8-5DDC-4244-AD4E-7E1B32552825">
             <Title>Callout Warning</Title>
             <Notes>Possible attributes:
@@ -5811,10 +5817,6 @@ appearance="simple"
 title="Title"
 collapse="true"
 icon=false</Notes>
-        </Document>
-        <Document ID="361FFE8A-EDF7-467D-9E9C-805D6277E700">
-            <Title>metadata-files</Title>
-            <Synopsis>Read metadata from the supplied YAML (or JSON) files. This option can be used with every input format, but string scalars in the YAML file will always be parsed as Markdown. Generally, the input will be handled the same as in YAML metadata blocks. Values in files specified later in the list will be preferred over those specified earlier. Metadata values specified inside the document, or by using -M, overwrite values specified with this option.</Synopsis>
         </Document>
         <Document ID="BD820753-389F-429F-9515-D8211976F37C">
             <Title>before-body</Title>
@@ -5847,6 +5849,9 @@ icon=false</Notes>
             <Synopsis>The target id of this about page. When the about page is rendered, it will place read the contents of a div with this id into the about template that you have selected (and replace the contents with the rendered about content).
 If no such div is defined on the page, a div with this id will be created and appended to the end of the page.</Synopsis>
         </Document>
+        <Document ID="5BB48159-40F7-4B60-AF73-6B8C69925455">
+            <Title>type</Title>
+        </Document>
         <Document ID="508EF297-44FD-4265-8646-5226B43EDFAE">
             <Title>given</Title>
             <Notes>---
@@ -5872,15 +5877,12 @@ references:
 ...
 </Notes>
         </Document>
-        <Document ID="5BB48159-40F7-4B60-AF73-6B8C69925455">
-            <Title>type</Title>
+        <Document ID="8A6363DD-75A0-4E08-823A-FFD100CD36F2">
+            <Title>linestretch</Title>
         </Document>
         <Document ID="7A4BBD51-4798-42F7-8350-DD6197A22820">
             <Title>text-1</Title>
             <Text>Text</Text>
-        </Document>
-        <Document ID="8A6363DD-75A0-4E08-823A-FFD100CD36F2">
-            <Title>linestretch</Title>
         </Document>
         <Document ID="9BB135D8-7857-4136-9B21-9A980DF02E76">
             <Title>references</Title>
@@ -5906,10 +5908,6 @@ false: don’t evaluate code cell
         <Document ID="4ABF83CD-2E26-4475-81D3-A96349155F95">
             <Title>sort-ui</Title>
             <Synopsis>Shows or hides the sorting control for the listing. To control the fields that will be displayed in the sorting control, provide a list of field names.</Synopsis>
-        </Document>
-        <Document ID="A298C5F8-560B-4C87-90AA-AF802BE9832D">
-            <Title>Heading</Title>
-            <Text>This is an example of the Heading section type.</Text>
         </Document>
         <Document ID="F789E2F9-9243-4F66-B571-58C831ED1C58">
             <Title>given</Title>
@@ -5939,6 +5937,10 @@ references:
         <Document ID="2E1CCF47-07AB-4CA8-B98B-A3438094BBFF">
             <Title>reference-doc</Title>
             <Synopsis>Use the specified file as a style reference in producing a docx, pptx, or odt file.</Synopsis>
+        </Document>
+        <Document ID="A298C5F8-560B-4C87-90AA-AF802BE9832D">
+            <Title>Heading</Title>
+            <Text>This is an example of the Heading section type.</Text>
         </Document>
         <Document ID="74F3E26B-5449-474E-B1BD-2F194E31E8CA">
             <Title>include-before-body</Title>
@@ -6001,9 +6003,9 @@ OliveGreen</Notes>
         <Document ID="5972EDDC-D7EA-45FB-8D9B-7C9236AC64F7">
             <Title>linktoc=all</Title>
         </Document>
-        <Document ID="FECC9D81-7396-4D2B-9535-25DAAE41ED2C">
-            <Title>Section + Auto</Title>
-            <Text>This is an example of the Section section type.</Text>
+        <Document ID="F7167ADA-9898-42E1-AE20-A2BA66953610">
+            <Title>ipynb-filters</Title>
+            <Synopsis>Filters to pre-process ipynb files before rendering to markdown</Synopsis>
         </Document>
         <Document ID="E8956215-97C1-41DA-8AB9-50C2891EA656">
             <Title>How to write?</Title>
@@ -6015,7 +6017,7 @@ Writing Using Styles
 
 For Scrivener Styles, apply the Paragraph or Character style for each feature:
 #
-For Scrivener Styles, here are some example Quarto features. As is general practive for most markdown flavours, use empty lines around PAragraph Styles, for example callouts:
+For Scrivener Styles, here are some example Quarto features. As is general practice for most markdown flavours, use empty lines around Paragraph Styles, for example callouts:
 
 Note that there are five types of callouts, including: 
 `note`, `tip`, `warning`, `caution`, and `important`.
@@ -6066,26 +6068,24 @@ For equations we should write the {#label} on the first line after the [Maths Bl
 The script edits the compiled markdown so the {#eq-label} is placed on the same line after the $$ have been added by the compiler.
 </Text>
         </Document>
-        <Document ID="26507FFB-A6D4-41A7-893A-E1B1DF723B27">
-            <Title>template</Title>
-        </Document>
         <Document ID="8A855D83-0545-48B6-97DF-851A1D30A2E6">
             <Title>Data Recording</Title>
             <Text>
 ![A figure of a poor, poor marginalised elephant…](Elephant 3){#fig-%autoref%}
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, and here is some inline maths: e^{ix}=r(\cos \theta +i\sin \theta), est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-
 Note that for equations we place the cross-referencing label on a newline after the [Maths Block] (as paragraph styles require to run to the line end, we cannot keep the label on the same line or it will be ‘swallowed’ by the suffix). The post-processing script will place this label back on the same line after the $$ has been added by Scrivener’s compiler so that Quarto can properly cross-reference it…  
-
 See both [autoref] and [autoref] for more details:
 
 t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
 </Text>
         </Document>
-        <Document ID="F7167ADA-9898-42E1-AE20-A2BA66953610">
-            <Title>ipynb-filters</Title>
-            <Synopsis>Filters to pre-process ipynb files before rendering to markdown</Synopsis>
+        <Document ID="FECC9D81-7396-4D2B-9535-25DAAE41ED2C">
+            <Title>Section + Auto</Title>
+            <Text>This is an example of the Section section type.</Text>
+        </Document>
+        <Document ID="26507FFB-A6D4-41A7-893A-E1B1DF723B27">
+            <Title>template</Title>
         </Document>
         <Document ID="F683519B-8706-4C78-A243-F164DABFB521">
             <Title>Corollary Title</Title>
@@ -6098,9 +6098,8 @@ t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
         <Document ID="C1EA3D3E-A3E0-487B-A260-1EE55902A7A4">
             <Title>DABiehl1896</Title>
         </Document>
-        <Document ID="EEABDE41-1792-41EA-9E11-E99394992EFE">
-            <Title>Appendix</Title>
-            <Text>This is an example of the Appendix section type.</Text>
+        <Document ID="C20A06F2-5B29-4F2A-953A-52BE89F53333">
+            <Title>Placeholder</Title>
         </Document>
         <Document ID="C136FEB8-58C8-4A03-8EA8-31B6C5DDAFC5">
             <Title>top-level-division</Title>
@@ -6108,8 +6107,9 @@ t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
 
 The default behavior is to determine the best division type via heuristics: unless other conditions apply, section is chosen. When the documentclass variable is set to report, book, or memoir (unless the article option is specified), chapter is implied as the setting for this option. If beamer is the output format, specifying either chapter or part will cause top-level headings to become \part{..}, while second-level headings remain as their default type.</Synopsis>
         </Document>
-        <Document ID="C20A06F2-5B29-4F2A-953A-52BE89F53333">
-            <Title>Placeholder</Title>
+        <Document ID="EEABDE41-1792-41EA-9E11-E99394992EFE">
+            <Title>Appendix</Title>
+            <Text>This is an example of the Appendix section type.</Text>
         </Document>
         <Document ID="90450DD6-84AE-4630-A3A7-33883DD47FC1">
             <Title>editor</Title>
@@ -6128,8 +6128,9 @@ The fig-asp option is only available within the knitr engine.</Synopsis>
         <Document ID="83B193F4-FA88-4BE1-A462-25DD015CF874">
             <Title>contents</Title>
         </Document>
-        <Document ID="02A88557-09AA-495C-A1F2-3DE27E9C56DC">
-            <Title>translator</Title>
+        <Document ID="3A0DCA5C-5DE0-464C-9AC2-B0F0083C2D4C">
+            <Title>latex-max-runs</Title>
+            <Synopsis>Maximum number of compilation passes.</Synopsis>
         </Document>
         <Document ID="EAE82E8C-C7D6-4989-A052-76195058DC54">
             <Title>highlight-style</Title>
@@ -6142,20 +6143,17 @@ Instead of a STYLE name, a JSON file with extension .theme may be supplied. This
   A[Hard edge] --&gt; B(Round edge)
   B --&gt; C{Decision}
   C --&gt; D[Result one]
-  C --&gt; E[Result two]
-</Text>
+  C --&gt; E[Result two]</Text>
         </Document>
-        <Document ID="3A0DCA5C-5DE0-464C-9AC2-B0F0083C2D4C">
-            <Title>latex-max-runs</Title>
-            <Synopsis>Maximum number of compilation passes.</Synopsis>
+        <Document ID="02A88557-09AA-495C-A1F2-3DE27E9C56DC">
+            <Title>translator</Title>
         </Document>
         <Document ID="7FA73DAD-744A-48F5-AFAD-15A77E6EF6F9">
             <Title>monofont</Title>
         </Document>
-        <Document ID="9B1631D8-75FB-4C42-B619-4CFD603404C2">
-            <Text>Later, the DA was edited by DABiehl1896 in DABiehl1896 (reprinted in DATheiler's DATheiler translation)
-
-You can set link-fields to false to avoid undesired linking when citing specific fields.</Text>
+        <Document ID="BAAA6DFF-2490-4563-9FC6-E5F5621DD530">
+            <Title>citations-hover</Title>
+            <Synopsis>Enables a hover popup for citation that shows the reference information.</Synopsis>
         </Document>
         <Document ID="AE96DA3E-72CE-4EB2-8463-67E2421EBFAA">
             <Title>Listing Labels</Title>
@@ -6164,9 +6162,10 @@ You can set link-fields to false to avoid undesired linking when citing specific
         <Document ID="57C99704-69E2-46B2-A27B-25E34482FE77">
             <Title>publisher-place</Title>
         </Document>
-        <Document ID="BAAA6DFF-2490-4563-9FC6-E5F5621DD530">
-            <Title>citations-hover</Title>
-            <Synopsis>Enables a hover popup for citation that shows the reference information.</Synopsis>
+        <Document ID="9B1631D8-75FB-4C42-B619-4CFD603404C2">
+            <Text>Later, the DA was edited by DABiehl1896 in DABiehl1896 (reprinted in DATheiler's DATheiler translation)
+
+You can set link-fields to false to avoid undesired linking when citing specific fields.</Text>
         </Document>
         <Document ID="447A4830-6FF4-4A79-A228-0B876A172E6E">
             <Title>Figure dpi</Title>
@@ -6357,6 +6356,7 @@ icon=false</Notes>
             <Title>date-format</Title>
         </Document>
         <Document ID="5CB52DA9-8356-4C28-841D-ADEA1BE0494A">
+            <Title>Code Python + Caption</Title>
             <Text>This is an example of the Code Python section type.</Text>
             <Notes>```{python}
 #| label: lst-%autoref%
@@ -6406,12 +6406,12 @@ number-depth: 1
         <Document ID="EBE6E72F-2717-456F-840A-9258DCD4340C">
             <Title>textwidth</Title>
         </Document>
+        <Document ID="84852233-6E5A-43C5-BF5F-5009E1118175">
+            <Title>author-meta</Title>
+        </Document>
         <Document ID="90A5EE53-49AF-4F4D-A894-8F8782D5DD2D">
             <Title>before-body</Title>
             <Notes>/Users/bcdav/Dropbox/Projetos/Tese/templates_partials/mimosis/before-body.tex</Notes>
-        </Document>
-        <Document ID="84852233-6E5A-43C5-BF5F-5009E1118175">
-            <Title>author-meta</Title>
         </Document>
         <Document ID="C2C45AAE-4684-4370-AEC9-1576D756F62A">
             <Title>logo</Title>
@@ -6497,10 +6497,7 @@ Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pr
 
 ![This should also span the whole page, using a paragraph block style [Column Page]. This method has the caveat that we cannot use an editor-embedded image as in elespan; only an Scrivener Binder document link to the file and direct pandoc markup…](Elephant 1){#fig-elespan2}
 
-Ad pro quod definitiønem [@crivellato2007], mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! 
-
-
-</Text>
+Ad pro quod definitiønem [@crivellato2007], mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! </Text>
         </Document>
         <Document ID="431C12C0-8F21-4A64-A7F0-1DBC35E03893">
             <Title>linestretch</Title>
@@ -6537,14 +6534,13 @@ Underline</Text>
             <Title>Introduction</Title>
             <Text>“We don’t see things as they are, we see them as we are.” — Anaïs Nin
 
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see [auto:Results]), est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see scrivauto), est mægna alienum mentitum ne. [Amet equidem](quarto.org/) sit ex (see scrivauto). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
 
 #
 {#fig-%autoref% .column-page} "What a trip!" - said Ulysses as he sailed by the sirens. We add the cross-referencing label to the start of the caption. This label will get moved to the correct place in the markdown by the post-processing script before Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style Caption which the Scrivener compiler converts to the correct markdown to generate a captioned image block!
 
 Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum[@crivellato2007], pro paulo ridens quaestio ut (see [autoref])! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam (this style is strong emphasis).  
-
 Ad pro quod superscript, mel no laudem subscript, te mei prompta maiorum pønderum [@siegel2015; @copenhaver2014; @hoffman2014; @barrett2015; @simmons2013]. Solum aeque singulis duo ex, est an iriure øblique.  
 
 Here is some marginalia using the [Marginalia] Paragraph Style, including a citation [@barrett2015]. This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.
@@ -6718,6 +6714,9 @@ Note that with the Jupyter engine, this option has no effect when provided at th
             <Title>code-annotations</Title>
             <Synopsis>The style to use when displaying code annotations. Set this value to false to hide code annotations.</Synopsis>
         </Document>
+        <Document ID="10AEFED7-51A1-4C0E-93E2-C687B5811BFD">
+            <Title>email</Title>
+        </Document>
         <Document ID="D3981FA3-1074-4DF4-AAA1-4DDE82EDBAE2">
             <Title>latex-auto-install</Title>
             <Synopsis>Enable/disable automatic LaTeX package installation</Synopsis>
@@ -6873,6 +6872,14 @@ The fig-asp option is only available within the knitr engine.</Synopsis>
             <Title>description-meta</Title>
             <Synopsis>Sets the description metadata for the document</Synopsis>
         </Document>
+        <Document ID="DCBD57CB-F3D9-4CA2-8343-E1643CF1A9D6">
+            <Title>- value-3</Title>
+        </Document>
+        <Document ID="EACAEA2A-A840-407F-BE54-87731BE3B08F">
+            <Title>title-block-categories</Title>
+            <Synopsis>Enables or disables the display of categories in the title block.</Synopsis>
+            <Text>  </Text>
+        </Document>
         <Document ID="4999718C-11F3-4D34-ACCA-BB27CFC74482">
             <Title>Multipart Figure</Title>
             <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures 
@@ -6882,14 +6889,6 @@ The fig-asp option is only available within the knitr engine.</Synopsis>
 
 :::
 </Notes>
-        </Document>
-        <Document ID="EACAEA2A-A840-407F-BE54-87731BE3B08F">
-            <Title>title-block-categories</Title>
-            <Synopsis>Enables or disables the display of categories in the title block.</Synopsis>
-            <Text>  </Text>
-        </Document>
-        <Document ID="DCBD57CB-F3D9-4CA2-8343-E1643CF1A9D6">
-            <Title>- value-3</Title>
         </Document>
         <Document ID="DC54B391-EC62-48C5-982E-A0F8DDCBAE65">
             <Title>Article Layout Grid</Title>
@@ -7170,6 +7169,7 @@ document: Place at end of document</Synopsis>
             <Synopsis>Specifies a custom abbreviations file, with abbreviations one to a line. This list is used when reading Markdown input: strings found in this list will be followed by a nonbreaking space, and the period will not produce sentence-ending space in formats like LaTeX. The strings may not contain spaces.</Synopsis>
         </Document>
         <Document ID="9B73E865-BE67-498E-85C4-81ECD15C598D">
+            <Title>Code R + Caption</Title>
             <Text>This is an example of the Code R section type.</Text>
             <Notes>```{r}
 #| label: lst-%autoref%
@@ -7801,6 +7801,17 @@ $endif$</Text>
             <Title>Lemma</Title>
             <Text>Lemma content</Text>
         </Document>
+        <Document ID="2B5B16FE-57FE-4788-9E92-B14FF53718D9">
+            <Text>The works of `AristOp` were first edited by `AristOp` in `AristOp`.</Text>
+        </Document>
+        <Document ID="08C9301A-18B7-4689-9B05-D73FD5FA26D7">
+            <Title>biblio-title</Title>
+            <Synopsis>The bibliography title to use when using natbib or biblatex. # CITE TOOLS: LEAVE EMPTY #</Synopsis>
+        </Document>
+        <Document ID="79750E99-292F-4155-B7B7-D7FF6AF30EFD">
+            <Title>collapse-level</Title>
+            <Synopsis>The depth at which the sidebar contents should be collapsed by default.</Synopsis>
+        </Document>
         <Document ID="5E874E2D-1C7D-4BF6-9383-E2F327F310F0">
             <Title>url</Title>
             <Notes>---
@@ -7826,19 +7837,8 @@ references:
 ...
 </Notes>
         </Document>
-        <Document ID="08C9301A-18B7-4689-9B05-D73FD5FA26D7">
-            <Title>biblio-title</Title>
-            <Synopsis>The bibliography title to use when using natbib or biblatex. # CITE TOOLS: LEAVE EMPTY #</Synopsis>
-        </Document>
-        <Document ID="79750E99-292F-4155-B7B7-D7FF6AF30EFD">
-            <Title>collapse-level</Title>
-            <Synopsis>The depth at which the sidebar contents should be collapsed by default.</Synopsis>
-        </Document>
         <Document ID="8621C811-70C0-497B-91D1-B4E724DCEA73">
             <Title>- value-2</Title>
-        </Document>
-        <Document ID="2B5B16FE-57FE-4788-9E92-B14FF53718D9">
-            <Text>The works of `AristOp` were first edited by `AristOp` in `AristOp`.</Text>
         </Document>
         <Document ID="646488F6-616C-4311-90D4-3D378ED54BE1">
             <Title>Text</Title>
@@ -7916,9 +7916,9 @@ Table Text</Text>
         <Document ID="185EE090-0171-43C1-AF8F-E47D6194AD3D">
             <Title>Changes</Title>
             <Text>
-By Bernardo Vasconcelos (see this thread, and this thread).
+By Bernardo Vasconcelos (see [this thread](forum.literatureandlatte.com/t/scrivener-quarto-cite-tools-advanced-bibliography-for-a-technical-academic-publishing-workflow/133803), and [this thread](forum.literatureandlatte.com/t/134755)).
 
-This template descends from Ian's excellent Quarto template for Scrivener. 
+This template descends from Ian's excellent [Quarto template for Scrivener](forum.literatureandlatte.com/t/scrivener-quarto-a-technical-academic-publishing-workflow/129769). 
 
 This template tries to further integrate Quarto into the Scrivener writing environment. It includes new Section Types, Paragraph Styles, Character Styles, Custom Meta Fields, YAML Parameters for Quarto, new icons and more.* If you already have Quarto and R working installations, it introduces zero new dependencies and you should be able to compile it right away. Please, go ahead and try it. All the auxiliary files -- bibliographies (Primary Sources, Secondary Sources, Workflow), lua filters (_extensions), project metadata (_quarto) -- will automatically be created at the export folder each time it compiles (if they already exist, they will be overwritten). The only external dependencies, therefore, are Quarto and R. 
 The template's first notable difference is the way the YAML Front matter is written and the size it is. Instead of using a single binder text item for all the options, as is common practice, we are using one binder item for each YAML parameter with the idea of having all the options properly set up and available to be included or excluded from compiling by simply ticking a box. The YAML structure is automatically (WIP) formed by using the correct Section Type from whence the sub-items will inherit their own type (the digit between parenthesis next to the Section Type name indicates the number of empty spaces used as a prefix). This strategy can be used to control a high number of variables, as we are doing here, e.g. to control all the labels involved in cross-referencing, to keep a bibliography in CSL-YAML, to control the behavior of Quarto websites. The YAML item key comes from the ID field and the value usually from the Text or the Value Custom Metadata Field. This allows clearer and more instructive binder item names. The binder item for the theorem cross-reference field is called Theorem Title instead of the less instructive thm-title that must be in the ID field. 

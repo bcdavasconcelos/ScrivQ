@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="2EF56727-63DF-4DD2-B917-7457155C84EB">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+4. Added the prefix []{#scriv\&lt;$linkID&gt;} to some Section Layouts. 
+
+This allows us to create links to [text sections that do not have a Header element](#scriv&lt;$linkID&gt;).   
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

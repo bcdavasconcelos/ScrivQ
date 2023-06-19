@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Table Head 1
+Table Head 2
+Table Head 3
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+Item 6
+Item 7
+Item 8
+Item 9
+Item 10
+Item 11
+Item 12
+: First Table Caption {#tbl-first}
+
+Table Head 1
+Table Head 2
+Table Head 3
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+Item 6
+Item 7
+Item 8
+Item 9
+Item 10
+Item 11
+Item 12
+: Second Table Caption {#tbl-second}
+
+Main caption. This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multiformat Table] Edit the Inspector’s Custom Metadata [ID, Class &amp; Attributes] which holds the cross-referencing label and the attributes for this multipart table, which will be added by the Section Layout by the compiler.
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

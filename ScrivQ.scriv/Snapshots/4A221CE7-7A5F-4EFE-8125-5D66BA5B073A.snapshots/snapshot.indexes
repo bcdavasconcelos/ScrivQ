@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="4A221CE7-7A5F-4EFE-8125-5D66BA5B073A">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+￼
+{#fig-castle2} Elephant.
+
+￼
+{#fig-trunk2} Angry elephant with big trunk.
+
+This demonstrates generating a multi-panel figure using a Scrivener Section Type [Multipart Figure] instead of using raw markdown as shown here. ID, Class and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and this is then inserted into the markup for this chunk by the Section Layout at compile time.  
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

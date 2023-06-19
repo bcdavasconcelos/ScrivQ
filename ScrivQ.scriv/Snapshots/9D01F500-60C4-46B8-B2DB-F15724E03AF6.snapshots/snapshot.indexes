@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="9D01F500-60C4-46B8-B2DB-F15724E03AF6">
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+To reference them, use scrivautο, %autοref%, [autοref] or simply scriv &amp;  &lt;\$linkID&gt; with the proper style applied; that is, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto. Notice that they all refer to the same document, but each uses a Style corresponding to a different object (Conjecture, Corollary, Definition, and so on). The caveat here is that we cannot have more than one of each kind per binder item, otherwise they will receive the same ID.
+Conjecture environment
+
+Corollary environment
+
+Definition environment
+
+Example environment
+
+Exercise environment
+
+Lemma environment
+
+Proposition environment
+
+Theorem environment
+
+As we mentioned, you can also create environments using Section Types instead of styles. See scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto, scrivauto.</Text>
+    </Snapshot>
+</SnapshotIndexes>

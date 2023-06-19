@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="iMac-de-Bernardo-2" Author="" Modified="2023-06-18 11:35:25 -0300" ModID="8E02F452-745E-4A63-A79A-6ADAF269BE96">
+<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-18 22:56:00 -0300" ModID="6FB58F3A-CAF6-4C61-AFF2-2D8CE588C695">
     <Binder>
         <BinderItem UUID="C2B7CD89-AB5C-42DC-B877-91BB443E413C" Type="Text" Created="2023-05-18 12:16:02 -0300" Modified="2023-05-23 11:49:13 -0300">
             <Title>Files</Title>
@@ -4791,7 +4791,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="C7870D41-0F25-4176-B5F7-9C92C6BB79C3" Type="Text" Created="2023-06-17 21:16:01 -0300" Modified="2023-06-18 09:16:53 -0300">
+                <BinderItem UUID="C7870D41-0F25-4176-B5F7-9C92C6BB79C3" Type="Text" Created="2023-06-17 21:16:01 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>_variables</Title>
                     <MetaData>
                         <SectionType ChildDefault="E506F662-F54B-41C8-899D-6ABD905984ED"></SectionType>
@@ -6979,7 +6979,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <CorkboardAndOutliner>
-                        <SelectedSubdocumentUUIDs>3C1745DE-1ECF-4E92-8F44-AF47759FF252</SelectedSubdocumentUUIDs>
+                        <SelectedSubdocumentUUIDs>4BBD79A6-75D8-4FA9-9DFB-28AEFDF2AA83</SelectedSubdocumentUUIDs>
                     </CorkboardAndOutliner>
                     <Keywords>
                         <KeywordID>31</KeywordID>
@@ -7118,7 +7118,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="3C1745DE-1ECF-4E92-8F44-AF47759FF252" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-17 14:49:40 -0300">
+                        <BinderItem UUID="3C1745DE-1ECF-4E92-8F44-AF47759FF252" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:14 -0300">
                             <Title>Equation Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7126,7 +7126,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>equation</Value>
+                                        <Value>Equation</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7149,7 +7149,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="3423F802-6DF4-483E-8812-61FDF22C2150" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="3423F802-6DF4-483E-8812-61FDF22C2150" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:13 -0300">
                             <Title>Figure Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7157,7 +7157,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Figura</Value>
+                                        <Value>Figure</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7180,7 +7180,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="FE889BCE-A3E7-455F-80AB-9580C1514E59" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-11 17:38:04 -0300">
+                        <BinderItem UUID="FE889BCE-A3E7-455F-80AB-9580C1514E59" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:08 -0300">
                             <Title>Listing Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7188,7 +7188,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Bloco</Value>
+                                        <Value>Block</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7211,7 +7211,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="FDDD1DB2-D3C8-4A5F-AD7F-6D0096B5C0D3" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-11 17:38:05 -0300">
+                        <BinderItem UUID="FDDD1DB2-D3C8-4A5F-AD7F-6D0096B5C0D3" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:06 -0300">
                             <Title>Table Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7219,7 +7219,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Quadro</Value>
+                                        <Value>Table</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7242,7 +7242,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="070CD867-A0A7-4E28-B5AA-F9EFC6A2E457" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="070CD867-A0A7-4E28-B5AA-F9EFC6A2E457" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:05 -0300">
                             <Title>Conjuncture Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7250,7 +7250,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Conjuntura</Value>
+                                        <Value>Conjuncture</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7273,7 +7273,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="F683519B-8706-4C78-A243-F164DABFB521" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="F683519B-8706-4C78-A243-F164DABFB521" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:16 -0300">
                             <Title>Corollary Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7281,7 +7281,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Corolário</Value>
+                                        <Value>Corollary</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7304,7 +7304,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="20A4A70D-5E09-4797-A520-4D8E767AEAE7" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="20A4A70D-5E09-4797-A520-4D8E767AEAE7" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:17 -0300">
                             <Title>Definition Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7312,7 +7312,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Definição</Value>
+                                        <Value>Definition</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7335,7 +7335,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="401D7ED3-EDA6-4579-A2ED-F55D02D4C048" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-11 17:38:07 -0300">
+                        <BinderItem UUID="401D7ED3-EDA6-4579-A2ED-F55D02D4C048" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:18 -0300">
                             <Title>Example Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7343,7 +7343,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Passagem</Value>
+                                        <Value>Example</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7366,7 +7366,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="BDBA7C24-421D-4536-B214-38EE28249E40" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="BDBA7C24-421D-4536-B214-38EE28249E40" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:19 -0300">
                             <Title>Exercise Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7374,7 +7374,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Exercício</Value>
+                                        <Value>Exercise</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7397,7 +7397,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="1AD71882-9BAC-4B54-85AE-082895FFB9E4" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="1AD71882-9BAC-4B54-85AE-082895FFB9E4" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:21 -0300">
                             <Title>Lemma Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7428,7 +7428,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="7FEC29F1-7DB2-4DBB-B086-EFD6094BE664" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="7FEC29F1-7DB2-4DBB-B086-EFD6094BE664" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:22 -0300">
                             <Title>Proposition Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7436,7 +7436,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Proposição</Value>
+                                        <Value>Proposition</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7459,7 +7459,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="E222A9C8-353C-4D91-95EE-0EE39870F897" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-06 11:56:07 -0300">
+                        <BinderItem UUID="E222A9C8-353C-4D91-95EE-0EE39870F897" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:48:24 -0300">
                             <Title>Theorem Title</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7467,7 +7467,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>Teorema</Value>
+                                        <Value>Theorem</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -7490,7 +7490,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html">Quarto - Cross-references</Bookmark>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="4BBD79A6-75D8-4FA9-9DFB-28AEFDF2AA83" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-11 17:38:18 -0300">
+                        <BinderItem UUID="4BBD79A6-75D8-4FA9-9DFB-28AEFDF2AA83" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:44:31 -0300">
                             <Title>Equation Labels</Title>
                             <MetaData>
                                 <LabelID>10</LabelID>
@@ -7499,7 +7499,7 @@
                                 <CustomMetaData>
                                     <MetaDataItem>
                                         <FieldID>value</FieldID>
-                                        <Value>alpha A</Value>
+                                        <Value>arabic</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
                                         <FieldID>key</FieldID>
@@ -21789,7 +21789,7 @@ html-q-tags</Value>
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem UUID="E8956215-97C1-41DA-8AB9-50C2891EA656" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-16 18:10:01 -0300">
+                <BinderItem UUID="E8956215-97C1-41DA-8AB9-50C2891EA656" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:32:06 -0300">
                     <Title>How to write?</Title>
                     <MetaData>
                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
@@ -21805,7 +21805,7 @@ html-q-tags</Value>
                         <TextSelection>32,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-16 18:09:59 -0300">
+                <BinderItem UUID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:32:06 -0300">
                     <Title>Compiler script details</Title>
                     <MetaData>
                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
@@ -21821,7 +21821,7 @@ html-q-tags</Value>
                         <TextSelection>488,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="6867277E-E7BB-49B5-9A35-D026AB1041AA" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:09:57 -0300">
+                <BinderItem UUID="6867277E-E7BB-49B5-9A35-D026AB1041AA" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:22:26 -0300">
                     <Title>Abstract</Title>
                     <MetaData>
                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
@@ -21839,7 +21839,7 @@ html-q-tags</Value>
                         <TextSelection>849,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 11:28:55 -0300">
+                <BinderItem UUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                     <Title>Introduction</Title>
                     <MetaData>
                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
@@ -21854,7 +21854,7 @@ html-q-tags</Value>
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>494,0</TextSelection>
+                        <TextSelection>809,7</TextSelection>
                     </TextSettings>
                     <Bookmarks>
                         <Bookmark BinderUUID="6B1ADF81-FF2E-4A3F-AD78-8BF49DC26796"/>
@@ -21885,7 +21885,7 @@ html-q-tags</Value>
                         </OutlinerExpandedState>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem UUID="8A855D83-0545-48B6-97DF-851A1D30A2E6" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 11:29:33 -0300">
+                        <BinderItem UUID="8A855D83-0545-48B6-97DF-851A1D30A2E6" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                             <Title>Data Recording</Title>
                             <MetaData>
                                 <StatusID>3</StatusID>
@@ -21899,10 +21899,10 @@ html-q-tags</Value>
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>944,0</TextSelection>
+                                <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="85C94DE1-452F-4489-A210-C3E6BC6D7DAD" Type="Text" Created="2023-06-10 23:52:08 -0300" Modified="2023-06-18 11:34:47 -0300">
+                        <BinderItem UUID="85C94DE1-452F-4489-A210-C3E6BC6D7DAD" Type="Text" Created="2023-06-10 23:52:08 -0300" Modified="2023-06-18 22:24:27 -0300">
                             <Title>Data Recording (b)</Title>
                             <MetaData>
                                 <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -21923,7 +21923,7 @@ html-q-tags</Value>
                                 <Bookmark BinderUUID="8A855D83-0545-48B6-97DF-851A1D30A2E6"/>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="B05EE01C-21D1-47E5-880B-B69523D12C14" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 11:35:25 -0300">
+                        <BinderItem UUID="B05EE01C-21D1-47E5-880B-B69523D12C14" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                             <Title>Experimental Perturbations</Title>
                             <MetaData>
                                 <StatusID>3</StatusID>
@@ -21937,13 +21937,13 @@ html-q-tags</Value>
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>992,0</TextSelection>
+                                <TextSelection>603,0</TextSelection>
                             </TextSettings>
                             <Bookmarks>
                                 <Bookmark BinderUUID="71C2506F-7939-4E96-BCF3-E2123A2CA859"/>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="5681A6B7-F48A-475E-B0CE-4622E60212E8" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 23:03:36 -0300">
+                        <BinderItem UUID="5681A6B7-F48A-475E-B0CE-4622E60212E8" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:28:39 -0300">
                             <Title>Stimulus Plotting</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -21959,7 +21959,7 @@ html-q-tags</Value>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="E99FC55B-E4F9-4162-BA90-58E715B6C30A" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:38:18 -0300">
+                                <BinderItem UUID="E99FC55B-E4F9-4162-BA90-58E715B6C30A" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                                     <Title>R Code</Title>
                                     <MetaData>
                                         <SectionType>023D6712-1050-4148-9E55-7FB4F3277A1B</SectionType>
@@ -21980,7 +21980,7 @@ html-q-tags</Value>
                                         <TextSelection>253,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="24B8C069-EF2A-45CE-90A4-E9464AFA1BD2" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:09:46 -0300">
+                                <BinderItem UUID="24B8C069-EF2A-45CE-90A4-E9464AFA1BD2" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:28:39 -0300">
                                     <Title>Text</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -22002,7 +22002,7 @@ html-q-tags</Value>
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="01CC341D-870E-4C1A-899E-FC1E3C5AFF20" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 10:02:09 -0300">
+                        <BinderItem UUID="01CC341D-870E-4C1A-899E-FC1E3C5AFF20" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:28:39 -0300">
                             <Title>Statistical Analysis</Title>
                             <MetaData>
                                 <StatusID>3</StatusID>
@@ -22043,7 +22043,7 @@ html-q-tags</Value>
                                         <Bookmark BinderUUID="01CC341D-870E-4C1A-899E-FC1E3C5AFF20"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="1B7FBB0B-54AD-4518-B830-759D79AB608D" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:09:43 -0300">
+                                <BinderItem UUID="1B7FBB0B-54AD-4518-B830-759D79AB608D" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:28:39 -0300">
                                     <Title>Text</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -22060,7 +22060,7 @@ html-q-tags</Value>
                                         <TextSelection>382,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="24614A2C-1578-43BA-BB71-F660105CE1BA" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 10:02:26 -0300">
+                                <BinderItem UUID="24614A2C-1578-43BA-BB71-F660105CE1BA" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:29:01 -0300">
                                     <Title>Mermaid Figure</Title>
                                     <MetaData>
                                         <SectionType>E93F9107-A3D9-44D0-85BD-2F3F939276DC</SectionType>
@@ -22088,7 +22088,7 @@ html-q-tags</Value>
                                         <Bookmark BinderUUID="01CC341D-870E-4C1A-899E-FC1E3C5AFF20"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="C52996BE-9CF2-4639-BFE6-914FAE2EA728" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 21:51:21 -0300">
+                                <BinderItem UUID="C52996BE-9CF2-4639-BFE6-914FAE2EA728" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:29:01 -0300">
                                     <Title>Text</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -22105,7 +22105,7 @@ html-q-tags</Value>
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="8D5E5495-E2F0-424C-8379-EDBB8AC72E1F" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 23:06:27 -0300">
+                                <BinderItem UUID="8D5E5495-E2F0-424C-8379-EDBB8AC72E1F" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:29:16 -0300">
                                     <Title>Figure + Attributes</Title>
                                     <MetaData>
                                         <SectionType>18814617-764A-4EA3-A1B7-F190D2D86BCB</SectionType>
@@ -22157,7 +22157,7 @@ html-q-tags</Value>
                         <Bookmark BinderUUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321"/>
                     </Bookmarks>
                     <Children>
-                        <BinderItem UUID="47D70777-02D8-40B9-A4BA-A83AF0CD65B8" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:08:59 -0300">
+                        <BinderItem UUID="47D70777-02D8-40B9-A4BA-A83AF0CD65B8" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                             <Title>Lunar Cycles</Title>
                             <MetaData>
                                 <LabelID>28</LabelID>
@@ -22178,7 +22178,7 @@ html-q-tags</Value>
                                 <Bookmark BinderUUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321"/>
                             </Bookmarks>
                             <Children>
-                                <BinderItem UUID="BBD9AA53-94FC-460C-BCDB-7901F9FE4F35" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:10:10 -0300">
+                                <BinderItem UUID="BBD9AA53-94FC-460C-BCDB-7901F9FE4F35" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                                     <MetaData>
                                         <SectionType>DA258D28-E0C6-4A94-B17B-223EAD20F243</SectionType>
                                         <StatusID>5</StatusID>
@@ -22198,7 +22198,7 @@ html-q-tags</Value>
                                         <Bookmark BinderUUID="6867277E-E7BB-49B5-9A35-D026AB1041AA"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="8F96974A-F3DB-4715-ABEF-CB75AB15C6AB" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:10:11 -0300">
+                                <BinderItem UUID="8F96974A-F3DB-4715-ABEF-CB75AB15C6AB" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -22217,7 +22217,7 @@ html-q-tags</Value>
                                         <Bookmark BinderUUID="6867277E-E7BB-49B5-9A35-D026AB1041AA"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="5BD588F1-973B-4CD3-B52B-64C3A18E45A3" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 11:28:44 -0300">
+                                <BinderItem UUID="5BD588F1-973B-4CD3-B52B-64C3A18E45A3" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                                     <Title>Multipart Table</Title>
                                     <MetaData>
                                         <SectionType>20DEA10D-14B0-49EC-884A-DFA9F5CAC03A</SectionType>
@@ -22256,7 +22256,7 @@ html-q-tags</Value>
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="B28881DE-6A3D-4806-A6ED-717A9BC7C7AD" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:08:56 -0300">
+                        <BinderItem UUID="B28881DE-6A3D-4806-A6ED-717A9BC7C7AD" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:06 -0300">
                             <Title>Solar Cycles</Title>
                             <MetaData>
                                 <LabelID>28</LabelID>
@@ -22271,10 +22271,10 @@ html-q-tags</Value>
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>693,0</TextSelection>
+                                <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="71C2506F-7939-4E96-BCF3-E2123A2CA859" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:17:20 -0300">
+                                <BinderItem UUID="71C2506F-7939-4E96-BCF3-E2123A2CA859" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:46 -0300">
                                     <Title>Multipart Figure</Title>
                                     <MetaData>
                                         <SectionType>F613650E-1CDE-409A-A972-431F7E206746</SectionType>
@@ -22306,7 +22306,7 @@ html-q-tags</Value>
                                         <Bookmark BinderUUID="B05EE01C-21D1-47E5-880B-B69523D12C14"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="3BC997D2-B6CA-4EE5-8803-9A8C49581B62" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:07:36 -0300">
+                                <BinderItem UUID="3BC997D2-B6CA-4EE5-8803-9A8C49581B62" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:46 -0300">
                                     <Title>Caution Callout </Title>
                                     <MetaData>
                                         <SectionType>679A55AF-9F4D-44FD-A45C-662B050A3213</SectionType>
@@ -22327,7 +22327,7 @@ html-q-tags</Value>
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="6B1ADF81-FF2E-4A3F-AD78-8BF49DC26796" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:08:52 -0300">
+                <BinderItem UUID="6B1ADF81-FF2E-4A3F-AD78-8BF49DC26796" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:46 -0300">
                     <Title>Discussion</Title>
                     <MetaData>
                         <SectionType>3F514CCD-B716-4FD0-8ACC-F1F2072B9F65</SectionType>
@@ -22348,7 +22348,7 @@ html-q-tags</Value>
                         <Bookmark BinderUUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321"/>
                     </Bookmarks>
                     <Children>
-                        <BinderItem UUID="3E543593-3C92-4C5B-A586-AA38CABA9FCE" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-11 01:22:16 -0300">
+                        <BinderItem UUID="3E543593-3C92-4C5B-A586-AA38CABA9FCE" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:46 -0300">
                             <Title>Marginalia</Title>
                             <MetaData>
                                 <SectionType>5E0103DC-2589-4470-868C-28F73457CA91</SectionType>
@@ -22362,7 +22362,7 @@ html-q-tags</Value>
                                 <Bookmark BinderUUID="85C94DE1-452F-4489-A210-C3E6BC6D7DAD"/>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="E50AA2A7-385A-4EB4-B439-2484E8780DAB" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:10:13 -0300">
+                        <BinderItem UUID="E50AA2A7-385A-4EB4-B439-2484E8780DAB" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:46 -0300">
                             <MetaData>
                                 <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -22380,7 +22380,7 @@ html-q-tags</Value>
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="F402D619-20AE-4309-9AB9-BB0F62564DE3" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:08:50 -0300">
+                <BinderItem UUID="F402D619-20AE-4309-9AB9-BB0F62564DE3" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:46 -0300">
                     <Title>Acknowledgments</Title>
                     <MetaData>
                         <SectionType>C335CD73-E248-48CB-9E43-BABA1C8683F5</SectionType>
@@ -22397,7 +22397,7 @@ html-q-tags</Value>
                         <TextSelection>294,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="F84B5E02-688D-4AAF-A75E-EC4E683C222A" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-16 18:08:49 -0300">
+                <BinderItem UUID="F84B5E02-688D-4AAF-A75E-EC4E683C222A" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:32:46 -0300">
                     <Title>Conflicts of Interest</Title>
                     <MetaData>
                         <SectionType>C335CD73-E248-48CB-9E43-BABA1C8683F5</SectionType>
@@ -22414,7 +22414,7 @@ html-q-tags</Value>
                         <TextSelection>67,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="185EE090-0171-43C1-AF8F-E47D6194AD3D" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-18 11:28:44 -0300">
+                <BinderItem UUID="185EE090-0171-43C1-AF8F-E47D6194AD3D" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-18 22:42:28 -0300">
                     <Title>Changes</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -22436,7 +22436,7 @@ html-q-tags</Value>
                         </OutlinerExpandedState>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem UUID="F8665414-346F-4086-A526-E4BEB96BC2A6" Type="Text" Created="2023-05-14 12:38:59 -0300" Modified="2023-06-18 11:28:44 -0300">
+                        <BinderItem UUID="F8665414-346F-4086-A526-E4BEB96BC2A6" Type="Text" Created="2023-05-14 12:38:59 -0300" Modified="2023-06-18 22:32:06 -0300">
                             <Title>Cross-referencing</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -22452,7 +22452,7 @@ html-q-tags</Value>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="9D01F500-60C4-46B8-B2DB-F15724E03AF6" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-18 11:28:44 -0300">
+                                <BinderItem UUID="9D01F500-60C4-46B8-B2DB-F15724E03AF6" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-18 22:32:06 -0300">
                                     <Title>cnj, cor, def, exm, exr, lem, prp, thm</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -22754,7 +22754,7 @@ html-q-tags</Value>
                                                 <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
+                                                        <FieldID>width</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
@@ -22766,15 +22766,15 @@ html-q-tags</Value>
                                                         <Value>eq-%autoref%</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
+                                                        <FieldID>class</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
                                                         <FieldID>height</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>❌</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>class</FieldID>
+                                                        <FieldID>attributes</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
@@ -22820,7 +22820,7 @@ html-q-tags</Value>
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem UUID="549674D9-8CF7-4AAF-8CBA-49CADED29977" Type="Text" Created="2023-06-08 20:00:40 -0300" Modified="2023-06-10 11:48:32 -0300">
+                                <BinderItem UUID="549674D9-8CF7-4AAF-8CBA-49CADED29977" Type="Text" Created="2023-06-08 20:00:40 -0300" Modified="2023-06-18 22:32:06 -0300">
                                     <Title>fns</Title>
                                     <MetaData>
                                         <IconFileName>Toolbar (Container Stack).png</IconFileName>
@@ -22829,14 +22829,14 @@ html-q-tags</Value>
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem UUID="078E5C46-243B-4D6F-83E9-822E9861424C" Type="Text" Created="2023-05-06 01:47:42 -0300" Modified="2023-06-16 16:11:41 -0300">
+                                        <BinderItem UUID="078E5C46-243B-4D6F-83E9-822E9861424C" Type="Text" Created="2023-05-06 01:47:42 -0300" Modified="2023-06-18 22:32:06 -0300">
                                             <Title>Footnote</Title>
                                             <MetaData>
                                                 <SectionType>87718176-9703-4D52-8153-A0C7577F6A63</SectionType>
                                                 <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>width</FieldID>
+                                                        <FieldID>height</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
@@ -22848,15 +22848,15 @@ html-q-tags</Value>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>class</FieldID>
-                                                        <Value>❌</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>height</FieldID>
+                                                        <FieldID>width</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
                                                         <FieldID>attributes</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
+                                                        <FieldID>class</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
@@ -22889,7 +22889,7 @@ html-q-tags</Value>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="5572C18C-80E0-420C-8AB5-4B2D75A5DE68" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-18 11:28:44 -0300">
+                                <BinderItem UUID="5572C18C-80E0-420C-8AB5-4B2D75A5DE68" Type="Text" Created="2023-05-06 01:23:11 -0300" Modified="2023-06-18 22:32:06 -0300">
                                     <Title>List of Changes</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -22931,23 +22931,32 @@ html-q-tags</Value>
                                                 <TextSelection>67,0</TextSelection>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem UUID="8C0DC908-E766-4C86-91A8-76AD050E4AB1" Type="Text" Created="2023-06-16 18:22:02 -0300" Modified="2023-06-18 11:28:44 -0300">
+                                        <BinderItem UUID="8C0DC908-E766-4C86-91A8-76AD050E4AB1" Type="Text" Created="2023-06-16 18:22:02 -0300" Modified="2023-06-18 22:52:05 -0300">
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <IconFileName>Toolbar (Container Text).png</IconFileName>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>628,0</TextSelection>
+                                                <TextSelection>119,0</TextSelection>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem UUID="285B86B1-41FF-48C5-97A3-6A5E6C4892EE" Type="Text" Created="2023-06-16 18:23:34 -0300" Modified="2023-06-16 18:44:13 -0300">
+                                        <BinderItem UUID="65F3B689-B779-450F-8EED-F01A303B04DB" Type="Text" Created="2023-06-18 22:51:50 -0300" Modified="2023-06-18 22:52:05 -0300">
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <IconFileName>Toolbar (Container Text).png</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem UUID="285B86B1-41FF-48C5-97A3-6A5E6C4892EE" Type="Text" Created="2023-06-16 18:23:34 -0300" Modified="2023-06-18 22:52:22 -0300">
                                             <MetaData>
                                                 <SectionType>5E0103DC-2589-4470-868C-28F73457CA91</SectionType>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
                                                 <IconFileName>Life (Social messages).png</IconFileName>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>108,0</TextSelection>
+                                                <TextSelection>28,0</TextSelection>
                                             </TextSettings>
                                         </BinderItem>
                                         <BinderItem UUID="55703CC2-1151-427F-9184-CA53115E2FBF" Type="Text" Created="2023-06-16 19:07:34 -0300" Modified="2023-06-18 11:28:44 -0300">
@@ -22980,7 +22989,7 @@ html-q-tags</Value>
                                                 <TextSelection>186,0</TextSelection>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem UUID="2EF56727-63DF-4DD2-B917-7457155C84EB" Type="Text" Created="2023-06-10 11:54:30 -0300" Modified="2023-06-18 11:28:44 -0300">
+                                        <BinderItem UUID="2EF56727-63DF-4DD2-B917-7457155C84EB" Type="Text" Created="2023-06-10 11:54:30 -0300" Modified="2023-06-18 22:32:06 -0300">
                                             <MetaData>
                                                 <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -23029,7 +23038,7 @@ html-q-tags</Value>
                                 <TextSelection>201,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="E5DD3B15-290C-45EA-B4B8-940650C329F1" Type="Text" Created="2023-06-15 17:51:01 -0300" Modified="2023-06-16 18:10:39 -0300">
+                        <BinderItem UUID="E5DD3B15-290C-45EA-B4B8-940650C329F1" Type="Text" Created="2023-06-15 17:51:01 -0300" Modified="2023-06-18 22:32:06 -0300">
                             <Title>How to delete the custom icons</Title>
                             <MetaData>
                                 <SectionType>75D4020F-486C-4DF6-8212-24981B8F3E50</SectionType>
@@ -23046,7 +23055,7 @@ html-q-tags</Value>
                                 <TextSelection>68,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="B1B32F21-010B-4749-9CC0-4495E0EE3ABC" Type="Text" Created="2023-06-17 14:47:13 -0300" Modified="2023-06-18 11:28:44 -0300">
+                        <BinderItem UUID="B1B32F21-010B-4749-9CC0-4495E0EE3ABC" Type="Text" Created="2023-06-17 14:47:13 -0300" Modified="2023-06-18 22:40:40 -0300">
                             <Title>Resources</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -23326,7 +23335,7 @@ html-q-tags</Value>
                 <TextSelection>0,0</TextSelection>
             </TextSettings>
             <CorkboardAndOutliner>
-                <SelectedSubdocumentUUIDs>96690C34-1F3E-4364-9883-79E52C6E4086</SelectedSubdocumentUUIDs>
+                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
                 <OutlinerExpandedState>
                     <ItemID>CBFA9E74-59DB-4E57-85BB-A33AF1DB07E0</ItemID>
                     <ItemID>DCA0BF96-AEB6-4582-907C-AA3B77A6559E</ItemID>
@@ -23354,7 +23363,7 @@ html-q-tags</Value>
                         </OutlinerExpandedState>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem UUID="AFC53E11-A4E3-467C-AF11-CB6097D1EC71" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 11:28:44 -0300">
+                        <BinderItem UUID="AFC53E11-A4E3-467C-AF11-CB6097D1EC71" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:26:11 -0300">
                             <Title>Paragraph Styles</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -23406,7 +23415,7 @@ html-q-tags</Value>
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem UUID="76B7C912-14D3-4DAC-963B-FEDE6915B0AA" Type="Text" Created="2023-05-08 12:53:16 -0300" Modified="2023-05-08 12:55:19 -0300">
+                                <BinderItem UUID="76B7C912-14D3-4DAC-963B-FEDE6915B0AA" Type="Text" Created="2023-05-08 12:53:16 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Code</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -23518,7 +23527,7 @@ html-q-tags</Value>
                                         <TextSelection>17,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="927E3C55-6838-4426-B63E-23C0924162CB" Type="Text" Created="2023-05-08 12:55:03 -0300" Modified="2023-05-08 12:55:31 -0300">
+                                <BinderItem UUID="927E3C55-6838-4426-B63E-23C0924162CB" Type="Text" Created="2023-05-08 12:55:03 -0300" Modified="2023-06-18 22:23:29 -0300">
                                     <Title>Math</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -23656,7 +23665,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -23668,15 +23677,15 @@ html-q-tags</Value>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -23688,7 +23697,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/figures.html">Quarto - Figures</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="A2D3BC57-E3B1-4858-A936-02E1F89E29A7" Type="Text" Created="2023-05-02 11:50:49 -0300" Modified="2023-06-14 19:51:16 -0300">
+                                <BinderItem UUID="A2D3BC57-E3B1-4858-A936-02E1F89E29A7" Type="Text" Created="2023-05-02 11:50:49 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Section</Title>
                                     <MetaData>
                                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
@@ -23720,7 +23729,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html#sections">Quarto - Sections</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="D9534073-8D8F-4F55-B133-9A7214523521" Type="Text" Created="2023-05-02 11:50:51 -0300" Modified="2023-06-14 19:51:34 -0300">
+                                <BinderItem UUID="D9534073-8D8F-4F55-B133-9A7214523521" Type="Text" Created="2023-05-02 11:50:51 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Section {-}</Title>
                                     <MetaData>
                                         <SectionType>C6189289-6F6B-489C-96AE-237821B50446</SectionType>
@@ -23749,7 +23758,7 @@ html-q-tags</Value>
                                         <TextSelection>51,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="FECC9D81-7396-4D2B-9535-25DAAE41ED2C" Type="Text" Created="2023-05-02 11:50:49 -0300" Modified="2023-06-14 19:51:58 -0300">
+                                <BinderItem UUID="FECC9D81-7396-4D2B-9535-25DAAE41ED2C" Type="Text" Created="2023-05-02 11:50:49 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Section + Auto</Title>
                                     <MetaData>
                                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
@@ -23778,7 +23787,7 @@ html-q-tags</Value>
                                         <TextSelection>47,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="A298C5F8-560B-4C87-90AA-AF802BE9832D" Type="Text" Created="2023-05-02 11:50:45 -0300" Modified="2023-06-14 19:52:21 -0300">
+                                <BinderItem UUID="A298C5F8-560B-4C87-90AA-AF802BE9832D" Type="Text" Created="2023-05-02 11:50:45 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Heading</Title>
                                     <MetaData>
                                         <SectionType>2BDAD55B-C0B2-4756-B937-DFF7277AD29B</SectionType>
@@ -23807,7 +23816,7 @@ html-q-tags</Value>
                                         <TextSelection>47,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="4782C849-8C6A-416A-8D0A-AD8CBB6DBCF4" Type="Text" Created="2023-05-02 11:50:47 -0300" Modified="2023-06-14 19:52:35 -0300">
+                                <BinderItem UUID="4782C849-8C6A-416A-8D0A-AD8CBB6DBCF4" Type="Text" Created="2023-05-02 11:50:47 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Heading + Break</Title>
                                     <MetaData>
                                         <SectionType>2CE86258-6E74-458B-9A30-80E4576FF4EB</SectionType>
@@ -23836,7 +23845,7 @@ html-q-tags</Value>
                                         <TextSelection>55,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="C5E7A48F-4DF3-4D29-AA31-5C85450DEBFB" Type="Text" Created="2023-05-02 11:50:53 -0300" Modified="2023-06-14 19:52:43 -0300">
+                                <BinderItem UUID="C5E7A48F-4DF3-4D29-AA31-5C85450DEBFB" Type="Text" Created="2023-05-02 11:50:53 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Section + Break</Title>
                                     <MetaData>
                                         <SectionType>3F514CCD-B716-4FD0-8ACC-F1F2072B9F65</SectionType>
@@ -23865,7 +23874,7 @@ html-q-tags</Value>
                                         <TextSelection>55,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="7FC906F7-C4CA-40B5-AFD7-AB9C42D5A863" Type="Text" Created="2023-05-02 11:50:55 -0300" Modified="2023-06-14 19:52:58 -0300">
+                                <BinderItem UUID="7FC906F7-C4CA-40B5-AFD7-AB9C42D5A863" Type="Text" Created="2023-05-02 11:50:55 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Text + Auto</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -23873,7 +23882,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -23885,15 +23894,15 @@ html-q-tags</Value>
                                                 <Value>%autoref%</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -23902,7 +23911,7 @@ html-q-tags</Value>
                                         <TextSelection>44,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="57740946-1757-459E-A7D3-0CC502006017" Type="Text" Created="2023-05-02 11:50:55 -0300" Modified="2023-06-14 19:53:12 -0300">
+                                <BinderItem UUID="57740946-1757-459E-A7D3-0CC502006017" Type="Text" Created="2023-05-02 11:50:55 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Text + ID</Title>
                                     <MetaData>
                                         <SectionType>3E7E8E60-2FC8-4960-8183-3BB58B6CCA8E</SectionType>
@@ -23910,7 +23919,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -23922,15 +23931,15 @@ html-q-tags</Value>
                                                 <Value>%autoref%</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -23946,7 +23955,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -23958,15 +23967,15 @@ html-q-tags</Value>
                                                 <Value>%autoref%</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -23982,7 +23991,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -23994,15 +24003,15 @@ html-q-tags</Value>
                                                 <Value>%autoref%</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -24036,7 +24045,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/callouts.html">Quarto - Callouts</Bookmark>
                                     </Bookmarks>
                                     <Children>
-                                        <BinderItem UUID="F4F9BA3C-FBD2-48AA-8D9D-6B65D2F27040" Type="Text" Created="2023-05-02 11:51:39 -0300" Modified="2023-06-15 16:11:01 -0300">
+                                        <BinderItem UUID="F4F9BA3C-FBD2-48AA-8D9D-6B65D2F27040" Type="Text" Created="2023-05-02 11:51:39 -0300" Modified="2023-06-18 22:30:17 -0300">
                                             <Title>Conjecture</Title>
                                             <MetaData>
                                                 <SectionType>DE451B55-0B92-4889-819A-A70A90F1F465</SectionType>
@@ -24077,8 +24086,8 @@ html-q-tags</Value>
                                                 <IconFileName>Toolbar (Call-out Radiation).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>❌</Value>
+                                                        <FieldID>attributes</FieldID>
+                                                        <Value>title="&lt;$title&gt;" </Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
                                                         <FieldID>value</FieldID>
@@ -24089,16 +24098,16 @@ html-q-tags</Value>
                                                         <Value>%autoref%</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>class</FieldID>
-                                                        <Value>.callout-caution</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>title="&lt;$title&gt;" </Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
                                                         <FieldID>height</FieldID>
                                                         <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
+                                                        <FieldID>width</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
+                                                        <FieldID>class</FieldID>
+                                                        <Value>.callout-caution</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
                                             </MetaData>
@@ -24390,7 +24399,7 @@ html-q-tags</Value>
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem UUID="FDFFF7C5-E825-4EAD-A2C1-B0E6C1F3FFEC" Type="Text" Created="2023-05-02 11:51:27 -0300" Modified="2023-06-15 13:42:59 -0300">
+                                        <BinderItem UUID="FDFFF7C5-E825-4EAD-A2C1-B0E6C1F3FFEC" Type="Text" Created="2023-05-02 11:51:27 -0300" Modified="2023-06-18 22:30:17 -0300">
                                             <Title>Callout Caution</Title>
                                             <MetaData>
                                                 <SectionType>679A55AF-9F4D-44FD-A45C-662B050A3213</SectionType>
@@ -24399,8 +24408,8 @@ html-q-tags</Value>
                                                 <IconFileName>Toolbar (Call-out Radiation).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>collapse="true"</Value>
+                                                        <FieldID>height</FieldID>
+                                                        <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
                                                         <FieldID>value</FieldID>
@@ -24411,16 +24420,16 @@ html-q-tags</Value>
                                                         <Value>%autoref%</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
+                                                        <FieldID>width</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
                                                         <FieldID>class</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>height</FieldID>
-                                                        <Value>❌</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>❌</Value>
+                                                        <FieldID>attributes</FieldID>
+                                                        <Value>collapse="true"</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
                                             </MetaData>
@@ -24431,7 +24440,7 @@ html-q-tags</Value>
                                                 <Bookmark Destination="https://quarto.org/docs/authoring/callouts.html">Quarto - Callouts</Bookmark>
                                             </Bookmarks>
                                         </BinderItem>
-                                        <BinderItem UUID="6519FB43-5BED-4F99-9D0A-54366D60161F" Type="Text" Created="2023-05-02 11:51:23 -0300" Modified="2023-06-15 13:42:59 -0300">
+                                        <BinderItem UUID="6519FB43-5BED-4F99-9D0A-54366D60161F" Type="Text" Created="2023-05-02 11:51:23 -0300" Modified="2023-06-18 22:30:17 -0300">
                                             <Title>Callout Important</Title>
                                             <MetaData>
                                                 <SectionType>54B157A9-615C-494E-8350-0B6FC971E817</SectionType>
@@ -24440,8 +24449,8 @@ html-q-tags</Value>
                                                 <IconFileName>Toolbar (Call-out Warning).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>collapse="true"</Value>
+                                                        <FieldID>height</FieldID>
+                                                        <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
                                                         <FieldID>value</FieldID>
@@ -24452,16 +24461,16 @@ html-q-tags</Value>
                                                         <Value>%autoref%</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
+                                                        <FieldID>width</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
                                                         <FieldID>class</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>height</FieldID>
-                                                        <Value>❌</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>❌</Value>
+                                                        <FieldID>attributes</FieldID>
+                                                        <Value>collapse="true"</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
                                             </MetaData>
@@ -24472,7 +24481,7 @@ html-q-tags</Value>
                                                 <Bookmark Destination="https://quarto.org/docs/authoring/callouts.html">Quarto - Callouts</Bookmark>
                                             </Bookmarks>
                                         </BinderItem>
-                                        <BinderItem UUID="C6EFC83F-3A17-42D2-8B4B-00066EEF3E28" Type="Text" Created="2023-05-02 11:51:19 -0300" Modified="2023-06-15 13:42:59 -0300">
+                                        <BinderItem UUID="C6EFC83F-3A17-42D2-8B4B-00066EEF3E28" Type="Text" Created="2023-05-02 11:51:19 -0300" Modified="2023-06-18 22:30:17 -0300">
                                             <Title>Callout Note</Title>
                                             <MetaData>
                                                 <SectionType>C32620F1-3264-4C2B-8924-83F145E8E823</SectionType>
@@ -24481,8 +24490,8 @@ html-q-tags</Value>
                                                 <IconFileName>Toolbar (Call-out Info).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>collapse="true"</Value>
+                                                        <FieldID>height</FieldID>
+                                                        <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
                                                         <FieldID>value</FieldID>
@@ -24493,16 +24502,16 @@ html-q-tags</Value>
                                                         <Value>%autoref%</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
+                                                        <FieldID>width</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
                                                         <FieldID>class</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>height</FieldID>
-                                                        <Value>❌</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>❌</Value>
+                                                        <FieldID>attributes</FieldID>
+                                                        <Value>collapse="true"</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
                                             </MetaData>
@@ -24513,7 +24522,7 @@ html-q-tags</Value>
                                                 <Bookmark Destination="https://quarto.org/docs/authoring/callouts.html">Quarto - Callouts</Bookmark>
                                             </Bookmarks>
                                         </BinderItem>
-                                        <BinderItem UUID="712085EC-2DB5-4889-9F46-6867C5C5D3FA" Type="Text" Created="2023-05-02 11:51:25 -0300" Modified="2023-06-15 13:42:59 -0300">
+                                        <BinderItem UUID="712085EC-2DB5-4889-9F46-6867C5C5D3FA" Type="Text" Created="2023-05-02 11:51:25 -0300" Modified="2023-06-18 22:30:17 -0300">
                                             <Title>Callout Tip</Title>
                                             <MetaData>
                                                 <SectionType>75D4020F-486C-4DF6-8212-24981B8F3E50</SectionType>
@@ -24522,8 +24531,8 @@ html-q-tags</Value>
                                                 <IconFileName>Toolbar (Call-out Flash-on).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>collapse="true"</Value>
+                                                        <FieldID>height</FieldID>
+                                                        <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
                                                         <FieldID>value</FieldID>
@@ -24534,16 +24543,16 @@ html-q-tags</Value>
                                                         <Value>%autoref%</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
+                                                        <FieldID>width</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
                                                         <FieldID>class</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>height</FieldID>
-                                                        <Value>❌</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>❌</Value>
+                                                        <FieldID>attributes</FieldID>
+                                                        <Value>collapse="true"</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
                                             </MetaData>
@@ -24554,7 +24563,7 @@ html-q-tags</Value>
                                                 <Bookmark Destination="https://quarto.org/docs/authoring/callouts.html">Quarto - Callouts</Bookmark>
                                             </Bookmarks>
                                         </BinderItem>
-                                        <BinderItem UUID="D35DBCA8-5DDC-4244-AD4E-7E1B32552825" Type="Text" Created="2023-05-02 11:51:21 -0300" Modified="2023-06-15 13:42:59 -0300">
+                                        <BinderItem UUID="D35DBCA8-5DDC-4244-AD4E-7E1B32552825" Type="Text" Created="2023-05-02 11:51:21 -0300" Modified="2023-06-18 22:30:17 -0300">
                                             <Title>Callout Warning</Title>
                                             <MetaData>
                                                 <SectionType>19A9D861-5FE0-41EA-9F45-0C260B7C4533</SectionType>
@@ -24563,8 +24572,8 @@ html-q-tags</Value>
                                                 <IconFileName>Toolbar (Call-out hand-stop).png</IconFileName>
                                                 <CustomMetaData>
                                                     <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>collapse="true"</Value>
+                                                        <FieldID>height</FieldID>
+                                                        <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
                                                         <FieldID>value</FieldID>
@@ -24575,16 +24584,16 @@ html-q-tags</Value>
                                                         <Value>%autoref%</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
+                                                        <FieldID>width</FieldID>
+                                                        <Value>❌</Value>
+                                                    </MetaDataItem>
+                                                    <MetaDataItem>
                                                         <FieldID>class</FieldID>
                                                         <Value>❌</Value>
                                                     </MetaDataItem>
                                                     <MetaDataItem>
-                                                        <FieldID>height</FieldID>
-                                                        <Value>❌</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>❌</Value>
+                                                        <FieldID>attributes</FieldID>
+                                                        <Value>collapse="true"</Value>
                                                     </MetaDataItem>
                                                 </CustomMetaData>
                                             </MetaData>
@@ -24622,7 +24631,7 @@ html-q-tags</Value>
                                         <IconFileName>Figures and Graphs</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -24634,15 +24643,15 @@ html-q-tags</Value>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -24663,7 +24672,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -24675,15 +24684,15 @@ html-q-tags</Value>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -24704,7 +24713,7 @@ html-q-tags</Value>
                                         <IconFileName>Figures and Graphs</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -24716,15 +24725,15 @@ html-q-tags</Value>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -24745,7 +24754,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -24757,15 +24766,15 @@ html-q-tags</Value>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>❌</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>❌</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>❌</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -24793,7 +24802,7 @@ html-q-tags</Value>
                                 <Bookmark Destination="https://quarto.org/docs/authoring/figures.html#figure-panels">Quarto - Figure Panels</Bookmark>
                             </Bookmarks>
                             <Children>
-                                <BinderItem UUID="FB0A55DB-FE5E-4741-990D-C51CD1148964" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 11:28:44 -0300">
+                                <BinderItem UUID="FB0A55DB-FE5E-4741-990D-C51CD1148964" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Multipart Table</Title>
                                     <MetaData>
                                         <SectionType>20DEA10D-14B0-49EC-884A-DFA9F5CAC03A</SectionType>
@@ -24830,7 +24839,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html#subtables">Quarto - Subtables</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="4A221CE7-7A5F-4EFE-8125-5D66BA5B073A" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-17 23:30:08 -0300">
+                                <BinderItem UUID="4A221CE7-7A5F-4EFE-8125-5D66BA5B073A" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Multipart Figure</Title>
                                     <MetaData>
                                         <SectionType>F613650E-1CDE-409A-A972-431F7E206746</SectionType>
@@ -24875,7 +24884,7 @@ html-q-tags</Value>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="B8BAD63F-8DA5-483B-9161-1FF821C4BE33" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-17 23:35:57 -0300">
+                                <BinderItem UUID="B8BAD63F-8DA5-483B-9161-1FF821C4BE33" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Code</Title>
                                     <MetaData>
                                         <SectionType>C14EBCE4-F75E-4E13-84F9-212A0B72E573</SectionType>
@@ -25012,7 +25021,7 @@ html-q-tags</Value>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="724E8835-2F2A-4288-8957-EEFB1D92413A" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-05-29 11:00:40 -0300">
+                                <BinderItem UUID="724E8835-2F2A-4288-8957-EEFB1D92413A" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Column Page</Title>
                                     <MetaData>
                                         <SectionType>E1F57C21-B7BF-4A4A-924D-5732E0EBB37D</SectionType>
@@ -25022,7 +25031,7 @@ html-q-tags</Value>
                                         <TextSelection>129,71</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="1AB3BC7E-221E-4E72-88CA-F8376C04E680" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-05-29 11:00:41 -0300">
+                                <BinderItem UUID="1AB3BC7E-221E-4E72-88CA-F8376C04E680" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Column Page←Left</Title>
                                     <MetaData>
                                         <SectionType>8583DDA1-43B8-4264-8E76-A42DFCD15641</SectionType>
@@ -25032,7 +25041,7 @@ html-q-tags</Value>
                                         <TextSelection>45,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="E4F662EA-5904-465F-A709-E9F001D66A52" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-05-29 11:00:42 -0300">
+                                <BinderItem UUID="E4F662EA-5904-465F-A709-E9F001D66A52" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Column Page→Right</Title>
                                     <MetaData>
                                         <SectionType>DA258D28-E0C6-4A94-B17B-223EAD20F243</SectionType>
@@ -25042,7 +25051,7 @@ html-q-tags</Value>
                                         <TextSelection>226,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="771B2803-0B58-405F-8A2F-C720B5852395" Type="Text" Created="2023-05-02 11:51:02 -0300" Modified="2023-06-12 15:46:47 -0300">
+                                <BinderItem UUID="771B2803-0B58-405F-8A2F-C720B5852395" Type="Text" Created="2023-05-02 11:51:02 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Layout Margin</Title>
                                     <MetaData>
                                         <SectionType>5E0103DC-2589-4470-868C-28F73457CA91</SectionType>
@@ -25050,7 +25059,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -25062,15 +25071,15 @@ html-q-tags</Value>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -25083,7 +25092,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/article-layout#margin-content">Quarto - Margin Content</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="8255D7E4-1211-4266-85BE-6E445BF93BE5" Type="Text" Created="2023-05-02 11:51:04 -0300" Modified="2023-06-12 15:45:46 -0300">
+                                <BinderItem UUID="8255D7E4-1211-4266-85BE-6E445BF93BE5" Type="Text" Created="2023-05-02 11:51:04 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Layout Page</Title>
                                     <MetaData>
                                         <SectionType>E1F57C21-B7BF-4A4A-924D-5732E0EBB37D</SectionType>
@@ -25091,7 +25100,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -25103,15 +25112,15 @@ html-q-tags</Value>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -25123,7 +25132,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/article-layout">Quarto - Article Layout</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="1BF867C2-CCD4-40D2-9678-CB800481F3A0" Type="Text" Created="2023-05-02 11:51:14 -0300" Modified="2023-06-12 15:45:48 -0300">
+                                <BinderItem UUID="1BF867C2-CCD4-40D2-9678-CB800481F3A0" Type="Text" Created="2023-05-02 11:51:14 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Layout Page Left</Title>
                                     <MetaData>
                                         <SectionType>8583DDA1-43B8-4264-8E76-A42DFCD15641</SectionType>
@@ -25131,7 +25140,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -25143,15 +25152,15 @@ html-q-tags</Value>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -25163,7 +25172,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/article-layout">Quarto - Article Layout</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="A21ECEA4-FFA1-4A79-960A-2CF95EA610AB" Type="Text" Created="2023-05-02 11:51:17 -0300" Modified="2023-06-12 15:45:49 -0300">
+                                <BinderItem UUID="A21ECEA4-FFA1-4A79-960A-2CF95EA610AB" Type="Text" Created="2023-05-02 11:51:17 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Layout Page Right</Title>
                                     <MetaData>
                                         <SectionType>DA258D28-E0C6-4A94-B17B-223EAD20F243</SectionType>
@@ -25171,7 +25180,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -25183,15 +25192,15 @@ html-q-tags</Value>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -25203,7 +25212,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/article-layout">Quarto - Article Layout</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="5CE7505E-41D9-4F08-9E79-E562725B3910" Type="Text" Created="2023-05-02 11:51:08 -0300" Modified="2023-06-12 15:45:51 -0300">
+                                <BinderItem UUID="5CE7505E-41D9-4F08-9E79-E562725B3910" Type="Text" Created="2023-05-02 11:51:08 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Layout Screen</Title>
                                     <MetaData>
                                         <SectionType>726E9003-C014-46B5-A0B3-3826F3DB8AD6</SectionType>
@@ -25211,7 +25220,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -25223,15 +25232,15 @@ html-q-tags</Value>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -25243,7 +25252,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/article-layout">Quarto - Article Layout</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="28E4AEF0-E993-4AED-B36C-D45EE66FCBCE" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-05-29 11:00:39 -0300">
+                                <BinderItem UUID="28E4AEF0-E993-4AED-B36C-D45EE66FCBCE" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Marginalia</Title>
                                     <MetaData>
                                         <SectionType>5E0103DC-2589-4470-868C-28F73457CA91</SectionType>
@@ -25265,7 +25274,7 @@ html-q-tags</Value>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="EEABDE41-1792-41EA-9E11-E99394992EFE" Type="Text" Created="2023-05-02 11:50:59 -0300" Modified="2023-06-12 17:02:46 -0300">
+                                <BinderItem UUID="EEABDE41-1792-41EA-9E11-E99394992EFE" Type="Text" Created="2023-05-02 11:50:59 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Appendix</Title>
                                     <MetaData>
                                         <SectionType>C335CD73-E248-48CB-9E43-BABA1C8683F5</SectionType>
@@ -25293,7 +25302,7 @@ html-q-tags</Value>
                                         <Bookmark Destination="https://quarto.org/docs/authoring/appendices.html">Quarto - Appendices</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="5BB7AA31-F5DC-4781-B7DB-422BC51447A5" Type="Text" Created="2023-05-02 11:50:41 -0300" Modified="2023-05-08 20:07:54 -0300">
+                                <BinderItem UUID="5BB7AA31-F5DC-4781-B7DB-422BC51447A5" Type="Text" Created="2023-05-02 11:50:41 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Multibib</Title>
                                     <MetaData>
                                         <SectionType>B62361CC-9C02-4D11-9ED7-E1F3203B68A4</SectionType>
@@ -25301,7 +25310,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -25313,15 +25322,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -25330,7 +25339,7 @@ html-q-tags</Value>
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="71AD0345-C526-4D82-8A3A-FF49FF1DA315" Type="Text" Created="2023-05-02 11:50:41 -0300" Modified="2023-05-14 17:08:35 -0300">
+                                <BinderItem UUID="71AD0345-C526-4D82-8A3A-FF49FF1DA315" Type="Text" Created="2023-05-02 11:50:41 -0300" Modified="2023-06-18 22:30:17 -0300">
                                     <Title>Multibib + Auto</Title>
                                     <MetaData>
                                         <SectionType>B62361CC-9C02-4D11-9ED7-E1F3203B68A4</SectionType>
@@ -25338,7 +25347,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -25350,15 +25359,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
                                                 <FieldID>attributes</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -26383,7 +26392,7 @@ html-q-tags</Value>
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem UUID="50DE35EA-2331-4E9D-9343-E3008C9B6A44" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 11:28:44 -0300">
+                                <BinderItem UUID="50DE35EA-2331-4E9D-9343-E3008C9B6A44" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:26:11 -0300">
                                     <Title>File_content</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -26935,7 +26944,7 @@ html-q-tags</Value>
                                 <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                 <CustomMetaData>
                                     <MetaDataItem>
-                                        <FieldID>class</FieldID>
+                                        <FieldID>attributes</FieldID>
                                         <Value>nil</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
@@ -26947,15 +26956,15 @@ html-q-tags</Value>
                                         <Value>ID</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
-                                        <FieldID>height</FieldID>
-                                        <Value>nil</Value>
-                                    </MetaDataItem>
-                                    <MetaDataItem>
-                                        <FieldID>attributes</FieldID>
-                                        <Value>nil</Value>
-                                    </MetaDataItem>
-                                    <MetaDataItem>
                                         <FieldID>width</FieldID>
+                                        <Value>nil</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>class</FieldID>
+                                        <Value>nil</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>height</FieldID>
                                         <Value>nil</Value>
                                     </MetaDataItem>
                                 </CustomMetaData>
@@ -26975,7 +26984,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -26987,15 +26996,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27012,7 +27021,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27024,15 +27033,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
                                                 <FieldID>attributes</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27049,7 +27058,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27061,15 +27070,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27086,7 +27095,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27098,15 +27107,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27123,7 +27132,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27135,15 +27144,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27160,7 +27169,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27172,15 +27181,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
                                                 <FieldID>attributes</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27197,7 +27206,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27209,15 +27218,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27234,7 +27243,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27246,15 +27255,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27271,7 +27280,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27283,15 +27292,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27308,7 +27317,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27320,15 +27329,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
                                                 <FieldID>attributes</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27345,7 +27354,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27357,15 +27366,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27382,7 +27391,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27394,15 +27403,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27419,7 +27428,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27431,15 +27440,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27456,7 +27465,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27468,15 +27477,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
                                                 <FieldID>attributes</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27493,7 +27502,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27505,15 +27514,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27530,7 +27539,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27542,15 +27551,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27567,7 +27576,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27579,15 +27588,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27604,7 +27613,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27616,15 +27625,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
                                                 <FieldID>attributes</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27641,7 +27650,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27653,15 +27662,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27678,7 +27687,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27690,15 +27699,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>width</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27715,7 +27724,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>class</FieldID>
+                                                <FieldID>width</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27727,15 +27736,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
                                                 <FieldID>attributes</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27752,7 +27761,7 @@ html-q-tags</Value>
                                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                         <CustomMetaData>
                                             <MetaDataItem>
-                                                <FieldID>attributes</FieldID>
+                                                <FieldID>height</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
@@ -27764,15 +27773,15 @@ html-q-tags</Value>
                                                 <Value>ID</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
+                                                <FieldID>width</FieldID>
+                                                <Value>nil</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
                                                 <FieldID>class</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                             <MetaDataItem>
-                                                <FieldID>height</FieldID>
-                                                <Value>nil</Value>
-                                            </MetaDataItem>
-                                            <MetaDataItem>
-                                                <FieldID>width</FieldID>
+                                                <FieldID>attributes</FieldID>
                                                 <Value>nil</Value>
                                             </MetaDataItem>
                                         </CustomMetaData>
@@ -27783,7 +27792,7 @@ html-q-tags</Value>
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="646488F6-616C-4311-90D4-3D378ED54BE1" Type="Text" Created="2023-05-02 11:50:55 -0300" Modified="2023-05-08 20:08:07 -0300">
+                        <BinderItem UUID="646488F6-616C-4311-90D4-3D378ED54BE1" Type="Text" Created="2023-05-02 11:50:55 -0300" Modified="2023-06-18 22:30:17 -0300">
                             <Title>Text</Title>
                             <MetaData>
                                 <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -27791,7 +27800,7 @@ html-q-tags</Value>
                                 <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                                 <CustomMetaData>
                                     <MetaDataItem>
-                                        <FieldID>class</FieldID>
+                                        <FieldID>attributes</FieldID>
                                         <Value>nil</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
@@ -27803,15 +27812,15 @@ html-q-tags</Value>
                                         <Value>ID</Value>
                                     </MetaDataItem>
                                     <MetaDataItem>
-                                        <FieldID>height</FieldID>
-                                        <Value>nil</Value>
-                                    </MetaDataItem>
-                                    <MetaDataItem>
-                                        <FieldID>attributes</FieldID>
-                                        <Value>nil</Value>
-                                    </MetaDataItem>
-                                    <MetaDataItem>
                                         <FieldID>width</FieldID>
+                                        <Value>nil</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>class</FieldID>
+                                        <Value>nil</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>height</FieldID>
                                         <Value>nil</Value>
                                     </MetaDataItem>
                                 </CustomMetaData>
@@ -27880,7 +27889,7 @@ html-q-tags</Value>
                         <TextSelection>445,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="610052D3-CAF0-4660-9585-92C62F150CEC" Type="Text" Created="2023-05-02 11:51:38 -0300" Modified="2023-06-12 15:43:57 -0300">
+                <BinderItem UUID="610052D3-CAF0-4660-9585-92C62F150CEC" Type="Text" Created="2023-05-02 11:51:38 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Multipart Table</Title>
                     <MetaData>
                         <SectionType>20DEA10D-14B0-49EC-884A-DFA9F5CAC03A</SectionType>
@@ -27888,8 +27897,8 @@ html-q-tags</Value>
                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                         <CustomMetaData>
                             <MetaDataItem>
-                                <FieldID>class</FieldID>
-                                <Value>Class</Value>
+                                <FieldID>attributes</FieldID>
+                                <Value>Attributes</Value>
                             </MetaDataItem>
                             <MetaDataItem>
                                 <FieldID>value</FieldID>
@@ -27900,16 +27909,16 @@ html-q-tags</Value>
                                 <Value>ID</Value>
                             </MetaDataItem>
                             <MetaDataItem>
-                                <FieldID>height</FieldID>
-                                <Value>Height</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
-                                <FieldID>attributes</FieldID>
-                                <Value>Attributes</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
                                 <FieldID>width</FieldID>
                                 <Value>Width</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>class</FieldID>
+                                <Value>Class</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>height</FieldID>
+                                <Value>Height</Value>
                             </MetaDataItem>
                         </CustomMetaData>
                     </MetaData>
@@ -27920,7 +27929,7 @@ html-q-tags</Value>
                         <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html#subtables">Quarto - Subtables</Bookmark>
                     </Bookmarks>
                 </BinderItem>
-                <BinderItem UUID="927D0F94-B18F-4013-A3FA-9C466416AF43" Type="Text" Created="2023-05-02 11:51:36 -0300" Modified="2023-06-12 15:43:06 -0300">
+                <BinderItem UUID="927D0F94-B18F-4013-A3FA-9C466416AF43" Type="Text" Created="2023-05-02 11:51:36 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Multipart Figure</Title>
                     <MetaData>
                         <SectionType>F613650E-1CDE-409A-A972-431F7E206746</SectionType>
@@ -27928,8 +27937,8 @@ html-q-tags</Value>
                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                         <CustomMetaData>
                             <MetaDataItem>
-                                <FieldID>class</FieldID>
-                                <Value>Class</Value>
+                                <FieldID>attributes</FieldID>
+                                <Value>Attributes</Value>
                             </MetaDataItem>
                             <MetaDataItem>
                                 <FieldID>value</FieldID>
@@ -27940,16 +27949,16 @@ html-q-tags</Value>
                                 <Value>ID</Value>
                             </MetaDataItem>
                             <MetaDataItem>
-                                <FieldID>height</FieldID>
-                                <Value>Height</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
-                                <FieldID>attributes</FieldID>
-                                <Value>Attributes</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
                                 <FieldID>width</FieldID>
                                 <Value>Width</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>class</FieldID>
+                                <Value>Class</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>height</FieldID>
+                                <Value>Height</Value>
                             </MetaDataItem>
                         </CustomMetaData>
                     </MetaData>
@@ -27960,7 +27969,7 @@ html-q-tags</Value>
                         <Bookmark Destination="https://quarto.org/docs/authoring/figures.html#figure-panels">Quarto - Figure Panels</Bookmark>
                     </Bookmarks>
                 </BinderItem>
-                <BinderItem UUID="96690C34-1F3E-4364-9883-79E52C6E4086" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-12 23:44:54 -0300">
+                <BinderItem UUID="96690C34-1F3E-4364-9883-79E52C6E4086" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Multipart Figure</Title>
                     <MetaData>
                         <SectionType>F613650E-1CDE-409A-A972-431F7E206746</SectionType>
@@ -27989,7 +27998,7 @@ html-q-tags</Value>
                         <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
                     </Bookmarks>
                 </BinderItem>
-                <BinderItem UUID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-05-29 11:00:45 -0300">
+                <BinderItem UUID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F" Type="Text" Created="2023-04-18 02:22:38 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Multipart Table</Title>
                     <MetaData>
                         <SectionType>20DEA10D-14B0-49EC-884A-DFA9F5CAC03A</SectionType>
@@ -28047,7 +28056,7 @@ html-q-tags</Value>
                         <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
                     </Bookmarks>
                 </BinderItem>
-                <BinderItem UUID="06F8B043-D43E-49A5-8586-184FFF1DBADF" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-17 23:32:42 -0300">
+                <BinderItem UUID="06F8B043-D43E-49A5-8586-184FFF1DBADF" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Code + Caption</Title>
                     <MetaData>
                         <SectionType>011383A1-1F3E-4022-8BA6-B0893724DB96</SectionType>
@@ -28056,8 +28065,8 @@ html-q-tags</Value>
                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                         <CustomMetaData>
                             <MetaDataItem>
-                                <FieldID>attributes</FieldID>
-                                <Value>NA</Value>
+                                <FieldID>class</FieldID>
+                                <Value>sql</Value>
                             </MetaDataItem>
                             <MetaDataItem>
                                 <FieldID>value</FieldID>
@@ -28068,16 +28077,16 @@ html-q-tags</Value>
                                 <Value>%autoref%</Value>
                             </MetaDataItem>
                             <MetaDataItem>
+                                <FieldID>height</FieldID>
+                                <Value>nil</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
                                 <FieldID>width</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
-                                <FieldID>class</FieldID>
-                                <Value>sql</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
-                                <FieldID>height</FieldID>
-                                <Value>nil</Value>
+                                <FieldID>attributes</FieldID>
+                                <Value>NA</Value>
                             </MetaDataItem>
                         </CustomMetaData>
                     </MetaData>
@@ -28088,7 +28097,7 @@ html-q-tags</Value>
                         <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html#computations-1">Quarto - Code and Computation</Bookmark>
                     </Bookmarks>
                 </BinderItem>
-                <BinderItem UUID="5CB52DA9-8356-4C28-841D-ADEA1BE0494A" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-17 23:34:54 -0300">
+                <BinderItem UUID="5CB52DA9-8356-4C28-841D-ADEA1BE0494A" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Code Python + Caption</Title>
                     <MetaData>
                         <SectionType>83B637E9-CAAF-40E0-8A3C-C8EF70268325</SectionType>
@@ -28097,7 +28106,7 @@ html-q-tags</Value>
                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                         <CustomMetaData>
                             <MetaDataItem>
-                                <FieldID>width</FieldID>
+                                <FieldID>height</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
@@ -28109,15 +28118,15 @@ html-q-tags</Value>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
-                                <FieldID>class</FieldID>
-                                <Value>nil</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
-                                <FieldID>height</FieldID>
+                                <FieldID>width</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
                                 <FieldID>attributes</FieldID>
+                                <Value>nil</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>class</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                         </CustomMetaData>
@@ -28126,7 +28135,7 @@ html-q-tags</Value>
                         <TextSelection>51,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="9B73E865-BE67-498E-85C4-81ECD15C598D" Type="Text" Created="2023-05-02 11:51:32 -0300" Modified="2023-06-17 23:34:41 -0300">
+                <BinderItem UUID="9B73E865-BE67-498E-85C4-81ECD15C598D" Type="Text" Created="2023-05-02 11:51:32 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Code R + Caption</Title>
                     <MetaData>
                         <SectionType>023D6712-1050-4148-9E55-7FB4F3277A1B</SectionType>
@@ -28135,7 +28144,7 @@ html-q-tags</Value>
                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                         <CustomMetaData>
                             <MetaDataItem>
-                                <FieldID>width</FieldID>
+                                <FieldID>height</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
@@ -28147,15 +28156,15 @@ html-q-tags</Value>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
-                                <FieldID>class</FieldID>
-                                <Value>nil</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
-                                <FieldID>height</FieldID>
+                                <FieldID>width</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
                                 <FieldID>attributes</FieldID>
+                                <Value>nil</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>class</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                         </CustomMetaData>
@@ -28164,7 +28173,7 @@ html-q-tags</Value>
                         <TextSelection>46,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="89C5CD13-BD32-46C4-B68A-EDDAFEED1CF3" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-17 23:33:56 -0300">
+                <BinderItem UUID="89C5CD13-BD32-46C4-B68A-EDDAFEED1CF3" Type="Text" Created="2023-05-02 11:51:34 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Code Python</Title>
                     <MetaData>
                         <SectionType>83B637E9-CAAF-40E0-8A3C-C8EF70268325</SectionType>
@@ -28173,7 +28182,7 @@ html-q-tags</Value>
                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                         <CustomMetaData>
                             <MetaDataItem>
-                                <FieldID>class</FieldID>
+                                <FieldID>attributes</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
@@ -28185,15 +28194,15 @@ html-q-tags</Value>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
-                                <FieldID>height</FieldID>
-                                <Value>nil</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
-                                <FieldID>attributes</FieldID>
-                                <Value>nil</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
                                 <FieldID>width</FieldID>
+                                <Value>nil</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>class</FieldID>
+                                <Value>nil</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>height</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                         </CustomMetaData>
@@ -28202,7 +28211,7 @@ html-q-tags</Value>
                         <TextSelection>51,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="937E8660-EC33-47F1-BC52-816A99FBBC26" Type="Text" Created="2023-05-02 11:51:32 -0300" Modified="2023-06-17 23:34:17 -0300">
+                <BinderItem UUID="937E8660-EC33-47F1-BC52-816A99FBBC26" Type="Text" Created="2023-05-02 11:51:32 -0300" Modified="2023-06-18 22:30:17 -0300">
                     <Title>Code R</Title>
                     <MetaData>
                         <SectionType>023D6712-1050-4148-9E55-7FB4F3277A1B</SectionType>
@@ -28211,7 +28220,7 @@ html-q-tags</Value>
                         <IconFileName>Toolbar (Building-blocks).png</IconFileName>
                         <CustomMetaData>
                             <MetaDataItem>
-                                <FieldID>class</FieldID>
+                                <FieldID>attributes</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
@@ -28223,15 +28232,15 @@ html-q-tags</Value>
                                 <Value>nil</Value>
                             </MetaDataItem>
                             <MetaDataItem>
-                                <FieldID>height</FieldID>
-                                <Value>nil</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
-                                <FieldID>attributes</FieldID>
-                                <Value>nil</Value>
-                            </MetaDataItem>
-                            <MetaDataItem>
                                 <FieldID>width</FieldID>
+                                <Value>nil</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>class</FieldID>
+                                <Value>nil</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>height</FieldID>
                                 <Value>nil</Value>
                             </MetaDataItem>
                         </CustomMetaData>
@@ -28247,7 +28256,7 @@ html-q-tags</Value>
         <Collection Type="Binder" ID="1579D6F1-9B9F-4440-A52B-A8D4970506A8" Color="0.068509 0.068509 0.068509">
             <Title>Binder</Title>
         </Collection>
-        <Collection Type="RecentSearch" ID="0676D34A-DC44-4DC2-95DC-808FDFA11695" Color="0.190666 0.172707 0.216531">
+        <Collection Type="RecentSearch" ID="0676D34A-DC44-4DC2-95DC-808FDFA11695" Color="0.190666 0.172706 0.216531">
             <Title>Search Results</Title>
             <SearchSettings Operator="RegEx" Type="All" CaseSensitive="No" IgnoreDiacritics="No">cache</SearchSettings>
         </Collection>
@@ -28543,11 +28552,11 @@ html-q-tags</Value>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-06-19 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="24" Characters="204" Date="2023-06-18 08:56:50 -0300"/>
+        <PreviousSession Words="35" Characters="469" Date="2023-06-18 22:50:13 -0300"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2023-06-18 00:00:00 -0300">
-        <DraftWordCount>24</DraftWordCount>
-        <DraftCharCount>204</DraftCharCount>
+        <DraftWordCount>35</DraftWordCount>
+        <DraftCharCount>469</DraftCharCount>
         <OtherWordCount>-23</OtherWordCount>
         <OtherCharCount>-200</OtherCharCount>
     </RecentWritingHistory>

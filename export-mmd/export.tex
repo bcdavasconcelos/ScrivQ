@@ -149,20 +149,6 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{float}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
-\usepackage[normalem]{ulem}
-\usepackage{makecell}
-\usepackage{xcolor}
 \newfontfamily{\greekfont}{Alegreya}
   \newcommand{\grc}[1]{\foreignlanguage{greek}{\selectfont\greekfont #1}}
   \newenvironment{greek}{\begingroup
@@ -239,22 +225,22 @@
 \floatname{codelisting}{Listing}
 \newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \usepackage{amsthm}
-\theoremstyle{definition}
-\newtheorem{example}{Example}[section]
 \theoremstyle{plain}
-\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}[section]
 \theoremstyle{definition}
 \newtheorem{exercise}{Exercise}[section]
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[section]
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
 \theoremstyle{plain}
-\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[section]
 \theoremstyle{plain}
 \newtheorem{conjecture}{Conjecture}[section]
-\theoremstyle{plain}
-\newtheorem{proposition}{Proposition}[section]
-\theoremstyle{plain}
-\newtheorem{lemma}{Lemma}[section]
 \theoremstyle{remark}
 \AtBeginDocument{\renewcommand*{\proofname}{Proof}}
 \newtheorem*{remark}{Remark}
@@ -320,7 +306,7 @@
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, enhanced, boxrule=0pt, interior hidden, sharp corners, frame hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, sharp corners, interior hidden, boxrule=0pt, enhanced, frame hidden, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -336,18 +322,15 @@
 \protect\hypertarget{scriv153}{}{}
 
 \textsc{This sample project demonstrates a workflow using the Quarto
-scientific publishing system run using the
-\href{http://literatureandlatte.com}{Scrivener} Compiler}.
-\href{http://quarto.org}{Quarto} utilises
-\href{http://pandoc.org}{Pandoc} and combines several extensions and
-nice templates to support many layout tweaks and advanced
-cross-referencing. Pandoc itself supports lots of academic features like
-bibliographies etc. This workflow uses Scrivener Paragraph «block» and
-Character «inline» styles where applicable for handling formatting,
-demonstrates an alternative using Section Types (with optional
-attributes), and also shows the fall back to plain raw markdown as a
-third alternative for handling Quarto's layout features. A custom
-post-processing \href{http://ruby-lang.org}{Ruby} script included in the
+scientific publishing system run using the Scrivener Compiler}. Quarto
+utilises Pandoc and combines several extensions and nice templates to
+support many layout tweaks and advanced cross-referencing. Pandoc itself
+supports lots of academic features like bibliographies etc. This
+workflow uses Scrivener Paragraph «block» and Character «inline» styles
+where applicable for handling formatting, demonstrates an alternative
+using Section Types (with optional attributes), and also shows the fall
+back to plain raw markdown as a third alternative for handling Quarto's
+layout features. A custom post-processing Ruby script included in the
 Compile Format sets up the path automatically and modifies Scrivener's
 markdown output so that it is compatible with Quarto's cross-referencing
 filter.
@@ -368,11 +351,13 @@ posidonium\footnote{This is a footnote, \textbf{with} a citation
   mind, brain}}}.} te eøs, eæm in veri eirmod
 \protect\hypertarget{cite_2}{}{\label{cite_2}\protect\hyperlink{ref-barrett2015}{BARRETT
 \& SIMMONS, 2015}; \protect\hyperlink{ref-crivellato2007}{\emph{Soul,
-mind, brain}}}. Sed illum minimum at 3.25×10⁴⁸ ({[}see
-Results{]}{[}Lunar Cycles \{\#sec-scriv169\}{]}) , est mægna alienum
-mentitum ne. \href{https://quarto.org/}{Amet equidem} sit ex ({[}see
-Conclusion{]}{[}Discussion \{\#sec-scriv176\}{]}). Ludus øfficiis
-suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?
+mind, brain}}}. Sed illum minimum at 3.25×10⁴⁸ (see
+\protect\hypertarget{cite_3}{}{\label{cite_3}Section~\ref{sec-scriv168}}),
+est mægna alienum mentitum ne. \href{quarto.org/}{Amet equidem} sit ex
+(see
+\protect\hypertarget{cite_4}{}{\label{cite_4}Section~\ref{sec-scriv176}}).
+Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud
+necessitatibus te?
 
 \begin{figure*}
 
@@ -392,9 +377,9 @@ correct markdown to generate a captioned image block!}
 \end{figure*}
 
 Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret
-eum\protect\hypertarget{cite_3}{}{\label{cite_3}\protect\hyperlink{ref-crivellato2007}{\emph{Soul,
+eum\protect\hypertarget{cite_5}{}{\label{cite_5}\protect\hyperlink{ref-crivellato2007}{\emph{Soul,
 mind, brain}}}, pro paulo ridens quaestio ut (see
-\protect\hypertarget{cite_4}{}{\label{cite_4}Figure~\ref{fig-scriv154}})!
+\protect\hypertarget{cite_6}{}{\label{cite_6}Figure~\ref{fig-scriv154}})!
 Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani
 posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius
 mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad,
@@ -403,7 +388,7 @@ vølumus persecuti vix cu, \textbf{\emph{his åt justo putant comprehensam
 
 Ad pro quod \textsuperscript{superscript}, mel no laudem
 \textsubscript{subscript}, te mei prompta maiorum pønderum
-\protect\hypertarget{cite_5}{}{\label{cite_5}\protect\hyperlink{ref-barrett2015}{BARRETT
+\protect\hypertarget{cite_7}{}{\label{cite_7}\protect\hyperlink{ref-barrett2015}{BARRETT
 \& SIMMONS, 2015}; \protect\hyperlink{ref-copenhaver2014}{COPENHAVER,
 2014}; \protect\hyperlink{ref-hoffman2014}{HOFFMAN \& PRAKASH, 2014};
 \protect\hyperlink{ref-siegel2015}{SIEGEL \& SILINS 2015};
@@ -414,7 +399,7 @@ duo ex, est an iriure øblique.
 
 Here is some marginalia using the {[}\texttt{Marginalia}{]} Paragraph
 Style, \emph{including} a citation
-\protect\hypertarget{cite_6}{}{\label{cite_6}\protect\hyperlink{ref-barrett2015}{BARRETT
+\protect\hypertarget{cite_8}{}{\label{cite_8}\protect\hyperlink{ref-barrett2015}{BARRETT
 \& SIMMONS, 2015}}. This will end up as a margin note in HTML and PDF
 outputs, but a normal paragraph in DOCX etc.
 
@@ -422,13 +407,13 @@ outputs, but a normal paragraph in DOCX etc.
 
 Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet
 feugiåt pårtiendo
-\protect\hypertarget{cite_7}{}{\label{cite_7}\protect\hyperlink{ref-barrett2015}{BARRETT
+\protect\hypertarget{cite_9}{}{\label{cite_9}\protect\hyperlink{ref-barrett2015}{BARRETT
 \& SIMMONS, 2015}; \protect\hyperlink{ref-crivellato2007}{\emph{Soul,
 mind, brain}}}! Eam in ubique høneståtis ullåmcorper, no eos vitae
 orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur,
 no mei graeci impedit deterruisset!
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, arc=.35mm, colframe=quarto-callout-tip-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 This callout is generated using the {[}\texttt{Callout\ Tip}{]}
 Scrivener Paragraph Style\ldots{}
@@ -460,15 +445,10 @@ No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata
 intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian
 cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico
 ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex. See
-\protect\hypertarget{cite_8}{}{\label{cite_8}Table~\ref{tbl-scriv154}}
+\protect\hypertarget{cite_10}{}{\label{cite_10}\textbf{?@tbl-scriv154}}
 for more details.
 
-\hypertarget{tbl-scriv154}{}
 \begin{longtable}[]{@{}lll@{}}
-\toprule\noalign{}
-Table Head 1 & Table Head 2 & Table Head 3 \\
-\midrule\noalign{}
-\endfirsthead
 \toprule\noalign{}
 Table Head 1 & Table Head 2 & Table Head 3 \\
 \midrule\noalign{}
@@ -479,11 +459,12 @@ Item 1 & Item 2 & Item 3 \\
 Item 4 & Item 5 & Item 6 \\
 Item 7 & Item 8 & Item 9 \\
 Item 10 & Item 11 & Item 12 \\
-\caption{\label{tbl-scriv154}This is native Scrivener table with a
-referenced table caption. You could also use one of the many markdown
-table types, and lower down this sample project demonstrates using R to
-make tables.}\tabularnewline
 \end{longtable}
+
+{[}: This is native Scrivener table with a referenced table caption. You
+could also use one of the many markdown table types, and lower down this
+sample project demonstrates using R to make tables.
+\{\#tbl-scriv154\}{]}
 
 Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt
 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
@@ -523,9 +504,9 @@ post-processing script will place this label back on the same line
 that Quarto can properly cross-reference it\ldots{}
 
 See both
-\protect\hypertarget{cite_9}{}{\label{cite_9}Equation~\ref{eq-scriv156}}
+\protect\hypertarget{cite_11}{}{\label{cite_11}Equation~\ref{eq-scriv156}}
 and
-\protect\hypertarget{cite_10}{}{\label{cite_10}Equation~\ref{eq-scriv157}}
+\protect\hypertarget{cite_12}{}{\label{cite_12}Equation~\ref{eq-scriv157}}
 for more details:
 
 \begin{equation}\protect\hypertarget{eq-scriv156}{}{t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}}\label{eq-scriv156}\end{equation}
@@ -537,9 +518,9 @@ Sint meis quo et, vis ad fæcete dolorem!
 Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex
 mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem
 ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See
-\protect\hypertarget{cite_11}{}{\label{cite_11}Figure~\ref{fig-trunk2}}
+\protect\hypertarget{cite_13}{}{\label{cite_13}Figure~\ref{fig-trunk2}}
 for a poor marginalised elephant. Ad quøt moderatius elaboraret eum
-\protect\hypertarget{cite_12}{}{\label{cite_12}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_14}{}{\label{cite_14}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad
 has åperiam senserit conceptåm?
 
@@ -567,7 +548,7 @@ Ad pro quod definitiønem\footnote{Another footnote. Although footnotes
   styles, so you \textbf{must} use Pandoc markup \emph{directly}.}, mel
 no laudem delectus, te mei prompta maiorum pønderum. Solum aeque
 singulis duo ex
-\protect\hypertarget{cite_13}{}{\label{cite_13}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_15}{}{\label{cite_15}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, est an iriure øblique. Volumus åntiøpam iudicåbit et
 pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique
 høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet
@@ -604,7 +585,7 @@ comprehensam.
 
 This next part will demonstrate the use of raw markdown within the
 document to create a multipart figure. See
-\protect\hypertarget{cite_14}{}{\label{cite_14}Figure~\ref{fig-scriv174}}below
+\protect\hypertarget{cite_16}{}{\label{cite_16}Figure~\ref{fig-scriv174}}below
 for an example using a Section Type to insert the same markup at
 compile-time.
 
@@ -650,9 +631,9 @@ and the output. Here we scale both images to the same height.}
 \end{figure*}
 
 See
-\protect\hypertarget{cite_15}{}{\label{cite_15}Figure~\ref{fig-elephants}},
+\protect\hypertarget{cite_17}{}{\label{cite_17}Figure~\ref{fig-elephants}},
 particularly
-\protect\hypertarget{cite_16}{}{\label{cite_16}Figure~\ref{fig-castle}}.
+\protect\hypertarget{cite_18}{}{\label{cite_18}Figure~\ref{fig-castle}}.
 Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum
 pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus
 åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt
@@ -660,7 +641,7 @@ pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø
 viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei
 graeci impedit deterruisset!
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-warning-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, arc=.35mm, colframe=quarto-callout-warning-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-warning-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, colbacktitle=quarto-callout-warning-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{tip}, \texttt{warning}, \texttt{caution}, and
@@ -670,12 +651,12 @@ Note that there are five types of callouts, including: \texttt{note},
 
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata
 intellegam mei ex. His consulåtu åssueverit ex
-\protect\hypertarget{cite_17}{}{\label{cite_17}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_19}{}{\label{cite_19}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, ei ius apeirian cønstituam mediocritatem, mei rebum
 detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex
 eam! Nøstro eruditi eum ex.
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, colframe=quarto-callout-important-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-important-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{tip}, \texttt{warning}, \texttt{caution}, and
@@ -687,7 +668,7 @@ Note that there are five types of callouts, including: \texttt{note},
 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
 eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{tip}, \texttt{warning}, \texttt{caution}, and
@@ -704,7 +685,7 @@ Note if you have R and Python installed, you can run code like
 so\ldots{}
 
 Here is an R plot
-(\protect\hypertarget{cite_18}{}{\label{cite_18}Figure~\ref{fig-scriv159}}),
+(\protect\hypertarget{cite_20}{}{\label{cite_20}Figure~\ref{fig-scriv159}}),
 you need to have R installed for this to work, if not remove this
 document from the compile:
 
@@ -796,9 +777,8 @@ in, ius utinam vivendum no, mei nostrud necessitatibus te?
 \caption{\label{fig-scriv162}A graphviz graph with figure reference and
 caption, using the {[}Dot block{]} paragraph style. Currently in LaTeX
 this could overflow the page depending on verso/recto, but renders fine
-in HTML; see
-\url{https://quarto.org/docs/authoring/diagrams.html\#sizing} for more
-details\ldots{}}
+in HTML; see https://quarto.org/docs/authoring/diagrams.html\#sizing for
+more details\ldots{}}
 
 \end{figure}
 
@@ -808,9 +788,9 @@ senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent
 mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus.
 Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant
 comprehensam. See
-\protect\hypertarget{cite_19}{}{\label{cite_19}Figure~\ref{fig-scriv163}}
+\protect\hypertarget{cite_21}{}{\label{cite_21}Figure~\ref{fig-scriv163}}
 and
-\protect\hypertarget{cite_20}{}{\label{cite_20}Figure~\ref{fig-scriv165}}
+\protect\hypertarget{cite_22}{}{\label{cite_22}Figure~\ref{fig-scriv165}}
 for details.
 
 \begin{figure}
@@ -873,7 +853,7 @@ In pri solet soleat timeam, tale possit vis æt.
 
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata
 intellegam mei ex. His consulåtu åssueverit ex
-\protect\hypertarget{cite_21}{}{\label{cite_21}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_23}{}{\label{cite_23}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, ei ius apeirian cønstituam mediocritatem, mei rebum
 detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex
 eam! Nøstro eruditi eum ex.
@@ -884,7 +864,7 @@ senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent
 mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus.
 Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant
 comprehensam. See
-\protect\hypertarget{cite_22}{}{\label{cite_22}Figure~\ref{fig-scriv167}}
+\protect\hypertarget{cite_24}{}{\label{cite_24}Figure~\ref{fig-scriv167}}
 for details.
 
 \begin{figure*}
@@ -914,7 +894,7 @@ details\ldots{}}
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet
 posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna
 alienum mentitum ne. Amet equidem sit ex (see
-\protect\hypertarget{cite_23}{}{\label{cite_23}Figure~\ref{fig-elespan}}).
+\protect\hypertarget{cite_25}{}{\label{cite_25}Figure~\ref{fig-elespan}}).
 Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud
 necessitatibus te?
 
@@ -947,16 +927,16 @@ comprehensam.
 \caption{\label{fig-elespan2}This should also span the whole page, using
 a paragraph block style {[}\texttt{Column\ Page}{]}. This method has the
 caveat that we cannot use an editor-embedded image as in
-\protect\hypertarget{cite_25}{}{\label{cite_25}Figure~\ref{fig-elespan}};
+\protect\hypertarget{cite_27}{}{\label{cite_27}Figure~\ref{fig-elespan}};
 only an Scrivener Binder document link to the file and direct pandoc
 markup\ldots{}}
 
 \end{figure*}
 
 Ad pro quod definitiønem
-\protect\hypertarget{cite_26}{}{\label{cite_26}\protect\hyperlink{ref-crivellato2007}{\emph{Soul,
+\protect\hypertarget{cite_28}{}{\label{cite_28}\protect\hyperlink{ref-crivellato2007}{\emph{Soul,
 mind, brain}}}, mel no laudem delectus
-\protect\hypertarget{cite_27}{}{\label{cite_27}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_29}{}{\label{cite_29}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, te mei prompta maiorum pønderum. Solum aeque singulis
 duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo
 ubique hås an? Cu his movet feugiåt pårtiendo!
@@ -976,7 +956,7 @@ generate the correct markup by the compile format.}
 Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos
 id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit
 deterruisset! We can reference sub-tables, for example see
-\protect\hypertarget{cite_28}{}{\label{cite_28}Table~\ref{tbl-second}}.
+\protect\hypertarget{cite_30}{}{\label{cite_30}Table~\ref{tbl-second}}.
 
 \begin{table}
 
@@ -1033,11 +1013,11 @@ ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
 eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.
 Please refer to
-\protect\hypertarget{cite_29}{}{\label{cite_29}Table~\ref{tbl-scriv172}},
+\protect\hypertarget{cite_31}{}{\label{cite_31}Table~\ref{tbl-scriv172}},
 including
-\protect\hypertarget{cite_30}{}{\label{cite_30}Table~\ref{tbl-first2}}
+\protect\hypertarget{cite_32}{}{\label{cite_32}Table~\ref{tbl-first2}}
 and
-\protect\hypertarget{cite_31}{}{\label{cite_31}Table~\ref{tbl-second2}}
+\protect\hypertarget{cite_33}{}{\label{cite_33}Table~\ref{tbl-second2}}
 for more details.
 
 \begin{table}
@@ -1134,9 +1114,8 @@ comprehensam.
 
 \caption{\label{fig-scriv174}This demonstrates generating a multi-panel
 figure using a Scrivener Section Type {[}\texttt{Multipart\ Figure}{]}
-instead of using raw markdown as {[}shown here{]}{[}Experimental
-Perturbations \{\#sec-scriv158\}{]}. ID, Class and Attributes specific
-to the block
+instead of using raw markdown as shown here. ID, Class and Attributes
+specific to the block
 {[}\texttt{\#fig-elephants2\ .column-body\ layout-ncol=2\ layout-valign="bottom"}{]}
 are saved to
 \texttt{Custom\ Metadata-\textgreater{}ID,\ Class\ \&\ Attributes}, and
@@ -1145,7 +1124,7 @@ Layout at compile time.}
 
 \end{figure*}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-caution-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution}, arc=.35mm, colframe=quarto-callout-caution-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-caution-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution}, colbacktitle=quarto-callout-caution-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 This is a callout, but generated using a Section Type
 {[}\texttt{Callout\ Caution}{]} rather than a paragraph style. Scrivener
@@ -1163,14 +1142,14 @@ Section Types so you can edit as a \enquote*{single} document\ldots{}
 \chapter{Discussion}\label{sec-scriv176}}
 
 Lørem ipsum dolør sit amet
-\protect\hypertarget{cite_32}{}{\label{cite_32}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_34}{}{\label{cite_34}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, eu ipsum movet vix, veniam låoreet posidonium te eøs,
 eæm in veri eirmod
-\protect\hypertarget{cite_33}{}{\label{cite_33}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_35}{}{\label{cite_35}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}. Sed illum minimum\footnote{A final footnote.} at, est
 mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate
-sea in, ius utinam vivendum no (see {[}Introduction{]}{[}Introduction
-\{\#sec-scriv154\}{]}), mei nostrud necessitatibus te?
+sea in, ius utinam vivendum no (see Introduction), mei nostrud
+necessitatibus te?
 
 \begin{figure}
 
@@ -1183,7 +1162,7 @@ space\ldots{}}
 
 Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret
 eum, pro paulo ridens quaestio ut! Iudico nullam sit ad
-\protect\hypertarget{cite_34}{}{\label{cite_34}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_36}{}{\label{cite_36}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, ad has åperiam senserit conceptåm? Tritani posidonium
 suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut
 duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus
@@ -1195,12 +1174,13 @@ This Marginalia is using a Section Type {[}\texttt{Layout\ Margin}{]}.
 We can therefore use paragraph styles here, like
 {[}\texttt{Maths\ Block}{]}. We know from the \emph{first fundamental
 theorem of calculus} that for \(x\) in \([a, b]\)
+
 \begin{equation}\protect\hypertarget{eq-scriv177}{}{\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).}\label{eq-scriv177}\end{equation}
 
 \end{footnotesize}}
 
 Ad pro quod definitiønem, mel no laudem delectus
-\protect\hypertarget{cite_35}{}{\label{cite_35}\protect\hyperlink{ref-siegel2015}{SIEGEL
+\protect\hypertarget{cite_37}{}{\label{cite_37}\protect\hyperlink{ref-siegel2015}{SIEGEL
 \& SILINS 2015}}, te mei prompta maiorum pønderum. Solum aeque singulis
 duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo
 ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis
@@ -1208,7 +1188,7 @@ ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id
 zril åliquando omittantur, no mei graeci impedit deterruisset!
 
 No meæ menandri mediøcritatem
-\protect\hypertarget{cite_36}{}{\label{cite_36}\protect\hyperlink{ref-barrett2015}{BARRETT
+\protect\hypertarget{cite_38}{}{\label{cite_38}\protect\hyperlink{ref-barrett2015}{BARRETT
 \& SIMMONS, 2015}; \protect\hyperlink{ref-crivellato2007}{\emph{Soul,
 mind, brain}}; \protect\hyperlink{ref-siegel2015}{SIEGEL \& SILINS
 2015}}, meis tibique convenire vis id! Delicata intellegam mei ex. His
@@ -1236,28 +1216,26 @@ their work.
 
 \protect\hypertarget{scriv181}{}{}
 
-By \href{https://github.com/bcdavasconcelos}{Bernardo Vasconcelos} (see
-\href{https://forum.literatureandlatte.com/t/scrivener-quarto-cite-tools-advanced-bibliography-for-a-technical-academic-publishing-workflow/133803}{this
-thread}, and \href{https://forum.literatureandlatte.com/t/134755}{this
-thread}).
+By Bernardo Vasconcelos (see
+\href{forum.literatureandlatte.com/t/scrivener-quarto-cite-tools-advanced-bibliography-for-a-technical-academic-publishing-workflow/133803}{this
+thread}, and \href{forum.literatureandlatte.com/t/134755}{this thread}).
 
 This template descends from Ian's excellent
-\href{http://forum.literatureandlatte.com/t/scrivener-quarto-a-technical-academic-publishing-workflow/129769?u=bernardo_vasconcelos}{Quarto
+\href{forum.literatureandlatte.com/t/scrivener-quarto-a-technical-academic-publishing-workflow/129769}{Quarto
 template for Scrivener}.
 
 This template tries to further integrate Quarto into the Scrivener
 writing environment. It includes new \textbf{Section Types},
 \textbf{Paragraph Styles}, \textbf{Character Styles}, \textbf{Custom
 Meta Fields}, YAML Parameters for Quarto, new icons and more.\footnote{See
-  \href{https://www.stockio.com/}{https://www.stockio.com}.} If you
-already have Quarto and R working installations, it introduces
-\textbf{zero} new dependencies and you should be able to compile it
-right away. Please, go ahead and try it. All the auxiliary files --
-bibliographies (Primary Sources, Secondary Sources, Workflow), lua
-filters (\_extensions), project metadata (\_quarto) -- will
-automatically be created at the export folder each time it compiles (if
-they already exist, they will be overwritten). The \emph{only} external
-dependencies, therefore, are Quarto and R.
+  https://www.stockio.com.} If you already have Quarto and R working
+installations, it introduces \textbf{zero} new dependencies and you
+should be able to compile it right away. Please, go ahead and try it.
+All the auxiliary files -- bibliographies (Primary Sources, Secondary
+Sources, Workflow), lua filters (\_extensions), project metadata
+(\_quarto) -- will automatically be created at the export folder each
+time it compiles (if they already exist, they will be overwritten). The
+\emph{only} external dependencies, therefore, are Quarto and R.
 
 The template's first notable difference is \emph{the way} the YAML Front
 matter is written and \emph{the size} it is. Instead of using a single
@@ -1280,28 +1258,25 @@ cross-reference field is called \texttt{Theorem\ Title} instead of the
 less instructive \texttt{thm-title} that must be in the \texttt{ID}
 field.
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, colframe=quarto-callout-important-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-important-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 The YAML item key comes from the \texttt{ID} field.
 
 \end{tcolorbox}
 
-I included \emph{nearly} every option for
-\href{https://quarto.org/docs/reference/projects/books.html}{Quarto
-Books} and
-\href{https://quarto.org/docs/reference/projects/websites.html}{Websites},
+I included \emph{nearly} every option for Quarto Books and Websites,
 totaling 619 parameters, each one including relevant information, such
 as the available options, and the bookmarks to the official
 documentation (under \textbf{Document Bookmarks}). It was an insane
 amount of work (so, if you would like to show your appreciation, please
-head over to \href{https://github.com/sponsors/bcdavasconcelos}{Github
-Sponsors} (github.com/sponsors/bcdavasconcelos) to help me keep putting
-in time to improve all of this). Naturally, I have \textbf{not} tested
-all of them yet, but as you learn more about each parameter, you can add
-notes to the \texttt{synopsis} and \texttt{notes} fields to keep track
-of how it affects our document or project. In time, this will make it
-much easier for you to understand what each option is for and revert
-back to a working configuration after introducing accidental errors.
+head over to Github Sponsors (github.com/sponsors/bcdavasconcelos) to
+help me keep putting in time to improve all of this). Naturally, I have
+\textbf{not} tested all of them yet, but as you learn more about each
+parameter, you can add notes to the \texttt{synopsis} and \texttt{notes}
+fields to keep track of how it affects our document or project. In time,
+this will make it much easier for you to understand what each option is
+for and revert back to a working configuration after introducing
+accidental errors.
 
 \begin{figure}
 
@@ -1328,7 +1303,7 @@ table, for example, will receive \texttt{tbl-scrivID} as ID, and an
 example will receive \texttt{exm-scrivID}, a theorem will receive
 \texttt{thm-scrivID}, and so on, each with the appropriate prefix.
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, arc=.35mm, colframe=quarto-callout-tip-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 \textbf{Callouts} (Caution, Important, Note, Tip, Warning) and
 \textbf{Cross-reference Environments} (Conjecture, Corollary,
@@ -1347,27 +1322,19 @@ To reference them, use \texttt{scrivautο}, \texttt{\%autοref\%},
 \texttt{{[}autοref{]}} or simply \texttt{scriv} \&
 \texttt{\textless{}\textbackslash{}\$linkID\textgreater{}} with the
 proper style applied; that is,
-\protect\hypertarget{cite_37}{}{\label{cite_37}\protect\hyperlink{ref-cnj}{\textbf{cnj?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}},
-\protect\hypertarget{cite_38}{}{\label{cite_38}\protect\hyperlink{ref-cor}{\textbf{cor?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}},
-\protect\hypertarget{cite_39}{}{\label{cite_39}\protect\hyperlink{ref-def}{\textbf{def?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}},
-\protect\hypertarget{cite_40}{}{\label{cite_40}\protect\hyperlink{ref-exm}{\textbf{exm?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}},
-\protect\hypertarget{cite_41}{}{\label{cite_41}\protect\hyperlink{ref-exr}{\textbf{exr?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}},
-\protect\hypertarget{cite_42}{}{\label{cite_42}\protect\hyperlink{ref-lem}{\textbf{lem?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}},
-\protect\hypertarget{cite_43}{}{\label{cite_43}\protect\hyperlink{ref-prp}{\textbf{prp?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}},
-\protect\hypertarget{cite_44}{}{\label{cite_44}\protect\hyperlink{ref-thm}{\textbf{thm?}}{[}cnj,
-cor, def, exm, exr, lem, prp, thm \{\#sec-scriv183\}{]}}.
-\textbf{Notice} that they \textbf{all} link \emph{to the same document},
-but each uses a \textbf{Style} corresponding to a different object
-(Conjecture, Corollary, Definition, and so on). The caveat here is that
-we \textbf{\emph{cannot}} have more than \ul{one} of each kind per
-binder item, otherwise they will receive the same \texttt{ID}.
+\protect\hypertarget{cite_39}{}{\label{cite_39}Conjecture~\ref{cnj-scriv183}},
+\protect\hypertarget{cite_40}{}{\label{cite_40}Corollary~\ref{cor-scriv183}},
+\protect\hypertarget{cite_41}{}{\label{cite_41}Definition~\ref{def-scriv183}},
+\protect\hypertarget{cite_42}{}{\label{cite_42}Example~\ref{exm-scriv183}},
+\protect\hypertarget{cite_43}{}{\label{cite_43}Exercise~\ref{exr-scriv183}},
+\protect\hypertarget{cite_44}{}{\label{cite_44}Lemma~\ref{lem-scriv183}},
+\protect\hypertarget{cite_45}{}{\label{cite_45}Proposition~\ref{prp-scriv183}},
+\protect\hypertarget{cite_46}{}{\label{cite_46}Theorem~\ref{thm-scriv183}}.
+\textbf{Notice} that they \textbf{all} refer \emph{to the same
+document}, but each uses a \textbf{Style} corresponding to a different
+object (Conjecture, Corollary, Definition, and so on). The caveat here
+is that we \textbf{\emph{cannot}} have more than \ul{one} of each kind
+per binder item, otherwise they will receive the same \texttt{ID}.
 
 \begin{conjecture}[]\protect\hypertarget{cnj-scriv183}{}\label{cnj-scriv183}
 
@@ -1419,14 +1386,14 @@ Theorem environment
 
 As we mentioned, you can also create environments using \textbf{Section
 Types} instead of styles. See
-\protect\hypertarget{cite_45}{}{\label{cite_45}Conjecture~\ref{cnj-scriv184}},
-\protect\hypertarget{cite_46}{}{\label{cite_46}Corollary~\ref{cor-scriv185}},
-\protect\hypertarget{cite_47}{}{\label{cite_47}Definition~\ref{def-scriv186}},
-\protect\hypertarget{cite_48}{}{\label{cite_48}Example~\ref{exm-scriv187}},
-\protect\hypertarget{cite_49}{}{\label{cite_49}Exercise~\ref{exr-scriv188}},
-\protect\hypertarget{cite_50}{}{\label{cite_50}Lemma~\ref{lem-scriv189}},
-\protect\hypertarget{cite_51}{}{\label{cite_51}Proposition~\ref{prp-scriv190}},
-\protect\hypertarget{cite_52}{}{\label{cite_52}Theorem~\ref{thm-scriv191}}.
+\protect\hypertarget{cite_47}{}{\label{cite_47}Conjecture~\ref{cnj-scriv184}},
+\protect\hypertarget{cite_48}{}{\label{cite_48}Corollary~\ref{cor-scriv185}},
+\protect\hypertarget{cite_49}{}{\label{cite_49}Definition~\ref{def-scriv186}},
+\protect\hypertarget{cite_50}{}{\label{cite_50}Example~\ref{exm-scriv187}},
+\protect\hypertarget{cite_51}{}{\label{cite_51}Exercise~\ref{exr-scriv188}},
+\protect\hypertarget{cite_52}{}{\label{cite_52}Lemma~\ref{lem-scriv189}},
+\protect\hypertarget{cite_53}{}{\label{cite_53}Proposition~\ref{prp-scriv190}},
+\protect\hypertarget{cite_54}{}{\label{cite_54}Theorem~\ref{thm-scriv191}}.
 
 \begin{conjecture}[]\protect\hypertarget{cnj-scriv184}{}\label{cnj-scriv184}
 
@@ -1483,10 +1450,10 @@ Theorem content
 \protect\hypertarget{scriv192}{}{}
 
 Notice that we can always use the same strategy with regular labels
-(\protect\hypertarget{cite_53}{}{\label{cite_53}Equation~\ref{eq-scriv192}},
-\protect\hypertarget{cite_54}{}{\label{cite_54}Figure~\ref{fig-scriv192}},
-\protect\hypertarget{cite_55}{}{\label{cite_55}Listing~\ref{lst-scriv192}},
-\protect\hypertarget{cite_56}{}{\label{cite_56}Table~\ref{tbl-scriv192}}).
+(\protect\hypertarget{cite_55}{}{\label{cite_55}Equation~\ref{eq-scriv192}},
+\protect\hypertarget{cite_56}{}{\label{cite_56}Figure~\ref{fig-scriv192}},
+\protect\hypertarget{cite_57}{}{\label{cite_57}Listing~\ref{lst-scriv192}},
+\protect\hypertarget{cite_58}{}{\label{cite_58}Table~\ref{tbl-scriv192}}).
 This approach could be considered invasive, insofar as it automatically
 injects labels and IDs into different elements. You can turn this off,
 however, by changing the bindings between \textbf{Section Types} and
@@ -1547,8 +1514,8 @@ Markdown Source & Output \\
 \end{longtable}
 
 And see also
-\protect\hypertarget{cite_57}{}{\label{cite_57}Equation~\ref{eq-scriv193}},
-\protect\hypertarget{cite_58}{}{\label{cite_58}Table~\ref{tbl-scriv194}}.\\
+\protect\hypertarget{cite_59}{}{\label{cite_59}Equation~\ref{eq-scriv193}},
+\protect\hypertarget{cite_60}{}{\label{cite_60}Table~\ref{tbl-scriv194}}.\\
 \begin{equation}\protect\hypertarget{eq-scriv193}{}{Equation content
 }\label{eq-scriv193}\end{equation}
 
@@ -1574,9 +1541,8 @@ And see also
 \protect\hypertarget{scriv195}{}{}
 
 \protect\hypertarget{scriv196}{}{} \textsc{1. New} \textbf{Section
-Layout} \& \textbf{Section Type} provide support for the
-\href{https://github.com/pandoc/lua-filters/tree/master/multiple-bibliographies}{multiple
-bibliographies} Lua Filter.
+Layout} \& \textbf{Section Type} provide support for the multiple
+bibliographies Lua Filter.
 
 Choose the Multibib section type, fill the \texttt{Value} custom
 meta-data field with the name of your bibliography file (the file
@@ -1585,7 +1551,7 @@ bibliographies as you want. The sections will be named after the last
 heading element, that is, the binder item whence it originated, as it
 happens with all other chapters of the text.
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 You can also point Quarto and Pandoc to the bibliography file using
 relative paths, full paths and URLs.
@@ -1624,18 +1590,17 @@ The works of \texttt{{[}@AristOp{]}\{.author\}} were first edited by
 \end{footnotesize}}
 
 \protect\hypertarget{scriv199}{}{} \textsc{New} \textbf{Styles} provide
-support for the \href{https://github.com/bcdavasconcelos/citefield}{cite
-field} Lua Filter, which can be used to cite arbitrary fields of the
-references.
+support for the cite field Lua Filter, which can be used to cite
+arbitrary fields of the references.
 
-The works of Aristotelis were first edited by Bekker in 1834. Lorem
-ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+\protect\hypertarget{scriv200}{}{} The works of Aristotelis were first
+edited by Bekker in 1834. Lorem ipsum dolor sit amet, consectetur
+adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+qui officia deserunt mollit anim id est laborum.
 
 \marginnote{\begin{footnotesize}
 
@@ -1644,13 +1609,13 @@ Later, the \texttt{{[}@DA{]}\{.title\}}
 \texttt{{[}@DABiehl1896{]}\{.editor\}} in
 \texttt{{[}@DABiehl1896{]}\{.issued\}} (reprinted in
 \texttt{{[}@DATheiler{]}\{.translator\}\textquotesingle{}s}
-\texttt{{[}@DATheiler{]}\{.issued\}} translation)
+\texttt{{[}@DATheiler{]}\{.issued\}} translation).
 
 \end{footnotesize}}
 
-\protect\hypertarget{scriv201}{}{} Later, the \emph{De Anima} was edited
+\protect\hypertarget{scriv202}{}{} Later, the \emph{De Anima} was edited
 by Biehl in 1896 (reprinted in
-{\protect\hypertarget{cite_59}{}{\label{cite_59}THEILER \& SEIDL
+{\protect\hypertarget{cite_61}{}{\label{cite_61}THEILER \& SEIDL
 \protect\hyperlink{ref-DATheiler}{1995}}}'s 1995 translation). Lorem
 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -1663,7 +1628,7 @@ mollit anim id est laborum.
 You can set link-fields to false to avoid undesired linking when citing
 specific fields.
 
-\hypertarget{tbl-scriv202}{}
+\hypertarget{tbl-scriv203}{}
 \begin{longtable}[]{@{}cc@{}}
 \toprule\noalign{}
 Markdown Source & Output \\
@@ -1682,10 +1647,10 @@ Markdown Source & Output \\
 \texttt{{[}@DABiehl1896\ {]}\{.editor\}} & Biehl \\
 \texttt{{[}@DABiehl1896{]}\{.issued\}} & 1896 \\
 \texttt{{[}@DATheiler{]}\{.translator\}} &
-{\protect\hypertarget{cite_60}{}{\label{cite_60}THEILER \& SEIDL
+{\protect\hypertarget{cite_62}{}{\label{cite_62}THEILER \& SEIDL
 \protect\hyperlink{ref-DATheiler}{1995}}} \\
 \texttt{{[}@DATheiler{]}\{.issued\}} & 1995 \\
-\caption{\label{tbl-scriv202}Simple example of how we are using styles
+\caption{\label{tbl-scriv203}Simple example of how we are using styles
 to create the correct markup}\tabularnewline
 \end{longtable}
 
@@ -1693,10 +1658,10 @@ to create the correct markup}\tabularnewline
 \texttt{{[}{]}\{\#scriv\textbackslash{}\textless{}\$linkID\textgreater{}\}}
 to some \textbf{Section Layouts}.
 
-This allows us to create links to \protect\hyperlink{scriv203}{text
+This allows us to create links to \protect\hyperlink{scriv204}{text
 sections that do not have a Header element}.
 
-\protect\hypertarget{scriv204}{}{} Belive it or not, Scrivener can be an
+\protect\hypertarget{scriv205}{}{} Belive it or not, Scrivener can be an
 interesting place to keep parts of your code. We can use the document
 bookmarks to leave behind an array of possibilities in case we need to
 revise something. We can easily copy and paste code stored on Quarto's
@@ -1711,12 +1676,12 @@ right-side inspector in Scrivener.)
 
 }
 
-\caption{\label{fig-scriv204}Revising code in Scrivener can be just as
+\caption{\label{fig-scriv205}Revising code in Scrivener can be just as
 pleasant}
 
 \end{figure}
 
-\protect\hypertarget{scriv205}{}{}
+\protect\hypertarget{scriv206}{}{}
 
 We can also create interesting possibilities to customize and further
 control the conversion process, by including in our project the default
@@ -1730,14 +1695,14 @@ is going on at the Quarto repository. The template will work either way.
 
 }
 
-\caption{\label{fig-scriv205}Students finishing their MDs or PhDs will
+\caption{\label{fig-scriv206}Students finishing their MDs or PhDs will
 certainly appreciate the possibility of adding your own latex
 customizations, which can also be done by including the code within
 certain fields, such as before-body.}
 
 \end{figure*}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, colframe=quarto-callout-important-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-important-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, colbacktitle=quarto-callout-important-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 If you are having problems with performance, then you should try to
 delete the custom icons we are using. I recommend deleting all to see if
@@ -1745,42 +1710,42 @@ that makes a difference or not on how Scrivener is behaving.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacitybacktitle=0.6, bottomtitle=1mm, coltitle=black, opacityback=0, colback=white, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, arc=.35mm, colframe=quarto-callout-tip-color-frame, titlerule=0mm, rightrule=.15mm, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, colback=white, breakable, left=2mm, toptitle=1mm, opacityback=0, rightrule=.15mm, opacitybacktitle=0.6, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, colbacktitle=quarto-callout-tip-color!10!white, leftrule=.75mm, arc=.35mm, titlerule=0mm, toprule=.15mm]
 
 Right click on any Binder item.
 \texttt{Change\ Icon\ \textgreater{}\ Manage\ Custom\ Icons...}
 
 \end{tcolorbox}
 
-\protect\hypertarget{scriv208}{}{} Bootstrap Icons -
-\url{https://icons.getbootstrap.com} - These are available in Quarto
-documents using the \textbf{Shortcode Font Awesome} style as in
+\protect\hypertarget{scriv209}{}{} Bootstrap Icons -
+https://icons.getbootstrap.com - These are available in Quarto documents
+using the \textbf{Shortcode Font Awesome} style as in
 \texttt{\{\{\textless{}\ fa\ regular\ bell\ \textgreater{}\}\}} . There
 is also \textbf{Shortcode Env}, \textbf{Shortcode Meta},
 \textbf{Shortcode Var}. Writing in Scrivener
-(\url{https://github.com/iandol/scrivomatic\#writing-in-scrivener}) is a
-must read. The Plain Person's Guide to Plain Text Social Science -
-\url{https://plain-text.co/index.html\#introduction} Quarto Reference -
-\url{https://quarto.org/docs/reference/} The easiest way to publish to
-Github Pages:
-\href{https://quarto.org/docs/publishing/github-pages.html\#render-to-docs}{Render
-to docs}
+(https://github.com/iandol/scrivomatic\#writing-in-scrivener) is a must
+read. The Plain Person's Guide to Plain Text Social Science -
+https://plain-text.co/index.html\#introduction Quarto Reference -
+https://quarto.org/docs/reference/ The easiest way to publish to Github
+Pages: Render to docs
 
 The variables stored here will be accessible via the \textbf{Style}
 \texttt{Shortcode\ Var}.
 
 Please contact us at info@example.com.
 
-\textbf{?env:QUARTO\_PROJECT\_DIR \textgreater\}\}}
+\texttt{/Users/bcdav/Dropbox/Application\ Support/pandoc/quarto/ScrivQ/export-mmd}
+
+/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd
 
 We are using Python \texttt{?env:QUARTO\_PYTHON}
 \textbf{?env:QUARTO\_PYTHON}, \textbf{?env:QUARTO\_R},
 \textbf{?env:PY\_PYTHON}, or \textbf{?env:RETICULATE\_PYTHON}.
 
-\hypertarget{sec-scriv209}{%
-\chapter{Primary Sources}\label{sec-scriv209}}
+\hypertarget{sec-scriv210}{%
+\chapter{Primary Sources}\label{sec-scriv210}}
 
-\hypertarget{refs_scriv209}{}
+\hypertarget{refs_scriv210}{}
 \begin{CSLReferences}{0}{1}
 \leavevmode\vadjust pre{\hypertarget{ref-AristOp}{}}%
 ARISTOTELIS. \emph{Aristotelis Opera}. Ed.: I. Bekker. Berlin: Reimer,
@@ -1793,10 +1758,10 @@ Opera}. Berlin: Reimer, 1834.
 
 \end{CSLReferences}
 
-\hypertarget{sec-scriv210}{%
-\chapter{Secondary Sources}\label{sec-scriv210}}
+\hypertarget{sec-scriv211}{%
+\chapter{Secondary Sources}\label{sec-scriv211}}
 
-\hypertarget{refs_scriv210}{}
+\hypertarget{refs_scriv211}{}
 \begin{CSLReferences}{0}{1}
 \leavevmode\vadjust pre{\hypertarget{ref-DABiehl1896}{}}%
 ARISTOTELIS. \emph{De Anima}. Ed.: W. Biehl. Leipzig: Teubner, 1896.
@@ -1805,15 +1770,15 @@ ARISTOTELIS. \emph{De Anima}. Ed.: W. Biehl. Leipzig: Teubner, 1896.
 \leavevmode\vadjust pre{\hypertarget{ref-DATheiler}{}}%
 ARISTOTELIS. \emph{De Anima}. Eds.: W. Theiler \& H. Seidl. Harmburg:
 Felix Meiner, 1995. {[}\Acrobatmenu{GoBack}{$\hookleftarrow$},
-\protect\hyperlink{cite_59}{\pageref{cite_59}},
-\protect\hyperlink{cite_60}{\pageref{cite_60}}{]}
+\protect\hyperlink{cite_61}{\pageref{cite_61}},
+\protect\hyperlink{cite_62}{\pageref{cite_62}}{]}
 
 \end{CSLReferences}
 
-\hypertarget{sec-scriv211}{%
-\chapter{Workflow}\label{sec-scriv211}}
+\hypertarget{sec-scriv212}{%
+\chapter{Workflow}\label{sec-scriv212}}
 
-\hypertarget{refs_scriv211}{}
+\hypertarget{refs_scriv212}{}
 \begin{CSLReferences}{0}{1}
 \leavevmode\vadjust pre{\hypertarget{ref-barrett2015}{}}%
 BARRETT, L.; SIMMONS, W.
@@ -1821,16 +1786,16 @@ BARRETT, L.; SIMMONS, W.
 brain.} \emph{Nature Reviews Neuroscience}, v. 16, n. 7, p. 419--429,
 2015. {[}\Acrobatmenu{GoBack}{$\hookleftarrow$},
 \protect\hyperlink{cite_2}{\pageref{cite_2}},
-\protect\hyperlink{cite_5}{\pageref{cite_5}},
-\protect\hyperlink{cite_6}{\pageref{cite_6}},
 \protect\hyperlink{cite_7}{\pageref{cite_7}},
-\protect\hyperlink{cite_36}{\pageref{cite_36}}{]}
+\protect\hyperlink{cite_8}{\pageref{cite_8}},
+\protect\hyperlink{cite_9}{\pageref{cite_9}},
+\protect\hyperlink{cite_38}{\pageref{cite_38}}{]}
 
 \leavevmode\vadjust pre{\hypertarget{ref-copenhaver2014}{}}%
 COPENHAVER, R. \href{}{Berkeley on the language of nature and the
 objects of vision}. \emph{Res Philosophica}, v. 91, n. 1, p. 29--46,
 2014. {[}\Acrobatmenu{GoBack}{$\hookleftarrow$},
-\protect\hyperlink{cite_5}{\pageref{cite_5}}{]}
+\protect\hyperlink{cite_7}{\pageref{cite_7}}{]}
 
 \leavevmode\vadjust pre{\hypertarget{ref-crivellato2007}{}}%
 CRIVELLATO, E.; RIBATTI, D.
@@ -1840,41 +1805,41 @@ Research Bulletin}, v. 71, n. 4, p. 327--336, 2007.
 {[}\Acrobatmenu{GoBack}{$\hookleftarrow$},
 \protect\hyperlink{cite_1}{\pageref{cite_1}},
 \protect\hyperlink{cite_2}{\pageref{cite_2}},
-\protect\hyperlink{cite_3}{\pageref{cite_3}},
-\protect\hyperlink{cite_7}{\pageref{cite_7}},
-\protect\hyperlink{cite_26}{\pageref{cite_26}},
-\protect\hyperlink{cite_36}{\pageref{cite_36}}{]}
+\protect\hyperlink{cite_5}{\pageref{cite_5}},
+\protect\hyperlink{cite_9}{\pageref{cite_9}},
+\protect\hyperlink{cite_28}{\pageref{cite_28}},
+\protect\hyperlink{cite_38}{\pageref{cite_38}}{]}
 
 \leavevmode\vadjust pre{\hypertarget{ref-hoffman2014}{}}%
 HOFFMAN, D. D.; PRAKASH, C.
 \href{https://doi.org/10.3389/fpsyg.2014.00577}{Objects of
 consciousness}. \emph{Frontiers in Psychology}, v. 5, p. 577, 2014.
 {[}\Acrobatmenu{GoBack}{$\hookleftarrow$},
-\protect\hyperlink{cite_5}{\pageref{cite_5}}{]}
+\protect\hyperlink{cite_7}{\pageref{cite_7}}{]}
 
 \leavevmode\vadjust pre{\hypertarget{ref-siegel2015}{}}%
 SIEGEL, S.; SILINS, N. {`The epistemology of perception'}. In: MATTHEN,
 M. (Ed.). \emph{Oxford handbook of philosophy of perception}. Oxford
 University Press, 2015. p. 1--48.
 {[}\Acrobatmenu{GoBack}{$\hookleftarrow$},
-\protect\hyperlink{cite_5}{\pageref{cite_5}},
-\protect\hyperlink{cite_12}{\pageref{cite_12}},
-\protect\hyperlink{cite_13}{\pageref{cite_13}},
-\protect\hyperlink{cite_17}{\pageref{cite_17}},
-\protect\hyperlink{cite_21}{\pageref{cite_21}},
-\protect\hyperlink{cite_27}{\pageref{cite_27}},
-\protect\hyperlink{cite_32}{\pageref{cite_32}},
-\protect\hyperlink{cite_33}{\pageref{cite_33}},
+\protect\hyperlink{cite_7}{\pageref{cite_7}},
+\protect\hyperlink{cite_14}{\pageref{cite_14}},
+\protect\hyperlink{cite_15}{\pageref{cite_15}},
+\protect\hyperlink{cite_19}{\pageref{cite_19}},
+\protect\hyperlink{cite_23}{\pageref{cite_23}},
+\protect\hyperlink{cite_29}{\pageref{cite_29}},
 \protect\hyperlink{cite_34}{\pageref{cite_34}},
 \protect\hyperlink{cite_35}{\pageref{cite_35}},
-\protect\hyperlink{cite_36}{\pageref{cite_36}}{]}
+\protect\hyperlink{cite_36}{\pageref{cite_36}},
+\protect\hyperlink{cite_37}{\pageref{cite_37}},
+\protect\hyperlink{cite_38}{\pageref{cite_38}}{]}
 
 \leavevmode\vadjust pre{\hypertarget{ref-simmons2013}{}}%
 SIMMONS, A. {`Perception in early modern philosophy'}. In: MATTHEN, M.
 (Ed.). \emph{The oxford handbook of philosophy of perception}. Oxford:
 Oxford University Press, 2013.
 {[}\Acrobatmenu{GoBack}{$\hookleftarrow$},
-\protect\hyperlink{cite_5}{\pageref{cite_5}}{]}
+\protect\hyperlink{cite_7}{\pageref{cite_7}}{]}
 
 \end{CSLReferences}
 
