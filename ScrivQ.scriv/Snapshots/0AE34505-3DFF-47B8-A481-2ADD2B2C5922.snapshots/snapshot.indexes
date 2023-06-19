@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="0AE34505-3DFF-47B8-A481-2ADD2B2C5922">
+    <Snapshot Date="2023-06-19 17:04:21 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Notice that we can always use the same strategy with regular labels (scrivauto, scrivauto, scrivauto, scrivauto). This approach could be considered invasive, insofar as it automatically injects labels and IDs into different elements. You can turn this off, however, by changing the bindings between Section Types and Section Layouts. After the template is consolidated, we can introduce a secondary compile format using user-provided labels and IDs as much as possible.
+
+%%| fig-cap: ἡ ψυχή
+
+graph LR
+
+  A(["ἡ ψυχή"])
+  B(["τὸ λόγον ἔχον"])
+  C(["τὸ ἄλογον"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
+
+```{#lst-scrivauto .ruby lst-cap="Ruby code block"}
+puts "Quarto rocks"
+```
+
+Markdown Source
+Output
+`DA`
+DA
+`DABiehl1896 `
+DABiehl1896 
+`DABiehl1896`
+DABiehl1896
+
+: Table sample {#tbl-scrivauto}
+
+
+And see also scrivauto, scrivauto.</Text>
+    </Snapshot>
+</SnapshotIndexes>

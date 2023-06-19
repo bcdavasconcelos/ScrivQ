@@ -97,7 +97,7 @@
 <p class="topLevelItemTitle">Compiler script details</p>
 <p class="itemText">There is a small ruby script that deals with the reformatting from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format:</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…</p>
 </li>
@@ -112,8 +112,8 @@
 <p class="itemText"><p class="p1"><span class="s1">Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see scrivauto), est mægna alienum mentitum ne. [Amet equidem](quarto.org/) sit ex (see scrivauto). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te? <span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-page} "What a trip!" - said Ulysses as he saile...</p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-page} "What a trip!" - said Ulysses as he sail...</p>
 </li>
 <li>
 <p class="topLevelItemTitle">Methods</p>
@@ -229,7 +229,7 @@
 <p class="itemTitle">Figure + Attributes</p>
 <p class="itemText"></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">««AB»» This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details…</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
@@ -251,14 +251,13 @@
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">:::{.column-page}</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-elespan} This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a .column-page class, for Quarto's layout for extend-to-page-width.</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">...</p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-elespan} This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a .column-page class, for Quarto's layout for extend-to-page-width....</p>
 </li>
 <hr class="afterText"/>
 <ul>
 <li>
-<p class="itemTextStart"></span></p></p>
+<p class="itemTextStart">#</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">««AB»» This should span the page to the right in HTML. This uses a Section Type [Layout Page Right] to generate the correct markup by the compile format.</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"></p>
 </li>
@@ -326,10 +325,10 @@
 <li>
 <p class="itemTitle">Multipart Figure</p>
 <p class="itemText"></span></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">{#fig-castle2} Elephant.</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">{#fig-trunk2} Angry elephant with big trunk.</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">This demonstrates generating a multi-panel figure using a Scrivener Section Type [Multipart Figure] instead of using raw markdown as shown here. ID, Class and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and this is then inserted into the markup for this chunk by the Section Layout at compile time. <span class="Apple-converted-space"> </span></span></p></p>
@@ -348,10 +347,10 @@
 <p class="topLevelItemTitle">Discussion</p>
 <p class="itemText">Lørem ipsum dolør sit amet [@siegel2015], eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod siegel2015. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te? <span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">{#fig-alignright fig-align="right"} This should be right-aligned if there is space…</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio u...</p>
+<p class="itemText"><p class="p1"><span class="s1">Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ...</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -503,11 +502,13 @@
 <p class="itemTextStart">The works of `AristOp` were first edited by `AristOp` in `AristOp`.</p>
 </li>
 <li>
-<p class="itemTextStart">New Styles provide support for the cite field Lua Filter, which can be used to cite arbitrary fields of the references.</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">The works of AristOp were first edited by AristOp in AristOp. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia...</p>
+<p class="itemTextStart">New Styles provide support for the cite field Lua Filter, which can be used to cite arbitrary fields of the references.</p>
 </li>
 <li>
-<p class="itemTextStart">Later, the `DA` (`DA`) was edited by `DABiehl1896` in `DABiehl1896` (reprinted in `DATheiler's` `DATheiler` translation)</p>
+<p class="itemTextStart">The works of AristOp were first edited by AristOp in AristOp. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est ...</p>
+</li>
+<li>
+<p class="itemTextStart">Later, the `DA` (`DA`) was edited by `DABiehl1896` in `DABiehl1896` (reprinted in `DATheiler's` `DATheiler` translation).</p>
 </li>
 <li>
 <p class="itemTextStart">Later, the DA was edited by DABiehl1896 in DABiehl1896 (reprinted in DATheiler's DATheiler translation). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in cul...</p>
@@ -550,15 +551,15 @@
 <li>
 <p class="itemTextStart">Belive it or not, Scrivener can be an interesting place to keep parts of your code. We can use the document bookmarks to leave behind an array of possibilities in case we need to revise something. We can easily copy and paste code stored on Quarto's Github repository to compare using Scrivener's superior text matching tool! (My favorite comparison tool is placing the text in different documents and using “matching text” in the Bookmark tab of the right-side inspector in Scrivener.)</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-%auto...</p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-%aut...</p>
 </li>
 <li>
 <p class="itemTextStart"></span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">We can also create interesting possibilities to customize and further control the conversion process, by including in our project the default Pandoc Latex Templates. Customize any line of the whole code. Or not, maybe just leave it there and take a look every once in a while at what is going on at the Quarto repository. The template will work either way.<span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-page} Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex custo...</p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-page} Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex cust...</p>
 </li>
 </ul>
 <hr class="afterText"/>

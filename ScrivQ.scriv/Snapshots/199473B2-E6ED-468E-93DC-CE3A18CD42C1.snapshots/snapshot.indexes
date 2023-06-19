@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="199473B2-E6ED-468E-93DC-CE3A18CD42C1">
+    <Snapshot Date="2023-06-19 17:04:21 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>%%| fig-cap: Figure caption
+%%| column: page
+%%| echo: true
+
+graph TD
+
+  Pred(Predicação)
+  PredicacaoLatoSensu(Predicação Lato Sensu)
+  PredicacaoStrictoSensu(Predicação Stricto Sensu)
+
+  Pred ---&gt; PredicacaoLatoSensu
+  Pred ---&gt; PredicacaoStrictoSensu
+
+  Opt1("Predicado é a essência (τὸ τι ἦν εἶναι)")
+  %% e.g. homem é animal racional
+  Opt2("Predicado não-natural (παρὰ φύσιν)")
+  %% e.g. o musical é branco
+
+
+  PredicacaoLatoSensu -- τὸ αὐτῷ εἶναι κατηγορεῖσθαι --&gt; Opt1
+  PredicacaoLatoSensu -- κατὰ συμβεβηκὸς κατηγορεῖσθαι --&gt; Opt2
+
+  Opt3("Predicado é um acidente")
+  Opt4("Predicado é parte da definição do sujeito")
+
+  PredicacaoStrictoSensu -- ὡς συμβεβηκότα κατηγορεῖσθαι --&gt; Opt3
+  PredicacaoStrictoSensu -- τό ἐν τῷ τί ἐστι --&gt; Opt4
+
+  SubOpt1("Atributos próprios (καθ᾽ αὑτὸ ἴδιον)")
+  SubOpt2("Acidentes per se (συμβεβηκός καθ᾽ αὑτὸ)")
+  SubOpt3("Acidentes simples (ἁπλῶς συμβεβηκός)")
+
+  Opt3 --&gt; SubOpt1
+  Opt3 -- "per se₂" --&gt; SubOpt2
+  Opt3 --&gt; SubOpt3
+
+  SubOpt4("Gênero (γένος)")
+  SubOpt5("Espécie (εἶδος)")
+
+  Opt4 -- "per se₁" --&gt; SubOpt4
+  Opt4 -- "per se₁" --&gt; SubOpt5
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

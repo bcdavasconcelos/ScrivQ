@@ -506,7 +506,7 @@ bibliography_%autoref%: |\
                 <AfterOverride Use="No" Type="Single"/>
             </Separators>
         </Layout>
-        <Layout Name="Pandoc Markdown Div" ID="5C8799CA-AF6F-4B73-A862-DB4D8D751447">
+        <Layout Name="Div" ID="5C8799CA-AF6F-4B73-A862-DB4D8D751447">
             <Include Text="Yes"/>
             <BlankLineSeparator SkipStyles="Yes"></BlankLineSeparator>
             <Titles>
@@ -607,7 +607,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 :::\{.callout-caution #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#<$custom:ID> .callout-caution <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -696,7 +696,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 :::\{.callout-important #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#<$custom:ID> .callout-important <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -785,7 +785,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 :::\{.callout-note #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#<$custom:ID> .callout-note <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -963,7 +963,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 :::\{.callout-warning #%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#<$custom:ID> .callout-warning <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1141,7 +1141,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ```\{#lst-%autoref% <$custom:Class> lst-cap="<$custom:Value>"\}\
+\f0\fs36 \cf0 ```\{#lst-%autoref% lst-cap="<$custom:Value>" <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1321,8 +1321,6 @@ bibliography_%autoref%: |\
 
 \f0\fs36 \cf0 ```\{r\}\
 #| label: %autoref%\
-#| tbl-cap: <$custom:Value>\
-\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1502,7 +1500,6 @@ bibliography_%autoref%: |\
 \f0\fs36 \cf0 ```\{python\}\
 \pard\tx0\tx0\tx567\tx1134\tx1701\sl288\slmult1\pardirnatural\qj\partightenfactor0
 \cf0 #| label: fig-%autoref%\
-#| fig-cap: <$custom:Value>\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1591,7 +1588,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#cnj-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#cnj-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1680,7 +1677,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#cor-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#cor-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1769,7 +1766,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#def-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#def-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1858,7 +1855,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#exm-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#exm-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -1947,7 +1944,7 @@ bibliography_%autoref%: |\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#exr-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#exr-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -2124,7 +2121,7 @@ $$ \{#eq-%autoref%\}\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#lem-%autoref%<$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#lem-%autoref%<$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -2213,7 +2210,7 @@ $$ \{#eq-%autoref%\}\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#prp-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#prp-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -2390,7 +2387,7 @@ $$ \{#eq-%autoref%\}\
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs36 \cf0 ::: \{#thm-%autoref% <$custom:Class> <$custom:Attributes>\}\
+\f0\fs36 \cf0 :::\{#thm-%autoref% <$custom:Class> <$custom:Attributes>\}\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -2556,7 +2553,7 @@ $$ \{#eq-%autoref%\}\
                 <AfterOverride Use="No" Type="Single"/>
             </Separators>
         </Layout>
-        <Layout Name="Diagram Dot + Label + Cap" ID="CAE14D39-7F1C-4CB9-B1FE-68D991D7F3AF">
+        <Layout Name="Diagram Dot + Label" ID="CAE14D39-7F1C-4CB9-B1FE-68D991D7F3AF">
             <Include Text="Yes"/>
             <BlankLineSeparator SkipStyles="Yes"></BlankLineSeparator>
             <Titles>
@@ -2570,7 +2567,6 @@ $$ \{#eq-%autoref%\}\
 
 \f0\fs36 \cf0 ```\{dot\}\
 //| label: fig-%autoref%\
-//| fig-cap: "<$custom:Value>"\
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -2736,7 +2732,7 @@ $$ \{#eq-%autoref%\}\
                 <AfterOverride Use="No" Type="Single"/>
             </Separators>
         </Layout>
-        <Layout Name="Diagram Mermaid + Label + Cap" ID="91CFBF81-92DB-45A7-B09D-90D1647BFB66">
+        <Layout Name="Diagram Mermaid + Label" ID="91CFBF81-92DB-45A7-B09D-90D1647BFB66">
             <Include Text="Yes"/>
             <BlankLineSeparator SkipStyles="Yes"></BlankLineSeparator>
             <Titles>
@@ -2750,7 +2746,6 @@ $$ \{#eq-%autoref%\}\
 
 \f0\fs36 \cf0 ```\{mermaid\}\
 %%| label: fig-%autoref%\
-%%| fig-cap: "<$custom:Value>"\
 \
 }]]></Prefix>
             <Suffix><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
@@ -3586,7 +3581,7 @@ $$ \{#eq-%autoref%\}\
             <RTFBookmark>Yes</RTFBookmark>
             <BlankLineSeparator SkipStyles="Yes"></BlankLineSeparator>
             <Titles>
-                <Suffix><![CDATA[ {.unnumbered #sec-%autoref%}]]></Suffix>
+                <Suffix><![CDATA[ {#sec-%autoref% .unnumbered}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -3679,7 +3674,7 @@ $$ \{#eq-%autoref%\}\
             <RTFBookmark>Yes</RTFBookmark>
             <BlankLineSeparator SkipStyles="Yes"></BlankLineSeparator>
             <Titles>
-                <Suffix><![CDATA[ {.unnumbered id="<$custom:ID>"}]]></Suffix>
+                <Suffix><![CDATA[ {id="<$custom:ID>" .unnumbered}]]></Suffix>
             </Titles>
             <Prefix AfterTitle="Yes"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
@@ -9147,6 +9142,7 @@ Attributes}]]></Format>
 Attributes}]]></Format>
             <RawMarkup>Yes</RawMarkup>
             <Prefix><![CDATA[```{python}
+#| label: fig-%autoref%
 ]]></Prefix>
             <Suffix><![CDATA[
 ```

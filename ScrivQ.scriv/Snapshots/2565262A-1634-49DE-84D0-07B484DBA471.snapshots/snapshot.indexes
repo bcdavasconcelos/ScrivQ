@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="2565262A-1634-49DE-84D0-07B484DBA471">
+    <Snapshot Date="2023-06-19 17:04:21 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Another way to emulate any of the Layout Column sections is to use the Div section, adding .column-&lt;option&gt; to the Class Custom Metadata Field.</Text>
+    </Snapshot>
+    <Snapshot Date="2023-06-18 22:49:37 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>This Marginalia is using a Section Type [Layout Column Margin]. The contents will be assigned the .column-margin class and placed in the margin in HTML and LaTeX outputs. See https://quarto.org/docs/authoring/article-layout.html for details...  
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

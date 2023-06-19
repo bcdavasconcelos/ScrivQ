@@ -215,7 +215,7 @@ Attributes}]]></Format>
     </Style>
     <Style Name="Mermaid Block" ID="89FF8C0B-F83C-47CC-8B76-D0A341FA7194" Type="Para+Char" FontChange="Face+Size" Box="0.92149 0.950892 0.99417" Next="89FF8C0B-F83C-47CC-8B76-D0A341FA7194">
         <Format><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 FiraCode-Regular;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 CodeNewRoman;}
 {\colortbl;\red255\green255\blue255;\red4\green62\blue233;\red228\green231\blue235;}
 {\*\expandedcolortbl;;\cssrgb\c0\c35191\c93227;\cssrgb\c91373\c92549\c93725\c65098;}
 \deftab720
