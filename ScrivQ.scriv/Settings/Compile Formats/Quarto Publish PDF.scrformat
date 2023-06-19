@@ -10073,7 +10073,7 @@ Attributes}]]></Format>
             <Version>3</Version>
         </PandocSettings>
     </EBookSettings>
-    <PostProcessing Enabled="Yes" Type="Script" DeleteFile="Yes">
+    <PostProcessing Enabled="Yes" Type="Path" DeleteFile="Yes">
         <Script><![CDATA[#!/usr/bin/env ruby
 # encoding: utf-8
 
@@ -10308,7 +10308,7 @@ else
   puts "There was some problem opening "#{res}", check compiler log…"
 end
 ]]></Script>
-        <Path>/Users/ian/Code/scrivomatic/quarto-run.rb</Path>
+        <Path>/Users/bcdav/Downloads/ScrivQ-main/rb/compile</Path>
         <Args>&lt;$inputfile&gt; pdf &amp;&gt; Quarto.log</Args>
     </PostProcessing>
 </CompileFormat>

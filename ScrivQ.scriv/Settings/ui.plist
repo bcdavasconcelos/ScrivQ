@@ -597,8 +597,8 @@
 	<false/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {218.5, 1018}}</string>
-		<string>{{219.5, 0}, {1508.5, 1018}}</string>
+		<string>{{0, 0}, {219, 1018}}</string>
+		<string>{{220, 0}, {1508, 1018}}</string>
 	</array>
 	<key>binderWidth</key>
 	<real>183</real>
@@ -1965,8 +1965,10 @@
 		</dict>
 		<key>440041EA-AAA9-4541-8C54-CE4482CCA337</key>
 		<dict>
+			<key>DocID</key>
+			<string>F2A4F170-64C5-4BC3-9C81-DA8A02484321</string>
 			<key>Row</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>4401FBDD-E7B8-44E0-B3F0-D99B62C2A785</key>
 		<dict>
@@ -2691,6 +2693,11 @@
 			<integer>0</integer>
 		</dict>
 		<key>65E94B07-9110-4146-8BE8-96C1D0D6B32E</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>65F3B689-B779-450F-8EED-F01A303B04DB</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -5705,7 +5712,7 @@
 	<key>inspectorSplitFrames</key>
 	<array>
 		<string>{{0, 0}, {1028.5, 988}}</string>
-		<string>{{1029.5, 0}, {479, 988}}</string>
+		<string>{{1029.5, 0}, {478.5, 988}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>435</real>

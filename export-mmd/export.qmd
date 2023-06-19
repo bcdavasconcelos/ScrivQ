@@ -882,6 +882,7 @@ The Plain Person's Guide to Plain Text Social Science - https://plain-text.co/in
 Quarto Reference - https://quarto.org/docs/reference/
 The easiest way to publish to Github Pages: Render to docs
 
+Example of Quarto Book - https://github.com/jjallaire/hopr/blob/master/_quarto.yml
 
 The variables stored here will be accessible via the **Style** `Shortcode Var`.
 
