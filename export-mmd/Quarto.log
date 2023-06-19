@@ -20,7 +20,7 @@ Matched pandocquartolatextemplate to pandocquartolatextemplate
 ----> Error: File _extensions/csl/abnt-phi.csl not found!
 --> Created files: _extensions/bcdavasconcelos/citetools/_extension.yaml, _extensions/bcdavasconcelos/citetools/citation-backlinks.lua, _extensions/bcdavasconcelos/citetools/citefield.lua, _extensions/bcdavasconcelos/citetools/citeproc.lua, _extensions/bcdavasconcelos/citetools/multiple-bibliographies.lua, _extensions/bcdavasconcelos/templates/doc-class.tex, _extensions/bcdavasconcelos/templates/after-body.tex, _extensions/bcdavasconcelos/templates/before-body.tex, _extensions/bcdavasconcelos/templates/biblio.tex, _extensions/bcdavasconcelos/templates/citations.tex, _extensions/bcdavasconcelos/templates/graphics.tex, _extensions/bcdavasconcelos/templates/pandoc.tex, _extensions/bcdavasconcelos/templates/tables.tex, _extensions/bcdavasconcelos/templates/template.tex, _extensions/bcdavasconcelos/templates/title.tex, _extensions/bcdavasconcelos/templates/toc.tex, _extensions/bcdavasconcelos/csl/chicago.csl, index.md, _quarto.yml, _variables.yml, refs/primary-sources.yml, refs/secondary-sources.yml, refs/workflow.bib
 --> Modified File with fixed cross-references: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd
---> Parsing took: 0.041631s
+--> Parsing took: 0.025532s
 
 --> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd" --to pdf
 [31m
@@ -191,7 +191,6 @@ processing file: export.qmd
 [39m[33mWARNING: Unknown variable QUARTO_R specified in an env Shortcode.
 [39m[33mWARNING: Unknown variable PY_PYTHON specified in an env Shortcode.
 [39m[33mWARNING: Unknown variable RETICULATE_PYTHON specified in an env Shortcode.
-[39m[33mWARNING: Unable to resolve crossref @tbl-scriv154
 [39m[1mrunning lualatex - 1[22m
   This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
    restricted system commands enabled.

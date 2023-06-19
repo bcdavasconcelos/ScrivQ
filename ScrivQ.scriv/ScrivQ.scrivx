@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-19 18:15:19 -0300" ModID="C3F81BEE-A7EB-4B59-996A-262CFBE60D46">
+<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-19 18:19:27 -0300" ModID="A77A8F0A-BBF8-457B-B2C4-3DA04E5EE0BE">
     <Binder>
         <BinderItem UUID="C2B7CD89-AB5C-42DC-B877-91BB443E413C" Type="Text" Created="2023-05-18 12:16:02 -0300" Modified="2023-05-23 11:49:13 -0300">
             <Title>Files</Title>
@@ -21839,7 +21839,7 @@ html-q-tags</Value>
                         <TextSelection>849,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-19 18:15:19 -0300">
+                <BinderItem UUID="F2A4F170-64C5-4BC3-9C81-DA8A02484321" Type="Text" Created="2023-06-09 17:32:50 -0300" Modified="2023-06-19 18:19:16 -0300">
                     <Title>Introduction</Title>
                     <MetaData>
                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
@@ -21854,7 +21854,7 @@ html-q-tags</Value>
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>2294,0</TextSelection>
+                        <TextSelection>2873,0</TextSelection>
                     </TextSettings>
                     <Bookmarks>
                         <Bookmark BinderUUID="6B1ADF81-FF2E-4A3F-AD78-8BF49DC26796"/>
@@ -28090,11 +28090,11 @@ html-q-tags</Value>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-06-20 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="18" Characters="152" Date="2023-06-19 18:08:17 -0300"/>
+        <PreviousSession Words="18" Characters="154" Date="2023-06-19 18:08:17 -0300"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2023-06-19 00:00:00 -0300">
         <DraftWordCount>18</DraftWordCount>
-        <DraftCharCount>152</DraftCharCount>
+        <DraftCharCount>154</DraftCharCount>
         <OtherWordCount>-34</OtherWordCount>
         <OtherCharCount>-312</OtherCharCount>
     </RecentWritingHistory>

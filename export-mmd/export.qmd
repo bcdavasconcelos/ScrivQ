@@ -219,7 +219,8 @@ No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intelle
 | Item 4 | Item 5 | Item 6 |
 | Item 7 | Item 8 | Item 9 |
 | Item 10 | Item 11 | Item 12 |
-[{#tbl-scriv154} This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables.]
+
+: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables. {#tbl-scriv154}
 
 Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
 

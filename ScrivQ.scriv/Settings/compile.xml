@@ -58,16 +58,32 @@
     </ProjectSettings>
     <CurrentFileType>mmd</CurrentFileType>
     <FormatSettings>
-        <Format ID="26E1DCAE-43E1-47F4-88ED-387C8B8A7EAD">
+        <Format ID="paperback-6x9">
             <SectionLayouts>
-                <Type ID="2BDAD55B-C0B2-4756-B937-DFF7277AD29B">TEXT-WITH-HEADER</Type>
-                <Type ID="7AB707F6-BEDE-46DB-89A3-5609757C208B">AS-IS</Type>
-                <Type ID="6452C414-94A2-41E1-A014-A97B441B91F8">TEXT-WITH-HEADER</Type>
                 <Type ID="82514BF5-E0E3-4741-98AE-F814CAE63244">AS-IS</Type>
+                <Type ID="2BDAD55B-C0B2-4756-B937-DFF7277AD29B">AS-IS</Type>
+                <Type ID="2CE86258-6E74-458B-9A30-80E4576FF4EB">DC460EDE-9743-4708-A4E8-B101EAD328E4</Type>
+                <Type ID="6452C414-94A2-41E1-A014-A97B441B91F8">D1C35F4C-792E-49A2-BBBE-E6842C9C0FA0</Type>
+                <Type ID="3F514CCD-B716-4FD0-8ACC-F1F2072B9F65">D1848966-5D15-4080-B5FA-EDC5063123B0</Type>
+                <Type ID="5AD39B0F-DA85-4B21-A533-830148C15C93">TEXT-SECTION</Type>
+                <Type ID="52D3A058-E83B-4CAD-B905-648F31414B9B">923B5D83-D682-4091-A4FF-3F87A49A2AD0</Type>
+                <Type ID="5E0103DC-2589-4470-868C-28F73457CA91">AS-IS</Type>
+                <Type ID="E1F57C21-B7BF-4A4A-924D-5732E0EBB37D">AS-IS</Type>
+                <Type ID="726E9003-C014-46B5-A0B3-3826F3DB8AD6">AS-IS</Type>
+                <Type ID="8583DDA1-43B8-4264-8E76-A42DFCD15641">AS-IS</Type>
+                <Type ID="DA258D28-E0C6-4A94-B17B-223EAD20F243">AS-IS</Type>
+                <Type ID="C32620F1-3264-4C2B-8924-83F145E8E823">AS-IS</Type>
+                <Type ID="19A9D861-5FE0-41EA-9F45-0C260B7C4533">AS-IS</Type>
+                <Type ID="54B157A9-615C-494E-8350-0B6FC971E817">AS-IS</Type>
+                <Type ID="75D4020F-486C-4DF6-8212-24981B8F3E50">AS-IS</Type>
+                <Type ID="679A55AF-9F4D-44FD-A45C-662B050A3213">AS-IS</Type>
+                <Type ID="6C419904-1493-4703-846D-EBA2B91208E0">AS-IS</Type>
+                <Type ID="E93F9107-A3D9-44D0-85BD-2F3F939276DC">AS-IS</Type>
+                <Type ID="023D6712-1050-4148-9E55-7FB4F3277A1B">AS-IS</Type>
+                <Type ID="83B637E9-CAAF-40E0-8A3C-C8EF70268325">AS-IS</Type>
+                <Type ID="F613650E-1CDE-409A-A972-431F7E206746">AS-IS</Type>
+                <Type ID="20DEA10D-14B0-49EC-884A-DFA9F5CAC03A">AS-IS</Type>
             </SectionLayouts>
-            <FrontAndBackMatter>
-                <DefaultFrontMatter Add="Yes">6E166A5C-F0A7-4B33-9751-BD511DBF6F55</DefaultFrontMatter>
-            </FrontAndBackMatter>
         </Format>
         <Format ID="4ED07AB2-2F95-4E67-AE1D-F4409CAD055F">
             <SectionLayouts>
@@ -1306,32 +1322,16 @@
                 <DefaultFrontMatter Add="Yes">6E166A5C-F0A7-4B33-9751-BD511DBF6F55</DefaultFrontMatter>
             </FrontAndBackMatter>
         </Format>
-        <Format ID="paperback-6x9">
+        <Format ID="26E1DCAE-43E1-47F4-88ED-387C8B8A7EAD">
             <SectionLayouts>
+                <Type ID="2BDAD55B-C0B2-4756-B937-DFF7277AD29B">TEXT-WITH-HEADER</Type>
+                <Type ID="7AB707F6-BEDE-46DB-89A3-5609757C208B">AS-IS</Type>
+                <Type ID="6452C414-94A2-41E1-A014-A97B441B91F8">TEXT-WITH-HEADER</Type>
                 <Type ID="82514BF5-E0E3-4741-98AE-F814CAE63244">AS-IS</Type>
-                <Type ID="2BDAD55B-C0B2-4756-B937-DFF7277AD29B">AS-IS</Type>
-                <Type ID="2CE86258-6E74-458B-9A30-80E4576FF4EB">DC460EDE-9743-4708-A4E8-B101EAD328E4</Type>
-                <Type ID="6452C414-94A2-41E1-A014-A97B441B91F8">D1C35F4C-792E-49A2-BBBE-E6842C9C0FA0</Type>
-                <Type ID="3F514CCD-B716-4FD0-8ACC-F1F2072B9F65">D1848966-5D15-4080-B5FA-EDC5063123B0</Type>
-                <Type ID="5AD39B0F-DA85-4B21-A533-830148C15C93">TEXT-SECTION</Type>
-                <Type ID="52D3A058-E83B-4CAD-B905-648F31414B9B">923B5D83-D682-4091-A4FF-3F87A49A2AD0</Type>
-                <Type ID="5E0103DC-2589-4470-868C-28F73457CA91">AS-IS</Type>
-                <Type ID="E1F57C21-B7BF-4A4A-924D-5732E0EBB37D">AS-IS</Type>
-                <Type ID="726E9003-C014-46B5-A0B3-3826F3DB8AD6">AS-IS</Type>
-                <Type ID="8583DDA1-43B8-4264-8E76-A42DFCD15641">AS-IS</Type>
-                <Type ID="DA258D28-E0C6-4A94-B17B-223EAD20F243">AS-IS</Type>
-                <Type ID="C32620F1-3264-4C2B-8924-83F145E8E823">AS-IS</Type>
-                <Type ID="19A9D861-5FE0-41EA-9F45-0C260B7C4533">AS-IS</Type>
-                <Type ID="54B157A9-615C-494E-8350-0B6FC971E817">AS-IS</Type>
-                <Type ID="75D4020F-486C-4DF6-8212-24981B8F3E50">AS-IS</Type>
-                <Type ID="679A55AF-9F4D-44FD-A45C-662B050A3213">AS-IS</Type>
-                <Type ID="6C419904-1493-4703-846D-EBA2B91208E0">AS-IS</Type>
-                <Type ID="E93F9107-A3D9-44D0-85BD-2F3F939276DC">AS-IS</Type>
-                <Type ID="023D6712-1050-4148-9E55-7FB4F3277A1B">AS-IS</Type>
-                <Type ID="83B637E9-CAAF-40E0-8A3C-C8EF70268325">AS-IS</Type>
-                <Type ID="F613650E-1CDE-409A-A972-431F7E206746">AS-IS</Type>
-                <Type ID="20DEA10D-14B0-49EC-884A-DFA9F5CAC03A">AS-IS</Type>
             </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">6E166A5C-F0A7-4B33-9751-BD511DBF6F55</DefaultFrontMatter>
+            </FrontAndBackMatter>
         </Format>
     </FormatSettings>
     <LastUsedFormats>

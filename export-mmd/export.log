@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.18)  19 JUN 2023 18:15
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.18)  19 JUN 2023 18:19
  restricted system commands enabled.
 **export.tex
 (./export.tex
@@ -1293,14 +1293,14 @@ Package: amsthm 2020/05/29 v2.20.6
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )
 Class scrbook Info: amsthm's \deferred@thm@head patched.
-\c@corollary=\count340
-\c@exercise=\count341
-\c@theorem=\count342
-\c@conjecture=\count343
-\c@lemma=\count344
-\c@proposition=\count345
-\c@definition=\count346
-\c@example=\count347
+\c@example=\count340
+\c@definition=\count341
+\c@proposition=\count342
+\c@exercise=\count343
+\c@conjecture=\count344
+\c@lemma=\count345
+\c@theorem=\count346
+\c@corollary=\count347
 (/Users/bcdav/Library/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 239.
@@ -2041,21 +2041,481 @@ Underfull \hbox (badness 2359) in paragraph at lines 418--420
  []
 
 
+LaTeX Warning: Reference `tbl-scriv154' on page 3 undefined on input line 448.
+
+
 Underfull \hbox (badness 1062) in paragraph at lines 444--450
 []\TU/Alegreya(0)/m/n/12 No meæ menandri mediøcritatem, meis tibique convenire vis id!
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 469--472
+Underfull \hbox (badness 3861) in paragraph at lines 473--476
 \TU/Alegreya(0)/m/n/12 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
  []
 
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/Alegreya(0)/m/it' tried instead on input line 474.
+(Font)              Font shape `TU/Alegreya(0)/m/it' tried instead on input line 478.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 474.
+(Font)              scaled to size 12.0pt on input line 478.
 [3]
 chapter 3.
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/b/n' will be
-(Font)              scaled to size 16.79695pt on input line 477.
-<Elephant3.jpg,
+(Font)              scaled to size 16.79695pt on input line 481.
+<Elephant3.jpg, id=108, 552.0625pt x 447.6725pt>
+File: Elephant3.jpg Graphic file (type jpg)
+<use Elephant3.jpg>
+Package luatex.def Info: Elephant3.jpg  used on input line 487.
+(luatex.def)             Requested size: 113.80533pt x 92.28577pt.
+
+Underfull \hbox (badness 3240) in paragraph at lines 492--492
+[]\TU/Alegreya(0)/m/n/10 Figure 3.1: |[]A figure of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
+\TU/Alegreya(0)/m/n/10 poor, poor marginalised
+ []
+
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 498.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/m/n' will be
+(Font)              scaled to size 8.4pt on input line 498.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 498.
+
+LaTeX Warning: Reference `eq-scriv156' on page 4 undefined on input line 511.
+
+
+LaTeX Warning: Reference `eq-scriv157' on page 4 undefined on input line 513.
+
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/b/n' will be
+(Font)              scaled to size 11.76563pt on input line 520.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/b/n' will be
+(Font)              scaled to size 8.23593pt on input line 520.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/b/n' will be
+(Font)              scaled to size 5.88281pt on input line 520.
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 520.
+
+LaTeX Warning: Reference `fig-trunk2' on page 4 undefined on input line 525.
+
+[4
+
+
+<./Elephant3.jpg>]
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 552.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 552.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 552.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/b/n' will be
+(Font)              scaled to size 9.80469pt on input line 552.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/b/n' will be
+(Font)              scaled to size 6.86328pt on input line 552.
+LaTeX Font Info:    Font shape `TU/Alegreya(1)/b/n' will be
+(Font)              scaled to size 4.90234pt on input line 552.
+
+Underfull \hbox (badness 1052) in paragraph at lines 550--561
+\TU/Alegreya(0)/m/n/12 alienum, vis id zril åliquando omittantur, no mei graeci impedit
+ []
+
+Package marginnote Info: right page because not two side mode on input line 582.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 582.
+
+Overfull \hbox (13.65761pt too wide) detected at line 582
+[] [] \TU/latinmodern-math.otf(1)/m/n/10 = 𝑓(𝑥).
+ []
+
+
+LaTeX Warning: Reference `fig-scriv174' on page 5 undefined on input line 592.
+
+<Elephant2.jpg, id=135, 552.0625pt x 565.11125pt>
+File: Elephant2.jpg Graphic file (type jpg)
+<use Elephant2.jpg>
+Package luatex.def Info: Elephant2.jpg  used on input line 606.
+(luatex.def)             Requested size: 182.9309pt x 187.25471pt.
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 610.
+File: Elephant3.jpg Graphic file (type jpg)
+<use Elephant3.jpg>
+Package luatex.def Info: Elephant3.jpg  used on input line 621.
+(luatex.def)             Requested size: 228.85738pt x 185.58252pt.
+
+LaTeX Warning: Reference `fig-elephants' on page 5 undefined on input line 638.
+
+
+LaTeX Warning: Reference `fig-castle' on page 5 undefined on input line 640.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 656--662
+[]\TU/Alegreya(0)/m/n/12 No meæ menandri mediøcritatem, meis tibique convenire vis id!
+ []
+
+[5]
+Underfull \hbox (badness 3861) in paragraph at lines 671--674
+\TU/Alegreya(0)/m/n/12 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
+ []
+
+
+LaTeX Warning: Reference `fig-scriv159' on page 6 undefined on input line 692.
+
+[6<./Elephant2.jpg>]
+<export_files/figure-pdf/fig-scriv159-1.pdf, id=168, 387.4475pt x 242.9075pt>
+File: export_files/figure-pdf/fig-scriv159-1.pdf Graphic file (type pdf)
+<use export_files/figure-pdf/fig-scriv159-1.pdf>
+Package luatex.def Info: export_files/figure-pdf/fig-scriv159-1.pdf  used on input line 708.
+(luatex.def)             Requested size: 387.44655pt x 242.90689pt.
+Package marginnote Info: right page because not two side mode on input line 722.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 722.
+LaTeX Font Info:    Font shape `TU/CodeNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.09602pt on input line 732.
+
+Underfull \hbox (badness 1062) in paragraph at lines 752--756
+[]\TU/Alegreya(0)/m/n/12 No meæ menandri mediøcritatem, meis tibique convenire vis id!
+ []
+
+[7<./export_files/figure-pdf/fig-scriv159-1.pdf>]
+<export_files/figure-latex/dot-figure-1.png, id=189, 3966.82pt x 2641.87pt>
+File: export_files/figure-latex/dot-figure-1.png Graphic file (type png)
+<use export_files/figure-latex/dot-figure-1.png>
+Package luatex.def Info: export_files/figure-latex/dot-figure-1.png  used on input line 773.
+(luatex.def)             Requested size: 379.7572pt x 252.91522pt.
+
+Overfull \hbox (38.32414pt too wide) in paragraph at lines 773--774
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-scriv163' on page 8 undefined on input line 795.
+
+
+LaTeX Warning: Reference `fig-scriv165' on page 8 undefined on input line 797.
+
+<export_files/figure-latex/dot-figure-2.png, id=190, 6183.1pt x 2730.2pt>
+File: export_files/figure-latex/dot-figure-2.png Graphic file (type png)
+<use export_files/figure-latex/dot-figure-2.png>
+Package luatex.def Info: export_files/figure-latex/dot-figure-2.png  used on input line 806.
+(luatex.def)             Requested size: 397.48134pt x 175.51123pt.
+
+Overfull \hbox (56.04828pt too wide) in paragraph at lines 806--807
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
+(Font)              scaled to size 10.95pt on input line 814.
+<export_files/figure-latex/mermaid-figure-1.png, id=191, 4416.5pt x 1067.99pt>
+File: export_files/figure-latex/mermaid-figure-1.png Graphic file (type png)
+<use export_files/figure-latex/mermaid-figure-1.png>
+Package luatex.def Info: export_files/figure-latex/mermaid-figure-1.png  used on input line 831.
+(luatex.def)             Requested size: 414.04587pt x 100.12381pt.
+
+Overfull \hbox (72.61281pt too wide) in paragraph at lines 831--832
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 843--847
+[]\TU/Alegreya(0)/m/n/12 No meæ menandri mediøcritatem, meis tibique convenire vis id!
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 848--851
+[]\TU/Alegreya(0)/m/n/12 Åd nam omnis ullamcørper vituperatoribus. Sed vereartincidunt
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 848--851
+\TU/Alegreya(0)/m/n/12 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
+ []
+
+[8<./export_files/figure-latex/dot-figure-1.png>] [9<./export_files/figure-latex/dot-figure-2.png><./export_files/figure-latex/mermaid-figure-1.png>]
+Underfull \hbox (badness 1062) in paragraph at lines 852--858
+[]\TU/Alegreya(0)/m/n/12 No meæ menandri mediøcritatem, meis tibique convenire vis id!
+ []
+
+
+LaTeX Warning: Reference `fig-scriv167' on page 10 undefined on input line 865.
+
+File: Ulysses1.jpg Graphic file (type jpg)
+<use Ulysses1.jpg>
+Package luatex.def Info: Ulysses1.jpg  used on input line 870.
+(luatex.def)             Requested size: 404.26323pt x 333.53624pt.
+[10]
+chapter 4.
+
+LaTeX Warning: Reference `fig-elespan' on page 11 undefined on input line 895.
+
+<Elephant1.jpg, id=231, 1003.75pt x 510.90875pt>
+File: Elephant1.jpg Graphic file (type jpg)
+<use Elephant1.jpg>
+Package luatex.def Info: Elephant1.jpg  used on input line 901.
+(luatex.def)             Requested size: 387.4941pt x 197.23448pt.
+File: Elephant1.jpg Graphic file (type jpg)
+<use Elephant1.jpg>
+Package luatex.def Info: Elephant1.jpg  used on input line 921.
+(luatex.def)             Requested size: 483.70903pt x 246.20789pt.
+
+LaTeX Warning: Reference `fig-elespan' on page 11 undefined on input line 930.
+
+
+LaTeX Warning: Reference `fig-elespan' on page 11 undefined on input line 930.
+
+File: Elephant3.jpg Graphic file (type jpg)
+<use Elephant3.jpg>
+Package luatex.def Info: Elephant3.jpg  used on input line 944.
+(luatex.def)             Requested size: 380.94037pt x 308.90802pt.
+
+LaTeX Warning: Reference `tbl-second' on page 11 undefined on input line 957.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 1005--1009
+[]\TU/Alegreya(0)/m/n/12 No meæ menandri mediøcritatem, meis tibique convenire vis id!
+ []
+
+[11
+
+
+<./Elephant1.jpg>] [12]
+
+LaTeX Warning: Reference `tbl-scriv172' on page 13 undefined on input line 1014.
+
+
+LaTeX Warning: Reference `tbl-first2' on page 13 undefined on input line 1016.
+
+
+LaTeX Warning: Reference `tbl-second2' on page 13 undefined on input line 1018.
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 1010--1020
+\TU/Alegreya(0)/m/n/12 rationibus an. Elit såperet recteque sit et, tåmquåm noluisse
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 1068--1068
+\TU/Alegreya(0)/m/n/10.95 using a Section Type [\TU/CodeNewRoman(0)/m/n/10.95 Multipart Table\TU/Alegreya(0)/m/n/10.95 ]. Note that Custom
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1068--1068
+\TU/Alegreya(0)/m/n/10.95 attributes for this multipart table, which will be added by the
+ []
+
+[13]
+File: Elephant2.jpg Graphic file (type jpg)
+<use Elephant2.jpg>
+Package luatex.def Info: Elephant2.jpg  used on input line 1095.
+(luatex.def)             Requested size: 184.43875pt x 188.79822pt.
+File: Elephant3.jpg Graphic file (type jpg)
+<use Elephant3.jpg>
+Package luatex.def Info: Elephant3.jpg  used on input line 1106.
+(luatex.def)             Requested size: 230.36523pt x 186.80525pt.
+
+Overfull \hbox (4.8343pt too wide) in paragraph at lines 1091--1112
+[][][] 
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 1125--1131
+\TU/Alegreya(0)/m/n/12 a Section Type [\TU/CodeNewRoman(0)/m/n/12 Callout Caution\TU/Alegreya(0)/m/n/12 ] rather than a paragraph style.
+ []
+
+[14]
+chapter 5.
+File: Ulysses1.jpg Graphic file (type jpg)
+<use Ulysses1.jpg>
+Package luatex.def Info: Ulysses1.jpg  used on input line 1153.
+(luatex.def)             Requested size: 230.35045pt x 190.04999pt.
+
+Underfull \hbox (badness 1028) in paragraph at lines 1160--1167
+\TU/Alegreya(0)/m/n/12 suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius
+ []
+
+Package marginnote Info: right page because not two side mode on input line 1178.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 1178.
+
+Overfull \hbox (13.65761pt too wide) detected at line 1178
+[][][][][]
+ []
+
+[15
+
+
+]
+chapter 6.
+[16
+
+
+]
+chapter 7.
+[17
+
+
+]
+chapter 8.
+
+Underfull \hbox (badness 2134) in paragraph at lines 1220--1223
+[]\TU/Alegreya(0)/m/n/12 This template descends from Ian’s excellent []Quarto template for
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 1264--1277
+\TU/Alegreya(0)/m/n/12 Sponsors (github.com/sponsors/bcdavasconcelos) to help me keep
+ []
+
+[18
+
+
+]
+<yaml.png, id=346, 537.95345pt x 451.06448pt>
+File: yaml.png Graphic file (type png)
+<use yaml.png>
+Package luatex.def Info: yaml.png  used on input line 1280.
+(luatex.def)             Requested size: 403.51334pt x 338.33882pt.
+
+Overfull \hbox (62.08028pt too wide) in paragraph at lines 1280--1281
+ [][] 
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 1305--1310
+\TU/Alegreya(0)/b/n/12 reference Environments \TU/Alegreya(0)/m/n/12 (Conjecture, Corollary, Definition,
+ []
+
+[19<./yaml.png>]
+
+LaTeX Warning: Reference `cnj-scriv183' on page 20 undefined on input line 1322.
+
+
+LaTeX Warning: Reference `cor-scriv183' on page 20 undefined on input line 1323.
+
+
+LaTeX Warning: Reference `def-scriv183' on page 20 undefined on input line 1324.
+
+
+LaTeX Warning: Reference `exm-scriv183' on page 20 undefined on input line 1325.
+
+
+LaTeX Warning: Reference `exr-scriv183' on page 20 undefined on input line 1326.
+
+
+LaTeX Warning: Reference `lem-scriv183' on page 20 undefined on input line 1327.
+
+
+LaTeX Warning: Reference `prp-scriv183' on page 20 undefined on input line 1328.
+
+
+LaTeX Warning: Reference `thm-scriv183' on page 20 undefined on input line 1329.
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 1318--1335
+\TU/Alegreya(0)/m/n/12 To reference them, use \TU/CodeNewRoman(0)/m/n/12 scrivautο\TU/Alegreya(0)/m/n/12 , \TU/CodeNewRoman(0)/m/n/12 %autοref%\TU/Alegreya(0)/m/n/12 , \TU/CodeNewRoman(0)/m/n/12 [autοref] \TU/Alegreya(0)/m/n/12 or
+ []
+
+
+LaTeX Warning: Reference `cnj-scriv184' on page 20 undefined on input line 1386.
+
+
+LaTeX Warning: Reference `cor-scriv185' on page 20 undefined on input line 1387.
+
+
+LaTeX Warning: Reference `def-scriv186' on page 20 undefined on input line 1388.
+
+
+LaTeX Warning: Reference `exm-scriv187' on page 20 undefined on input line 1389.
+
+
+LaTeX Warning: Reference `exr-scriv188' on page 20 undefined on input line 1390.
+
+
+LaTeX Warning: Reference `lem-scriv189' on page 20 undefined on input line 1391.
+
+
+LaTeX Warning: Reference `prp-scriv190' on page 20 undefined on input line 1392.
+
+
+LaTeX Warning: Reference `thm-scriv191' on page 20 undefined on input line 1393.
+
+[20]
+
+LaTeX Warning: Reference `eq-scriv192' on page 21 undefined on input line 1450.
+
+
+LaTeX Warning: Reference `fig-scriv192' on page 21 undefined on input line 1451.
+
+
+LaTeX Warning: Reference `lst-scriv192' on page 21 undefined on input line 1452.
+
+
+LaTeX Warning: Reference `tbl-scriv192' on page 21 undefined on input line 1453.
+
+<export_files/figure-latex/mermaid-figure-2.png, id=410, 2224.31pt x 1172.38pt>
+File: export_files/figure-latex/mermaid-figure-2.png Graphic file (type png)
+<use export_files/figure-latex/mermaid-figure-2.png>
+Package luatex.def Info: export_files/figure-latex/mermaid-figure-2.png  used on input line 1467.
+(luatex.def)             Requested size: 208.39279pt x 109.83879pt.
+Package hyperref Info: bookmark level for unknown codelisting defaults to 0 on input line 1483.
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 8.1 on input line 1511.
+
+
+LaTeX Warning: Reference `eq-scriv193' on page 21 undefined on input line 1514.
+
+
+LaTeX Warning: Reference `tbl-scriv194' on page 21 undefined on input line 1515.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1513--1516
+
+ []
+
+[21<./export_files/figure-latex/mermaid-figure-2.png>]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 8.2 on input line 1533.
+
+Package marginnote Info: right page because not two side mode on input line 1588.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 1588.
+Package marginnote Info: right page because not two side mode on input line 1612.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 1612.
+
+Overfull \hbox (1.12975pt too wide) in paragraph at lines 1612--1612
+\TU/CodeNewRoman(0)/m/n/10 [@DABiehl1896]{.editor} 
+ []
+
+
+Overfull \hbox (1.12975pt too wide) in paragraph at lines 1612--1612
+\TU/CodeNewRoman(0)/m/n/10 [@DABiehl1896]{.issued} 
+ []
+
+
+Overfull \hbox (21.18619pt too wide) in paragraph at lines 1612--1612
+\TU/CodeNewRoman(0)/m/n/10 [@DATheiler]{.translator}'s 
+ []
+
+[22]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 8.3 on input line 1652.
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 1654--1657
+[]\TU/Alegreya(0)/m/sc/12 4. A󰁁󰁁󰁈󰁁 \TU/Alegreya(0)/m/n/12 the prefix \TU/CodeNewRoman(0)/m/n/12 []{#scriv\<$linkID>} \TU/Alegreya(0)/m/n/12 to some \TU/Alegreya(0)/b/n/12 Section
+ []
+
+<scrivenerwithcode.png, id=467, 556.26976pt x 347.34668pt>
+File: scrivenerwithcode.png Graphic file (type png)
+<use scrivenerwithcode.png>
+Package luatex.def Info: scrivenerwithcode.png  used on input line 1672.
+(luatex.def)             Requested size: 417.06548pt x 260.42456pt.
+
+Overfull \hbox (75.63242pt too wide) in paragraph at lines 1672--1673
+ [][] 
+ []
+
+<pandocquartolatextemplate.png, id=468, 548.93433pt x 343.52127pt>
+File: pandocquartolatextemplate.png Graphic file (type png)
+<use pandocquartolatextemplate.png>
+Package luatex.def Info: pandocquartolatextemplate.png  used on input line 1691.
+(luatex.def)             Requested size: 41
