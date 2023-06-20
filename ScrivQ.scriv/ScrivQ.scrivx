@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-19 18:19:27 -0300" ModID="A77A8F0A-BBF8-457B-B2C4-3DA04E5EE0BE">
+<ScrivenerProject Identifier="F31D7FF7-8333-4DC6-9026-DE3A1367D400" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="MBP-M1-Max" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2023-06-19 18:30:02 -0300" ModID="56CB6AA6-3BAE-478C-AE2E-87C9AC4FFA35">
     <Binder>
         <BinderItem UUID="C2B7CD89-AB5C-42DC-B877-91BB443E413C" Type="Text" Created="2023-05-18 12:16:02 -0300" Modified="2023-05-23 11:49:13 -0300">
             <Title>Files</Title>
@@ -21854,7 +21854,7 @@ html-q-tags</Value>
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>2873,0</TextSelection>
+                        <TextSelection>2925,0</TextSelection>
                     </TextSettings>
                     <Bookmarks>
                         <Bookmark BinderUUID="6B1ADF81-FF2E-4A3F-AD78-8BF49DC26796"/>
@@ -23062,7 +23062,7 @@ html-q-tags</Value>
                                 <IconFileName>Toolbar (Call-out Flash-on).png</IconFileName>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>894,0</TextSelection>
+                                <TextSelection>484,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="A8EBA04B-7CA7-4024-A9D6-3C70825C0C6C" Type="Text" Created="2023-06-15 00:29:32 -0300" Modified="2023-06-16 16:13:57 -0300">

@@ -156,8 +156,6 @@ format:
 link-fields: false  
 link-citations: true  
 link-bibliography: true  
-csl: |
-   _extensions/csl/abnt-phi.csl  
 notes-after-punctuation: true  
 citeproc: false  
 verbose: false  
@@ -165,25 +163,25 @@ verbosity: ERROR
 validate-yaml: false
 ---
 
-# Abstract {#sec-scriv153}
+# Abstract {#sec-scriv152}
+
+
+[]{#scriv152}
+
+[This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler]{.smallcaps}. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto's layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener's markdown output so that it is compatible with Quarto's cross-referencing filter.  
+
+# Introduction {#sec-scriv153}
 
 
 []{#scriv153}
 
-[This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler]{.smallcaps}. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto's layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener's markdown output so that it is compatible with Quarto's cross-referencing filter.  
-
-# Introduction {#sec-scriv154}
-
-
-[]{#scriv154}
-
 > *"We don't see things as they are, we see them as we are." --- Anaïs Nin*  
 
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium^[This is a footnote, **with** a citation [@crivellato2007].] te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see [@sec-scriv168]), est mægna alienum mentitum ne. [Amet equidem](quarto.org/) sit ex (see [@sec-scriv176]). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium^[This is a footnote, **with** a citation [@crivellato2007].] te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see [@sec-scriv165]), est mægna alienum mentitum ne. [Amet equidem](quarto.org/) sit ex (see [@sec-scriv173]). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
-!["*What a trip!*" - said Ulysses as he sailed by the sirens. We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block!](Ulysses1.jpg){#fig-scriv154 .column-page width=486 height=402}
+!["*What a trip!*" - said Ulysses as he sailed by the sirens. We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block!](Ulysses1.jpg){#fig-scriv153 .column-page width=486 height=402}
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum[@crivellato2007], pro paulo ridens quaestio ut (see [@fig-scriv154])! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, **_his åt justo putant comprehensam (this style is strong emphasis)_**.  
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum[@crivellato2007], pro paulo ridens quaestio ut (see [@fig-scriv153])! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, **_his åt justo putant comprehensam (this style is strong emphasis)_**.  
 
 Ad pro quod ^superscript^, mel no laudem ~subscript~, te mei prompta maiorum pønderum [@siegel2015; @copenhaver2014; @hoffman2014; @barrett2015; @simmons2013]. Solum aeque singulis duo ex, est an iriure øblique.  
 
@@ -210,7 +208,7 @@ This is a standard native Scrivener list, which will get converted to markdown b
     * Item 2b
 * Item 3
 
-No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  See [@tbl-scriv154] for more details.   
+No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  See [@tbl-scriv153] for more details.   
 
 
 | Table Head 1 | Table Head 2 | Table Head 3 |
@@ -220,20 +218,20 @@ No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intelle
 | Item 7 | Item 8 | Item 9 |
 | Item 10 | Item 11 | Item 12 |
 
-: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables. {#tbl-scriv154}
+: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables. {#tbl-scriv153}
 
 Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
 
-# Methods {#sec-scriv155}
+# Methods {#sec-scriv154}
 
-## Data Recording {#sec-scriv156}
+## Data Recording {#sec-scriv155}
 
 
-[]{#scriv156}
+[]{#scriv155}
 
 
 :::{.column-margin}
-![A figure of a poor, poor marginalised elephant...](Elephant3.jpg){#fig-scriv156}
+![A figure of a poor, poor marginalised elephant...](Elephant3.jpg){#fig-scriv155}
 :::
 
 
@@ -241,16 +239,16 @@ Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te 
 
 Note that for equations we place the cross-referencing label on a newline *after* the [`Maths Block`] (as paragraph styles require to run to the line end, we cannot keep the label on the same line or it will be 'swallowed' by the suffix). The post-processing script will place this label back on the same line *after* the `$$` has been added by Scrivener's compiler so that Quarto can properly cross-reference it...  
 
-See both [@eq-scriv156] and [@eq-scriv157] for more details:
+See both [@eq-scriv155] and [@eq-scriv156] for more details:
 
 
-$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv156}
+$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv155}
 
   
 Sint meis quo et, vis ad fæcete dolorem!
 
 
-$$\nabla \times \mathbf {H} ={\frac {1}{c}}\left(4\pi \mathbf {J} _{\text{f}}+{\frac {\partial \mathbf {D} }{\partial t}}\right)$$ {#eq-scriv157}
+$$\nabla \times \mathbf {H} ={\frac {1}{c}}\left(4\pi \mathbf {J} _{\text{f}}+{\frac {\partial \mathbf {D} }{\partial t}}\right)$$ {#eq-scriv156}
 
 Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See [@fig-trunk2] for a poor marginalised elephant. Ad quøt moderatius elaboraret eum [@siegel2015], pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm?
 
@@ -274,10 +272,10 @@ puts say.upcase
 
 Ad pro quod definitiønem^[Another footnote. Although footnotes get converted just fine, one caveat is you cannot use Scrivener inline styles, so you **must** use Pandoc markup *directly*.], mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex [@siegel2015], est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
 
-## Experimental Perturbations {#sec-scriv158}
+## Experimental Perturbations {#sec-scriv157}
 
 
-[]{#scriv158}
+[]{#scriv157}
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
@@ -290,7 +288,7 @@ $$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
 
 Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
 
-This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See [@fig-scriv174 ]below for an example using a Section Type to insert the same markup at compile-time.
+This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See [@fig-scriv171 ]below for an example using a Section Type to insert the same markup at compile-time.
 
 
 ::: {#fig-elephants .column-page layout-ncol=2 layout-valign="top"}
@@ -328,57 +326,20 @@ Note that there are five types of callouts, including:
 `note`, `tip`, `warning`, `caution`, and `important`.
 :::
 
-## Stimulus Plotting {#sec-scriv159}
 
-
-[]{#scriv159}
-
-Note if you have R and Python installed, you can run code like so...
-
-Here is an R plot ([@fig-scriv159]), you need to have R installed for this to work, if not remove this document from the compile:  
-
-
-```{r}
-#| label: fig-scriv159
-#| fig-cap: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level.
-#| column: page
-#| warning: false
-
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess")
-```
-
-
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. [This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. ]{.aside}Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-  
-```{r}
-#| label: scriv160
-#| tbl-cap: This table uses Section Type `[Code R]` to insert the correct markup at compile, this is an alternative to using the `[R Block]` paragraph style. This shows a table generated by the R package *kableExtra*. Currently this works for HTML and LaTeX.
-#| echo: false
-
-# install.packages("kableExtra") # you need to install this in R
-library(kableExtra)
-dt <- mtcars[1:5, 1:6]
-kbl(dt) %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
-
-```
   
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, *ei ius apeirian cønstituam mediocritatem,* mei rebum detracto scaevølæ ex. Sed modo dico ullum at, **sententiae definiebas ex eam**! Nøstro eruditi eum ex.  
 
-## Statistical Analysis {#sec-scriv162}
+## Statistical Analysis {#sec-scriv159}
 
 
-[]{#scriv162}
+[]{#scriv159}
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
 
 ```{dot}
-//| label: fig-scriv162
+//| label: fig-scriv159
 //| fig-cap: "A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details..."
 
 graph G {
@@ -399,11 +360,11 @@ graph G {
 }
 ```
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [@fig-scriv163] and [@fig-scriv165] for details.
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [@fig-scriv160] and [@fig-scriv162] for details.
 
   
 ```{dot}
-//| label: fig-scriv163
+//| label: fig-scriv160
 digraph finite_state_machine {
 	Fontname="Avenir,Helvetica,sans-serif"
 	node [fontname="Avenir,Helvetica,sans-serif"]
@@ -432,7 +393,7 @@ digraph finite_state_machine {
 Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
   
 ```{mermaid}
-%%| label: fig-scriv165
+%%| label: fig-scriv162
 
 flowchart LR
   A[Hard edge] --> B(Round edge)
@@ -447,20 +408,20 @@ No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intelle
 
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex [@siegel2015], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [@fig-scriv167] for details.  
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [@fig-scriv164] for details.  
   
 
 
-![This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details...](Ulysses1.jpg){#fig-scriv167 .column-page width=537 height=444}
+![This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details...](Ulysses1.jpg){#fig-scriv164 .column-page width=537 height=444}
 
 {{< pagebreak >}}
 
-# Results {#sec-scriv168}
+# Results {#sec-scriv165}
 
-## Lunar Cycles {#sec-scriv169}
+## Lunar Cycles {#sec-scriv166}
 
 
-[]{#scriv169}
+[]{#scriv166}
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex (see @fig-elespan). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
@@ -481,7 +442,7 @@ Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pr
 Ad pro quod definitiønem [@crivellato2007], mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! 
   
 :::{.column-page-right}
-![This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format.](Elephant3.jpg){#fig-scriv170 width=506 height=411}
+![This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format.](Elephant3.jpg){#fig-scriv167 width=506 height=411}
 
 :::
   
@@ -511,10 +472,10 @@ This is a markdown table panel with two sub-tables; just using plain markdown in
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
 
 
-Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  Please refer to [@tbl-scriv172], including [@tbl-first2] and [@tbl-second2] for more details.
+Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  Please refer to [@tbl-scriv169], including [@tbl-first2] and [@tbl-second2] for more details.
 
   
-:::{#tbl-scriv172   layout-ncol=1}
+:::{#tbl-scriv169   layout-ncol=1}
 
 | Column 1 | Column 2 | Column 3 |
 | :-----: | :-----: | :-----: |
@@ -537,10 +498,10 @@ This is a markdown multi-table panel with two sub-tables generated using a Secti
 
 :::
 
-## Solar Cycles {#sec-scriv173}
+## Solar Cycles {#sec-scriv170}
 
 
-[]{#scriv173}
+[]{#scriv170}
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
 
@@ -549,7 +510,7 @@ Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pr
 
 
   
-:::{#fig-scriv174 .column-page layout-ncol=2 layout-valign="bottom"}
+:::{#fig-scriv171 .column-page layout-ncol=2 layout-valign="bottom"}
 
 ![Elephant.](Elephant2.jpg){#fig-castle2 width=245 height=252}
 
@@ -559,7 +520,7 @@ This demonstrates generating a multi-panel figure using a Scrivener Section Type
 
 :::
   
-:::{#%autoref% .callout-caution }
+:::{# .callout-caution }
 This is a callout, but generated using a Section Type [`Callout Caution`] rather than a paragraph style. Scrivener allows both modes of working and you can choose either depending on your preference! Don't forget to utilise Scrivenings mode if you use lots of Section Types so you can edit as a 'single' document...
 
 :::
@@ -570,7 +531,7 @@ This is a callout, but generated using a Section Type [`Callout Caution`] rather
   
 {{< pagebreak >}}
 
-# Discussion {#sec-scriv176}
+# Discussion {#sec-scriv173}
 
 Lørem ipsum dolør sit amet [@siegel2015], eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@siegel2015]. Sed illum minimum^[A final footnote.] at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te?  
 
@@ -583,7 +544,7 @@ Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pr
 :::{.column-margin}
 This Marginalia is using a Section Type [`Layout Margin`]. We can therefore use paragraph styles here, like [`Maths Block`]. We know from the *first fundamental theorem of calculus* that for $x$ in $[a, b]$
 
-$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$ {#eq-scriv177}
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$ {#eq-scriv174}
 
 :::
   
@@ -591,20 +552,20 @@ Ad pro quod definitiønem, mel no laudem delectus [@siegel2015], te mei prompta 
 
 No meæ menandri mediøcritatem [@siegel2015; @barrett2015; @crivellato2007], meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
 
-# Acknowledgments {#sec-scriv179 .appendix  }
+# Acknowledgments {#sec-scriv176 .appendix  }
 
 I am grateful for the insightful comments offered by the anonymous peer reviewers at Cephalopoda & Daughters. The generosity and expertise of one and all have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.
 
 
-# Conflicts of Interest {#sec-scriv180 .appendix  }
+# Conflicts of Interest {#sec-scriv177 .appendix  }
 
 The authors do **_love_** octopods, but this in no way biases their work.
 
 
-# Changes {#sec-scriv181}
+# Changes {#sec-scriv178}
 
 
-[]{#scriv181}
+[]{#scriv178}
 
 
 By Bernardo Vasconcelos (see [this thread](forum.literatureandlatte.com/t/scrivener-quarto-cite-tools-advanced-bibliography-for-a-technical-academic-publishing-workflow/133803), and [this thread](forum.literatureandlatte.com/t/134755)).
@@ -629,10 +590,10 @@ I included *nearly* every option for Quarto Books and Websites, totaling 619 par
 ![The new layout makes it easier editing parameters without disturbing YAML's sensitive white space rules.](yaml.png){#fig-crossref width=536 height=450}
 
 
-## Cross-referencing {#sec-scriv182}
+## Cross-referencing {#sec-scriv179}
 
 
-[]{#scriv182}
+[]{#scriv179}
 
 This template makes extensive use of `\<$linkID>`, that is, the ID generated by Scrivener for each binder item at compile time. When we create a section or apply the paragraph style, this section or text block automatically receives the appropriate ID. This means that a table, for example, will receive `tbl-scrivID` as ID, and an example will receive `exm-scrivID`, a theorem will receive `thm-scrivID`, and so on, each with the appropriate prefix. 
 
@@ -642,97 +603,97 @@ This template makes extensive use of `\<$linkID>`, that is, the ID generated by 
 :::
 
 
-### cnj, cor, def, exm, exr, lem, prp, thm {#sec-scriv183}
+### cnj, cor, def, exm, exr, lem, prp, thm {#sec-scriv180}
 
 
-[]{#scriv183}
+[]{#scriv180}
 
 
-To reference them, use `scrivautο`, `%autοref%`, `[autοref]` or simply `scriv` &  `<\$linkID>` with the proper style applied; that is, [@cnj-scriv183], [@cor-scriv183], [@def-scriv183], [@exm-scriv183], [@exr-scriv183], [@lem-scriv183], [@prp-scriv183], [@thm-scriv183]. **Notice** that they **all** refer *to the same document*, but each uses a **Style** corresponding to a different object (Conjecture, Corollary, Definition, and so on). The caveat here is that we **_cannot_** have more than [one]{.underline} of each kind per binder item, otherwise they will receive the same `ID`.
+To reference them, use `scrivautο`, `%autοref%`, `[autοref]` or simply `scriv` &  `<\$linkID>` with the proper style applied; that is, [@cnj-scriv180], [@cor-scriv180], [@def-scriv180], [@exm-scriv180], [@exr-scriv180], [@lem-scriv180], [@prp-scriv180], [@thm-scriv180]. **Notice** that they **all** refer *to the same document*, but each uses a **Style** corresponding to a different object (Conjecture, Corollary, Definition, and so on). The caveat here is that we **_cannot_** have more than [one]{.underline} of each kind per binder item, otherwise they will receive the same `ID`.
 
-::: {#cnj-scriv183}
+::: {#cnj-scriv180}
 Conjecture environment
 :::
 
 
-::: {#cor-scriv183}
+::: {#cor-scriv180}
 Corollary environment
 :::
 
 
-::: {#def-scriv183}
+::: {#def-scriv180}
 Definition environment
 :::
 
 
-::: {#exm-scriv183}
+::: {#exm-scriv180}
 Example environment
 :::
 
 
-::: {#exr-scriv183}
+::: {#exr-scriv180}
 Exercise environment
 :::
 
 
-::: {#lem-scriv183}
+::: {#lem-scriv180}
 Lemma environment
 :::
 
 
-::: {#prp-scriv183}
+::: {#prp-scriv180}
 Proposition environment
 :::
 
 
-::: {#thm-scriv183}
+::: {#thm-scriv180}
 Theorem environment
 :::
 
 
-As we mentioned, you can also create environments using **Section Types** instead of styles. See [@cnj-scriv184], [@cor-scriv185], [@def-scriv186], [@exm-scriv187], [@exr-scriv188], [@lem-scriv189], [@prp-scriv190], [@thm-scriv191].
+As we mentioned, you can also create environments using **Section Types** instead of styles. See [@cnj-scriv181], [@cor-scriv182], [@def-scriv183], [@exm-scriv184], [@exr-scriv185], [@lem-scriv186], [@prp-scriv187], [@thm-scriv188].
   
-:::{#cnj-scriv184  }
+:::{#cnj-scriv181  }
 Conjecture content. Notice that I am free to use Scrivener styles in this environment.
 :::
   
-:::{#cor-scriv185  }
+:::{#cor-scriv182  }
 Corollary content
 :::
   
-:::{#def-scriv186  }
+:::{#def-scriv183  }
 Definition content
 :::
   
-:::{#exm-scriv187  }
+:::{#exm-scriv184  }
 Example content
 :::
   
-:::{#exr-scriv188  }
+:::{#exr-scriv185  }
 Exercise content
 :::
   
-:::{#lem-scriv189 }
+:::{#lem-scriv186 }
 Lemma content
 :::
   
-:::{#prp-scriv190  }
+:::{#prp-scriv187  }
 Proposition content
 :::
   
-:::{#thm-scriv191  }
+:::{#thm-scriv188  }
 Theorem content
 :::
 
-### eq, lst, fig, tbl {#sec-scriv192}
+### eq, lst, fig, tbl {#sec-scriv189}
 
 
-[]{#scriv192}
+[]{#scriv189}
 
-Notice that we can always use the same strategy with regular labels ([@eq-scriv192], [@fig-scriv192], [@lst-scriv192], [@tbl-scriv192]). This approach could be considered invasive, insofar as it automatically injects labels and IDs into different elements. You can turn this off, however, by changing the bindings between **Section Types** and **Section Layouts**. After the template is consolidated, we can introduce a secondary compile format using user-provided labels and IDs as much as possible.
+Notice that we can always use the same strategy with regular labels ([@eq-scriv189], [@fig-scriv189], [@lst-scriv189], [@tbl-scriv189]). This approach could be considered invasive, insofar as it automatically injects labels and IDs into different elements. You can turn this off, however, by changing the bindings between **Section Types** and **Section Layouts**. After the template is consolidated, we can introduce a secondary compile format using user-provided labels and IDs as much as possible.
 
 ```{mermaid}
-%%| label: fig-scriv192
+%%| label: fig-scriv189
 %%| fig-cap: ἡ ψυχή
 
 graph LR
@@ -746,9 +707,9 @@ graph LR
 ```
 
 
-$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv192}
+$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv189}
 
-```{#lst-scriv192 .ruby lst-cap="Ruby code block"}
+```{#lst-scriv189 .ruby lst-cap="Ruby code block"}
 puts "Quarto rocks"
 ```
 
@@ -758,26 +719,26 @@ puts "Quarto rocks"
 | `[@DABiehl1896 ]{.editor}` | [@DABiehl1896 ]{.editor} |
 | `[@DABiehl1896]{.issued}` | [@DABiehl1896]{.issued} |
 
-: Table sample {#tbl-scriv192}
+: Table sample {#tbl-scriv189}
 
 
-And see also [@eq-scriv193], [@tbl-scriv194].  
+And see also [@eq-scriv190], [@tbl-scriv191].  
 $$Equation content
-$$ {#eq-scriv193}
+$$ {#eq-scriv190}
   
 
 | 1 | 2 | 3 |
 | ----- | ----- | ----- |
 | 4 | 5 | 6 |
 
-: The caption {#tbl-scriv194  }
+: The caption {#tbl-scriv191  }
 
-## CiteTools Integration {#sec-scriv195}
+## CiteTools Integration {#sec-scriv192}
 
 
-[]{#scriv195}  
+[]{#scriv192}  
 
-[]{#scriv196}
+[]{#scriv193}
 [1. New]{.smallcaps} **Section Layout** & **Section Type** provide support for the multiple bibliographies Lua Filter. 
 
 Choose the Multibib section type, fill the `Value` custom meta-data field with the name of your bibliography file (the file `ID`, in some cases) and you're set! Do this with as many bibliographies as you want. The sections will be named after the last heading element, that is, the binder item whence it originated, as it happens with all other chapters of the text. 
@@ -797,10 +758,10 @@ See the backmatter for examples.
 
 [2. New]{.smallcaps} **Section Type** & **Custom Metadata Field** can be used to override the depth of the current binder item placing the desired number of hashes in the corresponding metadata field (Depth) with no space at the end, as in ###*,* and then selecting the  Depth + Header section type.
 
-### Cite Field {#sec-scriv197}
+### Cite Field {#sec-scriv194}
 
 
-[]{#scriv197}
+[]{#scriv194}
 
 
   
@@ -810,11 +771,11 @@ The works of `[@AristOp]{.author}` were first edited by `[@AristOp]{.editor}` in
 :::
   
 
-[]{#scriv199}
+[]{#scriv196}
 [New]{.smallcaps} **Styles** provide support for the cite field Lua Filter, which can be used to cite arbitrary fields of the references.
   
 
-[]{#scriv200}
+[]{#scriv197}
 The works of [@AristOp]{.author} were first edited by [@AristOp]{.editor} in [@AristOp]{.issued}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
 :::{.column-margin}
@@ -822,7 +783,7 @@ Later, the `[@DA]{.title}` (`[@DA]{.title-short}`) was edited by `[@DABiehl1896]
 :::
   
 
-[]{#scriv202}
+[]{#scriv199}
 Later, the [@DA]{.title} was edited by [@DABiehl1896]{.editor} in [@DABiehl1896]{.issued} (reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation). Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 You can set link-fields to false to avoid undesired linking when citing specific fields.
@@ -840,92 +801,69 @@ You can set link-fields to false to avoid undesired linking when citing specific
 | `[@DATheiler]{.translator}` | [@DATheiler]{.translator} |
 | `[@DATheiler]{.issued}` | [@DATheiler]{.issued} |
 
-: Simple example of how we are using styles to create the correct markup {#tbl-scriv203  }
+: Simple example of how we are using styles to create the correct markup {#tbl-scriv200  }
   
 
 [4. Added]{.smallcaps} the prefix `[]{#scriv\<$linkID>}` to some **Section Layouts**. 
 
 
-This allows us to create links to [text sections that do not have a Header element](#scriv204).   
+This allows us to create links to [text sections that do not have a Header element](#scriv201).   
 
 
   
 
-[]{#scriv205}
+[]{#scriv202}
 Belive it or not, Scrivener can be an interesting place to keep parts of your code. We can use the document bookmarks to leave behind an array of possibilities in case we need to revise something. We can easily copy and paste code stored on Quarto's Github repository to compare using Scrivener's superior text matching tool! (My favorite comparison tool is placing the text in different documents and using "matching text" in the Bookmark tab of the right-side inspector in Scrivener.)
 
-![Revising code in Scrivener can be just as pleasant](scrivenerwithcode.png){#fig-scriv205 width=554 height=346}
+![Revising code in Scrivener can be just as pleasant](scrivenerwithcode.png){#fig-scriv202 width=554 height=346}
   
 
-[]{#scriv206}
+[]{#scriv203}
 
 We can also create interesting possibilities to customize and further control the conversion process, by including in our project the default Pandoc Latex Templates. Customize any line of the whole code. Or not, maybe just leave it there and take a look every once in a while at what is going on at the Quarto repository. The template will work either way. 
 
-![Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body.](pandocquartolatextemplate.png){#fig-scriv206 .column-page width=547 height=342}
+![Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body.](pandocquartolatextemplate.png){#fig-scriv203 .column-page width=547 height=342}
 
 
   
-:::{#%autoref% .callout-important }
+:::{# .callout-important }
 If you are having problems with performance, then you should try to delete the custom icons we are using. I recommend deleting all to see if that makes a difference or not on how Scrivener is behaving.
 :::
   
-:::{.callout-tip #scriv208  }
+:::{.callout-tip #scriv205  }
 Right click on any Binder item. `Change Icon > Manage Custom Icons...`
 :::
-  
 
-[]{#scriv209}
-Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the **Shortcode Font Awesome** style as in `{{< fa regular bell >}}` {{< fa regular bell >}}.
-There is also **Shortcode Env**, **Shortcode Meta**, **Shortcode Var**. 
-Writing in Scrivener (https://github.com/iandol/scrivomatic#writing-in-scrivener) is a must read.
-The Plain Person's Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
-Quarto Reference - https://quarto.org/docs/reference/
-The easiest way to publish to Github Pages: Render to docs
-
-Example of Quarto Book - https://github.com/jjallaire/hopr/blob/master/_quarto.yml
-
-The variables stored here will be accessible via the **Style** `Shortcode Var`.
-
-Please contact us at {{< var email.info >}}. 
-
-`{{< env QUARTO_PROJECT_DIR >}}`  
-
-{{< env QUARTO_PROJECT_DIR >}}
-
-We are using Python `{{< env QUARTO_PYTHON >}}` {{< env QUARTO_PYTHON >}}, {{< env QUARTO_R >}}, {{< env PY_PYTHON >}}, or {{< env RETICULATE_PYTHON >}}. 
-
-Quarto with GH Pages - https://tarleb.com/posts/quarto-with-gh-pages/
-
-# Primary Sources {#sec-scriv210 .appendix}
+# Primary Sources {#sec-scriv206 .appendix}
 
 ---
-bibliography_scriv210: |
+bibliography_scriv206: |
   refs/primary-sources.yml
 ---
 
-::: {#refs_scriv210  }
+::: {#refs_scriv206  }
 :::
 
 
-# Secondary Sources {#sec-scriv211 .appendix}
+# Secondary Sources {#sec-scriv207 .appendix}
 
 ---
-bibliography_scriv211: |
+bibliography_scriv207: |
   refs/secondary-sources.yml
 ---
 
-::: {#refs_scriv211  }
+::: {#refs_scriv207  }
 :::
 
 
-# Workflow {#sec-scriv212 .appendix}
+# Workflow {#sec-scriv208 .appendix}
 
 ---
-bibliography_scriv212: |
+bibliography_scriv208: |
   refs/workflow.bib
 ---
 
-::: {#refs_scriv212  }
+::: {#refs_scriv208  }
 :::
   
 
@@ -939,37 +877,6 @@ bibliography_scriv212: |
 
   
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-<!-- begin_file: "" -->
-<!-- end_file -->
   
 
   

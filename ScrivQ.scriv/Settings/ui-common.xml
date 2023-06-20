@@ -9,7 +9,7 @@
             <ItemID>D04A29F1-8103-4E3F-9781-698D9B1F60B2</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>9D32A05A-EAD8-47BC-B2CD-1E7C5DF4EFD5</ItemID>
+            <ItemID>B1B32F21-010B-4749-9CC0-4495E0EE3ABC</ItemID>
         </Selection>
         <SearchResultsSort Titles="Ascending" Dates="Ascending">None</SearchResultsSort>
     </Binder>
@@ -67,19 +67,12 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Outliner</GroupsViewMode>
-                <CurrentViewMode>Outliner</CurrentViewMode>
+                <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>Split</SelectionAffects>
                 <Content>
-                    <ItemID>9D32A05A-EAD8-47BC-B2CD-1E7C5DF4EFD5</ItemID>
+                    <ItemID>B1B32F21-010B-4749-9CC0-4495E0EE3ABC</ItemID>
                 </Content>
                 <NavigationHistory CurrentIndex="99">
-                    <HistoryItem Type="BinderItems" ViewMode="Outliner">94EFD213-99C2-4B40-ADB6-D4447D2FC2D5</HistoryItem>
-                    <HistoryItem Type="BinderItems" ViewMode="Outliner">2EBE6532-D2E1-40EF-AFA6-5D0860F50FD0</HistoryItem>
-                    <HistoryItem Type="BinderItems" ViewMode="Outliner">56C53AFA-A194-4465-B5E9-84C0BDC7844B</HistoryItem>
-                    <HistoryItem Type="BinderItems" ViewMode="Single">0F855607-5D61-4A6E-A7D6-7096C343DA9B</HistoryItem>
-                    <HistoryItem Type="BinderItems" ViewMode="Outliner">56C53AFA-A194-4465-B5E9-84C0BDC7844B</HistoryItem>
-                    <HistoryItem Type="BinderItems" ViewMode="Single">0F855607-5D61-4A6E-A7D6-7096C343DA9B</HistoryItem>
-                    <HistoryItem Type="BinderItems" ViewMode="Outliner">6E166A5C-F0A7-4B33-9751-BD511DBF6F55</HistoryItem>
                     <HistoryItem Type="BinderItems" ViewMode="Outliner">20859785-8CA5-467B-AFA0-EC4E7E2E1599</HistoryItem>
                     <HistoryItem Type="BinderItems" ViewMode="Single">9F0ABDE6-2812-4E06-858C-FCA1FF6AEC8E</HistoryItem>
                     <HistoryItem Type="BinderItems" ViewMode="Outliner">20859785-8CA5-467B-AFA0-EC4E7E2E1599</HistoryItem>
@@ -173,6 +166,13 @@
                     <HistoryItem Type="BinderItems" ViewMode="Outliner">10C0FF65-2FEC-4F34-A443-624AD927A6AF</HistoryItem>
                     <HistoryItem Type="BinderItems" ViewMode="Outliner">DAEEA030-90C5-4CF3-B823-BA362EA9AFD3</HistoryItem>
                     <HistoryItem Type="BinderItems" ViewMode="Outliner">9D32A05A-EAD8-47BC-B2CD-1E7C5DF4EFD5</HistoryItem>
+                    <HistoryItem Type="BinderItems" ViewMode="Single">F2A4F170-64C5-4BC3-9C81-DA8A02484321</HistoryItem>
+                    <HistoryItem Type="BinderItems" ViewMode="Outliner">43A5BAD6-4E61-497E-8F2D-AC8442D390AF</HistoryItem>
+                    <HistoryItem Type="BinderItems" ViewMode="Single">F2A4F170-64C5-4BC3-9C81-DA8A02484321</HistoryItem>
+                    <HistoryItem Type="BinderItems" ViewMode="Outliner">185EE090-0171-43C1-AF8F-E47D6194AD3D</HistoryItem>
+                    <HistoryItem Type="BinderItems" ViewMode="Outliner">F8665414-346F-4086-A526-E4BEB96BC2A6</HistoryItem>
+                    <HistoryItem Type="BinderItems" ViewMode="Outliner">A8EBA04B-7CA7-4024-A9D6-3C70825C0C6C</HistoryItem>
+                    <HistoryItem Type="BinderItems" ViewMode="Single">B1B32F21-010B-4749-9CC0-4495E0EE3ABC</HistoryItem>
                 </NavigationHistory>
             </View>
             <Text>
@@ -180,7 +180,7 @@
                 <PageLayout Facing="No">No</PageLayout>
                 <TypewriterScrolling>No</TypewriterScrolling>
                 <LineNumbers Interval="5">No</LineNumbers>
-                <Selection>0,0</Selection>
+                <Selection>484,0</Selection>
             </Text>
             <Outliner>
                 <Columns>
@@ -259,7 +259,7 @@
                 <GroupsViewMode>Scrivenings</GroupsViewMode>
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
-                <NavigationHistory CurrentIndex="-1"/>
+                <NavigationHistory CurrentIndex="0"/>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
