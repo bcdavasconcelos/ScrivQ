@@ -1,0 +1,8 @@
+Options for the package used as fontfamily.
+
+For example, to use the Libertine font with proportional lowercase (old-style) figures through the libertinus package:
+
+fontfamily: libertinus
+fontfamilyoptions:
+  - osf
+  - p

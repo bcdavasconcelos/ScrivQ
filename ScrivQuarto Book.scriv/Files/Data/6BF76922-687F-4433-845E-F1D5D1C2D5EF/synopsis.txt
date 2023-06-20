@@ -1,0 +1,1 @@
+Disables the built in html features like theming, anchor sections, code block behavior, and more.

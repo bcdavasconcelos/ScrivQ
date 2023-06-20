@@ -1,0 +1,1 @@
+Extension to use for generated output file

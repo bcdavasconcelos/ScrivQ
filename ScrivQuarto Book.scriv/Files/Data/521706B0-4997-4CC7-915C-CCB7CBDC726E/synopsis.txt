@@ -1,0 +1,1 @@
+Path (or glob) to files to publish with this document.

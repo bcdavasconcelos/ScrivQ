@@ -1,0 +1,1 @@
+Equation prefix used for inline reference

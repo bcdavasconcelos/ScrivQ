@@ -1,0 +1,1 @@
+Use Quarto’s built-in PDF rendering wrapper (includes support for automatically installing missing LaTeX packages)

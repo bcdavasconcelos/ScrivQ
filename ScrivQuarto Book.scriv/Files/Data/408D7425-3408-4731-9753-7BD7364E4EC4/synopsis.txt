@@ -1,0 +1,13 @@
+If you want Quarto to produce a LaTeX file (.tex) rather than a PDF (for example, if you want to do your own processing of the PDF) there are two ways to accomplish this: 
+Use the latex format rather than the pdf format. For example:
+format:
+  latex:
+    documentclass: report
+    classoption: [twocolumn, landscape]
+    lof: true
+    lot: true
+Use the pdf format along with the keep-tex option.
+format:
+  pdf:
+    documentclass: report
+    keep-tex: true

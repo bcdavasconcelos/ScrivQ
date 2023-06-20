@@ -1,0 +1,1 @@
+Include errors in the output (note that this implies that errors executing code will not halt processing of the document).

@@ -1,0 +1,5 @@
+Font package to use when compiling a PDf with the pdflatex pdf-engine.
+
+See The LaTeX Font Catalogue for a summary of font options available.
+
+For groff (ms) files, the font family for example, T or P.

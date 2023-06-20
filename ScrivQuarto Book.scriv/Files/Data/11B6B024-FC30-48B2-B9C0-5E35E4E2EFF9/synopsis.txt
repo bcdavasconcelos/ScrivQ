@@ -1,0 +1,6 @@
+A semver version range describing the supported quarto versions for this document or project.
+
+Examples:
+
+>= 1.1.0: Require at least quarto version 1.1
+1.*: Require any quarto versions whose major version number is 1

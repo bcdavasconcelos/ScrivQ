@@ -16,22 +16,172 @@ Matched pandocquartolatextemplate to pandocquartolatextemplate
 --> 4 notes replaced.
 --> Created files: _extensions/bcdavasconcelos/citetools/_extension.yaml, _extensions/bcdavasconcelos/citetools/citation-backlinks.lua, _extensions/bcdavasconcelos/citetools/citefield.lua, _extensions/bcdavasconcelos/citetools/citeproc.lua, _extensions/bcdavasconcelos/citetools/multiple-bibliographies.lua, refs/primary-sources.yml, refs/secondary-sources.yml, refs/workflow.bib
 --> Modified File with fixed cross-references: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd
---> Parsing took: 0.014637s
+--> Parsing took: 0.012371s
 
 --> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/export.qmd" --to pdf
-[91mERROR: TypeError: Cannot read properties of undefined (reading 'length')
+[1mpandoc [22m
+  to: latex
+  output-file: export.tex
+  standalone: true
+  number-sections: true
+  pdf-engine: lualatex
+  variables:
+    graphics: true
+    tables: true
+    secnumdepth: 3
+  default-image-extension: pdf
+  citeproc: false
+  verbosity: ERROR
+  toc: true
+  toc-depth: 3
+  top-level-division: chapter
+  
+[1mmetadata[22m
+  block-headings: true
+  website:
+    site-path: _site/
+    reader-mode: true
+    search:
+      location: navbar
+      type: textbox
+    navbar:
+      left:
+        - icon: github
+      right:
+        - icon: github
+    sidebar:
+      search: true
+      tools:
+        - icon: github
+      footer: Scrivener + Quarto
+    page-navigation: true
+    back-to-top-navigation: true
+  author: iSocrates
+  title: ScrivQ
+  subtitle: |
+    A Compiler Workflow...
+  date: 2023-06
+  subject: |
+    Workflow
+  lang: en-GB
+  keywords:
+    - Scrivener
+    - Quarto
+    - Academic
+  university: Open Source University
+  institute: Open Source University
+  city: Global South
+  researcharea: |
+    Philosophy
+  description: |
+    A complete academic template and workflow
+  crossref:
+    labels: roman I
+    ref-hyperlink: true
+    chapters: false
+    title-delim: '---'
+    eq-labels: arabic
+    fig-labels: arabic
+    lst-labels: arabic
+    sec-labels: arabic
+    subref-labels: alpha a
+    tbl-labels: arabic
+    exm-labels: roman I
+  link-fields: false
+  link-citations: true
+  link-bibliography: true
+  notes-after-punctuation: true
+  verbose: false
+  validate-yaml: false
+  bibliography_scriv206: |
+    refs/primary-sources.yml
+  bibliography_scriv207: |
+    refs/secondary-sources.yml
+  bibliography_scriv208: |
+    refs/workflow.bib
+  papersize: a4
+  documentclass: scrbook
+  classoption:
+    - oneside
+    - titlepage
+    - toclink=all
+    - toc=bibliography
+  geometry:
+    - top=2cm
+    - bottom=2cm
+    - head=1cm
+    - foot=1cm
+    - left=2cm
+    - marginparwidth=4cm
+    - textwidth=12cm
+    - marginparsep=1cm
+  cap-location: bottom
+  pagestyle: headings
+  hyperrefoptions:
+    - pdfstartview=FitR
+    - pdfpagemode=UseOutlines
+    - breaklinks=true
+    - pageanchor=true
+    - linktoc=all
+    - hypertexnames=true
+    - hyperfootnotes=false
+    - bookmarksnumbered
+    - bookmarksopen=false
+  header-includes:
+    - |
+      \newfontfamily{\greekfont}{Alegreya}
+        \newcommand{\grc}[1]{\foreignlanguage{greek}{\selectfont\greekfont #1}}
+        \newenvironment{greek}{\begingroup
+        \selectlanguage{greek}\selectfont\greekfont\normalsize}{\endgroup}
+      \usepackage{setspace}
+      \usepackage{etoolbox}
+      \usepackage{metalogo}
+      \newfontfamily{\themarginfont}{Snell Round Hand}
+      \usepackage{newunicodechar}
+        \newfontfamily\brill{Brill}
+        \newunicodechar{ϝ}{{\brill ϝ}}
+        \newunicodechar{̯}{{\brill ̯}}
+      \AtBeginEnvironment{table}{\singlespacing\small}
+      \AtBeginEnvironment{longtable}{\singlespacing\small}
+      \AtBeginEnvironment{quote}{\onehalfspacing\small}\renewenvironment{quote}{\list{}{\leftmargin4cm\rightmargin0cm}\item\relax}{\endlist}
+      \usepackage[font=small, labelfont=it]{caption}
+      \newcommand\pagelabel{\phantomsection\label}
+      \renewcommand\pagemark{{\hyperlink{chapter.\the\numexpr\value{chapter}-1\relax}{\guillemotleft} \usekomafont{pagenumber}\thepage\ \hyperlink{chapter.\the\numexpr\value{chapter}+1\relax}{\guillemotright}}}
+              \let\hypercontentsline=\contentsline
+        \renewcommand{\contentsline}[4]{\hypertarget{toc.#4}{}\hypercontentsline{#1}{#2}{#3}{#4}}
+        \raggedbottom
+  babel-lang: brazilian
+  babel-otherlangs:
+    - english
+    - ancientgreek
+    - sanskrit
+  lof: true
+  lot: true
+  number-depth: 3
+  fontsize: 12pt
+  mainfont: Alegreya
+  mainfontoptions:
+    - Numbers=Proportional
+    - Numbers=Lowercase
+  sansfont: Alegreya Sans
+  sansfontoptions:
+    - Numbers=Proportional
+    - Numbers=OldStyle
+  monofont: Code New Roman
+  monofontoptions:
+    - Scale=MatchLowercase
+  appendix-style: default
+  float: true
+  csquotes: true
+  
+[1mrunning lualatex - 1[22m
+  This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
+   restricted system commands enabled.
+  
 
-TypeError: Cannot read properties of undefined (reading 'length')
-    at passStringToWasm0 (file:///Applications/quarto/bin/quarto.js:42811:19)
-    at parse10 (file:///Applications/quarto/bin/quarto.js:42850:20)
-    at nodesFromString (file:///Applications/quarto/bin/quarto.js:46907:31)
-    at DOMParser.parseFromString (file:///Applications/quarto/bin/quarto.js:47231:25)
-    at resolveSize (file:///Applications/quarto/bin/quarto.js:83707:40)
-    at async makePng (file:///Applications/quarto/bin/quarto.js:84046:57)
-    at async makeDefault (file:///Applications/quarto/bin/quarto.js:84096:24)
-    at async Object.cell (file:///Applications/quarto/bin/quarto.js:84119:20)
-    at async Promise.all (index 0)
-    at async Object.document (file:///Applications/quarto/bin/quarto.js:57715:25)[39m
+Output created: export.pdf
+
 waiting for the process to end
 process finished in time
-Everything up-to-date
+To https://github.com/bcdavasconcelos/ScrivQ.git
+   68941fc..d4af397  main -> main

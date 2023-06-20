@@ -1,0 +1,1 @@
+These sections are divs with a hardcoded ID prefix (cnj, cor, def, exp, exr, lem, prp, thm).

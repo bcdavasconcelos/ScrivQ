@@ -1,0 +1,3 @@
+Allows font encoding to be specified through fontenc package.
+
+See LaTeX Font Encodings Guide for addition information on font encoding.

@@ -1,0 +1,1 @@
+For HTML output, sets the margin-bottom property on the Body element. For LaTeX output, sets the bottom margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the bottom margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the bottom page margin.

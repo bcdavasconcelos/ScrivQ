@@ -1,0 +1,5 @@
+By default, all headings in your document create a numbered section. You customize numbering depth using the number-depth option.
+
+For example, to only number sections immediately below the chapter level, use this:
+
+number-depth: 1

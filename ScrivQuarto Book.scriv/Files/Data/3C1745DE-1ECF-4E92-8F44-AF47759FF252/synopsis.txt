@@ -1,0 +1,1 @@
+Equation title prefix used for captions

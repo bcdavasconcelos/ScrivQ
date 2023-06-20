@@ -1,0 +1,5 @@
+Collapse code into an HTML <details> tag so the user can display it on-demand.
+
+true: collapse code
+false (default): do not collapse code
+show: use the <details> tag, but show the expanded code initially.
