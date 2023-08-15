@@ -398,7 +398,10 @@ An object with key “text” indicates textual content to be included</Synopsis
         </Document>
         <Document ID="2BB93564-6CC7-4E1C-969A-7EDAC4E5252B">
             <Title>Graphviz Figure</Title>
-            <Text>digraph finite_state_machine {
+            <Text>//| fig-cap: "A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…
+"
+
+digraph finite_state_machine {
 	Fontname="Avenir,Helvetica,sans-serif"
 	node [fontname="Avenir,Helvetica,sans-serif"]
 	edge [fontname="Avenir,Helvetica,sans-serif"]
@@ -457,6 +460,7 @@ We can also create interesting possibilities to customize and further control th
 
 #
 {#fig-%autoref% .column-page} Students finishing their MDs or PhDs will certainly appreciate the possibility of adding your own latex customizations, which can also be done by including the code within certain fields, such as before-body.
+
 
 </Text>
         </Document>
@@ -873,6 +877,10 @@ ms: pdfroff</Synopsis>
             <Comments>TABLE// [Table Caption]
 Max-Height/Native Size</Comments>
         </Document>
+        <Document ID="478F2A23-80C9-4649-AE7F-D93746A2300A">
+            <Title>Quarto Command</Title>
+            <Text>html</Text>
+        </Document>
         <Document ID="10C1CF61-AC9C-4AB7-B999-FEC664F51FE2">
             <Title>alignment</Title>
             <Synopsis>Alignment of the items within the sidebar (left, right, or center)</Synopsis>
@@ -1012,6 +1020,7 @@ title="&lt;$title&gt;"
             <Title>Diagram Dot A</Title>
             <Synopsis>Here we are using a Section Type to create the diagram.</Synopsis>
             <Text>//| echo: true
+//| fig-caption: A Graphviz-generated state machine diagram
 digraph finite_state_machine {
 	Fontname="Avenir,Helvetica,sans-serif"
 	node [fontname="Avenir,Helvetica,sans-serif"]
@@ -3887,13 +3896,6 @@ The easiest way to publish to Github Pages: Render to docs
 
 Example of Quarto Book - https://github.com/jjallaire/hopr/blob/master/_quarto.yml
 
-The variables stored here will be accessible via the Style Shortcode Var.
-Please contact us at email.info. 
-`QUARTO_PROJECT_DIR`  
-QUARTO_PROJECT_DIR
-We are using Python `QUARTO_PYTHON` QUARTO_PYTHON, QUARTO_R, PY_PYTHON, or RETICULATE_PYTHON. 
-
-
 Quarto with GH Pages - https://tarleb.com/posts/quarto-with-gh-pages/</Text>
         </Document>
         <Document ID="36853C16-3809-4BE4-AFBD-F986C8F559F8">
@@ -4126,6 +4128,18 @@ CC BY-SA	Attribution-ShareAlike	This license lets others remix, tweak, and build
 CC BY-ND	Attribution-NoDerivs	This license allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to you.
 CC BY-NC	Attribution-NonCommercial	This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.</Synopsis>
         </Document>
+        <Document ID="B580469C-C467-45CB-9E52-E711B6FE8BE4">
+            <Title>Shortcodes</Title>
+            <Text>In order to escape the Shortcodes, we need an especial code block using ```{shortcodes=false}, otherwise, they will always be expanded. First, we have the escaped shortcode:
+QUARTO_PROJECT_DIR
+Then, the expanded shortcode:  
+QUARTO_PROJECT_DIR
+The values stored at _variables will be accessible using the Style called Shortcode Var (e.g. please contact us at email.info). The values stores in the meta data will be accessible using Shortcode Meta; finally, the environmental variables will be accessible only to projects using Shortcode Env (they can also be specified using a _environment file).
+
+These should work, according to the Quarto documentation, but don't:
+We are using Python QUARTO_PYTHON, QUARTO_R, PY_PYTHON, or RETICULATE_PYTHON. 
+</Text>
+        </Document>
         <Document ID="369DF640-5459-4064-AC90-0E64BEFDECB6">
             <Title>latex.template</Title>
         </Document>
@@ -4177,6 +4191,8 @@ Use false to disable the display of the ‘cite as’ appendix. Pass one or more
             <Title>Diagram Mermaid A</Title>
             <Synopsis>Here we are using a Section Type to create the diagram.</Synopsis>
             <Text>%%| echo: true
+%%| fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details
+
 graph TD
     Subs --&gt;Mat:::I
     Subs --&gt;|τόδε τι|For:::D
@@ -4805,28 +4821,28 @@ header-includes: |
         <Document ID="E3C88601-D111-411D-9F3F-1B222ECC1700">
             <Title>template</Title>
         </Document>
-        <Document ID="B4903B11-938B-47BF-8BAA-3B35CA964F7A">
-            <Title>giscus</Title>
-            <Synopsis>You can add commenting to your website using either Hypothesis, Utterances, or Giscus</Synopsis>
+        <Document ID="E5E80D75-DD6F-48CA-8A8F-898AD4D3A856">
+            <Title>Git Commit</Title>
+            <Text>Initial test commit</Text>
         </Document>
         <Document ID="F9C5A9F0-C806-4B92-8DB4-E6AC5BE64A7A">
             <Title>filter-ui</Title>
             <Synopsis>Shows or hides the filtering control for the listing. To control the fields that will be used to filter the listing, provide a list of field names. By default all fields of the listing will be used when filtering.</Synopsis>
         </Document>
-        <Document ID="C656DED9-9753-4F67-BB25-977DEEB020B2">
-            <Title>editor</Title>
+        <Document ID="B4903B11-938B-47BF-8BAA-3B35CA964F7A">
+            <Title>giscus</Title>
+            <Synopsis>You can add commenting to your website using either Hypothesis, Utterances, or Giscus</Synopsis>
         </Document>
         <Document ID="74437353-0B47-4315-B142-509A984E3CF2">
             <Title>square = true</Title>
             <Synopsis>Use [] instead of ()</Synopsis>
         </Document>
+        <Document ID="C656DED9-9753-4F67-BB25-977DEEB020B2">
+            <Title>editor</Title>
+        </Document>
         <Document ID="DB217DC2-9E96-4E3C-A1B8-DD83F21BE83E">
             <Title>margin-right</Title>
             <Synopsis>For HTML output, sets the margin-right property on the Body element. For LaTeX output, sets the right margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the right margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the right page margin.</Synopsis>
-        </Document>
-        <Document ID="A4542800-4328-436D-8B78-8F8776D5100A">
-            <Title>resource-path</Title>
-            <Synopsis>List of paths to search for images and other resources.</Synopsis>
         </Document>
         <Document ID="54401654-D8C4-446A-B0A6-36F66EE4B6AA">
             <Title>resource-path</Title>
@@ -4889,6 +4905,10 @@ references:
 	•	rectangle
 	•	round
 	•	rounded</Synopsis>
+        </Document>
+        <Document ID="A4542800-4328-436D-8B78-8F8776D5100A">
+            <Title>resource-path</Title>
+            <Synopsis>List of paths to search for images and other resources.</Synopsis>
         </Document>
         <Document ID="76B7C912-14D3-4DAC-963B-FEDE6915B0AA">
             <Title>Code</Title>
@@ -6224,11 +6244,14 @@ Instead of a STYLE name, a JSON file with extension .theme may be supplied. This
         </Document>
         <Document ID="24614A2C-1578-43BA-BB71-F660105CE1BA">
             <Title>Mermaid Figure</Title>
-            <Text>flowchart LR
+            <Text>%%| fig-cap: "A Mermaid figure using a Scrivener Section Type [Diagram Mermaid]; The plot represents some sort of graph…"
+
+flowchart LR
   A[Hard edge] --&gt; B(Round edge)
   B --&gt; C{Decision}
   C --&gt; D[Result one]
-  C --&gt; E[Result two]</Text>
+  C --&gt; E[Result two]
+</Text>
         </Document>
         <Document ID="F9035ED2-366D-437B-9633-29224DC3CCAE">
             <Title>Bunches</Title>

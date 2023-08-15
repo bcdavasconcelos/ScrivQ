@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SnapshotIndexes Version="1.0" BinderUUID="549674D9-8CF7-4AAF-8CBA-49CADED29977">
-    <Snapshot Date="2023-06-18 22:49:37 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>Notice that we can use the same approach with footnotes.scrivauto This does yet not play well with our footnotes converting mechanism (from regular to inline footnotes) which allows us to split the compiled file without the risk of incorrectly leaving out text behind. Of course, if we compile to TXT, Scrivener will output inline footnotes by default, but it will also not convert Scrivener tables to markdown tables.</Text>
-    </Snapshot>
-</SnapshotIndexes>

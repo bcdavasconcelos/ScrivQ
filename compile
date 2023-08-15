@@ -123,7 +123,7 @@ begin
     # This regex puts {#id} onto end of $$ math block lines
     text.gsub!(/\$\$ ?\n\{\#eq/,'$$ {#eq')
 
-    # We will move markup for images and figures from the 
+    # We will move markup for images and figures from the
     # bottom of the file to their in-line references.
     # From:
     # [Ulysses sailing][Ulysses1]
@@ -151,14 +151,14 @@ begin
     end
 
     # New section: Extract and create new files from main file
-    # Pattern: <!-- begin_file: "path/to/file.ext" -->`file_content`<!-- end_file -->\n
-    if text =~ /<!-- begin_file: "([^"]+)" -->/ # If there are new files to be added
+    # Pattern: <!-- scrivq_begin_file: "path/to/file.ext" -->`file_content`<!-- scrivq_end_file -->\n
+    if text =~ /<!-- scrivq_begin_file: "([^"]+)" -->/ # If there are new files to be added
       puts "--> New files detected!"
 
       text.gsub!(/\[\^fn(\d+)/, '[^\1') if text =~ /\[\^fn\d+/ # Remove the fn prefix from footnotes
       text = inline_fn_pandoc("#{text}\n\n") if text =~ /\[\^\d+\]:/ # Convert footnotes to pandoc style
       new_files = [] # Array to store new files
-      text.scan(/<!-- begin_file: "([^"]+)" -->/) do |match|
+      text.scan(/<!-- scrivq_begin_file: "([^"]+)" -->/) do |match|
         # puts "----> Found new file: #{match[0]}"
         new_files << match[0]
       end
@@ -166,7 +166,7 @@ begin
       created_files = [] # Array to store created files
       new_files.each do |file|
         begin
-          pattern = /<!-- begin_file: "#{file}" -->\n(.+?)\n<!-- end_file -->/m
+          pattern = /<!-- scrivq_begin_file: "#{file}" -->\n(.+?)\n<!-- scrivq_end_file -->/m
           file_content = text.scan(pattern)[0][0] # Get the file content
           decrease_heading_cmd = "quarto pandoc -f markdown -t markdown --shift-heading-level-by=-1 --wrap=none"
           # Check if path existis, if not create it

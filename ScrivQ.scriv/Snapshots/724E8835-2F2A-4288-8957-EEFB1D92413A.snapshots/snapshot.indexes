@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SnapshotIndexes Version="1.0" BinderUUID="724E8835-2F2A-4288-8957-EEFB1D92413A">
-    <Snapshot Date="2023-06-18 22:49:37 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>This uses a Section Type [Layout Column Page]. The contents will be assigned the .column-page class and stretched across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
-</Text>
-    </Snapshot>
-</SnapshotIndexes>

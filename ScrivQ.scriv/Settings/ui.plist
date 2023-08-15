@@ -597,8 +597,8 @@
 	<false/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {300, 1018}}</string>
-		<string>{{301, 0}, {1427, 1018}}</string>
+		<string>{{0, 0}, {300, 1354}}</string>
+		<string>{{301, 0}, {1200, 1354}}</string>
 	</array>
 	<key>binderWidth</key>
 	<real>183</real>
@@ -1684,8 +1684,10 @@
 		</dict>
 		<key>36DAA93E-5CE9-46D6-A9BB-CFA153FAFA3B</key>
 		<dict>
+			<key>DocID</key>
+			<string>B580469C-C467-45CB-9E52-E711B6FE8BE4</string>
 			<key>Row</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>375C64A2-741F-4F7F-85CB-B9861C7D68A4</key>
 		<dict>
@@ -2051,6 +2053,11 @@
 		<dict>
 			<key>Row</key>
 			<integer>0</integer>
+		</dict>
+		<key>478F2A23-80C9-4649-AE7F-D93746A2300A</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
 		</dict>
 		<key>47D70777-02D8-40B9-A4BA-A83AF0CD65B8</key>
 		<dict>
@@ -4187,6 +4194,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>B580469C-C467-45CB-9E52-E711B6FE8BE4</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>B5E848C2-9150-4321-AA35-5C51F1582B42</key>
 		<dict>
 			<key>Row</key>
@@ -5097,6 +5109,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>E5E80D75-DD6F-48CA-8A8F-898AD4D3A856</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>E5EB30AE-E7A7-407F-A2A6-8D3659416C4E</key>
 		<dict>
 			<key>Row</key>
@@ -5621,8 +5638,8 @@
 	<false/>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {947.5, 988}}</string>
-		<string>{{948.5, 0}, {478.5, 988}}</string>
+		<string>{{0, 0}, {720.5, 1324}}</string>
+		<string>{{721.5, 0}, {478.5, 1324}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>435</real>
@@ -5668,14 +5685,14 @@
 		<string>{{0, 465.5}, {589, 464.5}}</string>
 	</array>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 14.25}, {466, 466}}</string>
+	<string>{{0, 0}, {606, 294}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
 		<real>2</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>0 33 2560 1382 0 0 2560 1415 </string>
+	<string>416 33 1501 1382 0 0 2560 1415 </string>
 	<key>projectStatsSheet</key>
 	<dict>
 		<key>countDraftFootnotes</key>

@@ -112,8 +112,8 @@
 <p class="itemText"><p class="p1"><span class="s1">Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see scrivauto), est mægna alienum mentitum ne. [Amet equidem](quarto.org/) sit ex (see scrivauto). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te? <span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-page} "What a trip!" - said Ulysses as he saile...</p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#fig-%autoref% .column-page} "What a trip!" - said Ulysses as he sail...</p>
 </li>
 <li>
 <p class="topLevelItemTitle">Methods</p>
@@ -189,23 +189,15 @@
 <ul>
 <li>
 <p class="itemTitle">Graphviz Figure</p>
-<p class="itemText">digraph finite_state_machine {</span></p></p>
+<p class="itemText">//| fig-cap: "A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">"</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">digraph finite_state_machine {</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>Fontname="Avenir,Helvetica,sans-serif"</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>node [fontname="Avenir,Helvetica,sans-serif"]</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>edge [fontname="Avenir,Helvetica,sans-serif"]</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>rankdir=LR;</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>node [shape = doublecircle]; 0 3 4 8;</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>node [shape = circle];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>0 -&gt; 2 [label = "SS(B)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>0 -&gt; 1 [label = "SS(S)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>1 -&gt; 3 [label = "S($end)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>2 -&gt; 6 [label = "SS(b)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>2 -&gt; 5 [label = "SS(a)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>2 -&gt; 4 [label = "S(A)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>5 -&gt; 7 [label = "S(b)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>5 -&gt; 5 [label = "S(a)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>6 -&gt; 6 [label = "S(b)"];</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>6 -&gt; 5 [label = "...</p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>node [shape = doublecircle]; 0 3 4 8...</p>
 </li>
 <li>
 <p class="itemTitle">Text</p>
@@ -213,11 +205,14 @@
 </li>
 <li>
 <p class="itemTitle">Mermaid Figure</p>
-<p class="itemText">flowchart LR</span></p></p>
+<p class="itemText">%%| fig-cap: "A Mermaid figure using a Scrivener Section Type [Diagram Mermaid]; The plot represents some sort of graph…"</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">flowchart LR</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>A[Hard edge] --&gt; B(Round edge)</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>B --&gt; C{Decision}</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>C --&gt; D[Result one]</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>C --&gt; E[Result two]</p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>C --&gt; E[Result two]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
 </li>
 <li>
 <p class="itemTitle">Text</p>
@@ -347,10 +342,10 @@
 <p class="topLevelItemTitle">Discussion</p>
 <p class="itemText">Lørem ipsum dolør sit amet [@siegel2015], eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod siegel2015. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te? <span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">#</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">{#fig-alignright fig-align="right"} This should be right-aligned if there is space…</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio u...</p>
+<p class="itemText"><p class="p1"><span class="s1">Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ...</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -580,6 +575,14 @@
 <p class="itemText"><p class="p1"><span class="s1">The Plain Person’s Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Quarto Reference - https://quarto.org/docs/reference/</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">The easiest way to p...</p>
+</li>
+<li>
+<p class="itemTitle">Shortcodes</p>
+<p class="itemText">In order to escape the Shortcodes, we need an especial code block using ```{shortcodes=false}, otherwise, they will always be expanded. First, we have the escaped shortcode:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">QUARTO_PROJECT_DIR</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Then, the expanded shortcode: <span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">QUARTO_PROJECT_DIR</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The values stored at _variables will be accessible using the Style called Shortcode Var (e.g. please contact us at email.info). The values stores in the meta data will be accessible using Shortcode Meta; finally, the environmental variables will be accessi...</p>
 </li>
 <li>
 <p class="itemTitle">Useful Packages</p>

@@ -340,8 +340,8 @@
                 <Type ID="0D58FFC4-CB52-40D5-B3C7-7DA5ED7DE944">B46AF70A-C7D9-4985-B8C5-8FAAD153A653</Type>
             </SectionLayouts>
             <FrontAndBackMatter>
-                <DefaultFrontMatter Add="Yes">6E166A5C-F0A7-4B33-9751-BD511DBF6F55</DefaultFrontMatter>
-                <DefaultBackMatter Add="Yes">C2B7CD89-AB5C-42DC-B877-91BB443E413C</DefaultBackMatter>
+                <DefaultFrontMatter Add="Yes">C2B7CD89-AB5C-42DC-B877-91BB443E413C</DefaultFrontMatter>
+                <DefaultBackMatter Add="Yes">6E166A5C-F0A7-4B33-9751-BD511DBF6F55</DefaultBackMatter>
             </FrontAndBackMatter>
         </Format>
         <Format ID="7E638EC3-CE71-4B98-8C41-BA0CC3A7D615">

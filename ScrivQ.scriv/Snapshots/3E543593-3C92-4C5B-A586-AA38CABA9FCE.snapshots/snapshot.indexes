@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SnapshotIndexes Version="1.0" BinderUUID="3E543593-3C92-4C5B-A586-AA38CABA9FCE">
-    <Snapshot Date="2023-06-18 22:49:37 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>This Marginalia is using a Section Type [Layout Margin]. We can therefore use paragraph styles here, like [Maths Block]. We know from the first fundamental theorem of calculus that for x in [a, b]
-\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).
-</Text>
-    </Snapshot>
-</SnapshotIndexes>

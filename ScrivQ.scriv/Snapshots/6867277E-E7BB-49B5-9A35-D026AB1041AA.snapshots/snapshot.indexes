@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SnapshotIndexes Version="1.0" BinderUUID="6867277E-E7BB-49B5-9A35-D026AB1041AA">
-    <Snapshot Date="2023-06-18 22:49:37 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto’s layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener’s markdown output so that it is compatible with Quarto's cross-referencing filter.  
-</Text>
-    </Snapshot>
-</SnapshotIndexes>
