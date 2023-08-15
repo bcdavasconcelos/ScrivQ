@@ -1,1 +1,0 @@
-In table type listings, highlight rows of the table when the user hovers the mouse over them. Defaults to false.

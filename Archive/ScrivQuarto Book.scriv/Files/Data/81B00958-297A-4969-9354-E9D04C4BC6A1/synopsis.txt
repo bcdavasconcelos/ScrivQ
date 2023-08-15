@@ -1,0 +1,2 @@
+The aspect ratio of the plot, i.e., the ratio of height/width. When fig-asp is specified, the height of a plot (the option fig-height) is calculated from fig-width * fig-asp.
+The fig-asp option is only available within the knitr engine.

@@ -1,0 +1,1 @@
+Layout a simple about page for an individual or organization. For more, see the About Pages documentation.

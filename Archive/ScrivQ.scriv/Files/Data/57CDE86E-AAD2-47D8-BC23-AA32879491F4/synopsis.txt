@@ -1,0 +1,1 @@
+Parameters that are passed to the custom template.

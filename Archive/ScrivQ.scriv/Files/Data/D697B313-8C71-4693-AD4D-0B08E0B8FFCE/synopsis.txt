@@ -1,0 +1,1 @@
+List of navigation items to appear in the sidebar. Can also include section entries which in turn contain sub-lists of navigation items.

@@ -1,0 +1,3 @@
+The path to a preview image for this content. By default, Quarto will use the image value from the site: metadata. If you provide an image, you may also optionally provide an image-width and image-height to improve the appearance of your Twitter Card.
+
+If image is not provided, Quarto will automatically attempt to locate a preview image.

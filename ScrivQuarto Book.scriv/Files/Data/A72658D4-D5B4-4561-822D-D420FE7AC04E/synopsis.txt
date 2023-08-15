@@ -1,1 +1,0 @@
-Set to false to prevent an installation of TinyTex from being used to compile PDF documents.

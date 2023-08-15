@@ -1,6 +1,0 @@
-Sets the color of text elements in a banner style title block. Use one of the following values:
-
-body | body-bg
-Will set the text color to the body text color or body background color, respectively.
-<css color value>
-If you provide a CSS color value, the text color will be set to the provided CSS color.

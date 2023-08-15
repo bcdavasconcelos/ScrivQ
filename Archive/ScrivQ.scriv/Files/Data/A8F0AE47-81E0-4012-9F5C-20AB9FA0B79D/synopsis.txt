@@ -1,0 +1,1 @@
+Whether references should be hyper-linked using the ref-hyperlink option.

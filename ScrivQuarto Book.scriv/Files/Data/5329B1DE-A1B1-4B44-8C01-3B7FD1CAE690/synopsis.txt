@@ -1,7 +1,0 @@
-For HTML output, sets the CSS font-family on the HTML element.
-
-For LaTeX output, the main font family for use with xelatex or lualatex. Takes the name of any system font, using the fontspec package.
-
-For ConTeXt output, the main font family. Use the name of any system font. See ConTeXt Fonts for more information.
-
-Alegreya, Skolar PE

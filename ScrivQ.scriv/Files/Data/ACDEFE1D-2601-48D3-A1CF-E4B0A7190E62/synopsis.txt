@@ -1,1 +1,0 @@
-The number of items to include in your feed. Defaults to 20.

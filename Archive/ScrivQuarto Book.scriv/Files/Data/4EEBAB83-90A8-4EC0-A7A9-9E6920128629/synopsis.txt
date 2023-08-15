@@ -1,0 +1,5 @@
+1. Select the `<$custom:ID>` text.
+2.  Hit `⌘L` to create a new `Edit` > `Link to Document`.
+3. Select the bibliography file.
+
+The bibliography will print here. 

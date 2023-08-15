@@ -1,2 +1,0 @@
-The Github repo that will be used to store comments.
-In order to work correctly, the repo must be public, with the giscus app installed, and the discussions feature must be enabled.

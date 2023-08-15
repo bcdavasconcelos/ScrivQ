@@ -1,1 +1,0 @@
-The list of fields to display as hyperlinks to the source document when the listing type is a table. By default, only the title or filename is displayed as a link.

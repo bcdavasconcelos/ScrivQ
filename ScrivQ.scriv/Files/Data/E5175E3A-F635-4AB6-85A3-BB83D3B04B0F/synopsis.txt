@@ -1,6 +1,0 @@
-The template to use to layout this about page. Choose from:
-	•	jolla
-	•	trestles
-	•	solana
-	•	marquee
-	•	broadside

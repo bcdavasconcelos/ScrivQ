@@ -1,1 +1,0 @@
-Method used to format citations (citeproc, natbib, or biblatex).

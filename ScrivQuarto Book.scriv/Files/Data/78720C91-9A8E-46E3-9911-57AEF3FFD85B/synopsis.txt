@@ -1,1 +1,0 @@
-The delimiter used between the prefix and the caption.

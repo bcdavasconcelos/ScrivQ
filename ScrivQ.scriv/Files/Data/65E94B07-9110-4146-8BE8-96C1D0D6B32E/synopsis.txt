@@ -1,1 +1,0 @@
-The maximum length (in characters) of the description displayed in the listing. Defaults to 175.

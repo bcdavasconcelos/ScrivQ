@@ -1,1 +1,0 @@
-The giscus theme to use when displaying comments.

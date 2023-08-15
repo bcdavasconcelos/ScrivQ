@@ -1,1 +1,0 @@
-The navbar’s foreground color (named or hex color).

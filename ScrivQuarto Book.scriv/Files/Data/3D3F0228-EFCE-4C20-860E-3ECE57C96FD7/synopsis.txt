@@ -1,1 +1,0 @@
-Specifies a custom abbreviations file, with abbreviations one to a line. This list is used when reading Markdown input: strings found in this list will be followed by a nonbreaking space, and the period will not produce sentence-ending space in formats like LaTeX. The strings may not contain spaces.

@@ -1,1 +1,0 @@
-The color used for linked URLs using color options allowed by xcolor, including the dvipsnames, svgnames, and x11names lists.

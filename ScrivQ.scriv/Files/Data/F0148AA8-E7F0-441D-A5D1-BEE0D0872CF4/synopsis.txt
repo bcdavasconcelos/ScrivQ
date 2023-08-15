@@ -1,3 +1,0 @@
-For LaTeX/PDF output, the options set for the document class.
-
-For HTML output using KaTeX, you can render display math equations flush left using classoption: fleqn

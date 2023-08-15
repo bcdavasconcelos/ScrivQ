@@ -1,1 +1,0 @@
-In grid type listings, the number of columns in the grid display. Defaults to 3.

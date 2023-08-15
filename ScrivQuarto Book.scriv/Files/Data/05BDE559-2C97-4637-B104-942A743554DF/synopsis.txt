@@ -1,5 +1,0 @@
-Make backrefs with the citation-backlinks filter more precise. 
-
-Warning₁: requires editing the original filter and changing \label to \pagelabel. 
-
-Warning₂: breaks if citations are places on captions.

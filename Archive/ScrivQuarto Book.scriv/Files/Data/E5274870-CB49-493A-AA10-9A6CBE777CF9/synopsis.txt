@@ -1,0 +1,1 @@
+Specify executables or Lua scripts to be used as a filter transforming the pandoc AST after the input is parsed and before the output is written.

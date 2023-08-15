@@ -1,0 +1,10 @@
+You can control how Quarto process the appendix of your document using the appendix-style option. There are three options available:
+
+default
+The default appendix treatment create a smaller font face and gathers the various sections into stylized groups at the end of the document.
+
+plain
+The plain treatment will do all the appendix processing (gathering and organizing the sections at the end of the document, creating sections like ‘Reuse’), but will not apply the default appendix styling.
+
+none
+none disables appendix processing altogether. Content will not be processed or organized and information like ‘Citation’ and ‘Reuse’ will not be included in the document.

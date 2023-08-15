@@ -1,1 +1,0 @@
-The language that should be used when displaying the commenting interface.

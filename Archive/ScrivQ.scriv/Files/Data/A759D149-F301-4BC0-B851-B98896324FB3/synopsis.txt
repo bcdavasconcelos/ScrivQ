@@ -1,0 +1,1 @@
+Where to place figure captions (top, bottom, or margin)

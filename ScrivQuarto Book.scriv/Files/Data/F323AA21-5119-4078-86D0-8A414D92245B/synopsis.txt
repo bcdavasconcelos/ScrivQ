@@ -1,1 +1,0 @@
-Wrap sections in <section> tags and attach identifiers to the enclosing <section> rather than the heading itself.

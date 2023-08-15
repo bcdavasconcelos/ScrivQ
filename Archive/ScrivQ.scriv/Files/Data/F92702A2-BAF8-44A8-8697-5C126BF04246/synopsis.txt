@@ -1,0 +1,6 @@
+areaset - Recalculate page layout.
+calc - Recalculate type area including choice of appropriate DIV value.
+classic - Recalculate type area using medieval book design canon.
+current- Recalculate type area using current DIV value.
+default - Recalculate type area using the standard value for the current page format and current font size. If no standard value exists, calc is used.
+last - Recalculate type area using the same DIV argument as was used in the last call.

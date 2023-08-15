@@ -1,4 +1,0 @@
-Choose how to handle code overflow, when code lines are too wide for their container. One of:
-
-scroll
-wrap

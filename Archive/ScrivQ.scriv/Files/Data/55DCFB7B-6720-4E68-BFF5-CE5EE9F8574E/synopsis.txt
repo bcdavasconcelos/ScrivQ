@@ -1,0 +1,2 @@
+The Github category identifier.
+You can quickly find this by using the configuration tool at https://giscus.app. If this is not provided, Quarto will attempt to discover it at render time.

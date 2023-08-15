@@ -1,0 +1,1 @@
+Controls whether to output bibliography configuration for natbib or biblatex when cite method is not citeproc.  # CITE TOOLS: LEAVE EMPTY #

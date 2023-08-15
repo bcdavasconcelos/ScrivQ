@@ -1,0 +1,1 @@
+This section works like the other callout sections, with the exception that the class name must be passed through the Custom Metadata.

@@ -1,1 +1,0 @@
-The sans serif font options for use with xelatex or lualatex allowing any options available through fontspec.

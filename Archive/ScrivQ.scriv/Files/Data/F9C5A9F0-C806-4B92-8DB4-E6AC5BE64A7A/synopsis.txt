@@ -1,0 +1,1 @@
+Shows or hides the filtering control for the listing. To control the fields that will be used to filter the listing, provide a list of field names. By default all fields of the listing will be used when filtering.

@@ -1,5 +1,0 @@
-Include contents at the end of the header. This can be used, for example, to include special CSS or JavaScript in HTML documents.
-
-A string value or an object with key “file” indicates a filename whose contents are to be included
-
-An object with key “text” indicates textual content to be included

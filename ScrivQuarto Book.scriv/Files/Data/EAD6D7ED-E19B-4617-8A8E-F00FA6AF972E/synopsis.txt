@@ -1,1 +1,0 @@
-Properties of the grid system used to layout Quarto HTML pages. There are four variables to control the four components of the layout: the sidebar, the body, the margin, and the gutters.

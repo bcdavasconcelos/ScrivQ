@@ -1,0 +1,5 @@
+Control the re-use of previous computational output when rendering.
+
+true: Never recompute previously generated computational output during a global project render
+false (default): Recompute previously generated computational output
+auto: Re-compute previously generated computational output only in case their source file changes

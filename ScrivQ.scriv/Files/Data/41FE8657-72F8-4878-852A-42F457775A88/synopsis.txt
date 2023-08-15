@@ -1,4 +1,0 @@
-Display item categories from this listing in the margin of the page.
-	•	numbered: Category list with number of items
-	•	unnumbered: Category list
-	•	cloud: Word cloud style categories

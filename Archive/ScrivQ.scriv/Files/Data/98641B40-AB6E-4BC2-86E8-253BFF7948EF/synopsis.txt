@@ -1,0 +1,1 @@
+Whether to show a border on the sidebar (defaults to true for ‘docked’ sidebars)

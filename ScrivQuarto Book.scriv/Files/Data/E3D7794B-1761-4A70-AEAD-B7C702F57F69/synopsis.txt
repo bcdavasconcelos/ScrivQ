@@ -1,1 +1,0 @@
-Use the specified file as a custom template for the generated document.

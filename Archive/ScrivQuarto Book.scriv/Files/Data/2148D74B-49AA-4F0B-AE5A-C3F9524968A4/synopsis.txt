@@ -1,0 +1,1 @@
+Specific to Cite Tools. Turn this off to prevent any `[@Ref]{.csl_field}` from being linked to the corresponding entry in the bibliography.

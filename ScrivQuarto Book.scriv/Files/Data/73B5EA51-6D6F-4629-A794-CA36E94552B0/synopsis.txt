@@ -1,1 +1,0 @@
-Add color to link text, automatically enabled if any of linkcolor, filecolor, citecolor, urlcolor, or toccolor are set.

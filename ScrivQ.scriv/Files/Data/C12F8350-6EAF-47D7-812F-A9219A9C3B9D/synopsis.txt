@@ -1,1 +1,0 @@
-The style of sidebar (docked or floating).

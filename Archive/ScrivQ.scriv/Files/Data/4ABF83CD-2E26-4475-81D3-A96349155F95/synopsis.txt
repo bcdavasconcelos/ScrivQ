@@ -1,0 +1,1 @@
+Shows or hides the sorting control for the listing. To control the fields that will be displayed in the sorting control, provide a list of field names.

@@ -1,1 +1,0 @@
-Specifies to apply a left border on code blocks. Provide a hex color to specify that the border is enabled as well as the color of the border.=

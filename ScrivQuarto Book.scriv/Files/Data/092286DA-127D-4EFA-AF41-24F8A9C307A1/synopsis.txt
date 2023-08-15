@@ -1,5 +1,0 @@
-Adds a css max-width to the body Element.
-
-For ConTeXt output, sets the bottom margin if layout is not used, otherwise layout overrides these.
-
-For wkhtmltopdf sets the bottom page margin.

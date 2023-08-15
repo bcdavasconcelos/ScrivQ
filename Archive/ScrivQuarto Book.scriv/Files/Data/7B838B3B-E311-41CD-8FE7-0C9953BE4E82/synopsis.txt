@@ -1,0 +1,5 @@
+Include the results of executing the code in the output. Possible values:
+
+true: Include results.
+false: Do not include results.
+asis: Treat output as raw markdown with no enclosing containers.

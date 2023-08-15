@@ -1,1 +1,0 @@
-Collapse the navbar into a menu when the display becomes narrow.

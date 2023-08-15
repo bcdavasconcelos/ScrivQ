@@ -1,0 +1,1 @@
+Citation information for the document itself specified as CSL YAML in the document front matter.

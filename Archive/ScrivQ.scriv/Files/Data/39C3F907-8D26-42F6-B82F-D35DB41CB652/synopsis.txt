@@ -1,0 +1,1 @@
+Specify the number of section levels to include in the table of contents. The default is 3

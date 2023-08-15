@@ -1,1 +1,0 @@
-Figure horizontal alignment (default, left, right, or center)

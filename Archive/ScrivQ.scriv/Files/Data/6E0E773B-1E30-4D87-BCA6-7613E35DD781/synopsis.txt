@@ -1,0 +1,1 @@
+Include a search box in the navbar.

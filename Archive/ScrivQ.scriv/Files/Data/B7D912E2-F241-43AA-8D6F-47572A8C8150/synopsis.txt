@@ -1,0 +1,5 @@
+The type of listing to create. Choose one of:
+	•	default: A blog style list of items
+	•	table: A table of items
+	•	grid: A grid of item cards
+	•	custom: A custom template, provided by the template field

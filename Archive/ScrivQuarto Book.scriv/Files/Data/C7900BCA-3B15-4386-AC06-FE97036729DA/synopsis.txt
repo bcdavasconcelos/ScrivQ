@@ -1,0 +1,3 @@
+Controls the formats which are provided in the citation section of the appendix.
+
+Use false to disable the display of the ‘cite as’ appendix. Pass one or more of display or bibtex to enable that format in ‘cite as’ appendix.

@@ -1,0 +1,5 @@
+For HTML output, sets the CSS color property on all links.
+
+For LaTeX output, The color used for internal links using color options allowed by xcolor, including the dvipsnames, svgnames, and x11names lists.
+
+For ConTeXt output, sets the color for both external links and links within the document.

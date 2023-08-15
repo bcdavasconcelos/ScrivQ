@@ -1,0 +1,1 @@
+Links (as navigation items) to display on the about page.In no id is provided for a listing, Quarto will synthesize one when rendering the page.

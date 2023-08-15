@@ -1,0 +1,1 @@
+Enables smooth scrolling within the page.

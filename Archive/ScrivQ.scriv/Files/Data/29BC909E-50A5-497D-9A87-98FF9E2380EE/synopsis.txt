@@ -1,0 +1,1 @@
+Display reactions for the discussion’s main post before the comments.

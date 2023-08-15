@@ -1,1 +1,0 @@
-Fields that items in this listing must have populated. If a listing is rendered and one more items in this listing is missing a required field, an error will occur and the render will.

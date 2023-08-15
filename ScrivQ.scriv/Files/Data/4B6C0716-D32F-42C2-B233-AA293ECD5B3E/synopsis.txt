@@ -1,6 +1,0 @@
-The mapping between the page and the embedded discussion.
-	•	pathname: The discussion title contains the page path
-	•	url: The discussion title contains the page url
-	•	title: The discussion title contains the page title
-	•	og:title: The discussion title contains the og:title metadata value
-	•	any other string or number: Any other strings will be passed through verbatim and a discussion title containing that value will be used. Numbers will be treated as a discussion number and automatic discussion creation is not supported.

@@ -1,0 +1,1 @@
+Specify loading: lazy to defer loading comments until the user scrolls near the comments container.

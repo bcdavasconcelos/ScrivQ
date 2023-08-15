@@ -1,0 +1,6 @@
+Specify location for footnotes. Also controls the location of references, if reference-links is set.
+
+block: Place at end of current top-level block
+section: Place at end of current section
+margin: Place at the margin
+document: Place at end of document

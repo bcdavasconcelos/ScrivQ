@@ -1,1 +1,0 @@
-For HTML output, sets the margin-right property on the Body element. For LaTeX output, sets the right margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the right margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the right page margin.

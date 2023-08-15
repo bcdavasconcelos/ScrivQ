@@ -1,1 +1,0 @@
-Include a search control in the sidebar.

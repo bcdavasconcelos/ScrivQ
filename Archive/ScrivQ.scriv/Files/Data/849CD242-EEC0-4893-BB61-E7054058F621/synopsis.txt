@@ -1,0 +1,1 @@
+Control the \pagestyle{} for the document. The default article class supports plain (default), empty (no running heads or page numbers), and headings (section titles in running heads).

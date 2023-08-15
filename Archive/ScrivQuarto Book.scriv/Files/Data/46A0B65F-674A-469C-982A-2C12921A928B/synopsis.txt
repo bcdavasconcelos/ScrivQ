@@ -1,0 +1,1 @@
+Use the given string as a command-line argument to the pdf-engine. For example, to use a persistent directory foo for latexmk’s auxiliary files, use pdf-engine-opt: -outdir=foo. Note that no check for duplicate options is done.

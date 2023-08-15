@@ -1,0 +1,27 @@
+  
+references:   
+- id: DA  
+  type: chapter  
+  author:   
+    - family: Aristotelis  
+  editor:   
+    - family: Bekker  
+      given: I.  
+  title: De Anima  
+  container-title: Aristotelis Opera  
+  issued:   
+    - year: 1834  
+  publisher: Reimer  
+  publisher-place: Berlin  
+- id: AristOp  
+  type: book  
+  author:   
+    - family: Aristotelis  
+  editor:   
+    - family: Bekker  
+      given: I.  
+  title: Aristotelis Opera  
+  issued:   
+    - year: 1834  
+  publisher: Reimer  
+  publisher-place: Berlin

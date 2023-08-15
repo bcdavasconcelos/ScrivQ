@@ -1,1 +1,0 @@
-The default image to use if an item in the listing doesn’t have an image.

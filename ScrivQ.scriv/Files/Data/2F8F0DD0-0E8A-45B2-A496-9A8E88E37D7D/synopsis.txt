@@ -1,1 +1,0 @@
-The responsive breakpoint below which the navbar will collapse into a menu (sm, md, lg (default), xl, xxl).

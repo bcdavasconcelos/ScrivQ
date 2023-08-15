@@ -1,1 +1,0 @@
-Configures the HTML viewer for notebooks that provide embedded content.

@@ -1,0 +1,8 @@
+The main font options for use with xelatex or lualatex allowing any options available through fontspec.
+
+For example, to use the TeX Gyre version of Palatino with lowercase figures:
+
+mainfont: TeX Gyre Pagella
+mainfontoptions:
+  - Numbers=Lowercase
+  - Numbers=Proportional  

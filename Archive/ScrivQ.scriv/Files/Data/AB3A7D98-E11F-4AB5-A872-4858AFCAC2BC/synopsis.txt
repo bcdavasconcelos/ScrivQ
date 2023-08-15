@@ -1,0 +1,1 @@
+Show a special icon next to links that leave the current site.

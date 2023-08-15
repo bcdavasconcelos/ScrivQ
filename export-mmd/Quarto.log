@@ -1,0 +1,148 @@
+--> Input Filename: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/index.md
+--> Modified path: /Users/bcdav/.rbenv/shims:/Users/bcdav/.pyenv/shims:/usr/local/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/bcdav/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+--> 1 figures fixed.
+--> 2 figures fixed.
+--> 3 figures fixed.
+--> 4 figures fixed.
+--> 5 figures fixed.
+--> 6 figures fixed.
+--> 7 figures fixed.
+--> 8 figures fixed.
+--> 9 figures fixed.
+--> 10 figures fixed.
+--> 11 figures fixed.
+--> 12 figures fixed.
+--> 12 figures fixed.
+--> 13 figures fixed.
+--> 14 figures fixed.
+--> 15 figures fixed.
+--> 16 figures fixed.
+--> 17 figures fixed.
+--> 18 figures fixed.
+--> 19 figures fixed.
+--> 20 figures fixed.
+--> 20 figures fixed.
+--> 21 figures fixed.
+--> New files detected!
+--> 7 notes replaced.
+--> Created files: refs/refs-scriv56.yml, refs/refs-scriv83.yml, refs/refs-scriv129.bib, _extensions/bcdavasconcelos/citetools/_extension.yaml, _extensions/bcdavasconcelos/citetools/citation-backlinks.lua, _extensions/bcdavasconcelos/citetools/citefield.lua, _extensions/bcdavasconcelos/citetools/citeproc.lua, _extensions/bcdavasconcelos/citetools/multiple-bibliographies.lua, _quarto.yml
+--> Modified File with fixed cross-references: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/index.qmd
+--> Parsing took: 0.031708s
+
+--> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/export-mmd/index.qmd" --to pdf
+[31m
+
+processing file: index.qmd
+[39m  |                                                           |                                                   |   0%  |                                                           |..                                                 |   5%                     |                                                           |.....                                              |  10% (fig-scriv16)       |                                                           |.......                                            |  14%                     |                                                           |..........                                         |  19% (fig-scriv16B)      |                                                           |............                                       |  24%                     |                                                           |...............                                    |  29% (fig-scriv17)       |                                                           |.................                                  |  33%                     |                                                           |...................                                |  38% (unnamed-chunk-4)   |                                                           |......................                             |  43%                     |                                                           |........................                           |  48% (unnamed-chunk-5)   |                                                           |...........................                        |  52%                     |                                                           |.............................                      |  57% (unnamed-chunk-6)   |                                                           |................................                   |  62%                     |                                                           |..................................                 |  67% (fig-scriv154)      |                                                           |....................................               |  71%                     |                                                           |.......................................            |  76% (fig-scriv156)      |                                                           |.........................................          |  81%                     |                                                           |............................................       |  86% (fig-scriv157)      |                                                           |..............................................     |  90%                     |                                                           |.................................................  |  95% (unnamed-chunk-10)  |                                                           |...................................................| 100%                                                                                                                                
+[31moutput file: index.knit.md
+
+[39m[1mpandoc [22m
+  to: latex
+  output-file: index.tex
+  standalone: true
+  number-sections: true
+  pdf-engine: lualatex
+  variables:
+    graphics: true
+    tables: true
+    secnumdepth: 3
+  default-image-extension: pdf
+  citeproc: false
+  verbosity: ERROR
+  toc: true
+  toc-depth: 3
+  top-level-division: chapter
+  
+[1mmetadata[22m
+  block-headings: true
+  book:
+    title: The ScrivQ Template
+    abstract: The ScrivQ Template
+    site-path: _site/
+    reader-mode: true
+    navbar:
+      - icon: github
+    page-navigation: true
+    back-to-top-navigation: true
+  citation: true
+  link-fields: false
+  link-citations: true
+  link-bibliography: true
+  notes-after-punctuation: true
+  verbose: false
+  validate-yaml: false
+  papersize: a4
+  documentclass: scrbook
+  classoption:
+    - oneside
+    - titlepage
+    - toclink=all
+    - toc=bibliography
+  geometry:
+    - top=2cm
+    - bottom=2cm
+    - head=1cm
+    - foot=1cm
+    - left=2cm
+    - marginparwidth=4cm
+    - textwidth=12cm
+    - marginparsep=1cm
+  cap-location: bottom
+  pagestyle: headings
+  hyperrefoptions:
+    - pdfstartview=FitR
+    - pdfpagemode=UseOutlines
+    - breaklinks=true
+    - pageanchor=true
+    - linktoc=all
+    - hyperfootnotes=false
+    - bookmarksnumbered
+  header-includes:
+    - |
+      \usepackage{setspace}  
+      \usepackage{etoolbox}  
+      \usepackage{metalogo}  
+  babel-lang: brazilian
+  babel-otherlangs:
+    - english
+    - ancientgreek
+    - sanskrit
+  lof: true
+  lot: true
+  number-depth: 3
+  fontsize: 12pt
+  mainfont: Alegreya
+  mainfontoptions:
+    - Numbers=Proportional
+    - Numbers=Lowercase
+  sansfont: Alegreya Sans
+  monofont: Code New Roman
+  appendix-style: default
+  float: true
+  csquotes: true
+  bibliography_scriv56: refs/refs-scriv56.yml
+  bibliography_scriv83: refs/refs-scriv83.yml
+  bibliography_scriv129: refs/refs-scriv129.bib
+  
+[33mWARNING (/Applications/quarto/share/filters/main.lua:13630) Shortcode 'fa' not found
+[39m[33mWARNING (/Applications/quarto/share/filters/main.lua:10306) Unable to resolve crossref @fig-scriv
+[39m[33mWARNING (/Applications/quarto/share/filters/main.lua:10306) Unable to resolve crossref @fig-scriv
+[39m[33mWARNING (/Applications/quarto/share/filters/main.lua:10306) Unable to resolve crossref @fig-scriv
+[39m[33mWARNING (/Applications/quarto/share/filters/main.lua:10306) Unable to resolve crossref @fig-scriv
+[39m[1m[34m
+Rendering PDF[39m[22m
+[1m[34mrunning lualatex - 1[39m[22m
+  This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
+   restricted system commands enabled.
+  
+[1m[34mrunning lualatex - 2[39m[22m
+  This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
+   restricted system commands enabled.
+  
+[1m[34mrunning lualatex - 3[39m[22m
+  This is LuaHBTeX, Version 1.17.0 (TeX Live 2023) 
+   restricted system commands enabled.
+  
+
+Output created: index.pdf
+

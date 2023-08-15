@@ -1,0 +1,1 @@
+Alignment of the items within the sidebar (left, right, or center)

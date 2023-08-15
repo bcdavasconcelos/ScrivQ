@@ -1,0 +1,115 @@
+
+  
+project:   
+  preview:   
+    port: 5556  
+book:   
+  title: The ScrivQ Template  
+  abstract: The ScrivQ Template  
+  site-path: _site/  
+  reader-mode: true  
+  navbar:   
+      - icon: github  
+  page-navigation: true  
+  back-to-top-navigation: true  
+filters:   
+  - citetools  
+format:   
+  html:   
+    metadata:   
+      author-meta: Bernardo César Diniz Athayde Vasconcelos  
+      date-meta: 2023-08  
+      subject: workflow  
+      keywords: [Sophrosyne, Platão, Aristóteles]  
+    theme:   
+      light: [Pulse]  
+      dark: [Cyborg]  
+    toc: true  
+    number-sections: true  
+    number-depth: 3  
+    linestretch: 1.5  
+    fontsize: 12pt  
+    mainfont: Alegreya  
+    sansfont: Alegreya Sans  
+    monofont: Code New Roman  
+    code-link: true  
+    code-copy: true  
+    code-tools: true  
+    code-fold: show  
+    code-line-numbers: true  
+    code-overflow: wrap  
+    appendix-style: default  
+  pdf:   
+    pdf-engine: lualatex  
+    papersize: a4  
+    documentclass: scrbook  
+    classoption:   
+      - oneside  
+      - titlepage  
+      - toclink=all  
+      - toc=bibliography  
+    geometry:   
+      - top=2cm  
+      - bottom=2cm  
+      - head=1cm  
+      - foot=1cm  
+      - left=2cm  
+      - marginparwidth=4cm  
+      - textwidth=12cm  
+      - marginparsep=1cm  
+    cap-location: bottom  
+    pagestyle: headings  
+    hyperrefoptions:   
+      - pdfstartview=FitR  
+      - pdfpagemode=UseOutlines  
+      - breaklinks=true  
+      - pageanchor=true  
+      - linktoc=all  
+      - hyperfootnotes=false  
+      - bookmarksnumbered  
+    header-includes: |  
+      \usepackage{setspace}  
+      \usepackage{etoolbox}  
+      \usepackage{metalogo}  
+    standalone: true  
+    latex-auto-install: true  
+    latex-auto-mk: true  
+    latex-tinytex: true  
+    keep-tex: true  
+    babel-lang: brazilian  
+    babel-otherlangs:   
+      - english  
+      - ancientgreek  
+      - sanskrit  
+    toc: true  
+    toc-depth: 3  
+    lof: true  
+    lot: true  
+    number-sections: true  
+    number-depth: 3  
+    top-level-division: chapter  
+    fontsize: 12pt  
+    mainfont: Alegreya  
+    mainfontoptions:   
+      - Numbers=Proportional  
+      - Numbers=Lowercase  
+    sansfont: Alegreya Sans  
+    monofont: Code New Roman  
+    code-line-numbers: true  
+    code-overflow: wrap  
+    appendix-style: default  
+    float: true  
+    csquotes: true  
+execute:   
+  output: asis  
+  cache: true  
+  freeze: auto  
+citation: true  
+link-fields: false  
+link-citations: true  
+link-bibliography: true  
+notes-after-punctuation: true  
+citeproc: false  
+verbose: false  
+verbosity: ERROR  
+validate-yaml: false
