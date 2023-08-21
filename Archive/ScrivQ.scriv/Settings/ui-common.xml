@@ -6,15 +6,15 @@
         <SubdocumentCounts>No</SubdocumentCounts>
         <ExpandedItems>
             <ItemID>C2B7CD89-AB5C-42DC-B877-91BB443E413C</ItemID>
-            <ItemID>6E166A5C-F0A7-4B33-9751-BD511DBF6F55</ItemID>
-            <ItemID>E5274870-CB49-493A-AA10-9A6CBE777CF9</ItemID>
+            <ItemID>79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D</ItemID>
+            <ItemID>C7870D41-0F25-4176-B5F7-9C92C6BB79C3</ItemID>
         </ExpandedItems>
         <Selection>
             <ItemID>8D6D3F5E-91AA-449C-82A3-0CE5C106DCE7</ItemID>
         </Selection>
         <SearchResultsSort Titles="Ascending" Dates="Ascending">None</SearchResultsSort>
     </Binder>
-    <Inspector Show="Yes" View="Notes">
+    <Inspector Show="Yes" View="Comments">
         <ShowProjectBookmarks>No</ShowProjectBookmarks>
         <ShowSimilarTexts>No</ShowSimilarTexts>
         <FootnoteNumbers Prompt="No">No</FootnoteNumbers>
