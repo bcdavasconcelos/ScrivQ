@@ -1,0 +1,1 @@
+Type of search UI (overlay or textbox)

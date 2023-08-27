@@ -1,1 +1,0 @@
-The title for this feed. Defaults to the site title provided the Quarto project.

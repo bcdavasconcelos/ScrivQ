@@ -1,0 +1,1 @@
+Download buttons for other formats to include on navbar or sidebar (one or more of pdf, epub, and docx)

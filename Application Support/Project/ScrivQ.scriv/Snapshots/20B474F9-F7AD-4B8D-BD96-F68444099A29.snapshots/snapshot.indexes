@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="20B474F9-F7AD-4B8D-BD96-F68444099A29">
+    <Snapshot Date="2022-10-15 15:31:32 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um exemplo mínimo de referência para Pandoc Markdown no meu trabalho atual. 
+É possível formatar o texto utilizando itálico, negrito, small caps, sublinhando, itálico-negrito.
+Recursos visuais nativos incluem: note, tip, warning, caution, important
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. आदौ वाद आसीत्, ἐν ἀρχὴ ἦν ὁ λόγος, cf. [tabela @tbl-nt] abaixo), referências bibliográficas (@EN, @Fritz1938).*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de @EN III 10 §1 {#tbl-ENIII10}
+Se nos dermos uma etiqueta à tabela {#tbl-ETIQUETA}, poderemos nos referir a ela posteriormente utilizando @tbl-ETIQUETA.
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+Um exemplo de diagrama feito com o mermaid.
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13. Para gerar diagramas utilizando o mermaid, é preciso ter o Chromium instalado.
+%%|echo: fanced
+%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+Para criar diagramas, utilize o editor online. Depois copie e cole o código no Scrivener.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+GRC
+ἐν ἀρχὴ ἦν ὁ λόγος
+SKT
+आदौ वाद आसीत्
+
+: Exemplo de uma passagem de NT João I 1 {#tbl-nt}
+O texto em língua estrangeira é duplicado para criar uma saída específica para LaTeX e outra para HTML. Isso é assim, pois o Pandoc/Quarto permite direcionar saídas específicas para alguns formatos. No caso da saída em LaTeX, nós queremos algo diferente, pois é preciso indicar para o mecanismo TeX quais passagens estão em língua estrangeira para que ele possa hifenizar corretamente as palavras e acertar nos detalhes tipográficos, como micro-espaçamento entre caractéres e palavras.
+
+ἐν ἀρχὴ ἦν ὁ λόγος
+`\grc{ἐν ἀρχὴ ἦν ὁ λόγος}`{=latex}
+`ἐν ἀρχὴ ἦν ὁ λόγος`{=html}
+
+आदौ वाद आसीत्
+`\skt{आदौ वाद आसीत्}`{=latex}
+`आदौ वाद आसीत्`{=html}
+
+Além de questões de espaçamento, o sistema LaTeX exige que configuremos as línguas com as quais vamos trabalhar e configuremos opções como a fonte a ser utilizado por cada língua. No caso do grego, as opções são várias. No caso do sânscrito, elas são bastante limitadas.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a [tabela -@tbl-ENIII10]).
+Abaixo um bloco de código em Ruby.
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+
+Se você prefere ser rico do que ser feliz, aprenda Python ao invés de Ruby.
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+    <Snapshot Date="2022-10-15 20:43:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um exemplo mínimo de referência para Pandoc Markdown no meu trabalho atual. 
+É possível formatar o texto utilizando itálico, negrito, small caps, sublinhando, itálico-negrito.
+Recursos visuais nativos incluem: note, tip, warning, caution, important
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. आदौ वाद आसीत्, ἐν ἀρχὴ ἦν ὁ λόγος, cf. [tabela @tbl-nt] abaixo), referências bibliográficas (@EN, @Fritz1938).*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de @EN III 10 §1 {#tbl-ENIII10}
+Se nos dermos uma etiqueta à tabela {#tbl-ETIQUETA}, poderemos nos referir a ela posteriormente utilizando @tbl-ETIQUETA.
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+Um exemplo de diagrama feito com o mermaid.
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13. Para gerar diagramas utilizando o mermaid, é preciso ter o Chromium instalado.
+%%|echo: fanced
+%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+Para criar diagramas, utilize o editor online. Depois copie e cole o código no Scrivener.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+GRC
+ἐν ἀρχὴ ἦν ὁ λόγος
+SKT
+आदौ वाद आसीत्
+
+: Exemplo de uma passagem de NT João I 1 {#tbl-nt}
+O texto em língua estrangeira é duplicado para criar uma saída específica para LaTeX e outra para HTML. Isso é assim, pois o Pandoc/Quarto permite direcionar saídas específicas para alguns formatos. No caso da saída em LaTeX, nós queremos algo diferente, pois é preciso indicar para o mecanismo TeX quais passagens estão em língua estrangeira para que ele possa hifenizar corretamente as palavras e acertar nos detalhes tipográficos, como micro-espaçamento entre caractéres e palavras.
+Para o formato LaTeX, nós transformamos ἐν ἀρχὴ ἦν ὁ λόγος em \\grc\{ἐν ἀρχὴ ἦν ὁ λόγος\}. Este comando \\grc\{\} e \\skt\{\} são comandos que criamos para inserir citações em grego antigo e sânscrito no texto. O sistema LaTeX demanda a configuração de todas as línguas utilizadas no documento, bem como as fontes a serem utilizadas por cada língua. Neste documento, podemos utilizar português, grego antigo e sânscrito. 
+Estas marcações não devem aparecer em outros formatos como DOCX ou HTML.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a [tabela -@tbl-ENIII10]).
+Abaixo um bloco de código em Ruby.
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+
+Se você prefere ser rico do que ser feliz, aprenda Python ao invés de Ruby.
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+    <Snapshot Date="2022-12-07 14:26:58 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um exemplo mínimo de referência para Pandoc Markdown no meu trabalho atual. 
+É possível formatar o texto utilizando itálico, negrito, small caps, sublinhando, itálico-negrito.
+Recursos visuais nativos incluem: note, tip, warning, caution, important
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. आदौ वाद आसीत्, ἐν ἀρχὴ ἦν ὁ λόγος, cf. [tabela @tbl-nt] abaixo), referências bibliográficas [@EN; @Fritz1938].*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de [@EN III 10 §1] {#tbl-ENIII10}
+Se nos dermos uma etiqueta à tabela {#tbl-ETIQUETA}, poderemos nos referir a ela posteriormente utilizando @tbl-ETIQUETA.
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+Um exemplo de diagrama feito com o mermaid.
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13. Para gerar diagramas utilizando o mermaid, é preciso ter o Chromium instalado.
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+Para criar diagramas, utilize o editor online. Depois copie e cole o código no Scrivener.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+GRC
+ἐν ἀρχὴ ἦν ὁ λόγος
+SKT
+आदौ वाद आसीत्
+
+: Exemplo de uma passagem de NT João I 1 {#tbl-nt}
+O texto em língua estrangeira é duplicado para criar uma saída específica para LaTeX e outra para HTML. Isso é assim, pois o Pandoc/Quarto permite direcionar saídas específicas para alguns formatos. No caso da saída em LaTeX, nós queremos algo diferente, pois é preciso indicar para o mecanismo TeX quais passagens estão em língua estrangeira para que ele possa hifenizar corretamente as palavras e acertar nos detalhes tipográficos, como micro-espaçamento entre caractéres e palavras.
+Para o formato LaTeX, nós transformamos ἐν ἀρχὴ ἦν ὁ λόγος em \\grc\{ἐν ἀρχὴ ἦν ὁ λόγος\}. Este comando \\grc\{\} e \\skt\{\} são comandos que criamos para inserir citações em grego antigo e sânscrito no texto. O sistema LaTeX demanda a configuração de todas as línguas utilizadas no documento, bem como as fontes a serem utilizadas por cada língua. Neste documento, podemos utilizar português, grego antigo e sânscrito. 
+Estas marcações não devem aparecer em outros formatos como DOCX ou HTML.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a [tabela -@tbl-ENIII10]).
+Abaixo um bloco de código em Ruby.
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+
+Se você prefere ser rico do que ser feliz, aprenda Python ao invés de Ruby.
+
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+    <Snapshot Date="2022-10-15 01:19:26 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um documento de referência para Pandoc Markdown. 
+Em Markdown, indicamos o fim de um parágrafo deixando uma linha em branco ou acrescentando dois espaços em branco no fim de uma linha. É possível formatar o texto de diversas maneiras, itálico, negrito, small caps, sublinhando, itálico-negrito. (No Scrivener isso é dispensável, pois programamos ele para criar estas linhas automaticamente).
+
+Nunca se esquecer de deixar a linha em branco entre parágrafos, caso contrário, o texto será produzido sem divisão de parágrafos.
+
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. को न्वस्मिन् साम्प्रतं लोके गुणवान् कश्च वीर्यवान्, ἐν ἀρχὴ ἦν ὁ λόγος), referências bibliográficas (@EN, @Fritz1938).*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de @EN III 10 §1 {#tbl-ENIII10}
+
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+{#umalabel}
+
+Um exemplo de diagrama feito com o mermaid.
+
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13
+%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a @umalabel e a tabela -@tbl-ENIII10).
+
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+    <Snapshot Date="2022-10-15 17:53:56 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um exemplo mínimo de referência para Pandoc Markdown no meu trabalho atual. 
+É possível formatar o texto utilizando itálico, negrito, small caps, sublinhando, itálico-negrito.
+Recursos visuais nativos incluem: note, tip, warning, caution, important
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. आदौ वाद आसीत्, ἐν ἀρχὴ ἦν ὁ λόγος, cf. [tabela @tbl-nt] abaixo), referências bibliográficas (@EN, @Fritz1938).*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de @EN III 10 §1 {#tbl-ENIII10}
+Se nos dermos uma etiqueta à tabela {#tbl-ETIQUETA}, poderemos nos referir a ela posteriormente utilizando @tbl-ETIQUETA.
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+Um exemplo de diagrama feito com o mermaid.
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13. Para gerar diagramas utilizando o mermaid, é preciso ter o Chromium instalado.
+%%|echo: fanced
+%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+Para criar diagramas, utilize o editor online. Depois copie e cole o código no Scrivener.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+GRC
+ἐν ἀρχὴ ἦν ὁ λόγος
+SKT
+आदौ वाद आसीत्
+
+: Exemplo de uma passagem de NT João I 1 {#tbl-nt}
+O texto em língua estrangeira é duplicado para criar uma saída específica para LaTeX e outra para HTML. Isso é assim, pois o Pandoc/Quarto permite direcionar saídas específicas para alguns formatos. No caso da saída em LaTeX, nós queremos algo diferente, pois é preciso indicar para o mecanismo TeX quais passagens estão em língua estrangeira para que ele possa hifenizar corretamente as palavras e acertar nos detalhes tipográficos, como micro-espaçamento entre caractéres e palavras.
+
+ἐν ἀρχὴ ἦν ὁ λόγος
+`\grc{ἐν ἀρχὴ ἦν ὁ λόγος}`{=latex}
+`ἐν ἀρχὴ ἦν ὁ λόγος`{=html}
+
+
+ἐν ἀρχὴ ἦν ὁ λόγος
+`\grc{ἐν ἀρχὴ ἦν ὁ λόγος}`{=latex}
+`ἐν ἀρχὴ ἦν ὁ λόγος`{=html}
+
+आदौ वाद आसीत्
+`\skt{आदौ वाद आसीत्}`{=latex}
+`आदौ वाद आसीत्`{=html}
+
+Além de questões de espaçamento, o sistema LaTeX exige que configuremos as línguas com as quais vamos trabalhar e configuremos opções como a fonte a ser utilizado por cada língua. No caso do grego, as opções são várias. No caso do sânscrito, elas são bastante limitadas.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a [tabela -@tbl-ENIII10]).
+Abaixo um bloco de código em Ruby.
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+
+Se você prefere ser rico do que ser feliz, aprenda Python ao invés de Ruby.
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+    <Snapshot Date="2022-12-07 12:20:49 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um exemplo mínimo de referência para Pandoc Markdown no meu trabalho atual. 
+É possível formatar o texto utilizando itálico, negrito, small caps, sublinhando, itálico-negrito.
+Recursos visuais nativos incluem: note, tip, warning, caution, important
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. आदौ वाद आसीत्, ἐν ἀρχὴ ἦν ὁ λόγος, cf. [tabela @tbl-nt] abaixo), referências bibliográficas (@EN, @Fritz1938).*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de @EN III 10 §1 {#tbl-ENIII10}
+Se nos dermos uma etiqueta à tabela {#tbl-ETIQUETA}, poderemos nos referir a ela posteriormente utilizando @tbl-ETIQUETA.
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+Um exemplo de diagrama feito com o mermaid.
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13. Para gerar diagramas utilizando o mermaid, é preciso ter o Chromium instalado.
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+Para criar diagramas, utilize o editor online. Depois copie e cole o código no Scrivener.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+GRC
+ἐν ἀρχὴ ἦν ὁ λόγος
+SKT
+आदौ वाद आसीत्
+
+: Exemplo de uma passagem de NT João I 1 {#tbl-nt}
+O texto em língua estrangeira é duplicado para criar uma saída específica para LaTeX e outra para HTML. Isso é assim, pois o Pandoc/Quarto permite direcionar saídas específicas para alguns formatos. No caso da saída em LaTeX, nós queremos algo diferente, pois é preciso indicar para o mecanismo TeX quais passagens estão em língua estrangeira para que ele possa hifenizar corretamente as palavras e acertar nos detalhes tipográficos, como micro-espaçamento entre caractéres e palavras.
+Para o formato LaTeX, nós transformamos ἐν ἀρχὴ ἦν ὁ λόγος em \\grc\{ἐν ἀρχὴ ἦν ὁ λόγος\}. Este comando \\grc\{\} e \\skt\{\} são comandos que criamos para inserir citações em grego antigo e sânscrito no texto. O sistema LaTeX demanda a configuração de todas as línguas utilizadas no documento, bem como as fontes a serem utilizadas por cada língua. Neste documento, podemos utilizar português, grego antigo e sânscrito. 
+Estas marcações não devem aparecer em outros formatos como DOCX ou HTML.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a [tabela -@tbl-ENIII10]).
+Abaixo um bloco de código em Ruby.
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+
+Se você prefere ser rico do que ser feliz, aprenda Python ao invés de Ruby.
+
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+    <Snapshot Date="2022-10-15 03:40:12 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um exemplo mínimo de referência para Pandoc Markdown no meu trabalho atual. 
+É possível formatar o texto utilizando itálico, negrito, small caps, sublinhando, itálico-negrito.
+Recursos visuais nativos incluem: note, tip, warning, caution, important
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. आदौ वाद आसीत्, ἐν ἀρχὴ ἦν ὁ λόγος), referências bibliográficas (@EN, @Fritz1938).*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de @EN III 10 §1 {#tbl-ENIII10}
+Se nos dermos uma etique à tabela, poderemos nos referir a ela posteriormente. Basta utilizar {#tbl-}.
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+Um exemplo de diagrama feito com o mermaid.
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13. Para gerar diagramas utilizando o mermaid, é preciso ter o Chromium instalado.
+%%|echo: fanced
+%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+Para criar diagramas, utilize o editor online. Depois copie e cole o código no Scrivener.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+GRC
+ἐν ἀρχὴ ἦν ὁ λόγος
+SKT
+आदौ वाद आसीत्
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a [tabela -@tbl-ENIII10]).
+Abaixo um bloco de código em Ruby.
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+
+Pandoc Rocks!
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+    <Snapshot Date="2022-10-15 15:19:50 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Esse é um exemplo mínimo de referência para Pandoc Markdown no meu trabalho atual. 
+É possível formatar o texto utilizando itálico, negrito, small caps, sublinhando, itálico-negrito.
+Recursos visuais nativos incluem: note, tip, warning, caution, important
+Há outras possibilidades como acrescentar texto subscrito e sobrescrito; termos em línguas estrangeiras (e.g. आदौ वाद आसीत्, ἐν ἀρχὴ ἦν ὁ λόγος, cf. [tabela @tbl-nt] abaixo), referências bibliográficas (@EN, @Fritz1938).*
+
+EN III 10 §1 GRC
+EN III 10 §1 PT
+§1 1117b23 Μετὰ δὲ ταύτην περὶ σωφροσύνης λέγωμεν· δοκοῦσι 1117b24 γὰρ τῶν ἀλόγων μερῶν αὗται εἶναι αἱ ἀρεταί. ὅτι μὲν 1117b25 οὖν μεσότης ἐστὶ περὶ ἡδονὰς ἡ σωφροσύνη, εἴρηται ἡμῖν· 1117b26 ἧττον γὰρ καὶ οὐχ ὁμοίως ἐστὶ περὶ τὰς λύπας· ἐν τοῖς 1117b27 αὐτοῖς δὲ καὶ ἡ ἀκολασία φαίνεται. περὶ ποίας οὖν τῶν 1117b28 ἡδονῶν, νῦν ἀφορίσωμεν.
+§1 Depois dessa [a coragem], falemos sobre a temperança, pois elas parecem ser as virtudes das partes não racionais da alma. Que, então, a temperança é uma mediedade com relação aos prazeres, foi dito por nós; pois ela é em menor grau e de modo distinto com relação às dores, nas quais também a intemperança se manifesta. Com relação a quais dos prazeres é o que delimitaremos agora.
+
+: Tradução de @EN III 10 §1 {#tbl-ENIII10}
+Se nos dermos uma etiqueta à tabela {#tbl-ETIQUETA}, poderemos nos referir a ela posteriormente utilizando @tbl-ETIQUETA.
+É possível inserir exemplos de código no texto usando puts "true" ou como um bloco separado, como no exemplo abaixo.
+Um exemplo de diagrama feito com o mermaid.
+
+%%|label: fig-mermaid-bipartição-da-alma-en-i-13
+%%|fig-cap: A bipartição da alma em EN I 13. Para gerar diagramas utilizando o mermaid, é preciso ter o Chromium instalado.
+%%|echo: fanced
+%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+graph LR
+
+  A([Alma bipartida])
+  B(["Racional (τὸ λόγον ἔχον)"])
+  C(["Não-racional (ἄλογος)"])
+
+  A:::default -.- B:::R
+  A -.- C:::NR
+
+
+  D(["Faculdade do pensamento (διάνοια, νοῦς)"])
+  E(["Funções do desejo (ἐπιθυμητικὸν καὶ ὅλως ὀρεκτικὸν)"])
+
+  B -.- D:::R
+  B -.- E:::NR
+
+  F(["Faculdade biológica da sensação (τὸ αἰσθητικόν)"])
+  G(["Funções nutritivas (τὸ θρεπτικόν)"])
+
+  C -.- E  
+  C -.- F:::NR2
+  C -.- G:::NR2
+
+
+  classDef default fill:none
+  classDef R fill:#a0e85b racional
+  classDef NR fill:#fb9643 não-racional
+  classDef NR2 fill:#fb6961 não-racional2
+
+Para criar diagramas, utilize o editor online. Depois copie e cole o código no Scrivener.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. E aqui vai uma observação na margem;
+
+GRC
+ἐν ἀρχὴ ἦν ὁ λόγος
+SKT
+आदौ वाद आसीत्
+
+: Exemplo de uma passagem de NT João I 1 {#tbl-nt}
+O texto em língua estrangeira é duplicado para criar uma saída específica para LaTeX e outra para HTML. Isso é assim, pois o Pandoc/Quarto permite direcionar saídas específicas para alguns formatos. No caso da saída em LaTeX, nós queremos algo diferente, pois é preciso indicar para o mecanismo TeX quais passagens estão em língua estrangeira para que ele possa hifenizar corretamente as palavras e acertar nos detalhes tipográficos, como micro-espaçamento entre caractéres e palavras.
+
+ἐν ἀρχὴ ἦν ὁ λόγος
+`\grc{ἐν ἀρχὴ ἦν ὁ λόγος}`{=latex}
+`ἐν ἀρχὴ ἦν ὁ λόγος`{=html}
+
+आदौ वाद आसीत्
+`\skt{आदौ वाद आसीत्}`{=latex}
+`आदौ वाद आसीत्`{=html}
+
+Além de questões de espaçamento, o sistema LaTeX exige que configuremos as línguas com as quais vamos trabalhar e configuremos opções como a fonte a ser utilizado por cada língua. No caso do grego, as opções são várias. No caso do sânscrito, elas são bastante limitadas.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Ver a [tabela -@tbl-ENIII10]).
+Abaixo um bloco de código em Ruby.
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+Encoding.default_external = Encoding::UTF_8
+
+the_path = '/Users/bcdav/Dropbox/Developer/Ruby/libs/'
+path = File.expand_path(the_path)
+puts path
+
+Pandoc Rocks!
+</Text>
+        <Comments>Eis uma nota de rodapé.</Comments>
+    </Snapshot>
+</SnapshotIndexes>

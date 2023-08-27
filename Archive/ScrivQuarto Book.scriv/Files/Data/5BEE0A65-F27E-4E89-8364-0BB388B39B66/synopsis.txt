@@ -1,1 +1,0 @@
-Theorem prefix used for inline reference

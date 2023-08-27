@@ -1,1 +1,0 @@
-In table type listings, display the table rows with alternating background colors. Defaults to false.

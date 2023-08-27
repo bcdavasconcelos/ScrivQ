@@ -1,2 +1,0 @@
-The height of the image being displayed (a CSS height string).
-The width is automatically determined and the image will fill the rectangle without scaling (cropped to fill).

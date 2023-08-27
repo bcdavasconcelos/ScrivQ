@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="B6550C3D-1734-45BC-B978-B195C7D450A2">
+    <Snapshot Date="2023-08-12 21:46:06 -0300">
+        <Title>Scrivener Native Table</Title>
+        <Text>
+
+
+
+CSL-YAML
+CSL-JSON
+BibTeX
+RIS
+```yaml
+---
+references:
+- author:
+  - family: Aristotle
+  edition: 1
+  editor:
+  - family: Bekker
+    given: Immanuel
+  id: AristOp
+  issued: 1831
+  number-of-volumes: 4
+  publisher: Reimer
+  publisher-place: Berlim
+  title: Aristotelis opera
+  type: book
+---
+```
+```json
+[
+  {
+    "author": [
+      {
+        "family": "Aristotle"
+      }
+    ],
+    "edition": "1",
+    "editor": [
+      {
+        "family": "Bekker",
+        "given": "Immanuel"
+      }
+    ],
+    "id": "AristOp",
+    "issued": {
+      "date-parts": [
+        [
+          1831
+        ]
+      ]
+    },
+    "number-of-volumes": "4",
+    "publisher": "Reimer",
+    "publisher-place": "Berlim",
+    "title": "Aristotelis opera",
+    "type": "book"
+  }
+]
+```
+```bibtex
+@book{AristOp,
+author = {Aristotle},
+editor = {Bekker, Immanuel},
+title = {Aristotelis opera},
+publisher = {Reimer},
+address = {Berlim},
+volumes = {4},
+edition = {1},
+year = {1831}
+}
+```
+```ris
+TY  - BOOK
+ID  - AristOp
+AU  - Aristotle
+ED  - Bekker, Immanuel
+TI  - Aristotelis opera
+PB  - Reimer
+CY  - Berlim
+ET  - 1
+VL  - 4
+Y1  - 1831
+ER  -
+```
+```yaml
+---
+references:
+- author:
+  - family: Aristotle
+  container-title: Aristotelis opera
+  edition: 1
+  editor:
+  - family: Bekker
+    given: Immanuel
+  id: AristOp
+  issued: 1831
+  original-title: Περὶ ψυχῆς
+  publisher: Reimer
+  publisher-place: Berlim
+  title: De anima
+  type: chapter
+---
+```
+
+```json
+[
+  {
+    "author": [
+      {
+        "family": "Aristotle"
+      }
+    ],
+    "container-title": "Aristotelis opera",
+    "edition": "1",
+    "editor": [
+      {
+        "family": "Bekker",
+        "given": "Immanuel"
+      }
+    ],
+    "id": "AristOp",
+    "issued": {
+      "date-parts": [
+        [
+          1831
+        ]
+      ]
+    },
+    "original-title": "Περὶ ψυχῆς",
+    "publisher": "Reimer",
+    "publisher-place": "Berlim",
+    "title": "De anima",
+    "type": "chapter"
+  }
+]
+```
+
+```bibtex
+@incollection{AristOp,
+author = {Aristotle},
+editor = {Bekker, Immanuel},
+title = {De Anima},
+origtitle = {Περὶ ψυχῆς},
+booktitle = {Aristotelis opera},
+publisher = {Reimer},
+address = {Berlim},
+edition = {1},
+year = {1831}
+}
+```
+```RIS
+TY  - CHAP
+ID  - AristOp
+AU  - Aristotle
+ED  - Bekker, Immanuel
+TI  - De Anima
+OR  - Περὶ ψυχῆς
+BT  - Aristotelis opera 
+PB  - Reimer
+CY  - Berlim
+ET  - 1
+VL  - 4
+Y1  - 1831
+ER  -
+```
+
+Sample of a book and chapter reference entry in the formats discused.
+
+Document processing using Quarto and Pandoc is *much* faster using `CSL-YAML/JSON` bibliographies than using `BibTeX` or `RIS` because Pandoc also uses the [Citation Style Language](https://citationstyles.org/) internally (of which CSL-YAML is a representation).</Text>
+    </Snapshot>
+    <Snapshot Date="2023-08-12 21:46:37 -0300">
+        <Title>Markdown Grid Table</Title>
+        <Text>
++--------------------------------------+---------------------------------------------+----------------------------------+-------------------------+
+| CSL-YAML                             | CSL-JSON                                    | BibTeX                           | RIS                     |
++======================================+=============================================+==================================+==========================
+|                                      | ```json                                     |                                  |                         |
+|                                      | [                                           |                                  |                         |
+|                                      |   {                                         |                                  |                         |
+|                                      |     "author": [                             |                                  |                         |
+|                                      |       {                                     |                                  |                         |
+|                                      |         "family": "Aristotle"               |                                  |                         |
+|                                      |       }                                     |                                  |                         |
+| ```yaml                              |                                             |                                  |                         |
+|                                      |     ],                                      |                                  |                         |
+| ---                                  |                                             |                                  |                         |
+|                                      |     "edition": "1",                         |                                  |                         |
+| references:                          |                                             |                                  |                         |
+|                                      |     "editor": [                             |                                  | ```ris                  |
+| - author:                            |                                             | ```bibtex                        |                         |
+|                                      |       {                                     |                                  | TY  - BOOK              |
+|   - family: Aristotle                |                                             | @book{AristOp,                   |                         |
+|                                      |         "family": "Bekker",                 |                                  | ID  - AristOp           |
+|   edition: 1                         |                                             | author = {Aristotle},            |                         |
+|                                      |         "given": "Immanuel"                 |                                  | AU  - Aristotle         |
+|   editor:                            |                                             | editor = {Bekker, Immanuel},     |                         |
+|                                      |       }                                     |                                  | ED  - Bekker, Immanuel  |
+|   - family: Bekker                   |                                             | title = {Aristotelis opera},     |                         |
+|                                      |     ],                                      |                                  | TI  - Aristotelis opera |
+|     given: Immanuel                  |                                             | publisher = {Reimer},            |                         |
+|                                      |     "id": "AristOp",                        |                                  | PB  - Reimer            |
+|   id: AristOp                        |                                             | address = {Berlim},              |                         |
+|                                      |     "issued": {                             |                                  | CY  - Berlim            |
+|   issued: 1831                       |                                             | volumes = {4},                   |                         |
+|                                      |       "date-parts": [                       |                                  | ET  - 1                 |
+|   number-of-volumes: 4               |                                             | edition = {1},                   |                         |
+|                                      |         [                                   |                                  | VL  - 4                 |
+|   publisher: Reimer                  |                                             | year = {1831}                    |                         |
+|                                      |           1831                              |                                  | Y1  - 1831              |
+|   publisher-place: Berlim            |                                             | }                                |                         |
+|                                      |         ]                                   |                                  | ER  -                   |
+|   title: Aristotelis opera           |                                             | ```                              |                         |
+|                                      |       ]                                     |                                  | ```                     |
+|   type: book                         |                                             |                                  |                         |
+|                                      |     },                                      |                                  |                         |
+| ---                                  |                                             |                                  |                         |
+|                                      |     "number-of-volumes": "4",               |                                  |                         |
+| ```                                  |                                             |                                  |                         |
+|                                      |     "publisher": "Reimer",                  |                                  |                         |
+|                                      |     "publisher-place": "Berlim",            |                                  |                         |
+|                                      |     "title": "Aristotelis opera",           |                                  |                         |
+|                                      |     "type": "book"                          |                                  |                         |
+|                                      |   }                                         |                                  |                         |
+|                                      | ]                                           |                                  |                         |
+|                                      | ```                                         |                                  |                         |
++--------------------------------------+---------------------------------------------+----------------------------------+-------------------------+
+|                                      | ```json                                     |                                  |                         |
+|                                      | [                                           |                                  |                         |
+|                                      |   {                                         |                                  |                         |
+|                                      |     "author": [                             |                                  |                         |
+|                                      |       {                                     |                                  |                         |
+|                                      |         "family": "Aristotle"               |                                  |                         |
+|                                      |       }                                     |                                  |                         |
+| ```yaml                              |                                             |                                  |                         |
+|                                      |     ],                                      |                                  |                         |
+| ---                                  |                                             |                                  |                         |
+|                                      |     "container-title": "Aristotelis opera", |                                  |                         |
+| references:                          |                                             |                                  |                         |
+|                                      |     "edition": "1",                         |                                  | ```RIS                  |
+| - author:                            |                                             |                                  |                         |
+|                                      |     "editor": [                             | ```bibtex                        | TY  - CHAP              |
+|   - family: Aristotle                |                                             |                                  |                         |
+|                                      |       {                                     | @incollection{AristOp,           | ID  - AristOp           |
+|   container-title: Aristotelis opera |                                             |                                  |                         |
+|                                      |         "family": "Bekker",                 | author = {Aristotle},            | AU  - Aristotle         |
+|   edition: 1                         |                                             |                                  |                         |
+|                                      |         "given": "Immanuel"                 | editor = {Bekker, Immanuel},     | ED  - Bekker, Immanuel  |
+|   editor:                            |                                             |                                  |                         |
+|                                      |       }                                     | title = {De Anima},              | TI  - De Anima          |
+|   - family: Bekker                   |                                             |                                  |                         |
+|                                      |     ],                                      | origtitle = {Περὶ ψυχῆς},        | OR  - Περὶ ψυχῆς        |
+|     given: Immanuel                  |                                             |                                  |                         |
+|                                      |     "id": "AristOp",                        | booktitle = {Aristotelis opera}, | BT  - Aristotelis opera |
+|   id: AristOp                        |                                             |                                  |                         |
+|                                      |     "issued": {                             | publisher = {Reimer},            | PB  - Reimer            |
+|   issued: 1831                       |                                             |                                  |                         |
+|                                      |       "date-parts": [                       | address = {Berlim},              | CY  - Berlim            |
+|   original-title: Περὶ ψυχῆς         |                                             |                                  |                         |
+|                                      |         [                                   | edition = {1},                   | ET  - 1                 |
+|   publisher: Reimer                  |                                             |                                  |                         |
+|                                      |           1831                              | year = {1831}                    | VL  - 4                 |
+|   publisher-place: Berlim            |                                             |                                  |                         |
+|                                      |         ]                                   | }                                | Y1  - 1831              |
+|   title: De anima                    |                                             |                                  |                         |
+|                                      |       ]                                     | ```                              | ER  -                   |
+|   type: chapter                      |                                             |                                  |                         |
+|                                      |     },                                      |                                  | ```                     |
+| ---                                  |                                             |                                  |                         |
+|                                      |     "original-title": "Περὶ ψυχῆς",         |                                  |                         |
+| ```                                  |                                             |                                  |                         |
+|                                      |     "publisher": "Reimer",                  |                                  |                         |
+|                                      |     "publisher-place": "Berlim",            |                                  |                         |
+|                                      |     "title": "De anima",                    |                                  |                         |
+|                                      |     "type": "chapter"                       |                                  |                         |
+|                                      |   }                                         |                                  |                         |
+|                                      | ]                                           |                                  |                         |
+|                                      | ```                                         |                                  |                         |
++--------------------------------------+---------------------------------------------+----------------------------------+-------------------------+
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2023-08-12 21:45:29 -0300">
+        <Title>Layout NRow</Title>
+        <Text>::: {.column-page layout-nrow=1}
+
+::: {#first-column .column width=15%}
+
+**BibTeX**
+
+```bibtex
+@book{AristOp,
+author = {Aristotle},
+editor = {Bekker, Immanuel},
+title = {Aristotelis opera},
+publisher = {Reimer},
+address = {Berlim},
+volumes = {4},
+edition = {1},
+year = {1831}
+}
+```
+
+**RIS**
+
+```ris
+TY  - BOOK
+ID  - AristOp
+AU  - Aristotle
+ED  - Bekker, Immanuel
+TI  - Aristotelis opera
+PB  - Reimer
+CY  - Berlim
+ET  - 1
+VL  - 4
+Y1  - 1831
+ER  -
+```
+:::
+
+::: {#second-column .column width=2%}
+:::
+
+::: {#forth-column .column width=20%}
+**CSL-YAML**
+
+```yaml
+---
+references:
+- author:
+  - family: Aristotle
+  edition: 1
+  editor:
+  - family: Bekker
+    given: Immanuel
+  id: AristOp
+  issued: 1831
+  number-of-volumes: 4
+  publisher: Reimer
+  publisher-place: Berlim
+  title: Aristotelis opera
+  type: book
+---
+```
+
+**CSL-JSON**
+
+```json
+[
+  {
+    "author": [
+      {
+        "family": "Aristotle"
+      }
+    ],
+    "edition": "1",
+    "editor": [
+      {
+        "family": "Bekker",
+        "given": "Immanuel"
+      }
+    ],
+    "id": "AristOp",
+    "issued": {
+      "date-parts": [
+        [
+          1831
+        ]
+      ]
+    },
+    "number-of-volumes": "4",
+    "publisher": "Reimer",
+    "publisher-place": "Berlim",
+    "title": "Aristotelis opera",
+    "type": "book"
+  }
+]
+```
+:::
+
+:::
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

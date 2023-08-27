@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SectionTypes>
     <TypeDefinitions>
-        <Type ID="C335CD73-E248-48CB-9E43-BABA1C8683F5">Appendix</Type>
-        <Type ID="B62361CC-9C02-4D11-9ED7-E1F3203B68A4">Bibliography</Type>
-        <Type ID="5A8EA992-F039-4402-AA2F-456851322C20">Div</Type>
-        <Type ID="00ECFC15-5815-4AE1-A765-EC2FFDE24867">Div*</Type>
-        <Type ID="679A55AF-9F4D-44FD-A45C-662B050A3213">Callout Caution</Type>
-        <Type ID="54B157A9-615C-494E-8350-0B6FC971E817">Callout Important</Type>
-        <Type ID="C32620F1-3264-4C2B-8924-83F145E8E823">Callout Note</Type>
-        <Type ID="75D4020F-486C-4DF6-8212-24981B8F3E50">Callout Tip</Type>
-        <Type ID="19A9D861-5FE0-41EA-9F45-0C260B7C4533">Callout Warning</Type>
+        <Type ID="82514BF5-E0E3-4741-98AE-F814CAE63244">Meta-data</Type>
+        <Type ID="811D11D8-FEA3-421A-8E9B-EC7603844B11">Standalone File</Type>
+        <Type ID="5E19CA21-1D66-44C5-93D9-25F57A2CC2B0">________Code________</Type>
         <Type ID="C14EBCE4-F75E-4E13-84F9-212A0B72E573">Code</Type>
-        <Type ID="011383A1-1F3E-4022-8BA6-B0893724DB96">Code + Attributes</Type>
+        <Type ID="4B77DD07-F2F3-41F9-AF71-68478CA8D53B">Code + Attributes</Type>
         <Type ID="83B637E9-CAAF-40E0-8A3C-C8EF70268325">Code Python</Type>
         <Type ID="023D6712-1050-4148-9E55-7FB4F3277A1B">Code R</Type>
+        <Type ID="41D5BCFF-8602-45CD-8874-3EFFDB17A9A0">________Diagram________</Type>
+        <Type ID="6C419904-1493-4703-846D-EBA2B91208E0">Diagram Dot</Type>
+        <Type ID="E93F9107-A3D9-44D0-85BD-2F3F939276DC">Diagram Mermaid</Type>
+        <Type ID="0E963615-4464-4471-9580-189C41DFCB6F">________Crossref________</Type>
+        <Type ID="C1269848-807E-4190-BDBE-92CE94C72077">Cross-reference Equation</Type>
+        <Type ID="FC18DC56-4DBE-47E4-96AC-B21E5ADD2765">Cross-reference Listing</Type>
+        <Type ID="18814617-764A-4EA3-A1B7-F190D2D86BCB">Cross-reference Figure</Type>
+        <Type ID="A5DF0A03-A596-4651-AE00-ECCE54BF874D">Cross-reference Table</Type>
+        <Type ID="87718176-9703-4D52-8153-A0C7577F6A63">Footnote</Type>
+        <Type ID="8C1D6D15-F867-4175-8421-BBCE16F1AA8D">________Section________</Type>
+        <Type ID="C335CD73-E248-48CB-9E43-BABA1C8683F5">Appendix</Type>
+        <Type ID="B62361CC-9C02-4D11-9ED7-E1F3203B68A4">Bibliography</Type>
+        <Type ID="2BDAD55B-C0B2-4756-B937-DFF7277AD29B">Heading</Type>
+        <Type ID="2CE86258-6E74-458B-9A30-80E4576FF4EB">Heading + Break</Type>
+        <Type ID="6452C414-94A2-41E1-A014-A97B441B91F8">Section</Type>
+        <Type ID="C6189289-6F6B-489C-96AE-237821B50446">Section {-}</Type>
+        <Type ID="DF51E481-999C-4F96-9A54-480E5D7D8850">Section + Break After</Type>
+        <Type ID="3F514CCD-B716-4FD0-8ACC-F1F2072B9F65">Section + Break Before</Type>
+        <Type ID="81609779-4BA9-4332-AB18-5C80ABDB1C19">________Text________</Type>
+        <Type ID="5AD39B0F-DA85-4B21-A533-830148C15C93">Text</Type>
+        <Type ID="3E7E8E60-2FC8-4960-8183-3BB58B6CCA8E">Text [Auto]</Type>
+        <Type ID="CD4BDF90-9E2B-4D2C-B500-1F1E8DF5E678">Text [ID]</Type>
+        <Type ID="90A2A014-88DA-47E7-8664-A4A790AE9DAD">______________Divs______________</Type>
+        <Type ID="5A8EA992-F039-4402-AA2F-456851322C20">Div [Auto]</Type>
+        <Type ID="00ECFC15-5815-4AE1-A765-EC2FFDE24867">Div [ID]</Type>
+        <Type ID="EDA51C8E-3FB6-40FD-B9CF-2448E9239F0C">_____Amsthm_____</Type>
         <Type ID="DE451B55-0B92-4889-819A-A70A90F1F465">Amsthm Conjecture</Type>
         <Type ID="690A0A1A-ECE3-4EAB-AB9E-A1856BFCDC9B">Amsthm Corollary</Type>
         <Type ID="2C3BA705-FEE8-4DDC-A3F8-42141C705C85">Amsthm Definition</Type>
@@ -22,32 +42,23 @@
         <Type ID="52F3938B-DDD7-4C05-AE69-CF63063CF893">Amsthm Lemma</Type>
         <Type ID="95F3BA08-695F-40A1-97BE-BDD039815EB1">Amsthm Proposition</Type>
         <Type ID="4DD18CCA-B1C1-4F27-A82E-A6E741C334F0">Amsthm Theorem</Type>
-        <Type ID="C1269848-807E-4190-BDBE-92CE94C72077">Cross-reference Equation</Type>
-        <Type ID="FC18DC56-4DBE-47E4-96AC-B21E5ADD2765">Cross-reference Listing</Type>
-        <Type ID="18814617-764A-4EA3-A1B7-F190D2D86BCB">Cross-reference Figure</Type>
-        <Type ID="A5DF0A03-A596-4651-AE00-ECCE54BF874D">Cross-reference Table</Type>
-        <Type ID="6C419904-1493-4703-846D-EBA2B91208E0">Diagram Dot</Type>
-        <Type ID="E93F9107-A3D9-44D0-85BD-2F3F939276DC">Diagram Mermaid</Type>
-        <Type ID="811D11D8-FEA3-421A-8E9B-EC7603844B11">File</Type>
-        <Type ID="E8C7A2BB-1310-4F65-97A3-3447D5B81E63">_Don't Export</Type>
-        <Type ID="87718176-9703-4D52-8153-A0C7577F6A63">Footnote</Type>
-        <Type ID="2BDAD55B-C0B2-4756-B937-DFF7277AD29B">Heading</Type>
-        <Type ID="2CE86258-6E74-458B-9A30-80E4576FF4EB">Heading + Break</Type>
+        <Type ID="E4CA7299-0ADE-404A-AE59-F6DCCB4BCCD1">________Callout________</Type>
+        <Type ID="679A55AF-9F4D-44FD-A45C-662B050A3213">Callout Caution</Type>
+        <Type ID="54B157A9-615C-494E-8350-0B6FC971E817">Callout Important</Type>
+        <Type ID="C32620F1-3264-4C2B-8924-83F145E8E823">Callout Note</Type>
+        <Type ID="75D4020F-486C-4DF6-8212-24981B8F3E50">Callout Tip</Type>
+        <Type ID="19A9D861-5FE0-41EA-9F45-0C260B7C4533">Callout Warning</Type>
+        <Type ID="79DFBE98-55EC-41FA-AD77-3C9ABAB24B19">________Column________</Type>
         <Type ID="5E0103DC-2589-4470-868C-28F73457CA91">Column Margin</Type>
         <Type ID="E1F57C21-B7BF-4A4A-924D-5732E0EBB37D">Column Page</Type>
         <Type ID="8583DDA1-43B8-4264-8E76-A42DFCD15641">Column Page Left</Type>
         <Type ID="DA258D28-E0C6-4A94-B17B-223EAD20F243">Column Page Right</Type>
         <Type ID="726E9003-C014-46B5-A0B3-3826F3DB8AD6">Column Screen</Type>
-        <Type ID="82514BF5-E0E3-4741-98AE-F814CAE63244">Meta-data</Type>
+        <Type ID="E637D6C6-4DB3-444F-9BCA-0A24626C5D62">________Multipart________</Type>
         <Type ID="F613650E-1CDE-409A-A972-431F7E206746">Multipart Figure</Type>
         <Type ID="20DEA10D-14B0-49EC-884A-DFA9F5CAC03A">Multipart Table</Type>
         <Type ID="0B4A822F-47A5-40A7-9C00-DFDCF995BB58">Multipart Bibliography</Type>
-        <Type ID="6452C414-94A2-41E1-A014-A97B441B91F8">Section</Type>
-        <Type ID="C6189289-6F6B-489C-96AE-237821B50446">Section {-}</Type>
-        <Type ID="3F514CCD-B716-4FD0-8ACC-F1F2072B9F65">Section + Break</Type>
-        <Type ID="5AD39B0F-DA85-4B21-A533-830148C15C93">Text</Type>
-        <Type ID="3E7E8E60-2FC8-4960-8183-3BB58B6CCA8E">Text + ID</Type>
-        <Type ID="84ED1FDB-0701-42CB-BE20-B0C66F15913B">==== YAML ====</Type>
+        <Type ID="84ED1FDB-0701-42CB-BE20-B0C66F15913B">______________YAML______________</Type>
         <Type ID="E506F662-F54B-41C8-899D-6ABD905984ED">id: value (0)</Type>
         <Type ID="06240B53-0CBE-4131-AFB0-182D7CCC9091">id: value (2)</Type>
         <Type ID="AF42FD5D-085E-4173-9F04-C8918F7967A6">id: value (4)</Type>
@@ -80,7 +91,7 @@
         <Type ID="5E67E44F-E77D-4801-879C-1F90D0812727">text (8)</Type>
         <Type ID="7C35B7DE-90B9-4373-A3D9-5994A5E5C766">text (10)</Type>
         <Type ID="AEE665E5-DE49-4ECB-B35A-5637FA6F9DB3">As is</Type>
-        <Type ID="016498D2-AEB7-46E8-B6B6-A60300D0DFEC">==Experimental==</Type>
+        <Type ID="016498D2-AEB7-46E8-B6B6-A60300D0DFEC">_____Experimental_____</Type>
         <Type ID="AD4E970A-6C50-4B15-8A59-6F139CA680FD">- IDvalue (0)</Type>
         <Type ID="47D8514B-9A06-412A-96BA-5907AE2A6EB4">- IDvalue (2)</Type>
         <Type ID="555E2374-3815-4241-B0CE-4F3E7EE58805">- IDvalue (4)</Type>
@@ -88,6 +99,8 @@
         <Type ID="0D76CF06-8E35-49AA-BEA6-91CB66ABCE1C">- IDvalue (8)</Type>
         <Type ID="4D0D91E2-C002-4FBE-AC07-5A31259BEDC7">Schema</Type>
         <Type ID="0D58FFC4-CB52-40D5-B3C7-7DA5ED7DE944">Schemabox</Type>
+        <Type ID="758B693A-F4D1-41B2-AE44-E513C464C5CB">_________________________________________</Type>
+        <Type ID="E8C7A2BB-1310-4F65-97A3-3447D5B81E63">_Don't Export</Type>
     </TypeDefinitions>
     <LevelTypes>
         <Folders>

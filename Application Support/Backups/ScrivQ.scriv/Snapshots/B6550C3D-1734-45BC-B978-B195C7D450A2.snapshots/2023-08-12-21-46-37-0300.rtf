@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 FiraMono-Regular;}
+{\colortbl;\red255\green255\blue255;\red202\green202\blue202;}
+{\*\expandedcolortbl;;\csgray\c83000;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \cb2 \expnd0\expndtw0\kerning0
+<$Scr_Ps::0>
+\f1\fs12 \
++--------------------------------------+---------------------------------------------+----------------------------------+-------------------------+\
+| CSL-YAML                             | CSL-JSON                                    | BibTeX                           | RIS                     |\
++======================================+=============================================+==================================+==========================\
+|                                      | ```json                                     |                                  |                         |\
+|                                      | [                                           |                                  |                         |\
+|                                      |   \{                                         |                                  |                         |\
+|                                      |     "author": [                             |                                  |                         |\
+|                                      |       \{                                     |                                  |                         |\
+|                                      |         "family": "Aristotle"               |                                  |                         |\
+|                                      |       \}                                     |                                  |                         |\
+| ```yaml                              |                                             |                                  |                         |\
+|                                      |     ],                                      |                                  |                         |\
+| ---                                  |                                             |                                  |                         |\
+|                                      |     "edition": "1",                         |                                  |                         |\
+| references:                          |                                             |                                  |                         |\
+|                                      |     "editor": [                             |                                  | ```ris                  |\
+| - author:                            |                                             | ```bibtex                        |                         |\
+|                                      |       \{                                     |                                  | TY  - BOOK              |\
+|   - family: Aristotle                |                                             | @book\{AristOp,                   |                         |\
+|                                      |         "family": "Bekker",                 |                                  | ID  - AristOp           |\
+|   edition: 1                         |                                             | author = \{Aristotle\},            |                         |\
+|                                      |         "given": "Immanuel"                 |                                  | AU  - Aristotle         |\
+|   editor:                            |                                             | editor = \{Bekker, Immanuel\},     |                         |\
+|                                      |       \}                                     |                                  | ED  - Bekker, Immanuel  |\
+|   - family: Bekker                   |                                             | title = \{Aristotelis opera\},     |                         |\
+|                                      |     ],                                      |                                  | TI  - Aristotelis opera |\
+|     given: Immanuel                  |                                             | publisher = \{Reimer\},            |                         |\
+|                                      |     "id": "AristOp",                        |                                  | PB  - Reimer            |\
+|   id: AristOp                        |                                             | address = \{Berlim\},              |                         |\
+|                                      |     "issued": \{                             |                                  | CY  - Berlim            |\
+|   issued: 1831                       |                                             | volumes = \{4\},                   |                         |\
+|                                      |       "date-parts": [                       |                                  | ET  - 1                 |\
+|   number-of-volumes: 4               |                                             | edition = \{1\},                   |                         |\
+|                                      |         [                                   |                                  | VL  - 4                 |\
+|   publisher: Reimer                  |                                             | year = \{1831\}                    |                         |\
+|                                      |           1831                              |                                  | Y1  - 1831              |\
+|   publisher-place: Berlim            |                                             | \}                                |                         |\
+|                                      |         ]                                   |                                  | ER  -                   |\
+|   title: Aristotelis opera           |                                             | ```                              |                         |\
+|                                      |       ]                                     |                                  | ```                     |\
+|   type: book                         |                                             |                                  |                         |\
+|                                      |     \},                                      |                                  |                         |\
+| ---                                  |                                             |                                  |                         |\
+|                                      |     "number-of-volumes": "4",               |                                  |                         |\
+| ```                                  |                                             |                                  |                         |\
+|                                      |     "publisher": "Reimer",                  |                                  |                         |\
+|                                      |     "publisher-place": "Berlim",            |                                  |                         |\
+|                                      |     "title": "Aristotelis opera",           |                                  |                         |\
+|                                      |     "type": "book"                          |                                  |                         |\
+|                                      |   \}                                         |                                  |                         |\
+|                                      | ]                                           |                                  |                         |\
+|                                      | ```                                         |                                  |                         |\
++--------------------------------------+---------------------------------------------+----------------------------------+-------------------------+\
+|                                      | ```json                                     |                                  |                         |\
+|                                      | [                                           |                                  |                         |\
+|                                      |   \{                                         |                                  |                         |\
+|                                      |     "author": [                             |                                  |                         |\
+|                                      |       \{                                     |                                  |                         |\
+|                                      |         "family": "Aristotle"               |                                  |                         |\
+|                                      |       \}                                     |                                  |                         |\
+| ```yaml                              |                                             |                                  |                         |\
+|                                      |     ],                                      |                                  |                         |\
+| ---                                  |                                             |                                  |                         |\
+|                                      |     "container-title": "Aristotelis opera", |                                  |                         |\
+| references:                          |                                             |                                  |                         |\
+|                                      |     "edition": "1",                         |                                  | ```RIS                  |\
+| - author:                            |                                             |                                  |                         |\
+|                                      |     "editor": [                             | ```bibtex                        | TY  - CHAP              |\
+|   - family: Aristotle                |                                             |                                  |                         |\
+|                                      |       \{                                     | @incollection\{AristOp,           | ID  - AristOp           |\
+|   container-title: Aristotelis opera |                                             |                                  |                         |\
+|                                      |         "family": "Bekker",                 | author = \{Aristotle\},            | AU  - Aristotle         |\
+|   edition: 1                         |                                             |                                  |                         |\
+|                                      |         "given": "Immanuel"                 | editor = \{Bekker, Immanuel\},     | ED  - Bekker, Immanuel  |\
+|   editor:                            |                                             |                                  |                         |\
+|                                      |       \}                                     | title = \{De Anima\},              | TI  - De Anima          |\
+|   - family: Bekker                   |                                             |                                  |                         |\
+|                                      |     ],                                      | origtitle = \{\uc0\u928 \u949 \u961 \u8054  \u968 \u965 \u967 \u8134 \u962 \},        | OR  - \u928 \u949 \u961 \u8054  \u968 \u965 \u967 \u8134 \u962         |\
+|     given: Immanuel                  |                                             |                                  |                         |\
+|                                      |     "id": "AristOp",                        | booktitle = \{Aristotelis opera\}, | BT  - Aristotelis opera |\
+|   id: AristOp                        |                                             |                                  |                         |\
+|                                      |     "issued": \{                             | publisher = \{Reimer\},            | PB  - Reimer            |\
+|   issued: 1831                       |                                             |                                  |                         |\
+|                                      |       "date-parts": [                       | address = \{Berlim\},              | CY  - Berlim            |\
+|   original-title: \uc0\u928 \u949 \u961 \u8054  \u968 \u965 \u967 \u8134 \u962          |                                             |                                  |                         |\
+|                                      |         [                                   | edition = \{1\},                   | ET  - 1                 |\
+|   publisher: Reimer                  |                                             |                                  |                         |\
+|                                      |           1831                              | year = \{1831\}                    | VL  - 4                 |\
+|   publisher-place: Berlim            |                                             |                                  |                         |\
+|                                      |         ]                                   | \}                                | Y1  - 1831              |\
+|   title: De anima                    |                                             |                                  |                         |\
+|                                      |       ]                                     | ```                              | ER  -                   |\
+|   type: chapter                      |                                             |                                  |                         |\
+|                                      |     \},                                      |                                  | ```                     |\
+| ---                                  |                                             |                                  |                         |\
+|                                      |     "original-title": "\uc0\u928 \u949 \u961 \u8054  \u968 \u965 \u967 \u8134 \u962 ",         |                                  |                         |\
+| ```                                  |                                             |                                  |                         |\
+|                                      |     "publisher": "Reimer",                  |                                  |                         |\
+|                                      |     "publisher-place": "Berlim",            |                                  |                         |\
+|                                      |     "title": "De anima",                    |                                  |                         |\
+|                                      |     "type": "chapter"                       |                                  |                         |\
+|                                      |   \}                                         |                                  |                         |\
+|                                      | ]                                           |                                  |                         |\
+|                                      | ```                                         |                                  |                         |\
++--------------------------------------+---------------------------------------------+----------------------------------+-------------------------+\
+\
+
+\f0\fs24 <!$Scr_Ps::0>}

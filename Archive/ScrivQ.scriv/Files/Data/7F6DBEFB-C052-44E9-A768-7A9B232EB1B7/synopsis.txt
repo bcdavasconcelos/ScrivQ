@@ -1,4 +1,0 @@
-The shape of the image on the about page.
-	•	rectangle
-	•	round
-	•	rounded

@@ -1,0 +1,1 @@
+Provide button for copying search link

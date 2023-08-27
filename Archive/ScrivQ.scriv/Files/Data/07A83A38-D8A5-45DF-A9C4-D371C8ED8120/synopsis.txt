@@ -1,1 +1,0 @@
-The language of the feed. Omitted if not specified. See https://www.rssboard.org/rss-language-codes for a list of valid language codes.

@@ -1,0 +1,102 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Alegreya-Regular;\f2\fnil\fcharset0 CodeNewRoman;
+\f3\fnil\fcharset0 SourceCodeProRoman-Regular;\f4\fnil\fcharset0 SourceCodeRoman-ExtraLight;\f5\fnil\fcharset0 GentiumPlus;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red246\green119\blue8;\red20\green150\blue44;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c97950\c54694\c0;\cssrgb\c0\c63927\c22537;
+}
+\deftab720
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\fi708\sl288\slmult1\sa120\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<$Scr_Ps::0>
+\f1 With Pandoc Citeproc, you can use 
+\f0 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::3>
+\f2\fs18 link-citations
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::3>
+\f1  to control whether citations in the body of the text should be clickable links to the reference in the bibliography (
+\i e.g.
+\i0  
+\f0 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::3>
+\f2\fs18 [@EN]
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::3>
+\f1 ). This is a very useful feature, especially when you want to quickly check the source of a citation without having to scroll through the whole text. 
+\f0 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::4>
+\f1\b ScrivQ
+\f0\b0 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::4>
+\f1  takes this one step further with 
+\f0 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::4>
+\f1\b Cite Tools
+\f0\b0 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::4>
+\f1  and adds, in a crescent ordinal fashion{\field{\*\fldinst{HYPERLINK "scrivcmt://CB4D8771-35F4-45D9-BA36-0A30DF0D0D8D"}}{\fldrslt *}}, a backlink to each citation an entry has received in the document. This allows the reader to easily arrive at sections of the text where the same reference was discussed, quickly seeing with the array of backlinks, how many times each reference was used in the text.\cf0 \kerning1\expnd0\expndtw0 \
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::5><!$Scr_Ps::0><$Scr_Ps::1>
+\f3\fs20 Turning off undesired linking
+\f0\fs24 \cf3 <!$Scr_Cs::5>
+\f3\fs20 \
+You can set 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::3>
+\f2\fs18 link-fields
+\f0\fs24 \cf3 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::3>
+\f3\fs20  to false to avoid undesired linking when citing specific fields ({\field{\*\fldinst{HYPERLINK "scrivlnk://BEF1B346-515E-49D5-BAEB-19606A087348"}}{\fldrslt 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::6>
+\f4\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::6>
+\f3\fs20 ).
+\f1\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\fi708\sl288\slmult1\sa120\pardirnatural\qj\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::5><!$Scr_Ps::1><$Scr_Ps::0>
+\f1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::2>
+\f2\fs20 Various parameters that affect the hyperlinking of the bibliography\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \ul \ulc0 <!$Scr_Cs::5><$Scr_Cs::7>
+\f2\fs20 link-citations
+\f0\fs24 \cf4 \expnd0\expndtw0\kerning0
+\ulnone <!$Scr_Cs::7>
+\f2\fs20 : Hyperlink citations to the corresponding bibliography entries. Defaults to false.
+\f5\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\
+
+\f0 \ul \ulc0 <$Scr_Cs::7>
+\f2\fs20 link-fields
+\f0\fs24 \cf4 \expnd0\expndtw0\kerning0
+\ulnone <!$Scr_Cs::7>
+\f2\fs20 : Hyperlink citations that target specific CSL fields to the corresponding entries in the bibliography. If link-citations is true, this defaults to true.\
+\
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \ul \ulc0 <$Scr_Cs::7>
+\f2\fs20 link-bibliography
+\f0\fs24 \cf4 \expnd0\expndtw0\kerning0
+\ulnone <!$Scr_Cs::7>
+\f2\fs20 : Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.\
+\
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \ul \ulc0 <$Scr_Cs::7>
+\f2\fs20 lang
+\f0\fs24 \cf4 \expnd0\expndtw0\kerning0
+\ulnone <!$Scr_Cs::7>
+\f2\fs20 : Affects the bibliography tags. Defaults to 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::3>
+\f2\fs18 en-US
+\f0\fs24 \cf4 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::3>
+\f2\fs20 .\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf4 <!$Scr_Ps::2>}

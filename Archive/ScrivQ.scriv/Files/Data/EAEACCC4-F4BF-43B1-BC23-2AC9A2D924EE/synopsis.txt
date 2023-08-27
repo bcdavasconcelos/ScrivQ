@@ -1,1 +1,0 @@
-A list of categories for which to create separate RSS feeds containing only posts with that category.

@@ -1,0 +1,1194 @@
+# Abstract {#sec-scriv1    }
+
+The ScrivQ template adapts the [Scrivener ⬇️](https://www.literatureandlatte.com) writing environment (*i.e.* *Compile Formats*, *Section Layouts*, *Section Types*, *Paragraph Styles*, and *Character Styles*) to easily export multiple files, handle bibliographies and cross-references, and build a complex YAML front-matter (with hundreds of built-in parameters) for outputting [Quarto ⬇️](https://quarto.org/docs/get-started/) [Books](https://quarto.org/docs/books/) (PDF^[Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.], DOCX, and HTML) that compile right away with **zero** configuration. Make sure to download it from the [releases section 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases) to get the latest version. You can take part in the ongoing discussion by joining us at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755) and you can show your appreciation by [sponsoring this project ❤️](https://github.com/sponsors/bcdavasconcelos). If you are using Windows, you must install [Ruby ⬇️](https://www.ruby-lang.org/en/downloads). See also [⚒️ Cite Tools](https://bcdavasconcelos.github.io/citetools) and [⌨️ @iandol's Scrivomatic](https://github.com/iandol/scrivomatic).
+
+# Front matter {#sec-scriv2    }
+
+:::{.column-margin}
+Socrates: "*I seem to be in good luck, Meno; for in seeking one virtue I have discovered a whole swarm of virtues there in your keeping.*"
+ΣΩ. Πολλῇ γέ τινι εὐτυχίᾳ ἔοικα κεχρῆσθαι, ὦ Μένων, εἰ μίαν ζητῶν ἀρετὴν σμῆνός τι ἀνηύρηκα ἀρετῶν παρὰ σοὶ κειμένων (Plat. [@Men]{.title-short} 72A-B). 
+:::
+
+
+A notable feature of the template is the front matter. Instead of using a single binder item for all, we are using one for each YAML parameter, with the idea of having them ready to be added or removed by simply ticking a box. Most options include a bookmarks linking to the relevant section in the official Quarto documentation and a small synopsis. We use this strategy to control a high number of variables, such as the labels involved in cross-referencing ([@fig-scriv2A]). Other complex tasks can also be managed, and are demonstrated here as a proof-of-concept, such as keeping a bibliography in CSL-YAML ([@fig-scriv2B]) or controlling the behavior of Quarto websites. 
+
+
+![Instead of using the `Title`, the YAML key-value pair is usually formed by item's `<\$custom:ID>`, and `<\$custom:Value>` or  `Text` to allow the of more descriptive titles. The new front matter also makes it a breeze to edit parameters without disturbing YAML's sensitive white space rules, and it makes it much easier to revert to a working configuration after introducing accidental errors.](crossref.png){#fig-scriv2A width=500 height=419}
+
+
+![This demonstrates how to keep, entirely within Scrivener, a bibliography in CSL-YAML, the format favored by Pandoc and Quarto (being +10x faster to process than BibTeX and RIS). You can find this sample in the templates folder.](cslyaml.png){#fig-scriv2B width=352 height=600}
+
+
+:::{.callout-note}
+## A sworn of parameters
+Many parameters are included for completeness and could be erased if they are not in use. Should they become necessary, they can be retrieved again from a newly created project.
+:::
+
+
+Looking for one way to control **Quarto** from **Scrivener**, we find not *one*, but *many* ways of doing so. So much that we are reminded of Socrates addressing Meno, in the homonymous dialogue, saying that, in looking for *the* virtue of human excellence, he had found a sworn of them coming from his interlocutor.
+
+
+:::{.callout-caution}
+## Binder glitches
+In some cases, the sheer number of items can cause the **Binder** to behave in strange ways. If you notice any glitches, collapse and expand the parent item for the children to be properly displayed. Removing unused parameters should alleviate the problem. 
+:::
+
+
+Apart from one-click compilation, and facilitated parameter settings, two priorities in **ScrivQ** are cross-referencing ([@sec-scriv3]) and bibliography ([@sec-scriv41]).
+
+# Cross-referencing {#sec-scriv3    }
+
+With all the affordances of **Scrivener** and **Quarto**, cross-referencing is not a trivial matter, [as the options are many]{.underline}. 
+
+[Automatic IDs ]{.aside}First, bear in mind that **Section Types** and **Paragraph Styles** are rigged with automatic IDs in the format [scriv<\$linkID>]{.underline}^[Note that in Scrivener we have to escape the `$`, otherwise the placeholder will get expanded into its correct value during compilation.] (preceded by the relevant prefix, such as *sec*, *cnj*, *cor*, *def*, *exm*, *exr*, *lem*, *prp*, *thm*, *eq*, *lst*, *fig*, *tbl*) . This way, there is no need to choose an ID each time an element is created, nor to remember any when another needs to be referenced (to create links we will use this same standard identifier, [scriv<\$linkID>]{.underline}, select the text, link to the appropriate document, and apply the style corresponding to the element we want to reference). We leave it to Scrivener to figure out the value of the [<\$linkID>]{.underline} placeholder.
+
+
+:::{.callout-note}
+## Translating Quarto into Scrivener
+
+In **ScrivQ** we can use **Section Types** or **Paragraph Styles** to create **Sections**, **Tables**, **Equations**, **Figures**, **Listings**, **Callouts** (Caution, Important, Note, Tip, Warning), and **Amsthm** environments (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem). We can also use **Character Styles** to easily reference any of them. Keep reading to learn how.
+:::
+
+
+:::{.callout-tip}
+## Choosing your own label for automatic links
+
+In **ScrivQ** one can use different keywords as labels for automatic links. Simply use one of the provided rules for **Replacements** ([@fig-scriv3]) in the Compile settings (or in the Format configurations) to have keywords such as [scriv]{.underline} + [link]{.underline}, [autο]{.underline} + [ref]{.underline}, [%autο]{.underline} + [ref%]{.underline}, [%autοref:]{.underline} + [something-random-that-will-be-erased%]{.underline}, [[autοref]]{.underline}, converted into [scriv<\$linkID>]{.underline} during compilation.
+:::
+
+
+![**Replacements** pane in the **Compile...** configurations can be used to allow different labels for automatic links. This is purely optional and we recommend limiting this to one rule or two.](Replacements.png){#fig-scriv3 width=413 height=229}
+
+
+[Add prefix and markup using Character Styles ]{.aside}To cross-reference a **table**, an **example**, or a **theorem**, one could use [tbl-keyword]{.underline} (*i.e.* [tbl-scriv<\$linkID>]{.underline}), [exm-keyword]{.underline} (*i.e.* [exm-scriv<\$linkID>]{.underline}), and [thm-keyword]{.underline} (*i.e.* [thm-scriv<\$linkID>]{.underline}), respectively. Seeing that the prefixes are not always easy to remember, **Character Styles** are available to inject the correct markup. 
+
+The *Crossref Table*, for example, will turn the [keyword]{.underline} into [[\@tbl-keyword]]{.underline}^[That is, `[@tbl-scriv<\$linkID>]`.][;]{.underline} and th*e Crossref Table\** style will turn it into [[\-@tbl-keyword]]{.underline}^[That is, `[-@tbl-scriv<\$linkID>]`.]. [The asterisk (`*`) in the title of Character Styles indicates the suppression of part of the data (as is common in LaTeX).]{.aside} Likewise, the *Crossref Example* and the *Crossref Example\** will result in [[\@exm-keyword]]{.underline} and [[-\@exm-keyword] ]{.underline}^[That is, `[@exm-scriv<\$linkID>]` and `[-@exm-scriv<\$linkID>]`.], and so on. See *scriv4* below for yet more examples.
+
+
+:::{.callout-tip}
+# Cross-referencing a table
+
+1. Type [your-keyword-of-choice]{.underline} or [scriv<\$linkID>]{.underline}, select it, and hit [Command + L]{.underline};
+2. Link to the document that contains the table.
+3. Apply a **Character Style** called *Crossref Table* (e.g. [@tbl-scriv3]).
+:::
+
+
+Below we will see several examples of the same strategy being applied to several different elements. I hope that these examples prove as instructive to consult as they were to prepare.
+
+
+| **Genus** | **Species** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: | :-----: |
+| Amsthm | Conjecture | `[@cnj-scriv4]` | [@cnj-scriv4] |
+| Amsthm | Conjecture | `[@cnj-scriv5]` | [@cnj-scriv5] |
+| Amsthm | Corollary | `[@cor-scriv4]` | [@cor-scriv4] |
+| Amsthm | Corollary | `[@cor-scriv6]` | [@cor-scriv6] |
+| Amsthm | Definition | `[@def-scriv4]` | [@def-scriv4] |
+| Amsthm | Definition | `[@def-scriv7]` | [@def-scriv7] |
+| Amsthm | Example | `[@exm-scriv4]` | [@exm-scriv4] |
+| Amsthm | Example | `[@exm-scriv8]` | [@exm-scriv8] |
+| Amsthm | Exercise | `[@exr-scriv4]` | [@exr-scriv4] |
+| Amsthm | Exercise | `[@exr-scriv9]` | [@exr-scriv9] |
+| Amsthm | Lemma | `[@lem-scriv4]` | [@lem-scriv4] |
+| Amsthm | Lemma | `[@lem-scriv10]` | [@lem-scriv10] |
+| Amsthm | Proposition | `[@prp-scriv4]` | [@prp-scriv4] |
+| Amsthm | Proposition | `[@prp-scriv11]` | [@prp-scriv11] |
+| Amsthm | Theorem | `[@thm-scriv4]` | [@thm-scriv4] |
+| Amsthm | Theorem | `[@thm-scriv12]` | [@thm-scriv12] |
+| Diagram | Dot | `[@fig-scriv14]` | [@fig-scriv14] |
+| Diagram | Dot | `[@fig-scriv14B]` | [@fig-scriv14B] |
+| Diagram | Dot | `[@fig-scriv15]` | [@fig-scriv15] |
+| Diagram | Mermaid | `[@fig-scriv16]` | [@fig-scriv16] |
+| Diagram | Mermaid | `[@fig-scriv16B]` | [@fig-scriv16B] |
+| Diagram | Mermaid | `[@fig-scriv17]` | [@fig-scriv17] |
+| Cross-reference | Equation | `[@eq-scriv19]` | [@eq-scriv19] |
+| Cross-reference | Equation | `[@eq-scriv20]` | [@eq-scriv20] |
+| Cross-reference | Figure | `[@fig-scriv22]` | [@fig-scriv22] |
+| Cross-reference | Listing | `[@lst-scriv26]` | [@lst-scriv26] |
+| Cross-reference | Listing | `[@lst-scriv27]` | [@lst-scriv27] |
+| Cross-reference | Table | `[@tbl-scriv30]` | [@tbl-scriv30] |
+| Cross-reference | Table | `[@tbl-scriv31]` | [@tbl-scriv31] |
+| Cross-reference | Section | `[@sec-scriv33]` | [@sec-scriv33] |
+| Cross-reference | Section | `[@sec-scriv34]` | [@sec-scriv34] |
+| Cross-reference | Section | `[@sec-scriv36]` | [@sec-scriv36] |
+| Cross-reference | Section | `[@sec-scriv38]` | [@sec-scriv38] |
+| Multipart | Figure | `[@fig-scriv23]` | [@fig-scriv23] |
+| Multipart | Figure | `[@fig-scriv23A]` | [@fig-scriv23A] |
+| Multipart | Figure | `[@fig-scriv23B]` | [@fig-scriv23B] |
+| Multipart | Figure | `[@fig-scriv24]` | [@fig-scriv24] |
+| Multipart | Figure | `[@fig-scriv24A]` | [@fig-scriv24A] |
+| Multipart | Figure | `[@fig-scriv24B]` | [@fig-scriv24B] |
+| Multipart | Table | `[@tbl-scriv32]` | [@tbl-scriv32] |
+| Multipart | Table | `[@tbl-scriv32A]` | [@tbl-scriv32A] |
+| Multipart | Table | `[@tbl-scriv32B]` | [@tbl-scriv32B] |
+
+: Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. {#tbl-scriv3}
+
+
+{{< pagebreak >}}
+
+## Amsthm {#sec-scriv4   }
+
+In this section, we are demonstrating the cross-referencing mechanism working with **Amsthm** theorems. First, we will see all of the theorems created using **Paragraph Styles**, then they will be introduced again as **Section Types**. In the table below, you'll see several Character Styles (labeled as [Crossref...]{.underline}) used to reference both.
+
+
+| **Element** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Conjecture | `[@cnj-scriv4]` | [@cnj-scriv4] |
+| Conjecture | `[@cnj-scriv5]` | [@cnj-scriv5 ] |
+| Corollary | `[@cor-scriv4]` | [@cor-scriv4] |
+| Corollary | `[@cor-scriv6]` | [@cor-scriv6] |
+| Definition | `[@def-scriv4]` | [@def-scriv4] |
+| Definition | `[@def-scriv7]` | [@def-scriv7] |
+| Example | `[@exm-scriv4]` | [@exm-scriv4] |
+| Example | `[@exm-scriv8]` | [@exm-scriv8] |
+| Exercise | `[@exr-scriv4]` | [@exr-scriv4] |
+| Exercise | `[@exr-scriv9]` | [@exr-scriv9] |
+| Lemma | `[@lem-scriv4]` | [@lem-scriv4] |
+| Lemma | `[@lem-scriv10]` | [@lem-scriv10] |
+| Proposition | `[@prp-scriv4]` | [@prp-scriv4] |
+| Proposition | `[@prp-scriv11]` | [@prp-scriv11] |
+| Theorem | `[@thm-scriv4]` | [@thm-scriv4] |
+| Theorem | `[@thm-scriv12]` | [@thm-scriv12] |
+
+: Cross-referencing amsthm elements in ScrivQ. {#tbl-scriv4}
+
+**Paragraph Styles**
+
+
+::: {#cnj-scriv4}
+Conjecture
+:::
+
+
+::: {#cor-scriv4}
+Corollary
+:::
+
+
+::: {#def-scriv4}
+Definition
+:::
+
+
+::: {#exm-scriv4}
+Example
+:::
+
+
+::: {#exr-scriv4}
+Exercise
+:::
+
+
+::: {#lem-scriv4}
+Lemma
+:::
+
+
+::: {#prp-scriv4}
+Proposition
+:::
+
+
+::: {#thm-scriv4}
+## Pythagorean theorem
+$$[ x^2 + y^2 = z^2 ]$$
+:::
+
+**Section Types**
+
+:::{#cnj-scriv5   }
+Conjecture
+:::
+
+
+:::{#cor-scriv6   }
+Corollary
+:::
+
+
+:::{#def-scriv7   }
+Definition
+:::
+
+
+:::{#exm-scriv8   }
+Example
+:::
+
+
+:::{#exr-scriv9   }
+Exercise
+:::
+
+
+:::{#lem-scriv10  }
+Lemma
+:::
+
+
+:::{#prp-scriv11   }
+Proposition
+:::
+
+
+:::{#thm-scriv12   }
+## Pythagorean theorem
+
+
+::: {#thm-scriv12}
+$$[ x^2 + y^2 = z^2 ]$$
+:::
+
+:::
+
+
+{{< pagebreak >}}
+
+## Diagrams {#sec-scriv13   }
+
+Let us see how we can use **raw markup**, **Section Types**, and **Paragraph Styles** to create **Dot** and **Mermaid** diagrams.
+
+
+| **Element** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Diagram Dot | `[@fig-scriv14]` | [@fig-scriv14] |
+| Diagram Dot | `[@fig-scriv14B]` | [@fig-scriv14B] |
+| Diagram Dot | `[@fig-scriv15]` | [@fig-scriv15] |
+| Diagram Mermaid | `[@fig-scriv16]` | [@fig-scriv16] |
+| Diagram Mermaid | `[@fig-scriv16B]` | [@fig-scriv16B] |
+| Diagram Mermaid | `[@fig-scriv17]` | [@fig-scriv17] |
+
+: Cross-referencing Dot and Mermaid diagrams. {#tbl-scriv13}
+
+```{dot}
+//| label: fig-scriv14
+//| fig-cap: Figure caption
+
+
+digraph finite_state_machine {
+  Fontname="Avenir,Helvetica,sans-serif"
+  node [fontname="Avenir,Helvetica,sans-serif"]
+  edge [fontname="Avenir,Helvetica,sans-serif"]
+  rankdir=LR;
+  node [shape = doublecircle]; 0 3 4 8;
+  node [shape = circle];
+  0 -> 2 [label = "SS(B)"];
+  0 -> 1 [label = "SS(S)"];
+  1 -> 3 [label = "S($end)"];
+  2 -> 6 [label = "SS(b)"];
+  2 -> 5 [label = "SS(a)"];
+  2 -> 4 [label = "S(A)"];
+  5 -> 7 [label = "S(b)"];
+  5 -> 5 [label = "S(a)"];
+  6 -> 6 [label = "S(b)"];
+  6 -> 5 [label = "S(a)"];
+  7 -> 8 [label = "S(b)"];
+  7 -> 5 [label = "S(a)"];
+  8 -> 6 [label = "S(b)"];
+  8 -> 5 [label = "S(a)"];
+}
+```
+
+
+```{dot}
+//| label: fig-scriv14B
+//| fig-cap: "A graphviz graph with figure reference and caption, using raw markup. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details..."
+
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+```
+
+
+```{dot}
+//| label: fig-scriv15
+//| fig-cap: A Graphviz-generated state machine diagram
+
+digraph finite_state_machine {
+  Fontname="Avenir,Helvetica,sans-serif"
+  node [fontname="Avenir,Helvetica,sans-serif"]
+  edge [fontname="Avenir,Helvetica,sans-serif"]
+  rankdir=LR;
+  node [shape = doublecircle]; 0 3 4 8;
+  node [shape = circle];
+  0 -> 2 [label = "SS(B)"];
+  0 -> 1 [label = "SS(S)"];
+  1 -> 3 [label = "S($end)"];
+  2 -> 6 [label = "SS(b)"];
+  2 -> 5 [label = "SS(a)"];
+  2 -> 4 [label = "S(A)"];
+  5 -> 7 [label = "S(b)"];
+  5 -> 5 [label = "S(a)"];
+  6 -> 6 [label = "S(b)"];
+  6 -> 5 [label = "S(a)"];
+  7 -> 8 [label = "S(b)"];
+  7 -> 5 [label = "S(a)"];
+  8 -> 6 [label = "S(b)"];
+  8 -> 5 [label = "S(a)"];
+}
+
+```
+
+
+```{mermaid}
+%%| label: fig-scriv16
+%%| fig-cap: Figure caption
+
+graph TD
+    Subs -->Mat:::I
+    Subs -->|τόδε τι|For:::D
+    Subs -->|τόδε τι|Com:::D2
+    Mat --> Pot:::I
+    For --> Ent:::D
+    Ent --> Ent1:::D
+    Ent --> Ent2:::D
+
+
+    Subs(οὐσία)
+    Mat(ὕλη)
+    Pot(δύναμις)
+    For(μορφὴ καὶ εἶδος)
+    Ent(ἐντελέχεια)
+    Ent1("1:ὡς ἐπιστήμη")
+    Ent2("2:ὡς θεωρεῖν")
+    Com(τὸ ἐκ τούτων)
+
+    Subs(Substance)
+    Mat(Matter)
+    Pot(Potency)
+    For(Form)
+    Ent(Actuality)
+    Ent1(capable of performing its end, but currently not doing so)
+    Ent2(performing its end)
+    Com(Compound)
+
+
+    classDef default fill:none
+    classDef D fill:#a0e85b
+    classDef D2 fill:#fb9643
+    classDef I fill:#fb6961
+```
+
+```{mermaid}
+%%| label: fig-scriv16B
+%%| fig-cap: Figure caption
+
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+
+```
+
+
+```{mermaid}
+%%| label: fig-scriv17
+%%| fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details
+%%| column: page
+
+
+graph TD
+    Subs -->Mat:::I
+    Subs -->|τόδε τι|For:::D
+    Subs -->|τόδε τι|Com:::D2
+    Mat --> Pot:::I
+    For --> Ent:::D
+    Ent --> Ent1:::D
+    Ent --> Ent2:::D
+
+
+    Subs(οὐσία)
+    Mat(ὕλη)
+    Pot(δύναμις)
+    For(μορφὴ καὶ εἶδος)
+    Ent(ἐντελέχεια)
+    Ent1("1:ὡς ἐπιστήμη")
+    Ent2("2:ὡς θεωρεῖν")
+    Com(τὸ ἐκ τούτων)
+
+    Subs(Substance)
+    Mat(Matter)
+    Pot(Potency)
+    For(Form)
+    Ent(Actuality)
+    Ent1(capable of performing its end, but currently not doing so)
+    Ent2(performing its end)
+    Com(Compound)
+
+
+    classDef default fill:none
+    classDef D fill:#a0e85b
+    classDef D2 fill:#fb9643
+    classDef I fill:#fb6961
+
+```
+
+
+{{< pagebreak >}}
+
+## Equations {#sec-scriv18   }
+
+| **Element** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Equation | `[@eq-scriv19]` | [@eq-scriv19] |
+| Equation | `[@eq-scriv20]` | [@eq-scriv20] |
+
+: Cross-referencing equations. {#tbl-scriv18}
+
+
+$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-scriv19}
+
+$$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
+$$ {#eq-scriv20}
+
+
+{{< pagebreak >}}
+
+## Figures {#sec-scriv21   }
+
+:::{.column-margin}
+"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+[@MorphineCFP]{.author}, [@MorphineCFP]{.title} ([@MorphineCFP]{.issued})
+:::
+
+| **Element** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Figure | `[@fig-scriv22]` | [@fig-scriv22] |
+| Figure (Multipart) | `[@fig-scriv23]` | [@fig-scriv23] |
+| Figure (Multipart) | `[@fig-scriv23A]` | [@fig-scriv23A] |
+| Figure (Multipart) | `[@fig-scriv23B]` | [@fig-scriv23B] |
+| Figure (Multipart) | `[@fig-scriv24]` | [@fig-scriv24] |
+| Figure (Multipart) | `[@fig-scriv24A]` | [@fig-scriv24A] |
+| Figure (Multipart) | `[@fig-scriv24B]` | [@fig-scriv24B] |
+
+: Cross-referencing figures. {#tbl-scriv21}
+
+!["I propose a toast, to my self-control. You see it crawling helpless on the floor." - [@MorphineCFP]{.author}, [@MorphineCFP]{.title} ([@MorphineCFP]{.issued}). This figure uses custom metadata values to identify the class, ID, width and height. The %CA%​ (**C**aption **A**ttributes) tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details...](Ulysses1.jpg){#fig-scriv22 width=486 height=402}
+
+:::{#fig-scriv23 .column-page  layout-ncol=2}
+
+![Elephant.](Elephant2.jpg){#fig-scriv23A width=245 height=252}
+
+
+![Angry elephant with a big trunk.](Elephant3.jpg){#fig-scriv23B width=306 height=249}
+
+
+This demonstrates generating a multi-panel figure using a Scrivener Section Type [[Multipart Figure]{.underline}] instead of using raw markdown as shown here. ID, Class, and Attributes specific to the block [[#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"]{.underline}] are saved to [Custom Metadata->ID, Class & Attributes]{.underline}, and this is then inserted into the markup for this chunk by the Section Layout at compile time.  
+
+:::
+
+::: {#fig-scriv24 .column-page layout-ncol=2 }
+  
+![Elephant castle.](Elephant2.jpg){#fig-scriv24A width=243 height=251}
+
+
+![Angry elephant with a big trunk.](Elephant3.jpg){#fig-scriv24B width=304 height=248}
+
+
+Quarto allows the creation of figure panels with sub-figures. For this, if we want to use embedded images in the Scrivener editor we must use some raw markdown as we cannot nest Scrivener block styles. Note we can use the Scale Image... Tool in Scrivener and these sizes get exported to Quarto and the output. Here we scale both images to the same height.
+:::
+
+{{< pagebreak >}}
+
+## Listings {#sec-scriv25   }
+
+
+| **Element** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Listing | `[@lst-scriv26]` | [@lst-scriv26] |
+| Listing | `[@lst-scriv27]` | [@lst-scriv27] |
+
+: Cross-referencing listings. {#tbl-scriv25}
+
+
+```{#lst-scriv26 .ruby lst-cap="Ruby code block. The listing Paragraph Style uses the custom metadata of the current text document."}
+require "unicode/name"
+
+characters = %w(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω 
+ἀ ἄ ᾄ ἂ ᾂ ἆ ᾆ ᾀ ἁ ἅ ᾅ ἃ ᾃ ἇ ᾇ ᾁ ά ά ᾴ ὰ ᾲ ᾰ ᾶ ᾷ ᾱ ᾳ ἐ ἔ ἒ ἑ ἕ ἓ έ έ ὲ)
+
+# characters = 'ἄ'
+characters.each do |character|
+  puts character.unpack('U*').map { |i| 
+  "U+#{i.to_s(16).rjust(4, '0').upcase}"
+  }.join
+  puts Unicode::Name.of character
+end
+```
+
+```{#lst-scriv27 lst-cap="The caption" .ruby  }
+
+#!/usr/bin/env ruby
+# frozen_string_literal: false
+
+Encoding.default_external = Encoding::UTF_8
+
+Dir["#{__dir__}/Ruby/**/*.rb"].each do |file|
+  require_relative file
+end
+
+```
+
+
+```{#lst-scriv28 lst-cap="My Ruby code block." .ruby .numberLines startFrom="1"}
+require "unicode/name"
+
+characters = %w(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω)
+
+# characters = 'ἄ'
+characters.each do |character|
+  puts character.unpack('U*').map { |i| 
+    "U+#{i.to_s(16).rjust(4, '0').upcase}"
+  }.join
+  puts Unicode::Name.of character
+end
+
+```
+
+
+{{< pagebreak >}}
+
+## Tables {#sec-scriv29   }
+
+
+| **Element** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Table | `[@tbl-scriv30]` | [@tbl-scriv30] |
+| Table | `[@tbl-scriv31]` | [@tbl-scriv31] |
+| Table (Multipart) | `[@tbl-scriv32]` | [@tbl-scriv32] |
+| Table (Multipart) | `[@tbl-scriv32A]` | [@tbl-scriv32A] |
+| Table (Multipart) | `[@tbl-scriv32B]` | [@tbl-scriv32B] |
+
+: Cross-referencing tables. {#tbl-scriv29}
+
+
+| 1 | 2 | 3 |
+| ----- | ----- | ----- |
+| 4 | 5 | 6 |
+
+: This table uses [Text]{.underline} as the **Section Type**, and [Table Caption]{.underline} as the **Paragraph Style** for the caption. {#tbl-scriv30}
+
+| 1 | 2 | 3 |
+| ----- | ----- | ----- |
+| 4 | 5 | 6 |
+
+: This is an example of `Table` as **Section Type**. The caption and the remaining attributes are added as part of the Section Type markup. {#tbl-scriv31   }
+
+
+:::{#tbl-scriv32   layout-ncol=1}
+
+| **Element** | **Prefix** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: | :-----: |
+| Equation A | eq | A | B |
+| Equation A | eq | C | D |
+| Listing A | lst | E | F |
+
+: First Table {#tbl-scriv32A}
+
+
+| **Element** | **Prefix** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: | :-----: |
+| Equation B | eq | A | B |
+| Equation B | eq | C | D |
+| Listing B | lst | E | F |
+
+: Second Table {#tbl-scriv32B}
+
+
+This is a markdown multi-table panel with two sub-tables generated using a Section Type [[Multipart Table]{.underline}]. Note that Custom Metadata holds the cross-referencing label, layout class, and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: [<​\$​​custom:Class>]{.underline} [<\​$​​custom:Attributes>]{.underline}.
+
+:::
+
+
+{{< pagebreak >}}
+
+## Sections {#sec-scriv33   }
+
+The text sections can be referenced with **Character Styles**, and created with **Paragraph Styles** or **Section Types**. As before, all of these receive automatic IDs.
+
+| **Element** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Section | `[@sec-scriv33]` | [@sec-scriv33] |
+| Section | `[@sec-scriv34]` | [@sec-scriv34] |
+| Section | `[@sec-scriv36]` | [@sec-scriv36] |
+| Section | `[@sec-scriv37]` | [@sec-scriv37] |
+| Section | `[@sec-scriv38]` | [@sec-scriv38] |
+
+: Cross-referencing sections. {#tbl-scriv33}
+
+Note that the unnumbered section cannot be referenced.
+
+### Section {#sec-scriv34    }
+
+This is an example of the [Section]{.underline} section type.
+
+
+### Section {-} {#sec-scriv35 .unnumbered   }
+
+[]{#scriv35}
+
+This is an example of the [Section {-}]{.underline} section type.
+
+### Heading {#sec-scriv36   }
+
+### Heading + Break {#sec-scriv37   }
+
+This is an example of the [Heading + Break]{.underline} section type.
+{{< pagebreak >}}
+
+{{< pagebreak >}}
+
+### Section + Break {#sec-scriv38   }
+
+This is an example of the [Section + Break]{.underline} section type.
+
+{{< pagebreak >}}
+
+## Footnotes {#sec-scriv39   }
+
+We can use also use a **Section Type** to create and a **Character Style** ([Footnote]{.underline}) to reference footnotes using the standard identifier.[^fn-scriv40] 
+
+[^fn-scriv40]: []{#scriv40}  This strategy has the outstanding advantage of allowing us to use, that is right, you guessed it, **Paragraph Styles** and  **Character Styles** in footnotes. 
+
+  There is one small caveat: the user has to remember to [always add two empty spaces]{.underline} before each new **paragraph** in the footnote environment. One option we have not to worry about this is using the [Footnote Text]{.underline} **Paragraph Style**.  
+
+# Citations {#sec-scriv41    }
+
+Part of the motivation behind ScrivQ comes from another project I co-developed: the [Cite Tools](https://bcdavasconcelos.github.io/citetools) extension for [Pandoc](https://pandoc.org) and [Quarto](https://quarto.org).
+
+As I was first starting to use [Citeproc], coming from the jurassic **[BibTeX]**, I was exceptionally pleased with its speed and reliability. Apart from being *a lot* faster, it would produce the same output across all supported formats (which amounts to over 60). Out-of-the-box, however, it lacked support for really ordinary **BibTeX functionalities**, such as the ability to split the bibliography into multiple sections, or the ability to cite arbitrary fields of the references (*e.g.* using `citetitle`, `citeauthor`, `citefield`). It also lacked the interesting **backref** option afforded by **BibTeX** used in conjunction with **HyperRef** to create linked indexes of citations.
+
+
+![Cite Tool bundles together several lua filters to address complex bibliography demands while keeping the output consistent across formats. If you have suggestions for improvements or bug reports, please [open an issue at the citetools repository](https://github.com/bcdavasconcelos/citetools/issues/new/choose). Logo image generated with Dall-E using "*Enso-like round black and white painting with ancient greek war-ship with a man tied to the mast as prompt*".](citetools.png){#fig-scriv41 width=276 height=276}
+
+
+To step around these limitations, I started tinkering with existing filters available on GitHub (all of them by Albert Krewinkel), and co-developed Cite Field, to create **Cite Tools**, an extension for Quarto and Pandoc that allows the easy creation of a **Multipart Bibliography** (*e.g.* split in *primary* and *secondary* sources, see [@fig-scriv165A]), the citation of arbitrary fields of the references (see [@fig-scriv165B])^[In the official nomenclature, CSL has variables, BibTeX has fields, and RIS has tags. As a general rule, we have stuck to the term fields.], and the linking of each bibliography entry back to its in-text occurrences (see [@fig-scriv165C])^[Linked glossaries can also easily be created by dressing them as bibliography.]. The filters are built-in, and the front matter is set up so that the necessary files are automatically created during compilation. 
+
+
+:::{.callout-warning appearance="simple"}
+## Deleting Cite Tools from ScrivQ [will cause the compilation to fail]{.underline}.
+:::
+
+
+:::{.callout-tip appearance="simple"}
+If you need to use **Cite Tools **in an ordinary Quarto project, use `quarto install extension bcdavasconcelos/citetools` to install it.
+:::
+
+
+[Citeproc]: https://en.wikipedia.org/wiki/CiteProc
+
+## Multipart Bibliography {#sec-scriv42    }
+
+In many areas of research, the ability to split the bibliography into sections is a condition *sine qua non* for publishing. In the humanities, for example, there are usually *primary* and *secondary* sources. In philosophy, even, they can be very nuanced with sections dedicated to original sources, translations, commentaries, and so on. The **Section Type** titled `Multipart Bibliography` can be used to create as many new bibliography sections as necessary. Add the references that should print there to the text, and let it know in the custom metadata `<\$custom:Attributes>` the format being used (*e.g.* `bib`, `yml`, `ris`;  **no dot, just the extension**). 
+
+
+:::{.callout-tip}
+## Bibliography formats
+
+Speaking about formats, the most common bibliography formats are [CSL-YAML], [CSL-JSON], [BibTeX], and [RIS]. Internally, **Pandoc** and **Quarto** use the CSL (**C**itation **S**tyle **L**anguage) to handle bibliography, so **CSL-YAML** and **CSL-JSON** perform much better (up to 10 times faster) than older formats like **BibTeX** or **RIS** that will have to be converted by **Pandoc** before it can be understood.
+:::
+
+
+ScrivQ provides all the data needed for the project to be compiled. Before you can use Citeproc on your projects, you will need to generate your bibliography data. In principle, nothing stops you from manually, or semi-manually, keeping a bibliography in Scrivener, but this is not very easy to manage if you have many projects sharing the same references. (Luckily, in this regard, Scrivener offers the best text comparison tools I can think of). The best alternative, it seems, is to rely on specialized software such as Zotero, Bookends, Bibdesk (also JabRef, Endnote, and [others](en.wikipedia.org/wiki/Comparison_of_reference_management_software))^[If you are using macOS, check Bookends and Bibdesk; and, on all platforms, definitively get Zotero as well.]. These programs allow you to edit your bibliography and easily export it in the desired format, which can be copied and pasted to different Scrivener projects. Zotero even offers an API that can be used to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`[LibraryID]{.underline}`/items?format=bibtex&limit=999` where `LibraryID` corresponds to the library's 7-digit code (visible in the middle of the library URL). 
+
+
+![This will result in a separate file, whose path will be added to the front matter, with the content of the text. The resulting bibliography will be printed right where we placed it in our project.](newbibliography.png){#fig-scriv42A width=386 height=221}
+
+
+![On the left we have the **Table of Contents**; on the top-right, we see the printed bibliography (page 31) and, on the bottom-right, the files are automatically created during the compilation process.](resultbib.png){#fig-scriv42B width=428 height=295}
+
+
+Simply put, you can add as many bibliographies as you want!
+
+
+:::{.callout-tip}
+## Super tip: Make use of the Templates folder
+
+Thanks to **ScriQ**, there is no need to keep separate bibliography files in the system, as the data can simply be copied and pasted from the bibliography managers to Scrivener. However, if you already have many bibliography files ready that you would like to use, it could be a good idea to use the shared Templates folder to bring them to your fingertips inside Scrivener.
+:::
+
+
+![The shared templates folder in the main Scrivener configuration window.](shared-templates.png){#fig-scriv42A width=299 height=225}
+
+
+![The [Add new document]{.underline} menu in the Toolbar.](create-new-file.png){#fig-scriv42B width=294 height=387}
+
+
+For some reason, only [.txt]{.underline} files are accepted, so the files must have this extension. Hopefully, L&L will change this to allow other plain text formats, such as [md]{.underline}, [qmd]{.underline}, [yml]{.underline}, [tex]{.underline}, [ris]{.underline}, and so on.
+
+
+:::{.callout-note}
+## From lists of names to the formatted bibliography
+
+We are feeding the bibliography data to the most natural place, that is, precisely where it should be printed. In this case, however, we do it using any structured format we want ([bib]{.underline}, [ris]{.underline}, [yml]{.underline}) unencumbered by the task of formatting the bibliography based on (some set of) rules, which Citeproc will do for us using the provided CSL-style file (or the default one, which is Chicago, if none is provided).
+:::
+
+## Basic citations {#sec-scriv43    }
+
+:::{.callout-note}
+## Official documentation
+See the official documentation on citations at [Pandoc](pandoc.org/MANUAL.html#citations) and [Quarto](quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations). 
+:::
+
+
+Let us quickly recapitulate the basics of Pandoc Citeproc and how it uses citations.
+
+
+:::{.callout-note}
+## Citekeys
+As we know, each citation must have a key, composed of `@` + the citation identifier that must begin with a letter, digit, or `_`, and may contain alphanumerics, `_`, and internal punctuation characters (`:.#$%&-+?<>~/`).
+:::
+
+
+The citation syntax is very simple: `@Citekey` for **Author (Date)** (an *in-text* citation); `[@Citekey]` for **(Author, Date)**; and `[-@Citekey]` for **(Date)**. Multiple citations can be grouped in the same brackets separated by semicolons `[@CitekeyA; @CitekeyB]`. The citation key is optionally followed by a locator, which can be a page number, a line number, a chapter number, or a section number, preceded by a comma.
+
+
+| **Markdown Source** | **Rendered output** |
+| :-----: | :-----: |
+| `@Long2004` | @Long2004 |
+| `[@Long2004]` | [@Long2004] |
+| `[@Long2004, p.15]` | [@Long2004, p.15] |
+| `[-@Long2004]` | [-@Long2004] |
+| `[-@Long2004, p.15]` | [-@Long2004, p.15] |
+
+: Citation syntax in Quarto and Pandoc.  {#tbl-scriv43}
+
+:::{.callout-note}
+## (Date)
+...on the deliberations of the prudent person [-@Long2004].
+
+`...on the deliberations of the prudent person [-@Long2004].`
+
+
+...on the deliberations of the prudent person [-@Long2004, p.17].
+
+`...on the deliberations of the prudent person [-@Long2004, p.17].`
+:::
+
+
+:::{.callout-note}
+## Author (Date)
+
+@Long2004 says that...
+
+`@Long2004 says that...`
+:::
+
+
+:::{.callout-note}
+## (Author, Date)
+...on the deliberations of the prudent person [@Long2004].
+
+`...on the deliberations of the prudent person [@Long2004]`.
+
+
+...on the deliberations of the prudent person [@Long2004, p.17].
+
+`...on the deliberations of the prudent person [@Long2004, p.17]`.
+:::
+
+
+:::{.callout-note}
+## (Author, Date; Author, Date)
+...on the deliberations of the prudent person [@Long2004; @hoffman2014].
+
+`...on the deliberations of the prudent person [@Long2004; @hoffman2014]`.
+
+
+...on the deliberations of the prudent person [@Long2004, p.17; @hoffman2014, p.15].
+
+`...on the deliberations of the prudent person [@Long2004, p.17; @hoffman2014, p.15].`
+:::
+
+
+That is pretty much all there is to it. Now that we have the basics covered, let us see what **Cite Field** can do for us.
+
+## Advanced citations {#sec-scriv44    }
+
+:::{.callout-note}
+## TLDR
+Several **Character Styles** are available to inject the correct markup (`[@Citekey]{.csl_field}`) to cite specific fields from your references. 
+:::
+
+
+In many areas, we are frequently invited to comment on different editions and translations of the same classical works. In such cases, we refer not only to the `author` and the date `issued` of a publication, but also to its `editor`, `translator`, `publisher`, and even `original-title` and `edition`. But how to do this? With **Cite Tools** enabled, the answer lies in a small variation of Pandoc's vanilla syntax for citations.
+
+
+| CSL Field | Markdown Source | Output |
+| :-----: | :-----: | :-----: |
+| Author | `[@DA]{.author}` | [@DA]{.author} |
+| Editor | `[@DA]{.editor}` | [@DA]{.editor} |
+| Issued | `[@DA]{.issued}` | [@DA]{.issued} |
+| Original-title | `[@DA]{.original-title}` | [@DA]{.original-title} |
+| Publisher | `[@DA]{.publisher}` | [@DA]{.publisher} |
+| Publisher-place | `[@DA]{.publisher-place}` | [@DA]{.publisher-place} |
+| Title | `[@DA]{.title}` | [@DA]{.title} |
+| Title-short | `[@DA]{.title-short}` | [@DA]{.title-short} |
+| Translator | `[@DA]{.translator}` | [@DA]{.translator} |
+
+: All ready-made **Character Styles** for the Cite Field lua filter. {#tbl-scriv44}
+
+As we said, internally, Pandoc uses the **C**itation **S**tyle **L**anguage format for bibliographies. This means that **we must use the CSL variable names** (see [@tbl-scriv50]), and not necessarily the field name you may see in a **RIS** or **BibTeX** bibliography. The correct way to print the book title, for example, would be `[@Citekey]{.container-title}` (and **not** using the BibTeX alternative which is `booktitle`); likewise, the date would print with `[@Citekey]{.issued}`, but not with `date` or `year`.
+
+> `Aristotle's [@DA]{.original-title} ([@DA]{.title}) was first edited by [@DA]{.editor} in [@DA]{.issued}.  In [@DABiehl]{.issued}, there was another edition by [@DABiehl]{.editor} (which was reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).`  
+
+> Aristotle's [@DA]{.original-title} ([@DA]{.title}) was first edited by [@DA]{.editor} in [@DA]{.issued}.  In [@DABiehl]{.issued}, there was another edition by [@DABiehl]{.editor} (which was reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).  
+
+:::{#bib-sample .column-page  }
+
+:::{#first-column .column   width="40%"}
+**BibTeX**
+
+```bibtex
+@book{AristOp,
+author = {Aristotle},
+editor = {Bekker, Immanuel},
+title = {Aristotelis opera},
+publisher = {Reimer},
+address = {Berlim},
+volumes = {4},
+edition = {1},
+year = {1831}
+}
+```
+
+**RIS**
+
+```ris
+TY  - BOOK
+ID  - AristOp
+AU  - Aristotle
+ED  - Bekker, Immanuel
+TI  - Aristotelis opera
+PB  - Reimer
+CY  - Berlim
+ET  - 1
+VL  - 4
+Y1  - 1831
+ER  -
+```
+
+:::
+
+
+:::{#second-column .column   width="2%"}
+
+:::
+
+
+:::{#third-column .column   width="40%"}
+**CSL-YAML**
+
+```yaml
+---
+references:
+- author:
+  - family: Aristotle
+  edition: 1
+  editor:
+  - family: Bekker
+    given: Immanuel
+  id: AristOp
+  issued: 1831
+  number-of-volumes: 4
+  publisher: Reimer
+  publisher-place: Berlim
+  title: Aristotelis opera
+  type: book
+---
+```
+
+
+:::
+
+:::
+
+| [CSL variables] | [BibTeX Fields] | [RIS Tags] |
+| :-----: | :-----: | :-----: |
+| abstract | abstract | AB |
+| author | authors | AU<br> A1 |
+| call-number | library | ID |
+| chapter-number<br> collection-number<br> number<br> issue | chapter<br> number<br> issue | IS |
+| collection-title | series | - |
+| container-title | booktitle<br> journal | BT<br> T2<br> JA<br> JF<br> JO |
+| DOI | doi | DO |
+| editor | editors | A2<br> ED |
+| genre | type | - |
+| ISSN | issn | SN |
+| issued | date | PY<br> Y1 |
+| keywords | keywords | KW |
+| language | langid | LA |
+| number-of-volumes | volumes | NV |
+| original-title | origtitle | OR* |
+| page | pages | SP<br> EP |
+| publisher | publisher<br> school<br> institution<br> organization<br> howpublished | PB |
+| publisher-place | address | PP |
+| title | title | TI<br> T1<br> CT |
+| title-short | shorttitle | ST* |
+| url | URL | UR<br> LK |
+| version | version | - |
+| volume | volume | VL |
+
+: CSL-YAML/CSL-JSON variables alongside corresponding [BibTeX](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Citeproc/BibTeX.hs) fields and  [RIS](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Readers/RIS.hs) tags. Those marked with an asterisk exist and correspond, but, for some reason, Pandoc ignores them instead of converting to CSL. {#tbl-scriv50}
+
+
+[CSL variables]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables
+[BibTeX Fields]: https://en.wikipedia.org/wiki/BibTeX#Field_types
+[RIS Tags]: https://en.wikipedia.org/wiki/RIS_(file_format)#Tags
+
+
+[CSL]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
+[CSL-YAML]: https://docs.citationstyles.org/en/stable/specification.html
+[CSL-JSON]: https://docs.citationstyles.org/en/stable/specification.html
+[BibTeX]: https://en.wikipedia.org/wiki/BibTeX#Entry_types
+[RIS]: https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference
+
+## Citation Backlinks {#sec-scriv51    }
+
+With Pandoc Citeproc, you can use `link-citations` to control whether citations in the body of the text should be clickable links to the reference in the bibliography (e.g. `[@EN]`). This is a very useful feature, especially when you want to quickly check the source of a citation without having to scroll through the whole text. **ScrivQ** takes this one step further with **Cite Tools** and adds, in a crescent ordinal fashion^[In other output formats, such as PDF, the reader will see the page number instead of a crescent ordinal number.], a backlink to each citation an entry has received in the document. This allows the reader to easily arrive at sections of the text where the same reference was discussed, quickly seeing with the array of backlinks, how many times each reference was used in the text.
+
+
+:::{.callout-warning}
+## Turning off undesired linking
+You can set `link-fields` to false to avoid undesired linking when citing specific fields ([@sec-scriv44]).
+:::
+
+
+:::{.callout-tip appearance="simple"  collapse="true"}
+## Various parameters that affect the hyperlinking of the bibliography
+
+[link-citations]{.underline}: Hyperlink citations to the corresponding bibliography entries. Defaults to false.
+
+[link-fields]{.underline}: Hyperlink citations that target specific CSL fields to the corresponding entries in the bibliography. If link-citations is true, this defaults to true.
+
+[link-bibliography]{.underline}: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
+
+[lang]{.underline}: Affects the bibliography tags. Defaults to `en-US`.
+:::
+
+# Resources {#sec-scriv52    }
+
+There are several other incredible resources in ScrivQ. Seriously. I spent easily over one hundred hours building this template, adding useful, good, and pretty things to it  (aren't the icons lovely?). There are still many undocumented developed features that will receive proper treatment in upcoming versions. Just to mention in passing, the next step will probably be documenting some of the already existing possibilities for editing Pandoc templates inside Scrivener. This is already possible and being done, (everything is there and it is already working). 
+
+
+- Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the **Shortcode Font Awesome** style as in `{{< fa regular bell >}}` {{< fa regular bell >}}. (There is also **Shortcode Env**, **Shortcode Meta**, **Shortcode Var**). 
+- Writing in Scrivener (https://github.com/iandol/scrivomatic#writing-in-scrivener) is a must read.
+- The Plain Person's Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
+- Quarto Reference - https://quarto.org/docs/reference/
+- The easiest way to publish to Github Pages: Render to docs
+- Example of Quarto Book - https://github.com/jjallaire/hopr/blob/master/_quarto.yml
+- Quarto with GH Pages - https://tarleb.com/posts/quarto-with-gh-pages/
+
+## Callout {#sec-scriv53    }
+
+These sections are divs with hardcoded classes (.callout-caution, .callout-important, .callout-note, .callout-tip, .callout-warning).
+
+:::{#scriv54 title="Callout Caution" .callout-caution  collapse="true" appearance="simple" }
+:::
+
+
+:::{#scriv55 title="Callout Important" .callout-important  collapse="true" appearance="simple" }
+:::
+
+
+:::{#scriv56 title="Callout Note" .callout-note  collapse="true" appearance="simple" }
+:::
+
+
+:::{#scriv57 title="Callout Tip" .callout-tip  collapse="true" appearance="simple" }
+:::
+
+
+:::{#scriv58 title="Callout Warning" .callout-warning  collapse="true" appearance="simple" }
+:::
+
+## Layout {#sec-scriv59    }
+
+:::{#scriv60 .column-page }
+The **Section Type **[`Column Page`] adds the homonymous class to make the content much wider, though stopping short of extending across the whole document. See https://quarto.org/docs/authoring/article-layout.html for details. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+:::
+
+
+:::{#scriv61 .column-page-right }
+The contents will be assigned the `.column-page-right` class and stretched rightwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+
+:::
+
+
+:::{#scriv62 .column-page-left }
+The contents will be assigned the `.column-page-left` class and stretched leftwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+
+:::
+
+
+:::{#scriv63 .column-screen }
+This is an example of the `Column Screen` section type. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+:::
+
+
+:::{#scriv64 .column-margin }
+This Marginalia is using a Section Type [`Column Margin`]. The contents will be assigned the `.column-margin` class and placed in the margin in HTML and LaTeX outputs. See https://quarto.org/docs/authoring/article-layout.html for details...  
+
+:::
+
+## Generic Divs {#sec-scriv65    }
+
+Finally, we'll look at how we can use generic [Div]{.underline} sections to recreate some of the other hardcoded sections.
+
+Some people might understandably prefer to achieve with fewer **Section Types** the same functionalities afforded by the profusion we saw earlier. To give an example, all Amsthm ([@sec-scriv4]) elements, the Multipart panels ([@sec-scriv21], [@sec-scriv29]), the Callouts ([@sec-scriv53]), and the Column Layouts ([@sec-scriv59]) could be created from a single generic Div section. This is even made easier by the presence of the <\$custom:ID-Prefix>, <\$custom:Class>, and <\$custom:Class₂> fields, which unencumbers the user from remembering the correct prefix for **Amsthm** or **Cross-reference** sections, and the classes for **Callouts** and different **Column Layout** options.  
+
+
+:::{#scriv66 .callout-tip}
+For [<\$custom:Width>]{.underline} and [<\$custom:Height>]{.underline}, you can input the value *directly*. There is no need to add  `width=` or place the value between quotes. This will automatically be done for you.
+:::
+
+
+:::{#generic-div .callout-note}
+If the fields are left empty, the ruby script will remove the empty keys for us.
+:::
+
+{{< pagebreak >}}
+
+# Final word {#sec-scriv68   }
+
+Now that you have familiarized yourself with **ScrivQ**, I ask you to consider the following: this template was developed not by ChatGPT, or some other automated method, but by *an obscene amount of time and effort* from a real human being. So, ask yourself, "How much is it worth to me to employ this in my work?", "How much is it worth it to me to always have an updated working version?". Then, [I ask you to let the artisan know](https://github.com/sponsors/bcdavasconcelos). It makes a big difference. Thanks for reading!
+
+
+# References {#sec-scriv69    }
+
+## Primary Sources {#sec-scriv70 .appendix}
+
+---
+bibliography_scriv70: "refs/refs-scriv70.yml"
+---
+
+::: {#refs_scriv70 }
+:::
+
+
+
+
+## Secondary Sources {#sec-scriv117 .appendix}
+
+---
+bibliography_scriv117: "refs/refs-scriv117.yml"
+---
+
+::: {#refs_scriv117 }
+:::
+
+
+
+
+## Workflow {#sec-scriv163 .appendix}
+
+---
+bibliography_scriv163: "refs/refs-scriv163.bib"
+---
+
+::: {#refs_scriv163 }
+:::
+
+
+
+
+## Songs {#sec-scriv164 .appendix}
+
+---
+bibliography_scriv164: "refs/refs-scriv164.yml"
+---
+
+::: {#refs_scriv164 }
+:::
+
+
+
+# Cite Tools Samples {#sec-scriv165 .unnumbered .appendix  }
+
+[]{#scriv165}
+
+
+![Multipart bibliography with sections, such as primary sources and secondary sources](multipartbibliography.png){#fig-scriv165A width=452 height=207}
+
+
+![Cite Field allows the evocation of arbitrary information from the references, such as `author`, `editor`, `translator` (using [CSL variables] name conventions)](citefield.png){#fig-scriv165B width=456 height=108}
+
+
+![The **Citation Backlinks** filter adds an index of cited references to the bibliography, with links back to all in-text citations. It also allows the user to turn these off globally or in an *ad hoc* fashion.](backrefs.png){#fig-scriv165C width=465 height=258}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,1 +1,0 @@
-The date format to use when displaying dates (e.g. d-M-yyy). Learn more about supported date formatting values here.

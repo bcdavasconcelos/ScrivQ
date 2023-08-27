@@ -1,1 +1,0 @@
-A valid CSS width for the about page image.

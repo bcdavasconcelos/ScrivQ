@@ -1,1 +1,0 @@
-The files or path globs of Quarto documents or YAML files that should be included in the listing.

@@ -1,0 +1,99 @@
+--> Input Filename: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/scrivq-mmd/index.md
+--> Modified path: /Users/bcdav/.rbenv/shims:/Users/bcdav/.pyenv/shims:/usr/local/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/bcdav/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+--> 1 figures fixed.
+--> 2 figures fixed.
+--> 3 figures fixed.
+--> 4 figures fixed.
+--> 5 figures fixed.
+--> 6 figures fixed.
+--> 7 figures fixed.
+--> 8 figures fixed.
+--> 9 figures fixed.
+--> 10 figures fixed.
+--> 11 figures fixed.
+--> 12 figures fixed.
+--> 13 figures fixed.
+--> 14 figures fixed.
+--> 15 figures fixed.
+--> 16 figures fixed.
+--> New files detected!
+--> 7 notes replaced.
+--> Created files: refs/refs-scriv70.yml, refs/refs-scriv117.yml, refs/refs-scriv163.bib, refs/refs-scriv164.yml, _extensions/bcdavasconcelos/templates/doc-class.tex, _extensions/bcdavasconcelos/templates/pandoc.tex, _extensions/bcdavasconcelos/templates/title.tex, _extensions/bcdavasconcelos/templates/toc.tex, _extensions/bcdavasconcelos/templates/before-body.tex, _extensions/bcdavasconcelos/templates/before-bib.tex, _extensions/bcdavasconcelos/templates/biblio.tex, _extensions/bcdavasconcelos/templates/after-body.tex, _extensions/bcdavasconcelos/templates/tightlist.tex, _extensions/bcdavasconcelos/templates/tables.tex, _extensions/bcdavasconcelos/templates/graphics.tex, _extensions/bcdavasconcelos/templates/citations.tex, _extensions/bcdavasconcelos/templates/latex.template, _extensions/bcdavasconcelos/templates/template.tex, _extensions/bcdavasconcelos/citetools/_extension.yml, _extensions/bcdavasconcelos/citetools/citation-backlinks.lua, _extensions/bcdavasconcelos/citetools/citefield.lua, _extensions/bcdavasconcelos/citetools/citeproc.lua, _extensions/bcdavasconcelos/citetools/multiple-bibliographies.lua, _quarto.yml
+--> Modified File with fixed cross-references: /Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/scrivq-mmd/index.qmd
+--> Parsing took: 0.041009s
+
+--> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/pandoc/quarto/ScrivQ/scrivq-mmd/index.qmd" --to html
+[1mpandoc [22m
+  to: html
+  output-file: index.html
+  standalone: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  citeproc: false
+  verbosity: ERROR
+  toc: true
+  number-sections: true
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  book:
+    title: 'Hello, ScrivQ'
+    abstract: The ScrivQ Template
+    description: "\U0001F680 Template Scrivener project designed for Quarto and Pandoc that exports multiple files, handles cross-references, manages bibliography, and builds complex YAML (it features hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation). Outputs Books in PDF, HTML, DOCX and Websites in HTML."
+    site-path: _site/
+    reader-mode: true
+    navbar: null
+    page-navigation: true
+    back-to-top-navigation: true
+  citation: true
+  link-fields: false
+  link-bibliography: true
+  notes-after-punctuation: true
+  verbose: false
+  validate-yaml: false
+  author-meta: Bernardo César Diniz Athayde Vasconcelos
+  date-meta: 2023-08
+  subject: workflow
+  keywords:
+    - Sophrosyne
+    - Platão
+    - Aristóteles
+  theme:
+    light:
+      - Pulse
+    dark:
+      - Cyborg
+  include-before:
+    - |
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+      .callout-header {
+      background-color: transparent!important;
+      }
+      </style>
+  number-depth: 3
+  linestretch: 1.5
+  fontsize: 12pt
+  fontfamily: Alegreya
+  mainfont: Alegreya
+  sansfont: Alegreya Sans
+  monofont: Source Code Pro
+  code-copy: true
+  appendix-style: default
+  bibliography_scriv70: refs/refs-scriv70.yml
+  bibliography_scriv117: refs/refs-scriv117.yml
+  bibliography_scriv163: refs/refs-scriv163.bib
+  bibliography_scriv164: refs/refs-scriv164.yml
+  
+[33mWARNING (/Applications/quarto/share/filters/main.lua:13630) Shortcode 'fa' not found
+[39m[33mWARNING (/Applications/quarto/share/filters/main.lua:10306) Unable to resolve crossref @tbl-keyword
+[39mOutput created: index.html
+
+waiting for the process to end
+process finished in time

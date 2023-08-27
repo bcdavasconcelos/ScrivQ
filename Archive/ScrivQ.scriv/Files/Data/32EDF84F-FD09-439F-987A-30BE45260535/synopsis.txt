@@ -1,1 +1,0 @@
-The number of items to display on a page.

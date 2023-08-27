@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="EC99E708-8AF0-4706-9F1E-433A682467CA">
+    <Snapshot Date="2023-08-12 21:47:35 -0300">
+        <Title>Complete Table</Title>
+        <Text>
+
+
+
+[CSL variables]
+[BibTeX Fields]
+[RIS Tags]
+abstract
+abstract
+AB
+author
+authors
+AU
+author
+authors
+A1
+call-number
+library
+ID
+chapter-number
+chapter
+-
+collection-number
+number
+IS
+number
+number
+IS
+issue
+issue
+IS
+collection-title
+series
+-
+container-title
+booktitle
+BT
+container-title
+booktitle
+T2
+container-title
+journal 
+JA
+container-title
+journal 
+JF
+container-title
+journal 
+JO
+DOI
+doi
+DO
+edition
+edition
+ET
+editor
+editors
+A2
+editor
+editors
+ED
+genre
+type
+-
+ISSN
+issn
+SN
+issued
+date
+PY
+issued
+date
+Y1
+keywords
+keywords
+KW
+language
+langid
+LA
+number-of-volumes
+volumes
+NV
+original-title
+origtitle
+OR*
+page
+pages
+SP
+page
+pages
+EP
+publisher
+publisher
+PB
+publisher
+school
+PB
+publisher
+institution
+PB
+publisher
+organization
+PB
+publisher
+howpublished
+PB
+publisher-place
+address
+PP
+title
+title
+TI
+title
+title
+T1
+title
+title
+CT
+title-short
+shorttitle
+ST*
+url
+URL
+UR
+url
+URL
+LK
+version
+version
+-
+volume
+volume
+VL
+CSL-YAML/CSL-JSON variables alongside corresponding [BibTeX](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Citeproc/BibTeX.hs) fields and  [RIS](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Readers/RIS.hs) tags
+
+
+[CSL variables]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables
+[BibTeX Fields]: https://en.wikipedia.org/wiki/BibTeX#Field_types
+[RIS Tags]: https://en.wikipedia.org/wiki/RIS_(file_format)#Tags
+
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2023-08-12 22:13:42 -0300">
+        <Title>Scrivener Native with &lt;br&gt;</Title>
+        <Text>
+
+
+
+[CSL variables]
+[BibTeX Fields]
+[RIS Tags]
+abstract
+abstract
+AB
+author
+authors
+AU&lt;br&gt; A1
+call-number
+library
+ID
+chapter-number&lt;br&gt; collection-number&lt;br&gt; number&lt;br&gt; issue
+chapter&lt;br&gt; number&lt;br&gt; issue
+IS
+collection-title
+series
+-
+container-title
+booktitle&lt;br&gt; journal
+BT&lt;br&gt; T2&lt;br&gt; JA&lt;br&gt; JF&lt;br&gt; JO
+DOI
+doi
+DO
+editor
+editors
+A2&lt;br&gt; ED
+genre
+type
+-
+ISSN
+issn
+SN
+issued
+date
+PY&lt;br&gt; Y1
+keywords
+keywords
+KW
+language
+langid
+LA
+number-of-volumes
+volumes
+NV
+original-title
+origtitle
+OR*
+page
+pages
+SP&lt;br&gt; EP
+publisher
+publisher&lt;br&gt; school&lt;br&gt; institution&lt;br&gt; organization&lt;br&gt; howpublished
+PB
+publisher-place
+address
+PP
+title
+title
+TI&lt;br&gt; T1&lt;br&gt; CT
+title-short
+shorttitle
+ST*
+url
+URL
+UR&lt;br&gt; LK
+version
+version
+-
+volume
+volume
+VL
+CSL-YAML/CSL-JSON variables alongside corresponding [BibTeX](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Citeproc/BibTeX.hs) fields and  [RIS](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Readers/RIS.hs) tags
+
+
+[CSL variables]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables
+[BibTeX Fields]: https://en.wikipedia.org/wiki/BibTeX#Field_types
+[RIS Tags]: https://en.wikipedia.org/wiki/RIS_(file_format)#Tags
+
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2023-08-12 21:50:00 -0300">
+        <Title>Grid Table</Title>
+        <Text>+-------------------+---------------+----------+
+|   CSL variables   | BibTeX Fields | RIS Tags |
++===================+===============+==========+
+|      abstract     |    abstract   |    AB    |
++-------------------+---------------+----------+
+|       author      |    authors    |    AU    |
+|                   |               +----------+
+|                   |               |    A1    |
++-------------------+---------------+----------+
+|    call-number    |    library    |    ID    |
++-------------------+---------------+----------+
+|   chapter-number  |    chapter    |     -    |
++-------------------+---------------+----------+
+| collection-number |     number    |    IS    |
++-------------------+               |          |
+|       number      |               |          |
++-------------------+---------------+          |
+|       issue       |     issue     |          |
++-------------------+---------------+----------+
+|  collection-title |     series    |     -    |
++-------------------+---------------+----------+
+|  container-title  |   booktitle   |    BT    |
+|                   |               +----------+
+|                   |               |    T2    |
+|                   +---------------+----------+
+|                   |    journal    |    JA    |
+|                   |               +----------+
+|                   |               |    JF    |
+|                   |               +----------+
+|                   |               |    JO    |
++-------------------+---------------+----------+
+|        DOI        |      doi      |    DO    |
++-------------------+---------------+----------+
+|      edition      |    edition    |    ET    |
++-------------------+---------------+----------+
+|       editor      |    editors    |    A2    |
+|                   |               +----------+
+|                   |               |    ED    |
++-------------------+---------------+----------+
+|       genre       |      type     |     -    |
++-------------------+---------------+----------+
+|        ISSN       |      issn     |    SN    |
++-------------------+---------------+----------+
+|       issued      |      date     |    PY    |
+|                   |               +----------+
+|                   |               |    Y1    |
++-------------------+---------------+----------+
+|      keywords     |    keywords   |    KW    |
++-------------------+---------------+----------+
+|      language     |     langid    |    LA    |
++-------------------+---------------+----------+
+| number-of-volumes |    volumes    |    NV    |
++-------------------+---------------+----------+
+|   original-title  |   origtitle   |    OR*   |
++-------------------+---------------+----------+
+|        page       |     pages     |    SP    |
+|                   |               +----------+
+|                   |               |    EP    |
++-------------------+---------------+----------+
+|     publisher     |   publisher   |    PB    |
+|                   +---------------+          |
+|                   |     school    |          |
+|                   +---------------+          |
+|                   |  institution  |          |
+|                   +---------------+          |
+|                   |  organization |          |
+|                   +---------------+          |
+|                   |  howpublished |          |
++-------------------+---------------+----------+
+|  publisher-place  |    address    |    PP    |
++-------------------+---------------+----------+
+|       title       |     title     |    TI    |
+|                   |               +----------+
+|                   |               |    T1    |
+|                   |               +----------+
+|                   |               |    CT    |
++-------------------+---------------+----------+
+|    title-short    |   shorttitle  |    ST*   |
++-------------------+---------------+----------+
+|        url        |      URL      |    UR    |
+|                   |               +----------+
+|                   |               |    LK    |
++-------------------+---------------+----------+
+|      version      |    version    |     -    |
++-------------------+---------------+----------+
+|       volume      |     volume    |    VL    |
++-------------------+---------------+----------+
+: CSL-YAML/CSL-JSON variables alongside corresponding [BibTeX](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Citeproc/BibTeX.hs) fields and  [RIS](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Readers/RIS.hs) tags {#tbl-scriv59}
+
+
+[CSL variables]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables
+[BibTeX Fields]: https://en.wikipedia.org/wiki/BibTeX#Field_types
+[RIS Tags]: https://en.wikipedia.org/wiki/RIS_(file_format)#Tags
+</Text>
+    </Snapshot>
+    <Snapshot Date="2023-08-12 21:48:21 -0300">
+        <Title>Merged Cells</Title>
+        <Text>
+
+CSL variables
+BibTeX Fields
+RIS Tags
+abstract
+abstract
+AB
+author
+authors
+AU
+A1
+call-number
+library
+ID
+chapter-number
+chapter
+-
+collection-number
+number
+IS
+number
+issue
+issue
+collection-title
+series
+-
+container-title
+booktitle
+BT
+T2
+journal
+JA
+JF
+JO
+DOI
+doi
+DO
+edition
+edition
+ET
+editor
+editors
+A2
+ED
+genre
+type
+-
+ISSN
+issn
+SN
+issued
+date
+PY
+Y1
+keywords
+keywords
+KW
+language
+langid
+LA
+number-of-volumes
+volumes
+NV
+original-title
+origtitle
+OR*
+page
+pages
+SP
+EP
+publisher
+publisher
+PB
+school
+institution
+organization
+howpublished
+publisher-place
+address
+PP
+title
+title
+TI
+T1
+CT
+title-short
+shorttitle
+ST*
+url
+URL
+UR
+LK
+version
+version
+-
+volume
+volume
+VL
+CSL-YAML/CSL-JSON variables alongside corresponding [BibTeX](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Citeproc/BibTeX.hs) fields and  [RIS](https://github.com/jgm/pandoc/blob/main/src/Text/Pandoc/Readers/RIS.hs) tags
+
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -1,0 +1,4 @@
+1. Add the bibliography.
+2. Add the bibliography format to `<$custom:Attributes>` (*e.g.*) `bib`, `ris`, `yml`, `md`).
+
+The bibliography will print here. 

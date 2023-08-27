@@ -1,1 +1,0 @@
-Espaçamento da fonte nas notas de rodapé, aumentar um pouco o espaço entre as notas.

@@ -1,1 +1,0 @@
-The path to an image for this feed. If not specified, the image for the page the listing appears on will be used, otherwise an image will be used if specified for the site in the Quarto project.

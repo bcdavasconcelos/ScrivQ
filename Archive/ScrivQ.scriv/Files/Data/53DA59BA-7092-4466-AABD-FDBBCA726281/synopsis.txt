@@ -1,1 +1,0 @@
-In grid type listings, the alignment of the content within the card (left (default), right, or center).

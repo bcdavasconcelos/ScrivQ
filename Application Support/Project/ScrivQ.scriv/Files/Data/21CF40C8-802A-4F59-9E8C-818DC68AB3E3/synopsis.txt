@@ -1,0 +1,1 @@
+Always show the navbar (keeping it pinned).

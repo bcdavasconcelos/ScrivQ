@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="87E72D68-34B8-4667-B581-3CCE9D83ADA4">
+    <Snapshot Date="2022-12-11 02:45:39 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+Example of inline citation (Nails2002) and of inline citation of just the year of the publication (Nails2002).
+This will appear in the compiled output as ([@Nails2002]) and ([-@Nails2002]).</Text>
+    </Snapshot>
+</SnapshotIndexes>
