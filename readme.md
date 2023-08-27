@@ -6,6 +6,7 @@ Download the latest version from the [releases section 🚀](https://github.com/
 
  
 _Caveats_￼
+
 1. For PDF output, [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required. 
 2. You must install [Ruby ⬇️](https://www.ruby-lang.org/en/downloads), if you are on Windows.
 
