@@ -498,8 +498,8 @@
 	<false/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {275.5, 990}}</string>
-		<string>{{276.5, 0}, {1451.5, 990}}</string>
+		<string>{{0, 0}, {276, 990}}</string>
+		<string>{{277, 0}, {1451, 990}}</string>
 	</array>
 	<key>binderWidth</key>
 	<real>209</real>
@@ -3526,8 +3526,8 @@
 	</dict>
 	<key>collectionsSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {275.5, 196.5}}</string>
-		<string>{{0, 197.5}, {275.5, 736.5}}</string>
+		<string>{{0, 0}, {276, 209}}</string>
+		<string>{{0, 210}, {276, 754}}</string>
 	</array>
 	<key>editorSplitFrames</key>
 	<array>
@@ -3556,8 +3556,8 @@
 	<false/>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1194, 960}}</string>
-		<string>{{1195, 0}, {256.5, 960}}</string>
+		<string>{{0, 0}, {1193, 960}}</string>
+		<string>{{1194, 0}, {257, 960}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>512</real>
@@ -3599,7 +3599,7 @@
 		<string>{{729.5, 0}, {390, 930}}</string>
 	</array>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {673.71428571428567, 516.57142857142856}}</string>
+	<string>{{0, 0}, {673.14285714285711, 516.57142857142856}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
@@ -3637,7 +3637,7 @@
 		<key>widths</key>
 		<dict>
 			<key>TITLE</key>
-			<real>243.5</real>
+			<real>200</real>
 		</dict>
 	</dict>
 	<key>supportingDocumentEditor.PDFAutoScales</key>

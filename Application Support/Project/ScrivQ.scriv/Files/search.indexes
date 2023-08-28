@@ -9,17 +9,6 @@
             <Title>toc-title</Title>
             <Synopsis>The title used for the table of contents.</Synopsis>
         </Document>
-        <Document ID="21CF40C8-802A-4F59-9E8C-818DC68AB3E3">
-            <Title>pinned</Title>
-            <Synopsis>Always show the navbar (keeping it pinned).</Synopsis>
-        </Document>
-        <Document ID="AB3A7D98-E11F-4AB5-A872-4858AFCAC2BC">
-            <Title>link-external-icon</Title>
-            <Synopsis>Show a special icon next to links that leave the current site.</Synopsis>
-        </Document>
-        <Document ID="D3BB0B61-21F3-4DC7-8C95-E52272903F70">
-            <Title>marginparwidth</Title>
-        </Document>
         <Document ID="E7E12460-BFAF-4EC2-A795-752DCE050332">
             <Title>Mermaid α</Title>
             <Text>```{mermaid}
@@ -31,6 +20,17 @@
 
 ```
 </Text>
+        </Document>
+        <Document ID="21CF40C8-802A-4F59-9E8C-818DC68AB3E3">
+            <Title>pinned</Title>
+            <Synopsis>Always show the navbar (keeping it pinned).</Synopsis>
+        </Document>
+        <Document ID="AB3A7D98-E11F-4AB5-A872-4858AFCAC2BC">
+            <Title>link-external-icon</Title>
+            <Synopsis>Show a special icon next to links that leave the current site.</Synopsis>
+        </Document>
+        <Document ID="D3BB0B61-21F3-4DC7-8C95-E52272903F70">
+            <Title>marginparwidth</Title>
         </Document>
         <Document ID="34817968-B144-4863-A756-9BF669C88D13">
             <Title>filecolor</Title>
@@ -1312,13 +1312,13 @@ references:
             <Title>margin-left</Title>
             <Synopsis>For HTML output, sets the margin-left property on the Body element. For LaTeX output, sets the left margin if geometry is not used (otherwise geometry overrides this value). For ConTeXt output, sets the left margin if layout is not used, otherwise layout overrides these. For wkhtmltopdf sets the left page margin.</Synopsis>
         </Document>
-        <Document ID="8B014782-1E52-4F6D-B15C-CA5FB440B23B">
-            <Title>Templates</Title>
-            <Notes>These templates allow you to create new documents.</Notes>
-        </Document>
         <Document ID="2F4B6F2B-B652-49EE-91FB-71A3B1FB0D27">
             <Title>Sections</Title>
             <Synopsis>Cross-referencing equations, listings, figures and tables</Synopsis>
+        </Document>
+        <Document ID="8B014782-1E52-4F6D-B15C-CA5FB440B23B">
+            <Title>Templates</Title>
+            <Notes>These templates allow you to create new documents.</Notes>
         </Document>
         <Document ID="0DF89287-2718-4F8D-AA57-4E62B00FF676">
             <Title>About</Title>
@@ -1348,6 +1348,19 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 </Text>
+        </Document>
+        <Document ID="04CD15B1-0B39-4700-920C-08C193CCA7DC">
+            <Title>Figure</Title>
+            <Text>
+#
+%CA% 
+</Text>
+            <Notes>
+
+
+
+{#fig-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption...
+</Notes>
         </Document>
         <Document ID="084E82C6-E63B-45F7-B01B-9479514432C3">
             <Title>abnt-phi</Title>
@@ -1963,32 +1976,18 @@ For example, to only number sections immediately below the chapter level, use th
 number-depth: 1
 </Synopsis>
         </Document>
-        <Document ID="AD0A0C20-A093-4BE5-8AC5-196DFD201C77">
-            <Title>yaml</Title>
-        </Document>
         <Document ID="F2C02787-76A6-472E-99AD-BD14E47EECD4">
             <Title>link-external-newwindow</Title>
             <Synopsis>Open external links in a new browser window or tab (rather than navigating the current tab).</Synopsis>
+        </Document>
+        <Document ID="AD0A0C20-A093-4BE5-8AC5-196DFD201C77">
+            <Title>yaml</Title>
         </Document>
         <Document ID="0E855970-CF03-4513-946E-35FF5BB79A61">
             <Title>image</Title>
             <Synopsis>The path to a preview image for this content. By default, Quarto will use the image value from the site: metadata. If you provide an image, you may also optionally provide an image-width and image-height to improve the appearance of your Twitter Card.
 
 If image is not provided, Quarto will automatically attempt to locate a preview image.</Synopsis>
-        </Document>
-        <Document ID="04CD15B1-0B39-4700-920C-08C193CCA7DC">
-            <Title>Figure</Title>
-            <Synopsis> </Synopsis>
-            <Text>
-#
-%CA% 
-</Text>
-            <Notes>
-
-
-
-{#fig-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption...
-</Notes>
         </Document>
         <Document ID="AEA436CE-638E-4643-B202-261173AED0F7">
             <Title>search</Title>
@@ -3590,19 +3589,18 @@ Examples:
 &gt;= 1.1.0: Require at least quarto version 1.1
 1.*: Require any quarto versions whose major version number is 1</Synopsis>
         </Document>
-        <Document ID="D7B29D44-5940-4052-AA4E-4C8330920B5A">
-            <Title>icon</Title>
-            <Synopsis>List of items for the left side of the navbar (see Nav Items)</Synopsis>
-        </Document>
         <Document ID="F04F8770-AFFF-4621-A37C-C428B688B45D">
             <Title>Figures</Title>
-            <Synopsis> </Synopsis>
             <Notes>
 
 
 
 {#fig-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption...
 </Notes>
+        </Document>
+        <Document ID="D7B29D44-5940-4052-AA4E-4C8330920B5A">
+            <Title>icon</Title>
+            <Synopsis>List of items for the left side of the navbar (see Nav Items)</Synopsis>
         </Document>
         <Document ID="969171FB-84A1-46DB-939F-A342661037E9">
             <Title>keep-ipynb</Title>
@@ -3857,6 +3855,13 @@ references:
 :::
 </Notes>
         </Document>
+        <Document ID="1CDFCD89-41E6-498D-8D84-C6DC23E2F9C1">
+            <Title>Tables</Title>
+            <Notes>
+
+: &lt;$custom:Value&gt; {#tbl-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
+</Notes>
+        </Document>
         <Document ID="2DDD6034-0E8D-4E28-A72A-05E8FF80BF3A">
             <Title>Mermaid Α</Title>
             <Synopsis>Method I (Paragraph Style) for Mermaid Diagram.</Synopsis>
@@ -3866,13 +3871,6 @@ references:
 
 
 </Text>
-        </Document>
-        <Document ID="1CDFCD89-41E6-498D-8D84-C6DC23E2F9C1">
-            <Title>Tables</Title>
-            <Notes>
-
-: &lt;$custom:Value&gt; {#tbl-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
-</Notes>
         </Document>
         <Document ID="32C1A394-67B1-4342-95DD-26A6A6F2FDBD">
             <Title>abbreviations</Title>
@@ -4029,13 +4027,21 @@ Alegreya, Skolar PE</Synopsis>
         <Document ID="D357803E-D48C-49FB-BB61-C67C8347FA60">
             <Title>pandoc</Title>
         </Document>
-        <Document ID="43819F75-D0FF-4E5B-9FDB-44B7BAC2A33E">
-            <Title>body-header</Title>
-            <Synopsis>Markdown to insert at the beginning of each page’s body (below the title and author block).</Synopsis>
+        <Document ID="2582C42A-3D2C-4E8A-8FAC-2C5EC98316FE">
+            <Title>Listings</Title>
+            <Notes>```{#lst-%autoref% lst-cap="&lt;$custom:Value&gt;" &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
+
+
+```
+</Notes>
         </Document>
         <Document ID="B46AE05B-0F7A-4D39-B91D-6DF5C754EF09">
             <Title>collapse-below</Title>
             <Synopsis>The responsive breakpoint below which the navbar will collapse into a menu (sm, md, lg (default), xl, xxl).</Synopsis>
+        </Document>
+        <Document ID="43819F75-D0FF-4E5B-9FDB-44B7BAC2A33E">
+            <Title>body-header</Title>
+            <Synopsis>Markdown to insert at the beginning of each page’s body (below the title and author block).</Synopsis>
         </Document>
         <Document ID="73EA25BA-CC31-4EB5-907D-7D12899ADEEE">
             <Title>Figure</Title>
@@ -4048,14 +4054,6 @@ Alegreya, Skolar PE</Synopsis>
 
 
 {#fig-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption...
-</Notes>
-        </Document>
-        <Document ID="2582C42A-3D2C-4E8A-8FAC-2C5EC98316FE">
-            <Title>Listings</Title>
-            <Notes>```{#lst-%autoref% lst-cap="&lt;$custom:Value&gt;" &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
-
-
-```
 </Notes>
         </Document>
         <Document ID="FF14638C-3A87-43F7-A00C-A5CAEDC69AD2">
@@ -4072,6 +4070,22 @@ CC BY-NC	Attribution-NonCommercial	This license lets others remix, tweak, and bu
         <Document ID="89E149C3-22EE-4B00-88F7-A19D6A22CEB7">
             <Title>standalone</Title>
             <Synopsis>Produce output with an appropriate header and footer (e.g. a standalone HTML, LaTeX, TEI, or RTF file, not a fragment)</Synopsis>
+        </Document>
+        <Document ID="8AAB0BA1-F001-41CC-8538-9FF761D91EFE">
+            <Title>Diagrams</Title>
+            <Notes>```{dot}
+//| label: fig-%autoref%
+
+
+```
+See Columns.
+
+```{mermaid}
+%%| label: fig-%autoref%
+
+
+```
+See Columns.</Notes>
         </Document>
         <Document ID="ACD78D34-7B27-4BCB-BE01-0FF1E46C620D">
             <Title>chicago</Title>
@@ -4767,25 +4781,17 @@ CC BY-NC	Attribution-NonCommercial	This license lets others remix, tweak, and bu
 &lt;/style&gt;
 </Text>
         </Document>
-        <Document ID="8AAB0BA1-F001-41CC-8538-9FF761D91EFE">
-            <Title>Diagrams</Title>
-            <Notes>```{dot}
-//| label: fig-%autoref%
+        <Document ID="90788EF7-AE55-4E2E-A4B2-950FCEE81719">
+            <Title>Callout Note</Title>
+            <Notes>:::{#%autoref% .callout-note &lt;$custom:Class&gt; &lt;$custom:Class₂&gt; &lt;$custom:Attributes&gt;}
 
+:::
 
-```
-See Columns.
-
-```{mermaid}
-%%| label: fig-%autoref%
-
-
-```
-See Columns.</Notes>
-        </Document>
-        <Document ID="71FF15FE-A3AE-4EBF-9D9C-04E4F79BE218">
-            <Title>code-tools</Title>
-            <Synopsis>Include a code tools menu (for hiding and showing code). Use true or false to enable or disable the standard code tools menu. Specify sub-properties source, toggle, and caption to customize the behavior and appearnce of code tools.</Synopsis>
+appearance="simple"
+collapse="true"
+icon=false
+title="&lt;$title&gt;"
+</Notes>
         </Document>
         <Document ID="C7900BCA-3B15-4386-AC06-FE97036729DA">
             <Title>appendix-cite-as</Title>
@@ -4793,13 +4799,30 @@ See Columns.</Notes>
 
 Use false to disable the display of the ‘cite as’ appendix. Pass one or more of display or bibtex to enable that format in ‘cite as’ appendix.</Synopsis>
         </Document>
-        <Document ID="EE4E8B09-D7A5-418F-8272-4AAD58749062">
-            <Title>monofontoptions</Title>
+        <Document ID="71FF15FE-A3AE-4EBF-9D9C-04E4F79BE218">
+            <Title>code-tools</Title>
+            <Synopsis>Include a code tools menu (for hiding and showing code). Use true or false to enable or disable the standard code tools menu. Specify sub-properties source, toggle, and caption to customize the behavior and appearnce of code tools.</Synopsis>
         </Document>
         <Document ID="26031DA6-EA57-498C-943F-061562A50587">
             <Title>from</Title>
             <Synopsis>Format to read from. Extensions can be individually enabled or disabled by appending +EXTENSION or -EXTENSION to the format name (e.g. markdown+emoji).
 </Synopsis>
+        </Document>
+        <Document ID="71FF3982-ED8B-40E4-ACA9-048AF7F81DBB">
+            <Title>Mermaid β</Title>
+            <Synopsis>Method II (Section Type) for Mermaid Diagram.</Synopsis>
+            <Text>%%| fig-cap: ""
+%%| column: page
+%%| echo: true
+
+
+</Text>
+            <Notes>```{mermaid}
+%%| label: fig-%autoref%
+
+
+```
+See Columns.</Notes>
         </Document>
         <Document ID="73B5EA51-6D6F-4629-A794-CA36E94552B0">
             <Title>colorlinks</Title>
@@ -4809,18 +4832,12 @@ Use false to disable the display of the ‘cite as’ appendix. Pass one or more
             <Title>toc-depth</Title>
             <Synopsis>Specify the number of section levels to include in the table of contents. The default is 3</Synopsis>
         </Document>
+        <Document ID="EE4E8B09-D7A5-418F-8272-4AAD58749062">
+            <Title>monofontoptions</Title>
+        </Document>
         <Document ID="D1EE73B8-6FB3-44D8-8C6A-936A6B9A92CF">
             <Title>citation-location</Title>
             <Synopsis>Where citation information should be displayed (document or margin)</Synopsis>
-        </Document>
-        <Document ID="4C1C2E33-20E4-428A-B1AD-64A7D901E139">
-            <Title>Inconsolata</Title>
-            <Text>\usepackage{Inconsolata}
-</Text>
-        </Document>
-        <Document ID="72442015-3E23-48C9-B4EE-247643E76E03">
-            <Title>port</Title>
-            <Synopsis>Port to listen on (defaults to random value between 3000 and 8000)</Synopsis>
         </Document>
         <Document ID="A5984558-283A-4FAA-BCB6-C9BED563C035">
             <Title>repo-url</Title>
@@ -4874,33 +4891,14 @@ graph TD
 ```
 See Columns.</Notes>
         </Document>
-        <Document ID="71FF3982-ED8B-40E4-ACA9-048AF7F81DBB">
-            <Title>Mermaid β</Title>
-            <Synopsis>Method II (Section Type) for Mermaid Diagram.</Synopsis>
-            <Text>%%| fig-cap: ""
-%%| column: page
-%%| echo: true
-
-
+        <Document ID="4C1C2E33-20E4-428A-B1AD-64A7D901E139">
+            <Title>Inconsolata</Title>
+            <Text>\usepackage{Inconsolata}
 </Text>
-            <Notes>```{mermaid}
-%%| label: fig-%autoref%
-
-
-```
-See Columns.</Notes>
         </Document>
-        <Document ID="90788EF7-AE55-4E2E-A4B2-950FCEE81719">
-            <Title>Callout Note</Title>
-            <Notes>:::{#%autoref% .callout-note &lt;$custom:Class&gt; &lt;$custom:Class₂&gt; &lt;$custom:Attributes&gt;}
-
-:::
-
-appearance="simple"
-collapse="true"
-icon=false
-title="&lt;$title&gt;"
-</Notes>
+        <Document ID="72442015-3E23-48C9-B4EE-247643E76E03">
+            <Title>port</Title>
+            <Synopsis>Port to listen on (defaults to random value between 3000 and 8000)</Synopsis>
         </Document>
         <Document ID="B0FD1B41-32EE-4A31-9E38-DDB39D34CD26">
             <Title>Publisher-Place</Title>
@@ -5189,15 +5187,6 @@ The default printing method is kable.</Synopsis>
         </Document>
         <Document ID="DEE6F00F-074A-4BB5-A143-5DB1DC171343">
             <Title>Table β</Title>
-            <Text>
-
-
-
-
-
-
-
-</Text>
             <Notes>
 
 : &lt;$custom:Value&gt; {#tbl-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
@@ -5260,8 +5249,12 @@ section: Place at end of current section
 margin: Place at the margin
 document: Place at end of document</Synopsis>
         </Document>
-        <Document ID="801FBD2A-8904-4C86-808D-AF97BF527114">
-            <Title>Collection-title</Title>
+        <Document ID="C65CBAEA-0C4C-4E8E-8AC2-888934976B71">
+            <Title>Column Screen</Title>
+            <Notes>:::{#%autoref% .column-screen &lt;$custom:Attributes&gt;}
+
+:::
+</Notes>
         </Document>
         <Document ID="63472BAF-8436-47F6-89EA-B77C605A8252">
             <Title>toc</Title>
@@ -5323,12 +5316,8 @@ references:
 ...
 </Notes>
         </Document>
-        <Document ID="C65CBAEA-0C4C-4E8E-8AC2-888934976B71">
-            <Title>Column Screen</Title>
-            <Notes>:::{#%autoref% .column-screen &lt;$custom:Attributes&gt;}
-
-:::
-</Notes>
+        <Document ID="801FBD2A-8904-4C86-808D-AF97BF527114">
+            <Title>Collection-title</Title>
         </Document>
         <Document ID="348C974C-A9D3-4CB2-AF42-A948EB7500CF">
             <Title>latex</Title>
@@ -6397,14 +6386,6 @@ $endif$
             <Title>code-annotations</Title>
             <Synopsis>The style to use when displaying code annotations. Set this value to false to hide code annotations.</Synopsis>
         </Document>
-        <Document ID="5CE7505E-41D9-4F08-9E79-E562725B3910">
-            <Title>Column Screen</Title>
-            <Text>This is an example of the Column Screen section type. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Text>
-            <Notes>:::{#%autoref% .column-screen &lt;$custom:Attributes&gt;}
-
-:::
-</Notes>
-        </Document>
         <Document ID="649EAA1C-7335-4958-A78A-B84F45299A3E">
             <Title>Layout</Title>
             <Notes>
@@ -6423,6 +6404,14 @@ $endif$
 	.column-screen-left
 	.column-screen-right
 .column-margin
+</Notes>
+        </Document>
+        <Document ID="5CE7505E-41D9-4F08-9E79-E562725B3910">
+            <Title>Column Screen</Title>
+            <Text>This is an example of the Column Screen section type. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Text>
+            <Notes>:::{#%autoref% .column-screen &lt;$custom:Attributes&gt;}
+
+:::
 </Notes>
         </Document>
         <Document ID="32DAB7D0-83CE-4EBF-AA64-B48946186E3C">
@@ -6467,9 +6456,12 @@ title="&lt;$title&gt;"
         <Document ID="55E1E451-A9E8-48EF-93C8-60599574313A">
             <Title>gutter-width</Title>
         </Document>
-        <Document ID="6ABBC824-5E33-4129-851C-3269FA22CC9E">
-            <Title>latex-clean</Title>
-            <Synopsis>Clean intermediates after compilation.</Synopsis>
+        <Document ID="448005BC-615C-4B6A-AD71-AD2538DFFA70">
+            <Title>Column Page [Auto]</Title>
+            <Notes>:::{#%autoref% .column-page &lt;$custom:Attributes&gt;}
+
+:::
+</Notes>
         </Document>
         <Document ID="57843961-DFF4-40CA-9336-574810AF0379">
             <Title>Notes</Title>
@@ -6479,12 +6471,9 @@ title="&lt;$title&gt;"
             <Text>t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
 </Text>
         </Document>
-        <Document ID="448005BC-615C-4B6A-AD71-AD2538DFFA70">
-            <Title>Column Page [Auto]</Title>
-            <Notes>:::{#%autoref% .column-page &lt;$custom:Attributes&gt;}
-
-:::
-</Notes>
+        <Document ID="6ABBC824-5E33-4129-851C-3269FA22CC9E">
+            <Title>latex-clean</Title>
+            <Synopsis>Clean intermediates after compilation.</Synopsis>
         </Document>
         <Document ID="D35DBCA8-5DDC-4244-AD4E-7E1B32552825">
             <Title>Callout Warning</Title>
@@ -6574,10 +6563,6 @@ references:
         </Document>
         <Document ID="63887E1A-8718-4B83-B987-E69E387A692F">
             <Title>Equation α</Title>
-            <Text>
-
-
-</Text>
         </Document>
         <Document ID="8A6363DD-75A0-4E08-823A-FFD100CD36F2">
             <Title>linestretch</Title>
@@ -6585,12 +6570,12 @@ references:
         <Document ID="9BB135D8-7857-4136-9B21-9A980DF02E76">
             <Title>references</Title>
         </Document>
+        <Document ID="AFA6E27D-2D25-4AB3-AADA-6C5EE000185A">
+            <Title>Footnotes</Title>
+        </Document>
         <Document ID="6D453DC8-6AB3-480D-93E1-90A7A9883BBA">
             <Title>shift-heading-level-by</Title>
             <Synopsis>Shift heading levels by a positive or negative integer. For example, with shift-heading-level-by: -1, level 2 headings become level 1 headings, and level 3 headings become level 2 headings. Headings cannot have a level less than 1, so a heading that would be shifted below level 1 becomes a regular paragraph. Exception: with a shift of -N, a level-N heading at the beginning of the document replaces the metadata title.</Synopsis>
-        </Document>
-        <Document ID="AFA6E27D-2D25-4AB3-AADA-6C5EE000185A">
-            <Title>Footnotes</Title>
         </Document>
         <Document ID="4F61A88B-16B9-46A6-957B-E77FB0756504">
             <Title>back-to-top-navigation</Title>
@@ -6773,15 +6758,15 @@ icon=false
 title="&lt;$title&gt;"
 </Notes>
         </Document>
-        <Document ID="FF7512E3-1392-4111-85D0-1433C73B6F19">
-            <Title>toclink</Title>
-        </Document>
         <Document ID="BF715C1A-5ABD-4C13-8843-8DBBFA9CFD30">
             <Title>Column Page←Left [Auto]</Title>
             <Notes>:::{#%autoref% .column-page-left &lt;$custom:Attributes&gt;}
 
 :::
 </Notes>
+        </Document>
+        <Document ID="FF7512E3-1392-4111-85D0-1433C73B6F19">
+            <Title>toclink</Title>
         </Document>
         <Document ID="724E8835-2F2A-4288-8957-EEFB1D92413A">
             <Title>Column Page [Auto]</Title>
@@ -6911,9 +6896,6 @@ title="&lt;$title&gt;"
         <Document ID="10F468A7-DA41-4F75-81A0-A42074741373">
             <Title>Listing γ</Title>
             <Synopsis>Method III (Section Type) Code  + Attributes [ID]</Synopsis>
-            <Text>
-
-</Text>
             <Notes>```{#lst-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
 
 ```
@@ -7291,16 +7273,16 @@ CSL-YAML/CSL-JSON variables alongside corresponding [BibTeX](https://github.com/
         <Document ID="84852233-6E5A-43C5-BF5F-5009E1118175">
             <Title>author-meta</Title>
         </Document>
-        <Document ID="E55D9C11-FB50-4D7E-B12E-C52384859198">
-            <Title>resources</Title>
-            <Synopsis>Path (or glob) to files to publish with this document.</Synopsis>
-        </Document>
         <Document ID="8916147C-E860-4903-9802-DB0957739B6E">
             <Title>Div [Auto]</Title>
             <Notes>:::{&lt;$custom:ID-Prefix&gt;%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; width="&lt;$custom:Width&gt;" height="&lt;$custom:Height&gt;"}
 Text content
 :::
 </Notes>
+        </Document>
+        <Document ID="E55D9C11-FB50-4D7E-B12E-C52384859198">
+            <Title>resources</Title>
+            <Synopsis>Path (or glob) to files to publish with this document.</Synopsis>
         </Document>
         <Document ID="80190275-21D8-4AEC-BEA6-85609A211985">
             <Title>include</Title>
@@ -7669,9 +7651,6 @@ references:
         </Document>
         <Document ID="968F8624-CE8F-4115-929F-190AFA4A32EE">
             <Title>Equation β</Title>
-            <Text>
-
-</Text>
         </Document>
         <Document ID="7E3DCF01-3698-48EF-8D3C-8AA8242C6456">
             <Title>Family</Title>
@@ -8350,19 +8329,19 @@ $$ {#eq-%autoref%}
             <Title>Figure format</Title>
             <Synopsis>Default format for figures generated by Matplotlib or R graphics (retina, png, jpeg, svg, or pdf)</Synopsis>
         </Document>
+        <Document ID="19DA2579-0561-491F-902D-6F98A15539B3">
+            <Title>Section</Title>
+            <Notes># Section {#sec-%autoref%}
+
+
+</Notes>
+        </Document>
         <Document ID="CDC06842-24E4-44F9-ADDF-AE7EFBA28443">
             <Title>Conjecture</Title>
             <Text>Conjecture</Text>
             <Notes>:::{#cnj-%autoref% &lt;$custom:Class&gt; &lt;$custom:Attributes&gt;}
 
 :::
-</Notes>
-        </Document>
-        <Document ID="19DA2579-0561-491F-902D-6F98A15539B3">
-            <Title>Section</Title>
-            <Notes># Section {#sec-%autoref%}
-
-
 </Notes>
         </Document>
         <Document ID="AA8007D9-6CBE-408A-9BDD-723092B41366">
@@ -8447,9 +8426,6 @@ Instead of a STYLE name, a JSON file with extension .theme may be supplied. This
         </Document>
         <Document ID="F92BF910-E0C7-47CF-972D-06FB195F513A">
             <Title>Footnote</Title>
-            <Text>
-
-</Text>
             <Notes>[^fn-%autoref%]: 
 </Notes>
         </Document>
@@ -8500,6 +8476,13 @@ document: Place at end of document</Synopsis>
             <Title>pandoc</Title>
             <Text>- &lt;$custom:ID&gt;</Text>
         </Document>
+        <Document ID="F81E3522-8A4E-4968-B90F-2B9766B756E1">
+            <Title>Heading + Break</Title>
+            <Notes>{{&lt; pagebreak &gt;}}
+
+# Section {#sec-%autoref%}
+</Notes>
+        </Document>
         <Document ID="7D32EBE7-E828-4790-AEB7-5395B79EEE42">
             <Synopsis>A few links, but nothing comprehensive.</Synopsis>
             <Text>New to Quarto?
@@ -8539,13 +8522,6 @@ Homebrew Quickstart 🚀
 [Stack Overflow]: https://stackoverflow.com/questions/tagged/quarto
 [Twitter]: https://twitter.com/quarto_pub
 </Text>
-        </Document>
-        <Document ID="F81E3522-8A4E-4968-B90F-2B9766B756E1">
-            <Title>Heading + Break</Title>
-            <Notes>{{&lt; pagebreak &gt;}}
-
-# Section {#sec-%autoref%}
-</Notes>
         </Document>
         <Document ID="ADB8CCCC-7D40-466F-8677-B99107B2A0D5">
             <Title>Alegreya Sans Fix</Title>
@@ -9612,9 +9588,6 @@ none disables appendix processing altogether. Content will not be processed or o
         <Document ID="CC0AE0CB-C5F6-405C-82E0-BE0D051C7A8E">
             <Title>Listing α</Title>
             <Synopsis>Method I (Paragraph Style) for Block Listing.</Synopsis>
-            <Text>
-
-</Text>
         </Document>
         <Document ID="F56BCC62-FF56-4DA0-AC16-60697D4C4622">
             <Title>Keyword</Title>
