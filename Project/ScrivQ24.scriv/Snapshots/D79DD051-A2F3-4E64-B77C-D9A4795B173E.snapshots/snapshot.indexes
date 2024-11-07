@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="D79DD051-A2F3-4E64-B77C-D9A4795B173E">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>title: Hello Quarto!
+author: Bernardo C. D. A. Vasconcelos
+license: CC BY-NC-SA
+copyright:
+  holder: Bernardo C. D. A. Vasconcelos
+  year: 2024
+project:
+  title: ScrivQ
+  type: book
+  render: ["*.qmd", "*.md"]
+  execute-dir: project
+  output-dir: sample
+  preview:
+    port: 5556
+    watch-inputs: true
+    navigate: true</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 11:27:10 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>title: Hello Quarto!
+author: Bernardo C. D. A. Vasconcelos
+license: CC BY-NC-SA
+copyright:
+  holder: Bernardo C. D. A. Vasconcelos
+  year: 2024
+project:
+  preview:
+    port: 5556
+    watch-inputs: true
+    navigate: true
+  title: ScrivQ
+  type: book
+  render: ["*.qmd", "*.md"]
+  execute-dir: project
+  output-dir: sample</Text>
+    </Snapshot>
+</SnapshotIndexes>

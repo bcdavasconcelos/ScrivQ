@@ -1,1 +1,0 @@
-If there is text in this section, ScrivQ will automatically commit the exported files using the text as commit-msg.

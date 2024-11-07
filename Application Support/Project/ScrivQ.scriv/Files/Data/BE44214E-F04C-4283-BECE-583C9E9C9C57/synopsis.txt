@@ -1,1 +1,0 @@
-Enables hover over a section title to see an anchor link.

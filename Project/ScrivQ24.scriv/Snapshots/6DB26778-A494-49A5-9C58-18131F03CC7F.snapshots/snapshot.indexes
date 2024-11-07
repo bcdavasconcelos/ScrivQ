@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="6DB26778-A494-49A5-9C58-18131F03CC7F">
+    <Snapshot Date="2024-01-04 22:39:34 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+MorphineCFP, MorphineCFP (MorphineCFP)
+
+Element
+Markdown Source
+Rendered Output
+Figure
+`fig-image-a`
+fig-image-a
+Figure (Multipart)
+`fig-panel-a`
+fig-panel-a
+Figure (Multipart)
+`fig-panel-a-item-a`
+fig-panel-a-item-a
+Figure (Multipart)
+`fig-panel-a-item-b`
+fig-panel-a-item-b
+Cross-referencing figures. {#tbl-figures}
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+MorphineCFP, MorphineCFP (MorphineCFP)
+
+
+Element
+Markdown Source
+Rendered Output
+Figure
+`scrivref`
+scrivref
+Figure (Multipart)
+`scrivref`
+scrivref
+Figure (Multipart)
+`scrivrefA`
+scrivrefA
+Figure (Multipart)
+`scrivrefB`
+scrivrefB
+Figure (Multipart)
+`scrivref`
+scrivref
+Figure (Multipart)
+`scrivrefA`
+scrivrefA
+Figure (Multipart)
+`scrivrefB`
+scrivrefB
+Cross-referencing figures.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 18:09:59 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+MorphineCFP, MorphineCFP (MorphineCFP)
+
+
+Element
+Markdown Source
+Rendered Output
+Figure
+`scrivlink`
+scrivlink
+Figure (Multipart)
+`scrivlink`
+scrivlink
+Figure (Multipart)
+`scrivlinkA`
+scrivlinkA
+Figure (Multipart)
+`scrivlinkB`
+scrivlinkB
+Figure (Multipart)
+`scrivlink`
+scrivlink
+Figure (Multipart)
+`scrivlinkA`
+scrivlinkA
+Figure (Multipart)
+`scrivlinkB`
+scrivlinkB
+Cross-referencing figures.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-06 21:06:33 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+MorphineCFP, MorphineCFP (MorphineCFP)
+
+Element
+Markdown Source
+Rendered Output
+Figure
+`fig-image-a`
+fig-image-a
+Figure (Multipart)
+`fig-panel-a`
+fig-panel-a
+Figure (Multipart)
+`fig-panel-a-item-a`
+fig-panel-a-item-a
+Figure (Multipart)
+`fig-panel-a-item-b`
+fig-panel-a-item-b
+Cross-referencing figures. {#tbl-figures}
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

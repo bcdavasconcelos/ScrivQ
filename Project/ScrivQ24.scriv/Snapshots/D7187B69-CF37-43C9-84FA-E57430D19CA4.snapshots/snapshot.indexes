@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="D7187B69-CF37-43C9-84FA-E57430D19CA4">
+    <Snapshot Date="2024-11-05 14:29:50 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+￼
+Place the label first in the caption, and use the Caption style. {#fig-panel-a-item-a width="auto"}
+
+￼
+Angry elephant with a big trunk. {#fig-panel-a-item-b width="auto"}
+
+This multi-figure panel uses the Div Section Type instead of raw markdown as shown here. ID, Class, and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and then inserted into the markup for this chunk by the Section Layout at compile time.  </Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+￼
+{#fig-panel-a-item-a} Place the label first in the caption, and use the Caption style
+
+￼
+{#fig-panel-a-item-b} Angry elephant with a big trunk.
+
+This demonstrates generating a multi-figure panel using a Scrivener Section Type [Div] instead of using raw markdown as shown here. ID, Class, and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and this is then inserted into the markup for this chunk by the Section Layout at compile time.  
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-07 20:20:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+￼
+{#fig-panel-a-item-a width="auto"} Place the label first in the caption, and use the Caption style
+
+￼
+{#fig-panel-a-item-b width="auto"} Angry elephant with a big trunk.
+
+This demonstrates generating a multi-figure panel using a Scrivener Section Type [Div] instead of using raw markdown as shown here. ID, Class, and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and this is then inserted into the markup for this chunk by the Section Layout at compile time.  
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

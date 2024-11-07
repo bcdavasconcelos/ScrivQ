@@ -1,6 +1,0 @@
-Use the specified engine when producing PDF output. If the engine is not in your PATH, the full path of the engine may be specified here. If this option is not specified, Quarto uses the following defaults depending on the output format in use:
-
-latex: xelatex (other options: pdflatex, lualatex, tectonic, latexmk)
-context: context
-html: wkhtmltopdf (other options: prince, weasyprint; see print-css.rocks for a good introduction to PDF generation from HTML/CSS.)
-ms: pdfroff

@@ -1,1 +1,0 @@
-Time (in seconds) after which to exit if there are no active clients

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="E4774C86-2DDE-4032-AEDB-F16149B74E9D">
+    <Snapshot Date="2024-11-06 21:06:32 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>title: Font Awesome support
+author: Carlos Scheidegger
+version: 1.1.0
+quarto-required: "&gt;=1.2.269"
+contributes:
+  shortcodes:
+    - fontawesome.lua
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

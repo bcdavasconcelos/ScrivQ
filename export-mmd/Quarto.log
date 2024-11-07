@@ -1,0 +1,83 @@
+--> Input Filename: /Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.md
+--> Modified path: /Users/bcdav/.rbenv/shims:/Users/bcdav/.pyenv/shims:/usr/local/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/bcdav/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+--> 5 notes replaced.
+--> 8 figures fixed.
+--> 50 files created
+[1mpandoc [22m
+  to: html
+  output-file: ScrivQ24.html
+  template: _extensions/bcdavasconcelos/templates/html/template.html
+  standalone: true
+  embed-resources: false
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  cite-method: citeproc
+  citeproc: false
+  verbosity: ERROR
+  toc: true
+  toc-depth: 3
+  number-sections: true
+  reference-location: margin
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  website:
+    author: Bernardo César Diniz Athayde Vasconcelos
+    title: 'Hello, ScrivQ'
+    description: 'A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).'
+    reader-mode: true
+    search:
+      location: navbar
+      type: overlay
+    page-navigation: true
+    back-to-top-navigation: true
+  title: 'Hello, ScrivQ!'
+  license: CC BY-NC-SA
+  copyright:
+    holder: Bernardo C. D. A. Vasconcelos
+    year: 2024
+  citation: true
+  csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
+  verbose: false
+  notes-after-punctuation: true
+  link-fields: false
+  link-bibliography: true
+  bibliography_primary-sources: refs/primary-sources.yml
+  bibliography_secondary-sources: refs/secondary-sources.yml
+  bibliography_workflow: refs/workflow.bib
+  bibliography_songs: refs/songs.yml
+  bibliography_paintings: refs/paintings.yml
+  theme:
+    light:
+      - Pulse
+    dark:
+      - Cyborg
+  include-before:
+    - |
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+      </style>
+  toc-location: left
+  toc-expand: true
+  number-depth: 3
+  linestretch: 1.5
+  fontsize: 12pt
+  fontfamily: Alegreya
+  mainfont: Alegreya
+  sansfont: Alegreya Sans
+  monofont: Source Code Pro
+  code-copy: true
+  appendix-style: default
+  
+[33mWARNING (/Applications/quarto/share/filters/main.lua:13900) Unable to resolve crossref @fig-image-a
+[39mOutput created: ScrivQ24.html
+
+--> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.qmd" --to html
+Process finished in time
+--> Processing took: 3.512884s

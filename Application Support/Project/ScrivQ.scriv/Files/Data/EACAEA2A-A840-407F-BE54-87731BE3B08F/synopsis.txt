@@ -1,1 +1,0 @@
-Enables or disables the display of categories in the title block.

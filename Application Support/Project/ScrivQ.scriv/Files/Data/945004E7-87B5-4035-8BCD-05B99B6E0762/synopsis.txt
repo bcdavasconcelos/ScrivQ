@@ -1,1 +1,0 @@
-The depth at which the sidebar contents should be collapsed by default.

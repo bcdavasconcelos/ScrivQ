@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WritingHistory>
+    <Day dwc="0" dcc="0" owc="0" occ="2">2023-06-22</Day>
+    <Day dwc="0" dcc="8" dtwc="10017" owc="36" occ="250" dtcc="76255">2023-06-24</Day>
+    <Day dwc="1201" dcc="11321" owc="27" occ="248">2023-06-25</Day>
+    <Day dwc="2552" dcc="16636" owc="326" occ="2039">2023-06-28</Day>
+    <Day dwc="-8" dcc="-84" owc="0" occ="0">2023-06-30</Day>
+    <Day dwc="0" dcc="0" dtwc="6167" owc="-342" occ="-3554" dtcc="40977">2023-07-01</Day>
+    <Day dwc="-5" dcc="-44" dtwc="6162" owc="-10" occ="-56" dtcc="40933">2023-07-02</Day>
+    <Day dwc="0" dcc="0" owc="-1" occ="-4">2023-07-03</Day>
+    <Day dwc="0" dcc="0" dtwc="6162" owc="-401" occ="-2630" dtcc="40933">2023-07-23</Day>
+    <Day dwc="-6" dcc="-152" owc="0" occ="0">2023-07-27</Day>
+    <Day dwc="241" dcc="1457" dtwc="6397" owc="-101" occ="-624" dtcc="42238">2023-08-01</Day>
+    <Day dwc="-80" dcc="-548" dtwc="5429" owc="2" occ="10" dtcc="35009">2023-08-02</Day>
+    <Day dwc="260" dcc="1685" dtwc="6342" owc="6" occ="46" dtcc="42003">2023-08-05</Day>
+    <Day dwc="229" dcc="1340" owc="-1581" occ="-10387">2023-08-06</Day>
+    <Day dwc="-138" dcc="-449" dtwc="7140" owc="116" occ="859" dtcc="47530">2023-08-07</Day>
+    <Day dwc="859" dcc="7289" dtwc="9933" owc="70" occ="564" dtcc="68132">2023-08-08</Day>
+    <Day dwc="-175" dcc="-1235" dtwc="4226" owc="-291" occ="-1308" dtcc="28119">2023-08-09</Day>
+    <Day dwc="-392" dcc="-2896" dtwc="10756" owc="229" occ="1531" dtcc="74314">2023-08-10</Day>
+    <Day dwc="54" dcc="-211" owc="-20" occ="-88">2023-08-11</Day>
+    <Day dwc="407" dcc="19204" dtwc="10997" owc="0" occ="2" dtcc="77752">2023-08-12</Day>
+    <Day dwc="-1464" dcc="-10406" dtwc="10098" owc="1168" occ="8303" dtcc="71559">2023-08-13</Day>
+    <Day dwc="94" dcc="56" dtwc="9902" owc="0" occ="0" dtcc="67563">2023-08-14</Day>
+    <Day dwc="-325" dcc="-2509" dtwc="9441" owc="2" occ="19" dtcc="64037">2023-08-15</Day>
+    <Day dwc="395" dcc="3195" dtwc="6563" owc="-913" occ="-8342" dtcc="45772">2023-08-16</Day>
+    <Day dwc="-106" dcc="-654" dtwc="6514" owc="29" occ="186" dtcc="45259">2023-08-17</Day>
+    <Day dwc="-27" dcc="-402" dtwc="6487" owc="0" occ="1" dtcc="44857">2023-08-18</Day>
+    <Day dwc="16" dcc="49" dtwc="6503" owc="-9" occ="-136" dtcc="44905">2023-08-19</Day>
+    <Day dwc="4" dcc="34" owc="0" occ="0">2023-08-20</Day>
+    <Day dwc="5" dcc="32" owc="0" occ="0">2023-08-21</Day>
+    <Day dwc="123" dcc="955" dtwc="6711" owc="0" occ="0" dtcc="46649">2023-08-23</Day>
+    <Day dwc="3" dcc="20" owc="1" occ="10">2023-08-25</Day>
+    <Day dwc="51" dcc="483" dtwc="6684" owc="0" occ="0" dtcc="46486">2023-08-26</Day>
+    <Day dwc="-56" dcc="-276" dtwc="6628" owc="-2564" occ="-17759" dtcc="46209">2023-08-27</Day>
+    <Day dwc="0" dcc="-3" owc="0" occ="0">2023-08-28</Day>
+    <Day dwc="0" dcc="0" owc="35" occ="320">2023-08-31</Day>
+    <Day dwc="0" dcc="0" owc="1" occ="2">2023-09-01</Day>
+    <Day dwc="0" dcc="0" dtwc="6628" owc="-46" occ="-500" dtcc="46201">2023-09-03</Day>
+    <Day dwc="268" dcc="1673" owc="17" occ="10">2023-09-04</Day>
+    <Day dwc="10" dcc="21" dtwc="6946" owc="951" occ="6782" dtcc="48158">2023-09-05</Day>
+    <Day dwc="0" dcc="0" owc="-86" occ="-862">2023-09-06</Day>
+    <Day dwc="0" dcc="0" dtwc="6946" owc="-1" occ="-17" dtcc="48157">2023-09-07</Day>
+    <Day dwc="0" dcc="0" owc="0" occ="-2">2023-09-08</Day>
+    <Day dwc="0" dcc="0" owc="15" occ="89">2023-09-09</Day>
+    <Day dwc="0" dcc="0" owc="26" occ="267">2023-09-10</Day>
+    <Day dwc="0" dcc="0" dtwc="6946" owc="252" occ="2217" dtcc="48159">2023-09-11</Day>
+    <Day dwc="0" dcc="0" owc="1" occ="17">2023-09-12</Day>
+    <Day dwc="-2" dcc="-20" dtwc="5893" owc="276" occ="1859" dtcc="40407">2023-09-13</Day>
+    <Day dwc="-6" dcc="-53" owc="4392" occ="40941">2023-09-14</Day>
+    <Day dwc="49" dcc="379" dtwc="5936" owc="0" occ="0" dtcc="40727">2023-09-19</Day>
+    <Day dwc="0" dcc="0" owc="551" occ="7403">2023-09-20</Day>
+    <Day dwc="0" dcc="0" owc="2565" occ="30709">2023-09-23</Day>
+    <Day dwc="237" dcc="1452" owc="0" occ="0">2023-11-13</Day>
+    <Day dwc="0" dcc="-2" owc="0" occ="0">2023-11-27</Day>
+    <Day dwc="0" dcc="0" dtwc="5936" owc="0" occ="8" dtcc="40725">2023-12-14</Day>
+    <Day dwc="0" dcc="0" owc="1" occ="3">2023-12-15</Day>
+    <Day dwc="0" dcc="0" dtwc="5936" owc="1679" occ="18856" dtcc="40725">2023-12-28</Day>
+    <Day dwc="15" dcc="131" dtwc="5951" owc="-56" occ="-1592" dtcc="40856">2023-12-29</Day>
+    <Day dwc="0" dcc="0" dtwc="5951" owc="37" occ="75" dtcc="40856">2023-12-30</Day>
+    <Day dwc="-1" dcc="-12" owc="294" occ="4099">2023-12-31</Day>
+    <Day dwc="-11" dcc="-107" dtwc="19116" owc="-8" occ="-76" dtcc="158324">2024-01-01</Day>
+    <Day dwc="-23" dcc="-300" dtwc="18966" owc="52" occ="575" dtcc="157112">2024-01-02</Day>
+    <Day dwc="273" dcc="1814" dtwc="6107" owc="9" occ="-238" dtcc="41851">2024-01-03</Day>
+    <Day dwc="-105" dcc="-549" dtwc="5790" owc="67" occ="413" dtcc="40355">2024-01-04</Day>
+    <Day dwc="238" dcc="2196" dtwc="5706" owc="228" occ="2201" dtcc="40490">2024-01-05</Day>
+    <Day dwc="0" dcc="0" dtwc="5706" owc="2784" occ="27164" dtcc="40489">2024-01-06</Day>
+    <Day dwc="446" dcc="2811" dtwc="6265" owc="1000" occ="9784" dtcc="43921">2024-01-07</Day>
+    <Day dwc="0" dcc="0" owc="50" occ="551">2024-01-08</Day>
+    <Day dwc="0" dcc="0" dtwc="6256" owc="205" occ="1582" dtcc="43854">2024-01-09</Day>
+    <Day dwc="-58" dcc="-297" dtwc="5813" owc="0" occ="0" dtcc="41189">2024-06-15</Day>
+    <Day dwc="0" dcc="0" owc="-242" occ="-1548">2024-10-28</Day>
+    <Day dwc="-324" dcc="-1934" dtwc="5522" owc="0" occ="0" dtcc="39589">2024-10-31</Day>
+    <Day dwc="-348" dcc="-2259" dtwc="5116" owc="0" occ="0" dtcc="36919">2024-11-01</Day>
+    <Day dwc="-208" dcc="-1479" dtwc="4755" owc="0" occ="0" dtcc="34316">2024-11-02</Day>
+    <Day dwc="-422" dcc="-2826" dtwc="4252" owc="11741" occ="141061" dtcc="31366">2024-11-03</Day>
+    <Day dwc="397" dcc="2821" dtwc="3928" owc="0" occ="0" dtcc="28813">2024-11-04</Day>
+    <Day dwc="-26" dcc="-149" dtwc="3823" owc="-69" occ="-664" dtcc="28179">2024-11-05</Day>
+    <Day dwc="344" dcc="3149" dtwc="3543" owc="217" occ="2758" dtcc="26060">2024-11-06</Day>
+    <Day dwc="83" dcc="524" owc="14" occ="157">2024-11-07</Day>
+</WritingHistory>

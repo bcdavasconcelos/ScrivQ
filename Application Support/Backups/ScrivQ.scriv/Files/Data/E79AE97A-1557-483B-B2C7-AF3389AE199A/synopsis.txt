@@ -1,2 +1,0 @@
-Numbers=Proportional
-Numbers=Lowercase

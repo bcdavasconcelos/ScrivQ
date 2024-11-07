@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="8A6DC95A-0734-4C64-A6E0-38E3A4B27F48">
+    <Snapshot Date="2024-11-06 21:06:33 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>$if(notes)$
+#v(1em)
+#block[
+#horizontalrule
+#set text(size: .88em)
+#v(3pt) // otherwise first note marker is swallowed, bug?
+
+$notes$
+]
+$endif$</Text>
+    </Snapshot>
+</SnapshotIndexes>

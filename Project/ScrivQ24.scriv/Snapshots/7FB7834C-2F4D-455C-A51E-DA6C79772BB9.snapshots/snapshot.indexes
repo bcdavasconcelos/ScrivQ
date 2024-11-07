@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="7FB7834C-2F4D-455C-A51E-DA6C79772BB9">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>//| label: fig-dot-a
+//| fig-cap: Figure caption
+//| column: page
+//| echo: false
+
+digraph finite_state_machine {
+  Fontname="Avenir,Helvetica,sans-serif"
+  node [fontname="Avenir,Helvetica,sans-serif"]
+  edge [fontname="Avenir,Helvetica,sans-serif"]
+  rankdir=LR;
+  node [shape = doublecircle]; 0 3 4 8;
+  node [shape = circle];
+  0 -&gt; 2 [label = "SS(B)"];
+  0 -&gt; 1 [label = "SS(S)"];
+  1 -&gt; 3 [label = "S($end)"];
+  2 -&gt; 6 [label = "SS(b)"];
+  2 -&gt; 5 [label = "SS(a)"];
+  2 -&gt; 4 [label = "S(A)"];
+  5 -&gt; 7 [label = "S(b)"];
+  5 -&gt; 5 [label = "S(a)"];
+  6 -&gt; 6 [label = "S(b)"];
+  6 -&gt; 5 [label = "S(a)"];
+  7 -&gt; 8 [label = "S(b)"];
+  7 -&gt; 5 [label = "S(a)"];
+  8 -&gt; 6 [label = "S(b)"];
+  8 -&gt; 5 [label = "S(a)"];
+}
+
+
+```{dot}
+//| label: fig-dot-b
+//| fig-cap: "A graphviz graph with figure reference and caption, using raw markup. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…"
+//| column: page
+//| echo: false
+
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+```
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-05 14:29:50 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>//| label: fig-dot-a
+//| fig-cap: Figure caption
+//| column: page-right
+//| echo: false
+
+digraph finite_state_machine {
+  Fontname="Avenir,Helvetica,sans-serif"
+  node [fontname="Avenir,Helvetica,sans-serif"]
+  edge [fontname="Avenir,Helvetica,sans-serif"]
+  rankdir=LR;
+  node [shape = doublecircle]; 0 3 4 8;
+  node [shape = circle];
+  0 -&gt; 2 [label = "SS(B)"];
+  0 -&gt; 1 [label = "SS(S)"];
+  1 -&gt; 3 [label = "S($end)"];
+  2 -&gt; 6 [label = "SS(b)"];
+  2 -&gt; 5 [label = "SS(a)"];
+  2 -&gt; 4 [label = "S(A)"];
+  5 -&gt; 7 [label = "S(b)"];
+  5 -&gt; 5 [label = "S(a)"];
+  6 -&gt; 6 [label = "S(b)"];
+  6 -&gt; 5 [label = "S(a)"];
+  7 -&gt; 8 [label = "S(b)"];
+  7 -&gt; 5 [label = "S(a)"];
+  8 -&gt; 6 [label = "S(b)"];
+  8 -&gt; 5 [label = "S(a)"];
+}
+
+
+```{dot}
+//| label: fig-dot-b
+//| fig-cap: "A graphviz graph with figure reference and caption, using raw markup. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…"
+//| column: page-right
+//| echo: false
+
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+```</Text>
+    </Snapshot>
+</SnapshotIndexes>

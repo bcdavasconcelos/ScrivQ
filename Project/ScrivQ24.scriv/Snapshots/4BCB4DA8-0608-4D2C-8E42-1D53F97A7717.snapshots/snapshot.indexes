@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="4BCB4DA8-0608-4D2C-8E42-1D53F97A7717">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>execute:
+  eval:
+  echo: fenced
+  output: asis
+  warning:
+  error:
+  include:
+  cache: true
+  freeze: auto
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

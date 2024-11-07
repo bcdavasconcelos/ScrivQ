@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="30C0EE71-05AB-40BD-8B95-D0AD7B41AC46">
+    <Snapshot Date="2023-12-31 16:24:12 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  typst:
+    title: Hello, ScrivQ
+    author: Bernardo Vasconcelos
+    date: &lt;$date:YYYY-MM&gt;
+    abstract: The Abstract
+    toc: true
+    number-sections: true
+    section-numbering: 1.1.a
+    margin: # x, y, top, bottom, left, right
+    papersize: a4 # a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, iso-b1, iso-b2, iso-b3, iso-b4, iso-b5, iso-b6, iso-b7, iso-b8, iso-c3, iso-c4, iso-c5, iso-c6, iso-c7, iso-c8, din-d3, din-d4, din-d5, din-d6, din-d7, din-d8, sis-g5, sis-e5, ansi-a, ansi-b, ansi-c, ansi-d, ansi-e, arch-a, arch-b, arch-c, arch-d, arch-e1, arch-e, jis-b0, jis-b1, jis-b2, jis-b3, jis-b4, jis-b5, jis-b6, jis-b7, jis-b8, jis-b9, jis-b10, jis-b11, sac-d0, sac-d1, sac-d2, sac-d3, sac-d4, sac-d5, sac-d6, iso-id-1, iso-id-2, iso-id-3, asia-f4, jp-shiroku-ban-4, jp-shiroku-ban-5, jp-shiroku-ban-6, jp-kiku-4, jp-kiku-5, jp-business-card, cn-business-card, eu-business-card, fr-tellière, fr-couronne-écriture, fr-couronne-édition, fr-raisin, fr-carré, fr-jésus, uk-brief, uk-draft, uk-foolscap, uk-quarto, uk-crown, uk-book-a, uk-book-b, us-letter, us-legal, us-tabloid, us-executive, us-foolscap-folio, us-statement, us-ledger, us-oficio, us-gov-letter, us-gov-legal, us-business-card, us-digest, us-trade, newspaper-compact, newspaper-berliner, newspaper-broadsheet, presentation-16-9, presentation-4-3
+    fontsize: 12pt
+    mainfont:
+    font-paths:
+    columns: 2
+    include-in-header:
+    include-before-body:
+    include-after-body:
+    keep-typ: true
+    bibliography:
+    bibliographystyle: # alphanumeric, american-anthropological-association, american-chemical-society, american-geophysical-union, american-institute-of-aeronautics-and-astronautics, american-institute-of-physics, american-medical-association, american-meteorological-society, american-physics-society, american-physiological-society, american-political-science-association, american-psychological-association, american-society-for-microbiology, american-society-of-civil-engineers, american-society-of-mechanical-engineers, american-sociological-association, angewandte-chemie, annual-reviews, annual-reviews-author-date, associacao-brasileira-de-normas-tecnicas, association-for-computing-machinery, biomed-central, bristol-university-press, british-medical-journal, cell, chicago-author-date, chicago-fullnotes, chicago-notes, copernicus, council-of-science-editors, council-of-science-editors-author-date, current-opinion, deutsche-gesellschaft-für-psychologie, deutsche-sprache, elsevier-harvard, elsevier-vancouver, elsevier-with-titles, frontiers, future-medicine, future-science, gb-7714-2005-numeric, gb-7714-2015-author-date, gb-7714-2015-note, gb-7714-2015-numeric, gost-r-705-2008-numeric, harvard-cite-them-right, institute-of-electrical-and-electronics-engineers, institute-of-physics-numeric, iso-690-author-date, iso-690-numeric, karger, mary-ann-liebert-vancouver, modern-humanities-research-association, modern-language-association, modern-language-association-8, multidisciplinary-digital-publishing-institute, nature, pensoft, public-library-of-science, royal-society-of-chemistry, sage-vancouver, sist02, spie, springer-basic, springer-basic-author-date, springer-fachzeitschriften-medizin-psychologie, springer-humanities-author-date, springer-lecture-notes-in-computer-science, springer-mathphys, springer-socpsych-author-date, springer-vancouver, taylor-and-francis-chicago-author-date, taylor-and-francis-national-library-of-medicine, the-institution-of-engineering-and-technology, the-lancet, thieme, trends, turabian-author-date, turabian-fullnote-8, vancouver, vancouver-superscript
+    citeproc:
+    csl:
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-09 11:49:42 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  # https://quarto.org/docs/prerelease/1.4/typst.html
+    # @PROBLEM: Compilation fails when referencing unnumbered headings
+  typst-citations:
+    title: Hello, ScrivQ
+    author: Bernardo Vasconcelos
+    date: &lt;$date:YYYY-MM&gt;
+    abstract: The Abstract
+    toc: true
+    number-sections: true
+    number-depth: 3
+    fontsize: 12pt
+    keep-typ: true
+    prefer-html: true
+    papersize: a4 #
+    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template
+    template-partials:
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # definitions
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # typst-template
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # typst-show
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # notes
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # biblio
+    include-in-header:
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt;   # typst-orange
+    # 1 definitions 2 typst-template 3 typst-show
+      - text: |
+    include-before-body: # after \begin{document} 
+      - text: |
+          #show heading: set text(navy)
+    # 4 body 5 notes 6 biblio
+    include-after-body: # before \end{document}
+      - text: |
+
+    # @PROBLEM: Compilation fails because citation-backlinks create dead links from entries in the bibliography to labels &lt;cite_id&gt; that don't work inside table cells in Typst. 
+    # @SOLUTION: Avoid citations inside table cells [1] or turn off citation links below (if there is no link from the citation, there is no backlink).
+
+    link-fields: false 
+    link-citations: false
+
+    section-numbering: 1.1.a
+    margin: # x, y, top, bottom, left, right
+    # https://quarto.org/docs/prerelease/1.4/typst.html#fonts-support
+    mainfont:
+    font-paths:
+    columns: 2
+    bibliography:
+    bibliographystyle: # alphanumeric, american-anthropological-association, american-chemical-society, american-geophysical-union, american-institute-of-aeronautics-and-astronautics, american-institute-of-physics, american-medical-association, american-meteorological-society, american-physics-society, american-physiological-society, american-political-science-association, american-psychological-association, american-society-for-microbiology, american-society-of-civil-engineers, american-society-of-mechanical-engineers, american-sociological-association, angewandte-chemie, annual-reviews, annual-reviews-author-date, associacao-brasileira-de-normas-tecnicas, association-for-computing-machinery, biomed-central, bristol-university-press, british-medical-journal, cell, chicago-author-date, chicago-fullnotes, chicago-notes, copernicus, council-of-science-editors, council-of-science-editors-author-date, current-opinion, deutsche-gesellschaft-für-psychologie, deutsche-sprache, elsevier-harvard, elsevier-vancouver, elsevier-with-titles, frontiers, future-medicine, future-science, gb-7714-2005-numeric, gb-7714-2015-author-date, gb-7714-2015-note, gb-7714-2015-numeric, gost-r-705-2008-numeric, harvard-cite-them-right, institute-of-electrical-and-electronics-engineers, institute-of-physics-numeric, iso-690-author-date, iso-690-numeric, karger, mary-ann-liebert-vancouver, modern-humanities-research-association, modern-language-association, modern-language-association-8, multidisciplinary-digital-publishing-institute, nature, pensoft, public-library-of-science, royal-society-of-chemistry, sage-vancouver, sist02, spie, springer-basic, springer-basic-author-date, springer-fachzeitschriften-medizin-psychologie, springer-humanities-author-date, springer-lecture-notes-in-computer-science, springer-mathphys, springer-socpsych-author-date, springer-vancouver, taylor-and-francis-chicago-author-date, taylor-and-francis-national-library-of-medicine, the-institution-of-engineering-and-technology, the-lancet, thieme, trends, turabian-author-date, turabian-fullnote-8, vancouver, vancouver-superscript
+    csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
+
+
+</Text>
+        <Comments>a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, iso-b1, iso-b2, iso-b3, iso-b4, iso-b5, iso-b6, iso-b7, iso-b8, iso-c3, iso-c4, iso-c5, iso-c6, iso-c7, iso-c8, din-d3, din-d4, din-d5, din-d6, din-d7, din-d8, sis-g5, sis-e5, ansi-a, ansi-b, ansi-c, ansi-d, ansi-e, arch-a, arch-b, arch-c, arch-d, arch-e1, arch-e, jis-b0, jis-b1, jis-b2, jis-b3, jis-b4, jis-b5, jis-b6, jis-b7, jis-b8, jis-b9, jis-b10, jis-b11, sac-d0, sac-d1, sac-d2, sac-d3, sac-d4, sac-d5, sac-d6, iso-id-1, iso-id-2, iso-id-3, asia-f4, jp-shiroku-ban-4, jp-shiroku-ban-5, jp-shiroku-ban-6, jp-kiku-4, jp-kiku-5, jp-business-card, cn-business-card, eu-business-card, fr-tellière, fr-couronne-écriture, fr-couronne-édition, fr-raisin, fr-carré, fr-jésus, uk-brief, uk-draft, uk-foolscap, uk-quarto, uk-crown, uk-book-a, uk-book-b, us-letter, us-legal, us-tabloid, us-executive, us-foolscap-folio, us-statement, us-ledger, us-oficio, us-gov-letter, us-gov-legal, us-business-card, us-digest, us-trade, newspaper-compact, newspaper-berliner, newspaper-broadsheet, presentation-16-9, presentation-4-3</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-09 08:43:47 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>    # @PROBLEM: Compilation fails when referencing unnumbered headings
+  typst-citations:
+    title: Hello, ScrivQ
+    author: Bernardo Vasconcelos
+    date: &lt;$date:YYYY-MM&gt;
+    abstract: The Abstract
+    toc: true
+    number-sections: true
+    number-depth: 3
+    fontsize: 12pt
+    keep-typ: true
+    prefer-html: true
+    papersize: a4 #
+    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template
+    template-partials:
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # definitions
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # typst-template
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # typst-show
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # notes
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # biblio
+    # 1 definitions 2 typst-template 3 typst-show
+    include-in-header: 
+      - text: |
+    include-before-body: # after \begin{document} 
+      - text: |
+          #show heading: set text(navy)
+    # 4 body 5 notes 6 biblio
+    include-after-body: # before \end{document}
+      - text: |
+
+    # @PROBLEM: Compilation fails because citation-backlinks create dead links from entries in the bibliography to labels &lt;cite_id&gt; that don't work inside table cells in Typst. 
+    # @SOLUTION: Avoid citations inside table cells [1] or turn off citation links below (if there is no link from the citation, there is no backlink).
+
+    link-fields: false 
+    link-citations: false
+
+    section-numbering: 1.1.a
+    margin: # x, y, top, bottom, left, right
+    mainfont:
+    font-paths:
+    columns: 2
+    bibliography:
+    bibliographystyle: # alphanumeric, american-anthropological-association, american-chemical-society, american-geophysical-union, american-institute-of-aeronautics-and-astronautics, american-institute-of-physics, american-medical-association, american-meteorological-society, american-physics-society, american-physiological-society, american-political-science-association, american-psychological-association, american-society-for-microbiology, american-society-of-civil-engineers, american-society-of-mechanical-engineers, american-sociological-association, angewandte-chemie, annual-reviews, annual-reviews-author-date, associacao-brasileira-de-normas-tecnicas, association-for-computing-machinery, biomed-central, bristol-university-press, british-medical-journal, cell, chicago-author-date, chicago-fullnotes, chicago-notes, copernicus, council-of-science-editors, council-of-science-editors-author-date, current-opinion, deutsche-gesellschaft-für-psychologie, deutsche-sprache, elsevier-harvard, elsevier-vancouver, elsevier-with-titles, frontiers, future-medicine, future-science, gb-7714-2005-numeric, gb-7714-2015-author-date, gb-7714-2015-note, gb-7714-2015-numeric, gost-r-705-2008-numeric, harvard-cite-them-right, institute-of-electrical-and-electronics-engineers, institute-of-physics-numeric, iso-690-author-date, iso-690-numeric, karger, mary-ann-liebert-vancouver, modern-humanities-research-association, modern-language-association, modern-language-association-8, multidisciplinary-digital-publishing-institute, nature, pensoft, public-library-of-science, royal-society-of-chemistry, sage-vancouver, sist02, spie, springer-basic, springer-basic-author-date, springer-fachzeitschriften-medizin-psychologie, springer-humanities-author-date, springer-lecture-notes-in-computer-science, springer-mathphys, springer-socpsych-author-date, springer-vancouver, taylor-and-francis-chicago-author-date, taylor-and-francis-national-library-of-medicine, the-institution-of-engineering-and-technology, the-lancet, thieme, trends, turabian-author-date, turabian-fullnote-8, vancouver, vancouver-superscript
+    csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
+
+
+</Text>
+        <Comments>a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, iso-b1, iso-b2, iso-b3, iso-b4, iso-b5, iso-b6, iso-b7, iso-b8, iso-c3, iso-c4, iso-c5, iso-c6, iso-c7, iso-c8, din-d3, din-d4, din-d5, din-d6, din-d7, din-d8, sis-g5, sis-e5, ansi-a, ansi-b, ansi-c, ansi-d, ansi-e, arch-a, arch-b, arch-c, arch-d, arch-e1, arch-e, jis-b0, jis-b1, jis-b2, jis-b3, jis-b4, jis-b5, jis-b6, jis-b7, jis-b8, jis-b9, jis-b10, jis-b11, sac-d0, sac-d1, sac-d2, sac-d3, sac-d4, sac-d5, sac-d6, iso-id-1, iso-id-2, iso-id-3, asia-f4, jp-shiroku-ban-4, jp-shiroku-ban-5, jp-shiroku-ban-6, jp-kiku-4, jp-kiku-5, jp-business-card, cn-business-card, eu-business-card, fr-tellière, fr-couronne-écriture, fr-couronne-édition, fr-raisin, fr-carré, fr-jésus, uk-brief, uk-draft, uk-foolscap, uk-quarto, uk-crown, uk-book-a, uk-book-b, us-letter, us-legal, us-tabloid, us-executive, us-foolscap-folio, us-statement, us-ledger, us-oficio, us-gov-letter, us-gov-legal, us-business-card, us-digest, us-trade, newspaper-compact, newspaper-berliner, newspaper-broadsheet, presentation-16-9, presentation-4-3</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-07 20:20:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>DO NOT INCLUDE CITATIONS INSIDE TABLE CELLS
+DO NOT REFERENCE UNNUMBERED HEADINGS
+  typst-citations:
+    title: Hello, ScrivQ
+    author: Bernardo Vasconcelos
+    date: &lt;$date:YYYY-MM&gt;
+    abstract: The Abstract
+    toc: true
+    number-sections: true
+    number-depth: 3
+    fontsize: 12pt
+    keep-typ: true
+    prefer-html: true
+    papersize: a4 #
+    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template
+    template-partials:
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # biblio
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # definitions
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # notes
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # typst-show
+        - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # typst-template
+    section-numbering: 1.1.a
+    margin: # x, y, top, bottom, left, right
+    include-in-header: 
+      - text: |
+    include-before-body: # right after \begin{document} 
+      - text: |
+          #show heading: set text(navy)
+    include-after-body: # right before \end{document}
+      - text: |
+    mainfont:
+    font-paths:
+    columns: 2
+    include-in-header:
+    include-before-body:
+    include-after-body:
+    bibliography:
+    bibliographystyle: # alphanumeric, american-anthropological-association, american-chemical-society, american-geophysical-union, american-institute-of-aeronautics-and-astronautics, american-institute-of-physics, american-medical-association, american-meteorological-society, american-physics-society, american-physiological-society, american-political-science-association, american-psychological-association, american-society-for-microbiology, american-society-of-civil-engineers, american-society-of-mechanical-engineers, american-sociological-association, angewandte-chemie, annual-reviews, annual-reviews-author-date, associacao-brasileira-de-normas-tecnicas, association-for-computing-machinery, biomed-central, bristol-university-press, british-medical-journal, cell, chicago-author-date, chicago-fullnotes, chicago-notes, copernicus, council-of-science-editors, council-of-science-editors-author-date, current-opinion, deutsche-gesellschaft-für-psychologie, deutsche-sprache, elsevier-harvard, elsevier-vancouver, elsevier-with-titles, frontiers, future-medicine, future-science, gb-7714-2005-numeric, gb-7714-2015-author-date, gb-7714-2015-note, gb-7714-2015-numeric, gost-r-705-2008-numeric, harvard-cite-them-right, institute-of-electrical-and-electronics-engineers, institute-of-physics-numeric, iso-690-author-date, iso-690-numeric, karger, mary-ann-liebert-vancouver, modern-humanities-research-association, modern-language-association, modern-language-association-8, multidisciplinary-digital-publishing-institute, nature, pensoft, public-library-of-science, royal-society-of-chemistry, sage-vancouver, sist02, spie, springer-basic, springer-basic-author-date, springer-fachzeitschriften-medizin-psychologie, springer-humanities-author-date, springer-lecture-notes-in-computer-science, springer-mathphys, springer-socpsych-author-date, springer-vancouver, taylor-and-francis-chicago-author-date, taylor-and-francis-national-library-of-medicine, the-institution-of-engineering-and-technology, the-lancet, thieme, trends, turabian-author-date, turabian-fullnote-8, vancouver, vancouver-superscript
+    citeproc:
+    csl:
+</Text>
+        <Comments>a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, iso-b1, iso-b2, iso-b3, iso-b4, iso-b5, iso-b6, iso-b7, iso-b8, iso-c3, iso-c4, iso-c5, iso-c6, iso-c7, iso-c8, din-d3, din-d4, din-d5, din-d6, din-d7, din-d8, sis-g5, sis-e5, ansi-a, ansi-b, ansi-c, ansi-d, ansi-e, arch-a, arch-b, arch-c, arch-d, arch-e1, arch-e, jis-b0, jis-b1, jis-b2, jis-b3, jis-b4, jis-b5, jis-b6, jis-b7, jis-b8, jis-b9, jis-b10, jis-b11, sac-d0, sac-d1, sac-d2, sac-d3, sac-d4, sac-d5, sac-d6, iso-id-1, iso-id-2, iso-id-3, asia-f4, jp-shiroku-ban-4, jp-shiroku-ban-5, jp-shiroku-ban-6, jp-kiku-4, jp-kiku-5, jp-business-card, cn-business-card, eu-business-card, fr-tellière, fr-couronne-écriture, fr-couronne-édition, fr-raisin, fr-carré, fr-jésus, uk-brief, uk-draft, uk-foolscap, uk-quarto, uk-crown, uk-book-a, uk-book-b, us-letter, us-legal, us-tabloid, us-executive, us-foolscap-folio, us-statement, us-ledger, us-oficio, us-gov-letter, us-gov-legal, us-business-card, us-digest, us-trade, newspaper-compact, newspaper-berliner, newspaper-broadsheet, presentation-16-9, presentation-4-3</Comments>
+    </Snapshot>
+</SnapshotIndexes>

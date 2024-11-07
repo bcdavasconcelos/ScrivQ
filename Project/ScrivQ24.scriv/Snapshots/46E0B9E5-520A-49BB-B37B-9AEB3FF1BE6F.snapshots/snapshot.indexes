@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="46E0B9E5-520A-49BB-B37B-9AEB3FF1BE6F">
+    <Snapshot Date="2024-11-06 21:06:33 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>name: citetools
+author: Albert Krewinkel &amp; Bernardo CDA Vasconcelos
+version: 1.0.4
+contributes:
+  filters:
+    - citeproc.lua
+    - multiple-bibliographies.lua
+    - citefield.lua
+    - citation-backlinks.lua
+  format:
+    common:
+      verbosity: ERROR
+      citeproc: false
+      link-citations: true
+      validate-yaml: false
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

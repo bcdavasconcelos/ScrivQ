@@ -1,1 +1,0 @@
-The bibliography style to use (e.g. \bibliographystyle{dinat}) when using natbib or biblatex. # CITE TOOLS: LEAVE EMPTY #

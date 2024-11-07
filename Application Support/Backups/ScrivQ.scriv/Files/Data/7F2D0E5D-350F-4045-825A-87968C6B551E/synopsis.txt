@@ -1,1 +1,0 @@
-Sets the CSS background-color property on code elements and adds extra padding.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="5DA0D060-12F3-4AFE-9728-6A6C8F95F20C">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text># Place your R code here, see https://quarto.org/docs/computations/r.html
+# install.packages("kableExtra") # you need to install this in R
+library(kableExtra)
+dt &lt;- mtcars[1:5, 1:6]
+kbl(dt) %&gt;%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

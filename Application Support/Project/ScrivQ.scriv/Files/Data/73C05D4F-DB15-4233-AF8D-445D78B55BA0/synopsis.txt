@@ -1,1 +1,0 @@
-The sidebar title. Uses the project title if none is specified.

@@ -1,0 +1,22 @@
+references:
+- id: MorphineCFP
+  author:
+    - literal: Morphine
+    - family: Sandman
+      given: Mark
+    - family: Colley
+      given: Dana
+    - family: Deupree
+      given: Jerome
+  call-number: '9'
+  collection-title: Cure For Pain
+  dimensions: '3:14'
+  issued:
+    - year: 1993
+  language: ENG
+  medium: CD
+  publisher: Rykodisc
+  title: Cure For Pain
+  type: song
+  URL: https://open.spotify.com/track/3hO9gaVixKDoYDrlTBrEWf?si=0668baf1aab345d4
+

@@ -1,1 +1,0 @@
-Where to place table captions (top, bottom, or margin)

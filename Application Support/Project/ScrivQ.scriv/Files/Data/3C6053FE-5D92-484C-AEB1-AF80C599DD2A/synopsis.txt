@@ -1,1 +1,0 @@
-When collapsed, pin the collapsed sidebar to the top of the page.

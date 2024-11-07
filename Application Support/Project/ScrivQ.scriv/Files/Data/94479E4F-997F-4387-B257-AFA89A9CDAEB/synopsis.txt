@@ -1,1 +1,0 @@
-Footer border (true, false, or a border color)

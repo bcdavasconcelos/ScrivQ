@@ -1,0 +1,135 @@
+references:   
+
+- id: AristOp  
+  type: book  
+  author:   
+    - family: Aristotelis  
+  editor:   
+    - family: Bekker  
+      given: I.  
+  title: Aristotelis Opera  
+  issued:   
+    - year: 1834  
+  publisher: Reimer  
+  publisher-place: Berlin  
+
+- id: DA  
+  type: chapter  
+  author:   
+    - family: Aristotelis  
+  editor:   
+    - family: Bekker  
+      given: Immanuel  
+  translator:   
+    - family: Τατάκης  
+      given: Β.  
+  title: De Anima  
+  container-title: Aristotelis Opera  
+  original-title: περὶ ψυχῆς  
+  title-short: De An.  
+  issued:   
+    - year: 1834  
+  publisher: Reimer  
+  publisher-place: Berlin  
+
+- id: Men  
+  type: book  
+  author:   
+    - family: Plato  
+  editor:   
+    - family: Burnet  
+      given: John  
+  title: Meno  
+  container-title: Platonis Opera  
+  original-title: Μένων  
+  title-short: Men.  
+  issued:   
+    - year: 1903  
+  publisher: OCT  
+  publisher-place: Oxford  
+
+- id: HomOd
+  type: chapter
+  author:
+    - family: Homerus
+      given: ''
+  call-number: '0012.002'
+  citation-key: HomOd
+  container-title: Homeri Odyssea
+  editor:
+    - family: Mühll
+      given: P.
+      non-dropping-particle: von der
+  event-place: Basel
+  issued:
+    - year: 1962
+  page: 1-456
+  publisher: Helbing & Lichtenhahn
+  publisher-place: Basel
+  title: Odyssea
+  title-short: Hom Od
+
+
+- id: HomIl
+  type: chapter
+  title: Ilias
+  title-short: Hom Il
+  author:
+    - family: Homerus
+      given: ''
+  call-number: '0012.001'
+  citation-key: HomIl
+  collection-number: 2--3
+  container-title: Homeri Ilias, vols. 2--3
+  editor:
+    - family: Allen
+      given: T. W.
+  event-place: Oxford
+  issued:
+    - year: 1931
+  page: 2·1-356; 3·1-370
+  publisher: Clarendon
+  publisher-place: Oxford
+
+
+- id: EurMed
+  title: Medea
+  title-short: Eur. Med
+  type: chapter
+  author:
+    - family: Euripides
+      given: ''
+  call-number: '0006.036'
+  citation-key: EurMed
+  collection-number: '1'
+  container-title: Euripidis fabulae
+  editor:
+    - family: Diggle
+      given: J.
+  event-place: Oxford
+  issued:
+    - year: 1984
+  page: 93-155
+  publisher: Clarendon
+  publisher-place: Oxford
+
+
+- id: EurHip
+  title: Hippolytus
+  title-short: Eur. Hip
+  type: chapter
+  author:
+    - family: Euripides
+      given: ''
+  call-number: '0006.038'
+  citation-key: EurHip
+  collection-number: '1'
+  container-title: Euripidis fabulae
+  editor:
+    - family: Diggle
+      given: J.
+  event-place: Oxford
+  issued:
+    - year: 1984
+  publisher: Clarendon
+  publisher-place: Oxford

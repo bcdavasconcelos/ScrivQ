@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="3F6CF330-A160-4A8F-B65B-F34F010DA37B">
+    <Snapshot Date="2024-01-04 22:39:34 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+Element
+Markdown Source
+Rendered Output
+Listing
+`lst-demo-a`
+lst-demo-a
+Listing
+`lst-demo-b`
+lst-demo-b
+Cross-referencing listings. {#tbl-listings}
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+Element
+Markdown Source
+Rendered Output
+Listing
+`scrivref`
+scrivref
+Listing
+`scrivref`
+scrivref
+Cross-referencing listings.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 18:09:59 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+Element
+Markdown Source
+Rendered Output
+Listing
+`scrivlink`
+scrivlink
+Listing
+`scrivlink`
+scrivlink
+Cross-referencing listings.</Text>
+    </Snapshot>
+</SnapshotIndexes>

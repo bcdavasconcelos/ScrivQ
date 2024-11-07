@@ -1,1 +1,0 @@
-Enable/disable automatic LaTeX package installation

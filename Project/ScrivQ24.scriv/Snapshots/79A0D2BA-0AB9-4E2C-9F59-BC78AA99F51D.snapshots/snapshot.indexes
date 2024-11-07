@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D">
+    <Snapshot Date="2024-01-02 20:27:06 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>website:
+  author: Bernardo César Diniz Athayde Vasconcelos
+  title: Hello, ScrivQ
+  date: 2023-12
+  abstract: The ScrivQ Template
+  description: A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).
+  reader-mode: true
+  search: 
+    location: navbar
+    type: overlay
+  search:
+    location: navbar
+    type: textbox
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true</Text>
+    </Snapshot>
+    <Snapshot Date="2023-12-28 16:50:07 -0300">
+        <Title>With all options</Title>
+        <Text>project:   
+  title: ScrivQ  
+  type: book  
+  render: ["*.qmd", "*.md"]  
+  execute-dir: project  
+  output-dir: sample  
+  lib-dir:   
+  resources:   
+  preview:   
+    port: 5556  
+    host:   
+    serve:   
+    browser:   
+    watch-inputs: true  
+    navigate: true  
+    timeout:   
+  pre-render:   
+  post-render:   
+book:   
+  title: Hello, ScrivQ  
+  chapters:   
+  abstract: The ScrivQ Template  
+  description: 🚀 Template Scrivener project designed for Quarto and Pandoc that exports multiple files, handles cross-references, manages bibliography, and builds complex YAML (it features hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation). Outputs Books in PDF, HTML, DOCX and Websites in HTML.  
+  cover-image:   
+  cover-image-alt:   
+  sharing:   
+  downloads:   
+  tools:   
+  favicon:   
+  site-url:   
+  site-path: _site/  
+  repo-url:   
+  repo-subdir:   
+  repo-branch:   
+  issue-url:   
+  repo-actions:   
+  reader-mode: true  
+  google-analytics:   
+  cookie-consent:   
+  navbar:   
+    title:   
+    logo:   
+    logo-alt:   
+    logo-href:   
+    background:   
+    foreground:   
+    search:   
+    pinned:   
+    collapse:   
+    collapse-below:   
+    left: 
+      - icon: github  
+        href: https://github.com/  
+        aria-label: GitHub  
+    right: 
+      - icon: github  
+        href: https://github.com/  
+        aria-label: GitHub  
+  sidebar:   
+    id:   
+    title: ScrivQ  
+    logo:   
+    search: true  
+    tools: 
+      - icon: github  
+        href: https://github.com/
+    contents:   
+    text: Home  
+        href: |
+    text: About  
+        href: |           
+    style:   
+    background:   
+    foreground:   
+    border:   
+    alignment:   
+    collapse-level:   
+    pinned:   
+    header:   
+    footer: Made with Scrivener 4 Quarto  
+  page-footer:   
+    left:   
+    right:   
+    center:   
+      - text: About  
+        href: |            
+      - :   
+      - text: License  
+      - href: license.qmd  
+    border:   
+    background:   
+    foreground:   
+  search:   
+    location: navbar  
+    type: textbox  
+    limit:   
+    collapse-after:   
+    copy-button: true  
+  body-header:   
+  body-footer:   
+  margin-header:   
+  margin-footer:   
+  page-navigation: true  
+  back-to-top-navigation: true  
+  image:   
+  open-graph:   
+  twitter-card:   
+filters:   
+  - citetools  
+format:   
+  pdf:   
+    pdf-engine: lualatex  
+    pdf-engine-opt:   
+    quarto-required:   
+    papersize: a4  
+    documentclass: scrbook  
+    classoption:   
+      - oneside  
+      - DIV=10  
+      - BCOR=10mm  
+      - cleardoublepage=empty  
+      - numbers=noenddot  
+      - titlepage  
+      - toclink=all  
+      - toc=bibliography  
+      - headinclude  
+      - footinclude  
+    geometry:   
+      - showframe  
+      - top=2cm  
+      - bottom=2cm  
+      - head=1cm  
+      - foot=1cm  
+      - left=2cm  
+      - marginparwidth=4cm  
+      - textwidth=12cm  
+      - marginparsep=1cm  
+      - heightrounded  
+      - bindingoffset=0.5cm  
+    indent: true  
+    fig-cap-location: bottom  
+    cap-location: bottom  
+    pagestyle: headings  
+    grid:   
+    sidebar-width: 300px  
+    body-width: 900px  
+    margin-width: 300px  
+    gutter-width: 1.5rem  
+    margin-left: 3cm  
+    margin-right: 2cm  
+    margin-top: 3cm  
+    margin-bottom: 1cm  
+    block-headings:   
+    hyperrefoptions:   
+      - pdfstartview=FitR  
+      - pdfpagemode=UseOutlines  
+      - breaklinks=true  
+      - pageanchor=true  
+      - linktoc=all  
+      - hyperfootnotes=false  
+      - bookmarksnumbered  
+    metadata-files:   
+    header-includes: |  
+      \usepackage{setspace}  
+      \usepackage{etoolbox}  
+      \usepackage{metalogo}  
+      \RequirePackage{xcolor}
+        \usepackage{soul}
+        \definecolor{CTsemi}{gray}{0.55} % chapter numbers will be semi transparent .5 .55 .6 .0
+        \definecolor{CTcitation}{rgb}{0,0.5,0} % WebGreen
+        \definecolor{CTurl}{named}{Maroon} % Maroon
+        \definecolor{CTtitle}{named}{Maroon} % Maroon {cmyk}{0, 0.87, 0.68, 0.32}
+        \definecolor{CTlink}{named}{RoyalBlue} % RoyalBlue {cmyk}{1, 0.50, 0, 0}
+        \definecolor{halfgray}{gray}{0.55} % chapter numbers will be semi transparent .5 .55 .6 .0
+        \definecolor{webgreen}{rgb}{0,0.5,0}
+        \definecolor{webbrown}{rgb}{0.6,0,0}  
+      \definecolor{Light}{gray}{.90}
+        \sethlcolor{Light}
+        \let\OldTexttt\texttt
+        \renewcommand{\texttt}[1]{\OldTexttt{\hl{\mbox{#1}}}}  
+      \usepackage{Inconsolata}
+  
+      \setmonofont[]{Inconsolata}
+  
+      \setsansfont{AlegreyaSans-Regular}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]  
+    include-before: |  
+    include-after: |  
+    from:   
+    output-file:   
+    output-ext:   
+    standalone: true  
+    shortcodes:   
+    keep-md:   
+    keep-ipynb:   
+    ipynb-filters:   
+    extract-media:   
+    resource-path:   
+    default-image-extension:   
+    abbreviations:   
+    dpi:   
+    template: _extensions/bcdavasconcelos/templates/template.tex  
+    template-partials:   
+      - _extensions/bcdavasconcelos/templates/doc-class.tex  
+      - _extensions/bcdavasconcelos/templates/after-body.tex  
+      - _extensions/bcdavasconcelos/templates/before-bib.tex  
+      - _extensions/bcdavasconcelos/templates/before-body.tex  
+      - _extensions/bcdavasconcelos/templates/biblio.tex  
+      - _extensions/bcdavasconcelos/templates/citations.tex  
+      - _extensions/bcdavasconcelos/templates/graphics.tex  
+      - _extensions/bcdavasconcelos/templates/latex.template  
+      - _extensions/bcdavasconcelos/templates/pandoc.tex  
+      - _extensions/bcdavasconcelos/templates/tables.tex  
+      - _extensions/bcdavasconcelos/templates/tightlist.tex  
+      - _extensions/bcdavasconcelos/templates/title.tex  
+      - _extensions/bcdavasconcelos/templates/toc.tex  
+      - _extensions/bcdavasconcelos/templates/before-body.tex  
+      - _extensions/bcdavasconcelos/templates/before-bib.tex  
+      - _extensions/bcdavasconcelos/templates/biblio.tex  
+      - _extensions/bcdavasconcelos/templates/template.tex  
+    latex-auto-install: true  
+    latex-makeindex:   
+    latex-auto-mk: true  
+    latex-makeindex	:   
+    latex-makeindex-opts:   
+    latex-tlmgr-opts:   
+    latex-output-dir:   
+    latex-tinytex: true  
+    latex-input-paths:   
+    latex-min-runs:   
+    latex-max-runs:   
+    latex-clean: true  
+    keep-tex: true  
+    babel-lang: brazilian  
+    babel-otherlangs:   
+      - english  
+      - ancientgreek  
+      - sanskrit  
+    toc: true  
+    toc-depth: 3  
+    toc-title: Sumário  
+    lof: true  
+    lot: true  
+    number-sections: true  
+    number-depth: 3  
+    number-offset:   
+    shift-heading-level-by:   
+    top-level-division: chapter  
+    fontenc:   
+    microtypeoptions:   
+    linestretch: 1.3  
+    fontsize: 12pt  
+    fontfamily: Alegreya  
+    fontfamilyoptions:   
+    mainfont: Alegreya  
+    mainfontoptions:   
+      - Numbers=Proportional  
+      - Numbers=Lowercase  
+    sansfont: Alegreya Sans  
+    sansfontoptions:   
+    monofont: Consolas  
+    monofontoptions:   
+    mathfont: Menlo  
+    mathfontoptions:   
+    CJKmainfont:   
+    CJKoptions:   
+    colorlinks: true  
+    citecolor: RoyalBlue  
+    filecolor: halfgray  
+    linkcolor: RoyalBlue  
+    toccolor: black  
+    urlcolor: black  
+    fig-align:   
+    fig-env:   
+    fig-pos:   
+    fig-cap-location:   
+    fig-width:   
+    fig-height:   
+    fig-format:   
+    fig-dpi:   
+    fig-asp:   
+    tbl-colwidths:   
+    tbl-cap-location:   
+    df-print:   
+    highlight-style: github  
+    code-line-numbers: true  
+    code-annotations:   
+    code-overflow: wrap  
+    code-block-border-left:   
+    code-block-bg:   
+    syntax-definitions:   
+    listings:   
+    indented-code-classes:   
+    reference-location: margin  
+    links-as-notes: false  
+    ascii: false  
+    appendix-style: default  
+    license:   
+    float: true  
+    csquotes: true  
+    biblio-title:   
+    biblio-config:   
+    biblio-style: philosophy-modern  
+    biblatexoptions:   
+    natbiboptions:   
+  html:   
+    metadata:   
+      author-meta: Authors  
+      date-meta: Date  
+      subject: Subject  
+      keywords: Keywords  
+      copyright: Copyright  
+      license:   
+      pagetitle: Page Title  
+      title-prefix: Title Prefix  
+      description-meta: Description  
+    quarto-required:   
+    minimal:   
+    css:   
+    anchor-sections:   
+    smooth-scroll:   
+    html-math-method:   
+    section-divs:   
+    identifier-prefix:   
+    email-obfuscation
+Specify a method for obfuscating mailto: links in HTML documents.
+
+javascript: Obfuscate links using JavaScript.
+references: Obfuscate links by printing their letters as decimal or hexadecimal character references.
+none (default): Do not obfuscate links.
+html-q-tags:   
+    html-q-tags:   
+    theme:   
+      light: [Pulse]  
+      dark: [Cyborg]  
+    title-block-banner: "#BB3333"  
+    title-block-style: "#BB3333"  
+    embed-resources: false  
+    self-contained-math: false  
+    classoption:   
+    cap-location:   
+    margin-left: 3cm  
+    margin-right: 2cm  
+    margin-top: 3cm  
+    margin-bottom: 1cm  
+    page-layout:   
+    grid:   
+    sidebar-width: 300px  
+    body-width: 900px  
+    margin-width: 300px  
+    gutter-width: 1.5rem  
+    title-block-categories:   
+    appendix-cite-as:   
+    max-width:   
+    metadata-files:   
+    resources:   
+    include-before: |  
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
+      .callout-header {
+      background-color: transparent!important;
+      }
+      &lt;/style&gt;
+  
+      \newfontfamily{\greekfont}{Alegreya} 
+        \newcommand{\grc}[1]{\foreignlanguage{greek}{\selectfont\greekfont #1}}
+        \newenvironment{greek}{\begingroup
+        \selectlanguage{greek}\selectfont\greekfont\normalsize}{\endgroup}  
+      \newfontfamily{\sanskritfont}{Noto Serif Devanagari} 
+        \newcommand{\skt}[1]{\foreignlanguage{sanskrit}{\selectfont\sanskritfont #1}}
+        \newenvironment{sanskrit}{\begingroup
+        \selectlanguage{sanskrit}\selectfont\sanskritfont\normalsize}{\endgroup}  
+    include-after-body: |  
+    include-in-header: |  
+    from:   
+    output-file:   
+    output-ext:   
+    standalone: true  
+    shortcodes:   
+    keep-md:   
+    keep-ipynb:   
+    ipynb-filters:   
+    extract-media:   
+    resource-path:   
+    default-image-extension:   
+    abbreviations:   
+    dpi:   
+    template: _extensions/bcdavasconcelos/templates/template.html  
+    template-partials:   
+      - _extensions/bcdavasconcelos/templates/title-block.html  
+      - _extensions/bcdavasconcelos/templates/template.html  
+      - _extensions/bcdavasconcelos/templates/styles.html  
+      - _extensions/bcdavasconcelos/templates/html.template  
+      - _extensions/bcdavasconcelos/templates/html.styles  
+      - _extensions/bcdavasconcelos/templates/toc.html  
+      - _extensions/bcdavasconcelos/templates/metadata.html  
+    toc: true  
+    toc-depth: 3  
+    toc-location: left  
+    toc-title:   
+    toc-expand: true  
+    number-sections: true  
+    number-depth: 3  
+    number-offset:   
+    shift-heading-level-by:   
+    linestretch: 1.5  
+    fontsize: 12pt  
+    fontfamily: Alegreya  
+    mainfont: Alegreya  
+    sansfont: Alegreya Sans  
+    monofont: Source Code Pro  
+    fontcolor: halfgray  
+    linkcolor: RoyalBlue  
+    monobackgroundcolor: black  
+    backgroundcolor: black  
+    fig-align:   
+    fig-cap-location:   
+    fig-width:   
+    fig-height:   
+    fig-format:   
+    fig-dpi:   
+    fig-asp:   
+    tbl-colwidths:   
+    tbl-cap-location:   
+    df-print:   
+    link-external-icon:   
+    link-external-newwindow:   
+    link-external-filter:   
+    format-links:   
+    notebook-links:   
+    notebook-view:   
+    code-link: true  
+    code-copy: true  
+    code-tools: true  
+    code-fold: show  
+    highlight-style: github  
+    code-line-numbers: true  
+    code-annotations:   
+    code-overflow: wrap  
+    code-block-border-left:   
+    code-block-bg:   
+    syntax-definitions:   
+    indented-code-classes:   
+    reference-location: margin  
+    footnotes-hover: false  
+    search: false  
+    aliases: false  
+    image: false  
+    image-height: false  
+    image-width: false  
+    image-alt: false  
+    appendix-style: default  
+    license:   
+    citations-hover:   
+    citation-location:   
+  docx:   
+    author: Bernardo César Diniz Athayde Vasconcelos  
+    date: 2023-12  
+    metadata:   
+    subject: Hello ScrivQ  
+    keywords: [Sophrosyne, Platão, Aristóteles]  
+    category:   
+    order:   
+    quarto-required:   
+    reference-doc:   
+    toc: true  
+    toc-depth: 3  
+    toc-title: Sumário  
+    number-sections: true  
+    number-depth: 3  
+    number-offset:   
+    shift-heading-level-by:   
+    page-width:   
+    grid:   
+    sidebar-width: 300px  
+    body-width: 900px  
+    margin-width: 300px  
+    gutter-width: 1.5rem  
+    fig-align:   
+    fig-width:   
+    fig-height:   
+    fig-format:   
+    fig-dpi:   
+    fig-asp:   
+    tbl-colwidths:   
+    df-print:   
+    metadata-files:   
+    embed-resources: false  
+    self-contained-math: false  
+    from:   
+    output-file:   
+    output-ext:   
+    standalone: true  
+    shortcodes:   
+    keep-md:   
+    keep-ipynb:   
+    ipynb-filters:   
+    extract-media:   
+    resource-path:   
+    default-image-extension:   
+    abbreviations:   
+    resources:   
+    code-annotations:   
+    highlight-style: github  
+    syntax-definitions:   
+    indented-code-classes:   
+execute:   
+  eval:   
+  echo: fenced  
+  output: asis  
+  warning:   
+  error:   
+  include:   
+  cache: true  
+  freeze: auto  
+citation: true  
+bibliography:   
+link-fields: false  
+cite-method: citeproc  
+bibliography_primary-sources: "refs/primary-sources.yml"
+bibliography_secondary-sources: "refs/secondary-sources.yml"
+bibliography_workflow: "refs/workflow.bib"
+bibliography_songs: "refs/songs.yml"
+bibliography_paintings: "refs/paintings.yml"
+citation-abbreviations:   
+link-citations: true  
+link-bibliography: true  
+csl: |
+   _extensions/bcdavasconcelos/csl/chicago.csl  
+csl: |
+   _extensions/bcdavasconcelos/csl/abnt-phi.csl  
+notes-after-punctuation: true  
+citeproc: false  
+verbose: false  
+verbosity: ERROR  
+validate-yaml: false
+</Text>
+    </Snapshot>
+    <Snapshot Date="2023-12-29 16:36:58 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>book:
+  author: Bernardo César Diniz Athayde Vasconcelos
+  title: Hello, ScrivQ
+  date: 2023-12
+  abstract: The ScrivQ Template
+  description: A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).
+  reader-mode: true
+  search:
+    location: navbar
+    type: textbox
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true
+
+project:
+  title: ScrivQ
+  type: book
+  render: ["*.qmd", "*.md"]
+  execute-dir: project
+  output-dir: sample
+  preview:
+    port: 5556
+    watch-inputs: true
+    navigate: true
+
+filters:
+  - citetools
+
+execute:
+  eval:
+  echo: fenced
+  output: asis
+  warning:
+  error:
+  include:
+  cache: true
+  freeze: auto
+
+validate-yaml: false
+citeproc: false
+citation: true
+cite-method: citeproc
+link-fields: false
+link-citations: true
+link-bibliography: true
+csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
+csl: _extensions/bcdavasconcelos/csl/chicago.csl
+verbose: false
+verbosity: ERROR
+notes-after-punctuation: true
+
+bibliography_primary-sources: "refs/primary-sources.yml"
+bibliography_secondary-sources: "refs/secondary-sources.yml"
+bibliography_workflow: "refs/workflow.bib"
+bibliography_songs: "refs/songs.yml"
+bibliography_paintings: "refs/paintings.yml"
+citation-abbreviations:
+
+format:
+  html:
+    metadata:
+      author-meta: Authors
+      date-meta: Date
+      subject: Subject
+      keywords: Keywords
+      copyright: Copyright
+      license:
+      pagetitle: Page Title
+      title-prefix: Title Prefix
+      description-meta: Description
+    quarto-required:
+    minimal:
+    css:
+    anchor-sections:
+    smooth-scroll:
+    html-math-method:
+    section-divs:
+    identifier-prefix:
+    email-obfuscation:
+    html-q-tags: true
+    theme:
+      light: [Pulse]
+      dark: [Cyborg]
+    title-block-banner: "#BB3333"
+    title-block-style: "#BB3333"
+    embed-resources: false
+    self-contained-math: false
+    classoption:
+    cap-location:
+    margin-left: 3cm
+    margin-right: 2cm
+    margin-top: 3cm
+    margin-bottom: 1cm
+    page-layout:
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+    title-block-categories:
+    appendix-cite-as:
+    max-width:
+    metadata-files:
+    resources:
+    include-before: |
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
+      .callout-header {
+      background-color: transparent!important;
+      }
+      &lt;/style&gt;
+    standalone: true
+    template: _extensions/bcdavasconcelos/templates/template.html
+    template-partials:
+      - _extensions/bcdavasconcelos/templates/title-block.html
+      - _extensions/bcdavasconcelos/templates/template.html
+      - _extensions/bcdavasconcelos/templates/styles.html
+      - _extensions/bcdavasconcelos/templates/html.template
+      - _extensions/bcdavasconcelos/templates/html.styles
+      - _extensions/bcdavasconcelos/templates/toc.html
+      - _extensions/bcdavasconcelos/templates/metadata.html
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    toc-expand: true
+    number-sections: true
+    number-depth: 3
+    linestretch: 1.5
+    fontsize: 12pt
+    fontfamily: Alegreya
+    mainfont: Alegreya
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+    fontcolor: halfgray
+    linkcolor: RoyalBlue
+    monobackgroundcolor: black
+    backgroundcolor: black
+    code-link: true
+    code-copy: true
+    code-tools: true
+    code-fold: show
+    highlight-style: github
+    code-line-numbers: true
+    code-overflow: wrap
+    reference-location: margin
+    footnotes-hover: false
+    appendix-style: default
+    license:
+    citations-hover:
+    citation-location:
+  pdf:
+    pdf-engine: lualatex
+    papersize: a4
+    documentclass: scrbook
+    classoption:
+      - oneside
+      - DIV=10
+      - BCOR=10mm
+      - cleardoublepage=empty
+      - numbers=noenddot
+      - titlepage
+      - toclink=all
+      - toc=bibliography
+      - headinclude
+      - footinclude
+    geometry:
+      - showframe
+      - top=2cm
+      - bottom=2cm
+      - head=1cm
+      - foot=1cm
+      - left=2cm
+      - marginparwidth=4cm
+      - textwidth=12cm
+      - marginparsep=1cm
+      - heightrounded
+      - bindingoffset=0.5cm
+    indent: true
+    fig-cap-location: bottom
+    cap-location: bottom
+    pagestyle: headings
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+      margin-left: 3cm
+      margin-right: 2cm
+      margin-top: 3cm
+      margin-bottom: 1cm
+    block-headings:
+    hyperrefoptions:
+      - pdfstartview=FitR
+      - pdfpagemode=UseOutlines
+      - breaklinks=true
+      - pageanchor=true
+      - linktoc=all
+      - hyperfootnotes=false
+      - bookmarksnumbered
+    metadata-files:
+    header-includes: |
+      \usepackage{setspace}
+      \usepackage{etoolbox}
+      \usepackage{metalogo}
+      \usepackage{xcolor}
+      \usepackage{soul}
+      \definecolor{CTlink}{named}{RoyalBlue} % RoyalBlue {cmyk}{1, 0.50, 0, 0}
+      \definecolor{halfgray}{gray}{0.55} % chapt numbers semi transp .5 .55 .6 .0
+        \definecolor{CTsemi}{gray}{0.55} % chapt numbers semi transp .5 .55 .6 .0
+        \definecolor{CTcitation}{rgb}{0,0.5,0} % WebGreen
+        \definecolor{CTurl}{named}{Maroon} % Maroon
+        \definecolor{CTtitle}{named}{Maroon} % Maroon {cmyk}{0, 0.87, 0.68, 0.32}
+        \definecolor{webgreen}{rgb}{0,0.5,0}
+        \definecolor{webbrown}{rgb}{0.6,0,0}
+        \definecolor{Light}{gray}{.90}
+        \sethlcolor{Light}
+        \let\OldTexttt\texttt
+        \renewcommand{\texttt}[1]{\OldTexttt{\hl{\mbox{#1}}}}
+      \usepackage{Inconsolata}
+      \setmonofont[]{Inconsolata}
+      \setsansfont{AlegreyaSans-Regular}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]
+    include-before: |
+    include-after: |
+    from:
+    output-file:
+    output-ext:
+    standalone: true
+    shortcodes:
+    keep-md:
+    keep-ipynb:
+    ipynb-filters:
+    extract-media:
+    resource-path:
+    default-image-extension:
+    abbreviations:
+    template: _extensions/bcdavasconcelos/templates/template.tex
+    template-partials:
+      - _extensions/bcdavasconcelos/templates/doc-class.tex
+      - _extensions/bcdavasconcelos/templates/after-body.tex
+      - _extensions/bcdavasconcelos/templates/before-bib.tex
+      - _extensions/bcdavasconcelos/templates/before-body.tex
+      - _extensions/bcdavasconcelos/templates/biblio.tex
+      - _extensions/bcdavasconcelos/templates/citations.tex
+      - _extensions/bcdavasconcelos/templates/graphics.tex
+      - _extensions/bcdavasconcelos/templates/latex.template
+      - _extensions/bcdavasconcelos/templates/pandoc.tex
+      - _extensions/bcdavasconcelos/templates/tables.tex
+      - _extensions/bcdavasconcelos/templates/tightlist.tex
+      - _extensions/bcdavasconcelos/templates/title.tex
+      - _extensions/bcdavasconcelos/templates/toc.tex
+      - _extensions/bcdavasconcelos/templates/before-body.tex
+      - _extensions/bcdavasconcelos/templates/before-bib.tex
+      - _extensions/bcdavasconcelos/templates/biblio.tex
+      - _extensions/bcdavasconcelos/templates/template.tex
+    latex-auto-install: true
+    latex-makeindex:
+    latex-auto-mk: true
+    latex-makeindex:
+    latex-makeindex-opts:
+    latex-tlmgr-opts:
+    latex-output-dir:
+    latex-tinytex: true
+    latex-input-paths:
+    latex-min-runs:
+    latex-max-runs:
+    latex-clean: true
+    keep-tex: true
+    babel-lang: english
+    babel-otherlangs:
+      - brazilian
+      - ancientgreek
+      - sanskrit
+    toc: true
+    toc-depth: 3
+    toc-title: Summary
+    lof: true
+    lot: true
+    number-sections: true
+    number-depth: 3
+    number-offset:
+    shift-heading-level-by:
+    top-level-division: chapter
+    fontenc:
+    microtypeoptions:
+    linestretch: 1.3
+    fontsize: 12pt
+    fontfamily: Alegreya
+    fontfamilyoptions:
+    mainfont: Alegreya
+    mainfontoptions:
+      - Numbers=Proportional
+      - Numbers=Lowercase
+    sansfont: Alegreya Sans
+    sansfontoptions:
+    monofont: Consolas
+    monofontoptions:
+    mathfont: Menlo
+    mathfontoptions:
+    CJKmainfont:
+    CJKoptions:
+    colorlinks: true
+    citecolor: RoyalBlue
+    filecolor: halfgray
+    linkcolor: RoyalBlue
+    toccolor: black
+    urlcolor: black
+    fig-align:
+    fig-env:
+    fig-pos:
+    fig-cap-location:
+    fig-width:
+    fig-height:
+    fig-format:
+    fig-dpi:
+    fig-asp:
+    tbl-colwidths:
+    tbl-cap-location:
+    df-print:
+    highlight-style: github
+    code-line-numbers: true
+    code-annotations:
+    code-overflow: wrap
+    code-block-border-left:
+    code-block-bg:
+    syntax-definitions:
+    listings:
+    indented-code-classes:
+    reference-location: margin
+    ascii: false
+    appendix-style: default
+    license:
+    float: true
+    csquotes: true
+    biblio-title: Bibliography
+    biblio-config:
+    biblio-style: philosophy-modern
+    biblatexoptions:
+    natbiboptions:
+  docx:
+    author: 
+    date:
+    metadata:
+    subject: Hello ScrivQ
+    keywords: [Sophrosyne, Platão, Aristóteles]
+    category:
+    toc: true
+    toc-depth: 3
+    toc-title: Summary
+    number-sections: true
+    number-depth: 3
+    number-offset:
+    shift-heading-level-by:
+    sidebar-width: 300px
+    body-width: 900px
+    margin-width: 300px
+    gutter-width: 1.5rem
+    embed-resources: false
+    self-contained-math: false
+    standalone: true
+    highlight-style: github
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

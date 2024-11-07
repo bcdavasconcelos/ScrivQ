@@ -1,1 +1,0 @@
-Name of bootstrap icon (e.g. github, twitter, share) See https://icons.getbootstrap.com/ for a list of available icons

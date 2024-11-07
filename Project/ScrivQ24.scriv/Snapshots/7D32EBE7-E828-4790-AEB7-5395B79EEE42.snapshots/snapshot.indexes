@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="7D32EBE7-E828-4790-AEB7-5395B79EEE42">
+    <Snapshot Date="2024-01-05 16:30:30 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+## New to Quarto?
+Quarto is an open-source scientific and technical publishing system. Visit the [Get Started] guide to install so you can begin to create, build, and preview your documents.
+
+I highly recommend visiting the [Tutorial: Hello, Quarto]. You’ll learn how to create a document, build it, and preview it. You will also be taken to the excellent [Quarto extension for VS Code] and [Quarto extension for R Studio] that will make your life much easier.
+
+Find out more at [Awesome Quarto], [Quarto Extensions], [Quarto on Github], [RStudio Community], [Stack Overflow], [Twitter].
+
+## Quarto Quickstart 🚀 
+
+  •  On macOS ({{&lt; fa brands apple &gt;}}), use Homebrew to brew install quarto.
+  •  On Windows ({{&lt; fa brands windows &gt;}}), use Chocolatey to choco install quarto.
+  •  On Linux ({{&lt; fa brands linux &gt;}}), use your package manager to install quarto.
+
+## Homebrew Quickstart 🚀
+
+If you're on a Mac, install Homebrew. Open the launchpad, look for the Terminal, paste the command below, and press return. Fear not. Thy Mac shall be safe.
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+## New to Pandoc? 
+Pandoc is a universal document converter developed by John MacFarlane, professor of philosophy, that is at the core of Quarto. To learn more about it, see the Pandoc User’s Guide [{{&lt; fa regular file-pdf &gt;}}. Quarto already includes a copy of Pandoc inside, but you can also install it as a separate standalone application, which I also recommend.
+
+Check [Pandoc-Discuss] in case you have unsolved questions. You can also ask questions on [Pandoc at Stack Overflow].
+
+On macOS, it might be a good idea to install Chromium (brew install chromium), if you intend to work with mermaid diagrams.
+
+[Pandoc]: https://pandoc.org/MANUAL.html
+[Get Started]: https://quarto.org/docs/get-started/
+[Tutorial: Hello, Quarto]: https://quarto.org/docs/get-started/hello/vscode.html
+[Quarto extension for VS Code]: https://quarto.org/docs/get-started/#quarto-for-vs-code
+[Quarto extension for R Studio]: https://quarto.org/docs/get-started/#quarto-for-rstudio 
+[Quarto Extensions]: https://github.com/quarto-ext?type=source
+[Quarto on Github]: https://github.com/search?q=topic%3Aquarto&amp;type=repositories
+[Awesome Quarto]: https://github.com/mcanouil/awesome-quarto
+[Pandoc-Discuss]: https://groups.google.com/g/pandoc-discuss
+[Pandoc at Stack Overflow]: https://stackoverflow.com/questions/tagged/pandoc
+[RStudio Community]: https://community.rstudio.com/tags/quarto
+[Homebrew]: https://brew.sh
+[Stack Overflow]: https://stackoverflow.com/questions/tagged/quarto
+[Twitter]: https://twitter.com/quarto_pub
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-10-31 23:16:40 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+## New to Quarto?
+Quarto is an open-source scientific and technical publishing system. 
+
+Install the [Quarto extension for VS Code] and [Quarto extension for R Studio].
+
+Check the ["Hello, Quarto" Tutorial] to learn how to create, build, and preview documents; or visit the [Get Started] guide to jump right in. 
+
+Find out more at [Awesome Quarto], [Quarto Extensions], [Quarto on Github], [RStudio Community], [Stack Overflow], [Twitter].
+
+## Quarto Quickstart 🚀 
+
+  •  On macOS* ({{&lt; fa brands apple &gt;}}), use Homebrew to brew install quarto &amp; brew install chromium.
+  •  On Windows ({{&lt; fa brands windows &gt;}}), use Chocolatey to choco install quarto.
+  •  On Linux ({{&lt; fa brands linux &gt;}}), use your package manager to install quarto.
+
+## New to Pandoc? 
+
+See the Pandoc User’s Guide [{{&lt; fa regular file-pdf &gt;}}.
+
+[Pandoc]: https://pandoc.org/MANUAL.html
+[Get Started]: https://quarto.org/docs/get-started/
+["Hello, Quarto" Tutorial]: https://quarto.org/docs/get-started/hello/vscode.html
+[Quarto extension for VS Code]: https://quarto.org/docs/get-started/#quarto-for-vs-code
+[Quarto extension for R Studio]: https://quarto.org/docs/get-started/#quarto-for-rstudio 
+[Quarto Extensions]: https://github.com/quarto-ext?type=source
+[Quarto on Github]: https://github.com/search?q=topic%3Aquarto&amp;type=repositories
+[Awesome Quarto]: https://github.com/mcanouil/awesome-quarto
+[Pandoc-Discuss]: https://groups.google.com/g/pandoc-discuss
+[Pandoc at Stack Overflow]: https://stackoverflow.com/questions/tagged/pandoc
+[RStudio Community]: https://community.rstudio.com/tags/quarto
+[Homebrew]: https://brew.sh
+[Stack Overflow]: https://stackoverflow.com/questions/tagged/quarto
+[Twitter]: https://twitter.com/quarto_pub
+</Text>
+        <Comments>If you're on a Mac, install Homebrew by pasting the following on the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.</Comments>
+    </Snapshot>
+</SnapshotIndexes>

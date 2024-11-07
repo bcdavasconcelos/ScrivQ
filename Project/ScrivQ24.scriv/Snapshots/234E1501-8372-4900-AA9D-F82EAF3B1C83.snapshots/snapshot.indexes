@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="234E1501-8372-4900-AA9D-F82EAF3B1C83">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text># Place your R code here, see https://quarto.org/docs/computations/r.html
+#| label: fig-r-demo
+#| fig-cap: "My caption"
+#| column: page
+#| warning: false
+
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

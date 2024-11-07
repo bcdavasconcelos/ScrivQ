@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="0495601D-5B1E-4193-9B99-B49CF3B3A541">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>:::{#lst-demo-a lst-cap="Decomposition of Unicode characters." .ruby}
+require "unicode/name"
+
+characters = %w(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω 
+ἀ ἄ ᾄ ἂ ᾂ ἆ ᾆ ᾀ ἁ ἅ ᾅ ἃ ᾃ ἇ ᾇ ᾁ ά ά ᾴ ὰ ᾲ ᾰ ᾶ ᾷ ᾱ ᾳ ἐ ἔ ἒ ἑ ἕ ἓ έ έ ὲ)
+
+# characters = 'ἄ'
+characters.each do |character|
+  puts character.unpack('U*').map { |i| 
+  "U+#{i.to_s(16).rjust(4, '0').upcase}"
+  }.join
+  puts Unicode::Name.of character
+end
+:::
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 22:39:34 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>```{#lst-demo-a lst-cap="Decomposition of Unicode characters." .ruby}
+require "unicode/name"
+
+characters = %w(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω 
+ἀ ἄ ᾄ ἂ ᾂ ἆ ᾆ ᾀ ἁ ἅ ᾅ ἃ ᾃ ἇ ᾇ ᾁ ά ά ᾴ ὰ ᾲ ᾰ ᾶ ᾷ ᾱ ᾳ ἐ ἔ ἒ ἑ ἕ ἓ έ έ ὲ)
+
+# characters = 'ἄ'
+characters.each do |character|
+  puts character.unpack('U*').map { |i| 
+  "U+#{i.to_s(16).rjust(4, '0').upcase}"
+  }.join
+  puts Unicode::Name.of character
+end
+```
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

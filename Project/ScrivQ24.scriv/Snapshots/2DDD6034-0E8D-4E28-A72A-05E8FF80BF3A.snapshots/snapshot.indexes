@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="2DDD6034-0E8D-4E28-A72A-05E8FF80BF3A">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text># https://quarto.org/docs/authoring/diagrams.html
+# https://mermaid.live/edit
+%%| fig-cap: Figure caption
+%%| column: page
+%%| echo: false
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

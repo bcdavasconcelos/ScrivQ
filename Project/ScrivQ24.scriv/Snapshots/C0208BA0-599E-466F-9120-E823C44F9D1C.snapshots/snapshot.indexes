@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="C0208BA0-599E-466F-9120-E823C44F9D1C">
+    <Snapshot Date="2024-01-05 16:30:31 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Now we repeat the same approach we saw with the Amsthm theorems with other Quarto and Pandoc block elements, such as computations (diagrams), equations, listings, figures, and tables. This time, apart from Paragraph Styles and Section Types, we will also use Raw Markdown to accomplish the same tasks. As before, all of these elements receive manual IDs. 
+
+
+Element
+Markdown Source
+Rendered Output
+R Computation
+`fig-r-demo-a`
+fig-r-demo-a
+R Computation
+`fig-r-demo-b`
+fig-r-demo-b
+R Computation
+`tbl-r-demo-c`
+tbl-r-demo-c
+Python Computation
+`fig-python-demo-a`
+fig-python-demo-a
+Python Computation
+`fig-python-demo-b`
+fig-python-demo-b
+Python Computation
+`fig-python-demo-c`
+fig-python-demo-c
+Cross-referencing R and Python computations. {#tbl-computations}</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-05 14:29:50 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>There are 3 options to create computations: Section Type (Computation), Paragraph Styles (Computation R, Computation Python), and Raw Markdown.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 11:27:10 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Now we repeat the same approach we saw with the Amsthm theorems with other Quarto and Pandoc block elements, such as computations (diagrams), equations, listings, figures, and tables. This time, apart from Paragraph Styles and Section Types, we will also use Raw Markdown to accomplish the same tasks. As before, all of these elements receive manual IDs. 
+
+To use computations, there might be additional steps involved, such as installing R along with additional packages.
+
+You might have to install R packages:
+py_install(packages = "matplotlib")
+install.packages("reticulate")
+install.packages("markdown")
+install.packages("tidyverse")
+install.packages("kableExtra")
+install.packages("downlit")
+install.packages("xml2")
+
+
+Element
+Markdown Source
+Rendered Output
+R Computation
+`fig-r-demo-a`
+fig-r-demo-a
+R Computation
+`fig-r-demo-b`
+fig-r-demo-b
+R Computation
+`tbl-r-demo-c`
+tbl-r-demo-c
+Python Computation
+`fig-python-demo-a`
+fig-python-demo-a
+Python Computation
+`fig-python-demo-b`
+fig-python-demo-b
+Python Computation
+`fig-python-demo-c`
+fig-python-demo-c
+Cross-referencing R and Python computations. {#tbl-computations}</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Now we repeat the same approach we saw with the Amsthm theorems with other Quarto and Pandoc block elements, such as computations (diagrams), equations, listings, figures, and tables. This time, apart from Paragraph Styles and Section Types, we will also use Raw Markdown to accomplish the same tasks. As before, all of these elements receive manual IDs. 
+
+To use computations, there might be additional steps involved, such as installing R along with additional packages.
+
+You might have to install R packages:
+install.packages("reticulate")
+install.packages("markdown")
+install.packages("tidyverse")
+install.packages("kableExtra")
+install.packages("downlit")
+install.packages("xml2")
+
+
+Element
+Markdown Source
+Rendered Output
+R Computation
+`scrivref`
+scrivref
+R Computation
+`scrivref`
+scrivref
+Python Computation
+`scrivref`
+scrivref
+Python Computation
+`scrivref`
+scrivref
+Cross-referencing R and Python computations. {#tbl-computations}</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 18:09:59 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Now we repeat the same approach we saw with the Amsthm theorems with other Quarto and Pandoc block elements, such as computations (diagrams), equations, listings, figures, and tables. This time, apart from Paragraph Styles and Section Types, we will also use Raw Markdown to accomplish the same tasks. As before, all of these elements receive manual IDs. 
+
+To use computations, there might be additional steps involved, such as installing R along with additional packages.
+
+You might have to install R packages:
+install.packages("reticulate")
+install.packages("markdown")
+install.packages("tidyverse")
+install.packages("kableExtra")
+install.packages("downlit")
+install.packages("xml2")
+
+
+Element
+Markdown Source
+Rendered Output
+R Computation
+`scrivlink`
+scrivlink
+R Computation
+`scrivlink`
+scrivlink
+Python Computation
+`scrivlink`
+scrivlink
+Python Computation
+`scrivlink`
+scrivlink
+Cross-referencing R and Python computations. {#tbl-computations}</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-06 21:06:33 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>There are 3 options to create computations: Section Type (Computation), Paragraph Styles (Computation R, Computation Python), and Raw Markdown.
+
+Element
+Markdown Source
+Rendered Output
+R Computation
+`fig-r-demo-a`
+fig-r-demo-a
+R Computation
+`fig-r-demo-b`
+fig-r-demo-b
+R Computation
+`tbl-r-demo-c`
+tbl-r-demo-c
+Python Computation
+`fig-python-demo-a`
+fig-python-demo-a
+Python Computation
+`fig-python-demo-b`
+fig-python-demo-b
+Python Computation
+`fig-python-demo-c`
+fig-python-demo-c
+Cross-referencing R and Python computations. {#tbl-computations}</Text>
+    </Snapshot>
+</SnapshotIndexes>

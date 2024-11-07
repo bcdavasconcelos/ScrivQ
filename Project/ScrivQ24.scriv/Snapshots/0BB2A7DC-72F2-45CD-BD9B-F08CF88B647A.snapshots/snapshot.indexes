@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="0BB2A7DC-72F2-45CD-BD9B-F08CF88B647A">
+    <Snapshot Date="2024-01-05 16:30:30 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>$$Block Maths$$
+&gt; Block Quote  
+Body
+
+:::{.callout-caution}
+Callout Caution
+:::
+
+:::{.callout-caution collapse="true"}
+Callout Caution (Collapsed)
+:::
+
+:::{.callout-important}
+Callout Important
+:::
+
+:::{.callout-important collapse="true"}
+Callout Important (Collapsed)
+:::
+
+:::{.callout-note}
+Callout Note
+:::
+
+:::{.callout-note collapse="true"}
+Callout Note (Collapsed)
+:::
+
+:::{.callout-tip}
+Callout Tip
+:::
+
+:::{.callout-tip collapse="true"}
+Callout Tip (Collapsed)
+:::
+
+:::{.callout-warning}
+Callout Warning
+:::
+
+:::{.callout-warning collapse="true"}
+Callout Warning (Collapsed)
+:::
+
+Caption
+
+```
+Code Block
+```
+
+:::{.column-page}
+Column Page
+:::
+
+```{python}
+Computation Python
+```
+
+```{r}
+Computation R
+```
+
+```{ruby}
+Computation Ruby
+```
+
+```{dot}
+Diagram Dot
+```
+
+```{mermaid}
+Diagram Mermaid
+```
+
+:::{.incremental}
+Div Incremental
+:::
+
+:::{.notes}
+Div Notes
+:::
+
+Generic Block
+
+Generic Code
+
+Generic Comment
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+List
+:::{.column-margin}
+Marginalia
+:::
+
+Meta-data
+
+~~~{=html}
+Raw HTML
+~~~
+
+~~~{=latex}
+Raw LaTeX
+~~~
+
+Raw Markdown
+
+Table: Table Caption
+
+Caracter Styles
+
+[Aside]{.aside}
+[@Cite]
+[@Cite Author]{.author}
+[@Cite Editor]{.editor}
+[@Cite Issued]{.issued}
+[@Cite Original-title]{.original-title}
+[@Cite Publisher]{.publisher}
+[@Cite Publisher-Place]{.publisher-place}
+[@Cite Title]{.title}
+[@Cite Title-short]{.title-short}
+[@Cite Translator]{.translator}
+[-@Cite*]
+`Code Span`
+Crossref Label
+Editor-only Comment
+*Emphasis*
+[Lang Grc]{lang=grc}
+[Lang Skt]{lang=sa}
+$Maths Inline$
+[Rough-Notation Box]{.rn rn-type=box rn-color=green}
+[Rough-Notation Circle]{.rn rn-type=circle rn-color=orange}
+[Rough Netation Crossed Off]{.rn rn-type=crossed-off rn-color=orange}
+[Rough-Notation Highlight]{.rn rn-type=highlight}
+[Rough-Notation Multiline]{.rn rn-multiline=true}
+[Rough Notation Strike Through]{.rn rn-type=strike-through rn-strokeWidth=1 rn-color=red}
+[Rough-Notation Underline]{.rn rn-type=underline rn-color=green}
+{{&lt; env Shortcode Env &gt;}}
+{{&lt; fa Shortcode Font Awesome &gt;}}
+{{&lt; meta Shortcode Meta &gt;}}
+{{&lt; var Shortcode Var &gt;}}
+[SMALL CAPS]{.smallcaps}
+**Strong**
+**_Strong Emphasis_**
+~Subscript~</Text>
+    </Snapshot>
+</SnapshotIndexes>

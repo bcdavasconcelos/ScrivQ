@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SectionTypes>
+    <TypeDefinitions>
+        <Type ID="AEE665E5-DE49-4ECB-B35A-5637FA6F9DB3">As is</Type>
+        <Type ID="811D11D8-FEA3-421A-8E9B-EC7603844B11">📁 File</Type>
+        <Type ID="82514BF5-E0E3-4741-98AE-F814CAE63244">⚙️ Meta-data</Type>
+        <Type ID="903D0163-DF42-456D-8EF5-D3228A5AB771">📚 Bibliography</Type>
+        <Type ID="E8C7A2BB-1310-4F65-97A3-3447D5B81E63">❌ _Don't Export</Type>
+        <Type ID="81609779-4BA9-4332-AB18-5C80ABDB1C19">_ _ _ _ Text _ _ _ _</Type>
+        <Type ID="CD4BDF90-9E2B-4D2C-B500-1F1E8DF5E678">⚓ Text</Type>
+        <Type ID="5AD39B0F-DA85-4B21-A533-830148C15C93">🗒️ Text</Type>
+        <Type ID="1CBAA315-5A0B-45B6-B754-83F91C23D79F">🗒️ Text + Break</Type>
+        <Type ID="84AF6CFD-B6D0-4CC4-8F67-8B86F05A7340">🗒️ Break + Text</Type>
+        <Type ID="90A2A014-88DA-47E7-8664-A4A790AE9DAD">_ _ _ _ Div _ _ _ _</Type>
+        <Type ID="00ECFC15-5815-4AE1-A765-EC2FFDE24867">🌐 Div</Type>
+        <Type ID="4B77DD07-F2F3-41F9-AF71-68478CA8D53B">⚙️ Code</Type>
+        <Type ID="C14EBCE4-F75E-4E13-84F9-212A0B72E573">⚙️ Computation</Type>
+        <Type ID="61DD23E2-9EB2-49D6-ACC8-90ACC1358A3C">⚙️ Diagram Dot</Type>
+        <Type ID="147628BC-A9A3-449A-B805-359F47CA983F">⚙️ Diagram Mermaid</Type>
+        <Type ID="8C1D6D15-F867-4175-8421-BBCE16F1AA8D">_ _ _ _ Heading _ _ _ _</Type>
+        <Type ID="2BDAD55B-C0B2-4756-B937-DFF7277AD29B">📖 Heading</Type>
+        <Type ID="2CE86258-6E74-458B-9A30-80E4576FF4EB">📖 Break + Heading</Type>
+        <Type ID="BA17E6A7-FC56-41C9-9995-2EC3CFA5BCF4">_ _ _ _ Section _ _ _ _</Type>
+        <Type ID="6452C414-94A2-41E1-A014-A97B441B91F8">📄 Section</Type>
+        <Type ID="36A84CEA-CB31-4973-BE9D-3C72827398F6">📄✋ Section</Type>
+        <Type ID="56DABD8F-5BE3-4637-8059-E361E476B2D9">✋📄 Section</Type>
+        <Type ID="DF51E481-999C-4F96-9A54-480E5D7D8850">📄 Section + Break</Type>
+        <Type ID="3F514CCD-B716-4FD0-8ACC-F1F2072B9F65">📄 Break + Section</Type>
+        <Type ID="B1E48332-30BF-4C66-9BFA-82414A882586">📄 Section H1</Type>
+        <Type ID="09167E08-C34F-44B5-99A9-5E150ED42100">📄 Section H2</Type>
+        <Type ID="DA61CF14-7A0E-4812-A22B-3DED11B3CD52">📄 Section H3</Type>
+        <Type ID="B6284A8F-C86A-4A6C-99A2-1FEA89FB0897">📄 Section H4</Type>
+        <Type ID="0E963615-4464-4471-9580-189C41DFCB6F">_ _ _ _ Elements _ _ _ _</Type>
+        <Type ID="C1269848-807E-4190-BDBE-92CE94C72077">📏 Equation</Type>
+        <Type ID="A5DF0A03-A596-4651-AE00-ECCE54BF874D">📊 Table</Type>
+    </TypeDefinitions>
+    <LevelTypes>
+        <Folders>
+            <Type>6452C414-94A2-41E1-A014-A97B441B91F8</Type>
+        </Folders>
+        <Containers>
+            <Type>811D11D8-FEA3-421A-8E9B-EC7603844B11</Type>
+            <Type>811D11D8-FEA3-421A-8E9B-EC7603844B11</Type>
+            <Type>6452C414-94A2-41E1-A014-A97B441B91F8</Type>
+            <Type>6452C414-94A2-41E1-A014-A97B441B91F8</Type>
+            <Type>6452C414-94A2-41E1-A014-A97B441B91F8</Type>
+            <Type>6452C414-94A2-41E1-A014-A97B441B91F8</Type>
+            <Type>6452C414-94A2-41E1-A014-A97B441B91F8</Type>
+        </Containers>
+        <Files>
+            <Type>811D11D8-FEA3-421A-8E9B-EC7603844B11</Type>
+            <Type>811D11D8-FEA3-421A-8E9B-EC7603844B11</Type>
+            <Type>6452C414-94A2-41E1-A014-A97B441B91F8</Type>
+        </Files>
+    </LevelTypes>
+</SectionTypes>

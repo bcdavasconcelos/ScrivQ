@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="683D13B2-6FA9-4522-9B33-D390086A8E1B">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  docx:
+    author: 
+    date:
+    metadata:
+    subject: Hello ScrivQ
+    keywords: [Sophrosyne, Platão, Aristóteles]
+    category:
+    toc: true
+    toc-depth: 3
+    toc-title: Summary
+    number-sections: true
+    number-depth: 3
+    number-offset:
+    shift-heading-level-by:
+    sidebar-width: 300px
+    body-width: 900px
+    margin-width: 300px
+    gutter-width: 1.5rem
+    embed-resources: false
+    self-contained-math: false
+    standalone: true
+    highlight-style: github
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

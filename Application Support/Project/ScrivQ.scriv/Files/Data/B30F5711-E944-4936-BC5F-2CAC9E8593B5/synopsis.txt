@@ -1,1 +1,0 @@
-Re-render input files when they change (defaults to true)

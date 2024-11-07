@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="549CF804-7E08-4D5E-ADC8-47C0177A3641">
+    <Snapshot Date="2024-11-06 21:06:32 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>$if(citations)$
+$if(csl)$ 
+  
+#set bibliography(style: "$csl$") 
+$elseif(bibliographystyle)$ 
+
+#set bibliography(style: "$bibliographystyle$")
+$endif$
+$if(bibliography)$
+
+#bibliography($for(bibliography)$"$bibliography$"$sep$,$endfor$)
+$endif$
+$endif$</Text>
+    </Snapshot>
+</SnapshotIndexes>

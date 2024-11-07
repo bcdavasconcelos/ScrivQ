@@ -1,1 +1,0 @@
-Provide next and previous article links in footer

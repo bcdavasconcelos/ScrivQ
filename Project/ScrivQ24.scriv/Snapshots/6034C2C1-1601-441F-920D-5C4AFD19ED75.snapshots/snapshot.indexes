@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="6034C2C1-1601-441F-920D-5C4AFD19ED75">
+    <Snapshot Date="2024-01-02 20:27:06 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+$tightlist.tex()$
+$tables.tex()$
+$graphics.tex()$
+$citations.tex()$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

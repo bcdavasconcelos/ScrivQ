@@ -1,2 +1,0 @@
-search
-Setting this to false prevents this document from being included in searches.

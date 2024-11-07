@@ -1,0 +1,636 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 CodeNewRoman;}
+{\colortbl;\red255\green255\blue255;\red127\green127\blue127;}
+{\*\expandedcolortbl;;\csgray\c57042;}
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Ps::0>
+\f1\fs20 book:\
+  author: Bernardo C\'e9sar Diniz Athayde Vasconcelos\
+  title: Hello, ScrivQ\
+  date: 2023-12\
+  abstract: The ScrivQ Template\
+  description: A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).\
+  reader-mode: true\
+  search:\
+    location: navbar\
+    type: textbox\
+    copy-button: true\
+  page-navigation: true\
+  back-to-top-navigation: true\
+\
+project:\
+  title: ScrivQ\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20   type: book\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20   render: ["*.qmd", "*.md"]\
+  execute-dir: project\
+  output-dir: sample\
+  preview:\
+    port: 5556\
+    watch-inputs: true\
+    navigate: true\
+\
+filters:\
+  - citetools\
+\
+execute:\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20   eval:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20   echo: fenced\
+  output: asis\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20   warning:\
+  error:\
+  include:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20   cache: true\
+  freeze: auto\
+\
+validate-yaml: false\
+citeproc: false\
+citation: true\
+cite-method: citeproc\
+link-fields: false\
+link-citations: true\
+link-bibliography: true\
+csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20 csl: _extensions/bcdavasconcelos/csl/chicago.csl\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20 verbose: false\
+verbosity: ERROR\
+notes-after-punctuation: true\
+\
+bibliography_primary-sources: "refs/primary-sources.yml"\
+bibliography_secondary-sources: "refs/secondary-sources.yml"\
+bibliography_workflow: "refs/workflow.bib"\
+bibliography_songs: "refs/songs.yml"\
+bibliography_paintings: "refs/paintings.yml"\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20 citation-abbreviations:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20 \
+format:\
+  html:\
+    metadata:\
+      author-meta: Authors\
+      date-meta: Date\
+      subject: Subject\
+      keywords: Keywords\
+      copyright: Copyright\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20       license:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20       pagetitle: Page Title\
+      title-prefix: Title Prefix\
+      description-meta: Description\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     quarto-required:\
+    minimal:\
+    css:\
+    anchor-sections:\
+    smooth-scroll:\
+    html-math-method:\
+    section-divs:\
+    identifier-prefix:\
+    email-obfuscation:\
+    html-q-tags: true\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     theme:\
+      light: [Pulse]\
+      dark: [Cyborg]\
+    title-block-banner: "#BB3333"\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     title-block-style: "#BB3333"\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     embed-resources: false\
+    self-contained-math: false\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     classoption:\
+    cap-location:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     margin-left: 3cm\
+    margin-right: 2cm\
+    margin-top: 3cm\
+    margin-bottom: 1cm\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     page-layout:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     grid:\
+      sidebar-width: 300px\
+      body-width: 900px\
+      margin-width: 300px\
+      gutter-width: 1.5rem\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     title-block-categories:\
+    appendix-cite-as:\
+    max-width:\
+    metadata-files:\
+    resources:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     include-before: |\
+      <style>\
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');\
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');\
+      .callout-header \{\
+      background-color: transparent!important;\
+      \}\
+      </style>\
+    standalone: true\
+    template: _extensions/bcdavasconcelos/templates/template.html\
+    template-partials:\
+      - _extensions/bcdavasconcelos/templates/title-block.html\
+      - _extensions/bcdavasconcelos/templates/template.html\
+      - _extensions/bcdavasconcelos/templates/styles.html\
+      - _extensions/bcdavasconcelos/templates/html.template\
+      - _extensions/bcdavasconcelos/templates/html.styles\
+      - _extensions/bcdavasconcelos/templates/toc.html\
+      - _extensions/bcdavasconcelos/templates/metadata.html\
+    toc: true\
+    toc-depth: 3\
+    toc-location: left\
+    toc-expand: true\
+    number-sections: true\
+    number-depth: 3\
+    linestretch: 1.5\
+    fontsize: 12pt\
+    fontfamily: Alegreya\
+    mainfont: Alegreya\
+    sansfont: Alegreya Sans\
+    monofont: Source Code Pro\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     fontcolor: halfgray\
+    linkcolor: RoyalBlue\
+    monobackgroundcolor: black\
+    backgroundcolor: black\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     code-link: true\
+    code-copy: true\
+    code-tools: true\
+    code-fold: show\
+    highlight-style: github\
+    code-line-numbers: true\
+    code-overflow: wrap\
+    reference-location: margin\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     footnotes-hover: false\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     appendix-style: default\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     license:\
+    citations-hover:\
+    citation-location:\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20   pdf:\
+    pdf-engine: lualatex\
+    papersize: a4\
+    documentclass: scrbook\
+    classoption:\
+      - oneside\
+      - DIV=10\
+      - BCOR=10mm\
+      - cleardoublepage=empty\
+      - numbers=noenddot\
+      - titlepage\
+      - toclink=all\
+      - toc=bibliography\
+      - headinclude\
+      - footinclude\
+    geometry:\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20       - showframe\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20       - top=2cm\
+      - bottom=2cm\
+      - head=1cm\
+      - foot=1cm\
+      - left=2cm\
+      - marginparwidth=4cm\
+      - textwidth=12cm\
+      - marginparsep=1cm\
+      - heightrounded\
+      - bindingoffset=0.5cm\
+    indent: true\
+    fig-cap-location: bottom\
+    cap-location: bottom\
+    pagestyle: headings\
+    grid:\
+      sidebar-width: 300px\
+      body-width: 900px\
+      margin-width: 300px\
+      gutter-width: 1.5rem\
+      margin-left: 3cm\
+      margin-right: 2cm\
+      margin-top: 3cm\
+      margin-bottom: 1cm\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     block-headings:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     hyperrefoptions:\
+      - pdfstartview=FitR\
+      - pdfpagemode=UseOutlines\
+      - breaklinks=true\
+      - pageanchor=true\
+      - linktoc=all\
+      - hyperfootnotes=false\
+      - bookmarksnumbered\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     metadata-files:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     header-includes: |\
+      \\usepackage\{setspace\}\
+      \\usepackage\{etoolbox\}\
+      \\usepackage\{metalogo\}\
+      \\usepackage\{xcolor\}\
+      \\usepackage\{soul\}\
+      \\definecolor\{CTlink\}\{named\}\{RoyalBlue\} % RoyalBlue \{cmyk\}\{1, 0.50, 0, 0\}\
+      \\definecolor\{halfgray\}\{gray\}\{0.55\} % chapt numbers semi transp .5 .55 .6 .0\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20         \\definecolor\{CTsemi\}\{gray\}\{0.55\} % chapt numbers semi transp .5 .55 .6 .0\
+        \\definecolor\{CTcitation\}\{rgb\}\{0,0.5,0\} % WebGreen\
+        \\definecolor\{CTurl\}\{named\}\{Maroon\} % Maroon\
+        \\definecolor\{CTtitle\}\{named\}\{Maroon\} % Maroon \{cmyk\}\{0, 0.87, 0.68, 0.32\}\
+        \\definecolor\{webgreen\}\{rgb\}\{0,0.5,0\}\
+        \\definecolor\{webbrown\}\{rgb\}\{0.6,0,0\}\
+        \\definecolor\{Light\}\{gray\}\{.90\}\
+        \\sethlcolor\{Light\}\
+        \\let\\OldTexttt\\texttt\
+        \\renewcommand\{\\texttt\}[1]\{\\OldTexttt\{\\hl\{\\mbox\{#1\}\}\}\}\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20       \\usepackage\{Inconsolata\}\
+      \\setmonofont[]\{Inconsolata\}\
+      \\setsansfont\{AlegreyaSans-Regular\}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     include-before: |\
+    include-after: |\
+    from:\
+    output-file:\
+    output-ext:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     standalone: true\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     shortcodes:\
+    keep-md:\
+    keep-ipynb:\
+    ipynb-filters:\
+    extract-media:\
+    resource-path:\
+    default-image-extension:\
+    abbreviations:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     template: _extensions/bcdavasconcelos/templates/template.tex\
+    template-partials:\
+      - _extensions/bcdavasconcelos/templates/doc-class.tex\
+      - _extensions/bcdavasconcelos/templates/after-body.tex\
+      - _extensions/bcdavasconcelos/templates/before-bib.tex\
+      - _extensions/bcdavasconcelos/templates/before-body.tex\
+      - _extensions/bcdavasconcelos/templates/biblio.tex\
+      - _extensions/bcdavasconcelos/templates/citations.tex\
+      - _extensions/bcdavasconcelos/templates/graphics.tex\
+      - _extensions/bcdavasconcelos/templates/latex.template\
+      - _extensions/bcdavasconcelos/templates/pandoc.tex\
+      - _extensions/bcdavasconcelos/templates/tables.tex\
+      - _extensions/bcdavasconcelos/templates/tightlist.tex\
+      - _extensions/bcdavasconcelos/templates/title.tex\
+      - _extensions/bcdavasconcelos/templates/toc.tex\
+      - _extensions/bcdavasconcelos/templates/before-body.tex\
+      - _extensions/bcdavasconcelos/templates/before-bib.tex\
+      - _extensions/bcdavasconcelos/templates/biblio.tex\
+      - _extensions/bcdavasconcelos/templates/template.tex\
+    latex-auto-install: true\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     latex-makeindex:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     latex-auto-mk: true\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     latex-makeindex:\
+    latex-makeindex-opts:\
+    latex-tlmgr-opts:\
+    latex-output-dir:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     latex-tinytex: true\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     latex-input-paths:\
+    latex-min-runs:\
+    latex-max-runs:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     latex-clean: true\
+    keep-tex: true\
+    babel-lang: english\
+    babel-otherlangs:\
+      - brazilian\
+      - ancientgreek\
+      - sanskrit\
+    toc: true\
+    toc-depth: 3\
+    toc-title: Summary\
+    lof: true\
+    lot: true\
+    number-sections: true\
+    number-depth: 3\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     number-offset:\
+    shift-heading-level-by:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     top-level-division: chapter\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     fontenc:\
+    microtypeoptions:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     linestretch: 1.3\
+    fontsize: 12pt\
+    fontfamily: Alegreya\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     fontfamilyoptions:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     mainfont: Alegreya\
+    mainfontoptions:\
+      - Numbers=Proportional\
+      - Numbers=Lowercase\
+    sansfont: Alegreya Sans\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     sansfontoptions:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     monofont: Consolas\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     monofontoptions:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     mathfont: Menlo\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     mathfontoptions:\
+    CJKmainfont:\
+    CJKoptions:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     colorlinks: true\
+    citecolor: RoyalBlue\
+    filecolor: halfgray\
+    linkcolor: RoyalBlue\
+    toccolor: black\
+    urlcolor: black\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     fig-align:\
+    fig-env:\
+    fig-pos:\
+    fig-cap-location:\
+    fig-width:\
+    fig-height:\
+    fig-format:\
+    fig-dpi:\
+    fig-asp:\
+    tbl-colwidths:\
+    tbl-cap-location:\
+    df-print:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     highlight-style: github\
+    code-line-numbers: true\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     code-annotations:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     code-overflow: wrap\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     code-block-border-left:\
+    code-block-bg:\
+    syntax-definitions:\
+    listings:\
+    indented-code-classes:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     reference-location: margin\
+    ascii: false\
+    appendix-style: default\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     license:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     float: true\
+    csquotes: true\
+    biblio-title: Bibliography\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     biblio-config:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     biblio-style: philosophy-modern\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     biblatexoptions:\
+    natbiboptions:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20   docx:\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     author: \
+    date:\
+    metadata:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     subject: Hello ScrivQ\
+    keywords: [Sophrosyne, Plat\'e3o, Arist\'f3teles]\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     category:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     toc: true\
+    toc-depth: 3\
+    toc-title: Summary\
+    number-sections: true\
+    number-depth: 3\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     number-offset:\
+    shift-heading-level-by:\
+\pard\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     sidebar-width: 300px\
+    body-width: 900px\
+    margin-width: 300px\
+    gutter-width: 1.5rem\
+    embed-resources: false\
+    self-contained-math: false\
+    standalone: true\
+    highlight-style: github\
+
+\f0\fs24 <!$Scr_Ps::0>}

@@ -1,0 +1,827 @@
+<html>
+
+<head>
+<title>ScrivQ24</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- NOTE: margin property = top-right-bottom-left -->
+<style type="text/css">
+
+	body {background-color: #e2e2e2}
+    
+    p.topLevelItemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 30px;
+    	}
+    	
+    p.folderTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 18px;
+    	}
+    
+    p.itemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	font-weight: bold;
+    	}
+    	
+    p.itemText {
+    	margin: 0px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    	
+    p.itemTextStart {
+    	margin: 30px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    
+    .page {border: 1px solid #c0c0c0; background: #fff}
+    
+    hr {
+        border: none;
+        height: 1px;
+        color: #d4d4d4;
+        background-color: #d4d4d4;
+      	}
+      	
+    hr.afterTitle {
+    	margin-top: -3px;
+    }
+      	
+    hr.afterText {
+    	margin-top: 30px;
+    }
+      	
+    ul {
+      	list-style-type: none;
+      	padding-left: 30px;
+      	}
+      	
+</style>
+
+</head>
+
+<body>
+
+<table border="0" width="100%" cellspacing="3">
+<tr>
+<td>
+
+<table class="page" width="100%" cellspacing="10" cellpadding="2">
+
+<!-- Top margin -->
+<!-- Not needed, because of the padding above titles. -->
+<!--<tr><td height="15px"></td></tr>-->
+
+<tr>
+
+<!-- 42 + 30 of list indent = 72 - one inch. -->
+<!-- Actually that ends up too much, so we do 25 + 30 = 55px. -->
+<td width="25px">
+
+<td valign="top">
+
+<ul>
+<li>
+<p class="topLevelItemTitle">Instalation</p>
+<p class="itemText">A few links, but nothing comprehensive.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">wrn-r-packages</p>
+<p class="itemText">Additional dependencies for computations</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Additional steps might be needed to use computations, such as installing [R](https://www.r-project.org) and additional packages. Here are some packages that can be installed using [R Studio](https://posit.co/download/rstudio-desktop/) and that will be needed for the computations in this project:</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```{#lst-r-packages lst-cap="Additional R packages." .r}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">py_install(packages = "matplotlib")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">install.packages("reticulate")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">install.packages("markdown")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">install....</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">ScrivQ</p>
+<p class="itemText">The ScrivQ template is designed to compile [Quarto Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) with zero configuration.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## When Quarto is installed...</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Hit ⌘⌥E to publish your Quarto Book right away.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## ScrivQ</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Download the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases).<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Sponsor [this project ❤️](https://github.com/sponsors/bcdavasconcelos).</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Take part in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-t...</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Compiler Script</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">There is a small ruby script that reformats the text from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format.<span class="Apple-converted-space">  </span>{#fig-scriv-compile width="auto"}</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug...</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Citations</p>
+<p class="itemText">In ScrivQ, we use [Citeproc] to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by BibTeX users, we included [Cite Tools] to enable multipart bibliographies, provide a backref (see [HyperRef]), and access bibliographic data from sources (author, editor, translator, date, edition, number, and so on).</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## Official documentation</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The official documentation on citations can be found at [Pandoc](pandoc.org/MANUAL.html#citations...</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Basic citations</p>
+<p class="itemText">1. The citation syntax is straightforward: @Citekey for Author (Date) (an in-text citation); [@Citekey] for (Author, Date); and [-@Citekey] for (Date).<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">2. Multiple citations can be grouped in brackets separated by semicolons [@CitekeyA; @CitekeyB].<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">3. The citation key is optionally followed by a locator, which can be a page number, a line number, a chapter number, or a section number, preceded by a comma.<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">4. The CSL style used by Citeproc will determine the presence (or absence) of parenthesi...</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Examples of citations</p>
+<p class="itemText">Here is a short demonstration of the basic citation feature.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## (Date, locator)</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`Long thinks […] on the deliberations of the prudent person (Long2004, p.17).`</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Long thinks […] on the deliberations of the prudent person (Long2004, p.17).</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## (Author, Date, locator)</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`…on the deliberations of the prudent person (Long2004, p.17)`.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">…on the deliberations of the prudent person (Long2004, p.17).</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## (Author, Date, locator; Author, Date, locator)</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`…on the deliberations of the prudent person (Long20...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Citation of specific fields</p>
+<p class="itemText">To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). We have stuck to the term fields, but the official terminology is [CSL Variables], [BibTeX Fields], and [RIS Tags].</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Cite Field allows the evocation of arbitrary information from the references, such as author, editor, translator (using [CSL variables] name conventions). {#fig-scrivlinkB ...</p>
+</li>
+<li>
+<p class="itemTitle">Multipart Bibliography</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Multipart bibliography with sections, such as primary sources and secondary sources. {#fig-scrivlinkA width="auto"}</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## Where do I plug my bibliography?</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">There is no need to keep separate bibliography files in the system. Copy and paste the data from bibliography managers straight into Scrivener following the instructions below and you will be set!</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## Bibliography Formats</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Pandoc and Quarto use a [CSL] (Citation Style Language) engine and prefer [CSL-YAML] and [CSL-JSON], performing up to 10x...</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">How to manually create a multipart bibliography</p>
+<p class="itemText">1. Using the Section Type File, we create a representation of our bibliography file to add the data (e.g. [Primary Sources]($!) and [Secondary Sources]($!)).</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">2. On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon Compile.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The Metadata panel {#fig-bibliography width="auto"}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">3. We need to tell Quarto about the bibliography file by adding it to the [_quarto]($!) configuration file (there is a bibli...</p>
+</li>
+<li>
+<p class="itemTitle">How to automatically create a multipart bibliography</p>
+<p class="itemText">We can use the Section Type Bibliography to automate steps 3 and 4. This is very convenient for books that need the bibliography to print only once at the very end.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">1. Using the Section Type File, we create a representation of our bibliography file to add the data (e.g. [Primary Sources]($!) and [Secondary Sources]($!)).</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">2. On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon Compile.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">3. The metad...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Backlinks</p>
+<p class="itemText">In Citeproc, link-citations control whether citations in the body of the text should be clickable links to the reference in the bibliography. Cite Tools takes it further and adds a backlink to each citation an entry has received in the document in a crescent ordinal fashion*. This allows the reader to easily arrive at sections of the text where the same reference was discussed and quickly see how many times each reference was used with the array of backlinks.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The Citation Backlinks filter adds ...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Quarto</p>
+<p class="itemText">The internal Templates section is the starting point for new sections. You can choose from:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Div</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Code</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Metadata</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Computation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Diagram Dot</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Diagram Mermaid</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Equation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Anchored Text (That is, a text section with an ID to allow cross-referencing)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Text</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Break and Text</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Section</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Break and Section</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Heading</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Break and Heading</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Footnote</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Bibliography (section and file)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- File</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Pick and configure any section type (use the metadata panel) or experiment with some ready-made examples below...</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Amsthm</p>
+<p class="itemText">Cross-referencing amsthm theorems</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Div Conjecture</p>
+<p class="itemText">Demonstration of the Conjecture theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Div Corollary</p>
+<p class="itemText">Demonstration of the Corollary theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Div Definition</p>
+<p class="itemText">Demonstration of the Definition theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Div Example</p>
+<p class="itemText">Demonstration of the Example theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Div Exercise</p>
+<p class="itemText">Demonstration of the Exercise theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Div Lemma</p>
+<p class="itemText">Demonstration of the Lemma theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Div Proposition</p>
+<p class="itemText">Demonstration of the Proposition theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Div Theorem</p>
+<p class="itemText">Demonstration of the Theorem theorem environment using the Section Type Div with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">$$[ x^2 + y^2 = z^2 ]$$</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">Callouts</p>
+<p class="itemText">These sections are divs with hardcoded classes (.callout-caution, .callout-important, .callout-note, .callout-tip, .callout-warning)</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Callout Caution</p>
+<p class="itemText">Demonstration of a Callout Caution using the Section Type Div with class &lt;$Custom:Class&gt; and with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Callout Important</p>
+<p class="itemText">Demonstration of a Callout Important using the Section Type Div with class &lt;$Custom:Class&gt; and with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Callout Note</p>
+<p class="itemText">Demonstration of a Callout Note using the Section Type Div with class &lt;$Custom:Class&gt; and with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Callout Tip</p>
+<p class="itemText">Demonstration of a Callout Tip using the Section Type Div with class &lt;$Custom:Class&gt; and with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+<li>
+<p class="itemTitle">Callout Warning</p>
+<p class="itemText">Demonstration of a Callout Warning using the Section Type Div with class &lt;$Custom:Class&gt; and with ID &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">Computations</p>
+<p class="itemText">There are 3 options to create computations: Section Type (Computation), Paragraph Styles (Computation R, Computation Python), and Raw Markdown.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">R Computation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-r-demo-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-r-demo-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">R Computation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-r-demo-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-r-demo-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">R Computation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`tbl-r-demo-c`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">tbl-r-demo-c</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Python Computation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-python-demo-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-python-demo-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Python Computation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-python-demo-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-python-demo-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Python Computation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-python-demo-c`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-python-demo-c</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Cross-referencing ...</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">R Code</p>
+<p class="itemText">Paragraph Style method for R Computation.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Computation</p>
+<p class="itemText">Section Type [Computation] method for R Computation.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Python</p>
+<p class="itemText">Paragraph Style method for Python Computation.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Computation</p>
+<p class="itemText">Section Type [Computation] method for Python Computation.</p>
+</li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Diagrams</p>
+<p class="itemText">Similarly, we can create Dot and Mermaid diagrams using Section Types (Diagram Dot, Diagram Mermaid), Paragraph Styles (Diagram Dot, Diagram Mermaid), and Raw Mardown.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Diagram Dot</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-dot-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-dot-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Diagram Dot</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-dot-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-dot-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Diagram Dot</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-dot-c`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-dot-c</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Diagram Mermaid</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-mermaid-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-mermaid-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Diagram Mermaid</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-mermaid-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-mermaid-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Diagram Mermaid</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-mermaid-c`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-mermaid-c</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Cross-referencing Dot and Mermaid diagrams. {#tbl-d...</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Dot</p>
+<p class="itemText">Paragraph Style method for Dot Diagram.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Diagram Dot</p>
+<p class="itemText">Section Type method for Dot Diagram.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Mermaid</p>
+<p class="itemText">Paragraph Style method for Mermaid Diagram.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Diagram Mermaid</p>
+<p class="itemText">Section Type method for Mermaid Diagram.</p>
+</li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Equations</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Equation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`eq-demo-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">eq-demo-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Equation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`eq-demo-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">eq-demo-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Cross-referencing equations. {#tbl-equations}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Equation</p>
+<p class="itemText">t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">{#eq-demo-a}</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Equation</p>
+<p class="itemText">t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Figures</p>
+<p class="itemText">"I propose a toast, to my self-control. You see it helpless, crawling on the floor."</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">MorphineCFP, MorphineCFP (MorphineCFP)</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Figure</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-image-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-image-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Figure (Multipart)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-panel-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-panel-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Figure (Multipart)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-panel-a-item-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-panel-a-item-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Figure (Multipart)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`fig-panel-a-item-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">fig-panel-a-item-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Cross-referencing figures. {#tbl-figures}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Figure</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Ulysses and the Sirens (Draper1909). {#fig-ulysses width="auto"}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="itemTitle">Multipart Figure α</p>
+<p class="itemText">Method 1 (Section Type) for Multipart Figure</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Listings</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Listing</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`lst-demo-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">lst-demo-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Listing</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`lst-demo-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">lst-demo-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Cross-referencing listings. {#tbl-listings}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Listing</p>
+<p class="itemText">Method I (Paragraph Style) for Block Listing.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Listing</p>
+<p class="itemText">Method II (Section Type) for Cross-reference Listing.</p>
+</li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Tables</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Table</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`tbl-demo-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">tbl-demo-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Table</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`scrivlink`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">scrivlink</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Table (Multipart)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`scrivlink`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">scrivlink</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Table (Multipart)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`tbl-panel-a-item-a`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">tbl-panel-a-item-a</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Table (Multipart)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">`tbl-panel-a-item-b`</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">tbl-panel-a-item-b</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Cross-referencing tables. {#tbl-tables}</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Table</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">GRC</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">SKT</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">ἐν ἀρχὴ ἦν ὁ λόγος</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">आदौ वाद आसीत्</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">An example is taken from NT John I 1. This table uses Text as the Section Type, and Table Caption as the Paragraph Style for the caption. {#tbl-demo-a}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Table</p>
+<p class="itemText">Section type</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Multipart Table</p>
+<p class="itemText"></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Prefix</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Equation A</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">eq</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">A</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">B</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Equation A</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">eq</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">C</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">D</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Listing A</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">lst</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">E</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">F</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The first table in a multipart table panel. {#tbl-panel-a-item-a}</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Element</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Prefix</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Equation B</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">eq</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">A</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">B</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Equation B</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">eq</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">C</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">D</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Listing B</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">lst</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">E</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">F</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The second table in a multipart table panel. {#tbl-panel-a-item-b}</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">This is a markdown multi-table panel with two sub-tables generated using a Section Type Div. Note that Custom Metadata holds the cross-referencing label, layout...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Sections</p>
+<p class="itemText">Cross-referencing equations, listings, figures and tables</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Section</p>
+<p class="itemText">This is an example of the Section section type.</p>
+</li>
+<li>
+<p class="itemTitle">Section {-}</p>
+<p class="itemText">This is an example of the Section {-} section type.</p>
+</li>
+<li>
+<p class="itemTitle">Heading</p>
+<p class="itemText">This is an example of the Heading section type.</p>
+</li>
+<li>
+<p class="itemTitle">Heading + Break</p>
+<p class="itemText">This is an example of the Heading + Break section type.</p>
+</li>
+<li>
+<p class="itemTitle">Section + Break</p>
+<p class="itemText">This is an example of the Section + Break section type.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">Cross-referencing</p>
+<p class="itemText">Setting the IDs In this version of ScrivQ we prioritize manual ID setting. Select the correct ID-Prefix (e.g. sec-) and then fill the ID (e.g. xref) metadata field of different Section Types to allow cross-referencing using Scrivener placeholders such as<span class="Apple-converted-space">  </span>@&lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt; that would be replaced into \@sec-xref.<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Templates and partials</p>
+<p class="itemText">## Quarto Templates optionally edited in Scrivener</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Users needing control over the parameters in the native Quarto templates shouldn't have to deal with external files. We imported all the templates and partials for the main file types (TeX, HTML, Typst) so they can be edited directly in Scrivener. This is entirely optional.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## PDF</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [doc-class]($!)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [title]($!)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [toc]($!)<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [before-body]($!)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [before-bib]($!)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [biblio]($!)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [after-body]($!)</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">And the Pandoc sub-partials:</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- [tightlist]...</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Resources</p>
+<p class="itemText">- Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the Shortcode Font Awesome style as in `regular bell` regular bell. (There is also Shortcode Env, Shortcode Meta, Shortcode Var).<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- The Plain Person’s Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Quarto Reference - https://quarto.org/docs/reference/</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- The easiest way to publish to Github Pages: Render to docs</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Example of Quarto Book - https://github.com/jja...</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Final word</p>
+<p class="itemText">Consider sponsoring [this project on Github](https://github.com/sponsors/bcdavasconcelos). It would be great to have your support in this and you can rest assured that every cent will trickle down to ScrivQ features and ease of use.</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Sample - Book Entry</p>
+<p class="itemText">This is a DIV with the .column-page class.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">BibTeX &amp; RIS</p>
+<p class="itemText">BibTeX</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```bibtex</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">@book{AristOp,</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">author = {Aristotle},</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">editor = {Bekker, Immanuel},</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">title = {Aristotelis opera},</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">publisher = {Reimer},</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">address = {Berlim},</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">volumes = {4},</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">edition = {1},</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">year = {1831}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">RIS</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```ris</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">TY<span class="Apple-converted-space">  </span>- BOOK</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">ID<span class="Apple-converted-space">  </span>- AristOp</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">AU<span class="Apple-converted-space">  </span>- Aristotle</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">ED<span class="Apple-converted-space">  </span>- Bekker, Immanuel</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">TI<span class="Apple-converted-space">  </span>- Aristotelis opera</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">PB<span class="Apple-converted-space">  </span>- Reimer</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">CY<span class="Apple-converted-space">  </span>- Berlim</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">ET<span class="Apple-converted-space">  </span>- 1</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">VL<span class="Apple-converted-space">  </span>- 4</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Y1<span class="Apple-converted-space">  </span>- 1831</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">ER<span class="Apple-converted-space">  </span>-</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="itemTextStart">empty space</p>
+</li>
+<li>
+<p class="itemTitle">CSL</p>
+<p class="itemText">CSL-YAML</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```yaml</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">---</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">references:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- author:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>- family: Aristotle</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>edition: 1</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>editor:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>- family: Bekker</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>given: Immanuel</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>id: AristOp</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>issued: 1831</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>number-of-volumes: 4</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>publisher: Reimer</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>publisher-place: Berlim</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>title: Aristotelis opera</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>type: book</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">---</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">CSL-JSON</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">```json</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">[</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>"author": [</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>"family": "Aristotle"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>],</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>"edition": "1",</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>"editor": [</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>"family": "Bekker",</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>"given": "Immanuel"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>],</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>"id": "Arist...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Bibliography</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Primary Sources</p>
+<p class="itemText">&lt;$custom:ID&gt;</p>
+</li>
+<li>
+<p class="itemTitle">Secondary Sources</p>
+<p class="itemText">&lt;$custom:ID&gt;</p>
+</li>
+<li>
+<p class="itemTitle">Workflow</p>
+<p class="itemText">&lt;$custom:ID&gt;</p>
+</li>
+<li>
+<p class="itemTitle">Songs</p>
+<p class="itemText">&lt;$custom:ID&gt;</p>
+</li>
+<li>
+<p class="itemTitle">Paintings</p>
+<p class="itemText">&lt;$custom:ID&gt;</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+</ul>
+</ul>
+
+</td>
+<td width="55px">
+</td>
+</tr>
+
+<!-- Bottom margin -->
+<tr><td height="15px"></td></tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

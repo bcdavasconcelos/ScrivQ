@@ -1,1 +1,0 @@
-Markdown to place below sidebar content (text or file path)

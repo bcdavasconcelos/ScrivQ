@@ -1,1 +1,0 @@
-Use <q> tags for quotes in HTML.

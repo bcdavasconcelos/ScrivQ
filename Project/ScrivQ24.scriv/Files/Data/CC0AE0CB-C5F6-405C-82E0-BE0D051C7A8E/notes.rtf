@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 UbuntuMono-Regular;\f2\fnil\fcharset0 GentiumPlus;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f1\fs20 ```\{python\}\
+#| label: fig-polar\
+#| fig-cap: "A line plot on a polar axis"\
+\
+import numpy as np\
+import matplotlib.pyplot as plt\
+\
+r = np.arange(0, 2, 0.01)\
+theta = 2 * np.pi * r\
+fig, ax = plt.subplots(\
+  subplot_kw = \{'projection': 'polar'\} \
+)\
+ax.plot(theta, r)\
+ax.set_rticks([0.5, 1, 1.5, 2])\
+ax.grid(True)\
+plt.show()\
+```\
+\pard\tx0\tx0\tx567\tx1134\tx1701\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::0>
+\f2 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0 \cf0 <$Scr_Ps::0>
+\f1\fs20 ```\{r\}\
+#| label: fig-airquality\
+#| fig-cap: "Temperature and ozone level."\
+#| warning: false\
+\
+library(ggplot2)\
+ggplot(airquality, aes(Temp, Ozone)) +\
+  geom_point() +\
+  geom_smooth(method = "loess")\
+```\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::0>
+\f2 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0 \cf0 <$Scr_Ps::0>
+\f1\fs20 ```\{ruby\}\
+#| label: lst-ruby-computation\
+#| output: asis\
+\
+characters = "\'e1\uc0\u940 \u8049 "\
+\
+require "unicode/name"\
+\
+def unicode_info(character)\
+  character.unpack('U*').map do |i|\
+    i.to_s(16).rjust(4, '0')\
+  end.join.upcase\
+end\
+\
+characters.each_char do |c|\
+  puts "#\{unicode_info(c)\} #\{Unicode::Name.of(c)\}" + "  \\n"\
+end\
+```\
+
+\f0\fs24 <!$Scr_Ps::0>}

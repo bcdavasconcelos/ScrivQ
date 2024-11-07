@@ -1,1 +1,0 @@
-Path to a logo image that will be displayed in the sidebar.

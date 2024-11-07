@@ -1,3 +1,0 @@
-Method use to render math in HTML output (plain, webtex, gladtex, mathml, mathjax, katex).
-
-See the Pandoc documentation on Math Rendering in HTML for additional details.

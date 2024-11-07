@@ -1,1 +1,0 @@
-Citation Style Language file to use for formatting references.

@@ -1,1 +1,0 @@
-Links to source repository actions (none or one or more of edit, source, issue)

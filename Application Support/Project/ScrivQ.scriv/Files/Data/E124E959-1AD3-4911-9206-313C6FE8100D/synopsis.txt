@@ -1,1 +1,0 @@
-Add the bibliography data to the text and don't forget to add the format (eg. bib, ris, yml, md) to the Attributes custom metadata field.

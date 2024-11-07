@@ -1,5 +1,0 @@
-Specify a method for obfuscating mailto: links in HTML documents.
-
-javascript: Obfuscate links using JavaScript.
-references: Obfuscate links by printing their letters as decimal or hexadecimal character references.
-none (default): Do not obfuscate links.

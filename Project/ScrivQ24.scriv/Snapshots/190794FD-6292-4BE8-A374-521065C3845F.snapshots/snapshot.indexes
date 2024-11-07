@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="190794FD-6292-4BE8-A374-521065C3845F">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>validate-yaml: false
+citeproc: false
+citation: true
+cite-method: citeproc
+link-fields: false
+link-citations: true
+link-bibliography: true
+csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
+csl: _extensions/bcdavasconcelos/csl/chicago.csl
+verbose: false
+verbosity: ERROR
+notes-after-punctuation: true
+
+# Use bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+# Then add &lt;$custom:ID&gt; to the text and apply the Div Bibliography Style
+
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+citation-abbreviations:
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-07 20:20:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>validate-yaml: false
+prefer-html: true
+citeproc: false
+citation: true
+cite-method: citeproc
+link-fields: false
+link-citations: true
+link-bibliography: true
+csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
+csl: _extensions/bcdavasconcelos/csl/chicago.csl
+verbose: false
+verbosity: ERROR
+notes-after-punctuation: true
+
+# Use bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+# Then add &lt;$custom:ID&gt; to the text and apply the Div Bibliography Style
+
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+bibliography_&lt;$custom:ID&gt;: "&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;&lt;$custom:Extension&gt;"
+citation-abbreviations:
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

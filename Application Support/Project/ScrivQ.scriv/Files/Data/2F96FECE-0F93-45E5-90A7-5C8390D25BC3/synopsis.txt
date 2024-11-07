@@ -1,1 +1,0 @@
-Generate Open Graph metadata (see Open Graph options)

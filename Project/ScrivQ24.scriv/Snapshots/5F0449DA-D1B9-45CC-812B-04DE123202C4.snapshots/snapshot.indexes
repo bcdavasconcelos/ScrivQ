@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="5F0449DA-D1B9-45CC-812B-04DE123202C4">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>%%| label: fig-mermaid-a
+%%| fig-cap: Figure caption
+%%| column: page
+%%| echo: true
+
+graph TD
+    Subs --&gt;Mat:::I
+    Subs --&gt;|τόδε τι|For:::D
+    Subs --&gt;|τόδε τι|Com:::D2
+    Mat --&gt; Pot:::I
+    For --&gt; Ent:::D
+    Ent --&gt; Ent1:::D
+    Ent --&gt; Ent2:::D
+
+
+    Subs(οὐσία)
+    Mat(ὕλη)
+    Pot(δύναμις)
+    For(μορφὴ καὶ εἶδος)
+    Ent(ἐντελέχεια)
+    Ent1("1:ὡς ἐπιστήμη")
+    Ent2("2:ὡς θεωρεῖν")
+    Com(τὸ ἐκ τούτων)
+
+    Subs(Substance)
+    Mat(Matter)
+    Pot(Potency)
+    For(Form)
+    Ent(Actuality)
+    Ent1(capable of performing its end, but currently not doing so)
+    Ent2(performing its end)
+    Com(Compound)
+
+
+    classDef default fill:none
+    classDef D fill:#a0e85b
+    classDef D2 fill:#fb9643
+    classDef I fill:#fb6961
+
+
+```{mermaid}
+%%| label: fig-mermaid-b
+%%| fig-cap: Figure caption
+%%| column: page
+%%| echo: false
+
+flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+
+```
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

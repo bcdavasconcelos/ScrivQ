@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="BD6D1B58-1B47-49D6-950C-9B1FA19E9078">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+Element
+Prefix
+Markdown Source
+Rendered Output
+Equation A
+eq
+A
+B
+Equation A
+eq
+C
+D
+Listing A
+lst
+E
+F
+
+The first table in a multipart table panel. {#tbl-panel-a-table-a}
+
+Element
+Prefix
+Markdown Source
+Rendered Output
+Equation B
+eq
+A
+B
+Equation B
+eq
+C
+D
+Listing B
+lst
+E
+F
+
+The second table in a multipart table panel. {#tbl-panel-a-table-b}
+
+This is a markdown multi-table panel with two sub-tables generated using a Section Type MultipartTable. Note that Custom Metadata holds the cross-referencing label, layout class, and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: &lt;\$custom:Class&gt;, &lt;\$custom:Attributes&gt;.
+
+
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-04 22:39:34 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+Element
+Prefix
+Markdown Source
+Rendered Output
+Equation A
+eq
+A
+B
+Equation A
+eq
+C
+D
+Listing A
+lst
+E
+F
+
+The first table in a multipart table panel. {#tbl-panel-a-item-a}
+
+Element
+Prefix
+Markdown Source
+Rendered Output
+Equation B
+eq
+A
+B
+Equation B
+eq
+C
+D
+Listing B
+lst
+E
+F
+
+The second table in a multipart table panel. {#tbl-panel-a-item-b}
+
+This is a markdown multi-table panel with two sub-tables generated using a Section Type MultipartTable. Note that Custom Metadata holds the cross-referencing label, layout class, and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: &lt;\$custom:Class&gt;, &lt;\$custom:Attributes&gt;.
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

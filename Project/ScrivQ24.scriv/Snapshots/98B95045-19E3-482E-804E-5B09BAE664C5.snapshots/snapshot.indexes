@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="98B95045-19E3-482E-804E-5B09BAE664C5">
+    <Snapshot Date="2024-11-05 14:29:49 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Setting the IDs In this version of ScrivQ we prioritize manual ID setting. Select the correct ID-Prefix (e.g. sec-) and then fill the ID (e.g. xref) metadata field of different Section Types to allow cross-referencing using Scrivener placeholders such as  @&lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt; that would be replaced into \@sec-xref. 
+This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec-, tbl-, fig-, lst-), making it compatible with all element types.
+## Link anchor
+
+To be less verbose, we have set up a replacement rule that allows a shorter label to be used as the link anchor.
+
+- s\crivlink is replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;.
+- s\crivpath and $\! are replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;&lt;\$Custom:Extension&gt;.
+
+
+Genus
+Species
+Markdown Source
+Rendered Output
+Amsthm
+Conjecture
+`scrivlink`
+scrivlink
+Amsthm
+Corollary
+`scrivlink`
+scrivlink
+Amsthm
+Definition
+`scrivlink`
+scrivlink
+Amsthm
+Example
+`scrivlink`
+scrivlink
+Amsthm
+Exercise
+`scrivlink`
+scrivlink
+Amsthm
+Lemma
+`scrivlink`
+scrivlink
+Amsthm
+Proposition
+`scrivlink`
+scrivlink
+Amsthm
+Theorem
+`scrivlink`
+scrivlink
+Callout
+Caution
+`scrivlink`
+scrivlink
+Callout
+Important
+`scrivlink`
+scrivlink
+Callout
+Note
+`scrivlink`
+scrivlink
+Callout
+Tip
+`scrivlink`
+scrivlink
+Callout
+Warning
+`scrivlink`
+scrivlink
+Computation
+R
+`scrivlink`
+scrivlink
+Computation
+R
+`fig-r-demo-b`
+fig-r-demo-b
+Computation
+R
+`fig-r-demo-c`
+fig-r-demo-c
+Computation
+Python
+`fig-python-demo-a`
+fig-python-demo-a
+Computation
+Python
+`fig-python-demo-b`
+fig-python-demo-b
+Computation
+Python
+`fig-python-demo-c`
+fig-python-demo-c
+Diagram
+Dot
+`fig-dot-a`
+fig-dot-a
+Diagram
+Dot
+`fig-dot-b`
+fig-dot-b
+Diagram
+Dot
+`fig-dot-c`
+fig-dot-c
+Diagram
+Mermaid
+`fig-mermaid-a`
+fig-mermaid-a
+Diagram
+Mermaid
+`fig-mermaid-b`
+fig-mermaid-b
+Diagram
+Mermaid
+`fig-mermaid-c`
+fig-mermaid-c
+Equation
+Equation
+`eq-demo-a`
+eq-demo-a
+Equation
+Equation
+`eq-demo-b`
+eq-demo-b
+Figure
+
+`fig-image-a`
+fig-image-a
+Figure
+Multipart Figure
+`fig-panel-a`
+fig-panel-a
+Figure
+Multipart Figure
+`fig-panel-a-item-a`
+fig-panel-a-item-a
+Figure
+Multipart Figure
+`fig-panel-a-item-b`
+fig-panel-a-item-b
+Listing
+
+`lst-demo-a`
+lst-demo-a
+Listing
+
+`lst-demo-b`
+lst-demo-b
+Table
+
+`tbl-demo-a`
+tbl-demo-a
+Table
+
+`tbl-demo-b`
+tbl-demo-b
+Table
+Multipart Table
+`tbl-panel-a`
+tbl-panel-a
+Table
+Multipart Table
+`tbl-panel-a-item-a`
+tbl-panel-a-item-a
+Table
+Multipart Table
+`tbl-panel-a-item-b`
+tbl-panel-a-item-b
+Section
+
+`scrivlink`
+scrivlink
+Section
+
+`scrivlink`
+scrivlink
+Section
+
+`scrivlink`
+scrivlink
+Section
+
+`scrivlink`
+scrivlink
+Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. {#tbl-cross-references}
+
+## Cross-referencing a table
+
+1. Type your-keyword-of-choice or \scrivlink, select it, and hit Command + L;
+2. Link to the document that contains the table.
+3. Apply a Character Style called Cite.</Text>
+    </Snapshot>
+</SnapshotIndexes>

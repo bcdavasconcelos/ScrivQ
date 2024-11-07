@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="4F1A34C2-9FF1-4219-A19E-D1BA9D1453DD">
+    <Snapshot Date="2023-12-31 16:24:12 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  pdf:
+# We are exporting and using all of the default templates used by Pandoc and Quarto.
+# This way we have full control over the final tex output.
+    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.tex
+    template-partials:
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # latex.template
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # doc-class.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # pandoc.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # tightlist.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # tables.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # graphics.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # citations.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # title.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # toc.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # before-body.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # before-bib.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # biblio.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # after-body.tex
+    pdf-engine: lualatex
+    papersize: a4
+    documentclass: scrbook
+    classoption:
+      - oneside
+      - DIV=10
+      - BCOR=10mm
+      - cleardoublepage=empty
+      - numbers=noenddot
+      - titlepage
+      - toclink=all
+      - toc=bibliography
+      - headinclude
+      - footinclude
+    geometry:
+      - showframe
+      - top=2cm
+      - bottom=2cm
+      - head=1cm
+      - foot=1cm
+      - left=2cm
+      - marginparwidth=4cm
+      - textwidth=12cm
+      - marginparsep=1cm
+      - heightrounded
+      - bindingoffset=0.5cm
+    indent: true
+    fig-cap-location: bottom
+    cap-location: bottom
+    pagestyle: headings
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+      margin-left: 3cm
+      margin-right: 2cm
+      margin-top: 3cm
+      margin-bottom: 1cm
+    block-headings:
+    hyperrefoptions:
+      - pdfstartview=FitR
+      - pdfpagemode=UseOutlines
+      - breaklinks=true
+      - pageanchor=true
+      - linktoc=all
+      - hyperfootnotes=false
+      - bookmarksnumbered
+    metadata-files:
+    header-includes: |
+      \usepackage{setspace}
+      \usepackage{etoolbox}
+      \usepackage{metalogo}
+      \usepackage{xcolor}
+      \usepackage{soul}
+      \definecolor{CTlink}{named}{RoyalBlue} % RoyalBlue {cmyk}{1, 0.50, 0, 0}
+      \definecolor{halfgray}{gray}{0.55} % chapt numbers semi transp .5 .55 .6 .0
+      \setsansfont{AlegreyaSans-Regular}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]
+    include-before: |
+    include-after: |
+    from:
+    output-file:
+    output-ext:
+    standalone: true
+    shortcodes:
+    keep-md:
+    keep-ipynb:
+    ipynb-filters:
+    extract-media:
+    resource-path:
+    default-image-extension:
+    abbreviations:
+    latex-auto-install: true
+    latex-makeindex:
+    latex-auto-mk: true
+    latex-makeindex:
+    latex-makeindex-opts:
+    latex-tlmgr-opts:
+    latex-output-dir:
+    latex-tinytex: true
+    latex-input-paths:
+    latex-min-runs:
+    latex-max-runs:
+    latex-clean: true
+    keep-tex: true
+    babel-lang: english
+    babel-otherlangs:
+      - brazilian
+      - ancientgreek
+      - sanskrit
+    toc: true
+    toc-depth: 3
+    toc-title: Summary
+    lof: true
+    lot: true
+    number-sections: true
+    number-depth: 3
+    number-offset:
+    shift-heading-level-by:
+    top-level-division: chapter
+    fontenc:
+    microtypeoptions:
+    linestretch: 1.3
+    fontsize: 12pt
+    fontfamily: Alegreya
+    fontfamilyoptions:
+    mainfont: Alegreya
+    mainfontoptions:
+      - Numbers=Proportional
+      - Numbers=Lowercase
+    sansfont: Alegreya Sans
+    sansfontoptions:
+    monofont: Consolas
+    monofontoptions:
+    mathfont: Menlo
+    mathfontoptions:
+    CJKmainfont:
+    CJKoptions:
+    colorlinks: true
+    citecolor: RoyalBlue
+    filecolor: RoyalBlue
+    linkcolor: RoyalBlue
+    toccolor: RoyalBlue
+    urlcolor: RoyalBlue
+    fig-align:
+    fig-env:
+    fig-pos:
+    fig-cap-location:
+    fig-width:
+    fig-height:
+    fig-format:
+    fig-dpi:
+    fig-asp:
+    tbl-colwidths:
+    tbl-cap-location:
+    df-print:
+    highlight-style: github
+    code-line-numbers: true
+    code-annotations:
+    code-overflow: wrap
+    code-block-border-left:
+    code-block-bg:
+    syntax-definitions:
+    listings:
+    indented-code-classes:
+    reference-location: margin
+    ascii: false
+    appendix-style: default
+    license:
+    float: true
+    csquotes: true
+    biblio-title: Bibliography
+    biblio-config:
+    biblio-style: philosophy-modern
+    biblatexoptions:
+    natbiboptions:
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-06 21:06:32 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  pdf:
+# We are exporting and using all of the default templates used by Pandoc and Quarto.
+# This way we have full control over the final tex output.
+    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.tex
+    template-partials:
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # latex.template
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # doc-class.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # pandoc.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # tightlist.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # tables.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # graphics.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # citations.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # title.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # toc.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # before-body.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # before-bib.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # biblio.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # after-body.tex
+    pdf-engine: lualatex
+    papersize: a4
+    documentclass: scrbook
+    classoption:
+      - oneside
+      - DIV=10
+      - BCOR=10mm
+      - cleardoublepage=empty
+      - numbers=noenddot
+      - titlepage
+      - toclink=all
+      - toc=bibliography
+      - headinclude
+      - footinclude
+    geometry:
+      - showframe
+      - top=2cm
+      - bottom=2cm
+      - head=1cm
+      - foot=1cm
+      - left=2cm
+      - marginparwidth=4cm
+      - textwidth=12cm
+      - marginparsep=1cm
+      - heightrounded
+      - bindingoffset=0.5cm
+    indent: true
+    fig-cap-location: bottom
+    cap-location: bottom
+    pagestyle: headings
+    block-headings:
+    hyperrefoptions:
+      - pdfstartview=FitR
+      - pdfpagemode=UseOutlines
+      - breaklinks=true
+      - pageanchor=true
+      - linktoc=all
+      - hyperfootnotes=false
+      - bookmarksnumbered
+    metadata-files:
+    header-includes: |
+      \usepackage{setspace}
+      \usepackage{etoolbox}
+      \usepackage{metalogo}
+      \newfontfamily{\sanskritfont}{Noto Serif Devanagari} 
+      \newcommand{\skt}[1]{\foreignlanguage{sanskrit}{\selectfont\sanskritfont #1}}
+      \newenvironment{sanskrit}{\begingroup
+      \selectlanguage{sanskrit}\selectfont\sanskritfont\normalsize}{\endgroup}
+      \usepackage{xcolor}
+      \usepackage{soul}
+      \definecolor{CTlink}{named}{RoyalBlue} % RoyalBlue {cmyk}{1, 0.50, 0, 0}
+      \definecolor{halfgray}{gray}{0.55} % chapt numbers semi transp .5 .55 .6 .0
+      \setsansfont{AlegreyaSans-Regular}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]
+    include-before: |
+    include-after: |
+    from:
+    output-file:
+    output-ext:
+    standalone: true
+    shortcodes:
+    keep-md:
+    keep-ipynb:
+    ipynb-filters:
+    extract-media:
+    resource-path:
+    default-image-extension:
+    abbreviations:
+    latex-auto-install: true
+    latex-makeindex:
+    latex-auto-mk: true
+    latex-makeindex:
+    latex-makeindex-opts:
+    latex-tlmgr-opts:
+    latex-output-dir:
+    latex-tinytex: true
+    latex-input-paths:
+    latex-min-runs:
+    latex-max-runs:
+    latex-clean: true
+    keep-tex: true
+    babel-lang: english
+    babel-otherlangs:
+      - brazilian
+      - ancientgreek
+      - sanskrit
+    toc: true
+    toc-depth: 3
+    toc-title: Summary
+    lof: true
+    lot: true
+    number-sections: true
+    number-depth: 3
+    number-offset:
+    shift-heading-level-by:
+    top-level-division: chapter
+    fontenc:
+    microtypeoptions:
+    linestretch: 1.3
+    fontsize: 12pt
+    fontfamily: Alegreya
+    fontfamilyoptions:
+    mainfont: Alegreya
+    mainfontoptions:
+      - Numbers=Proportional
+      - Numbers=Lowercase
+    sansfont: Alegreya Sans
+    sansfontoptions:
+    monofont: Consolas
+    monofontoptions:
+    mathfont: Menlo
+    colorlinks: true
+    citecolor: RoyalBlue
+    filecolor: RoyalBlue
+    linkcolor: RoyalBlue
+    toccolor: RoyalBlue
+    urlcolor: RoyalBlue
+    highlight-style: github
+    code-line-numbers: true
+    code-annotations:
+    code-overflow: wrap
+    code-block-border-left:
+    code-block-bg:
+    syntax-definitions:
+    listings:
+    indented-code-classes:
+    reference-location: margin
+    ascii: false
+    appendix-style: default
+    float: true
+    csquotes: true
+    biblio-title: Bibliography
+    biblio-config:
+    biblio-style: philosophy-modern
+    biblatexoptions:
+    natbiboptions:
+</Text>
+    </Snapshot>
+    <Snapshot Date="2023-12-31 17:14:44 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  pdf:
+# We are exporting and using all of the default templates used by Pandoc and Quarto.
+# This way we have full control over the final tex output.
+    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.tex
+    template-partials:
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # latex.template
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # doc-class.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # pandoc.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # tightlist.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # tables.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # graphics.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # citations.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # title.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # toc.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # before-body.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # before-bib.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # biblio.tex
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # after-body.tex
+    pdf-engine: lualatex
+    papersize: a4
+    documentclass: scrbook
+    classoption:
+      - oneside
+      - DIV=10
+      - BCOR=10mm
+      - cleardoublepage=empty
+      - numbers=noenddot
+      - titlepage
+      - toclink=all
+      - toc=bibliography
+      - headinclude
+      - footinclude
+    geometry:
+      - showframe
+      - top=2cm
+      - bottom=2cm
+      - head=1cm
+      - foot=1cm
+      - left=2cm
+      - marginparwidth=4cm
+      - textwidth=12cm
+      - marginparsep=1cm
+      - heightrounded
+      - bindingoffset=0.5cm
+    indent: true
+    fig-cap-location: bottom
+    cap-location: bottom
+    pagestyle: headings
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+      margin-left: 3cm
+      margin-right: 2cm
+      margin-top: 3cm
+      margin-bottom: 1cm
+    block-headings:
+    hyperrefoptions:
+      - pdfstartview=FitR
+      - pdfpagemode=UseOutlines
+      - breaklinks=true
+      - pageanchor=true
+      - linktoc=all
+      - hyperfootnotes=false
+      - bookmarksnumbered
+    metadata-files:
+    header-includes: |
+      \usepackage{setspace}
+      \usepackage{etoolbox}
+      \usepackage{metalogo}
+      \newfontfamily{\sanskritfont}{Noto Serif Devanagari} 
+      \newcommand{\skt}[1]{\foreignlanguage{sanskrit}{\selectfont\sanskritfont #1}}
+      \newenvironment{sanskrit}{\begingroup
+      \selectlanguage{sanskrit}\selectfont\sanskritfont\normalsize}{\endgroup}
+      \usepackage{xcolor}
+      \usepackage{soul}
+      \definecolor{CTlink}{named}{RoyalBlue} % RoyalBlue {cmyk}{1, 0.50, 0, 0}
+      \definecolor{halfgray}{gray}{0.55} % chapt numbers semi transp .5 .55 .6 .0
+      \setsansfont{AlegreyaSans-Regular}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]
+    include-before: |
+    include-after: |
+    from:
+    output-file:
+    output-ext:
+    standalone: true
+    shortcodes:
+    keep-md:
+    keep-ipynb:
+    ipynb-filters:
+    extract-media:
+    resource-path:
+    default-image-extension:
+    abbreviations:
+    latex-auto-install: true
+    latex-makeindex:
+    latex-auto-mk: true
+    latex-makeindex:
+    latex-makeindex-opts:
+    latex-tlmgr-opts:
+    latex-output-dir:
+    latex-tinytex: true
+    latex-input-paths:
+    latex-min-runs:
+    latex-max-runs:
+    latex-clean: true
+    keep-tex: true
+    babel-lang: english
+    babel-otherlangs:
+      - brazilian
+      - ancientgreek
+      - sanskrit
+    toc: true
+    toc-depth: 3
+    toc-title: Summary
+    lof: true
+    lot: true
+    number-sections: true
+    number-depth: 3
+    number-offset:
+    shift-heading-level-by:
+    top-level-division: chapter
+    fontenc:
+    microtypeoptions:
+    linestretch: 1.3
+    fontsize: 12pt
+    fontfamily: Alegreya
+    fontfamilyoptions:
+    mainfont: Alegreya
+    mainfontoptions:
+      - Numbers=Proportional
+      - Numbers=Lowercase
+    sansfont: Alegreya Sans
+    sansfontoptions:
+    monofont: Consolas
+    monofontoptions:
+    mathfont: Menlo
+    colorlinks: true
+    citecolor: RoyalBlue
+    filecolor: RoyalBlue
+    linkcolor: RoyalBlue
+    toccolor: RoyalBlue
+    urlcolor: RoyalBlue
+    highlight-style: github
+    code-line-numbers: true
+    code-annotations:
+    code-overflow: wrap
+    code-block-border-left:
+    code-block-bg:
+    syntax-definitions:
+    listings:
+    indented-code-classes:
+    reference-location: margin
+    ascii: false
+    appendix-style: default
+    float: true
+    csquotes: true
+    biblio-title: Bibliography
+    biblio-config:
+    biblio-style: philosophy-modern
+    biblatexoptions:
+    natbiboptions:
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

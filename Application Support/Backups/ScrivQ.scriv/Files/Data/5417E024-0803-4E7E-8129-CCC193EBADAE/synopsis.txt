@@ -1,3 +1,0 @@
-The layout of the title block for this document (none, plain, or default).
-
-To completely disable any styling of the title block, choose the style none. For minimal styling, choose plain.

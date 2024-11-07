@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754">
+    <Snapshot Date="2024-10-31 23:16:40 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+## First things first.
+
+Before you try to compile, run a quarto check on your installation. Some Python and R computations will require additional packages (cf. lst-r-packages).
+
+On Windows, you must install [Ruby](https://www.ruby-lang.org/en/downloads). 
+
+:::{.callout-note collapse=true}
+Ruby compile script
+
+￼
+{#fig-scriv-compile width="auto"} There is a small ruby script that reformats the text from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format.
+
+The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…
+
+:::
+
+
+The ScrivQ template is designed to compile [Quarto](https://quarto.org/docs/get-started/) [Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) with zero configuration. 
+## How to use this template
+
+There is no need to learn everything there is to it immediately. Hit ⌘⌥E to publish your own Quarto Book. Experiment with changing the parameters, and the text, and slowly but surely it will become your template too and you will soon be publishing books with it in no time at all.
+
+- Download the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases). 
+- Sponsor [this project ❤️](https://github.com/sponsors/bcdavasconcelos).
+- Take part in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). 
+- ScrivQ uses [⚒️ Cite Tools](https://bcdavasconcelos.github.io/citetools) and owns a debt of gratitute to [⌨️ \@iandol's Scrivomatic](https://github.com/iandol/scrivomatic).</Text>
+        <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-07 20:20:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+## First things first.
+
+Before you try to compile, be sure to run quarto check to see if everything is in order with your installation. Bear in mind that some computations require additional packages that must be installed beforehand (cf. lst-r-packages). You can exclude those computations to avoid compilation errors.
+
+If you are using Windows, you must install [Ruby](https://www.ruby-lang.org/en/downloads). 
+
+:::{.callout-note collapse=true}
+Ruby compile script
+
+￼
+{#fig-scriv-compile width="auto"} There is a small ruby script that reformats the text from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format.
+
+The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…
+
+:::
+
+
+The ScrivQ template is designed to compile [Quarto](https://quarto.org/docs/get-started/) [Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) right away with zero configuration. 
+## How to use this template
+
+Many hundreds of hours were put into making this project as simple and complete as possible. There is no need to learn everything there is to it immediately. Simply hit ⌘⌥E to publish your own Quarto Book. Experiment with changing the parameters, and the text, and slowly but surely it will become your template too and you will soon be publishing books with it in no time at all.
+
+- Download the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases). 
+- Sponsor [this project ❤️](https://github.com/sponsors/bcdavasconcelos).
+- Take part in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). 
+- ScrivQ uses [⚒️ Cite Tools](https://bcdavasconcelos.github.io/citetools) and owns a debt of gratitute to [⌨️ \@iandol's Scrivomatic](https://github.com/iandol/scrivomatic).</Text>
+        <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 21:55:21 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>If you are using Windows, you must install [Ruby](https://www.ruby-lang.org/en/downloads). 
+
+## First things first.
+
+Before you try to compile, be sure to run quarto check to see if everything is in order with your installation. Bear in mind that some computations require additional packages that must be installed beforehand (cf. lst-r-packages). You can exclude those computations to avoid compilation errors.
+
+:::{.callout-note collapse=true}
+Ruby compile script
+
+￼
+{#fig-scriv-compile} There is a small ruby script that reformats the text from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format.
+
+The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…
+
+:::
+The ScrivQ template is designed to compile [Quarto](https://quarto.org/docs/get-started/) [Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) right away with zero configuration. 
+## How to use this template
+
+Many hundreds of hours were put into making this project as simple and complete as possible. There is no need to learn everything there is to it immediately. Simply hit ⌘⌥E to publish your own Quarto Book. Experiment with changing the parameters, and the text, and slowly but surely it will become your template too and you will soon be publishing books with it in no time at all.
+
+- Download the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases). 
+- Sponsor [this project ❤️](https://github.com/sponsors/bcdavasconcelos).
+- Take part in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). 
+- ScrivQ uses [⚒️ Cite Tools](https://bcdavasconcelos.github.io/citetools) and owns a debt of gratitute to [⌨️ \@iandol's Scrivomatic](https://github.com/iandol/scrivomatic).</Text>
+        <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-05 14:29:50 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>￼
+There is a small ruby script that reformats the text from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format.  {#fig-scriv-compile width="auto"}
+
+The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors. This compiler script descends from Scrivomatic but with heavy adaptations to allow splitting the final document into sub-files. This seemingly simple task introduces many challenges, as footnotes and image data must be moved around before the file is split. Check the compile script if you want to know how this got solved. Please report any errors.
+[Ruby](https://www.ruby-lang.org/en/downloads) must be installed on Windows machines.
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 16:30:30 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>The ScrivQ template is designed to compile [Quarto](https://quarto.org/docs/get-started/) [Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) right away with zero configuration. 
+## How to use this template
+
+Many hundreds of hours were put into making this project as simple and complete as possible. There is no need to learn everything there is to it immediately. Simply hit ⌘⌥E to publish your own Quarto Book. Experiment with changing the parameters, and the text, and slowly but surely it will become your template too and you will soon be publishing books with it in no time at all.
+
+Download the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases). Sponsor [this project ❤️](https://github.com/sponsors/bcdavasconcelos). Take part in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). ScrivQ uses [⚒️ Cite Tools](https://bcdavasconcelos.github.io/citetools) and [⌨️ \@iandol's Scrivomatic](https://github.com/iandol/scrivomatic).
+Before you try to compile, be sure to run quarto check to see if everything is in order with your installation. Bear in mind that some computations require additional packages that must be installed beforehand (cf. lst-r-packages).
+
+
+If you are using Windows, you must install [Ruby](https://www.ruby-lang.org/en/downloads). 
+
+</Text>
+        <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 11:27:10 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>The ScrivQ template is designed to compile [Quarto](https://quarto.org/docs/get-started/) [Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) right away with zero configuration. Download the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases). Sponsor [this project ❤️](https://github.com/sponsors/bcdavasconcelos). Take part in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). ScrivQ uses [⚒️ Cite Tools](https://bcdavasconcelos.github.io/citetools) and [⌨️ \@iandol's Scrivomatic](https://github.com/iandol/scrivomatic).
+
+If you are using Windows, you must install [Ruby](https://www.ruby-lang.org/en/downloads). 
+
+
+Many hundreds of hours were put into making this project as simple and complete as possible. There is no need to learn everything there is to it immediately. Simply hit ⌘⌥E to publish your own Quarto Book. Experiment changing the parameters, the text and that's it. You will be writing your own books with ScrivQ in no time at all.</Text>
+        <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 18:56:46 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>The ScrivQ template is designed to compile [Quarto](https://quarto.org/docs/get-started/) [Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) right away with zero configuration. 
+## How to use this template
+
+Many hundreds of hours were put into making this project as simple and complete as possible. There is no need to learn everything there is to it immediately. Simply hit ⌘⌥E to publish your own Quarto Book. Experiment with changing the parameters, and the text, and slowly but surely it will become your template too and you will soon be publishing books with it in no time at all.
+
+Before you try to compile, be sure to run quarto check to see if everything is in order with your installation. Bear in mind that some computations require additional packages that must be installed beforehand (cf. lst-r-packages). You can exclude those computations to avoid compilation errors.
+
+Download the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases). Sponsor [this project ❤️](https://github.com/sponsors/bcdavasconcelos). Take part in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). 
+
+ScrivQ uses [⚒️ Cite Tools](https://bcdavasconcelos.github.io/citetools) and [⌨️ \@iandol's Scrivomatic](https://github.com/iandol/scrivomatic).
+
+
+If you are using Windows, you must install [Ruby](https://www.ruby-lang.org/en/downloads). 
+
+</Text>
+        <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.</Comments>
+    </Snapshot>
+</SnapshotIndexes>
