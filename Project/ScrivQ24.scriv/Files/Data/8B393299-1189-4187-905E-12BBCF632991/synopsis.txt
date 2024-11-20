@@ -1,0 +1,4 @@
+1. Use the text to supply the bibliography data in whatever format you prefer.
+2. Use the Metadata to indicate the ID (filename) and the EXTENSION (e.g. bib, ris, yml, md). ID-Prefix is optional.
+
+The bibliography will print here. 

@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="AB1222EB-9A53-4594-9486-0CBC5713810F">
-    <Snapshot Date="2024-01-05 11:27:10 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'} 
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-</Text>
-    </Snapshot>
     <Snapshot Date="2024-01-04 18:09:07 -0300">
         <Title>Untitled (Save)</Title>
         <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
@@ -38,15 +21,6 @@ for character in unicodedata.normalize('NFD', characters):
 for character in unicodedata.normalize('NFC', characters):
     print(hex(ord(character)),character,unicodedata.name(character)+'  \n') 
 
-</Text>
-    </Snapshot>
-    <Snapshot Date="2024-01-04 23:59:56 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text># Place your Python code here, see https://quarto.org/docs/computations/python.html 
-import unicodedata
-characters = 'ἄ'
-for character in characters:
-    print(hex(ord(character)),character,unicodedata.name(character)+'  \n') 
 </Text>
     </Snapshot>
 </SnapshotIndexes>

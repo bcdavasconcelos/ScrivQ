@@ -8,6 +8,7 @@
 
 \f0\fs24 \cf0 <$Scr_Ps::0>
 \f1\fs20   pdf:\
+    link-fields: true\
 \pard\pardeftab720\sb40\sa40\partightenfactor0
 
 \f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
@@ -15,49 +16,57 @@
 # This way we have 
 \f2\b \cf2 full control
 \f1\b0 \cf2  over the final tex output.\
-\pard\pardeftab720\sb40\sa40\partightenfactor0
-\cf2     template: {\field{\*\fldinst{HYPERLINK "scrivlnk://4526ED86-0686-4E87-BB63-D53C59766342"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # template.tex\
+    template: {\field{\*\fldinst{HYPERLINK "scrivlnk://4526ED86-0686-4E87-BB63-D53C59766342"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # template.tex\
     template-partials:\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://C743A7FD-CBCD-47CE-B28F-36AB51837D84"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # latex.template\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://4526ED86-0686-4E87-BB63-D53C59766342"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # template.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://E9342B54-3F69-40BE-B8F1-B27CDB26F365"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # doc-class.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://6034C2C1-1601-441F-920D-5C4AFD19ED75"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # pandoc.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://1AE777CB-2531-4561-8F1C-671010BCE1BD"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # tightlist.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://CAC9197C-306A-4782-9A66-C36203DD5B48"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # tables.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://814B7002-93EF-47C8-9B55-091BED88DB7D"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # graphics.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://8B46090D-269C-4A0E-843D-2B55F4C10365"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # citations.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://EFFEEC82-6C67-4552-8906-7251E63142F1"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # title.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://63472BAF-8436-47F6-89EA-B77C605A8252"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # toc.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://F4DBF3DC-C444-47EC-97DB-17C2C045BA0B"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # before-body.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://D4ADAADE-DF45-42C1-8031-A3D359E95A88"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # before-bib.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://E547B1E6-2DE5-4DEA-B643-6368B074368F"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # biblio.tex\
-      - {\field{\*\fldinst{HYPERLINK "scrivlnk://D654FCF3-D555-4F7F-A801-B516D0D6A76A"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # after-body.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://C743A7FD-CBCD-47CE-B28F-36AB51837D84"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # latex.template\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://4526ED86-0686-4E87-BB63-D53C59766342"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # template.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://E9342B54-3F69-40BE-B8F1-B27CDB26F365"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # doc-class.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://6034C2C1-1601-441F-920D-5C4AFD19ED75"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # pandoc.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://1AE777CB-2531-4561-8F1C-671010BCE1BD"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # tightlist.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://CAC9197C-306A-4782-9A66-C36203DD5B48"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # tables.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://814B7002-93EF-47C8-9B55-091BED88DB7D"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # graphics.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://8B46090D-269C-4A0E-843D-2B55F4C10365"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # citations.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://EFFEEC82-6C67-4552-8906-7251E63142F1"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # title.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://63472BAF-8436-47F6-89EA-B77C605A8252"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # toc.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://F4DBF3DC-C444-47EC-97DB-17C2C045BA0B"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # before-body.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://D4ADAADE-DF45-42C1-8031-A3D359E95A88"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # before-bib.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://E547B1E6-2DE5-4DEA-B643-6368B074368F"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # biblio.tex\
+      - {\field{\*\fldinst{HYPERLINK "scrivlnk://D654FCF3-D555-4F7F-A801-B516D0D6A76A"}}{\fldrslt \cf2 <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>}} # after-body.tex\
 \pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
 
 \f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
 \f1\fs20     pdf-engine: lualatex\
-    papersize: a4\
-    documentclass: scrbook\
+\pard\pardeftab720\sb40\sa40\partightenfactor0
+
+\f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20     papersize: a4\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     documentclass: scrbook\
     classoption:\
       - oneside\
-      - DIV=10\
+\pard\pardeftab720\sb40\sa40\partightenfactor0
+
+\f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20       - DIV=10\
       - BCOR=10mm\
-      - cleardoublepage=empty\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20       - cleardoublepage=empty\
       - numbers=noenddot\
       - titlepage\
       - toclink=all\
       - toc=bibliography\
       - headinclude\
       - footinclude\
-    geometry:\
 \pard\pardeftab720\sb40\sa40\partightenfactor0
 
 \f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
-\f1\fs20       - showframe\
-\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
-
-\f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
-\f1\fs20       - top=2cm\
+\f1\fs20     geometry:\
+      - showframe\
+      - top=2cm\
       - bottom=2cm\
       - head=1cm\
       - foot=1cm\
@@ -67,9 +76,12 @@
       - marginparsep=1cm\
       - heightrounded\
       - bindingoffset=0.5cm\
-    indent: true\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20     indent: true\
     fig-cap-location: bottom\
-    cap-location: bottom\
+    tbl-cap-location: bottom\
     pagestyle: headings\
 \pard\pardeftab720\sb40\sa40\partightenfactor0
 
@@ -97,21 +109,16 @@
       \\usepackage\{setspace\}\
       \\usepackage\{etoolbox\}\
       \\usepackage\{metalogo\}\
-\pard\pardeftab720\sb40\sa40\partightenfactor0
-
-\f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
-\f1\fs20       \\newfontfamily\{\\sanskritfont\}\{Noto Serif Devanagari\} \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+\cf0       \\newfontfamily\{\\sanskritfont\}\{Noto Serif Devanagari\} \
       \\newcommand\{\\skt\}[1]\{\\foreignlanguage\{sanskrit\}\{\\selectfont\\sanskritfont #1\}\}\
       \\newenvironment\{sanskrit\}\{\\begingroup\
       \\selectlanguage\{sanskrit\}\\selectfont\\sanskritfont\\normalsize\}\{\\endgroup\}\
       \\usepackage\{xcolor\}\
-      \\usepackage\{soul\}\
       \\definecolor\{CTlink\}\{named\}\{RoyalBlue\} % RoyalBlue \{cmyk\}\{1, 0.50, 0, 0\}\
       \\definecolor\{halfgray\}\{gray\}\{0.55\} % chapt numbers semi transp .5 .55 .6 .0\
 \pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
-
-\f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
-\f1\fs20       \\setsansfont\{AlegreyaSans-Regular\}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]\
+\cf0       \\setsansfont\{AlegreyaSans-Regular\}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]\
 \pard\pardeftab720\sb40\sa40\partightenfactor0
 
 \f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
@@ -199,7 +206,7 @@
 
 \f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
 \f1\fs20     linestretch: 1.3\
-    fontsize: 12pt\
+    fontsize: 10pt\
     fontfamily: Alegreya\
 \pard\pardeftab720\sb40\sa40\partightenfactor0
 
@@ -208,7 +215,7 @@
 \pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
 
 \f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
-\f1\fs20     mainfont: Alegreya\
+\f1\fs20     mainfont: Gentium Plus\
     mainfontoptions:\
       - Numbers=Proportional\
       - Numbers=Lowercase\
@@ -220,7 +227,7 @@
 \pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
 
 \f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
-\f1\fs20     monofont: Consolas\
+\f1\fs20     monofont: Ubuntu Mono\
 \pard\pardeftab720\sb40\sa40\partightenfactor0
 
 \f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
@@ -230,18 +237,14 @@
 
 \f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
 \f1\fs20     colorlinks: true\
-\pard\pardeftab720\sb40\sa40\partightenfactor0
-
-\f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
-\f1\fs20     citecolor: RoyalBlue\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+\cf0     citecolor: RoyalBlue\
     filecolor: RoyalBlue\
     linkcolor: RoyalBlue\
     toccolor: RoyalBlue\
     urlcolor: RoyalBlue\
 \pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
-
-\f0\fs24 \cf0 <!$Scr_Ps::1><$Scr_Ps::0>
-\f1\fs20     highlight-style: github\
+\cf0     highlight-style: github\
     code-line-numbers: true\
 \pard\pardeftab720\sb40\sa40\partightenfactor0
 
@@ -273,10 +276,8 @@
 
 \f0\fs24 \cf2 <!$Scr_Ps::0><$Scr_Ps::1>
 \f1\fs20     biblio-config:\
-\pard\pardeftab720\sb40\sa40\partightenfactor0
-\cf2     biblio-style: philosophy-modern\
-\pard\pardeftab720\sb40\sa40\partightenfactor0
-\cf2     biblatexoptions:\
+    biblio-style: philosophy-modern\
+    biblatexoptions:\
     natbiboptions:\
 
 \f0\fs24 <!$Scr_Ps::1>}

@@ -203,4 +203,45 @@ To be less verbose, we have set up a replacement rule that allows a shorter labe
 
 </Text>
     </Snapshot>
+    <Snapshot Date="2024-11-08 07:55:13 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>The internal Templates section is the starting point for new sections. You can choose from:
+- Div
+- Code
+- Metadata
+- Computation
+- Diagram Dot
+- Diagram Mermaid
+- Equation
+- Anchored Text (That is, a text section with an ID to allow cross-referencing)
+- Text
+- Break and Text
+- Section
+- Break and Section
+- Heading
+- Break and Heading
+- Footnote
+- Bibliography (section and file)
+- File
+
+Pick and configure any section type (use the metadata panel) or experiment with some ready-made examples below. Some elements can be created using Section Types, Styles, or Raw Markup. Find examples using each below along with a quick run-down of what you could do with the Section Types provided:
+
+- Using a Section, create an Unnumbered Section or Appendix.
+- Using a Div, create Amsthm elements (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem), callouts (Caution, Important, Note, Tip, Warning), panels (Multiparts, Multipart Figure, Multipart Table, Figure) and column environments (Page, Page→Right, Page←Left, Screen, Margin).
+- Using a Computation, create R Code and Python computations.
+- Using a Text, create Callouts, Callouts (Raw), Code, Computation, Dot, Equation, Mermaid, Multipart Figure, Python, R, and Table.
+- Create a Bibliography to place at the end of your text. 
+
+If you need to check the markup around a particular section type, see the Notes field of the corresponding template.
+
+
+Cross-referencing: Setting the IDs In this version of ScrivQ we prioritize manual ID setting. Select the correct ID-Prefix (e.g. sec-) and then fill the ID (e.g. xref) metadata field of different Section Types to allow cross-referencing using Scrivener placeholders such as  @&lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt; that would be replaced into \@sec-xref. 
+This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec-, tbl-, fig-, lst-), making it compatible with all element types.
+## Link anchor
+
+To be less verbose, we have set up a replacement rule that allows a shorter label to be used as the link anchor.
+
+- s\crivlink is replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;.
+- s\crivpath and $\! are replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;&lt;\$Custom:Extension&gt;.</Text>
+    </Snapshot>
 </SnapshotIndexes>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="F37A18CB-403C-4619-B139-692DB318338B">
+    <Snapshot Date="2024-11-12 12:26:39 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>All sorts of internal Scrivener Templates have been included for convenience. They serve as starting points to create new sections. Click Project &gt; New From Template and select the desired Section Types from the list, which includes Bibliography, Code, Computation, Diagram Dot, Diagram Mermaid, Div, Equation, File, Metadata, Section, Text, Text (Anchored)*. 
+This provides a huge number of options as the metadata can be customized to create many Quarto elements. Using the Section Type Div, for example, one could create 8 different Amsthm elements, 5 different Callouts, and several Column environments. Using the Computation, one can create all sorts of executable code blocks with R and Python. The Section can be numbered, unnumbered, or appendix with the use of classes. Look at the ready-made examples to see what else is possible.
+
+The internal Scrivener Templates include a reminder in the Notes field of what the markup looks like around each particular Section Type.</Text>
+        <Comments>Text section with ID for cross-referencing.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-11 20:53:13 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Use the internal Templates as starting points to create new sections. Click Project &gt; New From Template. There are over 10 Section Types (e.g. Code, Metadata, Equation, Anchored Text*, Text, Break and Text, Footnote, Bibliography (section and file), File), but relying on metadata customization we can create twice as many types of elements. Using the Div, for example, one could create Amsthm elements (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem), callouts (Caution, Important, Note, Tip, Warning), panels (Multiparts, Multipart Figure, Multipart Table, Figure) and column environments (Page, Page→Right, Page←Left, Screen, Margin).
+Using a Section (Section, Break and Section, Heading, Break and Heading), one could also create an Unnumbered Section or Appendix. The Computation can use R Code and Python. The diagram can be Dot or Mermaid.
+Pick and configure any section type (use the metadata panel) or experiment with some ready-made examples. 
+
+If you need to check the markup around a particular section type, see the Notes field of the corresponding template.</Text>
+        <Comments>Text section with ID for cross-referencing.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-20 15:07:57 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>All sorts of internal Scrivener Templates have been included for convenience. They serve as starting points to create new sections. Click Project &gt; New From Template and select the desired Section Types from the list, which includes Bibliography, Code, Computation, Diagram Dot, Diagram Mermaid, Div, Equation, File, Metadata, Section, Text, Text (Anchored)*. 
+This provides a huge number of options as the metadata can be customized to create many Quarto elements. Using the Section Type Div, for example, one could create 8 different Amsthm elements, 5 different Callouts, and several Column environments. Using the Computation, one can create executable code blocks with R, Python, and Ruby. The Section Type Section can be numbered, unnumbered, or part of the appendix (with the use of classes). 
+Look at the ready-made examples to see what else is possible.</Text>
+        <Comments>Text section with ID for cross-referencing.</Comments>
+    </Snapshot>
+</SnapshotIndexes>

@@ -1,0 +1,1554 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2820
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Alegreya-Regular;\f2\fnil\fcharset0 CodeNewRoman;
+\f3\fnil\fcharset0 UbuntuMono-Regular;\f4\fnil\fcharset0 GentiumPlus;\f5\fnil\fcharset0 AlegreyaSans-Regular;
+\f6\fnil\fcharset0 AlegreyaSans-Light;\f7\fnil\fcharset0 SourceCodeProRoman-Regular;\f8\fnil\fcharset0 SourceCodeProRoman-SemiBold;
+\f9\fnil\fcharset0 UbuntuMono-Italic;\f10\fnil\fcharset0 UbuntuMono-Bold;}
+{\colortbl;\red255\green255\blue255;\red246\green119\blue8;\red205\green175\blue141;\red179\green179\blue179;
+\red255\green255\blue255;\red20\green150\blue44;\red252\green38\blue7;}
+{\*\expandedcolortbl;;\cssrgb\c97950\c54694\c0;\cspthree\c82517\c74262\c63531;\cssrgb\c75407\c75409\c75408;
+\csgray\c100000;\cssrgb\c0\c63927\c22537;\cssrgb\c100000\c24568\c0;}
+\deftab720
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\fi708\sl288\slmult1\sa120\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Ps::0>
+\f1 Select the correct 
+\f0 <$Scr_Cs::5>
+\f2\fs18 ID-Prefix
+\f0\fs24 <!$Scr_Cs::5>
+\f1  (
+\f0 <$Scr_Cs::6>
+\f1\i e.g.
+\f0\i0 <!$Scr_Cs::6>
+\f1  
+\f0 <$Scr_Cs::5>
+\f2\fs18 sec-
+\f0\fs24 <!$Scr_Cs::5>
+\f1 ) and then fill the 
+\f0 <$Scr_Cs::5>
+\f2\fs18 ID
+\f0\fs24 <!$Scr_Cs::5>
+\f1  (
+\f0 <$Scr_Cs::6>
+\f1\i e.g.
+\f0\i0 <!$Scr_Cs::6>
+\f1  
+\f0 <$Scr_Cs::5>
+\f2\fs18 xref
+\f0\fs24 <!$Scr_Cs::5>
+\f1 ) metadata field of different 
+\f0 <$Scr_Cs::7>
+\f1\b Section Types
+\f0\b0 <!$Scr_Cs::7>
+\f1  to allow cross-referencing. This will be achieved using Scrivener placeholders such as  
+\f0 <$Scr_Cs::5>
+\f2\fs18 @<\\$Custom:ID-Prefix><\\$Custom:ID>
+\f0\fs24 <!$Scr_Cs::5>
+\f1  that would be replaced into 
+\f0 <$Scr_Cs::5>
+\f2\fs18 \\@sec-xref
+\f0\fs24 <!$Scr_Cs::5>
+\f1 . This works regardless of the element being cross-referenced (
+\f0 <$Scr_Cs::6>
+\f1\i e.g.
+\f0\i0 <!$Scr_Cs::6>
+\f1  
+\f0 <$Scr_Cs::6>
+\f1\i section
+\f0\i0 <!$Scr_Cs::6>
+\f1 , 
+\f0 <$Scr_Cs::6>
+\f1\i table
+\f0\i0 <!$Scr_Cs::6>
+\f1 , 
+\f0 <$Scr_Cs::6>
+\f1\i figure
+\f0\i0 <!$Scr_Cs::6>
+\f1 , 
+\f0 <$Scr_Cs::6>
+\f1\i listing
+\f0\i0 <!$Scr_Cs::6>
+\f1 ) because this strategy ensures the citation will use the 
+\f0 <$Scr_Cs::5>
+\f2\fs18 <\\$Custom:ID-Prefix>
+\f0\fs24 <!$Scr_Cs::5>
+\f1  pulled from the targeted element (
+\f0 <$Scr_Cs::6>
+\f1\i e.g.
+\f0\i0 <!$Scr_Cs::6>
+\f1  
+\f0 <$Scr_Cs::5>
+\f2\fs18 sec-
+\f0\fs24 <!$Scr_Cs::5>
+\f1 , 
+\f0 <$Scr_Cs::5>
+\f2\fs18 tbl-
+\f0\fs24 <!$Scr_Cs::5>
+\f1 , 
+\f0 <$Scr_Cs::5>
+\f2\fs18 fig-
+\f0\fs24 <!$Scr_Cs::5>
+\f1 , 
+\f0 <$Scr_Cs::5>
+\f2\fs18 lst-
+\f0\fs24 <!$Scr_Cs::5>
+\f1 ), making it compatible with all element types. \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Ps::0><$Scr_Ps::1>
+\f3\fs20 \cf2 ## Link anchor\
+\
+To be less verbose, we have set up a replacement rule that allows a shorter label to be used as the link anchor.\
+, 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 s\\crivlink
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf2  is replaced with 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 <\\$Custom:ID-Prefix><\\$Custom:ID>
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf2 ., 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 s\\crivpath
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf2  and 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 $\\!
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf2  are replaced with 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 <\\$Custom:ID-Prefix><\\$Custom:ID><\\$Custom:Extension>
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf2 .\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::1>
+\f4 \
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Conjecture\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://AD9D9622-999C-48EB-AEC7-730ADADFC8B0"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://AD9D9622-999C-48EB-AEC7-730ADADFC8B0"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Corollary\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://2F58FD78-B20E-4C37-A2ED-A52B17E9474B"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://2F58FD78-B20E-4C37-A2ED-A52B17E9474B"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Definition\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://1E3D8B53-BDFD-4A54-BD3E-3CBC74EE4A36"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://1E3D8B53-BDFD-4A54-BD3E-3CBC74EE4A36"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Example\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://B8D7535A-54DA-4E06-A84C-690A76B8A226"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://B8D7535A-54DA-4E06-A84C-690A76B8A226"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Exercise\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://EFCCF717-E4BA-47A5-9F4B-A5B5542F66C5"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://EFCCF717-E4BA-47A5-9F4B-A5B5542F66C5"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Lemma\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://333EF713-3A70-4BD2-83EE-FA7D03F80D2A"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://333EF713-3A70-4BD2-83EE-FA7D03F80D2A"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Proposition\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://4B576464-6DA8-4F9C-882E-874260520626"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://4B576464-6DA8-4F9C-882E-874260520626"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Amsthm\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Theorem\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://7ECC1307-2F9A-4470-8C97-5FFC535A222B"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://7ECC1307-2F9A-4470-8C97-5FFC535A222B"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU0 Callout\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Caution\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://FDFFF7C5-E825-4EAD-A2C1-B0E6C1F3FFEC"}}{\fldrslt 
+\f0\fs24 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://FDFFF7C5-E825-4EAD-A2C1-B0E6C1F3FFEC"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\i\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i0 \cf0 Callout\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Important\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://6519FB43-5BED-4F99-9D0A-54366D60161F"}}{\fldrslt 
+\f0\fs24 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://6519FB43-5BED-4F99-9D0A-54366D60161F"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\i\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i0 \cf0 Callout\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Note\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://C6EFC83F-3A17-42D2-8B4B-00066EEF3E28"}}{\fldrslt 
+\f0\fs24 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://C6EFC83F-3A17-42D2-8B4B-00066EEF3E28"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\i\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i0 \cf0 Callout\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Tip\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://712085EC-2DB5-4889-9F46-6867C5C5D3FA"}}{\fldrslt 
+\f0\fs24 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://712085EC-2DB5-4889-9F46-6867C5C5D3FA"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\i\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i0 \cf0 Callout\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Warning\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://D35DBCA8-5DDC-4244-AD4E-7E1B32552825"}}{\fldrslt 
+\f0\fs24 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://D35DBCA8-5DDC-4244-AD4E-7E1B32552825"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\i\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\i0\fs24 \cf0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU0 Diagram\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Dot\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://7FB7834C-2F4D-455C-A51E-DA6C79772BB9"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-dot-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://7FB7834C-2F4D-455C-A51E-DA6C79772BB9"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-dot-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Diagram\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Dot\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://7FB7834C-2F4D-455C-A51E-DA6C79772BB9"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-dot-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://7FB7834C-2F4D-455C-A51E-DA6C79772BB9"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-dot-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\i\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i0 \cf0 Diagram\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Dot\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://B60237F2-2C9D-4479-9DA7-BC034A7785EA"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-dot-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://B60237F2-2C9D-4479-9DA7-BC034A7785EA"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-dot-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Diagram\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Mermaid\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://5F0449DA-D1B9-45CC-812B-04DE123202C4"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-mermaid-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://5F0449DA-D1B9-45CC-812B-04DE123202C4"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-mermaid-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Diagram\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Mermaid\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://5F0449DA-D1B9-45CC-812B-04DE123202C4"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-mermaid-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://5F0449DA-D1B9-45CC-812B-04DE123202C4"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-mermaid-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Diagram\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Mermaid\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://84AB15AE-597B-4BC7-AD4A-59B90597DDAB"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-mermaid-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://84AB15AE-597B-4BC7-AD4A-59B90597DDAB"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-mermaid-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU0 Computation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 R\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://5DA0D060-12F3-4AFE-9728-6A6C8F95F20C"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://5DA0D060-12F3-4AFE-9728-6A6C8F95F20C"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Computation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 R\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://3CED719A-36DA-4A3E-8633-0EA14FF1E34E"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-r-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://3CED719A-36DA-4A3E-8633-0EA14FF1E34E"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-r-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Computation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 R\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://3CED719A-36DA-4A3E-8633-0EA14FF1E34E"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-r-demo-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://3CED719A-36DA-4A3E-8633-0EA14FF1E34E"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-r-demo-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Computation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Python\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://AB1222EB-9A53-4594-9486-0CBC5713810F"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-python-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://AB1222EB-9A53-4594-9486-0CBC5713810F"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-python-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Computation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Python\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://CF20C1C9-8E5D-4AA8-9FDF-66D8C686DBE5"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-python-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://CF20C1C9-8E5D-4AA8-9FDF-66D8C686DBE5"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-python-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Computation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Python\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://CF20C1C9-8E5D-4AA8-9FDF-66D8C686DBE5"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-python-demo-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://CF20C1C9-8E5D-4AA8-9FDF-66D8C686DBE5"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 fig-python-demo-c}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight254 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight254 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight254 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight254 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Equation\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Equation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://CC2C2DBC-876F-4FE2-9F62-810ACB2EB821"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 eq-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://CC2C2DBC-876F-4FE2-9F62-810ACB2EB821"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 eq-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Equation\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Equation\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://5E8B19D7-B8B1-462B-B091-4D412EFA8747"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 eq-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://5E8B19D7-B8B1-462B-B091-4D412EFA8747"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 eq-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Figure\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://735C240E-29CD-4BD0-8A37-B97C89E886C6"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-ulysses}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://735C240E-29CD-4BD0-8A37-B97C89E886C6"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-ulysses}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Figure\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Multipart \AppleTypeServicesU0 Figure\AppleTypeServicesU1 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://D7187B69-CF37-43C9-84FA-E57430D19CA4"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-panel-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://D7187B69-CF37-43C9-84FA-E57430D19CA4"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-panel-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Figure\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Multipart Figure\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://D7187B69-CF37-43C9-84FA-E57430D19CA4"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-panel-a-item-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://D7187B69-CF37-43C9-84FA-E57430D19CA4"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-panel-a-item-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Figure\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Multipart Figure\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://D7187B69-CF37-43C9-84FA-E57430D19CA4"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-panel-a-item-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://D7187B69-CF37-43C9-84FA-E57430D19CA4"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 fig-panel-a-item-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Listing\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://0495601D-5B1E-4193-9B99-B49CF3B3A541"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 lst-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://0495601D-5B1E-4193-9B99-B49CF3B3A541"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 lst-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Listing\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://D02E36E9-89E6-4E6F-A58C-644AD726C254"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 lst-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://D02E36E9-89E6-4E6F-A58C-644AD726C254"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 lst-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Table\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://DC414E22-4ED3-473B-8568-F1167841601E"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://DC414E22-4ED3-473B-8568-F1167841601E"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-demo-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Table\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://2D33AFF6-F0C8-4730-B012-D36FC7AAC67A"}}{\fldrslt 
+\f0\fs24 <$Scr_Cs::8>
+\f5\i\fs20 tbl-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://2D33AFF6-F0C8-4730-B012-D36FC7AAC67A"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-demo-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Table\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Multipart Table\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://BD6D1B58-1B47-49D6-950C-9B1FA19E9078"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-panel-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://BD6D1B58-1B47-49D6-950C-9B1FA19E9078"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-panel-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Table\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Multipart Table\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://BD6D1B58-1B47-49D6-950C-9B1FA19E9078"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-panel-a-item-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://BD6D1B58-1B47-49D6-950C-9B1FA19E9078"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-panel-a-item-a}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Table\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 Multipart Table\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 `{\field{\*\fldinst{HYPERLINK "scrivlnk://BD6D1B58-1B47-49D6-950C-9B1FA19E9078"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-panel-a-item-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://BD6D1B58-1B47-49D6-950C-9B1FA19E9078"}}{\fldrslt 
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 tbl-panel-a-item-b}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clcbpat3 \clwWidth4410\clftsWidth3 \clmaxw4410 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Genus
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\b\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\b0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Species
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \AppleTypeServicesU1 <$Scr_Cs::7>
+\f5\b\fs20 Markdown Source
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 <$Scr_Cs::7>
+\f5\b\fs20 Rendered Output
+\f0\b0\fs24 <!$Scr_Cs::7>
+\f5\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU0 Section\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://254557D7-F5D5-406A-A030-ED6B95D1A5F2"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://254557D7-F5D5-406A-A030-ED6B95D1A5F2"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Section\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Heading\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://1788F7B4-4B13-4272-8E68-675F7118CA37"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://1788F7B4-4B13-4272-8E68-675F7118CA37"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Section\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Break + Heading\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://013120A7-08A2-4F81-932E-5B9320B2380E"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://013120A7-08A2-4F81-932E-5B9320B2380E"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f6\fs20 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth4410\clftsWidth3 \clmaxw4410 \clheight20 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrnil \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrnil \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f5 \cf0 Section\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Break + Section\cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \AppleTypeServicesU1 `{\field{\*\fldinst{HYPERLINK "scrivlnk://451C7A53-8188-42DE-94CA-0A63A6E3B80B"}}{\fldrslt 
+\f0\fs24 \AppleTypeServicesU0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\fs20 `\AppleTypeServicesU0 \cell 
+\pard\intbl\itap1\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\pardirnatural\qc\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://451C7A53-8188-42DE-94CA-0A63A6E3B80B"}}{\fldrslt 
+\f0\fs24 \cf0 <$Scr_Cs::8>
+\f5\i\fs20 scrivlink}}
+\f0\fs24 <!$Scr_Cs::8>
+\f5\i\fs20 \cell \lastrow\row
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sb100\sa100\pardirnatural\qc\partightenfactor0
+
+\f0\i0\fs24 \cf0 <$Scr_Ps::2>
+\f5\fs20 Cross-referencing amsthm theorems, diagrams, figures, listings, tables, and sections. 
+\f0\fs24 \cf5 \AppleTypeServicesU1 <$Scr_Cs::9>
+\f3\fs20 \{#tbl-cross-references\}
+\f0\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Cs::9>
+\f5\fs20 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 <!$Scr_Ps::2>
+\f4 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 \expnd0\expndtw0\kerning0
+<$Scr_Ps::3>
+\f7\fs20 ## Cross-referencing a table\cf6 \
+\
+1. 
+\f3 \cf6 Type
+\f7 \cf6  
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \ul \ulc0 <$Scr_Cs::10>
+\f3\fs20 your-keyword-of-choice
+\f0\fs24 \cf6 \expnd0\expndtw0\kerning0
+\ulnone <!$Scr_Cs::10>
+\f7\fs20 \cf6  or 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 s\\crivlink
+\f0\fs24 \cf6 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f7\fs20 \cf6 , 
+\f3 \cf6 select
+\f7 \cf6  it, and hit 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \ul <$Scr_Cs::10>
+\f3\fs20 Command + L
+\f0\fs24 \cf6 \expnd0\expndtw0\kerning0
+\ulnone <!$Scr_Cs::10>
+\f7\fs20 \cf6 ;\
+2. 
+\f3 \cf6 Link
+\f7 \cf6  to the document that contains the table.\
+3. Apply a 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::7>
+\f8\b\fs20 Character Style
+\f0\b0\fs24 \cf6 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::7>
+\f3\fs20 \cf6  
+\f7 \cf6 called 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::6>
+\f9\i\fs20 Cite
+\f0\i0\fs24 \cf6 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::6>
+\f7\fs20 \cf6 .\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Ps::3>
+\f4 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf7 \expnd0\expndtw0\kerning0
+<$Scr_Ps::4>
+\f3\fs20 \cf7 ## Known limitation\
+ \
+This works when we are referencing elements created using 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::7>
+\f10\b\fs20 Section Types
+\f0\b0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::7>
+\f3\fs20 \cf7  as Scrivener Placeholders can only pull information from the section properties.\
+ \
+When referencing elements created using 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::7>
+\f10\b\fs20 Raw Markup
+\f0\b0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::7>
+\f3\fs20 \cf7  or a 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::7>
+\f10\b\fs20 Character Style
+\f0\b0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::7>
+\f3\fs20 \cf7 , we must use the same 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 ID
+\f0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf7  we gave the element (
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::6>
+\f9\i\fs20 e.g.
+\f0\i0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::6>
+\f3\fs20 \cf7  
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 fig-ulysses
+\f0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf7 ) instead of our generic link label (
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::6>
+\f9\i\fs20 e.g.
+\f0\i0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::6>
+\f3\fs20 \cf7  
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <$Scr_Cs::5>
+\f2\fs18 s\\crivlink
+\f0\fs24 \cf7 \expnd0\expndtw0\kerning0
+<!$Scr_Cs::5>
+\f3\fs20 \cf7 ).\
+
+\f0\fs24 \cf7 <!$Scr_Ps::4>}

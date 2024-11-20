@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="CF20C1C9-8E5D-4AA8-9FDF-66D8C686DBE5">
+    <Snapshot Date="2024-11-20 15:07:57 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>#| label: fig-python-demo-a
+#| fig-cap: "A line plot on a polar axis"
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+
+```{python}
+#| label: fig-python-demo-b
+#| fig-cap: "A line plot on a polar axis"
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+</Text>
+    </Snapshot>
     <Snapshot Date="2024-11-05 14:29:50 -0300">
         <Title>Untitled (Save)</Title>
         <Text>#| label: fig-python-demo-b

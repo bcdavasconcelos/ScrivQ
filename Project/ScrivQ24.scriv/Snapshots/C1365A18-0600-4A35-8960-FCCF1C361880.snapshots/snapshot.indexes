@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="C1365A18-0600-4A35-8960-FCCF1C361880">
+    <Snapshot Date="2024-01-09 11:49:42 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>$definitions.typ()$
+
+$typst-template.typ()$
+
+$typst-show.typ()$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$body$
+
+$notes.typ()$
+
+$biblio.typ()$
+
+$for(include-after)$
+$include-after$
+$endfor$
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-11 20:53:14 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>#import "scrivpath": book, part, chapter, my-bibliography, appendices, make-index, index, theorem, definition, notation,remark,corollary,proposition,example,exercise, problem, vocabulary, scr, update-heading-image
+
+//#set text(font: "Linux Libertine")
+//#set text(font: "TeX Gyre Pagella")
+//#set text(font: "Lato")
+//#show math.equation: set text(font: "Fira Math")
+//#show math.equation: set text(font: "Lato Math")
+//#show raw: set text(font: "Fira Code")
+
+#show: book.with(
+  title: "ScrivQ",
+  subtitle: "A Scrivener Template for Quarto Publising",
+  date: "Anno scolastico 2024",
+  author: "Bernardo C. D. A. Vasconcelos",
+  mainColor: rgb("#F36619"),
+  lang: "en",
+  listOfFigureTitle: "List of Figures",
+  listOfTableTitle: "List of Tables",
+  supplementChapter: "Chapter",
+  supplementPart: "Part",
+  part_style: 0,
+  cover: image("./background.svg"),
+  imageIndex: image("./orange1.jpg"),
+  copyright: [
+    Copyright © 2024 Bernardo César Diniz Athayde Vasconcelos
+
+    POLYTROPIKAL Publishing.
+
+    With thanks to the #link("https://github.com/flavio20002/typst-orange-template", "Typst Orange Template.")
+
+    Licensed under the Apache 2.0 License (the “License”).
+    You may not use this file except in compliance with the License. You may obtain a copy of
+    the License at https://www.apache.org/licenses/LICENSE-2.0. Unless required by
+    applicable law or agreed to in writing, software distributed under the License is distributed on an
+    “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and limitations under the License.
+
+    _First printing, &lt;$date:YYYY-MM&gt;_
+    #pagebreak()
+  ]
+  
+)
+
+$definitions.typ()$
+
+$typst-template.typ()$
+
+$typst-show.typ()$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$body$
+
+$notes.typ()$
+
+$biblio.typ()$
+
+$for(include-after)$
+$include-after$
+$endfor$
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

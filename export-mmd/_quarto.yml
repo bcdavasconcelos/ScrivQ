@@ -31,53 +31,20 @@ execute:
   freeze: auto
 
 
-validate-yaml: false
-prefer-html: true
-citation: true
-cite-method: citeproc
-citeproc: false # We are using Cite Tools
-
-csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
-verbose: false
-verbosity: ERROR
-notes-after-punctuation: true
-
-link-fields: false
-link-citations: true
-link-bibliography: true
-
-# Option 1 - Write down the path using the correct syntax: 
-# bibliography_id: "path.ext"
-
-# bibliography_primary-sources: "refs/primary-sources.yml"
-# bibliography_secondary-sources: "refs/secondary-sources.yml"
-
-# Options 2: Use placeholders and link to the bibliography
-# bibliography_: ""
-# Options 3: Use a label for the placeholders and link to the bibliography
-# bibliography_: ""
-
-
-bibliography_primary-sources: "refs/primary-sources.yml" # primary sources
-bibliography_secondary-sources: "refs/secondary-sources.yml" # secondary sources
-bibliography_workflow: "refs/workflow.bib" # Workflow
-bibliography_songs: "refs/songs.yml" # Songs
-bibliography_paintings: "refs/paintings.yml" # Paintings
-
-
 format:
 
 
   html:
-    template: _extensions/bcdavasconcelos/templates/html/template.html # template.html
+    link-fields: true
+    template: _extensions/templates/html/template.html # template.html
     template-partials:
-      - _extensions/bcdavasconcelos/templates/html/html.template # html.template
-      - _extensions/bcdavasconcelos/templates/html/title-block.html # title-block.html
-      - _extensions/bcdavasconcelos/templates/html/template.html # template.html
-      - _extensions/bcdavasconcelos/templates/html/styles.html # styles.html
-      - _extensions/bcdavasconcelos/templates/html/html.styles # html.styles
-      - _extensions/bcdavasconcelos/templates/html/toc.html # toc.html
-      - _extensions/bcdavasconcelos/templates/html/metadata.html # metadata.html
+      - _extensions/templates/html/html.template # html.template
+      - _extensions/templates/html/title-block.html # title-block.html
+      - _extensions/templates/html/template.html # template.html
+      - _extensions/templates/html/styles.html # styles.html
+      - _extensions/templates/html/html.styles # html.styles
+      - _extensions/templates/html/toc.html # toc.html
+      - _extensions/templates/html/metadata.html # metadata.html
     theme:
       light: [Pulse]
       dark: [Cyborg]
@@ -113,13 +80,11 @@ format:
 
 
   pdf:
+    link-fields: true
     pdf-engine: lualatex
-    papersize: a4
     documentclass: scrbook
     classoption:
       - oneside
-      - DIV=10
-      - BCOR=10mm
       - cleardoublepage=empty
       - numbers=noenddot
       - titlepage
@@ -127,20 +92,9 @@ format:
       - toc=bibliography
       - headinclude
       - footinclude
-    geometry:
-      - top=2cm
-      - bottom=2cm
-      - head=1cm
-      - foot=1cm
-      - left=2cm
-      - marginparwidth=4cm
-      - textwidth=12cm
-      - marginparsep=1cm
-      - heightrounded
-      - bindingoffset=0.5cm
     indent: true
     fig-cap-location: bottom
-    cap-location: bottom
+    tbl-cap-location: bottom
     pagestyle: headings
     hyperrefoptions:
       - pdfstartview=FitR
@@ -154,6 +108,13 @@ format:
       \usepackage{setspace}
       \usepackage{etoolbox}
       \usepackage{metalogo}
+      \newfontfamily{\sanskritfont}{Noto Serif Devanagari} 
+      \newcommand{\skt}[1]{\foreignlanguage{sanskrit}{\selectfont\sanskritfont #1}}
+      \newenvironment{sanskrit}{\begingroup
+      \selectlanguage{sanskrit}\selectfont\sanskritfont\normalsize}{\endgroup}
+      \usepackage{xcolor}
+      \definecolor{CTlink}{named}{RoyalBlue} % RoyalBlue {cmyk}{1, 0.50, 0, 0}
+      \definecolor{halfgray}{gray}{0.55} % chapt numbers semi transp .5 .55 .6 .0
       \setsansfont{AlegreyaSans-Regular}[Extension = .otf , BoldFont = AlegreyaSans-Bold , ItalicFont = AlegreyaSans-Italic , BoldItalicFont = AlegreyaSans-BoldItalic ]
     standalone: true
     latex-auto-install: true
@@ -174,15 +135,20 @@ format:
     number-depth: 3
     top-level-division: chapter
     linestretch: 1.3
-    fontsize: 12pt
+    fontsize: 10pt
     fontfamily: Alegreya
-    mainfont: Alegreya
+    mainfont: Gentium Plus
     mainfontoptions:
       - Numbers=Proportional
       - Numbers=Lowercase
     sansfont: Alegreya Sans
-    monofont: Consolas
+    monofont: Ubuntu Mono
     colorlinks: true
+    citecolor: RoyalBlue
+    filecolor: RoyalBlue
+    linkcolor: RoyalBlue
+    toccolor: RoyalBlue
+    urlcolor: RoyalBlue
     highlight-style: github
     code-line-numbers: true
     code-overflow: wrap
@@ -194,24 +160,29 @@ format:
 
 
   typst-citations:
+    link-fields: false # if true, compilation fails
     title: Hello, ScrivQ
     author: Bernardo Vasconcelos
     date: 2024-11
     abstract: The Abstract
-    toc: true
+    toc: false
     number-sections: true
     number-depth: 3
     fontsize: 12pt
+    mainfont: Gentium Plus
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+    tbl-cap-location: bottom
     keep-typ: true
     prefer-html: true
     papersize: a4 
-    template: _extensions/bcdavasconcelos/templates/typst/template.typ # template
+    template: _extensions/templates/typst/orange/template.typ # template
     template-partials:
-        - _extensions/bcdavasconcelos/templates/typst/definitions.typ # definitions
-        - _extensions/bcdavasconcelos/templates/typst/typst-template.typ # typst-template
-        - _extensions/bcdavasconcelos/templates/typst/typst-show.typ # typst-show
-        - _extensions/bcdavasconcelos/templates/typst/notes.typ # notes
-        - _extensions/bcdavasconcelos/templates/typst/biblio.typ # biblio
+        - _extensions/templates/typst/definitions.typ # definitions
+        - _extensions/templates/typst/orange/typst-template.typ # typst-template
+        - _extensions/templates/typst/typst-show.typ # typst-show
+        - _extensions/templates/typst/notes.typ # notes
+        - _extensions/templates/typst/biblio.typ # biblio
 
 
   docx:
@@ -230,4 +201,25 @@ format:
     self-contained-math: false
     standalone: true
     highlight-style: github
+
+
+validate-yaml: false
+prefer-html: true
+citation: true
+cite-method: citeproc
+citeproc: false # CiteTools will call Citeproc
+
+csl: _extensions/csl/abnt-phi.csl # ABNT-Phi.csl
+verbose: false
+verbosity: ERROR
+notes-after-punctuation: true
+
+link-citations: true
+link-bibliography: true
+
+bibliography_primary-sources: "refs/primary-sources.yml" # primary sources
+bibliography_secondary-sources: "refs/secondary-sources.yml" # secondary sources
+bibliography_workflow: "refs/workflow.bib" # Workflow
+bibliography_songs: "refs/songs.yml" # Songs
+bibliography_paintings: "refs/paintings.yml" # Paintings
 

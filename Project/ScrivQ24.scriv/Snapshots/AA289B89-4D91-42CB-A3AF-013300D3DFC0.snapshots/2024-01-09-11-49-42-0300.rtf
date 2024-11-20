@@ -1,0 +1,89 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 UbuntuMono-Regular;\f2\fnil\fcharset0 GentiumPlus;
+\f3\fnil\fcharset0 CodeNewRoman;\f4\fnil\fcharset0 UbuntuMono-Italic;}
+{\colortbl;\red255\green255\blue255;\red128\green128\blue128;\red127\green127\blue127;}
+{\*\expandedcolortbl;;\csgray\c57300;\csgray\c57042;}
+\deftab720
+\pard\pardeftab720\sb40\sa40\partightenfactor0
+
+\f0\fs24 \cf2 <$Scr_Ps::0>
+\f1\fs20 \cf2   # {\field{\*\fldinst{HYPERLINK "https://quarto.org/docs/prerelease/1.4/typst.html"}}{\fldrslt https://quarto.org/docs/prerelease/1.4/typst.html}}\
+    # @PROBLEM: Compilation fails when referencing unnumbered headings
+\f2\fs24 \cf0 \
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0 \cf0 <!$Scr_Ps::0><$Scr_Ps::1>
+\f1\fs20   typst-citations:\
+    title: Hello, ScrivQ\
+    author: Bernardo Vasconcelos\
+    date: <$date:YYYY-MM>\
+    abstract: The Abstract\
+    toc: true\
+    number-sections: true\
+    number-depth: 3\
+    fontsize: 12pt\
+    keep-typ: true\
+    prefer-html: true\
+    papersize: {\field{\*\fldinst{HYPERLINK "scrivcmt://9C5B9C95-DB74-4685-B1D2-FAFA8C7EC41B"}}{\fldrslt a4}} 
+\f0\fs24 \cf3 \expnd0\expndtw0\kerning0
+<$Scr_Cs::2>
+\f1\fs20 #
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 <!$Scr_Cs::2>
+\f1\fs20 \
+    template: {\field{\*\fldinst{HYPERLINK "scrivlnk://658CF999-F747-4853-9825-13B2E317FB11"}}{\fldrslt <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension> # template}}\
+    template-partials:\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://9C5A9C04-831D-4C00-9011-C965437DB891"}}{\fldrslt \cf0         - <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension> # definitions}}\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://4D032452-6D27-499D-99F9-1ED803E455DB"}}{\fldrslt \cf0         - <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension> # typst-template}}\
+{\field{\*\fldinst{HYPERLINK "scrivlnk://250D9CC3-B19D-4A02-BA76-6C728B8C3947"}}{\fldrslt         - <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension> # typst-show}}\
+{\field{\*\fldinst{HYPERLINK "scrivlnk://8A6DC95A-0734-4C64-A6E0-38E3A4B27F48"}}{\fldrslt         - <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension> # notes}}\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "scrivlnk://549CF804-7E08-4D5E-ADC8-47C0177A3641"}}{\fldrslt \cf0         - <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension> # biblio}}\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+\cf0     include-in-header:\
+\pard\tx0\tx0\tx567\tx1134\tx1701\pardeftab720\sl288\slmult1\pardirnatural\qj\partightenfactor0
+\cf0       {\field{\*\fldinst{HYPERLINK "scrivlnk://B1D01D41-CA19-4AF6-9A87-EFD327E2A100"}}{\fldrslt - <$Custom:ID-Prefix><$Custom:ID><$Custom:Extension>   # typst-orange}}\
+\pard\pardeftab720\sb40\sa40\partightenfactor0
+
+\f0\fs24 \cf2 <!$Scr_Ps::1><$Scr_Ps::0>
+\f1\fs20 \cf2     # 1 definitions 2 typst-template 3 typst-show\
+      - text: |\
+    include-before-body: # after \\begin\{document\} \
+      - text: |\
+          #show heading: set text(navy)\
+    # 4 body 5 notes 6 biblio\
+    include-after-body: # before \\end\{document\}\
+      - text: |\
+\
+    # @PROBLEM: Compilation fails because {\field{\*\fldinst{HYPERLINK "scrivlnk://412AE472-9292-4513-94C3-23D7C3FB8F1C"}}{\fldrslt \cf2 citation-backlinks}} create dead links from entries in the bibliography to labels 
+\f0\fs24 \cf0 <$Scr_Cs::3>
+\f3\fs18 <cite_id>
+\f0\fs24 \cf2 <!$Scr_Cs::3>
+\f1\fs20 \cf2  that don't work inside table cells in Typst. \
+    # @SOLUTION: Avoid citations inside table cells {\field{\*\fldinst{HYPERLINK "scrivlnk://BEF1B346-515E-49D5-BAEB-19606A087348"}}{\fldrslt \cf2 [1]}} or turn off citation links below (if there is no link 
+\f0\fs24 \cf0 <$Scr_Cs::4>
+\f4\i\fs20 from
+\f0\i0\fs24 \cf2 <!$Scr_Cs::4>
+\f1\fs20 \cf2  the citation, there is no backlink).
+\f2\fs24 \cf0 \
+\pard\pardeftab720\sb40\sa40\partightenfactor0
+
+\f1\fs20 \cf2 \
+    link-fields: false \
+    link-citations: false\
+\
+    section-numbering: 1.1.a\
+    margin: # x, y, top, bottom, left, right\
+    # {\field{\*\fldinst{HYPERLINK "https://quarto.org/docs/prerelease/1.4/typst.html#fonts-support"}}{\fldrslt https://quarto.org/docs/prerelease/1.4/typst.html#fonts-support}}\
+    mainfont:\
+    font-paths:\
+    columns: 2\
+    bibliography:\
+    bibliographystyle: # alphanumeric, american-anthropological-association, american-chemical-society, american-geophysical-union, american-institute-of-aeronautics-and-astronautics, american-institute-of-physics, american-medical-association, american-meteorological-society, american-physics-society, american-physiological-society, american-political-science-association, american-psychological-association, american-society-for-microbiology, american-society-of-civil-engineers, american-society-of-mechanical-engineers, american-sociological-association, angewandte-chemie, annual-reviews, annual-reviews-author-date, associacao-brasileira-de-normas-tecnicas, association-for-computing-machinery, biomed-central, bristol-university-press, british-medical-journal, cell, chicago-author-date, chicago-fullnotes, chicago-notes, copernicus, council-of-science-editors, council-of-science-editors-author-date, current-opinion, deutsche-gesellschaft-f\'fcr-psychologie, deutsche-sprache, elsevier-harvard, elsevier-vancouver, elsevier-with-titles, frontiers, future-medicine, future-science, gb-7714-2005-numeric, gb-7714-2015-author-date, gb-7714-2015-note, gb-7714-2015-numeric, gost-r-705-2008-numeric, harvard-cite-them-right, institute-of-electrical-and-electronics-engineers, institute-of-physics-numeric, iso-690-author-date, iso-690-numeric, karger, mary-ann-liebert-vancouver, modern-humanities-research-association, modern-language-association, modern-language-association-8, multidisciplinary-digital-publishing-institute, nature, pensoft, public-library-of-science, royal-society-of-chemistry, sage-vancouver, sist02, spie, springer-basic, springer-basic-author-date, springer-fachzeitschriften-medizin-psychologie, springer-humanities-author-date, springer-lecture-notes-in-computer-science, springer-mathphys, springer-socpsych-author-date, springer-vancouver, taylor-and-francis-chicago-author-date, taylor-and-francis-national-library-of-medicine, the-institution-of-engineering-and-technology, the-lancet, thieme, trends, turabian-author-date, turabian-fullnote-8, vancouver, vancouver-superscript\
+    csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl\
+\
+\
+\pard\pardeftab720\sb40\sa40\partightenfactor0
+
+\f0\fs24 \cf2 <!$Scr_Ps::0>}

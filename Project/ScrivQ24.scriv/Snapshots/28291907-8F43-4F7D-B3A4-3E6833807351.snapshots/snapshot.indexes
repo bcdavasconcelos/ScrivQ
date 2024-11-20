@@ -26,29 +26,6 @@ Some elements can be created in a variety of ways (e.g., using Styles, Section T
 If you need to remember the markup around a particular section type, just check the Notes field of the corresponding template.
 </Text>
     </Snapshot>
-    <Snapshot Date="2024-01-05 11:40:08 -0300">
-        <Title>Untitled (Save)</Title>
-        <Text>ScrivQ is a sample Scrivener project to publish books with Quarto, an academic and technical publishing system built with Pandoc, the universal markup converter. Using ScrivQ to publish with Quarto is easy. We could use this very text section with raw markup to create any element in our book or website, or we could more easily use the affordances of ScrivQ.
-The Templates section on top of the Binder is a starting place for new sections. Pick and configure any of the project section types (Div, Code, Metadata, Computation, Diagram Dot, Diagram Mermaid, Text, Anchored Text, Break and Text, Section, Break and Section, Heading, Break and Heading, Footnote, Equation, File) or experiment with some of the ready-made examples which show how to:
-Create an Unnumbered Section or Appendix using a Section.
-Create Amsthm elements (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem), callouts (Callout Caution, Callout Important, Callout Note, Callout Tip, Callout Warning), multipart panels (Multiparts, Multipart Figure, Multipart Table, Figure) and environments (Column Page, Column Page→Right, Column Page←Left, Column Screen, Column Margin) using a Div.
-Create R Code and Python computations using a Computation (surprise, surprise!).
-Create Callouts, Callouts (Raw), Code, Computation, Computation (Raw), Dot, Equation, Figure, Mermaid, Multipart Figure, Python, R, and Table using a simple text section.
-Create a Bibliography to place at the end of your text. 
-
-## Bibliographies used in multiple locations need a different approach
-
-Each bibliography part must be in a separate file, so create as many sections as you need with the File Section Type to generate the bibliography files (e.g. [Primary Sources]($!), [Secondary Sources]($!)). Later, head over to the [_quarto]($!) file and register them to the bibliography section according to the instructions on site. 
-
-## But should I use a specific Section Type or...?
-
-Some elements can be created in a variety of ways (e.g., using Styles, Section Types, and Raw Markup). There is no single best option. We explore all of them in this template. 
-
-## What does Section Type X mean again in terms of markup?
-
-If you need to remember the markup around a particular section type, just check the Notes field of the corresponding template.
-</Text>
-    </Snapshot>
     <Snapshot Date="2024-01-05 16:30:31 -0300">
         <Title>Untitled (Save)</Title>
         <Text>ScrivQ is a sample Scrivener project to publish books with Quarto, an academic and technical publishing system built with Pandoc, the universal markup converter. Using ScrivQ to publish with Quarto is easy. We could use this very text section with raw markup to create any element in our book or website, or we could more easily use the affordances of ScrivQ.
@@ -67,6 +44,29 @@ Each bibliography part must be in a separate file, so 1. distribute your sources
 :::{refs_\&lt;$Custom:ID&gt;  
 :::
 ```
+
+## But should I use a specific Section Type or...?
+
+Some elements can be created in a variety of ways (e.g., using Styles, Section Types, and Raw Markup). There is no single best option. We explore all of them in this template. 
+
+## What does Section Type X mean again in terms of markup?
+
+If you need to remember the markup around a particular section type, just check the Notes field of the corresponding template.
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 11:40:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>ScrivQ is a sample Scrivener project to publish books with Quarto, an academic and technical publishing system built with Pandoc, the universal markup converter. Using ScrivQ to publish with Quarto is easy. We could use this very text section with raw markup to create any element in our book or website, or we could more easily use the affordances of ScrivQ.
+The Templates section on top of the Binder is a starting place for new sections. Pick and configure any of the project section types (Div, Code, Metadata, Computation, Diagram Dot, Diagram Mermaid, Text, Anchored Text, Break and Text, Section, Break and Section, Heading, Break and Heading, Footnote, Equation, File) or experiment with some of the ready-made examples which show how to:
+Create an Unnumbered Section or Appendix using a Section.
+Create Amsthm elements (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem), callouts (Callout Caution, Callout Important, Callout Note, Callout Tip, Callout Warning), multipart panels (Multiparts, Multipart Figure, Multipart Table, Figure) and environments (Column Page, Column Page→Right, Column Page←Left, Column Screen, Column Margin) using a Div.
+Create R Code and Python computations using a Computation (surprise, surprise!).
+Create Callouts, Callouts (Raw), Code, Computation, Computation (Raw), Dot, Equation, Figure, Mermaid, Multipart Figure, Python, R, and Table using a simple text section.
+Create a Bibliography to place at the end of your text. 
+
+## Bibliographies used in multiple locations need a different approach
+
+Each bibliography part must be in a separate file, so create as many sections as you need with the File Section Type to generate the bibliography files (e.g. [Primary Sources]($!), [Secondary Sources]($!)). Later, head over to the [_quarto]($!) file and register them to the bibliography section according to the instructions on site. 
 
 ## But should I use a specific Section Type or...?
 
@@ -101,6 +101,28 @@ If you haven't, check his [writing in Scrivener tutorial](https://github.com/ian
 
 In ScrivQ we can use Section Types or Paragraph Styles to create Sections, Tables, Equations, Figures, Listings, Callouts (Caution, Important, Note, Tip, Warning), and Amsthm environments (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem). We can also use Character Styles to reference any of them. Keep reading to learn how.</Text>
         <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-20 15:07:57 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>The ScrivQ template is designed to compile [Quarto Books](https://quarto.org/docs/books/) (PDF*, DOCX, and HTML) with zero configuration and no dependencies on external files. The bibliography, the template files, extensions, and filters are all included in the project and will be created by the compiler script.
+
+## When Quarto is installed...
+
+Hit Cmd + Opt + E to publish your Quarto Book right away.
+
+## ScrivQ
+
+- Download the [latest release](https://github.com/bcdavasconcelos/ScrivQ/releases). 
+- Sponsor [this project](https://github.com/sponsors/bcdavasconcelos).
+- Take part in the discussion at the [Scrivener forum](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). 
+
+## Thank you
+
+[\@iandol](https://github.com/iandol) for the exceptional [Scrivomatic](https://github.com/iandol/scrivomatic) from which ScrivQ descended.
+
+Check his [writing in Scrivener tutorial](https://github.com/iandol/scrivomatic#writing-in-scrivener), if you haven't done so yet.
+</Text>
+        <Comments>Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for LaTeX to PDF output.</Comments>
     </Snapshot>
     <Snapshot Date="2024-01-05 00:16:26 -0300">
         <Title>Untitled (Save)</Title>

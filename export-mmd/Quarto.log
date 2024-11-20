@@ -1,12 +1,12 @@
 --> Input Filename: /Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.md
 --> Modified path: /Users/bcdav/.rbenv/shims:/Users/bcdav/.pyenv/shims:/usr/local/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/bcdav/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
---> 5 notes replaced.
---> 8 figures fixed.
---> 50 files created
+--> 6 figures fixed.
+--> 6 notes replaced.
+--> 48 files created
 [1mpandoc [22m
   to: html
   output-file: ScrivQ24.html
-  template: _extensions/bcdavasconcelos/templates/html/template.html
+  template: _extensions/templates/html/template.html
   standalone: true
   embed-resources: false
   section-divs: true
@@ -28,30 +28,30 @@
   lang: en
   website:
     author: Bernardo César Diniz Athayde Vasconcelos
-    title: 'Hello, ScrivQ'
-    description: 'A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).'
+    title: Hello, ScrivQ
+    description: A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).
     reader-mode: true
     search:
       location: navbar
       type: overlay
     page-navigation: true
     back-to-top-navigation: true
-  title: 'Hello, ScrivQ!'
+  title: Hello, ScrivQ!
   license: CC BY-NC-SA
   copyright:
     holder: Bernardo C. D. A. Vasconcelos
     year: 2024
   citation: true
-  csl: _extensions/bcdavasconcelos/csl/abnt-phi.csl
+  csl: _extensions/csl/abnt-phi.csl
   verbose: false
   notes-after-punctuation: true
-  link-fields: false
   link-bibliography: true
   bibliography_primary-sources: refs/primary-sources.yml
   bibliography_secondary-sources: refs/secondary-sources.yml
   bibliography_workflow: refs/workflow.bib
   bibliography_songs: refs/songs.yml
   bibliography_paintings: refs/paintings.yml
+  link-fields: true
   theme:
     light:
       - Pulse
@@ -75,9 +75,8 @@
   code-copy: true
   appendix-style: default
   
-[33mWARNING (/Applications/quarto/share/filters/main.lua:13900) Unable to resolve crossref @fig-image-a
-[39mOutput created: ScrivQ24.html
+Output created: ScrivQ24.html
 
 --> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.qmd" --to html
 Process finished in time
---> Processing took: 3.512884s
+--> Processing took: 3.805426s

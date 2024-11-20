@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="3CED719A-36DA-4A3E-8633-0EA14FF1E34E">
+    <Snapshot Date="2024-11-20 15:07:57 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>#| label: fig-r-demo-a
+#| fig-cap: "Temperature and ozone level."
+#| column: page-right
+#| echo: false
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+
+```{r}
+#| label: fig-r-demo-b
+#| fig-cap: "Temperature and ozone level."
+#| column: page-right
+#| echo: false
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+</Text>
+    </Snapshot>
     <Snapshot Date="2024-01-05 11:27:10 -0300">
         <Title>Untitled (Save)</Title>
         <Text># Place your R code here, see https://quarto.org/docs/computations/r.html
@@ -31,9 +60,10 @@ ggplot(airquality, aes(Temp, Ozone)) +
 
 </Text>
     </Snapshot>
-    <Snapshot Date="2024-01-04 18:09:07 -0300">
+    <Snapshot Date="2024-01-04 23:59:56 -0300">
         <Title>Untitled (Save)</Title>
         <Text># Place your R code here, see https://quarto.org/docs/computations/r.html
+#| label: fig-r-demo-a
 #| fig-cap: "My figure caption"
 #| column: page
 #| warning: false
@@ -46,10 +76,9 @@ ggplot(airquality, aes(Temp, Ozone)) +
 
 </Text>
     </Snapshot>
-    <Snapshot Date="2024-01-04 23:59:56 -0300">
+    <Snapshot Date="2024-01-04 18:09:07 -0300">
         <Title>Untitled (Save)</Title>
         <Text># Place your R code here, see https://quarto.org/docs/computations/r.html
-#| label: fig-r-demo-a
 #| fig-cap: "My figure caption"
 #| column: page
 #| warning: false

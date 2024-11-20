@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 # Rewrite of Scrivener markdown for cross-referencing system used by Quarto; also adds paths for LaTeX, python and others.
-# Version: 0.1.11 (2024-11-03-10-57)
+# Version: 0.1.11 (2024-11-20-15-54)
 # Script by [Iandol](https://github.com/iandol) & Bernardo Vasconcelos.
 
 Encoding.default_external = Encoding::UTF_8
@@ -14,12 +14,17 @@ require 'fileutils' # ruby standard library to deal with files
 require 'timeout'
 #require 'debug/open_nonstop' # debugger
 
-rep_patterns = {/\{\#(.*?)\s+\}/ => '{#\1}', # erase extra spaces
-                / \{\s*id=""\h*(width="" height="")*\s*}\n/ => "\n",
-                /\s*(id=""|width="" height="")\s*/ => '' # removal of empty tags
+rep_patterns = { /(id=""|width=""|height="")/ => '',
+                 /\s+width=/ => ' width=',
+                 /{\s*(#.*?)\s*}/ => '{\1}',
+                 /\{\s*(.+?)\s*\}/ => '{\1}',
+                 /^(#+) (.+?)\{\s*\}/ => '\1 \2',
+                 /(\n|\s|\h)+\Z/ => "\n\n",
+                 /\n{4,}/ => "\n\n", # cosmetic only: remove long runs (4 or more) of newlines
+                 /\$\$ ?\n\{\#eq/ => '$$ {#eq' # puts {#id} onto end of $$ math block lines
 }
 
-dry_run = true # set to true to test without overwriting the file
+dry_run = false # set to true to test without overwriting the file
 # decrease_heading_cmd = 'quarto pandoc -f markdown -t markdown --shift-heading-level-by=-1 --wrap=none'
 in_filename = File.expand_path(ARGV[0])
 
@@ -39,7 +44,7 @@ def inline_fn(str, style = :pandoc)
   return str unless str.is_a?(String) && !str.empty? && str.include?('[^')
 
   ref_start = ''
-  text = str
+  text = str.gsub(/\[\^fn(\d+)/, '[^\1') # Remove the fn prefix from footnotes)
   counter = 0
 
   until ref_start.nil?
@@ -120,20 +125,6 @@ makePath()
 begin
   File.open(in_filename, 'r') do |file|
     text = file.read
-
-    rep_patterns.each do |pattern, replacement|
-      text.gsub!(pattern, replacement)
-    end
-
-    # cosmetic only: remove long runs (4 or more) of newlines
-    text.gsub!(/\n{4,}/,"\n\n")
-    # Remove the fn prefix from footnotes
-    text.gsub!(/\[\^fn(\d+)/, '[^\1') if text =~ /\[\^fn\d+/
-    # Convert footnotes to pandoc style
-    text = inline_fn_pandoc("#{text}\n\n") if text =~ /\[\^\d+\]:/
-    # This regex puts {#id} onto end of $$ math block lines
-    text.gsub!(/\$\$ ?\n\{\#eq/,'$$ {#eq')
-
     # Figure markup needs to go from the bottom to their in-line references.
     # From
     # [{#fig-id} Caption][Reference]
@@ -168,10 +159,16 @@ begin
         # puts "----> Found figure: ![#{caption_text}](#{fig_file}){#{fig_id}#{width_and_height}}"
       end
       # Erase Scrivener references at end of file
-      text.gsub!(/^\[(?<reference>.+?)\]: (?<url>.+?) ?\{(?<dimensions>.+?)}$/, '')
+      text.gsub!(/^\[(?<reference>.+?)\]: (?<url>.+?) ?\{(?<dimensions>.+?)}$\n*/, '')
     end
     puts "--> #{f} figures fixed." if f.positive?
 
+    # Convert footnotes to pandoc style
+    text = inline_fn_pandoc("#{text}\n\n")
+    # Replace patterns
+    rep_patterns.each do |pattern, replacement|
+      text.gsub!(pattern, replacement)
+    end
     # Extract and create files from pattern
     # <!-- begin_file: "path/to/file.ext" -->`file_content`<!-- end_file: "path/to/file.ext" -->\n
     if text =~ /<!-- begin_file: "([^"]+)" -->/ # If there are new files to be added
@@ -202,7 +199,7 @@ begin
     else
       puts '--> No new files detected!'
     end
-    to_file.puts text
+    to_file.puts text.gsub(/\n{2,}/, "\n\n")
   end
   to_file.close
   FileUtils.mv(to_file.path, outo_filename)
@@ -218,11 +215,11 @@ cmd = if fileType.empty?
         "quarto render \"#{outo_filename}\" --to #{fileType}"
       end
 
-pid = Process.spawn(cmd)
 
 unless dry_run
   begin
-    Timeout.timeout(180) do
+    pid = Process.spawn(cmd)
+    Timeout.timeout(60) do
       puts "--> Running Command: #{cmd}" unless dry_run
       Process.wait(pid)
       puts 'Process finished in time'
@@ -240,21 +237,8 @@ unless dry_run
   else
     puts "There was some problem opening #{res}, check compiler log…"
   end
+#  `open "#{outo_filename}"`
 end
-`open Quarto.log`
-# `open "#{outo_filename}"`
 
 tend = Time.now - tstart
 puts "--> Processing took: #{tend.to_s}s"
-
-
-
-# if File.file?('Quarto.log') && isRecent('Quarto.log') && git && !commit_msg.nil? && !commit_msg.empty?
-#   begin
-#     `git add --all`
-#     `git commit -m "#{Time.now.strftime('ScrivQ %H:%M:%S %d-%m-%Y')} #{commit_msg}"` if File.file?('Quarto.log') && isRecent('Quarto.log') && git
-#     `git push` if File.file?('Quarto.log') && isRecent('Quarto.log') && git
-#   rescue StandardError
-#     puts 'git error'
-#   end
-# end

@@ -6,5 +6,5 @@
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.}]]></Comment>
+\f0\fs24 \cf0 Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for LaTeX to PDF output.}]]></Comment>
 </Comments>

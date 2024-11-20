@@ -1,64 +1,42 @@
-# Instalation
+# Instalation 
 
+To use ScrivQ24, you need the [Quarto](https://quarto.org/docs) open-source scientific and technical publishing system. 
 
-[Quarto] is an open-source scientific and technical publishing system.
+:::{.callout-tip}
+## Quickstart
 
+- On macOS^[If you're on a Mac, install Homebrew by pasting the following on the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.], use [Homebrew](https://brew.sh) to `brew install quarto && brew install chromium`.
+- On Windows, use [Chocolatey](https://chocolatey.org/) to `choco install quarto`.
+
+After that, install TinyTex with `quarto install tool tinytex`.
+:::
 
 :::{.callout-tip}
 ## New to Quarto?
-
-Install the [Quarto extension for VS Code] and [Quarto extension for R Studio].
-
-Check the ["Hello, Quarto" Tutorial] to learn how to create, build, and preview documents; or visit the [get started] guide to jump right in. 
-
-Find out more at [Awesome Quarto], [Quarto Extensions], [Quarto on Github], [RStudio Community], [Stack Overflow], [Twitter].
-
-See also: Pandoc User's Guide [{{< fa regular file-pdf >}}].
+  
+- Visit the [get started](https://quarto.org/docs/get-started/) guide to download.
+- Check the [tutorial](https://quarto.org/docs/get-started/hello/vscode.html) to learn how to create, build, and preview documents. 
+- Install the Quarto extension for [VS Code](https://quarto.org/docs/get-started/#quarto-for-vs-code) and [R Studio](https://quarto.org/docs/get-started/#quarto-for-rstudio).
+- Find out more at [Awesome Quarto](https://github.com/mcanouil/awesome-quarto), [Quarto Extensions](https://github.com/quarto-ext?type=source), [Quarto on Github](https://github.com/search?q=topic%3Aquarto&type=repositories), [RStudio Community](https://community.rstudio.com/tags/quarto), [Stack Overflow](https://stackoverflow.com/questions/tagged/quarto), [Twitter](https://twitter.com/quarto_pub).
+- See also the [Pandoc User's Guide](https://pandoc.org/MANUAL.html), [Pandoc-Discuss](https://github.com/jgm/pandoc/discussions), and [Pandoc at Stack Overflow](https://stackoverflow.com/questions/tagged/pandoc).
 :::
-
-
-:::{.callout-tip}
-## Quickstart 🚀 
-
-- On macOS^[If you're on a Mac, install Homebrew by pasting the following on the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.] ({{< fa brands apple >}}), use [Homebrew] to `brew install quarto && brew install chromium`.
-- On Windows ({{< fa brands windows >}}), use [Chocolatey] to `choco install quarto`.
-- On Linux ({{< fa brands linux >}}), use your package manager to install quarto.
-:::
-
 
 :::{.callout-important}
 ## Installation issues
 
 Run a `quarto check` on your installation. 
 
-Some Python and R computations will require additional packages (cf. [@lst-r-packages]).
+Some Python and R computations will require additional packages (cf. [@wrn-r-packages]).
 :::
 
-[Awesome Quarto]: https://github.com/mcanouil/awesome-quarto
-[Quarto Extensions]: https://github.com/quarto-ext?type=source
-[Quarto extension for R Studio]: https://quarto.org/docs/get-started/#quarto-for-rstudio 
-[Quarto extension for VS Code]: https://quarto.org/docs/get-started/#quarto-for-vs-code
-[Quarto on Github]: https://github.com/search?q=topic%3Aquarto&type=repositories
-[Chocolatey]: https://chocolatey.org/
-[Homebrew]: https://brew.sh
-[RStudio Community]: https://community.rstudio.com/tags/quarto
-[Stack Overflow]: https://stackoverflow.com/questions/tagged/quarto
-[Twitter]: https://twitter.com/quarto_pub
-[Quarto]: https://quarto.org/docs/get-started/ 
-[Pandoc]: https://pandoc.org/MANUAL.html
-[get started]: https://quarto.org/docs/get-started/
-["Hello, Quarto" Tutorial]: https://quarto.org/docs/get-started/hello/vscode.html
-[Pandoc-Discuss]: https://github.com/jgm/pandoc/discussions
-[Pandoc at Stack Overflow]: https://stackoverflow.com/questions/tagged/pandoc
-[{{< fa regular file-pdf >}}]: https://pandoc.org/MANUAL.html 
-
+ 
 
 :::{id="wrn-r-packages" .callout-warning}
-## Additional dependencies for computations
+## Dependencies for computations
 
-Additional steps might be needed to use computations, such as installing [R](https://www.r-project.org) and additional packages. Here are some packages that can be installed using [R Studio](https://posit.co/download/rstudio-desktop/) and that will be needed for the computations in this project:
+To run R computations, install [R](https://www.r-project.org), [R Studio](https://posit.co/download/rstudio-desktop/), and (*at least*) the following packages:
 
-```{#lst-r-packages lst-cap="Additional R packages." .r}
+```{#lst-r-packages .r lst-cap="Additional R packages."}
 py_install(packages = "matplotlib")
 install.packages("reticulate")
 install.packages("markdown")
@@ -69,72 +47,64 @@ install.packages("xml2")
 ```
 :::
 
+# ScrivQ 
 
-# ScrivQ
-
-
-The ScrivQ template is designed to compile [Quarto Books](https://quarto.org/docs/books/) (PDF^[Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for PDF.], DOCX, and HTML) with zero configuration.
-
+The ScrivQ template is designed to compile [Quarto Books](https://quarto.org/docs/books/) (PDF^[Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for LaTeX to PDF output.], DOCX, and HTML) with zero configuration and no dependencies on external files. The bibliography, the template files, extensions, and filters are all included in the project and will be created by the compiler script.
 
 :::{.callout-tip}
 ## When Quarto is installed...
 
-Hit `⌘⌥E` to publish your Quarto Book right away.
+Hit `Cmd + Opt + E` to publish your Quarto Book right away.
 :::
-
 
 :::{.callout-note}
 ## ScrivQ
 
-- **Download** the latest [release 🚀](https://github.com/bcdavasconcelos/ScrivQ/releases). 
-- **Sponsor** [this project ❤️](https://github.com/sponsors/bcdavasconcelos).
-- **Take part** in the discussion at the [forum 💬](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). 
-:::
-
-
-:::{.callout-important}
-## Thank you
-
-\@iandol for the exceptional [⌨️ Scrivomatic](https://github.com/iandol/scrivomatic) from which ScrivQ descends.
-
-If you haven't, check his [writing in Scrivener tutorial](https://github.com/iandol/scrivomatic#writing-in-scrivener).
+- **Download** the [latest release](https://github.com/bcdavasconcelos/ScrivQ/releases). 
+- **Sponsor** [this project](https://github.com/sponsors/bcdavasconcelos).
+- **Take part** in the discussion at the [Scrivener forum](https://forum.literatureandlatte.com/t/scrivq-a-template-to-control-quarto-export-multiple-files-manage-bibliography-and-easily-create-cross-references/134755). 
 :::
 
 :::{.callout-note}
-## Translating Quarto into Scrivener
+## Thank you
 
-In **ScrivQ** we can use **Section Types** or **Paragraph Styles** to create **Sections**, **Tables**, **Equations**, **Figures**, **Listings**, **Callouts** (Caution, Important, Note, Tip, Warning), and **Amsthm** environments (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem). We can also use **Character Styles** to reference any of them. Keep reading to learn how.
+[\@iandol](https://github.com/iandol) for the exceptional [Scrivomatic](https://github.com/iandol/scrivomatic) from which ScrivQ descended.
+
+Check his [writing in Scrivener tutorial](https://github.com/iandol/scrivomatic#writing-in-scrivener), if you haven't done so yet.
 :::
 
+# Compiler Script 
 
-# Compiler Script
+![There is a ruby script to reformat the text and create the dependencies. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (*e.g.* change `html` to `pdf` / `docx` / `epub` etc.). It is embedded in this project's Compiler format.](screencap.png){#fig-scriv-compile width="auto"}
 
+The script's output is redirected `&>` to a `Quarto.log` file that will be automatically opened when an error happens and no output is produced. If everything runs smoothly, however, you should see only the output file open.
 
-![There is a small ruby script that reformats the text from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change `html` to `pdf` / `docx` / `epub` etc.). It is embedded in this project's Compiler format.](screencap.png){#fig-scriv-compile width="auto"}
-
-The script's output is redirected &> to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors. This compiler script descends from Scrivomatic but with heavy adaptations to allow splitting the final document into sub-files. This seemingly simple task introduces many challenges, as footnotes and image data must be moved around before the file is split. Check the compile script if you want to know how this got solved. Please report any errors.
+This compiler script descends from [**Scrivomatic**](https://github.com/iandol/scrivomatic), but with several changes to allow splitting the final document into sub-files. This task entails some challenges as footnotes and image references must be moved around before the file is split. Check the compiler script to see how this got solved and please report any errors.
 
 :::{.callout-warning}
 [Ruby](https://www.ruby-lang.org/en/downloads) must be installed on Windows machines.
 :::
 
-# Citations
+# Citations 
 
+:::{.column-margin}
+"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+[@MorphineCFP]{.author}, [@MorphineCFP]{.title} ([@MorphineCFP]{.issued})
+:::
 
-In ScrivQ, we use [Citeproc] to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by **BibTeX** users, we included [Cite Tools] to enable multipart bibliographies, provide a backref (see [HyperRef]), and access bibliographic data from sources (author, editor, translator, date, edition, number, and so on).
-
+In ScrivQ, we use [Citeproc](https://en.wikipedia.org/wiki/CiteProc) to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by **BibTeX** users, we included [Cite Tools] to enable multipart bibliographies, provide backlinks (see `backref` from [HyperRef](www.ctan.org/pkg/hyperref)), and access bibliographic data from sources (*author*, *editor*, *translator*, *date*, *edition*, *number*, and so on).
 
 :::{.callout-note}
 ## Official documentation
-
+ 
 The official documentation on citations can be found at [Pandoc](pandoc.org/MANUAL.html#citations) and [Quarto](quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations).
 :::
 
-
 :::{.callout-warning}
-## Deleting [Cite Tools] from ScrivQ will cause the compilation to [fail]{.underline}.
-:::
+## Cite Tools needed for ScrivQ
 
+Deleting [Cite Tools](https://bcdavasconcelos.github.io/citetools) from ScrivQ will cause the compilation to [fail]{.underline}.
+:::
 
 :::{.callout-tip}
 ## Using **Cite Tools **in other projects 
@@ -142,22 +112,13 @@ The official documentation on citations can be found at [Pandoc](pandoc.org/MANU
 Install it with `quarto install extension bcdavasconcelos/citetools`.
 :::
 
+## Basic citations 
 
-[Cite Tools]: https://bcdavasconcelos.github.io/citetools
-[Citeproc]: https://en.wikipedia.org/wiki/CiteProc
-[HyperRef]: www.ctan.org/pkg/hyperref
+1. The citation syntax is straightforward: `@Citekey` for **Author (Date)** (an *in-text* citation); `[@Citekey]` for **Author, Date**; and `[-@Citekey]` for **Date**. 
 
+2. The citation key is optionally followed by a locator, which can be a page number, a line number, a chapter number, or a section number, preceded by a comma, *e.g.* `[@Citekey, p.10]`. 
 
-## Basic citations
-
-
-1. The citation syntax is straightforward: `@Citekey` for **Author (Date)** (an *in-text* citation); `[@Citekey]` for **(Author, Date)**; and `[-@Citekey]` for **(Date)**. 
-
-2. Multiple citations can be grouped in brackets separated by semicolons `[@CitekeyA; @CitekeyB]`. 
-
-3. The citation key is optionally followed by a locator, which can be a page number, a line number, a chapter number, or a section number, preceded by a comma. 
-
-4. The CSL style used by Citeproc will determine the presence (or absence) of parenthesis around the rendered citation. We favor a style that doesn't use parenthesis, but that is up to you. 
+3. Multiple citations can be grouped in brackets separated by semicolons `[@CitekeyA; @CitekeyB]`. The CSL style used by Citeproc will determine the presence (or absence) of parenthesis around the rendered citation. (We favor a style that doesn't use parenthesis, but that is up to you.) 
 
 | **Character Style** | **Markdown Source** | **Rendered output**^[The rendered citation will appear only in the output document; but not in the Scrivener project.] |
 | :-----: | :-----: | :-----: |
@@ -168,7 +129,7 @@ Install it with `quarto install extension bcdavasconcelos/citetools`.
 
 Table: Citation syntax in Quarto and Pandoc. {#tbl-citations}
 
-Here is a short demonstration of the basic citation feature.
+Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup.
 
 :::{.callout-note}
 ## (Date, locator)
@@ -178,7 +139,6 @@ Here is a short demonstration of the basic citation feature.
 Long thinks [...] on the deliberations of the prudent person ([-@Long2004, p.17]).
 :::
 
-
 :::{.callout-note}
 ## (Author, Date, locator)
 
@@ -186,7 +146,6 @@ Long thinks [...] on the deliberations of the prudent person ([-@Long2004, p.17]
 
 ...on the deliberations of the prudent person ([@Long2004, p.17]).
 :::
-
 
 :::{.callout-note}
 ## (Author, Date, locator; Author, Date, locator)
@@ -196,12 +155,9 @@ Long thinks [...] on the deliberations of the prudent person ([-@Long2004, p.17]
 ...on the deliberations of the prudent person ([@Long2004, p.17]; [@hoffman2014, p.15]).
 :::
 
-## Citation of specific fields
-
+## Citation of specific fields 
 
 To inject the correct markup -- `[@Citekey]{.csl_field}` -- and allow us to cite different fields from our bibliographic entry, we rely on **Character Styles** (*e.g.* *Cite Author*, *Cite Editor*, *Cite Issued*, and so on).[ We have stuck to the term fields, but the official terminology is [CSL Variables], [BibTeX Fields], and [RIS Tags].]{.aside}
-
-![Cite Field allows the evocation of arbitrary information from the references, such as `author`, `editor`, `translator` (using [CSL variables] name conventions).](citefield.png){#fig-scrivlinkB width="auto"}
 
 | Character Style | Markdown Source | Rendered Output |
 | :-----: | :-----: | :-----: |
@@ -217,7 +173,6 @@ To inject the correct markup -- `[@Citekey]{.csl_field}` -- and allow us to cite
 
 Table: All ready-made **Character Styles** for the Cite Field lua filter. {#tbl-cite-field}
 
-
 :::{.callout-note}
 ## Example
 
@@ -226,15 +181,11 @@ Table: All ready-made **Character Styles** for the Cite Field lua filter. {#tbl-
 Aristotle's [@DA]{.original-title} ([@DA]{.title}) was first edited by [@DA]{.editor} in [@DA]{.issued}.  In [@DABiehl]{.issued}, there was another edition by [@DABiehl]{.editor} (which was reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).
 :::
 
-
 [BibTeX Fields]: https://en.wikipedia.org/wiki/BibTeX#Field_types
 [CSL variables]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables
 [RIS Tags]: https://en.wikipedia.org/wiki/RIS_(file_format)#Tags
 
-## Multipart Bibliography
-
-
-![Multipart bibliography with sections, such as primary sources and secondary sources.](multipartbibliography.png){#fig-scrivlinkA width="auto"}
+## Multipart Bibliography 
 
 :::{.callout-tip}
 ## Where do I plug my bibliography?
@@ -242,13 +193,11 @@ Aristotle's [@DA]{.original-title} ([@DA]{.title}) was first edited by [@DA]{.ed
 There is no need to keep separate bibliography files in the system. Copy and paste the data from bibliography managers straight into Scrivener following the instructions below and you will be set!
 :::
 
-
 :::{.callout-tip}
 ## Bibliography Formats
 
 **Pandoc** and **Quarto** use a [CSL] (*Citation Style Language*) engine and prefer [CSL-YAML] and [CSL-JSON], performing up to 10x faster, over [BibTeX] and [RIS], which need to be converted before they can be understood.
 :::
-
 
 :::{.callout-tip}
 ## What if I don't have a bibliography ready?
@@ -257,7 +206,6 @@ There is no need to keep separate bibliography files in the system. Copy and pas
 - On macOS, check [Bookends] and [Bibdesk]; 
 - See also, [here](en.wikipedia.org/wiki/Comparison_of_reference_management_software). 
 :::
-
 
 [Bookends]: www.sonnysoftware.com/
 [Bibdesk]: bibdesk.sourceforge.io
@@ -269,34 +217,27 @@ There is no need to keep separate bibliography files in the system. Copy and pas
 [CSL-JSON]: https://docs.citationstyles.org/en/stable/specification.html
 [RIS]: https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference
 
-### How to manually create a multipart bibliography {id="nte-multibib1" .callout-note  }
-
+### How to manually create a multipart bibliography {id="nte-multibib1" .callout-note}
 
 1. Using the **Section Type** File, we create a representation of our bibliography file to add the data (*e.g.* [Primary Sources](refs/primary-sources.yml) and [Secondary Sources](refs/secondary-sources.yml)).
 2. On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon **Compile**.
 
 ![The Metadata panel](BibliographyFile.png){#fig-bibliography width="auto"}
-3. We need to tell Quarto about the bibliography file by adding it to the [_quarto](_quarto.yml) configuration file (there is a bibliography section).
-4. We can print the formatted bibliography using the ID (*e.g.* "primary-sources") with the **Paragraph Style** *Div Bibliography*.
 
+3. We need to tell Quarto about the bibliography file by adding it to the [_quarto](_quarto.yml) configuration file (there is a bibliography section), then we can print the formatted bibliography using the ID (*e.g.* "primary-sources") with the **Paragraph Style** *Div Bibliography*.
 
 ::: {#refs_primary-sources}
 :::
 
-
-### How to automatically create a multipart bibliography {id="nte-multibib2" .callout-note  }
-
+### How to automatically create a multipart bibliography {id="nte-multibib2" .callout-note}
 
 We can use the **Section Type** Bibliography to automate steps 3 and 4. This is very convenient for books that need the bibliography to print only once at the very end.
 
-
 1. Using the **Section Type** File, we create a representation of our bibliography file to add the data (*e.g.* [Primary Sources](refs/primary-sources.yml) and [Secondary Sources](refs/secondary-sources.yml)).
 2. On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon **Compile**.
-3. The metadata with the file path will be automatically added.
-4. The formatted bibliography will be printed in the same section as the data, with the same section title.
+3. The metadata with the file path will be automatically added and the formatted bibliography will be printed in the same section as the data, with the same section title.
 
-## Backlinks
-
+## Backlinks 
 
 In Citeproc, `link-citations` control whether citations in the body of the text should be clickable links to the reference in the bibliography. **Cite Tools** takes it further and adds a backlink to each citation an entry has received in the document in a crescent ordinal fashion^[The reader will see the page number instead of a crescent ordinal number in some output formats, such as PDF.]. This allows the reader to easily arrive at sections of the text where the same reference was discussed and quickly see how many times each reference was used with the array of backlinks.
 
@@ -307,7 +248,6 @@ In Citeproc, `link-citations` control whether citations in the body of the text 
  
 If you want to avoid undesired linking when citing specific fields, turn `link-fields` into false
 :::
-
 
 :::{.callout-note}
 ## Bibliography links
@@ -321,45 +261,19 @@ If you want to avoid undesired linking when citing specific fields, turn `link-f
 [lang]{.underline}: Affects the bibliography tags. Defaults to `en-US`.
 :::
 
-# Quarto
+# Quarto 
 
+## Scrivener Project Templates 
 
-The internal **Templates** section is the starting point for new sections. You can choose from:
+All sorts of internal **Scrivener Templates** have been included for convenience. They serve as starting points to create new sections. Click **Project > New From Template** and select the desired **Section Types** from the list, which includes Bibliography, Code, Computation, Diagram Dot, Diagram Mermaid, Div, Equation, File, Metadata, Section, Text, Text (Anchored)^[Text section with ID for cross-referencing.]. 
 
-- Div
-- Code
-- Metadata
-- Computation
-- Diagram Dot
-- Diagram Mermaid
-- Equation
-- Anchored Text (That is, a text section with an ID to allow cross-referencing)
-- Text
-- Break and Text
-- Section
-- Break and Section
-- Heading
-- Break and Heading
-- Footnote
-- Bibliography (section and file)
-- File
+This provides a huge number of options as the metadata can be customized to create many **Quarto** elements. Using the **Section Type** **Div**, for example, one could create 8 different **Amsthm** elements, 5 different **Callouts**, and several **Column** environments. Using the **Computation**, one can create executable code blocks with R, Python, and Ruby. The **Section** **Type** **Section** can be numbered, unnumbered, or part of the appendix (with the use of classes). 
 
-Pick and configure any section type (use the metadata panel) or experiment with some ready-made examples below. Some elements can be created using **Section Types**, **Styles**, or **Raw Markup**. Find examples using each below along with a quick run-down of what you could do with the **Section Types** provided:
+Look at the ready-made examples to see what else is possible.
 
+## Cross-referencing 
 
-- Using a **Section**, create an Unnumbered Section or Appendix.
-- Using a **Div**, create Amsthm elements (Conjecture, Corollary, Definition, Example, Exercise, Lemma, Proposition, Theorem), callouts (Caution, Important, Note, Tip, Warning), panels (Multiparts, Multipart Figure, Multipart Table, Figure) and column environments (Page, Page→Right, Page←Left, Screen, Margin).
-- Using a **Computation**, create R Code and Python computations.
-- Using a **Text**, create Callouts, Callouts (Raw), Code, Computation, Dot, Equation, Mermaid, Multipart Figure, Python, R, and Table.
-- Create a Bibliography to place at the end of your text. 
-
-:::{.callout-tip}
-If you need to check the markup around a particular section type, see the `Notes` field of the corresponding template.
-:::
-
-[Cross-referencing: Setting the IDs ]{.aside}In this version of ScrivQ we prioritize manual ID setting. Select the correct `ID-Prefix` (*e.g.* `sec-`) and then fill the `ID` (*e.g.* `xref`) metadata field of different **Section Types** to allow cross-referencing using Scrivener placeholders such as  `@<\$Custom:ID-Prefix><\$Custom:ID>` that would be replaced into `\@sec-xref`. 
-
-This works regardless of the element being cross-referenced (*e.g.* *section*, *table*, *figure*, *listing*) because this strategy ensures the citation will use the `<\$Custom:ID-Prefix>` pulled from the targeted element (*e.g.* `sec-`, `tbl-`, `fig-`, `lst-`), making it compatible with all element types.
+When a **Section** is created, select the correct `ID-Prefix` (*e.g.* `sec-`), and fill the `ID` metadata field with a value (*e.g.* `xref`). Then, use Scrivener placeholders, such as  `@<\$Custom:ID-Prefix><\$Custom:ID>` with a link to the cited element, so that this gets replaced with `\@sec-xref`. This works regardless of the element being cross-referenced (*e.g.* *section*, *table*, *figure*, *listing*) because this strategy ensures the citation will use the `<\$Custom:ID-Prefix>` pulled from the targeted element (*e.g.* `sec-`, `tbl-`, `fig-`, `lst-`), making it compatible with all element types. 
 
 :::{.callout-warning}
 ## Link anchor
@@ -370,14 +284,27 @@ To be less verbose, we have set up a replacement rule that allows a shorter labe
 - `s\crivpath` and `$\!` are replaced with `<\$Custom:ID-Prefix><\$Custom:ID><\$Custom:Extension>`.
 :::
 
-{{< pagebreak >}}
+:::{.callout-tip}
+## Cross-referencing an element
+ 
+1. Type [your-keyword-of-choice]{.underline} or `s\crivlink`, select it, and hit [Command + L]{.underline};
+2. Link to the document that contains the table.
+3. Apply a **Character Style** called *Cite*.
+:::
 
-## Amsthm
+:::{.callout-caution}
+## Known limitation
+ 
+**Scrivener Placeholders** can only pull information from the section properties, so this works when we are referencing elements created using **Section Types**.
+ 
+When referencing elements created using **Raw Markup** or a **Character Style**, we must use the same `ID` we gave the element (*e.g.* `fig-ulysses`) instead of our generic link label (*e.g.* `s\crivlink`).
+:::
 
+## Amsthm 
 
-| **Element** | **Markdown Source** | **Rendered Output** |
+| **Species** | **Markdown Source** | **Rendered Output** |
 | :-----: | :-----: | :-----: |
-| Conjecture | `[@cnj-demo]` | [@cnj-demo ] |
+| Conjecture | `[@cnj-demo]` | [@cnj-demo] |
 | Corollary | `[@cor-demo]` | [@cor-demo] |
 | Definition | `[@def-demo]` | [@def-demo] |
 | Example | `[@exm-demo]` | [@exm-demo] |
@@ -386,81 +313,70 @@ To be less verbose, we have set up a replacement rule that allows a shorter labe
 | Proposition | `[@prp-demo]` | [@prp-demo] |
 | Theorem | `[@thm-demo]` | [@thm-demo] |
 
-Table: Cross-referencing amsthm elements in ScrivQ. {#tbl-amsthm}
+Table: Cross-referencing **Amsthm** elements in ScrivQ. {#tbl-amsthm}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 
 :::{id="cnj-demo"}
-Demonstration of the **Conjecture** theorem environment using the **Section Type** `Div` with **ID** `cnj-demo`.
+Demonstration of the **Conjecture** theorem environment using the **Section Type** `Div` with **ID** `#cnj-demo`.
 
 :::
-
 
 :::{id="cor-demo"}
-Demonstration of the **Corollary** theorem environment using the **Section Type** `Div` with **ID** `cor-demo`.
+Demonstration of the **Corollary** theorem environment using the **Section Type** `Div` with **ID** `#cor-demo`.
 
 :::
-
 
 :::{id="def-demo"}
-Demonstration of the **Definition** theorem environment using the **Section Type** `Div` with **ID** `def-demo`.
+Demonstration of the **Definition** theorem environment using the **Section Type** `Div` with **ID** `#def-demo`.
 
 :::
-
 
 :::{id="exm-demo"}
-Demonstration of the **Example** theorem environment using the **Section Type** `Div` with **ID** `exm-demo`.
+Demonstration of the **Example** theorem environment using the **Section Type** `Div` with **ID** `#exm-demo`.
 
 :::
-
 
 :::{id="exr-demo"}
-Demonstration of the **Exercise** theorem environment using the **Section Type** `Div` with **ID** `exr-demo`.
+Demonstration of the **Exercise** theorem environment using the **Section Type** `Div` with **ID** `#exr-demo`.
 
 :::
-
 
 :::{id="lem-demo"}
-Demonstration of the **Lemma** theorem environment using the **Section Type** `Div` with **ID** `lem-demo`.
+Demonstration of the **Lemma** theorem environment using the **Section Type** `Div` with **ID** `#lem-demo`.
 
 :::
-
 
 :::{id="prp-demo"}
-Demonstration of the **Proposition** theorem environment using the **Section Type** `Div` with **ID** `prp-demo`.
+Demonstration of the **Proposition** theorem environment using the **Section Type** `Div` with **ID** `#prp-demo`.
 
 :::
 
-
 :::{id="thm-demo"}
-Demonstration of the **Theorem** theorem environment using the **Section Type** `Div` with **ID** `thm-demo`.
+Demonstration of the **Theorem** theorem environment using the **Section Type** `Div` with **ID** `#thm-demo`.
 
 $$[ x^2 + y^2 = z^2 ]$$
 :::
 
+## Callouts 
 
-{{< pagebreak >}}
-
-## Callouts
-
-
-| **Genus** | **Species** | **Markdown Source** | **Rendered Output** |
-| :-----: | :-----: | :-----: | :-----: |
-| Callout | Caution | `[@cau-caution]` | [@cau-caution] |
-| Callout | Important | `[@imp-important]` | [@imp-important] |
-| Callout | Note | `[@nte-note]` | [@nte-note] |
-| Callout | Tip | `[@tip-tip]` | [@tip-tip] |
-| Callout | Warning | `[@wrn-warning]` | [@wrn-warning] |
+| **Species** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Caution | `[@cau-caution]` | [@cau-caution] |
+| Important | `[@imp-important]` | [@imp-important] |
+| Note | `[@nte-note]` | [@nte-note] |
+| Tip | `[@tip-tip]` | [@tip-tip] |
+| Warning | `[@wrn-warning]` | [@wrn-warning] |
 
 Table: Cross-referencing callouts. {#tbl-callouts}
 
 Using styles, you can create normal or collapsed callouts.
-
 
 :::{.callout-caution collapse="true"}
 ## Caution (collapsed)
 
 This is a Callout Caution using a **Paragraph Style**.
 :::
-
 
 :::{.callout-caution}
 ## Caution
@@ -469,47 +385,39 @@ This is a Callout Caution using a **Paragraph Style**.
 :::
 
 :::{id="cau-caution" .callout-caution appearance="simple"}
-Demonstration of a **Callout Caution** using the **Section Type** `Div` with class `.callout-caution` and with **ID** `cau-caution`.
+Demonstration of a **Callout Caution** using the **Section Type** `Div` with class `.callout-caution` and with **ID** `#cau-caution`.
 :::
-
 
 :::{id="imp-important" .callout-important appearance="simple"}
-Demonstration of a **Callout Important** using the **Section Type** `Div` with class `.callout-important` and with **ID** `imp-important`.
+Demonstration of a **Callout Important** using the **Section Type** `Div` with class `.callout-important` and with **ID** `#imp-important`.
 :::
-
 
 :::{id="nte-note" .callout-note appearance="simple"}
-Demonstration of a **Callout Note** using the **Section Type** `Div` with class `.callout-note` and with **ID** `nte-note`.
+Demonstration of a **Callout Note** using the **Section Type** `Div` with class `.callout-note` and with **ID** `#nte-note`.
 :::
-
 
 :::{id="tip-tip" .callout-tip appearance="simple"}
-Demonstration of a **Callout Tip** using the **Section Type** `Div` with class `.callout-tip` and with **ID** `tip-tip`.
+Demonstration of a **Callout Tip** using the **Section Type** `Div` with class `.callout-tip` and with **ID** `#tip-tip`.
 :::
-
 
 :::{id="wrn-warning" .callout-warning appearance="simple"}
-Demonstration of a **Callout Warning** using the **Section Type** `Div` with class `.callout-warning` and with **ID** `wrn-warning`.
+Demonstration of a **Callout Warning** using the **Section Type** `Div` with class `.callout-warning` and with **ID** `#wrn-warning`.
 :::
 
-
-{{< pagebreak >}}
-
-## Diagrams
+## Diagrams 
 
 Similarly, we can create **Dot** and **Mermaid** diagrams using **Section Types** (*Diagram Dot*, *Diagram Mermaid*), **Paragraph Styles** (*Diagram Dot*, *Diagram Mermaid*), and **Raw Mardown**.
 
-
-| **Element** | **Markdown Source** | **Rendered Output** |
+| **Species** | **Markdown Source** | **Rendered Output** |
 | :-----: | :-----: | :-----: |
-| Diagram Dot | `[@fig-dot-a]` | [@fig-dot-a] |
-| Diagram Dot | `[@fig-dot-b]` | [@fig-dot-b] |
-| Diagram Dot | `[@fig-dot-c]` | [@fig-dot-c] |
-| Diagram Mermaid | `[@fig-mermaid-a]` | [@fig-mermaid-a] |
-| Diagram Mermaid | `[@fig-mermaid-b]` | [@fig-mermaid-b] |
-| Diagram Mermaid | `[@fig-mermaid-c]` | [@fig-mermaid-c] |
+| Dot | `[@fig-dot-a]` | [@fig-dot-a] |
+| Dot | `[@fig-dot-b]` | [@fig-dot-b] |
+| Dot | `[@fig-dot-c]` | [@fig-dot-c] |
+| Mermaid | `[@fig-mermaid-a]` | [@fig-mermaid-a] |
+| Mermaid | `[@fig-mermaid-b]` | [@fig-mermaid-b] |
+| Mermaid | `[@fig-mermaid-c]` | [@fig-mermaid-c] |
 
-Table: Cross-referencing Dot and Mermaid diagrams. {#tbl-diagrams}
+Table: Cross-referencing **Dot** and **Mermaid** diagrams. {#tbl-diagrams}
 
 ```{dot}
 //| label: fig-dot-a
@@ -541,70 +449,312 @@ digraph finite_state_machine {
 }
 ```
 
-
 ```{dot}
 //| label: fig-dot-b
-//| fig-cap: "A graphviz graph with figure reference and caption, using raw markup. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details..."
+//| fig-cap: "A graphviz graph with figure reference and caption, using raw markup. See https://quarto.org/docs/authoring/diagrams.html#sizing for more details..."
 //| column: page-right
 //| echo: false
 
-graph G {
-  layout=neato
-  run -- intr;
-  intr -- runbl;
-  runbl -- run;
-  run -- kernel;
-  kernel -- zombie;
-  kernel -- sleep;
-  kernel -- runmem;
-  sleep -- swap;
-  swap -- runswap;
-  runswap -- new;
-  runswap -- runmem;
-  new -- runmem;
-  sleep -- runmem;
+digraph regexp { 
+ fontname="Helvetica,Arial,sans-serif"
+ node [fontname="Helvetica,Arial,sans-serif"]
+ edge [fontname="Helvetica,Arial,sans-serif"]
+ n0 [label="regexp", URL="https://godoc.org/regexp", tooltip="Package regexp implements regular expression search."];
+ n1 [label="bytes", URL="https://godoc.org/bytes", tooltip="Package bytes implements functions for the manipulation of byte slices."];
+ n2 [label="io", URL="https://godoc.org/io", tooltip="Package io provides basic interfaces to I/O primitives."];
+ n3 [label="regexp/syntax", URL="https://godoc.org/regexp/syntax", tooltip="Package syntax parses regular expressions into parse trees and compiles parse trees into programs."];
+ n4 [label="sort", URL="https://godoc.org/sort", tooltip="Package sort provides primitives for sorting slices and user-defined collections."];
+ n5 [label="strconv", URL="https://godoc.org/strconv", tooltip="Package strconv implements conversions to and from string representations of basic data types."];
+ n6 [label="strings", URL="https://godoc.org/strings", tooltip="Package strings implements simple functions to manipulate UTF-8 encoded strings."];
+ n7 [label="sync", URL="https://godoc.org/sync", tooltip="Package sync provides basic synchronization primitives such as mutual exclusion locks."];
+ n8 [label="unicode", URL="https://godoc.org/unicode", tooltip="Package unicode provides data and functions to test some properties of Unicode code points."];
+ n9 [label="unicode/utf8", URL="https://godoc.org/unicode/utf8", tooltip="Package utf8 implements functions and constants to support text encoded in UTF-8."];
+ n10 [label="internal/bytealg", URL="https://godoc.org/internal/bytealg", tooltip=""];
+ n11 [label="errors", URL="https://godoc.org/errors", tooltip="Package errors implements functions to manipulate errors."];
+ n12 [label="internal/reflectlite", URL="https://godoc.org/internal/reflectlite", tooltip="Package reflectlite implements lightweight version of reflect, not using any package except for \"runtime\" and \"unsafe\"."];
+ n13 [label="math", URL="https://godoc.org/math", tooltip="Package math provides basic constants and mathematical functions."];
+ n14 [label="math/bits", URL="https://godoc.org/math/bits", tooltip="Package bits implements bit counting and manipulation functions for the predeclared unsigned integer types."];
+ n15 [label="unsafe", URL="https://godoc.org/unsafe", tooltip="Package unsafe contains operations that step around the type safety of Go programs."];
+ n16 [label="internal/race", URL="https://godoc.org/internal/race", tooltip="Package race contains helper functions for manually instrumenting code for the race detector."];
+ n17 [label="runtime", URL="https://godoc.org/runtime", tooltip=""];
+ n18 [label="sync/atomic", URL="https://godoc.org/sync/atomic", tooltip="Package atomic provides low-level atomic memory primitives useful for implementing synchronization algorithms."];
+ n19 [label="internal/cpu", URL="https://godoc.org/internal/cpu", tooltip="Package cpu implements processor feature detection used by the Go standard library."];
+ n0 -> n1;
+ n0 -> n2;
+ n0 -> n3;
+ n0 -> n4;
+ n0 -> n5;
+ n0 -> n6;
+ n0 -> n7;
+ n0 -> n8;
+ n0 -> n9;
+ n1 -> n10;
+ n1 -> n2;
+ n1 -> n8;
+ n1 -> n9;
+ n1 -> n11;
+ n2 -> n11;
+ n2 -> n7;
+ n3 -> n4;
+ n3 -> n5;
+ n3 -> n6;
+ n3 -> n8;
+ n3 -> n9;
+ n4 -> n12;
+ n5 -> n10;
+ n5 -> n13;
+ n5 -> n9;
+ n5 -> n11;
+ n5 -> n14;
+ n6 -> n2;
+ n6 -> n7;
+ n6 -> n15;
+ n6 -> n11;
+ n6 -> n10;
+ n6 -> n8;
+ n6 -> n9;
+ n7 -> n16;
+ n7 -> n17;
+ n7 -> n18;
+ n7 -> n15;
+ n10 -> n19;
+ n10 -> n15;
+ n11 -> n12;
+ n12 -> n17;
+ n12 -> n15;
+ n13 -> n15;
+ n13 -> n19;
+ n13 -> n14;
+ n14 -> n15;
+ n16 -> n15;
+ n18 -> n15;
 }
 ```
 
 ```{dot}
 //| label: fig-dot-c
-//| fig-cap: "A Graphviz-generated state machine diagram"
+//| fig-cap: "Color wheel diagram"
 //| 
-//| column: page
-digraph finite_state_machine {
-  Fontname="Avenir,Helvetica,sans-serif"
-  node [fontname="Avenir,Helvetica,sans-serif"]
-  edge [fontname="Avenir,Helvetica,sans-serif"]
-  rankdir=LR;
-  node [shape = doublecircle]; 0 3 4 8;
-  node [shape = circle];
-  0 -> 2 [label = "SS(B)"];
-  0 -> 1 [label = "SS(S)"];
-  1 -> 3 [label = "S($end)"];
-  2 -> 6 [label = "SS(b)"];
-  2 -> 5 [label = "SS(a)"];
-  2 -> 4 [label = "S(A)"];
-  5 -> 7 [label = "S(b)"];
-  5 -> 5 [label = "S(a)"];
-  6 -> 6 [label = "S(b)"];
-  6 -> 5 [label = "S(a)"];
-  7 -> 8 [label = "S(b)"];
-  7 -> 5 [label = "S(a)"];
-  8 -> 6 [label = "S(b)"];
-  8 -> 5 [label = "S(a)"];
+//| column: page-right
+graph Color_wheel {
+	graph [
+		layout = neato
+		label = "Color wheel, 33 colors.\nNeato layout"
+		labelloc = b
+		fontname = "Helvetica,Arial,sans-serif"
+		start = regular
+		normalize = 0
+	]
+	node [
+		shape = circle
+		style = filled
+		color = "#00000088"
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+	edge [
+		len = 2.7
+		color = "#00000088"
+		fontname = "Helvetica,Arial,sans-serif"
+	]
+	subgraph Dark {
+		node [fontcolor = white width = 1.4]
+		center [width = 1 style = invis shape = point]
+		center -- darkred [label = "0°/360°"]
+		darkred [fillcolor = darkred]
+		brown [fillcolor = brown]
+		brown -- center [label = "30°"]
+		olive [fillcolor = olive]
+		olive -- center [label = "60°"]
+		darkolivegreen [fillcolor = darkolivegreen fontsize = 10]
+		darkolivegreen -- center [label = "90°"]
+		darkgreen [fillcolor = darkgreen]
+		darkgreen -- center [label = "120°"]
+		"dark hue 0.416" [color = ".416 1 .6" fontcolor = white]
+		"dark hue 0.416" -- center [label = "150°"]
+		darkcyan [fillcolor = darkcyan]
+		darkcyan -- center [label = "180°"]
+		"dark hue 0.583" [color = ".583 1 .6" fontcolor = white]
+		"dark hue 0.583" -- center [label = "210°"]
+		darkblue [fillcolor = darkblue]
+		darkblue -- center [label = "240°"]
+		"dark hue 0.750" [color = ".750 1 .6"]
+		"dark hue 0.750" -- center [label = "270°"]
+		darkmagenta [fillcolor = darkmagenta]
+		darkmagenta -- center [label = "300°"]
+		"dark hue 0.916" [color = ".916 1 .6"]
+		"dark hue 0.916" -- center [label = "330°"]
+	}
+	subgraph Tue {
+		node [width = 1.3]
+		"hue 0.083" -- brown
+		"hue 0.083" [color = ".083 1 1"]
+		"hue 0.125" [color = ".125 1 1"]
+		"hue 0.166" -- olive
+		"hue 0.166" [color = ".166 1 1"]
+		"hue 0.208" [color = ".208 1 1"]
+		"hue 0.250" -- darkolivegreen
+		"hue 0.250" [color = ".250 1 1"]
+		"hue 0.291" [color = ".291 1 1"]
+		"hue 0.333" -- darkgreen
+		"hue 0.333" [color = ".333 1 1"]
+		"hue 0.375" [color = ".375 1 1"]
+		"hue 0.416" -- "dark hue 0.416"
+		"hue 0.416" [color = ".416 1 1"]
+		"hue 0.458" [color = ".458 1 1"]
+		"hue 0.500" -- darkcyan
+		"hue 0.500" [color = ".500 1 1"]
+		"hue 0.541" [color = ".541 1 1"]
+		node [fontcolor = white]
+		"hue 0.000" [color = ".000 1 1"]
+		"hue 0.000" -- darkred
+		"hue 0.041" [color = ".041 1 1"]
+		"hue 0.583" -- "dark hue 0.583"
+		"hue 0.583" [color = ".583 1 1"]
+		"hue 0.625" [color = ".625 1 1"]
+		"hue 0.666" -- darkblue
+		"hue 0.666" [color = ".666 1 1"]
+		"hue 0.708" [color = ".708 1 1"]
+		"hue 0.750" -- "dark hue 0.750"
+		"hue 0.750" [color = ".750 1 1"]
+		"hue 0.791" [color = ".791 1 1"]
+		"hue 0.833" -- darkmagenta
+		"hue 0.833" [color = ".833 1 1"]
+		"hue 0.875" [color = ".875 1 1"]
+		"hue 0.916" -- "dark hue 0.916"
+		"hue 0.916" [color = ".916 1 1"]
+		"hue 0.958" [color = ".958 1 1"]
+		edge [len = 1]
+		"hue 0.000" -- "hue 0.041" -- "hue 0.083" -- "hue 0.125" -- "hue 0.166" -- "hue 0.208"
+		"hue 0.208" -- "hue 0.250" -- "hue 0.291" -- "hue 0.333" -- "hue 0.375" -- "hue 0.416"
+		"hue 0.416" -- "hue 0.458" -- "hue 0.500" --"hue 0.541" -- "hue 0.583" -- "hue 0.625"
+		"hue 0.625" -- "hue 0.666" -- "hue 0.708" -- "hue 0.750" -- "hue 0.791" -- "hue 0.833"
+		"hue 0.833" -- "hue 0.875" -- "hue 0.916" -- "hue 0.958" -- "hue 0.000"
+	}
+	subgraph Main_colors {
+		node [width = 2 fontsize = 20]
+		red [fillcolor = red fontcolor = white]
+		orangered [fillcolor = orangered]
+		orange [fillcolor = orange]
+		gold [fillcolor = gold]
+		yellow [fillcolor = yellow]
+		yellowgreen [fillcolor = yellowgreen]
+		deeppink [fillcolor = deeppink fontcolor = white]
+		fuchsia [label = "fuchsia\nmagenta" fillcolor = fuchsia fontcolor = white]
+		purple [fillcolor = purple fontcolor = white]
+		blue [fillcolor = blue fontcolor = white]
+		cornflowerblue [fillcolor = cornflowerblue]
+		deepskyblue [fillcolor = deepskyblue]
+		aqua [fillcolor = aqua label = "aqua\ncyan"]
+		springgreen [fillcolor = springgreen]
+		green [fillcolor = green]
+		purple -- fuchsia -- deeppink -- red
+		cornflowerblue -- blue -- purple
+		cornflowerblue -- deepskyblue -- aqua [len = 1.7]
+		aqua -- springgreen -- green -- yellowgreen -- yellow
+		yellow -- gold -- orange -- orangered -- red [len = 1.6]
+		orange -- "hue 0.083"
+		deeppink -- "hue 0.916"
+		deeppink -- "hue 0.875"
+		red -- "hue 0.000"
+		yellowgreen -- "hue 0.250"
+		blue -- "hue 0.666"
+		yellow -- "hue 0.166"
+		gold -- "hue 0.125"
+		green -- "hue 0.333"
+		springgreen -- "hue 0.416"
+		aqua -- "hue 0.500"
+		cornflowerblue -- "hue 0.583"
+		deepskyblue -- "hue 0.541"
+		purple -- "hue 0.791"
+		purple -- "hue 0.750"
+		fuchsia -- "hue 0.833"
+	}
+	subgraph Light_colors {
+		node [width = 2 fontsize = 20]
+		node [shape = circle width = 1.8]
+		edge [len = 2.1]
+		pink [fillcolor = pink]
+		pink -- red
+		lightyellow [fillcolor = lightyellow]
+		lightyellow -- yellow
+		mediumpurple [fillcolor = mediumpurple]
+		mediumpurple -- purple
+		violet [fillcolor = violet]
+		violet -- fuchsia
+		hotpink [fillcolor = hotpink]
+		hotpink -- deeppink
+		"light hue 0.250" [color = ".250 .2 1"]
+		"light hue 0.250" -- yellowgreen
+		lightcyan [fillcolor = lightcyan]
+		lightcyan -- aqua
+		lightslateblue [fillcolor = lightslateblue]
+		lightslateblue -- blue
+		lightgreen [fillcolor = lightgreen]
+		lightgreen -- green
+		lightskyblue [fillcolor = lightskyblue]
+		lightskyblue -- deepskyblue
+		peachpuff [fillcolor = peachpuff]
+		peachpuff -- orange
+		"light hue 0.416" [color = ".416 .2 1"]
+		"light hue 0.416" -- springgreen
+	}
+	subgraph Tints {
+		node [width = 1]
+		edge [len = 2.4]
+		"hue 0 tint" -- pink
+		"hue 0 tint" [color = "0 .1 1"]
+		"hue 0.041 tint" [color = ".041 .1 1"]
+		"hue 0.083 tint" -- peachpuff
+		"hue 0.083 tint" [color = ".083 .1 1"]
+		"hue 0.125 tint" [color = ".125 .1 1"]
+		"hue 0.166 tint" -- lightyellow
+		"hue 0.166 tint" [color = ".166 .1 1"]
+		"hue 0.208 tint" [color = ".208 .1 1"]
+		"hue 0.250 tint" -- "light hue 0.250"
+		"hue 0.250 tint" [color = ".250 .1 1"]
+		"hue 0.291 tint" [color = ".291 .1 1"]
+		"hue 0.333 tint" -- lightgreen
+		"hue 0.333 tint" [color = ".333 .1 1"]
+		"hue 0.375 tint" [color = ".375 .1 1"]
+		"hue 0.416 tint" -- "light hue 0.416"
+		"hue 0.416 tint" [color = ".416 .1 1"]
+		"hue 0.458 tint" [color = ".458 .1 1"]
+		"hue 0.5 tint" -- lightcyan
+		"hue 0.5 tint" [color = ".5 .1 1"]
+		"hue 0.541 tint" -- lightskyblue
+		"hue 0.541 tint" [color = ".541 .1 1"]
+		"hue 0.583 tint" [color = ".583 .1 1"]
+		"hue 0.625 tint" [color = ".625 .1 1"]
+		"hue 0.666 tint" -- lightslateblue
+		"hue 0.666 tint" [color = ".666 .1 1"]
+		"hue 0.708 tint" [color = ".708 .1 1"]
+		"hue 0.750 tint" -- mediumpurple
+		"hue 0.750 tint" [color = ".750 .1 1"]
+		"hue 0.791 tint" [color = ".791 .1 1"]
+		"hue 0.833 tint" -- violet
+		"hue 0.833 tint" [color = ".833 .1 1"]
+		"hue 0.875 tint" [color = ".875 .1 1"]
+		"hue 0.916 tint" -- hotpink
+		"hue 0.916 tint" [color = ".916 .1 1"]
+		"hue 0.958 tint" [color = ".958 .1 1"]
+		edge [len = 2]
+		"hue 0 tint" -- "hue 0.041 tint" -- "hue 0.083 tint" -- "hue 0.125 tint" -- "hue 0.166 tint" -- "hue 0.208 tint"
+		"hue 0.208 tint" -- "hue 0.250 tint" -- "hue 0.291 tint" -- "hue 0.333 tint" -- "hue 0.375 tint" -- "hue 0.416 tint"
+		"hue 0.416 tint" -- "hue 0.458 tint" -- "hue 0.5 tint" --"hue 0.541 tint" -- "hue 0.583 tint" -- "hue 0.625 tint"
+		"hue 0.625 tint" -- "hue 0.666 tint" -- "hue 0.708 tint" -- "hue 0.750 tint" -- "hue 0.791 tint" -- "hue 0.833 tint"
+		"hue 0.833 tint" -- "hue 0.875 tint" -- "hue 0.916 tint" -- "hue 0.958 tint" -- "hue 0 tint"
+	}
+	// © 2022 Costa Shulyupin, licensed under EPL
 }
 
 ```
-
 
 ```{mermaid}
 %%| label: fig-mermaid-a
 %%| fig-cap: Figure caption
 
-flowchart LR
-  A{Diagram} --> B[Section Type]
-  A --> C[Paragraph Style]
-  A --> D[Raw Markdown]
+flowchart
+    A --> B & C & D --> E & F --> G
 ```
 
 ```{mermaid}
@@ -614,11 +764,9 @@ flowchart LR
 %%| echo: false
 
 flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
-
+  A{Diagram} --> B[Section Type]
+  A --> C[Paragraph Style]
+  A --> D[Raw Markdown]
 ```
 
 ```{mermaid}
@@ -626,73 +774,58 @@ flowchart LR
 %%| fig-cap: "A Mermaid figure using a Scrivener Section Type [Computation] with class [mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details"
 %%| 
 %%| 
-flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
+%%{init: {"pie": {"textPosition": 0.5}, "themeVariables": {"pieOuterStrokeWidth": "5px"}} }%%
+pie showData
+    title Key elements in Product X
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
 
 ```
 
+## Equations 
 
-{{< pagebreak >}}
-
-## Equations
-
-
-| **Element** | **Markdown Source** | **Rendered Output** |
+| **Species** | **Markdown Source** | **Rendered Output** |
 | :-----: | :-----: | :-----: |
 | Equation | `[@eq-demo-a]` | [@eq-demo-a] |
 | Equation | `[@eq-demo-b]` | [@eq-demo-b] |
 
-Table: Cross-referencing equations. {#tbl-equations}
+Table: Cross-referencing **equations**. {#tbl-equations}
 
 $$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}$$ {#eq-demo-a}
-
 
 $$t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
 $${#eq-demo-b}
 
+## Figures 
 
-{{< pagebreak >}}
-
-## Figures
-
-:::{.column-margin}
-"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
-[@MorphineCFP]{.author}, [@MorphineCFP]{.title} ([@MorphineCFP]{.issued})
-:::
-
-
-| **Element** | **Markdown Source** | **Rendered Output** |
+| **Species** | **Markdown Source** | **Rendered Output** |
 | :-----: | :-----: | :-----: |
-| Figure | `[@fig-image-a]` | [@fig-image-a] |
-| Figure (Multipart) | `[@fig-panel-a]` | [@fig-panel-a] |
-| Figure (Multipart) | `[@fig-panel-a-item-a]` | [@fig-panel-a-item-a] |
-| Figure (Multipart) | `[@fig-panel-a-item-b]` | [@fig-panel-a-item-b] |
+|  | `[@fig-ulysses]` | [@fig-ulysses] |
+| Multipart Figure | `[@fig-panel-a]` | [@fig-panel-a] |
+| Multipart Figure | `[@fig-panel-a-item-a]` | [@fig-panel-a-item-a] |
+| Multipart Figure | `[@fig-panel-a-item-b]` | [@fig-panel-a-item-b] |
 
 Table: Cross-referencing figures. {#tbl-figures}
 
-![Ulysses and the Sirens ([@Draper1909]).](Ulysses-sirens.jpg){#fig-ulysses width="auto"}
+![Ulysses and the Sirens.](Ulysses-sirens.jpg){#fig-ulysses width="auto"}
 
+Painting by [@Draper1909].
 
-:::{id="fig-panel-a" .column-page  layout-ncol=2}
+:::{id="fig-panel-a" .column-page  layout-ncol=2 layout-valign="bottom"}
 
 ![Place the label first in the caption, and use the `Caption` style.](Elephant2.jpg){#fig-panel-a-item-a width="auto"}
 
 ![Angry elephant with a big trunk.](Elephant3.jpg){#fig-panel-a-item-b width="auto"}
 
-This multi-figure panel uses the `Div` **Section Type** instead of raw markdown as shown here. ID, Class, and Attributes specific to the block [`#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"`] are saved to `Custom Metadata->ID, Class & Attributes`, and then inserted into the markup for this chunk by the Section Layout at compile time.  
+This multi-figure panel uses the **Section Type** `Div` instead of raw markdown as shown here. `ID`, `Class`, and `Attributes` specific to the block [`#fig-panel-a .column-body layout-ncol=2 layout-valign="bottom"`] are saved to `Custom Metadata->ID, Class & Attributes`, and then inserted into the markup for this chunk by the Section Layout at compile time.  
 
 :::
 
+## Listings 
 
-{{< pagebreak >}}
-
-## Listings
-
-
-| **Element** | **Markdown Source** | **Rendered Output** |
+| **Species** | **Markdown Source** | **Rendered Output** |
 | :-----: | :-----: | :-----: |
 | Listing | `[@lst-demo-a]` | [@lst-demo-a] |
 | Listing | `[@lst-demo-b]` | [@lst-demo-b] |
@@ -722,22 +855,17 @@ Encoding.default_external = Encoding::UTF_8
 Dir["#{__dir__}/Ruby/**/*.rb"].each do |file|
   require_relative file
 end
-
 ```
 
+## Tables 
 
-{{< pagebreak >}}
-
-## Tables
-
-
-| **Element** | **Markdown Source** | **Rendered Output** |
+| **Species** | **Markdown Source** | **Rendered Output** |
 | :-----: | :-----: | :-----: |
-| Table | `[@tbl-demo-a]` | [@tbl-demo-a] |
-| Table | `[@]` | [@] |
-| Table (Multipart) | `[@]` | [@] |
-| Table (Multipart) | `[@tbl-panel-a-item-a]` | [@tbl-panel-a-item-a] |
-| Table (Multipart) | `[@tbl-panel-a-item-b]` | [@tbl-panel-a-item-b] |
+|  | `[@tbl-demo-a]` | [@tbl-demo-a] |
+|  | `[@tbl-demo-b]` | [@tbl-demo-b] |
+| Multipart Table | `[@tbl-panel-a]` | [@tbl-panel-a] |
+| Multipart Table | `[@tbl-panel-a-item-a]` | [@tbl-panel-a-item-a] |
+| Multipart Table | `[@tbl-panel-a-item-b]` | [@tbl-panel-a-item-b] |
 
 Table: Cross-referencing tables. {#tbl-tables}
 
@@ -745,15 +873,13 @@ Table: Cross-referencing tables. {#tbl-tables}
 | :-----: | :-----: |
 | [ἐν ἀρχὴ ἦν ὁ λόγος]{lang=grc} | [आदौ वाद आसीत्]{lang=sa} |
 
-Table: An example is taken from NT John I 1. This table uses [Text]{.underline} as the **Section Type**, and [Table Caption]{.underline} as the **Paragraph Style** for the caption. {#tbl-demo-a}
+Table: This table with with a passage from John 1.1 uses the **Section Type**  [Text]{.underline} and **Paragraph Style** [Table Caption]{.underline}.  {#tbl-demo-a}
 
 | **GRC** | **SKT** |
 | :-----: | :-----: |
 | [ἐν ἀρχὴ ἦν ὁ λόγος]{lang=grc} | [आदौ वाद आसीत्]{lang=sa} |
 
-
-: "This is an example of `Table` as **Section Type**. The caption and the remaining attributes are added as part of the Section Type markup." {#tbl-demo-b}
-
+: "This is an example of **Section Type** `Table`. The caption and the remaining attributes are added as part of the Section Type markup." {#tbl-demo-b}
 
 :::{id="tbl-panel-a"    layout-ncol=1}
 
@@ -763,8 +889,7 @@ Table: An example is taken from NT John I 1. This table uses [Text]{.underline} 
 | Equation A | eq | C | D |
 | Listing A | lst | E | F |
 
-Table: The first table in a multipart table panel. {#tbl-panel-a-item-a}
-
+Table: The first table of the multipart table panel. {#tbl-panel-a-item-a}
 
 | **Element** | **Prefix** | **Markdown Source** | **Rendered Output** |
 | :-----: | :-----: | :-----: | :-----: |
@@ -772,366 +897,145 @@ Table: The first table in a multipart table panel. {#tbl-panel-a-item-a}
 | Equation B | eq | C | D |
 | Listing B | lst | E | F |
 
-Table: The second table in a multipart table panel. {#tbl-panel-a-item-b}
+Table: The second table of the multipart table panel. {#tbl-panel-a-item-b}
 
-
-This is a markdown multi-table panel with two sub-tables generated using a Section Type `Div`. Note that Custom Metadata holds the cross-referencing label, layout class, and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: `<\$custom:Class>`, `<\$custom:Attributes>`.
+This is a markdown multi-table panel with two sub-tables generated using a **Section Type** `Div`. The **Custom Metadata** holds the cross-referencing label, classes, and other attributes.
 
 :::
 
+## Sections {id="sec-dem"}
+
+| **Genus** | **Markdown Source** | **Rendered Output** |
+| :-----: | :-----: | :-----: |
+| Section | `[@sec-demo-a]` | [@sec-demo-a] |
+| Break + Section | `[@sec-demo-e]` | [@sec-demo-e] |
+| Heading | `[@sec-demo-c]` | [@sec-demo-c] |
+| Break + Heading | `[@sec-demo-d]` | [@sec-demo-d] |
+
+Table: Note that the unnumbered section cannot be referenced.  {#tbl-sections}
+
+### Section (Unnumbered) {id="sec-demo-b" .unnumbered}
+
+Demonstration of the **Section Type** *Section* using **Class** `.unnumbered`.
+
+### Section {id="sec-demo-a"}
+
+Demonstration of the **Section Type** *Section* with **ID** `#sec-demo-a`.
 
 {{< pagebreak >}}
 
-## Sections {id="sec-demo"   }
+### Break + Section {id="sec-demo-e"}
 
-The text sections can be referenced with **Character Styles**, and created with **Paragraph Styles** or **Section Types**. As before, all of these receive automatic IDs. Note that the unnumbered section cannot be referenced.
+Demonstration of the **Section Type** *Break + Section* with **ID** `#sec-demo-e`.
 
-### Section {id="sec-demo-a"   }
-
-
-This is an example of the [Section]{.underline} section type.
-
-{{< pagebreak >}}
-
-### Section {-} {id="sec-demo-b"   }
-
-This is an example of the [Section {-}]{.underline} section type.
-
-### Heading {id="sec-demo-c"   }
-
+### Heading {id="sec-demo-c"}
 
 ---
 
-### Heading + Break {id="sec-demo-d"   }
+### Break + Heading {id="sec-demo-d"}
 
-
-{{< pagebreak >}}
-
-### Section + Break {id="sec-demo-e"   }
-
-This is an example of the [Section + Break]{.underline} section type.
-
-# Templates and partials
-
+# Templates and partials 
 
 :::{.callout-caution}
-## Quarto Templates optionally edited in Scrivener
+## **Quarto** Templates optionally edited in **Scrivener**
 
-Users needing control over the parameters in the native Quarto templates shouldn't have to deal with external files. We imported all the templates and partials for the main file types (TeX, HTML, Typst) so they can be edited directly in Scrivener. This is entirely optional.
+Users needing control over the parameters in the native **Quarto** templates shouldn't have to deal with external files. We imported all the templates and partials for the main file types (TeX, HTML, Typst) so they can be edited directly in Scrivener. 
 :::
-
 
 :::{.callout-note collapse="true"}
 ## PDF
  
-- [doc-class](_extensions/bcdavasconcelos/templates/tex/doc-class.tex)
-- [title](_extensions/bcdavasconcelos/templates/tex/title.tex)
-- [toc](_extensions/bcdavasconcelos/templates/tex/toc.tex) 
-- [before-body](_extensions/bcdavasconcelos/templates/tex/before-body.tex)
-- [before-bib](_extensions/bcdavasconcelos/templates/tex/before-bib.tex)
-- [biblio](_extensions/bcdavasconcelos/templates/tex/biblio.tex)
-- [after-body](_extensions/bcdavasconcelos/templates/tex/after-body.tex)
+- [doc-class](_extensions/templates/tex/doc-class.tex)
+- [title](_extensions/templates/tex/title.tex)
+- [toc](_extensions/templates/tex/toc.tex) 
+- [before-body](_extensions/templates/tex/before-body.tex)
+- [before-bib](_extensions/templates/tex/before-bib.tex)
+- [biblio](_extensions/templates/tex/biblio.tex)
+- [after-body](_extensions/templates/tex/after-body.tex)
 
 And the Pandoc sub-partials:
  
-- [tightlist](_extensions/bcdavasconcelos/templates/tex/tightlist.tex)
-- [tables](_extensions/bcdavasconcelos/templates/tex/tables.tex)
-- [graphics](_extensions/bcdavasconcelos/templates/tex/graphics.tex)
-- [citations](_extensions/bcdavasconcelos/templates/tex/citations.tex)
+- [tightlist](_extensions/templates/tex/tightlist.tex)
+- [tables](_extensions/templates/tex/tables.tex)
+- [graphics](_extensions/templates/tex/graphics.tex)
+- [citations](_extensions/templates/tex/citations.tex)
 :::
-
 
 :::{.callout-note collapse="true"}
 ## HTML
  
-- [title-block](_extensions/bcdavasconcelos/templates/html/title-block.html)
-- [styles](_extensions/bcdavasconcelos/templates/html/styles.html)
-- [html-template](_extensions/bcdavasconcelos/templates/html/html.template)
-- [html-styles](_extensions/bcdavasconcelos/templates/html/html.styles)
-- [toc](_extensions/bcdavasconcelos/templates/html/toc.html)
-- [metadata](_extensions/bcdavasconcelos/templates/html/metadata.html)
+- [title-block](_extensions/templates/html/title-block.html)
+- [styles](_extensions/templates/html/styles.html)
+- [html-template](_extensions/templates/html/html.template)
+- [html-styles](_extensions/templates/html/html.styles)
+- [toc](_extensions/templates/html/toc.html)
+- [metadata](_extensions/templates/html/metadata.html)
 :::
 
-# Resources
+# Resources 
 
+- [Bootstrap Icons](https://icons.getbootstrap.com) - These are available in Quarto documents using the **Shortcode Font Awesome** style as in `{{< fa regular bell >}}` {{< fa regular bell >}}. (There is also **Shortcode Env**, **Shortcode Meta**, **Shortcode Var**). 
+- [The Plain Person's Guide to Plain Text Social Science](https://plain-text.co/index.html#introduction)
+- [Quarto Reference](https://quarto.org/docs/reference/)
+- The easiest way to [publish to Github Pages](quarto.org/docs/publishing/github-pages.html#render-to-docs)
+- [Example of Quarto Book](https://github.com/jjallaire/hopr/blob/master/_quarto.yml)
+- [Quarto with GH Pages](https://tarleb.com/posts/quarto-with-gh-pages/)
 
-- Bootstrap Icons - https://icons.getbootstrap.com - These are available in Quarto documents using the **Shortcode Font Awesome** style as in `{{< fa regular bell >}}` {{< fa regular bell >}}. (There is also **Shortcode Env**, **Shortcode Meta**, **Shortcode Var**). 
-- The Plain Person's Guide to Plain Text Social Science - https://plain-text.co/index.html#introduction
-- Quarto Reference - https://quarto.org/docs/reference/
-- The easiest way to publish to Github Pages: Render to docs
-- Example of Quarto Book - https://github.com/jjallaire/hopr/blob/master/_quarto.yml
-- Quarto with GH Pages - https://tarleb.com/posts/quarto-with-gh-pages/
+# Final word 
 
-{{< pagebreak >}}
+If you like what you see, consider sponsoring [this project on Github](https://github.com/sponsors/bcdavasconcelos). 
 
-# Final word
+:::{.callout-warning collapse="true"}
+## Known problems & random errors
 
-Consider sponsoring [this project on Github](https://github.com/sponsors/bcdavasconcelos). It would be great to have your support in this and you can rest assured that every cent will trickle down to ScrivQ features and ease of use.
-
-
-:::{id="bib-sample" .appendix .column-page-right}
-
-
-:::{id="first-column" .column   width="40%" height=""}
-**BibTeX**
-
-```bibtex
-@book{AristOp,
-author = {Aristotle},
-editor = {Bekker, Immanuel},
-title = {Aristotelis opera},
-publisher = {Reimer},
-address = {Berlim},
-volumes = {4},
-edition = {1},
-year = {1831}
-}
-```
-
-**RIS**
-
-```ris
-TY  - BOOK
-ID  - AristOp
-AU  - Aristotle
-ED  - Bekker, Immanuel
-TI  - Aristotelis opera
-PB  - Reimer
-CY  - Berlim
-ET  - 1
-VL  - 4
-Y1  - 1831
-ER  -
-```
-
+- Compilation fails for **LaTeX → PDF** when citations are placed in Table/Figure captions. The cause seems to be the **Citation Backlinks** filter.
+- For **Typst → PDF** output some **Quarto** features (*e.g.* margin notes, column classes) are not yet implemented. Hopefully this will change in future Quarto versions.
 :::
 
+# Bibliography {.unnumbered}
 
-:::{id="second-column" .column   width="2%" height=""}
+## Primary Sources {#sec-primary-sources .unnumbered}
 
-:::
-
-
-:::{id="third-column" .column   width="40%" height=""}
-**CSL-YAML**
-
-```yaml
 ---
-references:
-- author:
-  - family: Aristotle
-  edition: 1
-  editor:
-  - family: Bekker
-    given: Immanuel
-  id: AristOp
-  issued: 1831
-  number-of-volumes: 4
-  publisher: Reimer
-  publisher-place: Berlim
-  title: Aristotelis opera
-  type: book
+bibliography_primary-sources: "refs/primary-sources.yml"
 ---
-```
-
-:::
-
-:::
-
-
-# Bibliography {.unnumbered .appendix }
-
-
-## Primary Sources {.unnumbered .appendix }
 
 ::: {#refs_primary-sources}
 :::
 
+## Secondary Sources {#sec-secondary-sources .unnumbered}
 
-## Secondary Sources {.unnumbered .appendix }
+---
+bibliography_secondary-sources: "refs/secondary-sources.yml"
+---
 
 ::: {#refs_secondary-sources}
 :::
 
+## Workflow {#sec-workflow .unnumbered}
 
-## Workflow {.unnumbered .appendix }
+---
+bibliography_workflow: "refs/workflow.bib"
+---
 
 ::: {#refs_workflow}
 :::
 
+## Songs {#sec-songs .unnumbered}
 
-## Songs {.unnumbered .appendix }
+---
+bibliography_songs: "refs/songs.yml"
+---
 
 ::: {#refs_songs}
 :::
 
+## Paintings {#sec-paintings .unnumbered}
 
-## Paintings {.unnumbered .appendix }
+---
+bibliography_paintings: "refs/paintings.yml"
+---
 
 ::: {#refs_paintings}
 :::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

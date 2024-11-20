@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="D02E36E9-89E6-4E6F-A58C-644AD726C254">
+    <Snapshot Date="2024-11-08 07:55:13 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>#!/usr/bin/env ruby
+# frozen_string_literal: false
+
+Encoding.default_external = Encoding::UTF_8
+
+Dir["#{__dir__}/Ruby/**/*.rb"].each do |file|
+  require_relative file
+end</Text>
+    </Snapshot>
+</SnapshotIndexes>
