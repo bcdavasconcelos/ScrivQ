@@ -4,28 +4,20 @@
 --> 6 notes replaced.
 --> 48 files created
 [1mpandoc [22m
-  to: html
-  output-file: ScrivQ24.html
-  template: _extensions/templates/html/template.html
+  to: typst-citations
+  output-file: ScrivQ24.typ
+  template: _extensions/templates/typst/orange/template.typ
   standalone: true
-  embed-resources: false
-  section-divs: true
-  html-math-method: mathjax
+  default-image-extension: svg
   wrap: none
-  default-image-extension: png
-  cite-method: citeproc
   citeproc: false
+  cite-method: citeproc
   verbosity: ERROR
-  toc: true
-  toc-depth: 3
+  toc: false
   number-sections: true
-  reference-location: margin
   
 [1mmetadata[22m
-  document-css: false
-  link-citations: true
-  date-format: long
-  lang: en
+  section-numbering: 1.1.a
   website:
     author: Bernardo César Diniz Athayde Vasconcelos
     title: Hello, ScrivQ
@@ -36,7 +28,7 @@
       type: overlay
     page-navigation: true
     back-to-top-navigation: true
-  title: Hello, ScrivQ!
+  title: Hello, ScrivQ
   license: CC BY-NC-SA
   copyright:
     holder: Bernardo C. D. A. Vasconcelos
@@ -45,38 +37,33 @@
   csl: _extensions/csl/abnt-phi.csl
   verbose: false
   notes-after-punctuation: true
+  link-citations: true
   link-bibliography: true
   bibliography_primary-sources: refs/primary-sources.yml
   bibliography_secondary-sources: refs/secondary-sources.yml
   bibliography_workflow: refs/workflow.bib
   bibliography_songs: refs/songs.yml
   bibliography_paintings: refs/paintings.yml
-  link-fields: true
-  theme:
-    light:
-      - Pulse
-    dark:
-      - Cyborg
-  include-before:
-    - |
-      <style>
-      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-      </style>
-  toc-location: left
-  toc-expand: true
+  link-fields: false
+  author: Bernardo Vasconcelos
+  date: 2024-11
+  abstract: The Abstract
   number-depth: 3
-  linestretch: 1.5
   fontsize: 12pt
-  fontfamily: Alegreya
-  mainfont: Alegreya
+  mainfont: Gentium Plus
   sansfont: Alegreya Sans
   monofont: Source Code Pro
-  code-copy: true
-  appendix-style: default
+  tbl-cap-location: bottom
+  papersize: a4
   
-Output created: ScrivQ24.html
+3
+[typst]: Compiling ScrivQ24.typ to ScrivQ24.pdf...error: label `<ref-HomIl>` occurs multiple times in the document
+    ┌─ ScrivQ24.typ:548:38
+    │
+548 │ Μῆνιν ἄειδε, θεά, Πηληιάδεω Ἀχιλῆος (#link(<ref-HomIl>)[#emph[Hom Il];];, I 1<cite_2>) The wrath sing, goddess, of Peleus’ son Achilles.
+    │                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
---> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.qmd" --to html
+--> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.qmd" --to typst-citations
 Process finished in time
---> Processing took: 3.805426s
+There was some problem opening /Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.pdf, check compiler log…
+--> Processing took: 12.227089s

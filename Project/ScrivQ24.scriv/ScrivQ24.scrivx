@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-20 15:58:20 -0300" ModID="32446288-49B8-4DCC-B64A-89A419DA0498">
+<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-24 18:08:07 -0300" ModID="E86B0346-C2D4-44BC-B7D8-F7A9237A5AC2">
     <Binder>
         <BinderItem UUID="8B014782-1E52-4F6D-B15C-CA5FB440B23B" Type="Folder" Created="2023-06-22 15:45:13 -0300" Modified="2024-01-07 19:09:11 -0300">
             <Title>ScrivQ Templates</Title>
@@ -456,7 +456,7 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>190,0</TextSelection>
+                        <TextSelection>769,5</TextSelection>
                     </TextSettings>
                     <CorkboardAndOutliner>
                         <SelectedSubdocumentUUIDs>EAC62120-0B39-4841-B1A0-9A73ADD1C739</SelectedSubdocumentUUIDs>
@@ -1572,7 +1572,7 @@
                                         <Bookmark BinderUUID="28291907-8F43-4F7D-B3A4-3E6833807351"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="A5D56A6D-9401-4DF6-A80F-F75A752D0EF2" Type="Text" Created="2024-11-08 17:44:00 -0300" Modified="2024-11-08 17:45:19 -0300">
+                                <BinderItem UUID="A5D56A6D-9401-4DF6-A80F-F75A752D0EF2" Type="Text" Created="2024-11-08 17:44:00 -0300" Modified="2024-11-21 21:11:12 -0300">
                                     <Title>Caracter Styles</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -1608,7 +1608,7 @@
                                         <TextSelection>1115,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="822E2912-BD41-404D-8A47-02F5F8E6C909" Type="Text" Created="2024-11-08 17:53:46 -0300" Modified="2024-11-08 17:53:49 -0300">
+                                <BinderItem UUID="822E2912-BD41-404D-8A47-02F5F8E6C909" Type="Text" Created="2024-11-08 17:53:46 -0300" Modified="2024-11-21 21:11:12 -0300">
                                     <Title>Caracter Styles</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -3791,7 +3791,7 @@
                         <KeywordID>48</KeywordID>
                     </Keywords>
                 </BinderItem>
-                <BinderItem UUID="5572C18C-80E0-420C-8AB5-4B2D75A5DE68" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-12 20:46:15 -0300">
+                <BinderItem UUID="5572C18C-80E0-420C-8AB5-4B2D75A5DE68" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-22 19:52:11 -0300">
                     <Title>Citations</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -3799,7 +3799,7 @@
                         <IconFileName>Life (Body heartbeat).png</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>941,0</TextSelection>
+                        <TextSelection>37,5</TextSelection>
                     </TextSettings>
                     <CorkboardAndOutliner>
                         <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
@@ -3809,7 +3809,7 @@
                         </OutlinerExpandedState>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem UUID="36010862-4622-4086-9FBB-2432E686BEE6" Type="Text" Created="2023-03-25 16:59:43 -0300" Modified="2024-11-12 20:41:50 -0300">
+                        <BinderItem UUID="36010862-4622-4086-9FBB-2432E686BEE6" Type="Text" Created="2023-03-25 16:59:43 -0300" Modified="2024-11-22 19:10:34 -0300">
                             <Title>Basic citations</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -3820,7 +3820,7 @@
                                 <TextSelection>620,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="472092CD-584B-47DA-9DD3-C444C8936A4E" Type="Text" Created="2024-10-31 21:51:55 -0300" Modified="2024-11-20 14:54:57 -0300">
+                                <BinderItem UUID="472092CD-584B-47DA-9DD3-C444C8936A4E" Type="Text" Created="2024-10-31 21:51:55 -0300" Modified="2024-11-22 19:57:37 -0300">
                                     <Title>Examples of citations</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -3836,7 +3836,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="BEF1B346-515E-49D5-BAEB-19606A087348" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-11 20:53:46 -0300">
+                        <BinderItem UUID="BEF1B346-515E-49D5-BAEB-19606A087348" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-22 22:17:28 -0300">
                             <Title>Citation of specific fields</Title>
                             <MetaData>
                                 <SectionType ChildDefault="5AD39B0F-DA85-4B21-A533-830148C15C93"></SectionType>
@@ -3851,7 +3851,7 @@
                                 <Bookmark BinderUUID="30C0EE71-05AB-40BD-8B95-D0AD7B41AC46"/>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="F68CDADB-7025-4DC0-A618-0993B3504BF8" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-12 20:42:24 -0300">
+                        <BinderItem UUID="F68CDADB-7025-4DC0-A618-0993B3504BF8" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-23 11:02:19 -0300">
                             <Title>Multipart Bibliography</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -3862,7 +3862,7 @@
                                 <TextSelection>1192,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="303EEA60-E1C1-4036-805C-73DA216E9278" Type="Text" Created="2024-01-05 18:45:31 -0300" Modified="2024-11-10 22:55:48 -0300">
+                                <BinderItem UUID="303EEA60-E1C1-4036-805C-73DA216E9278" Type="Text" Created="2024-01-05 18:45:31 -0300" Modified="2024-11-22 19:28:20 -0300">
                                     <Title>How to manually create a multipart bibliography</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -3886,7 +3886,7 @@
                                         <TextSelection>37,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="78B3E7A2-1887-4BAB-AFDC-34EECC80C3EB" Type="Text" Created="2024-10-31 12:38:27 -0300" Modified="2024-11-10 22:55:48 -0300">
+                                <BinderItem UUID="78B3E7A2-1887-4BAB-AFDC-34EECC80C3EB" Type="Text" Created="2024-10-31 12:38:27 -0300" Modified="2024-11-22 19:28:40 -0300">
                                     <Title>How to automatically create a multipart bibliography</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -3912,7 +3912,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="D96AFA02-92B2-4992-A21B-918D1D897986" Type="Text" Created="2023-04-01 15:30:57 -0300" Modified="2024-11-05 12:57:30 -0300">
+                        <BinderItem UUID="D96AFA02-92B2-4992-A21B-918D1D897986" Type="Text" Created="2023-04-01 15:30:57 -0300" Modified="2024-11-22 19:30:15 -0300">
                             <Title>Backlinks</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -3927,7 +3927,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="636B99EB-D322-40CA-BCC7-0871737AAA33" Type="Text" Created="2024-01-05 15:35:05 -0300" Modified="2024-11-09 11:04:36 -0300">
+                <BinderItem UUID="636B99EB-D322-40CA-BCC7-0871737AAA33" Type="Text" Created="2024-01-05 15:35:05 -0300" Modified="2024-11-22 19:12:03 -0300">
                     <Title>Quarto</Title>
                     <MetaData>
                         <SectionType ChildDefault="6452C414-94A2-41E1-A014-A97B441B91F8"></SectionType>
@@ -3951,7 +3951,7 @@
                         </OutlinerExpandedState>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem UUID="F37A18CB-403C-4619-B139-692DB318338B" Type="Text" Created="2024-11-08 17:30:52 -0300" Modified="2024-11-18 16:22:28 -0300">
+                        <BinderItem UUID="F37A18CB-403C-4619-B139-692DB318338B" Type="Text" Created="2024-11-08 17:30:52 -0300" Modified="2024-11-22 22:23:37 -0300">
                             <Title>Scrivener Project Templates</Title>
                             <MetaData>
                                 <SectionType ChildDefault="3F514CCD-B716-4FD0-8ACC-F1F2072B9F65"></SectionType>
@@ -3975,7 +3975,7 @@
                                 </OutlinerExpandedState>
                             </CorkboardAndOutliner>
                         </BinderItem>
-                        <BinderItem UUID="98B95045-19E3-482E-804E-5B09BAE664C5" Type="Text" Created="2024-11-03 17:23:43 -0300" Modified="2024-11-20 15:07:08 -0300">
+                        <BinderItem UUID="98B95045-19E3-482E-804E-5B09BAE664C5" Type="Text" Created="2024-11-03 17:23:43 -0300" Modified="2024-11-22 22:26:52 -0300">
                             <Title>Cross-referencing</Title>
                             <MetaData>
                                 <SectionType ChildDefault="3F514CCD-B716-4FD0-8ACC-F1F2072B9F65"></SectionType>
@@ -3983,7 +3983,7 @@
                                 <IconFileName>Toolbar (location at).png</IconFileName>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1425,0</TextSelection>
+                                <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <CorkboardAndOutliner>
                                 <SelectedSubdocumentUUIDs>B8AC60FF-5F29-4E90-9FB7-623203943513</SelectedSubdocumentUUIDs>
@@ -4758,7 +4758,7 @@
                                         <Bookmark BinderUUID="98B95045-19E3-482E-804E-5B09BAE664C5"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="D7187B69-CF37-43C9-84FA-E57430D19CA4" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-08 07:49:24 -0300">
+                                <BinderItem UUID="D7187B69-CF37-43C9-84FA-E57430D19CA4" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-22 22:29:02 -0300">
                                     <Title>Multipart Figure α</Title>
                                     <MetaData>
                                         <SectionType>00ECFC15-5815-4AE1-A765-EC2FFDE24867</SectionType>
@@ -4880,7 +4880,7 @@
                                 <Bookmark Destination="https://quarto.org/docs/authoring/cross-references.html#tables">Quarto - Tables</Bookmark>
                             </Bookmarks>
                             <Children>
-                                <BinderItem UUID="DC414E22-4ED3-473B-8568-F1167841601E" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-20 11:51:47 -0300">
+                                <BinderItem UUID="DC414E22-4ED3-473B-8568-F1167841601E" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-22 19:44:42 -0300">
                                     <Title>Table</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -5057,7 +5057,7 @@
                                         <Bookmark BinderUUID="98B95045-19E3-482E-804E-5B09BAE664C5"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="1788F7B4-4B13-4272-8E68-675F7118CA37" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-20 12:09:32 -0300">
+                                <BinderItem UUID="1788F7B4-4B13-4272-8E68-675F7118CA37" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-22 19:46:37 -0300">
                                     <Title>Heading</Title>
                                     <MetaData>
                                         <SectionType>2BDAD55B-C0B2-4756-B937-DFF7277AD29B</SectionType>
@@ -5081,7 +5081,7 @@
                                         <Bookmark BinderUUID="98B95045-19E3-482E-804E-5B09BAE664C5"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="013120A7-08A2-4F81-932E-5B9320B2380E" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-20 12:10:29 -0300">
+                                <BinderItem UUID="013120A7-08A2-4F81-932E-5B9320B2380E" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-22 19:46:37 -0300">
                                     <Title>Break + Heading</Title>
                                     <MetaData>
                                         <SectionType>2CE86258-6E74-458B-9A30-80E4576FF4EB</SectionType>
@@ -5191,7 +5191,7 @@
                         <Bookmark BinderUUID="28291907-8F43-4F7D-B3A4-3E6833807351"/>
                     </Bookmarks>
                     <Children>
-                        <BinderItem UUID="F5961282-1537-4455-87B8-9B182DDD4F18" Type="Text" Created="2023-08-13 17:17:48 -0300" Modified="2024-11-12 15:47:51 -0300">
+                        <BinderItem UUID="F5961282-1537-4455-87B8-9B182DDD4F18" Type="Text" Created="2023-08-13 17:17:48 -0300" Modified="2024-11-22 19:06:58 -0300">
                             <Title>Primary Sources</Title>
                             <MetaData>
                                 <SectionType>903D0163-DF42-456D-8EF5-D3228A5AB771</SectionType>
@@ -5218,7 +5218,7 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>241,0</TextSelection>
+                                <TextSelection>1348,5</TextSelection>
                             </TextSettings>
                             <CorkboardAndOutliner>
                                 <SelectedSubdocumentUUIDs>EAC62120-0B39-4841-B1A0-9A73ADD1C739</SelectedSubdocumentUUIDs>
@@ -5909,7 +5909,7 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>0,2516</TextSelection>
+                                <TextSelection>1497,5</TextSelection>
                             </TextSettings>
                             <CorkboardAndOutliner>
                                 <SelectedSubdocumentUUIDs>EAC62120-0B39-4841-B1A0-9A73ADD1C739</SelectedSubdocumentUUIDs>
@@ -6135,7 +6135,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="0676D34A-DC44-4DC2-95DC-808FDFA11695" Color="0.190666 0.172706 0.216531">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">phantomsection</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">HomIl</SearchSettings>
         </Collection>
         <Collection Type="Binder" ID="1579D6F1-9B9F-4440-A52B-A8D4970506A8" Color="0.145666 0.13433 0.203488">
             <Title>Binder</Title>
@@ -6632,12 +6632,12 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-11-21 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="-29" Characters="-107" Date="2024-11-20 11:33:43 -0300"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-11-25 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2024-11-24 18:03:00 -0300"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2024-11-20 00:00:00 -0300">
-        <DraftWordCount>-29</DraftWordCount>
-        <DraftCharCount>-107</DraftCharCount>
+    <RecentWritingHistory Date="2024-11-24 00:00:00 -0300">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>

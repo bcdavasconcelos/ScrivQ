@@ -544,11 +544,7 @@ fa-exclamation-triangle()
 #pagebreak()
 = Citations
 <citations>
-#block[
-"I propose a toast, to my self-control. You see it helpless, crawling on the floor." Morphine, #emph[Cure For Pain] (1993)
-
-]
-In ScrivQ, we use #link("https://en.wikipedia.org/wiki/CiteProc")[Citeproc] to handle the bibliography and provide consistent output across different formats. Given Citeproc’s lack of features beloved by #strong[BibTeX] users, we included \[Cite Tools\] to enable multipart bibliographies, provide backlinks (see `backref` from #link("www.ctan.org/pkg/hyperref")[HyperRef];), and access bibliographic data from sources (#emph[author];, #emph[editor];, #emph[translator];, #emph[date];, #emph[edition];, #emph[number];, and so on).
+In ScrivQ, we use #link("https://en.wikipedia.org/wiki/CiteProc")[Citeproc] to handle the bibliography and provide consistent output across different formats. Given Citeproc’s lack of features beloved by #strong[BibTeX] users, we included #link("https://bcdavasconcelos.github.io/citetools")[Cite Tools] to enable multipart bibliographies, provide backlinks (see `backref` from #link("www.ctan.org/pkg/hyperref")[HyperRef];), and access bibliographic data from sources (#emph[author];, #emph[editor];, #emph[translator];, #emph[date];, #emph[edition];, #emph[number];, and so on).
 
 #block[
 #callout(
@@ -577,13 +573,13 @@ fa-info()
 #callout(
 body: 
 [
-Deleting #link("https://bcdavasconcelos.github.io/citetools")[Cite Tools] from ScrivQ will cause the compilation to #underline[fail];.
+Deleting #link("https://bcdavasconcelos.github.io/citetools")[Cite Tools] might cause the compilation to #underline[fail];.
 
 ]
 , 
 title: 
 [
-Cite Tools needed for ScrivQ
+Cite Tools and ScrivQ
 ]
 , 
 background_color: 
@@ -600,7 +596,7 @@ fa-exclamation-triangle()
 #callout(
 body: 
 [
-Install it with `quarto install extension bcdavasconcelos/citetools`.
+`quarto install extension bcdavasconcelos/citetools`.
 
 ]
 , 
@@ -649,14 +645,12 @@ supplement: "Table",
 <tbl-citations>
 
 
-Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup.
+Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup. If you were using other CSL styles, then you could drop the parenthesis.
 
 #block[
 #callout(
 body: 
 [
-`Long thinks [...] on the deliberations of the prudent person ([-@Long2004, p.17]).`
-
 Long thinks \[…\] on the deliberations of the prudent person (#link(<ref-Long2004>)[2004, p. 17];<cite_6>).
 
 ]
@@ -680,8 +674,6 @@ fa-info()
 #callout(
 body: 
 [
-`...on the deliberations of the prudent person ([@Long2004, p.17])`.
-
 …on the deliberations of the prudent person (#link(<ref-Long2004>)[LONG, 2004, p. 17];<cite_7>).
 
 ]
@@ -705,8 +697,6 @@ fa-info()
 #callout(
 body: 
 [
-`...on the deliberations of the prudent person ([@Long2004, p.17]; [@hoffman2014, p.15]).`
-
 …on the deliberations of the prudent person (#link(<ref-Long2004>)[LONG, 2004, p. 17];<cite_8>; #link(<ref-hoffman2014>)[HOFFMAN & PRAKASH, 2014, p. 15];<cite_9>).
 
 ]
@@ -728,7 +718,7 @@ fa-info()
 ]
 == Citation of specific fields
 <citation-of-specific-fields>
-To inject the correct markup – `[@Citekey]{.csl_field}` – and allow us to cite different fields from our bibliographic entry, we rely on #strong[Character Styles] (#emph[e.g.] #emph[Cite Author];, #emph[Cite Editor];, #emph[Cite Issued];, and so on).We have stuck to the term fields, but the official terminology is #link("https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables")[CSL Variables];, #link("https://en.wikipedia.org/wiki/BibTeX#Field_types")[BibTeX Fields];, and #link("https://en.wikipedia.org/wiki/RIS_(file_format)#Tags")[RIS Tags];.
+To inject the correct markup – `[@Citekey]{.csl_field}` – and allow us to cite different fields from our bibliographic entry, we rely on #strong[Character Styles] (#emph[e.g.] #emph[Cite Author];, #emph[Cite Editor];, #emph[Cite Issued];, and so on). Officially, #link("https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables")[CSL has Variables];, #link("https://en.wikipedia.org/wiki/BibTeX#Field_types")[BibTeX has Fields];, and #link("https://en.wikipedia.org/wiki/RIS_(file_format)#Tags")[RIS has Tags];, but we stuck to the term#emph[fields] to describe all of them.
 
 #figure([
 #table(
@@ -761,15 +751,13 @@ supplement: "Table",
 #callout(
 body: 
 [
-`Aristotle's [@DA]{.original-title} ([@DA]{.title}) was first edited by [@DA]{.editor} in [@DA]{.issued}.  In [@DABiehl]{.issued}, there was another edition by [@DABiehl]{.editor} (which was reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).`
-
-Aristotle’s περὶ ψυχῆς (#emph[De Anima];) was first edited by Bekker in 1834. In 1896, there was another edition by Biehl (which was reprinted in Theiler’s 1995 translation).
+Bekker published the first modern edition of Aristotle’s περὶ ψυχῆς (#emph[De Anima];) in 1834. A new edition by Biehl appeared in 1896 (later reprinted in Theiler’s 1995 translation).
 
 ]
 , 
 title: 
 [
-Example
+An example with field citation
 ]
 , 
 background_color: 
@@ -788,7 +776,7 @@ fa-info()
 #callout(
 body: 
 [
-There is no need to keep separate bibliography files in the system. Copy and paste the data from bibliography managers straight into Scrivener following the instructions below and you will be set!
+There is no need to keep #strong[separate bibliography files] in the system. Simply #strong[copy and paste the references directly to Scrivener];. Follow the instructions below.
 
 ]
 , 
@@ -817,7 +805,7 @@ body:
 , 
 title: 
 [
-Bibliography Formats
+References format
 ]
 , 
 background_color: 
@@ -836,7 +824,7 @@ body:
 [
 - Check #link("www.zotero.org/")[Zotero];#footnote[Zotero even offers an API to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`LibraryID`/items?format=bibtex&limit=999` where `LibraryID` corresponds to the library’s 7-digit code (visible in the middle of the library URL).] and #link("www.jabref.org/")[JabRef] on all platforms.
 - On macOS, check #link("www.sonnysoftware.com/")[Bookends] and #link("bibdesk.sourceforge.io")[Bibdesk];;
-- See also, #link("en.wikipedia.org/wiki/Comparison_of_reference_management_software")[here];.
+- See also #link("en.wikipedia.org/wiki/Comparison_of_reference_management_software")[this comparison];.
 
 ]
 , 
@@ -857,8 +845,8 @@ fa-lightbulb()
 ]
 === How to manually create a multipart bibliography
 <nte-multibib1>
-+ Using the #strong[Section Type] File, we create a representation of our bibliography file to add the data (#emph[e.g.] #link("refs/primary-sources.yml")[Primary Sources] and #link("refs/secondary-sources.yml")[Secondary Sources];).
-+ On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon #strong[Compile];.
++ Using the #strong[Section Type] `File`, we create a representation of our bibliography file to add the data (#emph[e.g.] #link("refs/primary-sources.yml")[Primary Sources] and #link("refs/secondary-sources.yml")[Secondary Sources];).
++ On the Metadata panel we set the relative path (`ID-Prefix` + `ID`) and the extension (`Extension`) of the actual bibliography file that will be created upon #strong[Compile];.
 
 #figure([
 #box(image("BibliographyFile.png", width: auto))
@@ -888,8 +876,8 @@ ARISTOTELIS. “De Anima”. Em: BEKKER, I. (Ed.). #emph[Aristotelis Opera];. Tr
 <nte-multibib2>
 We can use the #strong[Section Type] Bibliography to automate steps 3 and 4. This is very convenient for books that need the bibliography to print only once at the very end.
 
-+ Using the #strong[Section Type] File, we create a representation of our bibliography file to add the data (#emph[e.g.] #link("refs/primary-sources.yml")[Primary Sources] and #link("refs/secondary-sources.yml")[Secondary Sources];).
-+ On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon #strong[Compile];.
++ Using the #strong[Section Type] `File`, we create a representation of our bibliography file to add the data (#emph[e.g.] #link("refs/primary-sources.yml")[Primary Sources] and #link("refs/secondary-sources.yml")[Secondary Sources];).
++ On the Metadata panel we set the relative path (`ID-Prefix` + `ID`) and the extension (`Extension`) of the actual bibliography file that will be created upon #strong[Compile];.
 + The metadata with the file path will be automatically added and the formatted bibliography will be printed in the same section as the data, with the same section title.
 
 == Backlinks
@@ -913,13 +901,13 @@ supplement: "Figure",
 #callout(
 body: 
 [
-If you want to avoid undesired linking when citing specific fields, turn `link-fields` into false
+Turn `link-fields` into false to avoid undesired linking
 
 ]
 , 
 title: 
 [
-Turning off undesired linking
+Citing specific fields
 ]
 , 
 background_color: 
@@ -936,13 +924,10 @@ fa-lightbulb()
 #callout(
 body: 
 [
-#underline[link-citations];: Hyperlink citations to the corresponding bibliography entries. Defaults to true.
-
-#underline[link-fields];: Hyperlink citations targeting specific CSL fields to the corresponding entries in the bibliography. Defaults to true.
-
-#underline[link-bibliography];: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
-
-#underline[lang];: Affects the bibliography tags. Defaults to `en-US`.
+- #underline[link-citations];: Hyperlink citations to the corresponding bibliography entries. Defaults to true.
+- #underline[link-fields];: Hyperlink citations targeting specific CSL fields to the corresponding entries in the bibliography. Defaults to true.
+- #underline[link-bibliography];: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
+- #underline[lang];: Affects the bibliography tags. Defaults to `en-US`.
 
 ]
 , 
@@ -964,23 +949,27 @@ fa-info()
 #pagebreak()
 = Quarto
 <quarto>
+#block[
+"I propose a toast, to my self-control. You see it helpless, crawling on the floor." Morphine, #emph[Cure For Pain] (#link(<ref-MorphineCFP>)[1993];<cite_10>)
+
+]
 == Scrivener Project Templates
 <scrivener-project-templates>
 All sorts of internal #strong[Scrivener Templates] have been included for convenience. They serve as starting points to create new sections. Click #strong[Project \> New From Template] and select the desired #strong[Section Types] from the list, which includes Bibliography, Code, Computation, Diagram Dot, Diagram Mermaid, Div, Equation, File, Metadata, Section, Text, Text (Anchored)#footnote[Text section with ID for cross-referencing.];.
 
-This provides a huge number of options as the metadata can be customized to create many #strong[Quarto] elements. Using the #strong[Section Type] #strong[Div];, for example, one could create 8 different #strong[Amsthm] elements, 5 different #strong[Callouts];, and several #strong[Column] environments. Using the #strong[Computation];, one can create executable code blocks with R, Python, and Ruby. The #strong[Section] #strong[Type] #strong[Section] can be numbered, unnumbered, or part of the appendix (with the use of classes).
+This provides a huge number of options as the metadata can be edited to allow the creation of different #strong[Quarto] elements and their customization (#emph[e.g.] using classes and attributes). Using the #strong[Section Type] #strong[Div];, for example, one could create 8 different #strong[Amsthm] elements, 5 different #strong[Callouts];, and several #strong[Column] environments. Using the #strong[Computation];, one can create executable code blocks with R, Python, and Ruby. The #strong[Section] #strong[Type] #strong[Section] can be numbered, unnumbered, or part of the appendix (with the use of classes).
 
 Look at the ready-made examples to see what else is possible.
 
 == Cross-referencing
 <cross-referencing>
-When a #strong[Section] is created, select the correct `ID-Prefix` (#emph[e.g.] `sec-`), and fill the `ID` metadata field with a value (#emph[e.g.] `xref`). Then, use Scrivener placeholders, such as `@<\$Custom:ID-Prefix><\$Custom:ID>` with a link to the cited element, so that this gets replaced with `\@sec-xref`. This works regardless of the element being cross-referenced (#emph[e.g.] #emph[section];, #emph[table];, #emph[figure];, #emph[listing];) because this strategy ensures the citation will use the `<\$Custom:ID-Prefix>` pulled from the targeted element (#emph[e.g.] `sec-`, `tbl-`, `fig-`, `lst-`), making it compatible with all element types.
+When a #strong[Section] is created, select the correct `ID-Prefix` (#emph[e.g.] `sec-`), and fill the `ID` metadata field with a value (#emph[e.g.] `xref`). Then, #strong[use Scrivener placeholders];, such as `@<\$Custom:ID-Prefix><\$Custom:ID>` with a link to the cited element, so that this gets replaced with `\@sec-xref`. This works regardless of the element being cross-referenced (#emph[e.g.] #emph[section];, #emph[table];, #emph[figure];, #emph[listing];) because this strategy ensures the citation will use the `<\$Custom:ID-Prefix>` pulled from the targeted element (#emph[e.g.] `sec-`, `tbl-`, `fig-`, `lst-`), making it compatible with all element types.
 
 #block[
 #callout(
 body: 
 [
-To be less verbose, we have set up a replacement rule that allows a shorter label to be used as the link anchor.
+A less verbose option uses a replacement rule:
 
 - `s\crivlink` is replaced with `<\$Custom:ID-Prefix><\$Custom:ID>`.
 - `s\crivpath` and `$\!` are replaced with `<\$Custom:ID-Prefix><\$Custom:ID><\$Custom:Extension>`.
@@ -989,7 +978,7 @@ To be less verbose, we have set up a replacement rule that allows a shorter labe
 , 
 title: 
 [
-Link anchor
+Alternative to placeholders
 ]
 , 
 background_color: 
@@ -1006,15 +995,15 @@ fa-exclamation-triangle()
 #callout(
 body: 
 [
-+ Type #underline[your-keyword-of-choice] or `s\crivlink`, select it, and hit #underline[Command + L];;
-+ Link to the document that contains the table.
-+ Apply a #strong[Character Style] called #emph[Cite];.
++ Type #underline[your-keyword-of-choice] or `s\crivlink`;
++ Apply the #strong[Character Style] #emph[Cite] (#strong[hit] `Shift + Command + Y`)
++ Link to the document that contains the element (#strong[hit] #underline[Command + L];).
 
 ]
 , 
 title: 
 [
-Cross-referencing an element
+How to cross-reference an element
 ]
 , 
 background_color: 
@@ -1031,9 +1020,9 @@ fa-lightbulb()
 #callout(
 body: 
 [
-#strong[Scrivener Placeholders] can only pull information from the section properties, so this works when we are referencing elements created using #strong[Section Types];.
+Understand that #strong[Scrivener Placeholders] can only pull information from the section properties, so the generic link label (#emph[e.g.] `s\crivlink`) will work to reference elements created from #strong[Section Types];.
 
-When referencing elements created using #strong[Raw Markup] or a #strong[Character Style];, we must use the same `ID` we gave the element (#emph[e.g.] `fig-ulysses`) instead of our generic link label (#emph[e.g.] `s\crivlink`).
+To reference elements created from #strong[Raw Markup] or #strong[Character Style];, use the actual given `ID` (#emph[e.g.] `fig-ulysses`).
 
 ]
 , 
@@ -1060,14 +1049,14 @@ fa-fire()
   align: (center,center,center,),
   table.header([#strong[Species];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [Conjecture], [`[@cnj-demo]`], [@cnj-demo<cite_10>],
-  [Corollary], [`[@cor-demo]`], [@cor-demo<cite_11>],
-  [Definition], [`[@def-demo]`], [@def-demo<cite_12>],
-  [Example], [`[@exm-demo]`], [@exm-demo<cite_13>],
-  [Exercise], [`[@exr-demo]`], [@exr-demo<cite_14>],
-  [Lemma], [`[@lem-demo]`], [@lem-demo<cite_15>],
-  [Proposition], [`[@prp-demo]`], [@prp-demo<cite_16>],
-  [Theorem], [`[@thm-demo]`], [@thm-demo<cite_17>],
+  [Conjecture], [`[@cnj-demo]`], [@cnj-demo<cite_11>],
+  [Corollary], [`[@cor-demo]`], [@cor-demo<cite_12>],
+  [Definition], [`[@def-demo]`], [@def-demo<cite_13>],
+  [Example], [`[@exm-demo]`], [@exm-demo<cite_14>],
+  [Exercise], [`[@exr-demo]`], [@exr-demo<cite_15>],
+  [Lemma], [`[@lem-demo]`], [@lem-demo<cite_16>],
+  [Proposition], [`[@prp-demo]`], [@prp-demo<cite_17>],
+  [Theorem], [`[@thm-demo]`], [@thm-demo<cite_18>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -1122,11 +1111,11 @@ $ [x^2 + y^2 = z^2] $
   align: (center,center,center,),
   table.header([#strong[Species];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [Caution], [`[@cau-caution]`], [@cau-caution<cite_18>],
-  [Important], [`[@imp-important]`], [@imp-important<cite_19>],
-  [Note], [`[@nte-note]`], [@nte-note<cite_20>],
-  [Tip], [`[@tip-tip]`], [@tip-tip<cite_21>],
-  [Warning], [`[@wrn-warning]`], [@wrn-warning<cite_22>],
+  [Caution], [`[@cau-caution]`], [@cau-caution<cite_19>],
+  [Important], [`[@imp-important]`], [@imp-important<cite_20>],
+  [Note], [`[@nte-note]`], [@nte-note<cite_21>],
+  [Tip], [`[@tip-tip]`], [@tip-tip<cite_22>],
+  [Warning], [`[@wrn-warning]`], [@wrn-warning<cite_23>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -1362,12 +1351,12 @@ Similarly, we can create #strong[Dot] and #strong[Mermaid] diagrams using #stron
   align: (center,center,center,),
   table.header([#strong[Species];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [Dot], [`[@fig-dot-a]`], [@fig-dot-a<cite_23>],
-  [Dot], [`[@fig-dot-b]`], [@fig-dot-b<cite_24>],
-  [Dot], [`[@fig-dot-c]`], [@fig-dot-c<cite_25>],
-  [Mermaid], [`[@fig-mermaid-a]`], [@fig-mermaid-a<cite_26>],
-  [Mermaid], [`[@fig-mermaid-b]`], [@fig-mermaid-b<cite_27>],
-  [Mermaid], [`[@fig-mermaid-c]`], [@fig-mermaid-c<cite_28>],
+  [Dot], [`[@fig-dot-a]`], [@fig-dot-a<cite_24>],
+  [Dot], [`[@fig-dot-b]`], [@fig-dot-b<cite_25>],
+  [Dot], [`[@fig-dot-c]`], [@fig-dot-c<cite_26>],
+  [Mermaid], [`[@fig-mermaid-a]`], [@fig-mermaid-a<cite_27>],
+  [Mermaid], [`[@fig-mermaid-b]`], [@fig-mermaid-b<cite_28>],
+  [Mermaid], [`[@fig-mermaid-c]`], [@fig-mermaid-c<cite_29>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -1484,8 +1473,8 @@ supplement: "Figure",
   align: (center,center,center,),
   table.header([#strong[Species];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [Equation], [`[@eq-demo-a]`], [@eq-demo-a<cite_29>],
-  [Equation], [`[@eq-demo-b]`], [@eq-demo-b<cite_30>],
+  [Equation], [`[@eq-demo-a]`], [@eq-demo-a<cite_30>],
+  [Equation], [`[@eq-demo-b]`], [@eq-demo-b<cite_31>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -1510,10 +1499,10 @@ supplement: "Table",
   align: (center,center,center,),
   table.header([#strong[Species];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [], [`[@fig-ulysses]`], [@fig-ulysses<cite_31>],
-  [Multipart Figure], [`[@fig-panel-a]`], [@fig-panel-a<cite_32>],
-  [Multipart Figure], [`[@fig-panel-a-item-a]`], [@fig-panel-a-item-a<cite_33>],
-  [Multipart Figure], [`[@fig-panel-a-item-b]`], [@fig-panel-a-item-b<cite_34>],
+  [], [`[@fig-ulysses]`], [@fig-ulysses<cite_32>],
+  [Multipart Figure], [`[@fig-panel-a]`], [@fig-panel-a<cite_33>],
+  [Multipart Figure], [`[@fig-panel-a-item-a]`], [@fig-panel-a-item-a<cite_34>],
+  [Multipart Figure], [`[@fig-panel-a-item-b]`], [@fig-panel-a-item-b<cite_35>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -1539,7 +1528,7 @@ supplement: "Figure",
 <fig-ulysses>
 
 
-Painting by #link(<ref-Draper1909>)[DRAPER, 1909];<cite_35>.
+Painting by #link(<ref-Draper1909>)[DRAPER, 1909];<cite_36>.
 
 #quarto_super(
 kind: 
@@ -1612,8 +1601,8 @@ supplement: "Figure",
   align: (center,center,center,),
   table.header([#strong[Species];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [Listing], [`[@lst-demo-a]`], [@lst-demo-a<cite_36>],
-  [Listing], [`[@lst-demo-b]`], [@lst-demo-b<cite_37>],
+  [Listing], [`[@lst-demo-a]`], [@lst-demo-a<cite_37>],
+  [Listing], [`[@lst-demo-b]`], [@lst-demo-b<cite_38>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -1635,7 +1624,7 @@ characters = %w(α β ἇ ᾇ ᾁ)
 
 # characters = 'ἄ'
 characters.each do |character|
-  puts character.unpack('U*').map { |i| 
+  puts character.unpack('U*').map { |i|
   "U+#{i.to_s(16).rjust(4, '0').upcase}"
   }.join
   puts Unicode::Name.of character
@@ -1685,11 +1674,11 @@ supplement: "Listing",
   align: (center,center,center,),
   table.header([#strong[Species];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [], [`[@tbl-demo-a]`], [@tbl-demo-a<cite_38>],
-  [], [`[@tbl-demo-b]`], [@tbl-demo-b<cite_39>],
-  [Multipart Table], [`[@tbl-panel-a]`], [@tbl-panel-a<cite_40>],
-  [Multipart Table], [`[@tbl-panel-a-item-a]`], [@tbl-panel-a-item-a<cite_41>],
-  [Multipart Table], [`[@tbl-panel-a-item-b]`], [@tbl-panel-a-item-b<cite_42>],
+  [], [`[@tbl-demo-a]`], [@tbl-demo-a<cite_39>],
+  [], [`[@tbl-demo-b]`], [@tbl-demo-b<cite_40>],
+  [Multipart Table], [`[@tbl-panel-a]`], [@tbl-panel-a<cite_41>],
+  [Multipart Table], [`[@tbl-panel-a-item-a]`], [@tbl-panel-a-item-a<cite_42>],
+  [Multipart Table], [`[@tbl-panel-a-item-b]`], [@tbl-panel-a-item-b<cite_43>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -1713,7 +1702,7 @@ supplement: "Table",
 ], caption: figure.caption(
 position: bottom, 
 [
-This table with with a passage from John 1.1 uses the #strong[Section Type] #underline[Text] and #strong[Paragraph Style] #underline[Table Caption];.
+This table with a passage from John 1.1 uses the #strong[Section Type] #underline[Text] and #strong[Paragraph Style] #underline[Table Caption];.
 ]), 
 kind: "quarto-float-tbl", 
 supplement: "Table", 
@@ -1827,10 +1816,10 @@ supplement: "Table",
   align: (center,center,center,),
   table.header([#strong[Genus];], [#strong[Markdown Source];], [#strong[Rendered Output];],),
   table.hline(),
-  [Section], [`[@sec-demo-a]`], [@sec-demo-a<cite_43>],
-  [Break + Section], [`[@sec-demo-e]`], [@sec-demo-e<cite_44>],
-  [Heading], [`[@sec-demo-c]`], [@sec-demo-c<cite_45>],
-  [Break + Heading], [`[@sec-demo-d]`], [@sec-demo-d<cite_46>],
+  [Section], [`[@sec-demo-a]`], [@sec-demo-a<cite_44>],
+  [Break + Section], [`[@sec-demo-e]`], [@sec-demo-e<cite_45>],
+  [Heading], [`[@sec-demo-c]`], [@sec-demo-c<cite_46>],
+  [Break + Heading], [`[@sec-demo-d]`], [@sec-demo-d<cite_47>],
 )
 ], caption: figure.caption(
 position: bottom, 
@@ -2096,7 +2085,7 @@ Songs
 ]
 #block[
 #block[
-MORPHINE et al. #emph[Cure For Pain];. : Cure For Pain.Rykodisc, 1993. Disponível em: \<#link("https://open.spotify.com/track/3hO9gaVixKDoYDrlTBrEWf?si=0668baf1aab345d4");\>
+MORPHINE et al. #emph[Cure For Pain];. : Cure For Pain.Rykodisc, 1993. Disponível em: \<#link("https://open.spotify.com/track/3hO9gaVixKDoYDrlTBrEWf?si=0668baf1aab345d4");\> \[#link(<cite_10>)[1];\]
 
 ] <ref-MorphineCFP>
 ] <refs_songs>
@@ -2115,7 +2104,7 @@ Paintings
 ]
 #block[
 #block[
-DRAPER, H. J. #emph[Ulysses and the Sirens];., 1909. \[#link(<cite_35>)[1];\]
+DRAPER, H. J. #emph[Ulysses and the Sirens];., 1909. \[#link(<cite_36>)[1];\]
 
 ] <ref-Draper1909>
 ] <refs_paintings>

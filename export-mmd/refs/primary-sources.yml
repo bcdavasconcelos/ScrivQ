@@ -134,3 +134,23 @@ references:
     - year: 1984
   publisher: Clarendon
   publisher-place: Oxford
+
+- author:
+    - family: Cicero
+      given: ''
+  collection-number: '40'
+  collection-title: Loeb Classical Library
+  edition: De Finibus Bonorum et Malorum
+  event-place: Cambridge
+  issued:
+    - year: 1914
+  publisher: HUP
+  publisher-place: Cambridge
+  title: On Ends
+  translator:
+    - family: Rackham
+      given: H.
+  type: book
+  citation-key: LCL40
+
+
