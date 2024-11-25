@@ -132,10 +132,10 @@
 </li>
 <li>
 <p class="topLevelItemTitle">Citations</p>
-<p class="itemText">"I propose a toast, to my self-control. You see it helpless, crawling on the floor."</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">MorphineCFP, MorphineCFP (MorphineCFP)</span></p></p>
+<p class="itemText">Μῆνιν ἄειδε, θεά, Πηληιάδεω Ἀχιλῆος (HomIl, I 1)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">The wrath sing, goddess, of Peleus’ son Achilles.</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">In ScrivQ, we use [Citeproc](https://en.wikipedia.org/wiki/CiteProc) to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by BibTeX users, we included [Cite Tools] to enable multipart bibliographies, provide backlinks (see backref from [HyperRef](www.ctan.org/pkg/hyperref)), and access bibliographic da...</p>
+<p class="itemText"><p class="p1"><span class="s1">In ScrivQ, we use [Citeproc](https://en.wikipedia.org/wiki/CiteProc) to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by BibTeX users, we included [Cite Tools](https://bcdavasconcelos.github.io/citetools) to enable multipart bibliographies, provide backlinks (see backref from [HyperRef](www.ctan.org/pkg/hyperref)), and acc...</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -149,61 +149,37 @@
 <ul>
 <li>
 <p class="itemTitle">Examples of citations</p>
-<p class="itemText">Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup.</span></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText">Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup. If you were using other CSL styles, then you could drop the parenthesis.</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">## (Date, locator)</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`Long thinks […] on the deliberations of the prudent person (Long2004, p.17).`</span></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Long thinks […] on the deliberations of the prudent person (Long2004, p.17).</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">## (Author, Date, locator)</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`…on the deliberations of the prudent person (Long2004, p.17)`.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">…on the deliberations of the prudent person (Long2004, p.17).</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">…on the deliberations of the prudent person (Long2004, p....</p>
+<p class="itemText"><p class="p1"><span class="s1">## (Author, Date, locator; Author, Date, locator)</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">…on the delibera...</p>
 </li>
 </ul>
 <hr class="afterText"/>
 
 <li>
 <p class="itemTitle">Citation of specific fields</p>
-<p class="itemText">To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). We have stuck to the term fields, but the official terminology is [CSL Variables], [BibTeX Fields], and [RIS Tags].</span></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Character Style</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Markdown Source</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Rendered Output</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Cite Author</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`DA`</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">DA</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Cite Editor</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`DA`</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">DA</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Cite Translator</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`DA`</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">DA</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Cite Issued</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`DA`</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">DA</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Cite Title</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`DA`</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">DA</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Cite Title-short</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">`DA`...</p>
+<p class="itemText">To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). Officially, [CSL has Variables](https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables), [BibTeX has Fields](https://en.wikipedia.org/wiki/BibTeX#Field_types), and [RIS has Tags](https://en.wikipedia.org/wiki/RIS_(file_format)#Tags), but we stuck to the term fi...</p>
 </li>
 <li>
 <p class="itemTitle">Multipart Bibliography</p>
 <p class="itemText"></span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">## Where do I plug my bibliography?</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"><span class="Apple-converted-space"> </span></span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">There is no need to keep separate bibliography files in the system. Copy and paste the data from bibliography managers straight into Scrivener following the instructions below and you will be set!</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">There is no need to keep separate bibliography files in the system. Simply copy and paste the references directly to Scrivener following the instructions below.</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">## Bibliography Formats</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## References format</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Pandoc and Quarto use a [CSL] (Citation Style Language) engine and prefer [CSL-YAML] and [CSL-JSON], performing up to 10x faster, over [BibTeX] and [RIS], which need to be converted before they can be understood.</span></p></p>
-<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">## What if I don't have ...</p>
+<p class="itemText"><p class="p1"><span class="s1">Pandoc and Quarto use a [CSL](https://docs.citationstyles.org/en/stable/specification.html) (Citation Style Language) engine and prefer [CSL-YAML and CSL-JSON](https://docs.citationstyles.org/en/stable/specification.html) (performing up to 10x faster) over [BibTeX](https://en....</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -239,17 +215,20 @@
 
 <li>
 <p class="topLevelItemTitle">Quarto</p>
+<p class="itemText">"I propose a toast, to my self-control. You see it helpless, crawling on the floor."</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">MorphineCFP, MorphineCFP (MorphineCFP)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
 </li>
-<hr class="afterTitle"/>
+<hr class="afterText"/>
 <ul>
 <li>
 <p class="itemTitle">Scrivener Project Templates</p>
 <p class="itemText">All sorts of internal Scrivener Templates have been included for convenience. They serve as starting points to create new sections. Click Project &gt; New From Template and select the desired Section Types from the list, which includes Bibliography, Code, Computation, Diagram Dot, Diagram Mermaid, Div, Equation, File, Metadata, Section, Text, Text (Anchored)*.<span class="Apple-converted-space"> </span></span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">This provides a huge number of options as the metadata can be customized to create many Quarto elements. Using the Section Type Div, for ex...</p>
+<p class="itemText"><p class="p1"><span class="s1">This provides a huge number of options as the metadata can be edited to allow the creation of different Quarto elements and their customiza...</p>
 </li>
 <li>
 <p class="itemTitle">Cross-referencing</p>
-<p class="itemText">When a Section is created, select the correct ID-Prefix (e.g. sec-), and fill the ID metadata field with a value (e.g. xref). Then, use Scrivener placeholders, such as<span class="Apple-converted-space">  </span>@&lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt; with a link to the cited element, so that this gets replaced with \@sec-xref. This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec...</p>
+<p class="itemText">When creating a Section, select the correct ID-Prefix (e.g. sec-) and fill the ID metadata field with a value (e.g. xref). Then, use Scrivener placeholders ( &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;) with a link to the cited element, so that this gets replaced with sec-xref. This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec-, tbl-, fig-...</p>
 </li>
 <li>
 <p class="itemTitle">Amsthm</p>
@@ -548,7 +527,7 @@
 <p class="itemText"><p class="p1"><span class="s1">SKT</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">ἐν ἀρχὴ ἦν ὁ λόγος</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">आदौ वाद आसीत्</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">This table with with a passage from John 1.1 uses the Section Type<span class="Apple-converted-space">  </span>Text and Paragraph Style Table Caption.<span class="Apple-converted-space">  </span>{#tbl-demo-a}</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">This table with a passage from John 1.1 uses the Section Type<span class="Apple-converted-space">  </span>Text and Paragraph Style Table Caption.<span class="Apple-converted-space">  </span>{#tbl-demo-a}</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"></p>
 </li>
 <li>
@@ -621,11 +600,11 @@
 </li>
 <li>
 <p class="itemTitle">Heading</p>
-<p class="itemText">Demonstration of the Section Type Heading that prints no text.</p>
+<p class="itemText">Demonstration of the Section Type Heading. The text is not printed.</p>
 </li>
 <li>
 <p class="itemTitle">Break + Heading</p>
-<p class="itemText">Demonstration of the Section Type Break + Heading that prints no text.</p>
+<p class="itemText">Demonstration of the Section Type Break + Heading. The text is not printed.</p>
 </li>
 </ul>
 </ul>

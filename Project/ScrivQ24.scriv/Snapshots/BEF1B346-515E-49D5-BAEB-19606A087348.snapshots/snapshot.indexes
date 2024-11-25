@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="BEF1B346-515E-49D5-BAEB-19606A087348">
+    <Snapshot Date="2024-11-12 12:26:39 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). We have stuck to the term fields, but the official terminology is [CSL Variables], [BibTeX Fields], and [RIS Tags].
+
+Character Style
+Markdown Source
+Rendered Output
+Cite Author
+`DA`
+DA
+Cite Editor
+`DA`
+DA
+Cite Translator
+`DA`
+DA
+Cite Issued
+`DA`
+DA
+Cite Title
+`DA`
+DA
+Cite Title-short
+`DA`
+DA
+Cite Original-title
+`DA`
+DA
+Cite Publisher
+`DA`
+DA
+Cite Publisher-Place
+`DA`
+DA
+All ready-made Character Styles for the Cite Field lua filter. {#tbl-cite-field}
+
+## Example
+
+`Aristotle's DA (DA) was first edited by DA in DA.  In DABiehl, there was another edition by DABiehl (which was reprinted in DATheiler's DATheiler translation).`
+
+Aristotle's DA (DA) was first edited by DA in DA.  In DABiehl, there was another edition by DABiehl (which was reprinted in DATheiler's DATheiler translation).
+
+[BibTeX Fields]: https://en.wikipedia.org/wiki/BibTeX#Field_types
+[CSL variables]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables
+[RIS Tags]: https://en.wikipedia.org/wiki/RIS_(file_format)#Tags</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). Officially, [CSL has Variables](https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables), [BibTeX has Fields](https://en.wikipedia.org/wiki/BibTeX#Field_types), and [RIS has Tags](https://en.wikipedia.org/wiki/RIS_(file_format)#Tags), but we stuck to the term fields to describe all of them.
+
+Character Style
+Markdown Source
+Rendered Output
+Cite Author
+`DA`
+DA
+Cite Editor
+`DA`
+DA
+Cite Translator
+`DA`
+DA
+Cite Issued
+`DA`
+DA
+Cite Title
+`DA`
+DA
+Cite Title-short
+`DA`
+DA
+Cite Original-title
+`DA`
+DA
+Cite Publisher
+`DA`
+DA
+Cite Publisher-Place
+`DA`
+DA
+All ready-made Character Styles for the Cite Field lua filter. {#tbl-cite-field}
+
+## An example with field citation
+
+DA published the first modern edition of Aristotle's DA (DA) in DA. A new edition by DABiehl appeared in DABiehl (later reprinted in DATheiler's DATheiler translation).
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

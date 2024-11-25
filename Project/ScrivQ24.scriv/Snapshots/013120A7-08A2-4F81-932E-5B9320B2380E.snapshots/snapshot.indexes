@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="013120A7-08A2-4F81-932E-5B9320B2380E">
+    <Snapshot Date="2024-11-08 07:55:12 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>This is an example of the Section Type Heading + Break.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-20 15:07:57 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Demonstration of the Section Type Break + Heading that prints no text.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Demonstration of the Section Type Break + Heading. The text is not printed.</Text>
+    </Snapshot>
+</SnapshotIndexes>

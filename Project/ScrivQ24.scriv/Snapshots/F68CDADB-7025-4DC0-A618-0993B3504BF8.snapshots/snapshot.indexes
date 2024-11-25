@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="F68CDADB-7025-4DC0-A618-0993B3504BF8">
+    <Snapshot Date="2024-01-05 18:56:46 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>In many areas of research, the ability to split the bibliography into sections is a condition sine qua non for publishing. In the humanities, for example, there are usually primary and secondary sources. In philosophy, even, they can be very nuanced with sections dedicated to sources, translations, commentaries, and so on. This template includes a Quarto extension that expands what is possible with Pandoc's built-in Citeproc, so we can properly split out bibliographical sources, and be able to access information from our sources in the text using a simple markup or a Character Style.
+For this template, then, we have to split our data into files to use multiple bibliographies.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 16:30:31 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>In many areas of research, the ability to split the bibliography into sections is a condition sine qua non for publishing. In the humanities, for example, there are usually primary and secondary sources. In philosophy, even, they can be very nuanced with sections dedicated to sources, translations, commentaries, and so on. Here, we have to split them into files to use multiple bibliographies.
+
+## Bibliographies used in multiple locations
+
+1. Distribute your sources in as many sections as needed with the Section Type File to generate the bibliography files (e.g. [Primary Sources]($!), [Secondary Sources]($!)). Add the references in your preferred format, and fill the custom metadata, including the `&lt;\$Custom:Extension&gt;` to indicate the format being used (e.g. `bib`, `yml`, `ris`). 
+2. Go to the [_quarto]($!) file and input them into the bibliography section according to the pattern indicated onsite. 
+3. Add them anywhere using linked `\&lt;$Custom:ID&gt;` with the Div Bibliography style applied; or using raw markup, as in:
+
+```
+:::{refs_\&lt;$Custom:ID&gt;  
+:::
+```
+
+Bibliography formats
+
+Speaking about formats, the most common bibliography formats are [CSL-YAML], [CSL-JSON], [BibTeX], and [RIS]. Internally, Pandoc and Quarto use the CSL (Citation Style Language) to handle bibliography, so CSL-YAML and CSL-JSON perform much better (up to 10 times faster) than older formats like BibTeX or RIS that will have to be converted by Pandoc before it can be understood.
+
+The best alternative, it seems, is to rely on specialized software such as [Zotero](www.zotero.org/), [Bookends](www.sonnysoftware.com/), [Bibdesk](bibdesk.sourceforge.io/) (also [JabRef](www.jabref.org/), [Endnote](endnote.com/), and [others](en.wikipedia.org/wiki/Comparison_of_reference_management_software))*. These programs allow you to edit your bibliography and easily export it in the desired format, which can be copied and pasted to different Scrivener projects. Zotero even offers an API that can be used to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`LibraryID`/items?format=bibtex&amp;limit=999` where LibraryID corresponds to the library's 7-digit code (visible in the middle of the library URL). 
+ScrivQ provides all the data needed for the project to be compiled. To make this template useful, however, you will need to generate your bibliography data. In principle, nothing stops you from manually, or semi-manually, keeping a bibliography in Scrivener, but this is not very easy to manage if you have many projects sharing the same references. (Luckily, in this regard, Scrivener offers the best text comparison tools I can think of). 
+
+￼
+{#fig-scrivener-a} This will result in a separate file, whose path will be added to the front matter, with the content of the text. The resulting bibliography will be printed right where we placed it in our project. 
+
+￼
+{#fig-print-page} On the left we have the Table of Contents; on the top-right, we see the printed bibliography (page 31) and, on the bottom-right, the files are automatically created during the compilation process.
+
+Simply put, you can add as many bibliographies as you want!
+
+Super tip: Keep bibliographies in the project
+
+There is no need to keep separate bibliography files in the system, as the data can simply be copied and pasted from the bibliography managers to Scrivener.
+
+￼
+{#fig-scrivener-b} The shared templates folder is in the main Scrivener configuration window.
+
+￼
+{#fig-scrivener-c} The Add new document menu in the Toolbar.
+
+For some reason, only .txt files are accepted, so the files must have this extension. Hopefully, L&amp;L will change this to allow other plain text formats, such as md, qmd, yml, tex, ris, and so on.
+
+From lists of names to the formatted bibliography
+
+We are feeding the `Bibliography` data to the most natural place precisely where it should be printed. In this case, however, we do it using any structured format we want (bib, ris, yml) unencumbered by the task of formatting the bibliography based on (some set of) rules. Pandoc Citeproc takes care of this using the provided CSL-style file (defaults to Chicago).</Text>
+        <Comments>If you are using macOS, check Bookends and Bibdesk; and, on all platforms, definitively get Zotero as well. </Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-05 14:29:50 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>￼
+Multipart bibliography with sections, such as primary sources and secondary sources. {#fig-scrivlinkA width="auto"}
+
+## Where do I plug my bibliography?
+ 
+There is no need to keep separate bibliography files in the system. Copy and paste the data from bibliography managers straight into Scrivener following the instructions below and you will be set!
+
+## Bibliography Formats
+
+Pandoc and Quarto use a [CSL] (Citation Style Language) engine and prefer [CSL-YAML] and [CSL-JSON], performing up to 10x faster, over [BibTeX] and [RIS], which need to be converted before they can be understood.
+
+## What if I don't have a bibliography ready?
+ 
+- Check [Zotero]* and [JabRef] on all platforms.
+- On macOS, check [Bookends] and [Bibdesk]; 
+- See also, [here](en.wikipedia.org/wiki/Comparison_of_reference_management_software). 
+
+[Bookends]: www.sonnysoftware.com/
+[Bibdesk]: bibdesk.sourceforge.io
+[Zotero]: www.zotero.org/
+[Jabref]: www.jabref.org/
+[BibTeX]: https://en.wikipedia.org/wiki/BibTeX#Entry_types
+[CSL]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
+[CSL-YAML]: https://docs.citationstyles.org/en/stable/specification.html
+[CSL-JSON]: https://docs.citationstyles.org/en/stable/specification.html
+[RIS]: https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference</Text>
+        <Comments>Zotero even offers an API to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`LibraryID`/items?format=bibtex&amp;limit=999` where `LibraryID` corresponds to the library's 7-digit code (visible in the middle of the library URL). </Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+## Where do I plug my bibliography?
+ 
+There is no need to keep separate bibliography files in the system. Simply copy and paste the references directly to Scrivener following the instructions below.
+
+## References format
+
+Pandoc and Quarto use a [CSL](https://docs.citationstyles.org/en/stable/specification.html) (Citation Style Language) engine and prefer [CSL-YAML and CSL-JSON](https://docs.citationstyles.org/en/stable/specification.html) (performing up to 10x faster) over [BibTeX](https://en.wikipedia.org/wiki/BibTeX#Entry_types) and [RIS](https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference), which need to be converted before they can be understood.
+
+## What if I don't have a bibliography ready?
+ 
+- Check [Zotero](www.zotero.org)* and [JabRef](www.jabref.org) on all platforms.
+- On macOS, check [Bookends](www.sonnysoftware.com/) and [Bibdesk](bibdesk.sourceforge.io); 
+- See also [this comparison](en.wikipedia.org/wiki/Comparison_of_reference_management_software). </Text>
+        <Comments>Zotero even offers an API to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`LibraryID`/items?format=bibtex&amp;limit=999` where `LibraryID` corresponds to the library's 7-digit code (visible in the middle of the library URL). </Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 12:14:28 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>In many areas of research, the ability to split the bibliography into sections is a condition sine qua non for publishing. In the humanities, for example, there are usually primary and secondary sources. In philosophy, even, they can be very nuanced with sections dedicated to original sources, translations, commentaries, and so on. The Section Type titled Multipart Bibliography can be used to create as many new bibliography sections as necessary. Add the references that should print there to the text, and let it know in the custom metadata &lt;\$custom:Attributes&gt; the format being used (e.g. bib, yml, ris;  no dot, just the extension). 
+
+Bibliography formats
+
+Speaking about formats, the most common bibliography formats are [CSL-YAML], [CSL-JSON], [BibTeX], and [RIS]. Internally, Pandoc and Quarto use the CSL (Citation Style Language) to handle bibliography, so CSL-YAML and CSL-JSON perform much better (up to 10 times faster) than older formats like BibTeX or RIS that will have to be converted by Pandoc before it can be understood.
+
+ScrivQ provides all the data needed for the project to be compiled. To make this template useful, however, you will need to generate your own bibliography data. In principle, nothing stops you from manually, or semi-manually, keeping a bibliography in Scrivener, but this is not very easy to manage if you have many projects sharing the same references. (Luckily, in this regard, Scrivener offers the best text comparison tools I can think of). The best alternative, it seems, is to rely on specialized software such as Zotero, Bookends, Bibdesk (also JabRef, Endnote, and [others](en.wikipedia.org/wiki/Comparison_of_reference_management_software))*. These programs allow you to edit your bibliography and easily export it in the desired format, which can be copied and pasted to different Scrivener projects. Zotero even offers an API that can be used to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`LibraryID`/items?format=bibtex&amp;limit=999` where LibraryID corresponds to the library's 7-digit code (visible in the middle of the library URL). 
+
+￼
+{#fig-scrivener-a} This will result in a separate file, whose path will be added to the front matter, with the content of the text. The resulting bibliography will be printed right where we placed it in our project. 
+
+￼
+{#fig-print-page} On the left we have the Table of Contents; on the top-right, we see the printed bibliography (page 31) and, on the bottom-right, the files are automatically created during the compilation process.
+
+Simply put, you can add as many bibliographies as you want!
+
+Super tip: Make use of the Templates folder
+
+Thanks to ScriQ, there is no need to keep separate bibliography files in the system, as the data can simply be copied and pasted from the bibliography managers to Scrivener. However, if you already have many bibliography files ready that you would like to use, it could be a good idea to use the shared Templates folder to bring them to your fingertips inside Scrivener.
+
+￼
+{#fig-scrivener-b} The shared templates folder in the main Scrivener configuration window.
+
+￼
+{#fig-scrivener-c} The Add new document menu in the Toolbar.
+
+For some reason, only .txt files are accepted, so the files must have this extension. Hopefully, L&amp;L will change this to allow other plain text formats, such as md, qmd, yml, tex, ris, and so on.
+
+From lists of names to the formatted bibliography
+
+We are feeding the `Bibliography` data to the most natural place precisely where it should be printed. In this case, however, we do it using any structured format we want (bib, ris, yml) unencumbered by the task of formatting the bibliography based on (some set of) rules. Pandoc Citeproc takes care of this using the provided CSL-style file (defaults to Chicago).</Text>
+        <Comments>If you are using macOS, check Bookends and Bibdesk; and, on all platforms, definitively get Zotero as well. </Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-12 12:26:39 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>
+## Where do I plug my bibliography?
+ 
+There is no need to keep separate bibliography files in the system. Copy and paste the data from bibliography managers straight into Scrivener following the instructions below and you will be set!
+
+## Bibliography Formats
+
+Pandoc and Quarto use a [CSL] (Citation Style Language) engine and prefer [CSL-YAML] and [CSL-JSON], performing up to 10x faster, over [BibTeX] and [RIS], which need to be converted before they can be understood.
+
+## What if I don't have a bibliography ready?
+ 
+- Check [Zotero]* and [JabRef] on all platforms.
+- On macOS, check [Bookends] and [Bibdesk]; 
+- See also, [here](en.wikipedia.org/wiki/Comparison_of_reference_management_software). 
+
+[Bookends]: www.sonnysoftware.com/
+[Bibdesk]: bibdesk.sourceforge.io
+[Zotero]: www.zotero.org/
+[Jabref]: www.jabref.org/
+[BibTeX]: https://en.wikipedia.org/wiki/BibTeX#Entry_types
+[CSL]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
+[CSL-YAML]: https://docs.citationstyles.org/en/stable/specification.html
+[CSL-JSON]: https://docs.citationstyles.org/en/stable/specification.html
+[RIS]: https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference</Text>
+        <Comments>Zotero even offers an API to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`LibraryID`/items?format=bibtex&amp;limit=999` where `LibraryID` corresponds to the library's 7-digit code (visible in the middle of the library URL). </Comments>
+    </Snapshot>
+</SnapshotIndexes>

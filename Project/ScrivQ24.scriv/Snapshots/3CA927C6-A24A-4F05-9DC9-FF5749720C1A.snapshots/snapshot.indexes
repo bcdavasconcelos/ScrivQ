@@ -190,4 +190,74 @@
     citations-hover:
     citation-location:</Text>
     </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  html:
+
+    template: scrivpath # template.html
+
+    template-partials:
+      - scrivpath # html.template
+      - scrivpath # title-block.html
+      - scrivpath # template.html
+      - scrivpath # styles.html
+      - scrivpath # html.styles
+      - scrivpath # toc.html
+      - scrivpath # metadata.html
+
+    theme: # default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+      light: [Pulse] 
+      dark: [Cyborg]
+
+    embed-resources: true
+    self-contained-math: true
+    anchor-sections: true
+    smooth-scroll: true
+    code-links:
+      - text: Compile Script
+        icon: file-code
+        href: compile.rb
+
+
+# Toc
+    toc: true
+    toc-depth: 3
+    toc-expand: 2
+    toc-location: left
+    toc-title: Contents
+    number-sections: true
+    number-depth: 3
+
+# Code
+    code-link: true
+    code-copy: true
+    code-tools: true
+    code-fold: show
+    highlight-style: github
+    code-line-numbers: true
+    code-overflow: wrap
+
+# Fonts
+    linestretch: 1.5
+    fontsize: 12pt
+    fontfamily: Alegreya
+    mainfont: Alegreya
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+
+# Layout
+    cap-location: bottom
+    fig-cap-location: bottom
+    tbl-cap-location: bottom
+    reference-location: margin
+    appendix-style: default
+    link-fields: true
+
+    include-before: |
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
+      &lt;/style&gt;
+</Text>
+    </Snapshot>
 </SnapshotIndexes>

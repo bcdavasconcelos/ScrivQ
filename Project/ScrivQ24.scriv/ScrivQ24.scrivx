@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-25 20:41:01 -0300" ModID="0A3C79C0-2659-4ED2-99AF-FB038C569579">
+<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-25 20:53:42 -0300" ModID="03EA7AF6-46A4-4D6B-AF37-E4C799AC7E2B">
     <Binder>
         <BinderItem UUID="8B014782-1E52-4F6D-B15C-CA5FB440B23B" Type="Folder" Created="2023-06-22 15:45:13 -0300" Modified="2024-01-07 19:09:11 -0300">
             <Title>ScrivQ Templates</Title>
@@ -1572,7 +1572,7 @@
                                         <Bookmark BinderUUID="28291907-8F43-4F7D-B3A4-3E6833807351"/>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="A5D56A6D-9401-4DF6-A80F-F75A752D0EF2" Type="Text" Created="2024-11-08 17:44:00 -0300" Modified="2024-11-21 21:11:12 -0300">
+                                <BinderItem UUID="A5D56A6D-9401-4DF6-A80F-F75A752D0EF2" Type="Text" Created="2024-11-08 17:44:00 -0300" Modified="2024-11-25 20:53:42 -0300">
                                     <Title>Caracter Styles</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -1608,7 +1608,7 @@
                                         <TextSelection>1115,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="822E2912-BD41-404D-8A47-02F5F8E6C909" Type="Text" Created="2024-11-08 17:53:46 -0300" Modified="2024-11-21 21:11:12 -0300">
+                                <BinderItem UUID="822E2912-BD41-404D-8A47-02F5F8E6C909" Type="Text" Created="2024-11-08 17:53:46 -0300" Modified="2024-11-25 20:53:42 -0300">
                                     <Title>Caracter Styles</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>

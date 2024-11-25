@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="5572C18C-80E0-420C-8AB5-4B2D75A5DE68">
+    <Snapshot Date="2024-11-11 20:53:13 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+MorphineCFP, MorphineCFP (MorphineCFP)
+
+In ScrivQ, we use [Citeproc] to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by BibTeX users, we included [Cite Tools] to enable multipart bibliographies, provide a backref (see [HyperRef]), and access bibliographic data from sources (author, editor, translator, date, edition, number, and so on).
+
+## Official documentation
+
+The official documentation on citations can be found at [Pandoc](pandoc.org/MANUAL.html#citations) and [Quarto](quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations).
+
+## Deleting [Cite Tools] from ScrivQ will cause the compilation to fail.
+
+## Using Cite Tools in other projects 
+
+Install it with quarto install extension bcdavasconcelos/citetools.
+
+[Cite Tools]: https://bcdavasconcelos.github.io/citetools
+[Citeproc]: https://en.wikipedia.org/wiki/CiteProc
+[HyperRef]: www.ctan.org/pkg/hyperref
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Μῆνιν ἄειδε, θεά, Πηληιάδεω Ἀχιλῆος (HomIl, I 1)
+The wrath sing, goddess, of Peleus’ son Achilles.
+
+In ScrivQ, we use [Citeproc](https://en.wikipedia.org/wiki/CiteProc) to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by BibTeX users, we included [Cite Tools](https://bcdavasconcelos.github.io/citetools) to enable multipart bibliographies, provide backlinks (see backref from [HyperRef](www.ctan.org/pkg/hyperref)), and access bibliographic data from sources (author, editor, translator, date, edition, number, and so on).
+
+## Official documentation
+ 
+The official documentation on citations can be found at [Pandoc](pandoc.org/MANUAL.html#citations) and [Quarto](quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations).
+
+## Cite Tools and ScrivQ
+
+Deleting [Cite Tools](https://bcdavasconcelos.github.io/citetools) might cause the compilation to fail.
+
+## Using Cite Tools in other projects 
+
+quarto install extension bcdavasconcelos/citetools.
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

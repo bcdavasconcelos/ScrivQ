@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="D96AFA02-92B2-4992-A21B-918D1D897986">
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>In Citeproc, link-citations control whether citations in the body of the text should be clickable links to the reference in the bibliography. Cite Tools takes it further and adds a backlink to each citation an entry has received in the document in a crescent ordinal fashion*. This allows the reader to easily arrive at sections of the text where the same reference was discussed and quickly see how many times each reference was used with the array of backlinks.
+￼
+The Citation Backlinks filter adds an index of cited references to the bibliography, with links back to all in-text citations. It also allows the user to turn these off globally or in an ad hoc fashion. {#fig-scrivlinkC width="auto"}
+
+## Citing specific fields
+ 
+Turn link-fields into false to avoid undesired linking
+
+## Bibliography links
+
+- link-citations: Hyperlink citations to the corresponding bibliography entries. Defaults to true.
+- link-fields: Hyperlink citations targeting specific CSL fields to the corresponding entries in the bibliography. Defaults to true.
+- link-bibliography: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
+- lang: Affects the bibliography tags. Defaults to en-US.
+
+</Text>
+        <Comments>The reader will see the page number instead of a crescent ordinal number in some output formats, such as PDF.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-01-05 12:14:28 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>With Pandoc Citeproc, you can use link-citations to control whether citations in the body of the text should be clickable links to the reference in the bibliography (e.g. [@EN]). This is a very useful feature, especially when you want to quickly check the source of a citation without having to scroll through the whole text. ScrivQ takes this one step further with Cite Tools and adds, in a crescent ordinal fashion*, a backlink to each citation an entry has received in the document. This allows the reader to easily arrive at sections of the text where the same reference was discussed, quickly seeing with the array of backlinks, how many times each reference was used in the text.
+
+Turning off undesired linking
+You can set link-fields to false to avoid undesired linking when citing specific fields (scrivlink).
+
+Various parameters that affect the hyperlinking of the bibliography
+
+link-citations: Hyperlink citations to the corresponding bibliography entries. Defaults to false.
+
+link-fields: Hyperlink citations that target specific CSL fields to the corresponding entries in the bibliography. If link-citations is true, this defaults to true.
+
+link-bibliography: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
+
+lang: Affects the bibliography tags. Defaults to en-US.
+</Text>
+        <Comments>In other output formats, such as PDF, the reader will see the page number instead of a crescent ordinal number.</Comments>
+    </Snapshot>
+    <Snapshot Date="2024-11-05 14:29:50 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>In Citeproc, link-citations control whether citations in the body of the text should be clickable links to the reference in the bibliography. Cite Tools takes it further and adds a backlink to each citation an entry has received in the document in a crescent ordinal fashion*. This allows the reader to easily arrive at sections of the text where the same reference was discussed and quickly see how many times each reference was used with the array of backlinks.
+￼
+The Citation Backlinks filter adds an index of cited references to the bibliography, with links back to all in-text citations. It also allows the user to turn these off globally or in an ad hoc fashion. {#fig-scrivlinkC width="auto"}
+
+## Turning off undesired linking
+ 
+If you want to avoid undesired linking when citing specific fields, turn link-fields into false
+
+## Bibliography links
+
+link-citations: Hyperlink citations to the corresponding bibliography entries. Defaults to true.
+
+link-fields: Hyperlink citations targeting specific CSL fields to the corresponding entries in the bibliography. Defaults to true.
+
+link-bibliography: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
+
+lang: Affects the bibliography tags. Defaults to en-US.
+
+</Text>
+        <Comments>The reader will see the page number instead of a crescent ordinal number in some output formats, such as PDF.</Comments>
+    </Snapshot>
+</SnapshotIndexes>

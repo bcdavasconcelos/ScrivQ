@@ -1096,6 +1096,29 @@ This works when we are referencing elements created using Section Types as Scriv
 When referencing elements created using Raw Markup or a Character Style, we must use the same ID we gave the element (e.g. fig-ulysses) instead of our generic link label (e.g. s\crivlink).
 </Text>
     </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>When creating a Section, select the correct ID-Prefix (e.g. sec-) and fill the ID metadata field with a value (e.g. xref). Then, use Scrivener placeholders ( &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;) with a link to the cited element, so that this gets replaced with sec-xref. This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec-, tbl-, fig-, lst-), making it compatible with all element types. 
+## Alternative to placeholders
+
+A less verbose option uses a replacement rule:
+
+- s\crivlink is replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;.
+- s\crivpath and $\! are replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;&lt;\$Custom:Extension&gt;.
+
+## How to cross-reference an element
+ 
+1. Type your-keyword-of-choice or s\crivlink;
+2. Apply the Character Style Cite (hit Shift + Command + Y)
+3. Link to the document that contains the element (hit Command + L).
+
+## Known limitation
+ 
+Understand that Scrivener Placeholders can only pull information from the section properties, so the generic link label (e.g. s\crivlink) will work to reference elements created from Section Types.
+ 
+To reference elements created from Raw Markup or Character Style, use the actual ID given (e.g. fig-ulysses).
+</Text>
+    </Snapshot>
     <Snapshot Date="2024-11-12 15:58:57 -0300">
         <Title>Untitled (Save)</Title>
         <Text>Select the correct ID-Prefix (e.g. sec-) and then fill the ID (e.g. xref) metadata field of different Section Types to allow cross-referencing. This will be achieved using Scrivener placeholders such as  @&lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt; that would be replaced into \@sec-xref. This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec-, tbl-, fig-, lst-), making it compatible with all element types. 

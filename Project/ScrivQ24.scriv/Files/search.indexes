@@ -5,10 +5,10 @@
             <Title>_quarto</Title>
             <Text>website:
   author: Bernardo César Diniz Athayde Vasconcelos
-  title: Hello, ScrivQ
+  title: ScrivQ 24
   date: 2023-12
   abstract: The ScrivQ Template
-  description: A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).
+  description: A Scrivener template project for Quarto capable of exporting multiple files, handling cross-references, and keeping a bibliography.
   reader-mode: true
   search: 
     location: navbar
@@ -23,6 +23,10 @@
         <Document ID="451C7A53-8188-42DE-94CA-0A63A6E3B80B">
             <Title>Break + Section</Title>
             <Text>Demonstration of the Section Type Break + Section with ID #&lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;.</Text>
+        </Document>
+        <Document ID="169A0028-0E1D-42DD-8292-8F4696A44D9B">
+            <Title>https://quarto.org/docs/reference/formats/html.html#fonts</Title>
+            <Synopsis>Note on: html</Synopsis>
         </Document>
         <Document ID="683D13B2-6FA9-4522-9B33-D390086A8E1B">
             <Title>docx</Title>
@@ -1541,27 +1545,17 @@ Text</Notes>
             <Text>
 ## Where do I plug my bibliography?
  
-There is no need to keep separate bibliography files in the system. Copy and paste the data from bibliography managers straight into Scrivener following the instructions below and you will be set!
+There is no need to keep separate bibliography files in the system. Simply copy and paste the references directly to Scrivener following the instructions below.
 
-## Bibliography Formats
+## References format
 
-Pandoc and Quarto use a [CSL] (Citation Style Language) engine and prefer [CSL-YAML] and [CSL-JSON], performing up to 10x faster, over [BibTeX] and [RIS], which need to be converted before they can be understood.
+Pandoc and Quarto use a [CSL](https://docs.citationstyles.org/en/stable/specification.html) (Citation Style Language) engine and prefer [CSL-YAML and CSL-JSON](https://docs.citationstyles.org/en/stable/specification.html) (performing up to 10x faster) over [BibTeX](https://en.wikipedia.org/wiki/BibTeX#Entry_types) and [RIS](https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference), which need to be converted before they can be understood.
 
 ## What if I don't have a bibliography ready?
  
-- Check [Zotero]* and [JabRef] on all platforms.
-- On macOS, check [Bookends] and [Bibdesk]; 
-- See also, [here](en.wikipedia.org/wiki/Comparison_of_reference_management_software). 
-
-[Bookends]: www.sonnysoftware.com/
-[Bibdesk]: bibdesk.sourceforge.io
-[Zotero]: www.zotero.org/
-[Jabref]: www.jabref.org/
-[BibTeX]: https://en.wikipedia.org/wiki/BibTeX#Entry_types
-[CSL]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
-[CSL-YAML]: https://docs.citationstyles.org/en/stable/specification.html
-[CSL-JSON]: https://docs.citationstyles.org/en/stable/specification.html
-[RIS]: https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference</Text>
+- Check [Zotero](www.zotero.org)* and [JabRef](www.jabref.org) on all platforms.
+- On macOS, check [Bookends](www.sonnysoftware.com/) and [Bibdesk](bibdesk.sourceforge.io); 
+- See also [this comparison](en.wikipedia.org/wiki/Comparison_of_reference_management_software). </Text>
             <Comments>Zotero even offers an API to download shared libraries by merely accessing a link, such as `https://api.zotero.org/groups/`LibraryID`/items?format=bibtex&amp;limit=999` where `LibraryID` corresponds to the library's 7-digit code (visible in the middle of the library URL). </Comments>
             <Notes># &lt;$title&gt; {#sec-%autoref% .appendix}
 
@@ -1857,7 +1851,7 @@ $endif$</Text>
         </Document>
         <Document ID="1788F7B4-4B13-4272-8E68-675F7118CA37">
             <Title>Heading</Title>
-            <Text>Demonstration of the Section Type Heading that prints no text.</Text>
+            <Text>Demonstration of the Section Type Heading. The text is not printed.</Text>
         </Document>
         <Document ID="6157661D-80EE-4A36-959F-1455369F8BFB">
             <Title>Callout Caution</Title>
@@ -1865,7 +1859,7 @@ $endif$</Text>
         </Document>
         <Document ID="BEF1B346-515E-49D5-BAEB-19606A087348">
             <Title>Citation of specific fields</Title>
-            <Text>To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). We have stuck to the term fields, but the official terminology is [CSL Variables], [BibTeX Fields], and [RIS Tags].
+            <Text>To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). Officially, [CSL has Variables](https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables), [BibTeX has Fields](https://en.wikipedia.org/wiki/BibTeX#Field_types), and [RIS has Tags](https://en.wikipedia.org/wiki/RIS_(file_format)#Tags), but we stuck to the term fields to describe all of them.
 
 Character Style
 Markdown Source
@@ -1899,19 +1893,14 @@ Cite Publisher-Place
 DA
 All ready-made Character Styles for the Cite Field lua filter. {#tbl-cite-field}
 
-## Example
+## An example with field citation
 
-`Aristotle's DA (DA) was first edited by DA in DA.  In DABiehl, there was another edition by DABiehl (which was reprinted in DATheiler's DATheiler translation).`
-
-Aristotle's DA (DA) was first edited by DA in DA.  In DABiehl, there was another edition by DABiehl (which was reprinted in DATheiler's DATheiler translation).
-
-[BibTeX Fields]: https://en.wikipedia.org/wiki/BibTeX#Field_types
-[CSL variables]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables
-[RIS Tags]: https://en.wikipedia.org/wiki/RIS_(file_format)#Tags</Text>
+DA published the first modern edition of Aristotle's DA (DA) in DA. A new edition by DABiehl appeared in DABiehl (later reprinted in DATheiler's DATheiler translation).
+</Text>
         </Document>
         <Document ID="013120A7-08A2-4F81-932E-5B9320B2380E">
             <Title>Break + Heading</Title>
-            <Text>Demonstration of the Section Type Break + Heading that prints no text.</Text>
+            <Text>Demonstration of the Section Type Break + Heading. The text is not printed.</Text>
         </Document>
         <Document ID="580815B1-DF69-40D5-93E9-707004A24CF7">
             <Title>Workflow</Title>
@@ -10328,7 +10317,7 @@ Place the label first in the caption, and use the Caption style. {#fig-panel-a-i
 #
 Angry elephant with a big trunk. {#fig-panel-a-item-b width="auto"}
 
-This multi-figure panel uses the Section Type Div instead of raw markdown as shown here. ID, Class, and Attributes specific to the block [#fig-panel-a .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and then inserted into the markup for this chunk by the Section Layout at compile time.  </Text>
+This multi-figure panel uses the Section Type Div instead of raw markdown as shown here. ID, Class, and Attributes specific to the block are saved to Custom Metadata → ID, Class &amp; Attributes, and then inserted into the markup for this chunk by the Section Layout at compile time.  </Text>
             <Notes>:::{id="&lt;$custom:ID-Prefix&gt;&lt;$custom:ID&gt;" &lt;$custom:Class&gt; &lt;$custom:Class₂&gt; &lt;$custom:Attributes&gt; width="&lt;$custom:Width&gt;" height="&lt;$custom:Height&gt;"}
 
 Text
@@ -11489,22 +11478,22 @@ The only thing that needs to be supplied by the user is the format in the &lt;$c
         </Document>
         <Document ID="5572C18C-80E0-420C-8AB5-4B2D75A5DE68">
             <Title>Citations</Title>
-            <Text>"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
-MorphineCFP, MorphineCFP (MorphineCFP)
+            <Text>Μῆνιν ἄειδε, θεά, Πηληιάδεω Ἀχιλῆος (HomIl, I 1)
+The wrath sing, goddess, of Peleus’ son Achilles.
 
-In ScrivQ, we use [Citeproc](https://en.wikipedia.org/wiki/CiteProc) to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by BibTeX users, we included [Cite Tools] to enable multipart bibliographies, provide backlinks (see backref from [HyperRef](www.ctan.org/pkg/hyperref)), and access bibliographic data from sources (author, editor, translator, date, edition, number, and so on).
+In ScrivQ, we use [Citeproc](https://en.wikipedia.org/wiki/CiteProc) to handle the bibliography and provide consistent output across different formats. Given Citeproc's lack of features beloved by BibTeX users, we included [Cite Tools](https://bcdavasconcelos.github.io/citetools) to enable multipart bibliographies, provide backlinks (see backref from [HyperRef](www.ctan.org/pkg/hyperref)), and access bibliographic data from sources (author, editor, translator, date, edition, number, and so on).
 
 ## Official documentation
  
 The official documentation on citations can be found at [Pandoc](pandoc.org/MANUAL.html#citations) and [Quarto](quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations).
 
-## Cite Tools needed for ScrivQ
+## Cite Tools and ScrivQ
 
-Deleting [Cite Tools](https://bcdavasconcelos.github.io/citetools) from ScrivQ will cause the compilation to fail.
+Deleting [Cite Tools](https://bcdavasconcelos.github.io/citetools) might cause the compilation to fail.
 
 ## Using Cite Tools in other projects 
 
-Install it with quarto install extension bcdavasconcelos/citetools.
+quarto install extension bcdavasconcelos/citetools.
 
 </Text>
             <Notes># &lt;$title&gt; {#sec-%autoref% .appendix}
@@ -11665,6 +11654,256 @@ $endfor$
 &lt;/body&gt;
 
 &lt;/html&gt;
+</Text>
+        </Document>
+        <Document ID="DECDA0E1-1F61-4FF7-88DB-14F4B49ACD12">
+            <Title>compile</Title>
+            <Synopsis>This section exists for purposes of organization. 
+It means nothing and it won't be exported.</Synopsis>
+            <Text>#!/usr/bin/env ruby
+# encoding: utf-8
+
+# Rewrite of Scrivener markdown for cross-referencing system used by Quarto; also adds paths for LaTeX, python and others.
+# Version: 0.1.11 (2024-11-08-17-24)
+# Script by [Iandol](https://github.com/iandol) &amp; Bernardo Vasconcelos.
+
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
+tstart = Time.now
+
+require 'tempfile' # temp file tools
+require 'fileutils' # ruby standard library to deal with files
+require 'timeout'
+#require 'debug/open_nonstop' # debugger
+
+rep_patterns = { /(id=""|width=""|height="")/ =&gt; '',
+                 /\s+width=/ =&gt; ' width=',
+                 /{\s*(#.*?)\s*}/ =&gt; '{\1}',
+                 /\{\s*(.+?)\s*\}/ =&gt; '{\1}',
+                 /^(#+) (.+?)\{\s*\}/ =&gt; '\1 \2',
+                 /(\n|\s|\h)+\Z/ =&gt; "\n\n",
+                 /\n{4,}/ =&gt; "\n\n", # cosmetic only: remove long runs (4 or more) of newlines
+                 /\$\$ ?\n\{\#eq/ =&gt; '$$ {#eq' # puts {#id} onto end of $$ math block lines
+}
+
+dry_run = false # set to true to test without overwriting the file
+# decrease_heading_cmd = 'quarto pandoc -f markdown -t markdown --shift-heading-level-by=-1 --wrap=none'
+in_filename = File.expand_path(ARGV[0])
+
+outo_filename = in_filename.gsub(/\.[q]?md$/,'.qmd') # output to [name].qmd
+to_file = Tempfile.new('fix-x-refs') # create a temp file
+
+puts "--&gt; Input Filename: #{in_filename}"
+
+fail 'The specified file does not exist!' unless in_filename &amp;&amp; File.file?(in_filename)
+
+fileType = ARGV[1]
+if fileType.nil? || fileType !~ /(plain|markdown|html|pdf|epub|docx|latex|odt|beamer|revealjs|pptx)/
+  fileType = ''
+end
+
+def inline_fn(str, style = :pandoc)
+  return str unless str.is_a?(String) &amp;&amp; !str.empty? &amp;&amp; str.include?('[^')
+
+  ref_start = ''
+  text = str.gsub(/\[\^fn(\d+)/, '[^\1') # Remove the fn prefix from footnotes)
+  counter = 0
+
+  until ref_start.nil?
+    counter += 1
+    cite      = "[^#{counter}]"
+    ref       = "[^#{counter}]:"
+    ref_start = text.index(ref)
+    break if ref_start.nil?
+
+    next_ref = "[^#{counter + 1}]:"
+    ref_end  = text.index(next_ref).nil? ? -1 : text.index(next_ref) - 2
+    offset   = counter.to_s.length + 5
+    note     = case style
+               when :mmd
+                 "[^#{text[ref_start + offset..ref_end].strip}]"
+               else
+                 "^[#{text[ref_start + offset..ref_end].strip}]"
+               end
+
+    text = text.gsub(cite, note)
+  end
+
+  if counter &gt;= 1
+    case style
+    when :mmd
+      text = text.gsub(/\n\s*\[\^/, "\n[^")
+      cut_point = text.index("\n[^")
+    else
+      text = text.gsub(/\n\s*\^\[/, "\n^[")
+      cut_point = text.index("\n^")
+    end
+
+    text = text[0, cut_point]
+    puts "--&gt; #{counter -= 1} notes replaced."
+  end
+  text
+end
+
+def inline_fn_pandoc(text)
+  inline_fn(text, :pandoc)
+end
+
+def inline_fn_mmd(text)
+  inline_fn(text, :mmd)
+end
+
+def makePath() # this method augments our environment path
+  home = "#{ENV['HOME']}/"
+  envpath = ''
+  pathtest = ["#{home}.rbenv/shims", "#{home}.pyenv/shims", '/usr/local/bin',
+              '/usr/local/opt/ruby/bin', '/usr/local/lib/ruby/gems/2.7.0/bin',
+              '/Library/TeX/texbin', '/opt/homebrew/bin',
+              "#{home}anaconda/bin", "#{home}anaconda3/bin", "#{home}miniconda/bin", "#{home}miniconda3/bin",
+              "#{home}.cabal/bin", "#{home}.local/bin"]
+  pathtest.each { |p| envpath = "#{envpath}:#{p}" if File.directory?(p) }
+  envpath.gsub!(/\/{2}/, '/')
+  envpath.gsub!(/:{2}/, ':')
+  envpath.gsub!(/(^:|:$)/, '')
+  ENV['PATH'] = "#{envpath}:#{ENV['PATH']}"
+  ENV['LANG'] = 'en_GB.UTF-8' if ENV['LANG'].nil? # Just in case we have no LANG, which breaks UTF8 encoding
+  puts "--&gt; Modified path: #{ENV['PATH'].chomp}"
+end # end makePath()
+
+def isRecent(infile) # checks if a file is less than 3 minutes old
+  return false if !File.file?(infile)
+
+  filetime = File.mtime(infile) # modified time
+  difftime = Time.now - filetime # compare to now
+  if difftime &lt;= 180
+    return true
+  else
+    return false
+  end
+end
+
+makePath()
+
+begin
+  File.open(in_filename, 'r') do |file|
+    text = file.read
+    # Figure markup needs to go from the bottom to their in-line references.
+    # From
+    # [{#fig-id} Caption][Reference]
+    # [Reference]: File.jpg {width=486 height=402}
+    # To
+    # ![Caption](File.png){#fig-ulysses1 width=486 height=402}
+    f = 0 # of figures
+    figures_data = text.scan(/^\[(.+?)\]: (.+?) \{(.+?)}$/) # Capture [caption]: fig.png
+    figures = text.scan(/^!\[(.*?)\]\[(.+?)\]/) # Capture ![caption][reference]
+
+    figures_data.each do |data|
+      figures.each do |fig|
+        next unless data[0] == fig[1]
+
+        f += 1
+        # ![caption][reference]
+        search = "![#{fig[0]}][#{data[0]}]"
+        # Capture figure id in the caption
+        fig_id = fig[0][/#fig-.*?/] ? "#{fig[0].match(/#fig-(\w|-)+/)} " : ''
+        fig_file = data[1].strip
+        # Capture width in the caption
+        width = fig[0][/width=([0-9]|\w|")+/] ? fig[0].match(/width=([0-9]|\w|")+/).to_s : ''
+        # Capture height in the caption
+        height = fig[0][/height=([0-9]|\w|")+/] ? fig[0].match(/height=([0-9]|\w|")+/).to_s : ''
+        # If no width or height in the caption, use Scrivener's reference
+        width_and_height = width.empty? &amp;&amp; height.empty? ? data[2].to_s : "#{width} #{height}".strip
+        # Caption text
+        caption_text = fig[0].gsub(/\{.*?}/, '').strip
+
+        # Replace text with the full reference
+        text.gsub!(search, "![#{caption_text}](#{fig_file}){#{fig_id}#{width_and_height}}")
+        # puts "----&gt; Found figure: ![#{caption_text}](#{fig_file}){#{fig_id}#{width_and_height}}"
+      end
+      # Erase Scrivener references at end of file
+      text.gsub!(/^\[(?&lt;reference&gt;.+?)\]: (?&lt;url&gt;.+?) ?\{(?&lt;dimensions&gt;.+?)}$\n*/, '')
+    end
+    puts "--&gt; #{f} figures fixed." if f.positive?
+
+    # Convert footnotes to pandoc style
+    text = inline_fn_pandoc("#{text}\n\n")
+    # Replace patterns
+    rep_patterns.each do |pattern, replacement|
+      text.gsub!(pattern, replacement)
+    end
+    # Extract and create files from pattern
+    # &lt;!-- begin_file: "path/to/file.ext" --&gt;`file_content`&lt;!-- end_file: "path/to/file.ext" --&gt;\n
+    if text =~ /&lt;!-- begin_file: "([^"]+)" --&gt;/ # If there are new files to be added
+      # Array to store new files
+      new_files = []
+      # Get the new files
+      text.scan(/&lt;!-- begin_file: "([^"]+)" --&gt;/) do |match|
+        # puts "----&gt; Found new file: #{match[0]}"
+        new_files &lt;&lt; match[0]
+      end
+
+      # Array to store created files for logging
+      created_files = []
+      new_files.each do |file|
+        pattern = /&lt;!-- begin_file: "#{file}" --&gt;(.+?)&lt;!-- end_file: "#{file}" --&gt;/m
+        # Get the file content
+        file_content = text[pattern] ? text.scan(pattern)[0][0] : ''
+        # Check if path exists, if not create it
+        FileUtils.mkdir_p(File.dirname(file))
+        # Write the file
+        File.open(file, 'w') { |f| f.write(file_content) }
+        # Add the file to the created files array
+        created_files &lt;&lt; file
+        # `#{decrease_heading_cmd} "#{file}" -o "#{file}"` if file[/\.[q]?md$/]
+        text.gsub!(pattern, '') unless file_content.nil? || file_content.empty?
+      end
+      puts "--&gt; #{created_files.count} files created" if created_files.any?
+    else
+      puts '--&gt; No new files detected!'
+    end
+    to_file.puts text.gsub(/\n{2,}/, "\n\n")
+  end
+  to_file.close
+  FileUtils.mv(to_file.path, outo_filename)
+ensure
+  to_file.close
+  to_file.delete
+end
+
+# Build and run our quarto command
+cmd = if fileType.empty?
+        "quarto render \"#{outo_filename}\""
+      else
+        "quarto render \"#{outo_filename}\" --to #{fileType}"
+      end
+
+
+unless dry_run
+  begin
+    pid = Process.spawn(cmd)
+    Timeout.timeout(60) do
+      puts "--&gt; Running Command: #{cmd}" unless dry_run
+      Process.wait(pid)
+      puts 'Process finished in time'
+    end
+  rescue Timeout::Error
+    puts 'Process not finished in time, killing it'
+    Process.kill('TERM', pid)
+    # open any log file (generated from scrivener's post-processing)
+    `open Quarto.log` if File.file?('Quarto.log') &amp;&amp; isRecent('Quarto.log')
+  end
+  fileType = 'html' if fileType.match(/revealjs|s5|slidous|html5/)
+  res = outo_filename.gsub(/\.qmd$/, ".#{fileType}")
+  if File.file?(res) &amp;&amp; isRecent(res) &amp;&amp; dry_run == false
+    `open "#{res}"`
+  else
+    puts "There was some problem opening #{res}, check compiler log…"
+  end
+#  `open "#{outo_filename}"`
+end
+
+tend = Time.now - tstart
+puts "--&gt; Processing took: #{tend.to_s}s"
 </Text>
         </Document>
         <Document ID="735C240E-29CD-4BD0-8A37-B97C89E886C6">
@@ -11854,6 +12093,7 @@ Callout Warning (Collapsed)
       - heightrounded
       - bindingoffset=0.5cm
     indent: true
+    cap-location: bottom
     fig-cap-location: bottom
     tbl-cap-location: bottom
     pagestyle: headings
@@ -11966,7 +12206,7 @@ Callout Warning (Collapsed)
         <Document ID="F37A18CB-403C-4619-B139-692DB318338B">
             <Title>Scrivener Project Templates</Title>
             <Text>All sorts of internal Scrivener Templates have been included for convenience. They serve as starting points to create new sections. Click Project &gt; New From Template and select the desired Section Types from the list, which includes Bibliography, Code, Computation, Diagram Dot, Diagram Mermaid, Div, Equation, File, Metadata, Section, Text, Text (Anchored)*. 
-This provides a huge number of options as the metadata can be customized to create many Quarto elements. Using the Section Type Div, for example, one could create 8 different Amsthm elements, 5 different Callouts, and several Column environments. Using the Computation, one can create executable code blocks with R, Python, and Ruby. The Section Type Section can be numbered, unnumbered, or part of the appendix (with the use of classes). 
+This provides a huge number of options as the metadata can be edited to allow the creation of different Quarto elements and their customization (e.g. using classes and attributes). Using the Section Type Div, for example, one could create 8 different Amsthm elements, 5 different Callouts, and several Column environments. Using the Computation, one can create executable code blocks with R, Python, and Ruby. The Section Type Section can be numbered, unnumbered, or part of the appendix (with the use of classes). 
 Look at the ready-made examples to see what else is possible.</Text>
             <Comments>Text section with ID for cross-referencing.</Comments>
         </Document>
@@ -12016,8 +12256,9 @@ My caption {#fig-elepahnt-b}
         <Document ID="3CA927C6-A24A-4F05-9DC9-FF5749720C1A">
             <Title>html</Title>
             <Text>  html:
-    link-fields: true
+
     template: scrivpath # template.html
+
     template-partials:
       - scrivpath # html.template
       - scrivpath # title-block.html
@@ -12026,31 +12267,31 @@ My caption {#fig-elepahnt-b}
       - scrivpath # html.styles
       - scrivpath # toc.html
       - scrivpath # metadata.html
-    theme:
-      light: [Pulse]
+
+    theme: # default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+      light: [Pulse] 
       dark: [Cyborg]
-    embed-resources: false
-    self-contained-math: false
-    classoption:
-    cap-location:
-    include-before: |
-      &lt;style&gt;
-      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
-      &lt;/style&gt;
-    standalone: true
+
+    embed-resources: true
+    self-contained-math: true
+    anchor-sections: true
+    smooth-scroll: true
+    code-links:
+      - text: Compile Script
+        icon: file-code
+        href: compile.rb
+
+
+# Toc
     toc: true
     toc-depth: 3
+    toc-expand: 2
     toc-location: left
-    toc-expand: true
+    toc-title: Contents
     number-sections: true
     number-depth: 3
-    linestretch: 1.5
-    fontsize: 12pt
-    fontfamily: Alegreya
-    mainfont: Alegreya
-    sansfont: Alegreya Sans
-    monofont: Source Code Pro
+
+# Code
     code-link: true
     code-copy: true
     code-tools: true
@@ -12058,8 +12299,28 @@ My caption {#fig-elepahnt-b}
     highlight-style: github
     code-line-numbers: true
     code-overflow: wrap
+
+# Fonts
+    linestretch: 1.5
+    fontsize: 12pt
+    fontfamily: Alegreya
+    mainfont: Alegreya
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+
+# Layout
+    cap-location: bottom
+    fig-cap-location: bottom
+    tbl-cap-location: bottom
     reference-location: margin
     appendix-style: default
+    link-fields: true
+
+    include-before: |
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
+      &lt;/style&gt;
 </Text>
             <Notes>    title-block-banner: "#BB3333"
     metadata:
@@ -12720,6 +12981,7 @@ $endfor$
 </Text>
         </Document>
         <Document ID="F5961282-1537-4455-87B8-9B182DDD4F18">
+            <Title>Primary Sources</Title>
             <Synopsis>1. Add the bibliography.
 2. Add the bibliography format to `&lt;$custom:Attributes&gt;` (*e.g.*) `bib`, `ris`, `yml`, `md`).
 
@@ -12858,7 +13120,27 @@ The bibliography will print here. </Synopsis>
   issued:
     - year: 1984
   publisher: Clarendon
-  publisher-place: Oxford</Text>
+  publisher-place: Oxford
+
+- author:
+    - family: Cicero
+      given: ''
+  collection-number: '40'
+  collection-title: Loeb Classical Library
+  edition: De Finibus Bonorum et Malorum
+  event-place: Cambridge
+  issued:
+    - year: 1914
+  publisher: HUP
+  publisher-place: Cambridge
+  title: On Ends
+  translator:
+    - family: Rackham
+      given: H.
+  type: book
+  citation-key: LCL40
+
+</Text>
             <Notes># &lt;$title&gt; {#sec-%autoref% .appendix}
 
 ---
@@ -13681,6 +13963,9 @@ $endif$
         </Document>
         <Document ID="636B99EB-D322-40CA-BCC7-0871737AAA33">
             <Title>Quarto</Title>
+            <Text>"I propose a toast, to my self-control. You see it helpless, crawling on the floor."
+MorphineCFP, MorphineCFP (MorphineCFP)
+</Text>
         </Document>
         <Document ID="412AE472-9292-4513-94C3-23D7C3FB8F1C">
             <Title>citation-backlinks</Title>
@@ -14670,19 +14955,16 @@ $Maths Inline$
 #
 The Citation Backlinks filter adds an index of cited references to the bibliography, with links back to all in-text citations. It also allows the user to turn these off globally or in an ad hoc fashion. {#fig-scrivlinkC width="auto"}
 
-## Turning off undesired linking
+## Citing specific fields
  
-If you want to avoid undesired linking when citing specific fields, turn link-fields into false
+Turn link-fields into false to avoid undesired linking
 
 ## Bibliography links
 
-link-citations: Hyperlink citations to the corresponding bibliography entries. Defaults to true.
-
-link-fields: Hyperlink citations targeting specific CSL fields to the corresponding entries in the bibliography. Defaults to true.
-
-link-bibliography: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
-
-lang: Affects the bibliography tags. Defaults to en-US.
+- link-citations: Hyperlink citations to the corresponding bibliography entries. Defaults to true.
+- link-fields: Hyperlink citations targeting specific CSL fields to the corresponding entries in the bibliography. Defaults to true.
+- link-bibliography: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
+- lang: Affects the bibliography tags. Defaults to en-US.
 
 </Text>
             <Comments>The reader will see the page number instead of a crescent ordinal number in some output formats, such as PDF.</Comments>
@@ -15512,7 +15794,7 @@ GRC
 SKT
 ἐν ἀρχὴ ἦν ὁ λόγος
 आदौ वाद आसीत्
-This table with with a passage from John 1.1 uses the Section Type  Text and Paragraph Style Table Caption.  {#tbl-demo-a}
+This table with a passage from John 1.1 uses the Section Type  Text and Paragraph Style Table Caption.  {#tbl-demo-a}
 </Text>
         </Document>
         <Document ID="1EC25E43-4773-4CDD-A913-58307F7595B7">
@@ -17617,25 +17899,25 @@ end
         </Document>
         <Document ID="98B95045-19E3-482E-804E-5B09BAE664C5">
             <Title>Cross-referencing</Title>
-            <Text>When a Section is created, select the correct ID-Prefix (e.g. sec-), and fill the ID metadata field with a value (e.g. xref). Then, use Scrivener placeholders, such as  @&lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt; with a link to the cited element, so that this gets replaced with \@sec-xref. This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec-, tbl-, fig-, lst-), making it compatible with all element types. 
-## Link anchor
+            <Text>When creating a Section, select the correct ID-Prefix (e.g. sec-) and fill the ID metadata field with a value (e.g. xref). Then, use Scrivener placeholders ( &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;) with a link to the cited element, so that this gets replaced with sec-xref. This works regardless of the element being cross-referenced (e.g. section, table, figure, listing) because this strategy ensures the citation will use the &lt;\$Custom:ID-Prefix&gt; pulled from the targeted element (e.g. sec-, tbl-, fig-, lst-), making it compatible with all element types. 
+## Alternative to placeholders
 
-To be less verbose, we have set up a replacement rule that allows a shorter label to be used as the link anchor.
+A less verbose option uses a replacement rule:
 
 - s\crivlink is replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;.
 - s\crivpath and $\! are replaced with &lt;\$Custom:ID-Prefix&gt;&lt;\$Custom:ID&gt;&lt;\$Custom:Extension&gt;.
 
-## Cross-referencing an element
+## How to cross-reference an element
  
-1. Type your-keyword-of-choice or s\crivlink, select it, and hit Command + L;
-2. Link to the document that contains the table.
-3. Apply a Character Style called Cite.
+1. Type your-keyword-of-choice or s\crivlink;
+2. Apply the Character Style Cite (hit Shift + Command + Y)
+3. Link to the document that contains the element (hit Command + L).
 
 ## Known limitation
  
-Scrivener Placeholders can only pull information from the section properties, so this works when we are referencing elements created using Section Types.
+Understand that Scrivener Placeholders can only pull information from the section properties, so the generic link label (e.g. s\crivlink) will work to reference elements created from Section Types.
  
-When referencing elements created using Raw Markup or a Character Style, we must use the same ID we gave the element (e.g. fig-ulysses) instead of our generic link label (e.g. s\crivlink).
+To reference elements created from Raw Markup or Character Style, use the actual ID given (e.g. fig-ulysses).
 </Text>
         </Document>
         <Document ID="031E42C4-B808-4EFC-8EE6-A7218914CE98">
@@ -17643,24 +17925,17 @@ When referencing elements created using Raw Markup or a Character Style, we must
         </Document>
         <Document ID="472092CD-584B-47DA-9DD3-C444C8936A4E">
             <Title>Examples of citations</Title>
-            <Text>Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup.
-
+            <Text>Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup. If you were using other CSL styles, then you could drop the parenthesis.
 
 ## (Date, locator)
  
-`Long thinks […] on the deliberations of the prudent person (Long2004, p.17).`
-
 Long thinks […] on the deliberations of the prudent person (Long2004, p.17).
 
 ## (Author, Date, locator)
 
-`…on the deliberations of the prudent person (Long2004, p.17)`.
-
 …on the deliberations of the prudent person (Long2004, p.17).
 
 ## (Author, Date, locator; Author, Date, locator)
-
-`…on the deliberations of the prudent person (Long2004, p.17; hoffman2014, p.15).`
 
 …on the deliberations of the prudent person (Long2004, p.17; hoffman2014, p.15).
 </Text>

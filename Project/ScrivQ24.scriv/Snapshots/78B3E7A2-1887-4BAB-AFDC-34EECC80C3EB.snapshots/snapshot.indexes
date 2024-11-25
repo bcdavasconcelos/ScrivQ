@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="78B3E7A2-1887-4BAB-AFDC-34EECC80C3EB">
+    <Snapshot Date="2024-11-11 20:53:13 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>We can use the Section Type Bibliography to automate steps 3 and 4. This is very convenient for books that need the bibliography to print only once at the very end.
+
+1. Using the Section Type File, we create a representation of our bibliography file to add the data (e.g. [Primary Sources]($!) and [Secondary Sources]($!)).
+2. On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon Compile.
+3. The metadata with the file path will be automatically added and the formatted bibliography will be printed in the same section as the data, with the same section title.</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>We can use the Section Type Bibliography to automate steps 3 and 4. This is very convenient for books that need the bibliography to print only once at the very end.
+
+1. Using the Section Type File, we create a representation of our bibliography file to add the data (e.g. [Primary Sources]($!) and [Secondary Sources]($!)).
+2. On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon Compile.
+3. The metadata with the file path will be automatically added and the formatted bibliography will be printed in the same section as the data, with the same section title.</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>0676D34A-DC44-4DC2-95DC-808FDFA11695</key>
 		<array>
-			<string>658CF999-F747-4853-9825-13B2E317FB11</string>
+			<string>0D8EA3D2-0161-4B29-8224-9FEA26E3A0A4</string>
 		</array>
 		<key>0CC68B1A-3BDF-434B-83AC-F6F4264E9F19</key>
 		<array>
@@ -448,7 +448,7 @@
 	<key>QuickRefFloatBehavior</key>
 	<integer>3</integer>
 	<key>ScrivenerLinkDestinationGroupUUID</key>
-	<string>E55945C8-E574-4C1B-92C4-6A68431ADB58</string>
+	<string>DAEEA030-90C5-4CF3-B823-BA362EA9AFD3</string>
 	<key>SuppressBookmarksFolderCheck</key>
 	<false/>
 	<key>binderSplitFrames</key>
@@ -587,6 +587,13 @@
 		<dict>
 			<key>DocID</key>
 			<string>28291907-8F43-4F7D-B3A4-3E6833807351</string>
+			<key>Row</key>
+			<integer>0</integer>
+		</dict>
+		<key>169A0028-0E1D-42DD-8292-8F4696A44D9B</key>
+		<dict>
+			<key>DocID</key>
+			<string>3CA927C6-A24A-4F05-9DC9-FF5749720C1A</string>
 			<key>Row</key>
 			<integer>0</integer>
 		</dict>
@@ -1595,6 +1602,11 @@
 			<key>Row</key>
 			<integer>0</integer>
 		</dict>
+		<key>DECDA0E1-1F61-4FF7-88DB-14F4B49ACD12</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>E00EB3A7-EEE1-42D3-A337-E491A25787B5</key>
 		<dict>
 			<key>Row</key>
@@ -1769,7 +1781,7 @@
 	</dict>
 	<key>collectionSelectionAutosaveName</key>
 	<array>
-		<integer>1</integer>
+		<integer>3</integer>
 	</array>
 	<key>collectionsHeight</key>
 	<real>177</real>
@@ -1787,7 +1799,7 @@
 	</array>
 	<key>editorSplitFrames</key>
 	<array>
-		<string>{{1059, 0}, {1058, 1296}}</string>
+		<string>{{535, 0}, {534, 825}}</string>
 	</array>
 	<key>fullScreenBackgroundFade</key>
 	<real>1</real>
@@ -1891,7 +1903,7 @@
 		<key>widths</key>
 		<dict>
 			<key>TITLE</key>
-			<real>200</real>
+			<real>182</real>
 		</dict>
 	</dict>
 	<key>supportingDocumentEditor.PDFAutoScales</key>
