@@ -1,7 +1,7 @@
 website:
   author: Bernardo César Diniz Athayde Vasconcelos
-  title: Hello, ScrivQ
-  description: A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).
+  title: ScrivQ 24
+  description: A Scrivener template project for Quarto capable of exporting multiple files, handling cross-references, and keeping a bibliography.
   reader-mode: true
   search: 
     location: navbar
@@ -35,8 +35,9 @@ format:
 
 
   html:
-    link-fields: true
+
     template: _extensions/templates/html/template.html # template.html
+
     template-partials:
       - _extensions/templates/html/html.template # html.template
       - _extensions/templates/html/title-block.html # title-block.html
@@ -45,29 +46,33 @@ format:
       - _extensions/templates/html/html.styles # html.styles
       - _extensions/templates/html/toc.html # toc.html
       - _extensions/templates/html/metadata.html # metadata.html
-    theme:
-      light: [Pulse]
+
+    theme: # default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+      light: [Pulse] 
       dark: [Cyborg]
-    embed-resources: false
-    self-contained-math: false
-    include-before: |
-      <style>
-      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-      </style>
-    standalone: true
+
+    embed-resources: true
+    self-contained-math: true
+    anchor-sections: true
+    smooth-scroll: true
+    code-links:
+      - text: Compile Script
+        icon: file-code
+        href: compile.rb
+      - text: Source File
+        icon: file-code
+        href: <$inputfile>
+
+# Toc
     toc: true
     toc-depth: 3
+    toc-expand: 2
     toc-location: left
-    toc-expand: true
+    toc-title: Contents
     number-sections: true
     number-depth: 3
-    linestretch: 1.5
-    fontsize: 12pt
-    fontfamily: Alegreya
-    mainfont: Alegreya
-    sansfont: Alegreya Sans
-    monofont: Source Code Pro
+
+# Code
     code-link: true
     code-copy: true
     code-tools: true
@@ -75,8 +80,28 @@ format:
     highlight-style: github
     code-line-numbers: true
     code-overflow: wrap
+
+# Fonts
+    linestretch: 1.5
+    fontsize: 12pt
+    fontfamily: Alegreya
+    mainfont: Alegreya
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+
+# Layout
+    cap-location: bottom
+    fig-cap-location: bottom
+    tbl-cap-location: bottom
     reference-location: margin
     appendix-style: default
+    link-fields: true
+
+    include-before: |
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+      </style>
 
 
   pdf:
@@ -93,6 +118,7 @@ format:
       - headinclude
       - footinclude
     indent: true
+    cap-location: bottom
     fig-cap-location: bottom
     tbl-cap-location: bottom
     pagestyle: headings

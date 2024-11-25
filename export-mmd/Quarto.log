@@ -2,33 +2,41 @@
 --> Modified path: /Users/bcdav/.rbenv/shims:/Users/bcdav/.pyenv/shims:/usr/local/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/bcdav/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 --> 6 figures fixed.
 --> 6 notes replaced.
---> 48 files created
+--> 51 files created
 [1mpandoc [22m
-  to: typst-citations
-  output-file: ScrivQ24.typ
-  template: _extensions/templates/typst/orange/template.typ
+  to: html
+  output-file: ScrivQ24.html
+  template: _extensions/templates/html/template.html
   standalone: true
-  default-image-extension: svg
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
   wrap: none
-  citeproc: false
+  default-image-extension: png
   cite-method: citeproc
+  citeproc: false
   verbosity: ERROR
-  toc: false
+  toc: true
+  toc-depth: 3
   number-sections: true
+  reference-location: margin
   
 [1mmetadata[22m
-  section-numbering: 1.1.a
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
   website:
     author: Bernardo César Diniz Athayde Vasconcelos
-    title: Hello, ScrivQ
-    description: A template Scrivener project for Quarto and Pandoc capable of exporting multiple files, handling cross-references, and keeping bibliography. Outputs Books in PDF, HTML, DOCX and Websites in HTML. It also builds complex YAML (featuring hundreds of built-in parameters ready to be included/excluded from compile with many useful links to the documentation).
+    title: ScrivQ 24
+    description: A Scrivener template project for Quarto capable of exporting multiple files, handling cross-references, and keeping a bibliography.
     reader-mode: true
     search:
       location: navbar
       type: overlay
     page-navigation: true
     back-to-top-navigation: true
-  title: Hello, ScrivQ
+  title: Hello, ScrivQ!
   license: CC BY-NC-SA
   copyright:
     holder: Bernardo C. D. A. Vasconcelos
@@ -37,33 +45,85 @@
   csl: _extensions/csl/abnt-phi.csl
   verbose: false
   notes-after-punctuation: true
-  link-citations: true
   link-bibliography: true
   bibliography_primary-sources: refs/primary-sources.yml
   bibliography_secondary-sources: refs/secondary-sources.yml
   bibliography_workflow: refs/workflow.bib
   bibliography_songs: refs/songs.yml
   bibliography_paintings: refs/paintings.yml
-  link-fields: false
-  author: Bernardo Vasconcelos
-  date: 2024-11
-  abstract: The Abstract
+  theme:
+    light:
+      - Pulse
+    dark:
+      - Cyborg
+  anchor-sections: true
+  smooth-scroll: true
+  code-links:
+    - text: Compile Script
+      icon: file-code
+      href: compile.rb
+    - text: Source File
+      icon: file-code
+      href: <$inputfile>
+  toc-expand: 2
+  toc-location: left
+  toc-title: Contents
   number-depth: 3
+  code-copy: true
+  linestretch: 1.5
   fontsize: 12pt
-  mainfont: Gentium Plus
+  fontfamily: Alegreya
+  mainfont: Alegreya
   sansfont: Alegreya Sans
   monofont: Source Code Pro
+  cap-location: bottom
+  fig-cap-location: bottom
   tbl-cap-location: bottom
-  papersize: a4
+  appendix-style: default
+  link-fields: true
+  include-before:
+    - |
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+      </style>
   
-3
-[typst]: Compiling ScrivQ24.typ to ScrivQ24.pdf...error: label `<ref-HomIl>` occurs multiple times in the document
-    ┌─ ScrivQ24.typ:548:38
-    │
-548 │ Μῆνιν ἄειδε, θεά, Πηληιάδεω Ἀχιλῆος (#link(<ref-HomIl>)[#emph[Hom Il];];, I 1<cite_2>) The wrath sing, goddess, of Peleus’ son Achilles.
-    │                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Brands-Regular-400.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Brands-Regular-400.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Regular-400.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Regular-400.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Solid-900.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Solid-900.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Brands-Regular-400.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Brands-Regular-400.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Solid-900.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Solid-900.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/../webfonts/FontAwesome6Free-Regular-400.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Regular-400.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Solid-900.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Solid-900.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Brands-Regular-400.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Brands-Regular-400.ttf
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../webfonts/FontAwesome6Free-Regular-400.woff2
+[WARNING] Could not fetch resource ScrivQ24_files/libs/quarto-contrib/fontawesome6-0.1.0/../../webfonts/FontAwesome6Free-Regular-400.ttf
+[WARNING] Could not fetch resource https://polyfill.io/v3/polyfill.min.js?features=es6: HttpExceptionRequest Request {
+    host                 = "polyfill.io"
+    port                 = 443
+    secure               = True
+    requestHeaders       = []
+    path                 = "/v3/polyfill.min.js"
+    queryString          = "?features=es6"
+    method               = "GET"
+    proxy                = Nothing
+    rawBody              = False
+    redirectCount        = 10
+    responseTimeout      = ResponseTimeoutDefault
+    requestVersion       = HTTP/1.1
+    proxySecureMode      = ProxySecureWithConnect
+  }
+   (ConnectionFailure Network.Socket.getAddrInfo (called with preferred socket type/protocol: AddrInfo {addrFlags = [AI_ADDRCONFIG], addrFamily = AF_UNSPEC, addrSocketType = Stream, addrProtocol = 0, addrAddress = 0.0.0.0:0, addrCanonName = Nothing}, host name: "polyfill.io", service name: "443"): does not exist (nodename nor servname provided, or not known))
+Output created: ScrivQ24.html
 
---> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.qmd" --to typst-citations
+--> Running Command: quarto render "/Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.qmd" --to html
 Process finished in time
-There was some problem opening /Users/bcdav/Dropbox/Application Support/Scrivener/ScrivQ/export-mmd/ScrivQ24.pdf, check compiler log…
---> Processing took: 12.227089s
+--> Processing took: 16.196257s

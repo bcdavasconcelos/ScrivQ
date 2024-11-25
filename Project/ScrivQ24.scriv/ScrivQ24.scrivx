@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-24 18:08:07 -0300" ModID="E86B0346-C2D4-44BC-B7D8-F7A9237A5AC2">
+<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-25 20:41:01 -0300" ModID="0A3C79C0-2659-4ED2-99AF-FB038C569579">
     <Binder>
         <BinderItem UUID="8B014782-1E52-4F6D-B15C-CA5FB440B23B" Type="Folder" Created="2023-06-22 15:45:13 -0300" Modified="2024-01-07 19:09:11 -0300">
             <Title>ScrivQ Templates</Title>
@@ -1683,7 +1683,7 @@
                 <Bookmark Destination="https://github.com/bcdavasconcelos/ScrivQ/tree/main/export-mmd/_extensions">ScrivQ - Extensions</Bookmark>
             </Bookmarks>
             <Children>
-                <BinderItem UUID="79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-01-04 16:14:26 -0300">
+                <BinderItem UUID="79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-24 18:11:45 -0300">
                     <Title>_quarto</Title>
                     <MetaData>
                         <SectionType ChildDefault="5AD39B0F-DA85-4B21-A533-830148C15C93"></SectionType>
@@ -1799,7 +1799,7 @@
                                 <Bookmark Destination="https://github.com/bcdavasconcelos/ScrivQ/blob/main/export-mmd/_quarto.yml">ScrivQ - _quarto.yml</Bookmark>
                             </Bookmarks>
                             <Children>
-                                <BinderItem UUID="3CA927C6-A24A-4F05-9DC9-FF5749720C1A" Type="Text" Created="2023-12-30 17:58:21 -0300" Modified="2024-11-13 11:15:08 -0300">
+                                <BinderItem UUID="3CA927C6-A24A-4F05-9DC9-FF5749720C1A" Type="Text" Created="2023-12-30 17:58:21 -0300" Modified="2024-11-24 18:45:03 -0300">
                                     <Title>html</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1807,7 +1807,7 @@
                                         <IconFileName>FA Solid (File-Code).png</IconFileName>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>29,0</TextSelection>
+                                        <TextSelection>694,0</TextSelection>
                                     </TextSettings>
                                     <Keywords>
                                         <KeywordID>47</KeywordID>
@@ -1816,7 +1816,7 @@
                                         <Bookmark Destination="https://github.com/bcdavasconcelos/ScrivQ/blob/main/export-mmd/_quarto.yml">ScrivQ - _quarto.yml</Bookmark>
                                     </Bookmarks>
                                 </BinderItem>
-                                <BinderItem UUID="4F1A34C2-9FF1-4219-A19E-D1BA9D1453DD" Type="Text" Created="2023-12-30 17:58:31 -0300" Modified="2024-11-13 11:14:59 -0300">
+                                <BinderItem UUID="4F1A34C2-9FF1-4219-A19E-D1BA9D1453DD" Type="Text" Created="2023-12-30 17:58:31 -0300" Modified="2024-11-24 18:30:50 -0300">
                                     <Title>pdf</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1885,7 +1885,7 @@
                                 <IconFileName>FA Solid (File-Code).png</IconFileName>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>216,0</TextSelection>
+                                <TextSelection>310,0</TextSelection>
                             </TextSettings>
                             <Keywords>
                                 <KeywordID>47</KeywordID>
@@ -3688,6 +3688,27 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
+                <BinderItem UUID="DECDA0E1-1F61-4FF7-88DB-14F4B49ACD12" Type="Text" Created="2024-11-24 18:37:20 -0300" Modified="2024-11-24 22:32:00 -0300">
+                    <Title>compile</Title>
+                    <MetaData>
+                        <SectionType>811D11D8-FEA3-421A-8E9B-EC7603844B11</SectionType>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>FA Solid (File-Code).png</IconFileName>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>key</FieldID>
+                                <Value>compile</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>extension</FieldID>
+                                <Value>11</Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,8545</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
         <BinderItem UUID="9D32A05A-EAD8-47BC-B2CD-1E7C5DF4EFD5" Type="DraftFolder" Created="2023-06-22 15:45:13 -0300" Modified="2023-07-03 00:48:04 -0300">
@@ -3851,7 +3872,7 @@
                                 <Bookmark BinderUUID="30C0EE71-05AB-40BD-8B95-D0AD7B41AC46"/>
                             </Bookmarks>
                         </BinderItem>
-                        <BinderItem UUID="F68CDADB-7025-4DC0-A618-0993B3504BF8" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-23 11:02:19 -0300">
+                        <BinderItem UUID="F68CDADB-7025-4DC0-A618-0993B3504BF8" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-24 22:33:25 -0300">
                             <Title>Multipart Bibliography</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -6118,6 +6139,20 @@
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
+            <Children>
+                <BinderItem UUID="169A0028-0E1D-42DD-8292-8F4696A44D9B" Type="Text" Created="2024-11-24 18:16:55 -0300" Modified="2024-11-24 18:16:55 -0300">
+                    <Title>https://quarto.org/docs/reference/formats/html.html#fonts</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Bookmarks>
+                        <Bookmark BinderUUID="3CA927C6-A24A-4F05-9DC9-FF5749720C1A"/>
+                    </Bookmarks>
+                </BinderItem>
+            </Children>
         </BinderItem>
     </Binder>
     <Collections>
@@ -6632,10 +6667,10 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-11-25 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2024-11-24 18:03:00 -0300"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-11-26 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2024-11-25 20:40:57 -0300"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2024-11-24 00:00:00 -0300">
+    <RecentWritingHistory Date="2024-11-25 00:00:00 -0300">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>

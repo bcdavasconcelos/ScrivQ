@@ -4203,7 +4203,7 @@ Attributes}]]></Format>
             <Version>3</Version>
         </PandocSettings>
     </EBookSettings>
-    <PostProcessing Enabled="Yes" Type="Script" DeleteFile="Yes">
+    <PostProcessing Enabled="Yes" Type="Script">
         <Script><![CDATA[#!/usr/bin/env ruby
 # encoding: utf-8
 
