@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D">
+    <Snapshot Date="2024-11-26 11:14:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>website:
+  reader-mode: true
+  search: 
+    location: navbar
+    type: overlay
+  search:
+    location: navbar
+    type: textbox
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true</Text>
+    </Snapshot>
     <Snapshot Date="2024-11-25 20:54:07 -0300">
         <Title>Untitled (Save)</Title>
         <Text>website:

@@ -453,8 +453,8 @@
 	<false/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {214, 1326}}</string>
-		<string>{{215, 0}, {2345, 1326}}</string>
+		<string>{{0, 0}, {256, 1326}}</string>
+		<string>{{257, 0}, {2303, 1326}}</string>
 	</array>
 	<key>binderWidth</key>
 	<real>283</real>
@@ -1824,8 +1824,8 @@
 	<false/>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {2117, 1296}}</string>
-		<string>{{2118, 0}, {227, 1296}}</string>
+		<string>{{0, 0}, {2075, 1296}}</string>
+		<string>{{2076, 0}, {227, 1296}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>227</real>

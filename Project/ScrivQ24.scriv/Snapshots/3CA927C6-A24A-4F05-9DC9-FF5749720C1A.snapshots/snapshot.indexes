@@ -1,86 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="3CA927C6-A24A-4F05-9DC9-FF5749720C1A">
-    <Snapshot Date="2024-01-03 22:47:06 -0300">
+    <Snapshot Date="2024-11-26 11:14:08 -0300">
         <Title>Untitled (Save)</Title>
         <Text>  html:
-    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.html
+
+    template: scrivpath # template.html
+
     template-partials:
-      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # html.template
-      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # title-block.html
-      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.html
-      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # styles.html
-      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # html.styles
-      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # toc.html
-      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # metadata.html
-    theme:
-      light: [Pulse]
-      dark: [Cyborg]
-    title-block-banner: "#BB3333"
-    metadata:
-      author-meta: Authors
-      date-meta: Date
-      subject: Subject
-      keywords: Keywords
-      copyright: Copyright
-      license:
-      pagetitle: Page Title
-      title-prefix: Title Prefix
-      description-meta: Description
-    quarto-required:
-    minimal:
-    css:
-    anchor-sections:
-    smooth-scroll:
-    html-math-method:
-    section-divs:
-    identifier-prefix:
-    email-obfuscation:
-    html-q-tags: true
-    title-block-style: "#BB3333"
-    embed-resources: false
-    self-contained-math: false
-    classoption:
-    cap-location:
-    margin-left: 3cm
-    margin-right: 2cm
-    margin-top: 3cm
-    margin-bottom: 1cm
-    page-layout:
-    grid:
-      sidebar-width: 300px
-      body-width: 900px
-      margin-width: 300px
-      gutter-width: 1.5rem
-    title-block-categories:
-    appendix-cite-as:
-    max-width:
-    metadata-files:
-    resources:
-    include-before: |
-      &lt;style&gt;
-      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
-      .callout-header {
-      background-color: transparent!important;
-      }
-      &lt;/style&gt;
-    standalone: true
+      - scrivpath # html.template
+      - scrivpath # title-block.html
+      - scrivpath # template.html
+      - scrivpath # styles.html
+      - scrivpath # html.styles
+      - scrivpath # toc.html
+      - scrivpath # metadata.html
+
+    theme: # https://bootswatch.com default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+      light: [Pulse] 
+      dark: [Darkly]
+
+    embed-resources: true
+    self-contained-math: true
+    anchor-sections: true
+    smooth-scroll: true
+    code-links:
+      - text: Compile Script
+        icon: file-code
+        href: compile.rb
+
+
+# Toc
     toc: true
     toc-depth: 3
+    toc-expand: 2
     toc-location: left
-    toc-expand: true
+    toc-title: Contents
     number-sections: true
     number-depth: 3
-    linestretch: 1.5
-    fontsize: 12pt
-    fontfamily: Alegreya
-    mainfont: Alegreya
-    sansfont: Alegreya Sans
-    monofont: Source Code Pro
-    fontcolor: halfgray
-    linkcolor: RoyalBlue
-    monobackgroundcolor: black
-    backgroundcolor: black
+
+# Code
     code-link: true
     code-copy: true
     code-tools: true
@@ -88,12 +46,99 @@
     highlight-style: github
     code-line-numbers: true
     code-overflow: wrap
+
+# Fonts
+    linestretch: 1.5
+    fontsize: 12pt
+    fontfamily: Alegreya
+    mainfont: Alegreya
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+
+# Layout
+    cap-location: bottom
+    fig-cap-location: bottom
+    tbl-cap-location: bottom
     reference-location: margin
-    footnotes-hover: false
     appendix-style: default
-    license:
-    citations-hover:
-    citation-location:</Text>
+    link-fields: true
+
+    include-before: |
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
+      &lt;/style&gt;
+</Text>
+    </Snapshot>
+    <Snapshot Date="2024-11-25 20:54:07 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>  html:
+
+    template: scrivpath # template.html
+
+    template-partials:
+      - scrivpath # html.template
+      - scrivpath # title-block.html
+      - scrivpath # template.html
+      - scrivpath # styles.html
+      - scrivpath # html.styles
+      - scrivpath # toc.html
+      - scrivpath # metadata.html
+
+    theme: # default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+      light: [Pulse] 
+      dark: [Cyborg]
+
+    embed-resources: true
+    self-contained-math: true
+    anchor-sections: true
+    smooth-scroll: true
+    code-links:
+      - text: Compile Script
+        icon: file-code
+        href: compile.rb
+
+
+# Toc
+    toc: true
+    toc-depth: 3
+    toc-expand: 2
+    toc-location: left
+    toc-title: Contents
+    number-sections: true
+    number-depth: 3
+
+# Code
+    code-link: true
+    code-copy: true
+    code-tools: true
+    code-fold: show
+    highlight-style: github
+    code-line-numbers: true
+    code-overflow: wrap
+
+# Fonts
+    linestretch: 1.5
+    fontsize: 12pt
+    fontfamily: Alegreya
+    mainfont: Alegreya
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+
+# Layout
+    cap-location: bottom
+    fig-cap-location: bottom
+    tbl-cap-location: bottom
+    reference-location: margin
+    appendix-style: default
+    link-fields: true
+
+    include-before: |
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
+      &lt;/style&gt;
+</Text>
     </Snapshot>
     <Snapshot Date="2024-01-02 20:27:07 -0300">
         <Title>Untitled (Save)</Title>
@@ -190,45 +235,87 @@
     citations-hover:
     citation-location:</Text>
     </Snapshot>
-    <Snapshot Date="2024-11-25 20:54:07 -0300">
+    <Snapshot Date="2024-01-03 22:47:06 -0300">
         <Title>Untitled (Save)</Title>
         <Text>  html:
-
-    template: scrivpath # template.html
-
+    template: &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.html
     template-partials:
-      - scrivpath # html.template
-      - scrivpath # title-block.html
-      - scrivpath # template.html
-      - scrivpath # styles.html
-      - scrivpath # html.styles
-      - scrivpath # toc.html
-      - scrivpath # metadata.html
-
-    theme: # default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
-      light: [Pulse] 
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # html.template
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # title-block.html
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # template.html
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # styles.html
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # html.styles
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # toc.html
+      - &lt;$Custom:ID-Prefix&gt;&lt;$Custom:ID&gt;&lt;$Custom:Extension&gt; # metadata.html
+    theme:
+      light: [Pulse]
       dark: [Cyborg]
-
-    embed-resources: true
-    self-contained-math: true
-    anchor-sections: true
-    smooth-scroll: true
-    code-links:
-      - text: Compile Script
-        icon: file-code
-        href: compile.rb
-
-
-# Toc
+    title-block-banner: "#BB3333"
+    metadata:
+      author-meta: Authors
+      date-meta: Date
+      subject: Subject
+      keywords: Keywords
+      copyright: Copyright
+      license:
+      pagetitle: Page Title
+      title-prefix: Title Prefix
+      description-meta: Description
+    quarto-required:
+    minimal:
+    css:
+    anchor-sections:
+    smooth-scroll:
+    html-math-method:
+    section-divs:
+    identifier-prefix:
+    email-obfuscation:
+    html-q-tags: true
+    title-block-style: "#BB3333"
+    embed-resources: false
+    self-contained-math: false
+    classoption:
+    cap-location:
+    margin-left: 3cm
+    margin-right: 2cm
+    margin-top: 3cm
+    margin-bottom: 1cm
+    page-layout:
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+    title-block-categories:
+    appendix-cite-as:
+    max-width:
+    metadata-files:
+    resources:
+    include-before: |
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
+      .callout-header {
+      background-color: transparent!important;
+      }
+      &lt;/style&gt;
+    standalone: true
     toc: true
     toc-depth: 3
-    toc-expand: 2
     toc-location: left
-    toc-title: Contents
+    toc-expand: true
     number-sections: true
     number-depth: 3
-
-# Code
+    linestretch: 1.5
+    fontsize: 12pt
+    fontfamily: Alegreya
+    mainfont: Alegreya
+    sansfont: Alegreya Sans
+    monofont: Source Code Pro
+    fontcolor: halfgray
+    linkcolor: RoyalBlue
+    monobackgroundcolor: black
+    backgroundcolor: black
     code-link: true
     code-copy: true
     code-tools: true
@@ -236,28 +323,11 @@
     highlight-style: github
     code-line-numbers: true
     code-overflow: wrap
-
-# Fonts
-    linestretch: 1.5
-    fontsize: 12pt
-    fontfamily: Alegreya
-    mainfont: Alegreya
-    sansfont: Alegreya Sans
-    monofont: Source Code Pro
-
-# Layout
-    cap-location: bottom
-    fig-cap-location: bottom
-    tbl-cap-location: bottom
     reference-location: margin
+    footnotes-hover: false
     appendix-style: default
-    link-fields: true
-
-    include-before: |
-      &lt;style&gt;
-      @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap');
-      &lt;/style&gt;
-</Text>
+    license:
+    citations-hover:
+    citation-location:</Text>
     </Snapshot>
 </SnapshotIndexes>

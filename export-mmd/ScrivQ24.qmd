@@ -1,15 +1,8 @@
+{{< pagebreak >}}
+
 # Instalation 
 
 To use ScrivQ24, you need the [Quarto](https://quarto.org/docs) open-source scientific and technical publishing system. 
-
-:::{.callout-tip}
-## Quickstart
-
-- On macOS^[If you're on a Mac, install Homebrew by pasting the following on the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.], use [Homebrew](https://brew.sh) to `brew install quarto && brew install chromium`.
-- On Windows, use [Chocolatey](https://chocolatey.org/) to `choco install quarto`.
-
-After that, install TinyTex with `quarto install tool tinytex`.
-:::
 
 :::{.callout-tip}
 ## New to Quarto?
@@ -19,6 +12,15 @@ After that, install TinyTex with `quarto install tool tinytex`.
 - Install the Quarto extension for [VS Code](https://quarto.org/docs/get-started/#quarto-for-vs-code) and [R Studio](https://quarto.org/docs/get-started/#quarto-for-rstudio).
 - Find out more at [Awesome Quarto](https://github.com/mcanouil/awesome-quarto), [Quarto Extensions](https://github.com/quarto-ext?type=source), [Quarto on Github](https://github.com/search?q=topic%3Aquarto&type=repositories), [RStudio Community](https://community.rstudio.com/tags/quarto), [Stack Overflow](https://stackoverflow.com/questions/tagged/quarto), [Twitter](https://twitter.com/quarto_pub).
 - See also the [Pandoc User's Guide](https://pandoc.org/MANUAL.html), [Pandoc-Discuss](https://github.com/jgm/pandoc/discussions), and [Pandoc at Stack Overflow](https://stackoverflow.com/questions/tagged/pandoc).
+:::
+
+:::{.callout-tip}
+## Quickstart
+
+- On macOS^[If you're on a Mac, install Homebrew by pasting the following on the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.], use [Homebrew](https://brew.sh) to `brew install quarto && brew install chromium`.
+- On Windows, use [Chocolatey](https://chocolatey.org/) to `choco install quarto`.
+
+After that, install TinyTex with `quarto install tool tinytex`.
 :::
 
 :::{.callout-important}
@@ -47,6 +49,8 @@ install.packages("xml2")
 ```
 :::
 
+{{< pagebreak >}}
+
 # ScrivQ 
 
 The ScrivQ template is designed to compile [Quarto Books](https://quarto.org/docs/books/) (PDF^[Please note that [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) is also required for LaTeX to PDF output.], DOCX, and HTML) with zero configuration and no dependencies on external files. The bibliography, the template files, extensions, and filters are all included in the project and will be created by the compiler script.
@@ -73,6 +77,8 @@ Hit `Cmd + Opt + E` to publish your Quarto Book right away.
 Check his [writing in Scrivener tutorial](https://github.com/iandol/scrivomatic#writing-in-scrivener), if you haven't done so yet.
 :::
 
+{{< pagebreak >}}
+
 # Compiler Script 
 
 ![There is a ruby script to reformat the text and create the dependencies. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (*e.g.* change `html` to `pdf` / `docx` / `epub` etc.). It is embedded in this project's Compiler format.](screencap.png){#fig-scriv-compile width="auto"}
@@ -84,6 +90,8 @@ This compiler script descends from [**Scrivomatic**](https://github.com/iandol/s
 :::{.callout-warning}
 [Ruby](https://www.ruby-lang.org/en/downloads) must be installed on Windows machines.
 :::
+
+{{< pagebreak >}}
 
 # Citations 
 
@@ -134,17 +142,23 @@ Here is a short demonstration of the basic citation feature. We suggest grouping
 :::{.callout-note}
 ## (Date, locator)
  
+`Long thinks [...] on the deliberations of the prudent person ([-@Long2004, p.17]).` 
+
 Long thinks [...] on the deliberations of the prudent person ([-@Long2004, p.17]).
 :::
 
 :::{.callout-note}
 ## (Author, Date, locator)
 
+`...on the deliberations of the prudent person ([@Long2004, p.17]).` 
+
 ...on the deliberations of the prudent person ([@Long2004, p.17]).
 :::
 
 :::{.callout-note}
 ## (Author, Date, locator; Author, Date, locator)
+
+`...on the deliberations of the prudent person ([@Long2004, p.17]; [@hoffman2014, p.15]).` 
 
 ...on the deliberations of the prudent person ([@Long2004, p.17]; [@hoffman2014, p.15]).
 :::
@@ -170,7 +184,9 @@ Table: All ready-made **Character Styles** for the Cite Field lua filter. {#tbl-
 :::{.callout-note}
 ## An example with field citation
 
-[@DA]{.editor} published the first modern edition of Aristotle's [@DA]{.original-title} ([@DA]{.title}) in [@DA]{.issued}. A new edition by [@DABiehl]{.editor} appeared in [@DABiehl]{.issued} (later reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).
+`[@DA]{.editor} published the first modern edition of Aristotle's [@DA]{.title} ([@DA]{.original-title}) in [@DA]{.issued}. A new edition by [@DABiehl]{.editor} appeared in [@DABiehl]{.issued} (later reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).` 
+
+[@DA]{.editor} published the first modern edition of Aristotle's [@DA]{.title} ([@DA]{.original-title}) in [@DA]{.issued}. A new edition by [@DABiehl]{.editor} appeared in [@DABiehl]{.issued} (later reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).
 :::
 
 ## Multipart Bibliography 
@@ -195,12 +211,6 @@ There is no need to keep **separate bibliography files** in the system. Simply *
 - See also [this comparison](en.wikipedia.org/wiki/Comparison_of_reference_management_software). 
 :::
 
-[BibTeX]: 
-[CSL]: https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
-[CSL-YAML]: https://docs.citationstyles.org/en/stable/specification.html
-[CSL-JSON]: https://docs.citationstyles.org/en/stable/specification.html
-[RIS]: https://en.wikipedia.org/wiki/RIS_(file_format)#Type_of_reference
-
 ### How to manually create a multipart bibliography {id="nte-multibib1" .callout-note}
 
 1. Using the **Section Type** `File`, we create a representation of our bibliography file to add the data (*e.g.* [Primary Sources](refs/primary-sources.yml) and [Secondary Sources](refs/secondary-sources.yml)).
@@ -209,9 +219,6 @@ There is no need to keep **separate bibliography files** in the system. Simply *
 ![The Metadata panel](BibliographyFile.png){#fig-bibliography width="auto"}
 
 3. We need to tell Quarto about the bibliography file by adding it to the [_quarto](_quarto.yml) configuration file (there is a bibliography section), then we can print the formatted bibliography using the ID (*e.g.* "primary-sources") with the **Paragraph Style** *Div Bibliography*.
-
-::: {#refs_primary-sources}
-:::
 
 ### How to automatically create a multipart bibliography {id="nte-multibib2" .callout-note}
 
@@ -224,8 +231,6 @@ We can use the **Section Type** Bibliography to automate steps 3 and 4. This is 
 ## Backlinks 
 
 In Citeproc, `link-citations` control whether citations in the body of the text should be clickable links to the reference in the bibliography. **Cite Tools** takes it further and adds a backlink to each citation an entry has received in the document in a crescent ordinal fashion^[The reader will see the page number instead of a crescent ordinal number in some output formats, such as PDF.]. This allows the reader to easily arrive at sections of the text where the same reference was discussed and quickly see how many times each reference was used with the array of backlinks.
-
-![The **Citation Backlinks** filter adds an index of cited references to the bibliography, with links back to all in-text citations. It also allows the user to turn these off globally or in an *ad hoc* fashion.](backrefs.png){#fig-scrivlinkC width="auto"}
 
 :::{.callout-tip}
 ## Citing specific fields
@@ -241,6 +246,8 @@ Turn `link-fields` into false to avoid undesired linking
 - [link-bibliography]{.underline}: Hyperlink DOIs, PMCIDs, PMID, and URLs in bibliographies. Defaults to true.
 - [lang]{.underline}: Affects the bibliography tags. Defaults to `en-US`.
 :::
+
+{{< pagebreak >}}
 
 # Quarto 
 
@@ -908,8 +915,6 @@ Demonstration of the **Section Type** *Section* using **Class** `.unnumbered`.
 
 Demonstration of the **Section Type** *Section* with **ID** `#sec-demo-a`.
 
-{{< pagebreak >}}
-
 ### Break + Section {id="sec-demo-e"}
 
 Demonstration of the **Section Type** *Break + Section* with **ID** `#sec-demo-e`.
@@ -919,6 +924,8 @@ Demonstration of the **Section Type** *Break + Section* with **ID** `#sec-demo-e
 ---
 
 ### Break + Heading {id="sec-demo-d"}
+
+{{< pagebreak >}}
 
 # Templates and partials 
 
@@ -958,6 +965,8 @@ And the Pandoc sub-partials:
 - [metadata](_extensions/templates/html/metadata.html)
 :::
 
+{{< pagebreak >}}
+
 # Resources 
 
 - [Bootstrap Icons](https://icons.getbootstrap.com) - These are available in Quarto documents using the **Shortcode Font Awesome** style as in `{{< fa regular bell >}}` {{< fa regular bell >}}. (There is also **Shortcode Env**, **Shortcode Meta**, **Shortcode Var**). 
@@ -966,6 +975,8 @@ And the Pandoc sub-partials:
 - The easiest way to [publish to Github Pages](quarto.org/docs/publishing/github-pages.html#render-to-docs)
 - [Example of Quarto Book](https://github.com/jjallaire/hopr/blob/master/_quarto.yml)
 - [Quarto with GH Pages](https://tarleb.com/posts/quarto-with-gh-pages/)
+
+{{< pagebreak >}}
 
 # Final word 
 
@@ -977,6 +988,8 @@ If you like what you see, consider sponsoring [this project on Github](https://g
 - Compilation fails for **LaTeX → PDF** when citations are placed in Table/Figure captions. The cause seems to be the **Citation Backlinks** filter.
 - For **Typst → PDF** output some **Quarto** features (*e.g.* margin notes, column classes) are not yet implemented. Hopefully this will change in future Quarto versions.
 :::
+
+{{< pagebreak >}}
 
 # Bibliography {.unnumbered}
 

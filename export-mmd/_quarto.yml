@@ -1,7 +1,4 @@
 website:
-  author: Bernardo César Diniz Athayde Vasconcelos
-  title: ScrivQ 24
-  description: A Scrivener template project for Quarto capable of exporting multiple files, handling cross-references, and keeping a bibliography.
   reader-mode: true
   search: 
     location: navbar
@@ -9,10 +6,11 @@ website:
   page-navigation: true
   back-to-top-navigation: true
 
-title: "Hello, ScrivQ!"
+title: ScrivQ 24
+author: Bernardo C D A Vasconcelos
 license: CC BY-NC-SA
+description: A Scrivener template project for Quarto capable of exporting multiple files, handling cross-references, and keeping a bibliography.
 copyright:
-  holder: Bernardo C. D. A. Vasconcelos
   year: 2024
 project:
   preview:
@@ -47,9 +45,9 @@ format:
       - _extensions/templates/html/toc.html # toc.html
       - _extensions/templates/html/metadata.html # metadata.html
 
-    theme: # default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+    theme: # https://bootswatch.com default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
       light: [Pulse] 
-      dark: [Cyborg]
+      dark: [Darkly]
 
     embed-resources: true
     self-contained-math: true
@@ -59,9 +57,7 @@ format:
       - text: Compile Script
         icon: file-code
         href: compile.rb
-      - text: Source File
-        icon: file-code
-        href: <$inputfile>
+
 
 # Toc
     toc: true

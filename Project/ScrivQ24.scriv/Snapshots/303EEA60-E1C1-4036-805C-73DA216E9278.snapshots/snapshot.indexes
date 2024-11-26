@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SnapshotIndexes Version="1.0" BinderUUID="303EEA60-E1C1-4036-805C-73DA216E9278">
+    <Snapshot Date="2024-11-26 11:14:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>1. Using the Section Type File, we create a representation of our bibliography file to add the data (e.g. [Primary Sources]($!) and [Secondary Sources]($!)).
+2. On the Metadata panel we set the relative path (ID-Prefix + ID) and the extension (Extension) of the actual bibliography file that will be created upon Compile.
+
+￼
+The Metadata panel {#fig-bibliography width="auto"}
+
+3. We need to tell Quarto about the bibliography file by adding it to the [_quarto]($!) configuration file (there is a bibliography section), then we can print the formatted bibliography using the ID (e.g. "primary-sources") with the Paragraph Style Div Bibliography.</Text>
+    </Snapshot>
     <Snapshot Date="2024-11-25 20:54:07 -0300">
         <Title>Untitled (Save)</Title>
         <Text>1. Using the Section Type File, we create a representation of our bibliography file to add the data (e.g. [Primary Sources]($!) and [Secondary Sources]($!)).

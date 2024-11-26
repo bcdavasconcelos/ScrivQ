@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-25 20:53:42 -0300" ModID="03EA7AF6-46A4-4D6B-AF37-E4C799AC7E2B">
+<ScrivenerProject Identifier="97866EA3-5B3C-4218-9D31-E0A29F68D6DC" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="MBP14" Author="Bernardo César Diniz Athayde Vasconcelos" Modified="2024-11-26 11:18:13 -0300" ModID="C8B40624-A93C-42D2-976B-563CF460BDCA">
     <Binder>
         <BinderItem UUID="8B014782-1E52-4F6D-B15C-CA5FB440B23B" Type="Folder" Created="2023-06-22 15:45:13 -0300" Modified="2024-01-07 19:09:11 -0300">
             <Title>ScrivQ Templates</Title>
@@ -1683,7 +1683,7 @@
                 <Bookmark Destination="https://github.com/bcdavasconcelos/ScrivQ/tree/main/export-mmd/_extensions">ScrivQ - Extensions</Bookmark>
             </Bookmarks>
             <Children>
-                <BinderItem UUID="79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-24 18:11:45 -0300">
+                <BinderItem UUID="79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-26 11:06:21 -0300">
                     <Title>_quarto</Title>
                     <MetaData>
                         <SectionType ChildDefault="5AD39B0F-DA85-4B21-A533-830148C15C93"></SectionType>
@@ -1719,7 +1719,7 @@
                     </Bookmarks>
                     <DefaultChildTemplateUUID>0489EC83-DB6D-4CE1-A4AF-EB7AF97A2471</DefaultChildTemplateUUID>
                     <Children>
-                        <BinderItem UUID="D79DD051-A2F3-4E64-B77C-D9A4795B173E" Type="Text" Created="2023-12-30 17:58:07 -0300" Modified="2024-11-05 08:39:54 -0300">
+                        <BinderItem UUID="D79DD051-A2F3-4E64-B77C-D9A4795B173E" Type="Text" Created="2023-12-30 17:58:07 -0300" Modified="2024-11-26 11:08:40 -0300">
                             <Title>project</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1799,7 +1799,7 @@
                                 <Bookmark Destination="https://github.com/bcdavasconcelos/ScrivQ/blob/main/export-mmd/_quarto.yml">ScrivQ - _quarto.yml</Bookmark>
                             </Bookmarks>
                             <Children>
-                                <BinderItem UUID="3CA927C6-A24A-4F05-9DC9-FF5749720C1A" Type="Text" Created="2023-12-30 17:58:21 -0300" Modified="2024-11-24 18:45:03 -0300">
+                                <BinderItem UUID="3CA927C6-A24A-4F05-9DC9-FF5749720C1A" Type="Text" Created="2023-12-30 17:58:21 -0300" Modified="2024-11-26 11:13:14 -0300">
                                     <Title>html</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2697,7 +2697,7 @@
                                                 <Bookmark BinderUUID="4F1A34C2-9FF1-4219-A19E-D1BA9D1453DD"/>
                                             </Bookmarks>
                                         </BinderItem>
-                                        <BinderItem UUID="814B7002-93EF-47C8-9B55-091BED88DB7D" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-01-03 23:40:02 -0300">
+                                        <BinderItem UUID="814B7002-93EF-47C8-9B55-091BED88DB7D" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-25 21:11:44 -0300">
                                             <Title>graphics</Title>
                                             <MetaData>
                                                 <LabelID>21</LabelID>
@@ -2719,7 +2719,7 @@
                                                 </CustomMetaData>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>353,0</TextSelection>
+                                                <TextSelection>561,0</TextSelection>
                                             </TextSettings>
                                             <Keywords>
                                                 <KeywordID>34</KeywordID>
@@ -3726,7 +3726,7 @@
             </CorkboardAndOutliner>
             <DefaultChildTemplateUUID>19DA2579-0561-491F-902D-6F98A15539B3</DefaultChildTemplateUUID>
             <Children>
-                <BinderItem UUID="7D32EBE7-E828-4790-AEB7-5395B79EEE42" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-20 14:57:26 -0300">
+                <BinderItem UUID="7D32EBE7-E828-4790-AEB7-5395B79EEE42" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-26 11:00:49 -0300">
                     <Title>Instalation</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -3796,7 +3796,7 @@
                         <IconFileName>Life (Time timer).png</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>946,0</TextSelection>
+                        <TextSelection>313,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-18 10:57:49 -0300">
@@ -3841,7 +3841,7 @@
                                 <TextSelection>620,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="472092CD-584B-47DA-9DD3-C444C8936A4E" Type="Text" Created="2024-10-31 21:51:55 -0300" Modified="2024-11-22 19:57:37 -0300">
+                                <BinderItem UUID="472092CD-584B-47DA-9DD3-C444C8936A4E" Type="Text" Created="2024-10-31 21:51:55 -0300" Modified="2024-11-26 10:55:08 -0300">
                                     <Title>Examples of citations</Title>
                                     <MetaData>
                                         <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
@@ -3857,7 +3857,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="BEF1B346-515E-49D5-BAEB-19606A087348" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-22 22:17:28 -0300">
+                        <BinderItem UUID="BEF1B346-515E-49D5-BAEB-19606A087348" Type="Text" Created="2023-06-22 15:45:13 -0300" Modified="2024-11-26 10:55:37 -0300">
                             <Title>Citation of specific fields</Title>
                             <MetaData>
                                 <SectionType ChildDefault="5AD39B0F-DA85-4B21-A533-830148C15C93"></SectionType>
@@ -3883,7 +3883,7 @@
                                 <TextSelection>1192,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="303EEA60-E1C1-4036-805C-73DA216E9278" Type="Text" Created="2024-01-05 18:45:31 -0300" Modified="2024-11-22 19:28:20 -0300">
+                                <BinderItem UUID="303EEA60-E1C1-4036-805C-73DA216E9278" Type="Text" Created="2024-01-05 18:45:31 -0300" Modified="2024-11-26 10:57:19 -0300">
                                     <Title>How to manually create a multipart bibliography</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -3933,7 +3933,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="D96AFA02-92B2-4992-A21B-918D1D897986" Type="Text" Created="2023-04-01 15:30:57 -0300" Modified="2024-11-22 19:30:15 -0300">
+                        <BinderItem UUID="D96AFA02-92B2-4992-A21B-918D1D897986" Type="Text" Created="2023-04-01 15:30:57 -0300" Modified="2024-11-26 10:58:28 -0300">
                             <Title>Backlinks</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -6667,14 +6667,14 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-11-26 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2024-11-25 20:40:57 -0300"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-11-27 00:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="21" Characters="149" Date="2024-11-26 10:32:46 -0300"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2024-11-25 00:00:00 -0300">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+    <RecentWritingHistory Date="2024-11-26 00:00:00 -0300">
+        <DraftWordCount>21</DraftWordCount>
+        <DraftCharCount>149</DraftCharCount>
+        <OtherWordCount>-19</OtherWordCount>
+        <OtherCharCount>-147</OtherCharCount>
     </RecentWritingHistory>
     <TemplateFolderUUID>8B014782-1E52-4F6D-B15C-CA5FB440B23B</TemplateFolderUUID>
     <BackupSettings>

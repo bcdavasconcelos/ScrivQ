@@ -87,4 +87,47 @@ All ready-made Character Styles for the Cite Field lua filter. {#tbl-cite-field}
 DA published the first modern edition of Aristotle's DA (DA) in DA. A new edition by DABiehl appeared in DABiehl (later reprinted in DATheiler's DATheiler translation).
 </Text>
     </Snapshot>
+    <Snapshot Date="2024-11-26 11:14:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>To inject the correct markup -- [@Citekey]{.csl_field} -- and allow us to cite different fields from our bibliographic entry, we rely on Character Styles (e.g. Cite Author, Cite Editor, Cite Issued, and so on). Officially, [CSL has Variables](https://docs.citationstyles.org/en/stable/specification.html#appendix-iv-variables), [BibTeX has Fields](https://en.wikipedia.org/wiki/BibTeX#Field_types), and [RIS has Tags](https://en.wikipedia.org/wiki/RIS_(file_format)#Tags), but we stuck to the term fields to describe all of them.
+
+Character Style
+Markdown Source
+Rendered Output
+Cite Author
+`DA`
+DA
+Cite Editor
+`DA`
+DA
+Cite Translator
+`DA`
+DA
+Cite Issued
+`DA`
+DA
+Cite Title
+`DA`
+DA
+Cite Title-short
+`DA`
+DA
+Cite Original-title
+`DA`
+DA
+Cite Publisher
+`DA`
+DA
+Cite Publisher-Place
+`DA`
+DA
+All ready-made Character Styles for the Cite Field lua filter. {#tbl-cite-field}
+
+## An example with field citation
+
+`DA published the first modern edition of Aristotle's DA (DA) in DA. A new edition by DABiehl appeared in DABiehl (later reprinted in DATheiler's DATheiler translation).` 
+
+DA published the first modern edition of Aristotle's DA (DA) in DA. A new edition by DABiehl appeared in DABiehl (later reprinted in DATheiler's DATheiler translation).
+</Text>
+    </Snapshot>
 </SnapshotIndexes>

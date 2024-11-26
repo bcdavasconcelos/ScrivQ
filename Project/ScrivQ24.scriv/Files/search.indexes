@@ -4,11 +4,6 @@
         <Document ID="79A0D2BA-0AB9-4E2C-9F59-BC78AA99F51D">
             <Title>_quarto</Title>
             <Text>website:
-  author: Bernardo César Diniz Athayde Vasconcelos
-  title: ScrivQ 24
-  date: 2023-12
-  abstract: The ScrivQ Template
-  description: A Scrivener template project for Quarto capable of exporting multiple files, handling cross-references, and keeping a bibliography.
   reader-mode: true
   search: 
     location: navbar
@@ -1894,6 +1889,8 @@ DA
 All ready-made Character Styles for the Cite Field lua filter. {#tbl-cite-field}
 
 ## An example with field citation
+
+`DA published the first modern edition of Aristotle's DA (DA) in DA. A new edition by DABiehl appeared in DABiehl (later reprinted in DATheiler's DATheiler translation).` 
 
 DA published the first modern edition of Aristotle's DA (DA) in DA. A new edition by DABiehl appeared in DABiehl (later reprinted in DATheiler's DATheiler translation).
 </Text>
@@ -12268,9 +12265,9 @@ My caption {#fig-elepahnt-b}
       - scrivpath # toc.html
       - scrivpath # metadata.html
 
-    theme: # default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+    theme: # https://bootswatch.com default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
       light: [Pulse] 
-      dark: [Cyborg]
+      dark: [Darkly]
 
     embed-resources: true
     self-contained-math: true
@@ -12380,11 +12377,7 @@ My caption {#fig-elepahnt-b}
 #
 The Metadata panel {#fig-bibliography width="auto"}
 
-3. We need to tell Quarto about the bibliography file by adding it to the [_quarto]($!) configuration file (there is a bibliography section), then we can print the formatted bibliography using the ID (e.g. "primary-sources") with the Paragraph Style Div Bibliography.
-
-
-primary-sources
-</Text>
+3. We need to tell Quarto about the bibliography file by adding it to the [_quarto]($!) configuration file (there is a bibliography section), then we can print the formatted bibliography using the ID (e.g. "primary-sources") with the Paragraph Style Div Bibliography.</Text>
         </Document>
         <Document ID="D7148CDC-8596-43F7-B30F-0E600BA7EEA7">
             <Title>Corollary</Title>
@@ -14570,14 +14563,6 @@ The only thing that needs to be supplied by the user is the format in the &lt;$c
             <Title>Instalation</Title>
             <Synopsis>A few links, but nothing comprehensive.</Synopsis>
             <Text>To use ScrivQ24, you need the [Quarto](https://quarto.org/docs) open-source scientific and technical publishing system. 
-
-## Quickstart
-
-- On macOS*, use [Homebrew](https://brew.sh) to brew install quarto &amp;&amp; brew install chromium.
-- On Windows, use [Chocolatey](https://chocolatey.org/) to choco install quarto.
-
-After that, install TinyTex with quarto install tool tinytex.
-
 ## New to Quarto?
   
 - Visit the [get started](https://quarto.org/docs/get-started/) guide to download.
@@ -14585,6 +14570,13 @@ After that, install TinyTex with quarto install tool tinytex.
 - Install the Quarto extension for [VS Code](https://quarto.org/docs/get-started/#quarto-for-vs-code) and [R Studio](https://quarto.org/docs/get-started/#quarto-for-rstudio).
 - Find out more at [Awesome Quarto](https://github.com/mcanouil/awesome-quarto), [Quarto Extensions](https://github.com/quarto-ext?type=source), [Quarto on Github](https://github.com/search?q=topic%3Aquarto&amp;type=repositories), [RStudio Community](https://community.rstudio.com/tags/quarto), [Stack Overflow](https://stackoverflow.com/questions/tagged/quarto), [Twitter](https://twitter.com/quarto_pub).
 - See also the [Pandoc User’s Guide](https://pandoc.org/MANUAL.html), [Pandoc-Discuss](https://github.com/jgm/pandoc/discussions), and [Pandoc at Stack Overflow](https://stackoverflow.com/questions/tagged/pandoc).
+
+## Quickstart
+
+- On macOS*, use [Homebrew](https://brew.sh) to brew install quarto &amp;&amp; brew install chromium.
+- On Windows, use [Chocolatey](https://chocolatey.org/) to choco install quarto.
+
+After that, install TinyTex with quarto install tool tinytex.
 
 ## Installation issues
 
@@ -14952,8 +14944,6 @@ $Maths Inline$
         <Document ID="D96AFA02-92B2-4992-A21B-918D1D897986">
             <Title>Backlinks</Title>
             <Text>In Citeproc, link-citations control whether citations in the body of the text should be clickable links to the reference in the bibliography. Cite Tools takes it further and adds a backlink to each citation an entry has received in the document in a crescent ordinal fashion*. This allows the reader to easily arrive at sections of the text where the same reference was discussed and quickly see how many times each reference was used with the array of backlinks.
-#
-The Citation Backlinks filter adds an index of cited references to the bibliography, with links back to all in-text citations. It also allows the user to turn these off globally or in an ad hoc fashion. {#fig-scrivlinkC width="auto"}
 
 ## Citing specific fields
  
@@ -15981,19 +15971,20 @@ See https://quarto.org/docs/computations/python.html for details.</Notes>
             <Text>$if(graphics)$
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width&gt;\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height&gt;\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@&lt;\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@&lt;\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
-$endif$
-</Text>
+$endif$</Text>
         </Document>
         <Document ID="B60237F2-2C9D-4479-9DA7-BC034A7785EA">
             <Title>Diagram Dot</Title>
@@ -16986,11 +16977,11 @@ $endfor$
         </Document>
         <Document ID="D79DD051-A2F3-4E64-B77C-D9A4795B173E">
             <Title>project</Title>
-            <Text>title: "Hello, ScrivQ!"
-author: Bernardo C. D. A. Vasconcelos
+            <Text>title: ScrivQ 24
+author: Bernardo C D A Vasconcelos
 license: CC BY-NC-SA
+description: A Scrivener template project for Quarto capable of exporting multiple files, handling cross-references, and keeping a bibliography.
 copyright:
-  holder: Bernardo C. D. A. Vasconcelos
   year: 2024
 project:
   preview:
@@ -17929,13 +17920,19 @@ To reference elements created from Raw Markup or Character Style, use the actual
 
 ## (Date, locator)
  
+`Long thinks […] on the deliberations of the prudent person (Long2004, p.17).` 
+
 Long thinks […] on the deliberations of the prudent person (Long2004, p.17).
 
 ## (Author, Date, locator)
 
+`…on the deliberations of the prudent person (Long2004, p.17).` 
+
 …on the deliberations of the prudent person (Long2004, p.17).
 
 ## (Author, Date, locator; Author, Date, locator)
+
+`…on the deliberations of the prudent person (Long2004, p.17; hoffman2014, p.15).` 
 
 …on the deliberations of the prudent person (Long2004, p.17; hoffman2014, p.15).
 </Text>

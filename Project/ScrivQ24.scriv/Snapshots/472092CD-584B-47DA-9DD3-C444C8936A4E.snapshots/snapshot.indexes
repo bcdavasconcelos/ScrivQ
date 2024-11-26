@@ -99,6 +99,29 @@ Long2004, p.15
 Citation syntax in Quarto and Pandoc. {#tbl-citations}
 </Text>
     </Snapshot>
+    <Snapshot Date="2024-11-26 11:14:08 -0300">
+        <Title>Untitled (Save)</Title>
+        <Text>Here is a short demonstration of the basic citation feature. We suggest grouping the citations using parenthesis and using character styles to apply the correct markup. If you were using other CSL styles, then you could drop the parenthesis.
+
+## (Date, locator)
+ 
+`Long thinks […] on the deliberations of the prudent person (Long2004, p.17).` 
+
+Long thinks […] on the deliberations of the prudent person (Long2004, p.17).
+
+## (Author, Date, locator)
+
+`…on the deliberations of the prudent person (Long2004, p.17).` 
+
+…on the deliberations of the prudent person (Long2004, p.17).
+
+## (Author, Date, locator; Author, Date, locator)
+
+`…on the deliberations of the prudent person (Long2004, p.17; hoffman2014, p.15).` 
+
+…on the deliberations of the prudent person (Long2004, p.17; hoffman2014, p.15).
+</Text>
+    </Snapshot>
     <Snapshot Date="2024-11-07 09:54:20 -0300">
         <Title>Untitled (Save)</Title>
         <Text>Here is a short demonstration of the basic citation feature.

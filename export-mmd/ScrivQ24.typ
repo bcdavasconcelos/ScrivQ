@@ -281,6 +281,7 @@
 #let theorem = thmbox("theorem", "Theorem")
 
 
+#pagebreak()
 = Instalation
 <instalation>
 To use ScrivQ24, you need the #link("https://quarto.org/docs")[Quarto] open-source scientific and technical publishing system.
@@ -289,16 +290,17 @@ To use ScrivQ24, you need the #link("https://quarto.org/docs")[Quarto] open-sour
 #callout(
 body: 
 [
-- On macOS#footnote[If you’re on a Mac, install Homebrew by pasting the following on the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.];, use #link("https://brew.sh")[Homebrew] to `brew install quarto && brew install chromium`.
-- On Windows, use #link("https://chocolatey.org/")[Chocolatey] to `choco install quarto`.
-
-After that, install TinyTex with `quarto install tool tinytex`.
+- Visit the #link("https://quarto.org/docs/get-started/")[get started] guide to download.
+- Check the #link("https://quarto.org/docs/get-started/hello/vscode.html")[tutorial] to learn how to create, build, and preview documents.
+- Install the Quarto extension for #link("https://quarto.org/docs/get-started/#quarto-for-vs-code")[VS Code] and #link("https://quarto.org/docs/get-started/#quarto-for-rstudio")[R Studio];.
+- Find out more at #link("https://github.com/mcanouil/awesome-quarto")[Awesome Quarto];, #link("https://github.com/quarto-ext?type=source")[Quarto Extensions];, #link("https://github.com/search?q=topic%3Aquarto&type=repositories")[Quarto on Github];, #link("https://community.rstudio.com/tags/quarto")[RStudio Community];, #link("https://stackoverflow.com/questions/tagged/quarto")[Stack Overflow];, #link("https://twitter.com/quarto_pub")[Twitter];.
+- See also the #link("https://pandoc.org/MANUAL.html")[Pandoc User’s Guide];, #link("https://github.com/jgm/pandoc/discussions")[Pandoc-Discuss];, and #link("https://stackoverflow.com/questions/tagged/pandoc")[Pandoc at Stack Overflow];.
 
 ]
 , 
 title: 
 [
-Quickstart
+New to Quarto?
 ]
 , 
 background_color: 
@@ -315,17 +317,16 @@ fa-lightbulb()
 #callout(
 body: 
 [
-- Visit the #link("https://quarto.org/docs/get-started/")[get started] guide to download.
-- Check the #link("https://quarto.org/docs/get-started/hello/vscode.html")[tutorial] to learn how to create, build, and preview documents.
-- Install the Quarto extension for #link("https://quarto.org/docs/get-started/#quarto-for-vs-code")[VS Code] and #link("https://quarto.org/docs/get-started/#quarto-for-rstudio")[R Studio];.
-- Find out more at #link("https://github.com/mcanouil/awesome-quarto")[Awesome Quarto];, #link("https://github.com/quarto-ext?type=source")[Quarto Extensions];, #link("https://github.com/search?q=topic%3Aquarto&type=repositories")[Quarto on Github];, #link("https://community.rstudio.com/tags/quarto")[RStudio Community];, #link("https://stackoverflow.com/questions/tagged/quarto")[Stack Overflow];, #link("https://twitter.com/quarto_pub")[Twitter];.
-- See also the #link("https://pandoc.org/MANUAL.html")[Pandoc User’s Guide];, #link("https://github.com/jgm/pandoc/discussions")[Pandoc-Discuss];, and #link("https://stackoverflow.com/questions/tagged/pandoc")[Pandoc at Stack Overflow];.
+- On macOS#footnote[If you’re on a Mac, install Homebrew by pasting the following on the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.];, use #link("https://brew.sh")[Homebrew] to `brew install quarto && brew install chromium`.
+- On Windows, use #link("https://chocolatey.org/")[Chocolatey] to `choco install quarto`.
+
+After that, install TinyTex with `quarto install tool tinytex`.
 
 ]
 , 
 title: 
 [
-New to Quarto?
+Quickstart
 ]
 , 
 background_color: 
@@ -419,6 +420,7 @@ numbering: "1",
 <wrn-r-packages>
 
 
+#pagebreak()
 = ScrivQ
 <scrivq>
 The ScrivQ template is designed to compile #link("https://quarto.org/docs/books/")[Quarto Books] (PDF#footnote[Please note that #link("https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex")[tinytex] is also required for LaTeX to PDF output.];, DOCX, and HTML) with zero configuration and no dependencies on external files. The bibliography, the template files, extensions, and filters are all included in the project and will be created by the compiler script.
@@ -496,6 +498,7 @@ icon:
 fa-info()
 )
 ]
+#pagebreak()
 = Compiler Script
 <compiler-script>
 #figure([
@@ -538,6 +541,7 @@ icon:
 fa-exclamation-triangle()
 )
 ]
+#pagebreak()
 = Citations
 <citations>
 #block[
@@ -651,6 +655,8 @@ Here is a short demonstration of the basic citation feature. We suggest grouping
 #callout(
 body: 
 [
+`Long thinks [...] on the deliberations of the prudent person ([-@Long2004, p.17]).`
+
 Long thinks \[…\] on the deliberations of the prudent person (#link(<ref-Long2004>)[2004, p. 17];<cite_7>).
 
 ]
@@ -674,6 +680,8 @@ fa-info()
 #callout(
 body: 
 [
+`...on the deliberations of the prudent person ([@Long2004, p.17]).`
+
 …on the deliberations of the prudent person (#link(<ref-Long2004>)[LONG, 2004, p. 17];<cite_8>).
 
 ]
@@ -697,6 +705,8 @@ fa-info()
 #callout(
 body: 
 [
+`...on the deliberations of the prudent person ([@Long2004, p.17]; [@hoffman2014, p.15]).`
+
 …on the deliberations of the prudent person (#link(<ref-Long2004>)[LONG, 2004, p. 17];<cite_9>; #link(<ref-hoffman2014>)[HOFFMAN & PRAKASH, 2014, p. 15];<cite_10>).
 
 ]
@@ -751,7 +761,9 @@ supplement: "Table",
 #callout(
 body: 
 [
-Bekker published the first modern edition of Aristotle’s περὶ ψυχῆς (#emph[De Anima];) in 1834. A new edition by Biehl appeared in 1896 (later reprinted in Theiler’s 1995 translation).
+`[@DA]{.editor} published the first modern edition of Aristotle's [@DA]{.title} ([@DA]{.original-title}) in [@DA]{.issued}. A new edition by [@DABiehl]{.editor} appeared in [@DABiehl]{.issued} (later reprinted in [@DATheiler]{.translator}'s [@DATheiler]{.issued} translation).`
+
+Bekker published the first modern edition of Aristotle’s #emph[De Anima] (περὶ ψυχῆς) in 1834. A new edition by Biehl appeared in 1896 (later reprinted in Theiler’s 1995 translation).
 
 ]
 , 
@@ -843,8 +855,6 @@ icon:
 fa-lightbulb()
 )
 ]
-\[BibTeX\]: \[CSL\]: https:\/\/docs.citationstyles.org/en/stable/specification.html\#appendix-iii-types \[CSL-YAML\]: https:\/\/docs.citationstyles.org/en/stable/specification.html \[CSL-JSON\]: https:\/\/docs.citationstyles.org/en/stable/specification.html \[RIS\]: https:\/\/en.wikipedia.org/wiki/RIS\_(file\_format)\#Type\_of\_reference
-
 === How to manually create a multipart bibliography
 <nte-multibib1>
 + Using the #strong[Section Type] `File`, we create a representation of our bibliography file to add the data (#emph[e.g.] #link("refs/primary-sources.yml")[Primary Sources] and #link("refs/secondary-sources.yml")[Secondary Sources];).
@@ -868,16 +878,6 @@ supplement: "Figure",
 + We need to tell Quarto about the bibliography file by adding it to the #link("_quarto.yml")[\_quarto] configuration file (there is a bibliography section), then we can print the formatted bibliography using the ID (#emph[e.g.] "primary-sources") with the #strong[Paragraph Style] #emph[Div Bibliography];.
 ]
 
-#block[
-#block[
-ARISTOTELIS. “De Anima”. Em: BEKKER, I. (Ed.). #emph[Aristotelis Opera];. Trad.: Β. Τατάκης. Berlin: Reimer, 1834.
-
-] <ref-DA>
-#block[
-HOMERUS. “Ilias”. Em: ALLEN, T. W. (Ed.). #emph[Homeri Ilias, vols. 2–3];. Oxford: Clarendon, 1931. p. 2·1-356; 3·1-370. \[#link(<cite_2>)[1];\]
-
-] <ref-HomIl>
-] <refs_primary-sources>
 === How to automatically create a multipart bibliography
 <nte-multibib2>
 We can use the #strong[Section Type] Bibliography to automate steps 3 and 4. This is very convenient for books that need the bibliography to print only once at the very end.
@@ -889,19 +889,6 @@ We can use the #strong[Section Type] Bibliography to automate steps 3 and 4. Thi
 == Backlinks
 <backlinks>
 In Citeproc, `link-citations` control whether citations in the body of the text should be clickable links to the reference in the bibliography. #strong[Cite Tools] takes it further and adds a backlink to each citation an entry has received in the document in a crescent ordinal fashion#footnote[The reader will see the page number instead of a crescent ordinal number in some output formats, such as PDF.];. This allows the reader to easily arrive at sections of the text where the same reference was discussed and quickly see how many times each reference was used with the array of backlinks.
-
-#figure([
-#box(image("backrefs.png", width: auto))
-], caption: figure.caption(
-position: bottom, 
-[
-The #strong[Citation Backlinks] filter adds an index of cited references to the bibliography, with links back to all in-text citations. It also allows the user to turn these off globally or in an #emph[ad hoc] fashion.
-]), 
-kind: "quarto-float-fig", 
-supplement: "Figure", 
-)
-<fig-scrivlinkC>
-
 
 #block[
 #callout(
@@ -952,6 +939,7 @@ icon:
 fa-info()
 )
 ]
+#pagebreak()
 = Quarto
 <quarto>
 #block[
@@ -1856,7 +1844,6 @@ Demonstration of the #strong[Section Type] #emph[Section] using #strong[Class] `
 <sec-demo-a>
 Demonstration of the #strong[Section Type] #emph[Section] with #strong[ID] `#sec-demo-a`.
 
-#pagebreak()
 === Break + Section
 <sec-demo-e>
 Demonstration of the #strong[Section Type] #emph[Break + Section] with #strong[ID] `#sec-demo-e`.
@@ -1868,6 +1855,7 @@ Demonstration of the #strong[Section Type] #emph[Break + Section] with #strong[I
 
 === Break + Heading
 <sec-demo-d>
+#pagebreak()
 = Templates and partials
 <templates-and-partials>
 #block[
@@ -1957,6 +1945,7 @@ icon:
 fa-info()
 )
 ]
+#pagebreak()
 = Resources
 <resources>
 - #link("https://icons.getbootstrap.com")[Bootstrap Icons] - These are available in Quarto documents using the #strong[Shortcode Font Awesome] style as in `` . (There is also #strong[Shortcode Env];, #strong[Shortcode Meta];, #strong[Shortcode Var];).
@@ -1966,6 +1955,7 @@ fa-info()
 - #link("https://github.com/jjallaire/hopr/blob/master/_quarto.yml")[Example of Quarto Book]
 - #link("https://tarleb.com/posts/quarto-with-gh-pages/")[Quarto with GH Pages]
 
+#pagebreak()
 = Final word
 <final-word>
 If you like what you see, consider sponsoring #link("https://github.com/sponsors/bcdavasconcelos")[this project on Github];.
@@ -1994,6 +1984,7 @@ icon:
 fa-exclamation-triangle()
 )
 ]
+#pagebreak()
 #block[
 #heading(
 level: 
